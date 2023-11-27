@@ -1,0 +1,295 @@
+:PROPERTIES:
+:ID:       38d115e7-3617-443e-9ac0-45f30bcba177
+:END:
+#+title: Tim_mach
+
+* Guidelines
+** ACS
+*** ESC 2023
+**** Introduction
+***** 1. Definition
+	- Fourth universal definition of myocardial infarction *Cần đọc thêm*
+	  [[id:1d6ddbee-37c4-49e9-92d3-8f9e542d3a56][Fourth universal definition of myocardial infarction]]
+	- AMI is defined as cardiomyocyte necrosis in the clinical setting of acute myocardial ischaemia
+	- Myocardial injury is another distinct entity, used to describe troponin release due to mechanisms other than myocardial ischaemia and not meeting the criteria for MI.
+***** 2. Diagnosis
+	 1. Chest pain descriptors should be classified as cardiac, possibly cardiac, and likely non-cardiac. The descriptor ‘atypical’ should be avoided.
+	 2. Chest pain-equivalent symptoms include dyspnoea, epigastric pain, and pain in the left or right arm or neck/jaw.
+	 3. red flag symptoms such as *prolonged chest pain (>15 min)* and/or *recurrent pain within 1h*, which should prompt patients or other members of the public to seek urgent medical help.
+	 4. The relief of symptoms after nitroglycerine (glycerine trinitrate) administration may increase the likelihood of ACS, but is not specific for ACS as it is also reported in other causes of non-cardiac chest pain, such as gastrointestinal disorders. Có giá trị khi ST chênh lên trở về bình thường + hết triệu chứng đau ngực sau khi cho nitroglycerin, gợi ý co thắt mạch vành, có hoặc không có nhồi máu cơ tim kèm theo.
+	 5. ECG: ST-segment elevation (measured at the J-point) is considered suggestive of ongoing coronary artery acute occlusion in the following cases:
+	    - New ST elevation at the J-point in at least two contiguous leads. *In patients with a stable baseline, the TP segment (isoelectric interval) is a more accurate method to assess the magnitude of ST-segment shift, and in distinguishing pericarditis (PTa depression) from acute myocardial ischaemia*. Tachycardia and baseline shift are common in the acute setting and can make this determination difficult. Therefore, *QRS onset is recommended as the reference point for J-point determination*
+	      ≥2.5 mm in men <40 years, ≥2 mm in men ≥40 years, or ≥1.5 mm in women regardless of age in leads V2–V3
+	      and/or ≥1 mm in the other leads (in the absence of left ventricular [LV] hypertrophy or left bundle branch block [LBBB]).
+	    - ST-segment depression >=0.5mm in leads V1–V3 (especially when the terminal T wave is positive) and/or 0.5mm ST-segment elevation in V7–V9 are highly suggestive of posterior coronary artery occlusion (often the left circumflex artery)
+	    - ST-segment elevation in V3R and V4R is highly suggestive of ongoing RV ischaemia
+	    - ST depression ≥1 mm in ≥6 surface leads (inferolateral ST depression), coupled with ST-segment elevation in *aVR and/or V1*, suggests multivessel ischaemia or left main coronary artery obstruction.
+	    - Note: In patients with a high clinical suspicion of ongoing myocardial ischaemia, the presence of LBBB, right bundle branch block (RBBB), or a paced rhythm *precludes an accurate assessment* of the presence or absence of ST-segment elevation.
+	 6. ECG in non-ST-segment elevation acute coronary syndrome:
+	    - *Isolated T-wave inversion*: T-wave inversion >1 mm in *≥5 leads including I, II, aVL, and V2–V6* (Only mildly impaired prognosis) [T inversion > 1 mm in two contiguous leads with prominent R wave or R/S ratio > 1]
+	    - *ST-segment depression*:  point depressed by *≥0.05 mm in leads V2 and V3* or *≥1 mm in all other leads* *followed by a horizontal or downsloping ST-segment for ≥0.08 s in ≥1 leads (except aVR)* (More severe ischaemia)
+	    - *Transient ST-segment elevation*: lasting <20 min (Only mildly impaired prognosi)
+	    - *De Winter ST-T*: Proximal LAD occlusion/ severe stenosis.
+	    - *Wellens sign*: Isoelectric or minimally elevated J point (<1 mm) + biphasic T wave in leads V2 and V3 *(type A)*; or symmetric and deeply inverted T waves in leads V2 and V3, occasionally in leads V1, V4, V5, and V6 *(type B)* (Proximal LAD occlusion/ severe stenosis.) The type A pattern was present in 25% and the type B pattern in 75% of patients.
+	 7. Men tim:
+	    - Additional testing after 3 h is recommended if the first two hs-cTn measurements of the 0 h/1 h algorithm are inconclusive and no alternative diagnoses explaining the condition have been made.
+	    - In patients with MI, levels of cTn rise rapidly (i.e. *usually within 1 h if using highsensitivity assays*) after symptom onset and *remain elevated for a variable period of time (usually several days)*
+	    - *Four* clinical variables affect hs-cTn concentrations beyond the presence or absence of MI: age, renal dysfunction, time from chest pain onset, (300%); and sex (40%).
+	    - Rapid ‘rule-in’ and ‘rule-out’ algorithms
+	      1) NSTEMI can also be ruled out by the combination of low baseline levels of hs-cTn and the lack of a relevant increase within 1 h (no 1 hΔ). Patients have a high likelihood for NSTEMI if the hs-cTn concentration at presentation is at least moderately elevated or shows a clear rise within the first hour (1 hΔ).
+	      2) specific cut-offs for the patients assigned to the ‘observe zone’ using the hs-cTn T assay (combination of a 3h hs-cTn T concentration <15 ng/L and a 0 h/3 h absolute change <4 ng/L) have been derived and validated as having acceptable safety and efficacy for further decision-making.
+	      3) Documentation of the time of the 0 h blood draw allows exact determination of the time window (±10 min) of the 1 h blood draw. If *for whatever reason* the 1 h (±10 min) blood draw was not feasible, then blood should be drawn at 2 h and the ESC 0 h/2 h algorithm applied.
+	      4) note: *very low initial hs-cTn rule out pathway*: Only applicable if the chest pain onset was >3 h prior to the 0 h hs-cTn measurement. (Vì để an toàn cho người bệnh, vẫn nên áp dụng mẫu máu thứ 2 mặc dù mẫu đầu tiên kết quả very low + > 3 giờ khởi phát đau ngực)
+	 8. Chẩn đoán hình ảnh:
+	    - In cases of suspected ACS with diagnostic uncertainty, TTE can be useful to identify signs suggestive of ongoing ischaemia or prior MI.
+	    - TTE can also be useful to suggest alternative aetiologies associated with chest pain (i.e. acute aortic disease, RV signs in pulmonary embolism [PE]).
+	    - All patients presenting with CS or haemodynamic instability should undergo emergency TTE to try to identify the underlying cause—in particular, to assess LV and RV function and look for evidence of mechanical complications.
+***** Initial measures | initial treament
+	 1. Primary percutaneous coronary intervention strategy for ST-elevation myocardial infarction
+	    - PPCI strategy or fibrinolysis if PPCI is not possible within 120 min of diagnosis
+	    - Patients with successful fibrinolysis should undergo early invasive angiography (i.e. within 2–24 h from the time of the lytic bolus injection)
+	    - For patients presenting after 12 h from symptom onset, a PPCI strategy is preferred over fibrinolysis in all cases.
+	    - routine PCI of an occluded IRA in STEMI patients presenting *>48 h after onset of symptoms and without persistent symptoms* is not indicated. These patients should be managed in the same way as patients with chronic total occlusion according to the ESC Guidelines for the diagnosis and management of chronic coronary syndromes (CCS).
+	 2. Immediate invasive strategy for non-ST elevation acute coronary syndrome:
+	    - This is recommended for patients with a working diagnosis of NSTE-ACS and any of the following very high-risk criteria:
+	      1) Haemodynamic instability or CS.
+	      2) Recurrent or ongoing chest pain refractory to medical treatment.
+	      3) Acute HF presumed secondary to ongoing myocardial ischaemia.
+	      4) Life-threatening arrhythmias or cardiac arrest after presentation.
+	      5) Mechanical complications.
+	      6) Recurrent dynamic ECG changes suggestive of ischaemia (particularly with intermittent ST-segment elevation)
+	 3. An early invasive strategy refers to routine invasive angiography (and PCI if needed) *within 24 h of presentation*. This should be considered in patients with a working diagnosis of NSTE-ACS and any of the following high-risk criteria:
+	    1) A confirmed diagnosis of NSTEMI based on current recommended ESC hs-cTn algorithms.
+	    2) Dynamic ST-segment or T wave changes.
+	    3) Transient ST-segment elevation.
+	    4) A GRACE risk score >140.
+	 4. Non high risk UA
+	    - For patients with a high index of suspicion for UA, an inpatient invasive strategy is recommended. Conversely, for patients with a low index of suspicion, a selective invasive approach is recommended.
+	 5. Đánh giá nguy cơ (ischemic and bleeding) *Chưa xem* 	
+	 6. Điều trị kháng kết tập tiểu cầu
+	    - xem thêm ARC-HBR. [[id:f3237d09-58aa-41be-a2c5-a9c1dfe59b66][Academic Research Consortium on High Bleeding Risk]].
+	    - *The presence of _one major or two minor_ ARC-HBR risk factors indicates high bleeding risk (HBR)*
+	    - dual antiplatelet therapy (DAPT) including aspirin and a potent P2Y12 receptor inhibitor (prasugrel or ticagrelor) is recommended as the default DAPT strategy for ACS patients. Prasugrel should be considered in preference to ticagrelor for ACS patients who proceed to PCI.
+	    - Clopidogrel, which is characterized by less effective and more variable platelet inhibition, should only be used when prasugrel or ticagrelor are contraindicated/not available, or in some patients considered otherwise at HBR (e.g. ≥1 major or ≥2 minor ARC-HBR criteria). In addition, the use of clopidogrel may be considered in older patients (e.g. ≥70 years)
+	    - Timing of loading dose of oral antiplatelet therapy:
+	      + In patients with a working diagnosis of STEMI undergoing PPCI, pretreatment with a P2Y12 receptor inhibitor may be considered.
+	      + In patients with a working diagnosis of NSTE-ACS, routine pre-treatment with a P2Y12 receptor inhibitor before knowing the coronary anatomy in patients anticipated to undergo an early invasive strategy (i.e. <24 h) is not recommended.
+	      + For patients with a working diagnosis of NSTE-ACS, where there is an anticipated delay to invasive angiography (i.e. >24 h), pre-treatment with a P2Y12 receptor inhibitor may be considered according to the bleeding risk of the patient.
+	      + In all ACS patients proceeding to PCI who did not receive P2Y12 receptor inhibitor pretreatment, an LD is recommended at the time of PCI
+	 7. Anticoagulant treatment in the acute phase
+	    - Anticoagulants should *generally be discontinued immediately after PCI*, except in specific clinical settings such as the confirmed presence of LV aneurysm with thrombus formation or AF requiring anticoagulation. In addition, for bivalirudin in patients with STEMI undergoing PCI, a full dose post-PCI infusion is recommended.
+	    - In general, a crossover between anticoagulants should be avoided in patients with ACS (especially between unfractionated heparin [UFH] and low-molecular-weight heparin [LMWH])
+	    - Parenteral anticoagulation is recommended for patients with STEMI undergoing PPCI and UFH is the default choice of anticoagulant at present. Enoxaparin and bivalirudin should be considered as alternatives to UFH in these patients but fondaparinux is not recommended
+	    - parenteral anticoagulation is recommended for patients with NSTE-ACS. For patients with NSTE-ACS undergoing immediate or early angiography (± PCI if indicated), UFH is recommended but enoxaparin should be considered as an alternative to UFH. For patients with NSTE-ACS who are not anticipated to undergo early angiography, fondaparinux (with a UFH bolus at time of PCI) is recommended in preference to enoxaparin, although enoxaparin should be considered if fondaparinux is not available
+	    - _In patients on OAC:_
+	      1) PCI performed without interruption of VKAs or NOACs
+	      2) In patients on VKAs, do not administer UFH if INR >2.5
+	      3) In patients on NOACs, regardless of the timing of the last administration of NOACs, add low-dose parenteral anticoagulation (e.g. enoxaparin 0.5 mg/kg i.v. or UFH 60 IU/kg)
+	 8. Điều trị duy trì kháng kết tập tiểu cầu sau tái thông
+	    - Following PCI, a default DAPT regimen consisting of a potent P2Y12 receptor inhibitor (prasugrel or ticagrelor) and aspirin is generally recommended for 12 months, irrespective of the stent type, unless there are contraindications.
+	    - Đối với bệnh nhân có nguy cơ chảy máu cao
+	      + Có thể cân nhắc De-escalation nhưng không sớm hơn 30 ngày.
+	      + DAPT abbreviation strategies (followed preferably by P2Y12 inhibitor monotherapy within the first 12 months post-ACS) should be considered in patients who are event-free after 3–6 months of DAPT and who are not high ischaemic risk, with the duration of DAPT guided by the ischaemic and bleeding risks of the patient. For HBR patients, aspirin or P2Y12 receptor inhibitor monotherapy after 1 month of DAPT may be considered
+	 9. Điều trị kháng kết tập tiểu cầu + OAC sau tái thông
+	    - As the default strategy for patients with atrial fibrillation and CHA2DS2-VASc score ≥1 in men and ≥2 in women, after up to 1 week of triple antithrombotic therapy following the ACS event,dual antithrombotic therapy using a NOAC at the recommended dose for stroke prevention and a single oral antiplatelet agent (preferably clopidogrel) for up to 12 months is recommended.
+	    - The use of ticagrelor or prasugrel as part of triple antithrombotic therapy is not recommended
+	    - In patients requiring anticoagulation and treated medically, a single antiplatelet agent in addition to an OAC should be considered for up to 1 year.
+	    - Discontinuation of antiplatelet treatment in patients treated with an OAC is recommended after 12 months
+***** Monitoring
+      1. ECG monitoring for arrhythmias and new ST-segment elevation/depression is recommended for at least 24 h after symptom onset in all high-risk patients with ACS, including all STEMI patients.
+      2. Longer monitoring could be considered in patients at intermediate to high risk of cardiac arrhythmias (i.e. those with more than one of the following criteria:
+	 1) haemodynamically unstable,
+	 2) presenting with major arrhythmias,
+	 3) left ventricular ejection fraction [LVEF] <40%,
+	 4) failed reperfusion,
+	 5) additional critical coronary stenoses of major vessels,
+	 6) or complications related to PCI)
+***** Risk assessment
+      1. Clinical risk assessment
+	 - 
+**** Các bước tiếp cận bệnh nhân nghi nhồi máu và chẩn đoán nhồi máu cơ tim thật sự. 
+***** Chẩn đoán
+      1. Triệu chứng > 20 phút, or nặng, or nhiều cơn
+      2. ECG mỗi 15 phút
+	 - Tiêu chuẩn ST chênh
+	   + >= 2 chuyển đạo liên tiếp
+	   + Nam > 40 tuổi 2 mm, nam < 40 tuổi 2.5 mm, nữ 1.5mm: ở V2-V3
+	   + ST chênh xuống >= 0.5 mm ở V1 - V3, đặc biệt T dương đoạn cuối (coi chừng nhồi máu thành sau, LCx), có thể kèm theo ST chênh V7-V9 (0.5 mm; 1mm nam  < 40 tuổi).
+	   + ST chênh xuống >=6 leads (thành dưới bên), kèm ST chênh aVR và/hoặc V1 (coi chừng left main hoặc nhiều nhánh)
+	   + V3R, V4R có thể chênh thoáng qua (0.5mm; 1 mm nam < 30 tuổi )
+	 - Tiêu chuẩn ST không chênh
+	   + T đảo đơn độc >= 5 leads
+	   + ST chênh xuống đi ngang hoặc đi xuống 0.08s (0.5mm V2-3, 1mm ở leads khác)
+	   + ST chênh thoáng qua < 20 phút
+	   + De Winter (hẹp nặng LAD)
+	   + Wellen's syndrome (hẹp nặng LAD)
+      3. Rule in/ rule out
+	 - 0h/1h
+	 - 0h/2h
+	 - in: 0h rất cao hoặc delta > ngưỡng
+	 - out: 0h rất thấp; hoặc 0 rất thấp và delta < ngưỡng
+	 - nên làm mẫu 3 giờ nếu chưa chắc
+***** Xử trí ban đầu
+      1. Mornitor ít nhất 24 giờ nếu nguy cơ cao
+      2. Oxy nếu SaO2 < 90%
+      3. Giảm đau
+	 - Morphin 2.5 - 5 - 10mg iv.
+	 - Nitrate: nitroglycerin 10mg/10ml pha trong 40ml NaCl 0.9%, bơm tiêm điện 1.5 ml/h (5 mcg/min) tăng mỗi 5 mcg/min mỗi 3 - 5 phút, lên 20 mcg/min sau đó có thể tăng 10 - 20 mcg/min mỗi 3 - 5 phút.  chống chỉ định: nhịp chậm, nhịp nhanh (*xem thêm*), nhồi máu thất phải, dùng phosphat diesterate 5 inhibiotor , bóc tách động mạch chủ
+	 - Metoprolol
+      4. Triệu chứng phụ
+	 - Metoclopiramid nếu buồn nôn do morphin
+      5. Thời gian PCI ST chênh
+	 - Nếu đến sớm trong vòng 12 giờ từ khi khởi phát triệu chứng
+	   + Trong vòng 120 phút PCI
+	   + Nếu không kịp thì tiêu sợi huyết trong vòng 10 phút rồi chuyển PCI (2 - 24h)
+	 - Nếu đến trong vòng 12 - 48 giờ
+	   + PCI, không tiêu sợi huyết
+	 - Nếu đến quá 48 giờ thì điều trị bảo tồn nếu không persistent triện chứng
+      6. Thời gian PCI ST không chênh
+	 - Nguy cơ rất cao PCI khẩn:
+	   + Huyết động không ổn định
+	   + Suy tim cấp
+	   + Biến chứng cơ học
+	   + Triệu chứng không giảm với điều trị nội khoa
+	   + Loạn nhịp nguy hiểm tính mạng hoặc ngưng tim
+	   + ECG thay đổi, đặc biệt là ST chênh thoáng qua lặp lại.
+	 - Nguy cơ cao PCI sớm (trong vòng 24h nhập viện):
+	   + GRACE > 140 điểm
+	   + ST - T thay đổi dynamic
+	   + ST chênh thoáng qua
+	   + NSTEMI (tăng troponin T hoặc I)
+      7. Kháng kết tập tiểu cầu
+	 - Asprin 81mg 4 viên nhai
+	 - Nếu ST chênh (cho sớm loading dose P2Y12 không cho thấy sự khác biệt vs cho lúc can thiệp)
+	   + Prasugrel (ưu tiên) loading dose 60mg; MD 10mg/ngày; 5mg/ngày nếu >= 75 tuổi, < 60 kg. Prior stroke is a contraindication for prasugrel.
+	   + hoặc Ticargrelor 90 mg 2 viên
+	   + hoặc Clopidogrel 75 mg 8 viên (in some patients considered otherwise at HBR _≥1 major or ≥2 minor ARC-HBR criteria_; ≥70 years.)
+	 - Nếu ST không chênh (cho sớm loading dose Prasugrel cho thấy tăng chảy máu vs cho lúc can thiệp)
+	   + Nếu nguy cơ cao dự kiến PCI trong 24 giờ thì không kê P2Y12 inhibitor
+	   + Nếu nguy cơ thấp thì kê P2Y12 inhibitor
+	 - Khác
+	   + Không sử dụng GP IIb/IIIa receptor antagonist (kháng kết tập tiểu cầu tiêm) trước can thiệp. Chỉ cân nhắc cho khi no-reflow or a thrombotic complication during PCI
+      8. Kháng đông
+	 - Nếu ST chênh lên
+	   + UFH Class IA
+	     - Initial treatment: i.v. bolus 70–100 U/kg followed by i.v. infusion titrated to achieve an aPTT of 60–80 s.
+	     - During PCI: 70–100 U/kg i.v. bolus or according to ACT (activated clotting time) in case of UFH pre-treatment
+	   + hoặc enoxaparin (nên cân nhắc dùng thay cho UFH Class IIaA) *(_nên hỏi lại có dùng liều bolus iv không?_)* guideline cũ của AHA và ESC thì có tiêm iv cho ST chênh, không bolus cho NSTEMI
+	     - The ATOLL trial reported a reduction in the primary endpoint at 30 days (incidence of death, complication of MI, procedure failure, or major bleeding) with enoxaparin in comparison to UFH in patients with STEMI undergoing PPCI.
+	     - Initial treatment: for treatment of ACS 1 mg/kg b.i.d. subcutaneously for a minimum of 2 days and continued until clinical stabilization.
+	     - In patients whose CrCl is below 30 mL per minute (by Cockcroft–Gault equation), the enoxaparin dosage should be reduced to 1 mg per kg o.d.
+	     - During PCI: for patients managed with PCI, if the last dose of enoxaparin was given less than 8 h before balloon inflation, no additional dosing is needed. If the last s.c. administration was given more than 8 h before balloon inflation, an i.v. bolus of 0.3 mg/kg enoxaparin sodium should be administered
+	   + hoặc Bivalirudin (cân nhắc thay thế cho UFH, đặc biệt nếu có giảm tiều cầu do heparin)
+	   + Không dùng Fondaparinux
+	 - Nếu ST không chênh
+	   + UFH, hoặc có thể nên lựa chọn enoxaparin
+	   + Nếu không PCI sớm thì có thể dùng Fondaparinux (IB)
+	 - Ngưng *kháng đông đường tiêm* sau khi PCI
+	 - Câu hỏi: *Có cho kháng đông tiêm trước PCI khẩn không? hay để team PCI cho?*
+      9. Điều trị lâu dài
+	 - 1 năm DAPT, ưu tiên potent P2Y12, 1 năm sau đó đơn trị aspirin
+	 - Nếu có nguy cơ chảy máu cao (HBR) thì có thể đơn trị kháng kết tập tiểu cầu sau 1 tháng DAPT
+      10. Đối tượng có sử dụng kháng đông
+	  - VKA INR > 2.5 thì không cần dùng thêm kháng đông khác, nếu INR < 2.5 thì dùng UFH
+	  - NOACS thì dùng UFH khi can thiệp bất kể giờ uống NOACS
+	  - Sau PCI dùng TAT ít nhất 1 tuần, sau đó P2Y12 inhibitor (clopidogrel) + 1 kháng đông 1 năm, sau đó đơn trị kháng đông
+	  - Có thể dùng TAT 1 tháng nếu nguy cơ cao
+      11. Xử lý biến chứng
+	  - nhịp chậm
+	  - RL nhịp
+	  - Khác.
+**** Ôn bài
+***** Tiếp cận bệnh nhân đau ngực
+      1. Đau ngực kiểu mạch vành
+      2. Troponin Ths rule in or rule out 0h 1h, or 3h ( <15ng/L và delta <4ng/L)  nếu chưa xác định được . Dùng 2 số trị số và delta
+***** Điều trị
+****** STEMI
+       1. Điều trị đau ngực: oxy, nitrate, morphhine
+       2. Chọn PCI hay tiêu sợi huyết
+	  - Nếu thời gian PCI < 120 min thì PCI
+	  - Nếu triệu chứng > 12 giờ thì PCI
+	  - Nếu triệu chứng > 48h thì điều trị nội nếu triệu chứng không kéo dài
+       3. Kháng kết tập tiểu cầu: aspirin 300mg, P2Y12 ưu tiên prasugel,  ticargrelor
+       4. Kháng đông enoxparin
+       5. 
+****** NSTEMI
+       1. Điều trị đau ngực: oxy, nitrate, morphine
+       2. Đánh giá nguy cơ GRACE SCORE
+	  - Nếu nguy cơ rất cao: 6 đặc điểm, PCI ngay
+	  - Nếu nguy cơ cao: NSTEMI, ST chang dynamic, grace > 140: PCI trong 24 giờ
+	  - UA Nguy cơ thấp: Nếu nghi ngờ nhiều thì có thể PCI, nếu nghi ngờ ít thì tùy chọn
+       3. Kháng kết tập tiểu cầu
+	  - aspirin
+	  - P2Y12 không cho nếu PCI khẩn hoặc trì hoãn 24 giờ (cái này nên hỏi lại là chỉ đối prasugel thôi hay sao?)
+       4. Kháng đông
+	  - Enoxaparin
+****** Điều trị sau tái thông
+******* Đánh giá nguy cơ chảy máu thang điểm
+	1. Nguy cơ thấp
+	   - Điều trị tiêu chuẩn Aspirin + P2Y12 hiệu lực cao 12 tháng sau đó chuyển sanh 1 loại
+	2. Nguy cơ cao
+	   - Cân nhắc 1 loại asprin sau 6 tháng or 3 tháng or 1 tháng
+	3. có sử dụng kháng đông
+	   - sau can thiệp TAT 1 tuần, sau đó clopidogrel + 1 kháng đông 1 năm, sau đó đơn trị kháng đông
+	   - Có thể dụng TAT 1 tháng nếu nguy cơ cao. y
+** Heart failure
+*** Introduction
+    1. Xác định nguyên nhân
+       - Identification of the aetiology of the underlying cardiac dysfunction is mandatory in the diagnosis of HF as the specific pathology can determine subsequent treatment.
+       - Most commonly, HF is due to myocardial dysfunction: either systolic, diastolic, or both. However, pathology of the valves, pericardium, and endocardium, and abnormalities of heart rhythm and conduction can also cause or contribute to HF.
+    2. Thuật ngữ
+       - Xem thêm [[id:3868d913-1639-4253-ae29-d7308978dda7][Universal Definition of Heart Failure]]
+       - Reduced ejection fraction
+	 + Symptoms ± Signs
+	 + LVEF <= 40%
+       - Mildly reduced ejection fraction
+	 + Symptoms ± Signs
+	 + LVEF 41 - 49%
+	 + the presence of other evidence of structural heart disease (e.g. increased left atrial size, LV hypertrophy or echocardiographic measures of impaired LV filling) makes the diagnosis more likely.
+       - Preserved ejection fraction
+	 + Symptoms ± Signs
+	 + LVEF > 50%
+	 + Objective evidence of cardiac structural and/or functional abnormalities consistent with the presence of LV diastolic dysfunction/raised LV filling pressures, including raised natriuretic peptides.
+       - Right ventricular dysfunction
+	 + Xem thêm:
+	   + [[https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6848943/][Right Ventricular Failure: Pathophysiology, Diagnosis and Treatment]]
+	   + [[https://onlinelibrary.wiley.com/doi/10.1002/ejhf.1029][Right heart dysfunction and failure in heart failure with preserved ejection fraction: mechanisms and management. Position statement on behalf of the Heart Failure Association of the European Society of Cardiology]]
+	 + Main aetiology of chronic RV failure is LV dysfunction-induced pulmonary hypertension
+	 + Other causes of RV dysfunction [e.g. MI, arrhythmogenic right ventricular cardiomyopathy (ARVC), or valve disease]
+*** Chronic heart failure
+****  Key steps in the diagnosis of chronic heart failure
+     1. Diagnostic tests recommended for the assessment of patients with suspected chronic HF:
+	- Electrocardiogram (ECG). A normal ECG makes the diagnosis of HF unlikely. The ECG may reveal abnormalities such as AF, Q waves, LV hypertrophy (LVH), and a widened QRS complex.
+	- Measurement of NPs are recommended:
+	  + BNP <35 pg/mL,
+	  + NT-proBNP <125 pg/mL,
+	  + or mid-regional pro-atrial natriuretic peptide (MR-proANP) <40 pmol/L make a diagnosis of HF unlikely
+	- Basic investigations such as serum urea and electrolytes, creatinine, full blood count, liver and thyroid function tests
+	- Echocardiography
+	- A chest X-ray is recommended to investigate other potential causes of breathlessness (e.g. pulmonary disease). It may also provide supportive evidence of HF (e.g. pulmonary congestion or cardiomegaly)
+**** Heart failure with reduced ejection fraction
+     1. General principles of pharmacotherapy for heart failure with reduced ejection fraction
+	- ACE-I/ARNI(ưu tiên IB), beta-blockers, and MRA has been shown to *improve survival, reduce the risk of HF hospitalizations, and reduce symptoms* in patients with HFrEF.
+	- Dapagliflozin or empagliflozin are recommended for patients with HFrEF to reduce the risk of HF hospitalization and death regardless of whether they have diabetes or not.
+	- Angiotensin receptor-neprilysin inhibitor (ARNI)
+	  + PARADIGM-HF trial, sacubitril/valsartan, an ARNI, was shown to be superior to enalapril in reducing hospitalizations for worsening HF, CV mortality, and all-cause mortality in patients with ambulatory HFrEF with LVEF <=40% (changed to <=35% during the study)
+	    1) Additional benefits of sacubitril/valsartan included an improvement in symptoms and QOL,
+	    2) areduction in the incidence of diabetes requiring insulin treatment,
+	    3) and a reduction in the decline in eGFR, as well as a reduced rate of hyperkalaemia.
+	    4) may allow a reduction in loop diuretic requirement.
+	    5) Symptomatic hypotension was reported more commonly in patients treated with sacubitril/valsartan as compared to enalapril, but despite developing hypotension, these patients also gained clinical benefits from sacubitril/valsartan therapy.
+	  + Patients being commenced on sacubitril/valsartan should have an adequate blood pressure (BP), and an eGFR >_30 mL/min/1.73 m2.
+	  + A washout period of *_at least 36 h after ACE-I therapy_* is required in order to minimize the risk of angioedema.
+     2. Other drugs
+	- Diuretics are recommended in patients with HFrEF with signs and/or symptoms of congestion to *alleviate HF symptoms, improve exercise capacity, and reduce HF hospitalizations*
+	- Ivabradine should be considered in symptomatic patients with LVEF <_35%, in SR and a resting heart rate >_70 b.p.m. despite treatment with an evidence-based dose of beta-blocker (or maximum tolerated dose below that), ACE-I/(or ARNI), and an MRA, to *reduce the risk of HF hospitalization and CV death.*
+	- *Soluble guanylate cyclase stimulator* _Vericiguat_ may be considered in patients in NYHA class II-IV who have had worsening HF despite treatment with an ACE-I (or ARNI), a beta-blocker and an MRA to *reduce the risk of CV mortality or HF hospitalization*
+	- Hydralazine and isosorbide dinitrate may be considered in patients with symptomatic HFrEF who cannot tolerate any of an ACE-I, an ARB, or ARNI (or they are contraindicated) to reduce the risk of death
+	- Digoxin may be considered in patients with symptomatic HFrEF in sinus rhythm despite treatment with an ACE-I (or ARNI), a betablocker and an MRA, to reduce the risk of hospitalization (both all-cause and HF hospitalizations).
+	- 
+**** Heart failure with mildly reduced ejection fraction
+* Textbooks
+** Cardiology: An Illustrated
+*** PERICARDIUM AND HEART IN THE MEDIASTINUM
+**** 
+* Reviews/Overviews
