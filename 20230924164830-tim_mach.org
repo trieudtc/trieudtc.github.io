@@ -140,8 +140,8 @@
 	 - Metoclopiramid nếu buồn nôn do morphin
       5. Thời gian PCI ST chênh
 	 - Nếu đến sớm trong vòng 12 giờ từ khi khởi phát triệu chứng
-	   + Trong vòng 120 phút PCI
-	   + Nếu không kịp thì tiêu sợi huyết trong vòng 10 phút rồi chuyển PCI (2 - 24h)
+	   + Trong vòng 120 phút PCI (từ lúc chẩn đoán đến khi wire crossing)
+	   + Nếu không kịp thì tiêu sợi huyết trong vòng 10 phút ( from STEMI diagnosis to bolus of fibrinolytics) rồi chuyển PCI (2 - 24h)
 	 - Nếu đến trong vòng 12 - 48 giờ
 	   + PCI, không tiêu sợi huyết
 	 - Nếu đến quá 48 giờ thì điều trị bảo tồn nếu không persistent triện chứng
@@ -293,3 +293,32 @@
 *** PERICARDIUM AND HEART IN THE MEDIASTINUM
 **** 
 * Reviews/Overviews
+* Note nhanh (Cần xem lại)
+** CCS
+*** 6 bước tiếp cận
+    1. Triệu chứng
+    2. Bệnh đi kèm
+    3. Test thường quy
+    4. xác xuất Pretest
+    5. Chọn Test
+    6. Đánh giá nguy cơ, (nếu non-invase test âm tính là nguy cơ thấp)
+** acute Heart failure
+   - tiếp cận: wet/dry, warm/cold
+   - Điều trị
+     1) Điều trị tiếp tố khởi phát
+     2) Điều chỉnh dịch
+     3) Vasodilator
+     4) inotrop
+     5) In-hospital and pre-discharge use of ACE-I/ARB, angiotensin-neprilysin inhibition, and β-blockers
+** Acute PE
+   - Tiếp cận
+     1) Đánh giá xác suất
+	- Nếu xác xuất thấp D-Dimmer -> CTPA
+	- Nếu xác suất cao CTPA (điều trị ngay kháng đông trong lúc làm test)
+     2) Đánh giá nguy cơ
+	- Nếu nguy cơ rất cao điều trị ngay kháng đông + ly giải huyết khối
+	- Nếu không nguy cơ cao - dùng kháng đông
+     3) Xuất viện và theo dõi
+	- xuất viện khi nguy cơ thấp
+	- Theo dõi triệu chứng trong  3 - 6 tháng:
+	  - Nếu có triệu chứng hoặc có nguy cơ CTEPH thì TTE, đánh chuyển expert
