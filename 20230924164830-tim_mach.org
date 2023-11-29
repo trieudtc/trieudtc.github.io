@@ -322,3 +322,15 @@
 	- xuất viện khi nguy cơ thấp
 	- Theo dõi triệu chứng trong  3 - 6 tháng:
 	  - Nếu có triệu chứng hoặc có nguy cơ CTEPH thì TTE, đánh chuyển expert
+** Rung nhĩ
+   1. CC
+      - Confirm
+      - Characteristic: 4S-AF
+	+ Stroke risk
+	+ Symptom serverity thang điểm EHRA
+	+ Serverity of burden (thời gian, tự cắt cơn không?)
+	+ substrate severity (mức độ nặng của cơ chất rung nhĩ)
+   2. Diều trị ABC
+      - A: kháng đông
+      - B: better syndrome
+      - C bệnh đồng mắc
