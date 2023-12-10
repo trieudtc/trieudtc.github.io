@@ -1,0 +1,48 @@
+:PROPERTIES:
+:ID:       7da37411-fa24-463a-9c8b-a30f27533ec5
+:END:
+#+title: Kham tim
+
+* Nghe tim
+** Tiếng tim
+** Âm thổi
+*** Time
+    1. Tâm thu
+       - "Flow murmurs" do tăng huyết động
+       - Hẹp van động mạch chủ, phổi
+       - Hở van 2 lá, 3 lá
+       - Thông liên thất
+       - Hẹp đường ra động mạch chủ
+    2. Tâm trương
+       - Hở van động mạch chủ (thường gặp nhất), phổi
+       - Hẹp van 2 lá, 3 lá
+    3. Liên tục
+       - Còn ống động mạch
+    4. 
+*** Location
+    - one should never assume the specific valvular origin of a particular murmur based solely on its location
+    - [[./img/Kham tim/location of murmur.jpg]]
+    - *Lưu ý:* ổ van không đặc hiệu cho âm thổi nhưng khá đặc hiệu cho S3, S4 (ở mỏm gợi ý thất trái, ở vùng liên sườn 3 - 4 bờ trái xương ức gợi ý thất phải)
+*** Hướng lan
+    - Hướng lan của âm thổi là những vùng đặt ống nghe ngoài tim mà còn nghe được âm thổi (xem hình)
+    - [[./img/Kham tim/radiation of murmur.jpg]]
+*** Shape
+    - Hình trám (Crescendo - decrescendo)
+      + Hẹp van động mạch chủ
+    - Giảm (decrescendo)
+      + Hở van han động mạch chủ
+    - Uniform
+      + Hở van 2 lá
+      + hẹp van 2 lá
+    - 
+*** Pith
+    - [[./img/Kham tim/pitch of murmur.jpg]]
+*** Cường độ
+    - 6 cấp động
+*** Quality
+    - [[./img/Kham tim/quality of murmur.jpg]]
+*** Response to manuvers
+    -  
+*** Eponymous murmurs
+    - [[./img/Kham tim/eponymous murmurs.jpg]]
+*** 
