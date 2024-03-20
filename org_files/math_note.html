@@ -1,0 +1,2418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<!-- 2023-08-02 T4 20:26 -->
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>&lrm;</title>
+<meta name="generator" content="Org mode" />
+<style type="text/css">
+ <!--/*--><![CDATA[/*><!--*/
+  .title  { text-align: center;
+             margin-bottom: .2em; }
+  .subtitle { text-align: center;
+              font-size: medium;
+              font-weight: bold;
+              margin-top:0; }
+  .todo   { font-family: monospace; color: red; }
+  .done   { font-family: monospace; color: green; }
+  .priority { font-family: monospace; color: orange; }
+  .tag    { background-color: #eee; font-family: monospace;
+            padding: 2px; font-size: 80%; font-weight: normal; }
+  .timestamp { color: #bebebe; }
+  .timestamp-kwd { color: #5f9ea0; }
+  .org-right  { margin-left: auto; margin-right: 0px;  text-align: right; }
+  .org-left   { margin-left: 0px;  margin-right: auto; text-align: left; }
+  .org-center { margin-left: auto; margin-right: auto; text-align: center; }
+  .underline { text-decoration: underline; }
+  #postamble p, #preamble p { font-size: 90%; margin: .2em; }
+  p.verse { margin-left: 3%; }
+  pre {
+    border: 1px solid #ccc;
+    box-shadow: 3px 3px 3px #eee;
+    padding: 8pt;
+    font-family: monospace;
+    overflow: auto;
+    margin: 1.2em;
+  }
+  pre.src {
+    position: relative;
+    overflow: auto;
+    padding-top: 1.2em;
+  }
+  pre.src:before {
+    display: none;
+    position: absolute;
+    background-color: white;
+    top: -10px;
+    right: 10px;
+    padding: 3px;
+    border: 1px solid black;
+  }
+  pre.src:hover:before { display: inline; margin-top: 14px;}
+  /* Languages per Org manual */
+  pre.src-asymptote:before { content: 'Asymptote'; }
+  pre.src-awk:before { content: 'Awk'; }
+  pre.src-C:before { content: 'C'; }
+  /* pre.src-C++ doesn't work in CSS */
+  pre.src-clojure:before { content: 'Clojure'; }
+  pre.src-css:before { content: 'CSS'; }
+  pre.src-D:before { content: 'D'; }
+  pre.src-ditaa:before { content: 'ditaa'; }
+  pre.src-dot:before { content: 'Graphviz'; }
+  pre.src-calc:before { content: 'Emacs Calc'; }
+  pre.src-emacs-lisp:before { content: 'Emacs Lisp'; }
+  pre.src-fortran:before { content: 'Fortran'; }
+  pre.src-gnuplot:before { content: 'gnuplot'; }
+  pre.src-haskell:before { content: 'Haskell'; }
+  pre.src-hledger:before { content: 'hledger'; }
+  pre.src-java:before { content: 'Java'; }
+  pre.src-js:before { content: 'Javascript'; }
+  pre.src-latex:before { content: 'LaTeX'; }
+  pre.src-ledger:before { content: 'Ledger'; }
+  pre.src-lisp:before { content: 'Lisp'; }
+  pre.src-lilypond:before { content: 'Lilypond'; }
+  pre.src-lua:before { content: 'Lua'; }
+  pre.src-matlab:before { content: 'MATLAB'; }
+  pre.src-mscgen:before { content: 'Mscgen'; }
+  pre.src-ocaml:before { content: 'Objective Caml'; }
+  pre.src-octave:before { content: 'Octave'; }
+  pre.src-org:before { content: 'Org mode'; }
+  pre.src-oz:before { content: 'OZ'; }
+  pre.src-plantuml:before { content: 'Plantuml'; }
+  pre.src-processing:before { content: 'Processing.js'; }
+  pre.src-python:before { content: 'Python'; }
+  pre.src-R:before { content: 'R'; }
+  pre.src-ruby:before { content: 'Ruby'; }
+  pre.src-sass:before { content: 'Sass'; }
+  pre.src-scheme:before { content: 'Scheme'; }
+  pre.src-screen:before { content: 'Gnu Screen'; }
+  pre.src-sed:before { content: 'Sed'; }
+  pre.src-sh:before { content: 'shell'; }
+  pre.src-sql:before { content: 'SQL'; }
+  pre.src-sqlite:before { content: 'SQLite'; }
+  /* additional languages in org.el's org-babel-load-languages alist */
+  pre.src-forth:before { content: 'Forth'; }
+  pre.src-io:before { content: 'IO'; }
+  pre.src-J:before { content: 'J'; }
+  pre.src-makefile:before { content: 'Makefile'; }
+  pre.src-maxima:before { content: 'Maxima'; }
+  pre.src-perl:before { content: 'Perl'; }
+  pre.src-picolisp:before { content: 'Pico Lisp'; }
+  pre.src-scala:before { content: 'Scala'; }
+  pre.src-shell:before { content: 'Shell Script'; }
+  pre.src-ebnf2ps:before { content: 'ebfn2ps'; }
+  /* additional language identifiers per "defun org-babel-execute"
+       in ob-*.el */
+  pre.src-cpp:before  { content: 'C++'; }
+  pre.src-abc:before  { content: 'ABC'; }
+  pre.src-coq:before  { content: 'Coq'; }
+  pre.src-groovy:before  { content: 'Groovy'; }
+  /* additional language identifiers from org-babel-shell-names in
+     ob-shell.el: ob-shell is the only babel language using a lambda to put
+     the execution function name together. */
+  pre.src-bash:before  { content: 'bash'; }
+  pre.src-csh:before  { content: 'csh'; }
+  pre.src-ash:before  { content: 'ash'; }
+  pre.src-dash:before  { content: 'dash'; }
+  pre.src-ksh:before  { content: 'ksh'; }
+  pre.src-mksh:before  { content: 'mksh'; }
+  pre.src-posh:before  { content: 'posh'; }
+  /* Additional Emacs modes also supported by the LaTeX listings package */
+  pre.src-ada:before { content: 'Ada'; }
+  pre.src-asm:before { content: 'Assembler'; }
+  pre.src-caml:before { content: 'Caml'; }
+  pre.src-delphi:before { content: 'Delphi'; }
+  pre.src-html:before { content: 'HTML'; }
+  pre.src-idl:before { content: 'IDL'; }
+  pre.src-mercury:before { content: 'Mercury'; }
+  pre.src-metapost:before { content: 'MetaPost'; }
+  pre.src-modula-2:before { content: 'Modula-2'; }
+  pre.src-pascal:before { content: 'Pascal'; }
+  pre.src-ps:before { content: 'PostScript'; }
+  pre.src-prolog:before { content: 'Prolog'; }
+  pre.src-simula:before { content: 'Simula'; }
+  pre.src-tcl:before { content: 'tcl'; }
+  pre.src-tex:before { content: 'TeX'; }
+  pre.src-plain-tex:before { content: 'Plain TeX'; }
+  pre.src-verilog:before { content: 'Verilog'; }
+  pre.src-vhdl:before { content: 'VHDL'; }
+  pre.src-xml:before { content: 'XML'; }
+  pre.src-nxml:before { content: 'XML'; }
+  /* add a generic configuration mode; LaTeX export needs an additional
+     (add-to-list 'org-latex-listings-langs '(conf " ")) in .emacs */
+  pre.src-conf:before { content: 'Configuration File'; }
+
+  table { border-collapse:collapse; }
+  caption.t-above { caption-side: top; }
+  caption.t-bottom { caption-side: bottom; }
+  td, th { vertical-align:top;  }
+  th.org-right  { text-align: center;  }
+  th.org-left   { text-align: center;   }
+  th.org-center { text-align: center; }
+  td.org-right  { text-align: right;  }
+  td.org-left   { text-align: left;   }
+  td.org-center { text-align: center; }
+  dt { font-weight: bold; }
+  .footpara { display: inline; }
+  .footdef  { margin-bottom: 1em; }
+  .figure { padding: 1em; }
+  .figure p { text-align: center; }
+  .equation-container {
+    display: table;
+    text-align: center;
+    width: 100%;
+  }
+  .equation {
+    vertical-align: middle;
+  }
+  .equation-label {
+    display: table-cell;
+    text-align: right;
+    vertical-align: middle;
+  }
+  .inlinetask {
+    padding: 10px;
+    border: 2px solid gray;
+    margin: 10px;
+    background: #ffffcc;
+  }
+  #org-div-home-and-up
+   { text-align: right; font-size: 70%; white-space: nowrap; }
+  textarea { overflow-x: auto; }
+  .linenr { font-size: smaller }
+  .code-highlighted { background-color: #ffff00; }
+  .org-info-js_info-navigation { border-style: none; }
+  #org-info-js_console-label
+    { font-size: 10px; font-weight: bold; white-space: nowrap; }
+  .org-info-js_search-highlight
+    { background-color: #ffff00; color: #000000; font-weight: bold; }
+  .org-svg { width: 90%; }
+  /*]]>*/-->
+</style>
+<script type="text/javascript">
+// @license magnet:?xt=urn:btih:e95b018ef3580986a04669f1b5879592219e2a7a&dn=public-domain.txt Public Domain
+<!--/*--><![CDATA[/*><!--*/
+     function CodeHighlightOn(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.add("code-highlighted");
+         target.classList.add("code-highlighted");
+       }
+     }
+     function CodeHighlightOff(elem, id)
+     {
+       var target = document.getElementById(id);
+       if(null != target) {
+         elem.classList.remove("code-highlighted");
+         target.classList.remove("code-highlighted");
+       }
+     }
+    /*]]>*///-->
+// @license-end
+</script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script type="text/javascript"
+        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content">
+<div id="table-of-contents">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents">
+<ul>
+<li><a href="#orgd7eb77b">1. Analysis I</a>
+<ul>
+<li><a href="#org1202aeb">1.1. Real analysis - Jirí Leb</a>
+<ul>
+<li><a href="#org8dd268b">1.1.1. Basic set theory</a></li>
+<li><a href="#org0444a63">1.1.2. Chap 1: Real Numbers</a></li>
+<li><a href="#orga45eb5e">1.1.3. Chap 2: Sequences and series</a></li>
+<li><a href="#orgf1b4e02">1.1.4. Chap 3: Countinuos functions</a></li>
+<li><a href="#org1aa0a13">1.1.5. Chap 4: The derivative</a></li>
+<li><a href="#orgb39c0c9">1.1.6. Chap 5: The Riemann Intergral</a></li>
+<li><a href="#org08b803f">1.1.7. Chap 6: Sequences of Functions</a></li>
+</ul>
+</li>
+<li><a href="#orgdf6b1c7">1.2. Analysis I - Tenrence Tao</a>
+<ul>
+<li><a href="#orgcc76188">1.2.1. Chap 2: Starting at the Beginning - The Natural Numbers</a></li>
+<li><a href="#orgfb82d2b">1.2.2. Chap 3: Set theory</a></li>
+<li><a href="#org44c8dd4">1.2.3. Chap 5: The Real number</a></li>
+<li><a href="#org14e182a">1.2.4. Chap 8: Infinite Sets</a></li>
+<li><a href="#org3dba33c">1.2.5. Chap 9: Continuous functions on R</a></li>
+<li><a href="#orgf03feec">1.2.6. Chap 11: The Riemann Integral</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org8efa0c8">2. Analyis II</a>
+<ul>
+<li><a href="#org9ddabc8">2.1. Analysis II - Tenrence Tao</a>
+<ul>
+<li><a href="#org38b4d09">2.1.1. Chap 1 - Metric space</a></li>
+<li><a href="#orgaeb32e6">2.1.2. Chap 2 - Continous functions on metric spaces</a></li>
+<li><a href="#org00f9e98">2.1.3. Chap 3 - Uniform Convergence</a></li>
+<li><a href="#org333e333">2.1.4. Chap 4 - Power series</a></li>
+<li><a href="#orgfcaf4d9">2.1.5. Chap 5 - Fourier Series</a></li>
+<li><a href="#org3025973">2.1.6. Chap 6 - Several Variable Differential Calculus</a></li>
+<li><a href="#orge3d79ed">2.1.7. Chap 7 - Lebesgue Measure</a></li>
+<li><a href="#org6cd84ef">2.1.8. Chap 8 - Lebesgue integration</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org13d0748">3. Functional analysis</a>
+<ul>
+<li><a href="#org0d9db3e">3.1. Introductory functional analysis with application - Kreyzig</a>
+<ul>
+<li><a href="#orgcad207d">3.1.1. Chap 1 - Metric spaces</a></li>
+<li><a href="#org12cef2e">3.1.2. Chap 2 - Normed spaces and Banach spaces</a></li>
+<li><a href="#org978f209">3.1.3. Chap 3 - Inner product spaces. Hilbert spaces</a></li>
+<li><a href="#org6a8611d">3.1.4. Chap 4 - Fundamental theorems for Normed and Banach spaces</a></li>
+<li><a href="#org1a1e634">3.1.5. Chap 7 - SPECTRAL THEORY OF LINEAR OPERATORS IN NORMED SPACES</a></li>
+<li><a href="#orgecde8ac">3.1.6. Chap 8 - Compact linear operators on normed spaces and their spectrum</a></li>
+</ul>
+</li>
+<li><a href="#orgf62f9ad">3.2. Functional analysis - Gustav Holzegel's note</a>
+<ul>
+<li><a href="#org8afbf12">3.2.1. Normed Spaces and Banach Spaces</a></li>
+<li><a href="#orgf1ac432">3.2.2. Linear Operators</a></li>
+<li><a href="#orge393cfb">3.2.3. The dual space and the Hahn-Banach theorem</a></li>
+<li><a href="#orgad9508c">3.2.4. Some Spectral Theory: Compact Operators</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org3cb50be">4. Some confusing things:</a>
+<ul>
+<li><a href="#org365d510">4.1. Some terms about function or mapping or operator (vector spaces)</a></li>
+<li><a href="#org0349dac">4.2. Interchange of limits</a></li>
+<li><a href="#orgacec71c">4.3. Interchange (swap) integrals or infite sums (several variables)</a></li>
+<li><a href="#orgaa3ad50">4.4. Interchanging limits or derivatives (several variables)</a></li>
+</ul>
+</li>
+<li><a href="#orgbbd3524">5. Calculus</a>
+<ul>
+<li><a href="#orgf7680ba">5.1. Multivarible calculus</a>
+<ul>
+<li><a href="#org863197b">5.1.1. </a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#org212fc76">6. Algebra</a>
+<ul>
+<li><a href="#org628ee2e">6.1. Resources</a>
+<ul>
+<li><a href="#org5673d95">6.1.1. chicago-ug-math-bib</a></li>
+</ul>
+</li>
+<li><a href="#orgbd7f1fc">6.2. A book of abstract algbera - Charles C.Pinter</a>
+<ul>
+<li><a href="#org2a7a6f9">6.2.1. Groups</a></li>
+<li><a href="#org8d96334">6.2.2. Groups of permutations</a></li>
+<li><a href="#org2c91ea9">6.2.3. Permutations of a finite set</a></li>
+<li><a href="#orgff02473">6.2.4. Isomorphism</a></li>
+<li><a href="#orga6d3e9c">6.2.5. Order of group elements</a></li>
+<li><a href="#org49794fa">6.2.6. Counting cosets</a></li>
+<li><a href="#orgb5a6966">6.2.7. Homomorphisms</a></li>
+<li><a href="#orgf8cdeeb">6.2.8. Quotient groups</a></li>
+<li><a href="#org517d981">6.2.9. The fundamental homorphism theorem</a></li>
+<li><a href="#org4c614bf">6.2.10. Rings: Definitions and elementary properties</a></li>
+<li><a href="#org22a8993">6.2.11. Ideals and Homomorphisms</a></li>
+<li><a href="#orgc03d0ea">6.2.12. Quotient rings</a></li>
+<li><a href="#org99eb31b">6.2.13. Intergral domains</a></li>
+<li><a href="#orgc9d8926">6.2.14. The integers</a></li>
+<li><a href="#org203a5c0">6.2.15. Factoring into primes</a></li>
+<li><a href="#org118e749">6.2.16. Rings of Polynomials</a></li>
+<li><a href="#orgb0781db">6.2.17. Factoring Polynomials</a></li>
+<li><a href="#orgb7c2949">6.2.18. Extension of fields</a></li>
+<li><a href="#org5699aca">6.2.19. Notation</a></li>
+</ul>
+</li>
+<li><a href="#org3679819">6.3. A first course in abstract algebera - Fraleigh</a></li>
+</ul>
+</li>
+<li><a href="#orge53d1be">7. Pandas</a></li>
+<li><a href="#org5968caf">8. Math road map</a>
+<ul>
+<li><a href="#org312dff7">8.1. 13/07/2023:</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd7eb77b" class="outline-2">
+<h2 id="orgd7eb77b"><span class="section-number-2">1</span> Analysis I</h2>
+<div class="outline-text-2" id="text-1">
+</div>
+<div id="outline-container-org1202aeb" class="outline-3">
+<h3 id="org1202aeb"><span class="section-number-3">1.1</span> Real analysis - Jirí Leb</h3>
+<div class="outline-text-3" id="text-1-1">
+</div>
+<div id="outline-container-org8dd268b" class="outline-4">
+<h4 id="org8dd268b"><span class="section-number-4">1.1.1</span> Basic set theory</h4>
+<div class="outline-text-4" id="text-1-1-1">
+<ol class="org-ol">
+<li>Set building notation
+<ul class="org-ul">
+<li>\(S := \{x \in A : P(x)\}\)</li>
+</ul></li>
+<li>Proper subset
+<ul class="org-ul">
+<li>A set A is a proper subset of B if \(A \subset B\) and \(A \neq B\). We write \(A \subsetneq B\).</li>
+</ul></li>
+<li>Well ordering property of \(\mathbb{N}\)
+<ul class="org-ul">
+<li>Every nonempty subset of \(\mathbb{N}\) has a least (smallest) element.</li>
+</ul></li>
+<li>Cartesian product
+<ul class="org-ul">
+<li>\(A ừ B := \{(x;y) : x \in A,y \in B\}\)</li>
+</ul></li>
+<li>Cardinality
+<ul class="org-ul">
+<li>Let A and B be sets. We say A and B have the same cardinality when there exists a bijection f : A &rarr; B. We denote by |A| the equivalence class of all sets with the same cardinality as A and we simply call |A| the cardinality of A.</li>
+</ul></li>
+<li>Countably infinite
+<ul class="org-ul">
+<li>If |A| = |N|, then A is said to be <i>countably infinite</i>. If A is <i>finite</i> or <i>countably infinite</i>, then we say A is <i>countable</i>. If A is not countable, then A is said to be <i>uncountable</i>.</li>
+</ul></li>
+<li>Power set
+<ul class="org-ul">
+<li>The power set of a set A, denoted by P(A), is the set of all subsets of A.</li>
+</ul></li>
+<li>Theorem (Cantor )
+<ul class="org-ul">
+<li>\(|A| < |\mathbb{P}(A)|\). In particular, there exists no surjection from A onto \(\mathbb{P}(A)\).</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org0444a63" class="outline-4">
+<h4 id="org0444a63"><span class="section-number-4">1.1.2</span> Chap 1: Real Numbers</h4>
+<div class="outline-text-4" id="text-1-1-2">
+<ol class="org-ol">
+<li>Ordered set
+<ul class="org-ul">
+<li>An ordered set is a set S together with a relation &lt; such that
+<ul class="org-ul">
+<li>(trichotomy) For all x,y &isin; S, exactly one of x &lt; y, x = y, or y &lt; x holds.</li>
+<li>(transitivity) If x,y,z &isin; S are such that x &lt; y and y &lt; z, then x &lt; z.</li>
+</ul></li>
+</ul></li>
+<li>Least-upper-bound property
+<ul class="org-ul">
+<li>An ordered set S has the least-upper-bound property if every nonempty subset E &sub; S that is bounded above has a least upper bound, that is sup E exists in S. The least-upper-bound property is sometimes called the <i>completeness property</i> or the <i>Dedekind completeness property</i>.</li>
+</ul></li>
+<li>Theorem (<b>Archimedean property</b>)
+<ul class="org-ul">
+<li>(<i>Archimedean property</i>) If x,y \(\in \mathbb{R}\) and x &gt; 0, then there exists an n \(\in \mathbb{N}\) such that nx &gt; y.</li>
+<li>(\(\mathbb{Q}\) is dense in \(\mathbb{R}\)) If x,y \(\in \mathbb{R}\) and x &lt; y, then there exists an r \(\in \mathbb{Q}\) such that x &lt; r &lt; y.</li>
+</ul></li>
+<li>Decimal representation of the reals
+<ul class="org-ul">
+<li>Every infinite sequence of digits 0.d1d2d3&#x2026; represents a unique real number x &isin; [0,1], and \(D_{n} \leq x \leq D_{n} + \dfrac{1}{10^{n}}\) for all n &isin;  N.</li>
+<li>For every x &isin; (0,1] there exists an infinite sequence of digits 0.d1d2d3&#x2026; that represents x. There exists a unique representation such that  \(D_{n} < x \leq D_{n} + \dfrac{1}{10^{n}}\) for all n &isin; N.</li>
+</ul></li>
+<li>Theorem  (Cantor). The set (0,1] is uncountable. (proof using <i>Cantor diagonalization</i> trick)</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orga45eb5e" class="outline-4">
+<h4 id="orga45eb5e"><span class="section-number-4">1.1.3</span> Chap 2: Sequences and series</h4>
+<div class="outline-text-4" id="text-1-1-3">
+<ol class="org-ol">
+<li>Sequence notation
+<ul class="org-ul">
+<li>\(\{x_n\}\) or \(\{x_n\}_{n=1}^\infty\)</li>
+</ul></li>
+<li>Bounded sequences
+<ul class="org-ul">
+<li>A sequence \(\{x_n\}\) is bounded if there exists a \(B \in \mathbb{R}\) such that \(|x_n| \leq B\) for all \(n \in \mathbb{N}\).</li>
+</ul></li>
+<li>Tail of a sequence
+<ul class="org-ul">
+<li>For a sequence \(\{x_n\}\), the K-tail (where K &isin; N), or just the tail, of \(\{x_n\}\) is the sequence starting at K +1, usually written as \(\{x_{n+K}\}_{n=1}^\infty\) or \(\{x_{n}\}_{n=K+1}^\infty\).</li>
+</ul></li>
+<li>Subsequences
+<ul class="org-ul">
+<li>Let \(\{x_n\}\) be a sequence. Let \(\{n_i\}\)  be a strictly increasing sequence of natural numbers, that is, n<sub>i</sub> &lt; n<sub>i+1</sub> for all i (in other words n<sub>1</sub> &lt; n<sub>2</sub> &lt; n<sub>3</sub> &lt; ởởở). The sequence \(\{x_{n_i}\}_{i=1}^\infty\) is called a subsequence of \(\{x_n\}\)</li>
+</ul></li>
+<li>Limit superior, limit inferior, and <b>Bolzano-Weierstrass</b>
+<ul class="org-ul">
+<li><i>Upper and lower limits</i>:
+Let \(\{x_n\}\) be a bounded sequence. Define the sequences \(\{a_n\}\) and \(\{b_n\}\) by \(a_n := sup\{x_k: k\geq n\}\) and \(b_n := inf\{x_k: k\geq n\}\). Define, if the limits exist, \[ \limsup_{n\to\infty} x_n := \lim_{n\to\infty} a_n, \] \[ \liminf_{n\to\infty} x_n := \lim_{n\to\infty} b_n, \]</li>
+<li>Proposition:
+Let \(\{x_n\}\) be a bounded sequence. Then \(\{x_n\}\) converges if and only if \(\liminf_{n\to\infty} x_n = \limsup_{n\to\infty} x_n\) Furthermore, if \(\{x_n\}\) converges, then \(\lim_{n\to\infty} x_n = \liminf_{n\to\infty} x_n = \limsup_{n\to\infty} x_n\).</li>
+<li><b>Bolzano-Weierstrass theorem</b>:
+Suppose a sequence \(\{x_n\}\) of real numbers is bounded. Then there exists a convergent subsequence \(\{x_{n_i}\}\).</li>
+</ul></li>
+<li>Cauchy sequences
+<ul class="org-ul">
+<li>A sequence \(\{x_n\}\) is a <i>Cauchy sequence</i> if for every \(\epsilon > 0\) there exists an M &isin; N such that for all n &ge; M and all k &ge; M, we have \(|x_n - x_k| < \epsilon\)</li>
+<li>A Cauchy sequence is bounded <i>(proposition)</i></li>
+<li>A sequence of real numbers is Cauchy if and only if it converges. <i>(Theorem)</i>.</li>
+<li>The Cauchy criterion is stronger than \(|x_{n+1} - x_n|\) (or \(|x_{n+j} - x_n|\) for a fixed j) going to zero as n goes to infinity. When we get to the partial sums of the harmonic series, we will have a sequence such that \(x_{n+1} - x_n = \frac{1}{n}\), yet \(\{x_n\}\) is divergent. In fact, for that sequence, \(\lim_{n\to\infty}|x_{n+j} - x_n| = 0\) for every \(j \in \mathbb{N}\). <b><i>The key point in the definition of Cauchy is that n and k vary independently and can be arbitrarily far apart.</i></b></li>
+<li>The statement of this proposition is sometimes used to define the completeness property of the real numbers. We say a set is <i>Cauchy-complete</i> (or sometimes just <i>complete</i>) if every Cauchy sequence converges. One can construct R via "completing" Q by "throwing in" just enough points to make all Cauchy sequences converge. The resulting field has the least-upper-bound property. The advantage of using Cauchy sequences to define completeness is that this idea generalizes to more abstract settings such as metric spaces.</li>
+</ul></li>
+<li>Series
+<ul class="org-ul">
+<li><i>Definition</i>:
+Given a sequence \(\{x_n\}\), we write the formal object \(\sum_{n=1}^\infty x_n\) or sometimes just \(\sum x_n\) and call it a series. A series <i>converges</i> if the sequence \(\{s_k\}\) defined by \(s_k := \sum_{n=1}^k x_n = x_1 + x_2 + ... + x_k\), converges. The numbers \(s_k\) are called <i>partial sums</i></li>
+<li>Geometric series:
+Suppose -1 &lt; r &lt; 1. Then the geometric series \(\sum_{n=0}^\infty r^n\) converges, and \[\sum_{n=0}^{k-1} r^n = \dfrac{1-r^k}{1-r} \hspace{0.5cm} ,\] \[\sum_{n=0}^\infty r^n = \dfrac{1}{1-r} \hspace{0.5cm} .\]</li>
+<li><i>Cauchy series</i>:
+A series \(\sum x_n\)  is said to be Cauchy or a Cauchy series if the sequence of partial sums \(\{s_n\}\) is a Cauchy sequence.</li>
+<li><i>Harmonic series</i>:
+The series \(\sum \frac{1}{n}\) diverges (despite the fact that \(\lim \frac{1}{n} = 0\)).</li>
+<li><b><i>Basic properties of series</i></b>
+<ul class="org-ul">
+<li>Linearity of series (proposition).
+Let \(\alpha \in R\) and \(\sum x_n\) and \(\sum y_n\) be convergent series. Then <br />
+(i) \(\sum x_n\) is a convergent series and \(\sum_{n=1}^\infty\alpha x_n = \alpha\sum_{n=1}^\infty x_n\). <br />
+(ii) \(\sum(x_n +y_n)\) is a convergent series and \(\sum_{n=1}^\infty(x_n + y_n) = \sum_{n=1}^\infty x_n + \sum_{n=1}^\infty y_n\).<br />
+(*) <i>note</i> <span class="underline">this does not hold if the series is not convergence.</span></li>
+</ul></li>
+<li><i>Absolute convergence</i>:
+A series \(\sum x_n\)  converges absolutely if the series \(\sum |x_n|\) converges. If a series converges, but does not converge absolutely, we say it is <i>conditionally convergent</i>.</li>
+<li><i>The p-series of p-test</i>:
+For \(p \in \mathbb{R}\), the series \(\sum_{n=1}^\infty \frac{1}{n^p}\) converges if and only if \(p > 1\).</li>
+<li><i>Ratio test</i>:
+Let \(\sum |x_n|\) be a series, \(x_n \neq 0\) for all n, and such that
+\[L := \lim_{n\to\infty} \frac{|x_n + 1|}{x_n} \quad \text{exists.}\]
+\[\textrm{(i) If $L < 1$, then $\sum |x_n|$ converges absolutely.}\]
+\[\mbox{(ii) If $L > 1$, then $\sum |x_n|$ diverges.}\]</li>
+<li><i>Root test</i>:
+Let \(\sum |x_n|\) be a series and let \[L := \limsup_{n\to\infty}|x_n|^{\frac{1}{n}}\]
+\[\text{(i) If $L < 1$, then $\sum |x_n|$ converges absolutely.}\]
+\[\text{(ii) If $L > 1$, then $\sum |x_n|$ diverges.}\]</li>
+<li><i>Alternating series test</i>:
+Let \(\{x_n\}\) be a monotone decreasing sequence of positive real numbers such that lim x<sub>n</sub> = 0. Then \(\sum_{n=1}^\infty (-1)^nx_n\) converges.</li>
+<li><b><i>Rearrangements</i></b>:
+<ul class="org-ul">
+<li>Absolutely convergent series can be summed in any order whatsoever. <b><i>Nothing of the sort holds for conditionally convergent series</i></b></li>
+</ul></li>
+<li><i>Multiplication of series</i>:
+<ul class="org-ul">
+<li>Mertens' theorem:
+Suppose \(\sum_{n=0}^\infty a_n\) and \(\sum_{n=0}^\infty b_n\) are two convergent series, converging to A and B respectively. If at least one of the series converges absolutely, then the series \(\sum_{n=0}^\infty c_n\) where \(c_n = a_0b_n + a_1b_{n-1} + ... + a_nb_0 = \sum_{j=0}^n a_jb_{n-j}\) converges to AB.
+The series \(\sum c_n\) is called the <i>Cauchy product</i> of \(\sum a_n\) and \(\sum b_n\).</li>
+</ul></li>
+<li><i>Power series</i>:
+<ul class="org-ul">
+<li>Fix x<sub>0</sub> &isin; R. A power series about x<sub>0</sub> is a series of the form \(\sum_{n=0}^\infty a_n(x-x_0)^n\).</li>
+<li>Proposition (<i>radius of convergence of the power series</i>):
+Let \(\sum_{n=0}^\infty a_n(x-x_0)^n\) be a power series, and let \(R := \limsup_{n\to\infty}|a_n|^\frac{1}{n}\). If \(R = \infty\), the power series is divergent. If R = 0, then the power series converges everywhere. Otherwise, the radius of convergence \(\rho = \frac{1}{R}\).</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf1b4e02" class="outline-4">
+<h4 id="orgf1b4e02"><span class="section-number-4">1.1.4</span> Chap 3: Countinuos functions</h4>
+<div class="outline-text-4" id="text-1-1-4">
+<ol class="org-ol">
+<li><i>Cluster points</i>:
+Let \(S \subset R\) be a set. A number \(x \in R\) is called a cluster point of S if for every \(\epsilon > 0\), the set \((x-\epsilon, x + \epsilon)\cap S \setminus \{x\}\) is not empty.</li>
+<li><i>Restriction of fuction</i>:
+Let \(f : S \to R\) be a function and \(A \subset S\). Define the function \[f|_A : A \to R \text{ by } f|_A(x) := f(x) \text{ for } x \in A.\] The function \(f|_A\) is called the restriction of f to A.</li>
+<li><i>Uniform continuity</i>:
+Let \(S \subset R\), and let \(f : S \to R\) be a function. Suppose for every \(\epsilon > 0\) there exists a \(\delta > 0\) such that whenever \(x,c \in S\) and \(|x-c| < \delta\), then \(|f(x)-f(c)| < \epsilon\). Then we say \(f\) is <i>uniformly continuous.</i></li>
+<li>Theorem: Let \(f : [a,b] \to R\) be a continuous function. Then \(f\) is uniformly continuous.</li>
+<li><i>Lipschitz continuous functions</i>:
+A function \(f : S \to R\) is Lipschitz continuous, if there exists a \(K \in R\), such that \(|f(x)-f(y)| \leq K|x-y|\) for all x and y in S. \[ \textbf{note:} \textit{ uniformly continuous is not always Lipschitz continuous, ex: } \sqrt{|x|}.\]</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org1aa0a13" class="outline-4">
+<h4 id="org1aa0a13"><span class="section-number-4">1.1.5</span> Chap 4: The derivative</h4>
+<div class="outline-text-4" id="text-1-1-5">
+<ol class="org-ol">
+<li><i>Mean value theorem</i>:
+Let \(f : [a,b] \to R\) be a continuous function differentiable on (a,b). Then there exists a point c &isin; (a,b) such that f(b)-f(a) = f'(c)(b-a).</li>
+<li><i>Cauchy's mean value theorem</i>:
+Let \(f : [a,b] \to R\) and \(\varphi : [a,b]\to R\) be continuous functions differentiable on \((a,b)\). Then there exists a point \(c \in (a,b)\) such that \[(f(b)-f(a))\varphi'(c) = f'(c)(\varphi(b)-\varphi(a)).\]</li>
+<li><i>Taylor's theorem</i>
+<ul class="org-ul">
+<li>Definition:
+For an n times differentiable function f defined near a point \(x_0 \in R\), define the \(nth\) order Taylor polynomial for f at \(x_0\) as
+\[P_n^{x_0}(x):= \sum_{k=0}^n\dfrac{f^{(k)}(x_0)}{k!}(x-x_0)^k\]
+\[= f(x_0) + f'(x_0)(x-x_0) + \dfrac{f''(x_0)}{2}(x-x_0)^2 + ... + \dfrac{f^{(n)}(x_0)}{n!}(x-x_0)^n.\]</li>
+<li><i>Theorem (Taylor)</i>:
+<i>Taylor's theorem is a generalization of the mean value theorem</i>.
+Suppose \(f : [a,b] \to R\) is a function with n continuous derivatives on \([a,b]\) and such that \(f^{(n+1)}\) exists on \((a,b)\). Given distinct points \(x_0\) and \(x\) in \([a,b]\), we can find a point \(c\) between \(x_0\) and \(x\) such that
+\[f(x) = P_n^{x_0}(x)+ \dfrac{f^{(n+1)}(c)}{(n+1)!}(x-x_0)^{n+1}.\]
+The term \(R_n^{x_0}(x):= \dfrac{f^{(n+1)}(c)}{(n+1)!}(x-x_0)^{n+1}\) is called \(\textit{the remainder term}\). This form of the remainder term is called the \(\textit{Lagrange form}\) of the remainder. There are other ways to write the remainder term.</li>
+<li><i>Taylor's series:</i>
+If \(f\) is infinitely differentiable, that is, if \(f\) can be differentiated any number of times, then we define the Taylor series:
+\[\sum_{k=0}^{\infty}\dfrac{f^{(k)}(x_0)}{k!}(x-x_0)^k\]
+There is no guarantee that this series converges for any \(x \neq x_0\). <b><i>And even where it does converge, there is no guarantee that it converges to the function f</i></b>. Functions f whose Taylor series at every point \(x_0\) converges to f in some open interval containing \(x_0\) are called <i>analytic functions</i>. Most functions one tends to see in practice are analytic.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb39c0c9" class="outline-4">
+<h4 id="orgb39c0c9"><span class="section-number-4">1.1.6</span> Chap 5: The Riemann Intergral</h4>
+<div class="outline-text-4" id="text-1-1-6">
+<ol class="org-ol">
+<li><i>Improper integrals</i>:
+Suppose \(f:[a,b) \to R\) is a function (not necessarily bounded) that is Riemann integrable on \([a,c]\) for all \(c < b\). We define
+\[\int_a^b f:=\lim_{c \to b^-}\int_a^c f \text{ if the limit exists.}\]
+Suppose \(f:[a,\infty)\to R\) is a function such that \(f\) is Rieman integrable on \([a,c]\) for all \(c < \infty\). We define
+\[\int_a^{\infty} f:= \lim_{c \to \infty}\int_a^c f \text{ if the limit exists.}\]
+If the limit exists, we say the improper integral converges. If the limit does not exist, we say the improper integral diverges.</li>
+<li><i>Integral test for series</i>
+Suppose \(f : [k,\infty) \to R\) is a decreasing nonnegative function where \(k \in \mathbb{Z}\). Then
+\[\sum_{n=k}^\infty f(n) \text{ converges if and only if } \int_k^\infty f \text{ converges.}\]
+\[\text{In this case } \int_k^\infty f \leq \sum_{n=k}^\infty f(n) \leq f(k) + \int_k^\infty f.\]</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org08b803f" class="outline-4">
+<h4 id="org08b803f"><span class="section-number-4">1.1.7</span> Chap 6: Sequences of Functions</h4>
+<div class="outline-text-4" id="text-1-1-7">
+<ol class="org-ol">
+<li><i>Pointwise and uniform convergence</i>:
+<ul class="org-ul">
+<li><i>Pointwise convergence:</i>
+For every \(n \in \mathbb{N}\), let \(f_n : S \to R\) be a function. The sequence ${f<sub>n</sub>}<sub>n=1</sub>^&infin; converges pointwise to \(f: S \to R\) if for every \(x \in S\), we have
+\[f(x) = \lim_{n \to \infty}f_n(x).\]
+Limits of sequences of numbers are unique, and so if a sequence ${f<sub>n</sub>} converges pointwise, the limit function \(f\) is unique. It is common to say that \(f_n : S \to R\) converges to \(f\) on \(T \subset S\) for some \(f: T \to R\). In that case we mean \(f(x) = \lim f_n(x)\) for every \(x \in T\). In other words, the restrictions of \(f_n\) to \(T\) converge pointwise to \(f\) .</li>
+<li><i>Uniform convergence:</i>
+Let \(f_n: S \to R\) and \(f: S \to R\) be functions. The sequence \({f_n}\) converges uniformly to \(f\) if for every \(\epsilon > 0\), there exists an \(N \in \mathbb{N}\) such that for all \(n \geq N\), we have
+\[|f_n(x)- f(x)| < \epsilon \text{ for all } x \in S.\]
+In uniform convergence, N cannot depend on x (different from pointwise convergence). Given \(\epsilon > 0\), we must find an N that works for all \(x \in S\).h</li>
+<li><i>Convergence in uniform norm:</i>
+Let \(f: S \to R\) be a bounded function. Define
+\[\|f\|_u := sup\{|f(x)| : x \in S\}.\]
+We call \(\|.\|_u\) the uniform norm.
+To use this notation and this concept, the domain S must be fixed. Some authors use the notation \(\|f\|_S\) to emphasize the dependence on \(S\).</li>
+<li>Proposistion:
+A sequence of bounded functions \(f_n: S \to R\) converges uniformly to \(f: S \to R\), if and only if
+\[\lim_{n\to\infty} \|f_n - f|\|_u = 0.\]</li>
+<li><i>uniformly Cauchy:</i>
+Let \(f_n: S \to R\) be bounded functions. The sequence is <i>Cauchy in the uniform norm</i> or <i>uniformly Cauchy</i> if for every \(\epsilon > 0\), there exists an \(N \in \mathbb{N}\) such that for all \(m,k \geq N\), \(\|f_m - f_k\|_u < \epsilon\) (for all x &isin; S)</li>
+<li>Proposistion:
+Let \(f_n: S \to R\) be bounded functions. Then \({f_n}\) is Cauchy in the uniform norm if and only if there exists an \(f: S \to R\) and \({f_n}\) converges uniformly to \(f\).</li>
+</ul></li>
+<li><i>Interchange of limits:</i>
+<ul class="org-ul">
+<li><i>Continuity of the limit:</i>
+\[\textit{we asking this question: } \lim_{k\to\infty}f(x_k) = \lim_{k\to\infty}(\lim_{n\to\infty}f_n(x_k)) =? \lim_{n\to\infty}(\lim_{k\to\infty}f_n(x_k)) = \lim_{n\to\infty}f_n(x) = f(x)\]
+(Theorem) Suppose \(S \subset R\). Let \({f_n}\) be a sequence of continuous functions \(f_n: S \to R\) converging uniformly to \(f: S \to R\). Then \(f\) is continuous.</li>
+<li><i>Intergral of the limit:</i>
+Theorem: Let \({f_n}\) be a sequence of Riemann integrable functions \(f_n: [a,b] \to R\) converging uniformly to \(f: [a,b] \to R\). Then \(f\) is Riemann integrable, and \(\int_a^b f = \lim_{n\to\infty}\int_a^b f_n\).</li>
+<li><i>Derivative of the limit:</i><br />
+While uniform convergence is enough to swap limits with integrals, it is not, however, enough to swap limits with derivatives, unless you also have uniform convergence of the derivatives themselves.<br />
+Let \(I\) be a <i>bounded interval</i> and let \(f_n: I \to R\) be continuously differentiable functions. Suppose \({f'_n}\) converges uniformly to \(g: I \to R\), and suppose \(\{f_n(c)\}_{n=1}^\infty\) is a convergent sequence for some \(c \in I\). Then \({f_n}\) converges uniformly to a continuously differentiable function \(f: I \to R\), and \(f' = g\).<br />
+The proof goes through without boundedness of \(I\), except for the uniform convergence of \(f_n\) to \(f\). As an example suppose \(I = R\) and let \(f_n(x):= \dfrac{x}{n}\). Then \(f'_n(x) = \dfrac{1}{n}\), which converges uniformly to \(0\). However, \({f_n}\) converges to \(0\) only pointwise.</li>
+<li><i>Convergence of power series:</i>
+<ul class="org-ul">
+<li>Proposition:
+Let \(\sum_{n=0}^\infty c_n(x-a)^n\) be a convergent power series with a radius of convergence \(\rho\), where \(0 < \rho \leq \infty\). Then the series converges uniformly in \([a-r,a+r]\) whenever \(0 < r < \rho\). In particular, the series defines a continuous function on \((a-r,a+r)\) (if \(\rho < \infty\)), or \(\mathbb{R}\) (if \(\rho = \infty\)).</li>
+<li>Corollary:
+Let \(\sum_{n=0}^\infty c_n(x-a)^n\) be a convergent power series with a radius of convergence \(0 < \rho \leq \infty\). Let \(I:= (a-\rho,a+\rho)\) if \(\rho < \infty\) or \(I:= \mathbb{R}\) if \(\rho = \infty\). Let \(f: I \to \mathbb{R}\) be the limit. Then
+\[\int_a^x f = \sum_{n=1}^\infty \frac{c_{n-1}}{n}(x-a)^n,\]
+where the radius of convergence of this series is at least \(\rho\).</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgdf6b1c7" class="outline-3">
+<h3 id="orgdf6b1c7"><span class="section-number-3">1.2</span> Analysis I - Tenrence Tao</h3>
+<div class="outline-text-3" id="text-1-2">
+</div>
+<div id="outline-container-orgcc76188" class="outline-4">
+<h4 id="orgcc76188"><span class="section-number-4">1.2.1</span> Chap 2: Starting at the Beginning - The Natural Numbers</h4>
+<div class="outline-text-4" id="text-1-2-1">
+<ol class="org-ol">
+<li><b><i>The Peano Axioms</i></b><br />
+<b>Axiom 1</b>: \(0\) is a natural number.<br />
+<b>Axiom 2</b>: if \(n\) is a natural number, then \(n++\) is also a natural number.<br />
+<b>Axiom 3</b>: \(0\) is not the successor of any natural number.<br />
+<b>Axiom 4</b>: Different natural numbers must have different successors; i.e., if \(n, m\) are natural numbers and \(n \neq m\), then \(n++ \neq m++\). Equivalently, if \(n++ = m++\) then we must have \(n = m\).<br />
+<b>Axiom 5</b>: <i>(Principle of mathematical induction)</i>. Let \(P(n)\) be any property pertaining to a natural number \(n\). Suppose that \(P(0)\) is true, and suppose that whenever \(P(n)\) is true,\(P(n++)\) is also true. Then \(P(n)\) is true for every natural number \(n\).<br />
+<i>*note:</i> A remarkable accomplishment of modern analysis is that just by starting from these five very primitive axioms, and some additional axioms from set theory, we can build all the other number systems, create functions, and do all the algebra and calculus that we are used to.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgfb82d2b" class="outline-4">
+<h4 id="orgfb82d2b"><span class="section-number-4">1.2.2</span> Chap 3: Set theory</h4>
+<div class="outline-text-4" id="text-1-2-2">
+<ol class="org-ol">
+<li>Fundamentals
+<ul class="org-ul">
+<li>Definition:
+(Informal) We define a set A to be any unordered collection of objects, e.g., {3, 8, 5, 2} is a set. If x is an object, we say that x is an element of A or \(x \in A\) if x lies in the collection; otherwise we say that \(x \notin A\). For instance, \(3 \in \{1, 2, 3, 4, 5\}\) but \(7 \notin \{ 1, 2, 3, 4, 5\}\).<br />
+<b>Axiom 1</b>: (Sets are objects). If A is a set, then A is also an object. In particular, given two sets A and B, it is meaningful to ask whether A is also an element of B.<br />
+<b>Axiom 2</b>: (Equality of sets). Two sets A and B are equal, A = B, iff every element of A is an element of B and vice versa. To put it another way, A = B if and only if every element x of A belongs also to B, and every element y of B belongs also to A.<br />
+<b>Axiom 3</b>: (Empty set). There exists a set \(\emptyset\), known as the empty set, which contains no elements, i.e., for every object \(x\) we have \(x \notin \emptyset\). The empty set is also denoted {}.<br />
+<b>Axiom 4</b>: (Singleton sets and pair sets). If a is an object, then there exists a set {a} whose only element is a, i.e., for every object y, we have y &isin; {a} if and only if y = a; we refer to {a} as the singleton set whose element is a. Furthermore, if a and b are objects, then there exists a set {a, b} whose only elements are a and b; i.e., for every object y, we have y &isin; {a, b} if and only if y = a or y = b; we refer to this set as the pair set formed by a and b.<br />
+<b>Axiom 5</b>: (Pairwise union). Given any two sets A, B, there exists a set A ∪ B, called the union of A and B, which consists of all the elements which belong to A or B or both.<br />
+<b>Axiom 6</b>: (Axiom of specification). Let A be a set, and for each x &isin; A, let P(x) be a property pertaining to x (i.e., for each x &isin; A, P(x) is either a true statement or a false statement). Then there exists a set, called {x &isin; A : P(x) is true} (or simply {x &isin; A : P(x)} for short), whose elements are precisely the elements x in A for which P(x) is true. In other words, for any object y, y &isin; {x in A : P(x) is true} &lt;=&gt; (y &isin; A and P(y) is true). This axiom is also known as the <i>axiom of separation.</i> We sometimes write {x &isin; A | P(x)} instead of {x &isin; A : P(x)}<br />
+<b>Axiom 7</b>: (Replacement). Let A be a set. For any object x &isin; A, and any object y, suppose we have a statement P(x, y) pertaining to x and y, such that for each x &isin; A there is at most one y for which P(x, y) is true. Then there exists a set {y : P(x, y) is true for some x &isin; A}, such that for any object z, z &isin; {y : P(x, y) is true for some x &isin; A} &lt;=&gt; P(x, z) is true for some x &isin; A.<br />
+<b>Axiom 8</b>: (Infinity). There exists a set N, whose elements are called natural numbers, as well as an object 0 in N, and an object n++ assigned to every natural number n &isin; N, such that the Peano axioms hold.</li>
+</ul></li>
+<li>Russell's Paradox
+<ul class="org-ul">
+<li><b>Axiom 9</b>:(Universal specification). (<i>Dangerous!</i>) Suppose for every object x we have a property P(x) pertaining to x (so that for every x, P(x) is either a true statement or a false statement). Then there exists a set {x : P(x) is true} such that for every object y,<br />
+y &isin; {x : P(x) is true} &harr; P(y) is true.<br />
+This axiom is also known as the <i>axiom of comprehension</i>. It asserts that every property corresponds to a set; if we assumed that axiom, we could talk about the set of all blue objects, the set of all natural numbers, the set of all sets, and so forth. This axiom also implies most of the axioms in the previous section. Unfortunately, <b><i>this axiom cannot be introduced into set theory, because it creates a logical contradiction known as Russell’s paradox.</i></b></li>
+<li><b>Axiom 10</b> (Regularity). If A is a non-empty set, then there is at least one element x of A which is either not a set, or is disjoint from A.<br />
+The point of this axiom (which is also known as the axiom of foundation) is that it is asserting that at least one of the elements of A is so low on the hierarchy of objects that it does not contain any of the other elements of A. One particular consequence of this axiom is that sets are no longer allowed to contain themselves.</li>
+</ul></li>
+<li>Functions
+<ul class="org-ul">
+<li><b>Axiom 11</b>: (Power set axiom). Let X and Y be sets. Then there exists a set, denoted Y<sup>X</sup>, which consists of all the functions from X to Y , thus f &isin; Y &harr; Y<sup>X</sup> ( f is a function with domain X and codomain Y ).<br />
+<i>The reason we use the notation Y<sup>X</sup> to denote this set is that if Y has n elements and X has m elements, then one can show that Y X has n<sup>m</sup> elements.</i><br />
+The set {Y : Y is a subset of X} is known as the power set of X and is denoted 2<sup>X</sup>. For instance, if a, b, c are distinct objects, we have 2<sup>{a,b,c}</sup> = {∅, {a}, {b}, {c}, {a, b}, {a, c}, {b, c}, {a, b, c}}.</li>
+<li><b>Axiom 12</b>: (Union). Let A be a set, all of whose elements are themselves sets. Then there exists a set \(\bigcup\) A whose elements are precisely those objects which are elements of the elements of A, thus for all objects x, x &isin; \(\bigcup\) A &harr; (x &isin; S for some S &isin; A).</li>
+<li><b>Remark</b>: The axioms of set theory that we have introduced (Axioms 1 - 12, excluding the dangerous Axiom 9) are known as the <i>Zermelo–Fraenkel axioms of set theory</i>. There is one further axiom we will eventually need, the famous <i>axiom of choice</i>, giving rise to the <i>Zermelo–Fraenkel–Choice (ZFC) axioms of set theory</i>.</li>
+</ul></li>
+<li>Cardinality
+<ul class="org-ul">
+<li>Definition 1: (Equal cardinality) We say that two sets X and Y have equal cardinality iff there exists a bijection f : X → Y from X to Y.</li>
+<li>Definition 2: Let n be a natural number. A set X is said to have cardinality n, iff it has equal cardinality with {i &isin; N : 1 &le; i &le; n}. We also say that X has n elements iff it has cardinality n.</li>
+<li>Definition (Finite sets). A set is finite iff it has cardinality n for some natural number n; otherwise, the set is called infinite. If X is a finite set, we use <b><i>#(X)</i></b> to denote the cardinality of X.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org44c8dd4" class="outline-4">
+<h4 id="org44c8dd4"><span class="section-number-4">1.2.3</span> Chap 5: The Real number</h4>
+<div class="outline-text-4" id="text-1-2-3">
+<ol class="org-ol">
+<li>Constructing real number using Cauhy sequences
+<ul class="org-ul">
+<li>Definition (Real numbers). A real number is defined to be an object of the form LIM<sub>n&rarr;&infin;</sub> a<sub>n</sub>, where (a<sub>n</sub>)<sub>n=1</sub><sup>&infin;</sup> is a Cauchy sequence of rational numbers. Two real numbers LIM<sub>n&rarr;&infin;</sub> a<sub>n</sub> an and LIM<sub>n&rarr;&infin;</sub> b<sub>n</sub> are said to be equal iff (a<sub>n</sub>)<sub>n=1</sub><sup>&infin;</sup> and (b<sub>n</sub>)<sub>n=1</sub><sup>&infin;</sup> are equivalent Cauchy sequences. The set of all real numbers is denoted R.<br />
+<i>Note 1: the above formal "LIM" is not "lim", for more information see Analysis I - Tenrence Tao.</i><br />
+<i>Note 2: we can say the set of all real numbers exists using ZFC axioms.</i></li>
+<li>Theorem (Existence of least upper bound). Let E be a non-empty subset of R. If E has an upper bound, (i.e., E has some upper bound M), then it must have exactly one least upper bound.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org14e182a" class="outline-4">
+<h4 id="org14e182a"><span class="section-number-4">1.2.4</span> Chap 8: Infinite Sets</h4>
+<div class="outline-text-4" id="text-1-2-4">
+<ol class="org-ol">
+<li>Some interesting theorems:
+<ul class="org-ul">
+<li>Theorem 1:  Let \(\sum_{n=0}^\infty\) an be a series which is conditionally convergent (i.e., convergent, but not absolutely convergent), and let \(L\) be any real number. Then there exists a bijection \(f: N \to N\) such that \(\sum_{m=0}^\infty f(m)\) converges conditionally to \(L\).</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org3dba33c" class="outline-4">
+<h4 id="org3dba33c"><span class="section-number-4">1.2.5</span> Chap 9: Continuous functions on R</h4>
+<div class="outline-text-4" id="text-1-2-5">
+<ol class="org-ol">
+<li>Definition <i>(Adherent points)</i>:
+Let X be a subset of R, and let x &isin; R. We say that x is an adherent point of X iff it is &epsilon;-adherent to X for every &epsilon; &gt; 0.</li>
+<li>Definition <i>(Closure)</i>:
+Let X be a subset of R. The closure of X, sometimes denoted \(\overline{X}\) is defined to be the set of all the adherent points of X.</li>
+<li>Defintion <i>(Limit point)</i>:
+Let X be a subset of the real line. We say that x is a limit point (or a <i>cluster point</i>) of X iff it is an adherent point of \(X \backslash \{x\}\). We say that x is an isolated point of X if \(x \in X\) and there exists some \(\epsilon > 0\) such that \(|x − y| > \epsilon\) for all \(y \in  X \backslash \{x\}\).</li>
+<li><i>Heine–Borel theorem for the line</i>
+Let X be a subset of R. Then the following two statements are equivalent:<br />
+(a) X is closed and bounded.<br />
+(b) Given any sequence \((a_n)_{n=0}^\infty\) of real numbers which takes values in X (i.e., a<sub>n</sub> &isin; X for all n), there exists a subsequence \((a_{n_j})_{j=0}^\infty\) of the original sequence, which converges to some number L in X.</li>
+<li><i>Equivalent sequences</i>:
+Let \((a_n)_{n=1}^\infty\) and \((b_n)_{n=1}^\infty\) be sequences of real numbers (<i>not necessarily bounded or convergent</i>). Then \((a_n)_{n=1}^\infty\) and \((b_n)_{n=1}^\infty\) are equivalent if and only if \(\lim_{n\to\infty}(a_n- b_n)=0\).</li>
+<li><i>(L`Hôpital`s rule)</i>
+Let a &lt; b be real numbers, and let \(f:[a, b] \to R\) and \(g:[a, b] \to R\) be functions which are continuous on \([a, b]\) and differentiable on \((a, b]\). Suppose that \(f(a)=g(a)=0\), that \(g'\) is non-zero on \((a, b]\) (i.e., \(g'(x)\neq 0\) for all \(x \in (a, b])\), and \(\lim_{x\to a;x\in (a,b]} \frac{f'(x)}{g'(x)}\) exists and equals L. Then \(g(x)\neq 0\) for all \(x \in (a, b]\), and \(\lim_{x\to a;x\in (a,b]} \frac{f(x)}{g(x)}\)  exists and equals L.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf03feec" class="outline-4">
+<h4 id="orgf03feec"><span class="section-number-4">1.2.6</span> Chap 11: The Riemann Integral</h4>
+<div class="outline-text-4" id="text-1-2-6">
+<ol class="org-ol">
+<li>Definition <i>(connected)</i>:
+Let X be a subset of R. We say that X is connected iff X is nonempty and the following property is true: whenever x, y are elements in X such that x &lt; y, the bounded interval [x, y] is a subset of X (i.e., every number between x and y is also in X).</li>
+<li>The Riemann–Stieltjes Integral:
+<ul class="org-ul">
+<li>Let I be a bounded interval, let \(\alpha:I \to R\) be a monotone increasing function, and let \(f:I \to R\) be a function. Then there is a <i>generalization of the Riemann integral, known as the Riemann–Stieltjes integral</i>. This integral is defined just like the Riemann integral, but with one twist: instead of taking the length |J| of intervals J, we take the \(\alpha\) -length \(\alpha[J]\).</li>
+<li>Informally, \(fd\alpha\) is essentially equivalent to \(f\frac{d\alpha}{dx}dx\), when \(\alpha\) is differentiable. However, <i>the advantage of the Riemann– Stieltjes integral is that it still makes sense even when \(\alpha\) is not differentiable.</i></li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org8efa0c8" class="outline-2">
+<h2 id="org8efa0c8"><span class="section-number-2">2</span> Analyis II</h2>
+<div class="outline-text-2" id="text-2">
+</div>
+<div id="outline-container-org9ddabc8" class="outline-3">
+<h3 id="org9ddabc8"><span class="section-number-3">2.1</span> Analysis II - Tenrence Tao</h3>
+<div class="outline-text-3" id="text-2-1">
+</div>
+<div id="outline-container-org38b4d09" class="outline-4">
+<h4 id="org38b4d09"><span class="section-number-4">2.1.1</span> Chap 1 - Metric space</h4>
+<div class="outline-text-4" id="text-2-1-1">
+<ol class="org-ol">
+<li>Definition <i>(Metric spaces)</i>
+A metric space (X, d) is a space X of objects (called points), together with a <i>distance function</i> or <i>metric</i> \(d:X \times X \to [0, +\infty)\), which associates to each pair x, y of points in X a non-negative real number d(x, y) &ge; 0. Furthermore, the metric must satisfy the following four axioms:<br />
+(a) For any x &isin; X, we have d(x, x) = 0.<br />
+(b) (Positivity) For any distinct x, y &isin; X, we have d(x, y) &gt; 0.<br />
+(c) (Symmetry) For any x, y &isin; X, we have d(x, y) = d(y, x).<br />
+(d) (Triangle inequality) For any x, y, z &isin; X, we have d(x, z) &le; d(x, y) + d(y, z).<br />
+In many cases it will be clear what the metric d is, and we shall abbreviate (X, d) as just X.
+<ul class="org-ul">
+<li><i>(Euclidean spaces)</i>
+Let n &ge; 1 be a natural number, and let R<sup>n</sup> be the space of n-tuples of real numbers:<br />
+R<sup>n</sup> = {(x<sub>1</sub>, x<sub>2</sub>,&#x2026;, x<sub>n</sub>): x<sub>1</sub>,&#x2026;, x<sub>n</sub> &isin; R}.<br />
+We define the <i>Euclidean metric</i> (also called the l<sup>2</sup> metric) \(d_{l^2}: R^n \times R^n \to R\) by
+\[d_{l^2}((x_1,... ,x_n), (y_1,...,y_n)):= (\sum_{n=1}^n (x_i-y_i)^2)^{1/2}.\]</li>
+<li><i>(Taxicab metric)</i>
+Again let n &ge; 1, and let R<sub>n</sub> be as before. But now we use a different metric d<sub>l<sup>1</sup></sub>, the so-called taxicab metric (or l<sup>1</sup> metric), defined by
+\[d_{l^1}((x_1,x_2,...,x_n), (y_1,y_2,...,y_n)) := \sum_{i=1}^n |x_i-y_i|.\]</li>
+<li><i>(Sup norm metric)</i>
+Again let n &ge; 1, and let R<sub>n</sub> be as before. But now we use a different metric d<sub>l^&infin;</sub>, the so-called sup norm metric (or l^&infin; metric), defined by
+\[d_{l^\infty}((x_1,x_2,...,x_n), (y_1,y_2,...,y_n)) := sup\{|x_i - y_i| : 1 \leq i \leq n\}.\]</li>
+<li>\(l^p\) metrics, where \(p \in [1, +\infty]\)</li>
+<li><i>Discrete metric</i></li>
+<li><i>Geodesics</i></li>
+</ul></li>
+<li>Definition <i>(Convergence of sequences in metric spaces)</i>:
+Let m be an integer, (X, d) be a metric space, and let \((x^{(n)})_{n=m}^\infty\) be a sequence of points in X. Let x be a point in X. We say that \((x^{(n)})_{n=m}^\infty\) <i>converges to x with respect to the metric d</i>, if and only if the limit \(\lim_{n\to\infty} d(x^{(n)}, x)\) exists and is equal to 0.
+<ul class="org-ul">
+<li>Proposition <i>(Equivalence of \(l^1, l^2, l^\infty\))</i>
+Let R<sup>n</sup> be a Euclidean space, and let \((x^{(k)})_{k=m}^\infty\) be a sequence of points in R<sup>n</sup>. \(x_j^{(k)} \in R\) is the jth co-ordinate of \(x^{(k)} \in R^n\). Let \(x = (x_1,...,x_n)\) be a point in R<sup>n</sup>. Then the following four statements are equivalent:<br />
+(a) \((x^{(k)})_{k=m}^\infty\) converges to x with respect to the Euclidean metric d<sub>l<sup>2</sup></sub>.<br />
+(b) \((x^{(k)})_{k=m}^\infty\) converges to x with respect to the taxicab metric d<sub>l<sup>1</sup></sub>.<br />
+(c) \((x^{(k)})_{k=m}^\infty\) converges to x with respect to the sup norm metric d<sub>l^&infin;</sub>.<br />
+(d) For every 1 &le; j &le; n, the sequence \((x^{(k)})_{k=m}^\infty\) converges to x<sub>j</sub>. <i>(Notice that this is a sequence of real numbers, not of points in R<sup>n</sup>.</i>)</li>
+<li>Note: Because of the equivalence of (a), (b), and (c), we say that the Euclidean, taxicab, and supnorm metrics on R<sup>n</sup> are equivalent. (There are infinite-dimensional analogues of the Euclidean, taxicab, and sup norm metrics which are not equivalent)</li>
+<li>Proposition <i>(Uniqueness of limits)</i>
+Let (X, d) be a metric space, and let \((x^{(n)})_{n=m}^\infty\) be a sequence in X. Suppose that there are two points x, x' &isin; X such that \((x^{(n)})_{n=m}^\infty\) converges to x with respect to d, and \((x^{(n)})_{n=m}^\infty\) also converges to x' with respect to d. Then we have x = x'.</li>
+</ul></li>
+<li>Some Point-Set Topology of Metric Spaces
+<ul class="org-ul">
+<li>Definition <i>(Balls)</i>
+Let \((X, d)\) be a metric space, let \(x_0\) be a point in \(X\), and let \(r > 0\). We define the ball \(B_{(X,d)}(x_0, r)\) in \(X\), centered at \(x_0\), and with radius \(r\), in the metric \(d\), to be the set \(B_{(X,d)}(x_0, r):= \{x \in X: d(x, x_0) < r\}\).<br />
+When it is clear what the metric space \((X, d)\) is, we shall abbreviate \(B_{(X,d)}(x_0, r)\) as just \(B(x_0, r)\).</li>
+<li>Definition <i>(Interior, exterior, boundary)</i>
+Let \((X, d)\) be a metric space, let \(E\) be a subset of \(X\), and let \(x_0\) be a point in \(X\). We say that \(x_0\) is an interior point of \(E\) if there exists a radius \(r > 0\) such that \(B(x_0, r) \subseteq E\). We say that \(x_0\) is an exterior point of \(E\) if there exists a radius \(r > 0\) such that \(B(x_0, r) \cap E = \varnothing\). We say that \(x_0\) is a boundary point of \(E\) if it is neither an interior point nor an exterior point of \(E\). The set of all interior points of \(E\) is called the interior of \(E\) and is sometimes denoted \(int(E)\). The set of exterior points of \(E\) is called the exterior of \(E\) and is sometimes denoted \(ext(E)\). The set of boundary points of E is called the boundary of E and is sometimes denoted \(\partial E\).</li>
+<li>Definition <i>(Closure)</i>
+Let \((X, d)\) be a metric space, let \(E\) be a subset of \(X\), and let \(x_0\) be a point in \(X\). We say that \(x_0\) is an adherent point of \(E\) if for every radius \(r > 0\), the ball \(B(x_0, r)\) has a non-empty intersection with \(E\). <i>The set of all adherent points of \(E\) is called the closure of \(E\)</i> and is denoted \(\overline{E}\).<br />
+<i>*note:</i> every points of E are adherent points, including isolated points.</li>
+<li>Definition <i>(Open and closed sets)</i>
+Let \((X, d)\) be a metric space, and let \(E\) be a subset of \(X\). We say that \(E\) is closed if it contains all of its boundary points. We say that \(E\) is open if it contains none of its boundary points. <i>If E contains some of its boundary points but not others, then it is neither open nor closed.</i><br />
+<i>*note:</i> It is possible for a set to be simultaneously open and closed, if it has no boundary.<br />
+<i>*note 2:</i> it is not just the choice of metric which determines what is open and what is not, it is also the choice of <i>ambient space</i> X.<br /></li>
+<li>Definition <i>(Relative topology)</i>
+Let \((X, d)\) be a metric space, let \(Y\) be a subset of \(X\), and let \(E\) be a subset of \(Y\) . We say that \(E\) is relatively open with respect to \(Y\) if it is open in the metric subspace \((Y, d|_{Y\times Y})\). Similarly, we say that \(E\) is relatively closed with respect to \(Y\) if it is closed in the metric space \((Y, d|_{Y\times Y})\).</li>
+</ul></li>
+<li>Cauchy Sequences and Complete Metric Spaces
+<ul class="org-ul">
+<li>Definition <i>(Limit points)</i>
+Suppose that \((x^{(n)})_{n=m}^\infty\) is a sequence of points in a metric space \((X, d)\), and let \(L \in X\). We say that \(L\) is a limit point of \((x^{(n)})_{n=m}^\infty\) iff for every \(N \geq m\) and \(\epsilon > 0\) there exists <b><i>an</i></b> \(n \geq N\) such that \(d(x^{(n)}, L) \leq \epsilon\).</li>
+<li>Proposition:
+Let \((x^{(n)})_{n=m}^\infty\) be a sequence of points in a metric space \((X, d)\), and let \(L \in X\). Then the following are equivalent:<br />
+(i) \(L\) is a limit point of \((x^{(n)})_{n=m}^\infty\).<br />
+(ii) There exists a subsequence \((x^{(n_j)})_{j=1}^\infty\) of the original sequence \((x^{(n)})_{n=m}^\infty\) which converges to \(L\).<br />
+<i>*Note:</i> Limit points is not always converge points.<br />
+<i>*Note2:</i> "limit point of a set" is synonymous with "cluster/accumulation point of a set", this is not true for sequences (nor nets or filters). That is, the term "limit point of a sequence" is not synonymous with "cluster/accumulation point of a sequence". The limit points of a set should not be confused with adherent points (also called points of closure). A limit point can be characterized as an adherent point that is not an isolated point.</li>
+<li>Definition <i>(Cauchy sequences)</i>
+Let \((x^{(n)})_{n=m}^\infty\) be a sequence of points in a metric space \((X, d)\). We say that this sequence is a Cauchy sequence iff for every \(\epsilon > 0\), there exists an \(N \geq m\) such that \(d(x^{(j)}, x^{(k)}) < \epsilon\) for all \(j, k \geq N\).</li>
+<li>Definition <i>(Complete metric spaces)</i>
+A metric space \((X, d)\) is said to be complete iff every Cauchy sequence in \((X, d)\) is in fact convergent in \((X, d)\).</li>
+<li>Proposition:<br />
+(a) Let \((X, d)\) be a metric space, and let \((Y, d|_{Y \times Y})\) be a subspace of \((X, d)\). If \((Y, d|_{Y \times Y})\) is complete, then \(Y\) must be closed in \(X\).<br />
+(b) Conversely, suppose that \((X, d)\) is a complete metric space, and \(Y\) is a closed subset of \(X\). Then the subspace \((Y, d|_{Y \times Y})\) is also complete.<br />
+<i>*Note:</i> In contrast, an incomplete metric space such as \((Q, d)\) may be considered closed in some spaces (for instance, \(Q\) is closed in \(Q\)) but not in others (for instance, \(Q\) is not closed in \(R\)). Indeed, it turns out that given any incomplete metric space \((X, d)\), there exists a <i>completion</i> \((\overline{X},\overline{d})\), which is a larger metric space containing \((X, d)\) which is complete, and such that \(X\) is not closed in \(\overline{X}\) (indeed, the closure of \(X\) in \((\overline{X}, \overline{d})\) will be all of \(X\)).</li>
+</ul></li>
+<li>Compact Metric spaces
+<ul class="org-ul">
+<li>Definition <i>(Compactness)</i>
+A metric space \((X, d)\) is said to be compact iff every sequence in \((X, d)\) has at least one convergent subsequence. A subset \(Y\) of a metric space \(X\) is said to be compact if the subspace \((Y, d|_{Y \times Y})\) is compact.</li>
+<li>Remark:
+The notion of a set \(Y\) being compact is <i>intrinsic</i>, in the sense that it only depends on the metric function $d|<sub>Y &times; Y</sub> restricted to \(Y\), and not on the choice of the ambient space \(X\). The notions of completeness, and of boundedness, are also intrinsic, but the notions of open and closed are not.</li>
+<li>Definition <i>(Bounded sets)</i>
+Let \((X, d)\) be a metric space, and let \(Y\) be a subset of \(X\). We say that \(Y\) is bounded iff for every \(x \in X\) there exists a ball \(B(x, r)\) in \(X\) of some finite radius \(r\) which contains \(Y\) . We call the metric space \((X, d)\) bounded if \(X\) is bounded.</li>
+<li>Proposition:
+Let \((X, d)\) be a compact metric space. Then \((X, d)\) is both complete and bounded.</li>
+<li>Theorem <i>(Heine–Borel theorem)</i>
+Let \((R_n, d)\) be a Euclidean space with either the Euclidean metric, the taxicab metric, or the sup norm metric. Let E be a subset of \(R_n\). Then \(E\) is compact if and only if it is closed and bounded.<br />
+<i>*Note:</i> However, the Heine–Borel theorem is not true for more general metrics. For instance, the integer Z with the discrete metric is closed (indeed, it is complete) and bounded, but not compact, since the sequence 1, 2, 3, 4, . . . is in Z but has no convergent subsequence.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgaeb32e6" class="outline-4">
+<h4 id="orgaeb32e6"><span class="section-number-4">2.1.2</span> Chap 2 - Continous functions on metric spaces</h4>
+<div class="outline-text-4" id="text-2-1-2">
+<ol class="org-ol">
+<li>Continous functions
+<ul class="org-ul">
+<li>Definition <i>(Continuous functions)</i>
+Let \((X, d_X)\) be a metric space, and let \((Y, d_Y)\) be another metric space, and let \(f: X \to Y\) be a function. If \(x_0 \in X\), we say that \(f\) is continuous at \(x_0\) iff for every \(\epsilon > 0\), there exists a \(\delta > 0\) such that \(d_Y(f(x),f (x_0)) < \epsilon\) whenever \(d_X(x, x_0) < \delta\). We say that \(f\) is continuous iff it is continuous at every point \(x \in X\).</li>
+</ul></li>
+<li>Continuity and Connectedness
+<ul class="org-ul">
+<li>Definition <i>(Connected spaces)</i>
+Let \((X, d)\) be a metric space. We say that \(X\) is disconnected iff there exist disjoint non-empty open sets \(V\) and \(W\) in \(X\) such that \(V \cup W = X\). (Equivalently, \(X\) is disconnected if and only if \(X\) contains a non-empty proper subset which is simultaneously closed and open.) We say that \(X\) is connected iff it is non-empty and not disconnected. We declare the empty set \(\emptyset\) as being special—it is neither connected nor disconnected; one could think of the empty set as “unconnected”.</li>
+</ul></li>
+<li>Topological spaces:
+<ul class="org-ul">
+<li>Definition <i>(Topological spaces)</i>
+A topological space is a pair \((X, F)\), where \(X\) is a set and \(F \subseteq 2^X\) is a collection of subsets of \(X\), whose elements are referred to as <i>open sets</i>. Furthermore, the collection \(F\) must obey the following properties:<br />
+• The empty set \(\varnothing\) and the whole set \(X\) are open; in other words, \(\varnothing \in F\) and \(X \in F\).<br />
+• Any finite intersection of open sets is open.<br />
+• Any arbitrary union of open sets is open (including infinite unions).<br />
+In many cases, the collection \(F\) of open sets can be deduced from context, and we shall refer to the topological space \((X, F)\) simply as \(X\).</li>
+<li>Definition <i>(Neighborhoods)</i>
+Let \((X, F)\) be a topological space, and let \(x \in X\). A neighborhood of \(x\) is defined to be any open set in \(F\) which contains \(x\).</li>
+<li>Definition <i>(Topological convergence)</i>
+Let m be an integer, (X, F) be a topological space and let \((x^{(n)})_{n=m}^\infty\) be a sequence of points in X. Let x be a point in X. We say that \((x^{(n)})_{n=m}^\infty\) converges to x if and only if, for every neighborhood V of x, there exists an N &ge; m such that \(x^{(n)} \in V\) for all n &ge; N.<br />
+<i>*Note:</i> This notion is consistent with that of convergence in metric spaces. One can then ask whether one has the basic property of uniqueness of limits. The answer turns out to usually be yes—if the topological space has an additional property known as the /Hausdorff property/—but the answer can be no for other topologies.</li>
+<li>Definition <i>(Hausdorff property)</i>
+A topological space (X, F) is said to be Hausdorff if given any two distinct points x, y &isin; X, there exists a neighborhood V of x and a neighborhood W of y such that \(V \cap W = \varnothing\).<br />
+(In practice, most topological spaces one works with are Hausdorff; non-Hausdorff topological spaces tend to be so pathological that it is not very profitable to work with them.)</li>
+<li>Remark: There is unfortunately no notion of a Cauchy sequence, a complete space, or a bounded space, for general topological spaces.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org00f9e98" class="outline-4">
+<h4 id="org00f9e98"><span class="section-number-4">2.1.3</span> Chap 3 - Uniform Convergence</h4>
+<div class="outline-text-4" id="text-2-1-3">
+<ol class="org-ol">
+<li>Theorem <i>(Weierstrass M-test)</i>
+Let (X, d) be a metric space, and let \((f^{(n)})_{n=1}^\infty\) be a sequence of bounded real-valued continuous functions on X such that the series \(\sum_{n=1}^\infty \|f^{(n)}\|_\infty\)  is convergent. (Note that this is a series of plain old real numbers, not of functions.) Then the series \(\sum_{n=1}^\infty \|f^{(n)}\|_\infty\) converges uniformly to some function f on X, and that function f is also continuous.<br />
+<i>*Note:</i> \(\|f\|_\infty\) is the <i>sup norm</i> or <i>uniform norm</i>.</li>
+<li>Uniform Approximation by Polynomials
+<ul class="org-ul">
+<li>Theorem <i>(Weierstrass approximation theorem)</i>
+If [a, b] is an interval, f:[a, b] &rarr; R is a continuous function, and &epsilon; &gt; 0, then there exists a polynomial P on [a, b] such that \(d_\infty(P, f ) \leq \varepsilon\) (i.e., \(|P(x) − f(x)| \leq \varepsilon\) for all x &isin; [a, b]).</li>
+<li>Remark: Another way of stating this theorem is as follows. Recall that C([a, b] &rarr; R) was the space of continuous functions from [a, b] to R, with the uniform metric d<sub>&infin;</sub>. Let P([a, b] &rarr; R) be the space of all polynomials on [a, b]; this is a subspace of C([a, b] &rarr; R), since all polynomials are continuous. The Weierstrass approximation theorem then asserts that every continuous function is an adherent point of P([a, b] &rarr; R); or in other words, that the closure of the space of polynomials is the space of continuous functions: \(\overline{P([a, b] \to R)} = C([a, b] \to R)\).<br />
+In particular, every continuous function on [a, b] is the uniform limit of polynomials. Another way of saying this is that the space of polynomials is dense in the space of continuous functions, in the uniform topology.</li>
+<li>Definition <i>(Compactly supported functions)</i>
+Let [a, b] be an interval. A function f:R &rarr; R is said to be supported on [a, b] if f(x) = 0 for all x &notin; [a, b]. We say that f is compactly supported if it is supported on some interval [a, b]. If f is continuous and supported on [a, b], we define the improper integral \(\int_{-\infty}^\infty f\) to be \(\int_{-\infty}^\infty f := \int_{[a,b]} f\).</li>
+<li>Definition <i>(Approximation to the identity)</i>
+Let &epsilon; &gt; 0 and 0 &lt; &delta; &lt; 1. A function f : R &rarr; R is said to be an (&epsilon;, &delta; )-approximation to the identity if it obeys the following three properties:<br />
+(a) f is supported on [−1, 1], and f (x) &ge; 0 for all −1 &le; x &le; 1.<br />
+(b) f is continuous, and \(\int_{-\infty}^\infty f = 1\).<br />
+(c) |f(x)| &le; &epsilon; for all &delta; &le; |x| &le; 1.</li>
+<li><b><i>Our proof of the Weierstrass approximation theorem relies on three key facts</i></b></li>
+<li><b>Fact 1</b> - <i>(Lemma - Polynomials can approximate the identity)</i>
+For every &epsilon; &gt; 0 and 0 &lt; &delta; &lt; 1 there exists an (&epsilon;, &delta; )-approximation to the identity which is a polynomial P on [−1, 1].</li>
+<li>Definition <i>(Convolution)</i>
+Let f : R &rarr; R and g : R &rarr; R be continuous, compactly supported functions. We define the convolution f∗g: R &rarr; R of f and g to be the function \((f∗g)(x):= \int_{-\infty}^\infty f(y)g(x - y)dy\).</li>
+<li><i>(Basic properties of convolution)</i>
+Let f: R &rarr; R, g: R &rarr; R,and h: R &rarr; R be continuous, compactly supported functions. Then the following statements are true.<br />
+(a) The convolution f ∗ g is also a continuous, compactly supported function.<br />
+(b) (Convolution is commutative) We have f ∗ g = g ∗ f.<br />
+(c) (Convolution is linear) We have f ∗ (g + h) = f ∗ g + f ∗ h. Also, for any real number c, we have f ∗ (cg) = (cf ) ∗ g = c( f ∗ g).</li>
+<li><b>Fact 2</b> - <i>(Lema convolution with polynomials produces another polynomial)</i>:
+Let f: R → R be a continuous function supported on [0, 1], and let g: R → R be a continuous function supported on [−1, 1] which is a polynomial on [−1, 1]. Then f ∗ g is a polynomial on [0, 1]. <i>(Note however that it may be non-polynomial outside of [0, 1].)</i></li>
+<li><b>Fact 3</b>: <i>If one convolves a uniformly continuous function with an approximation to the identity, we obtain a new function which is close to the original function (which explains the terminology “approximation to the identity”)</i><br />
+Lemma - Let f: R &rarr; R be a continuous function supported on [0, 1], which is bounded by some M &gt; 0 (i.e., |f(x)| &le; M for all x &isin; R), and let &epsilon; &gt; 0 and 0 &lt; &delta; &lt; 1 be such that one has |f(x)-f(y)| &lt; &epsilon; whenever x, y &isin; R and |x-y| &lt; &delta; . Let g be any (&epsilon;, &delta; )-approximation to the identity. Then we have |f ∗ g(x) - f(x)| ≤ (1 + 4M)&epsilon; for all x &isin; [0, 1].</li>
+<li>Corollary <i>(Weierstrass approximation theorem I)</i>
+Let f: R &rarr; R be a continuous function supported on [0, 1]. Then for every &epsilon; &gt; 0, there exists a function P: R &rarr; R which is polynomial on [0, 1] and such that |P(x) - f(x)| &le; &epsilon; for all x &isin; [0, 1].</li>
+<li>Lemma <i>(the extension of f by zero)</i>:
+Let f: [0, 1] &rarr; R be a continuous function which equals 0 on the boundary of [0, 1], i.e., f(0) = f(1) = 0. Let F: R &rarr; R be the function defined by setting F(x) := f(x) for x &isin; [0, 1] and F(x) := 0 for x &notin; [0, 1]. Then F is also continuous.</li>
+<li>Corollary <i>(Weierstrass approximation theorem II)</i>
+Let f: [0, 1] &rarr; R be a continuous function such that f(0) = f(1) = 0. Then for every &epsilon; &gt; 0 there exists a polynomial P: [0, 1] &rarr; R such that |P(x) - f(x)| &le; &epsilon; for all x &isin; [0, 1].</li>
+<li>Corollary <i>(Weierstrass approximation theorem III)</i>
+Let f: [0, 1] &rarr; R be a continuous function. Then for every &epsilon; &gt; 0 there exists a polynomial P: [0, 1] &rarr; R such that |P(x) - f(x)| &le; &epsilon; for all x &isin; [0, 1].</li>
+<li><i>Proof of Theorem</i>
+<ul class="org-ul">
+<li>Let f: [a, b] → R be a continuous function on [a, b]. Let g: [0, 1] &rarr; R denote the function g(x):= f(a + (b − a)x) for all x &isin;  [0, 1].</li>
+<li>Observe then that f(y) = g((y − a)/(b − a)) for all y &isin; [a, b].</li>
+<li>The function g is continuous on [0, 1] (why?), and so by previous Corollary we may find a polynomial Q: [0, 1] &rarr; R such that |Q(x) - g(x)| &le; &epsilon; for all x &isin; [0, 1]. In particular, for any y &isin; [a, b], we have</li>
+<li>|Q((y − a)/(b − a)) − g((y − a)/(b − a))| &le; &epsilon;</li>
+<li>If we thus set P(y):= Q((y − a)/(b − a)), then we observe that P is also a polynomial (why?), and so we have |P(y) − f(y)| &le; &epsilon; for all y &isin; [a, b], as desired.</li>
+</ul></li>
+<li><i>Remark 1</i>:
+Note that the Weierstrass approximation theorem only works on bounded intervals [a, b]; continuous functions on R cannot be uniformly approximated by polynomials. For instance, the exponential function f: R → R defined by \(f(x) := e^x\) cannot be approximated by any polynomial, because exponential functions grow faster than any polynomial and so there is no way one can even make the sup metric between f and a polynomial finite.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org333e333" class="outline-4">
+<h4 id="org333e333"><span class="section-number-4">2.1.4</span> Chap 4 - Power series</h4>
+<div class="outline-text-4" id="text-2-1-4">
+<ol class="org-ol">
+<li>Real Analytic Functions
+<ul class="org-ul">
+<li>Definition <i>(Real analytic functions)</i> Let E be a subset of R, and let f: E &rarr; R be a function. If <i>a</i> is an interior point of E, we say that f is <i>real analytic at a</i> if there exists an open interval <i>(a − r, a + r)</i> in E for some r &gt; 0 such that there exists a power series \(\sum_{n=0}^\infty c_n(x − a)^n\) centered at <i>a</i> which has a radius of convergence greater than or equal to r and which converges to f on <i>(a − r, a + r)</i>. If E is an open set, and f is real analytic at every point a of E, we say that f is <i>real analytic on E</i>.</li>
+<li>Example: Consider the function \(f: R\backslash \{1\}\) to R defined by f(x):= 1/(1 − x). This function is real analytic at 0 because we have a power series \(\sum_{n=0}^\infty x^n\) centered at 0 which converges to 1/(1 − x) = f(x) on the interval (−1, 1). This function is also real analytic at 2 because we have a power series \(\sum_{n=0}^\infty (−1)^{n+1}(x − 2)^n\) which converges to \(\frac{-1}{1−(-(x−2))} = \frac{1}{1-x} = f(x)\) on the interval (1, 3). In fact this function is real analytic on all of \(R\backslash \{1\}\);</li>
+<li>Corollary <i>(Taylor’s formula)</i>
+Let E be a subset of R, let <i>a</i> be an interior point of E, and let \(f: E \to R\) be a function which is real analytic at a and has the power series expansion \(f(x) = \sum_{n=0}^\infty c_n(x − a)^n\) for all x &isin; <i>(a − r, a + r)</i> and some r &gt; 0. Then for any integer k &ge; 0, we have \(f^{(k)}(a) = k!c_k\). In particular, we have <i>Taylor’s formula</i> \(f(x) = \sum_{n=0}^\infty \frac{f^{(n)}(a)}{n!} (x − a)^n\) for all x in <i>(a − r, a + r).</i><br />
+/*Note:/Note that Taylor’s formula only works for functions which are real analytic; there are examples of functions which are infinitely differentiable but for which Taylor’s theorem fails. Another important corollary of Taylor’s formula is that a real analytic function</li>
+</ul></li>
+</ol>
+<p>
+can have at most one power series at a point. While a real analytic function has a unique power series around any given point, it can certainly have different power series at different points.
+</p>
+</div>
+</div>
+<div id="outline-container-orgfcaf4d9" class="outline-4">
+<h4 id="orgfcaf4d9"><span class="section-number-4">2.1.5</span> Chap 5 - Fourier Series</h4>
+<div class="outline-text-4" id="text-2-1-5">
+<ol class="org-ol">
+<li>Periodic Functions
+<ul class="org-ul">
+<li>Definition:
+Let L &gt; 0 be a real number. A function \(f: R \to C\) is periodic with period L, or L-periodic, if we have \(f(x + L) = f(x)\) for every real number x.<br />
+Note: In particular, if a function f is 1-periodic, then we have f(x + k) = f(x) for every k &isin; Z. Because of this, 1-periodic functions are sometimes also called Z-periodic (and L-periodic functions called LZ-periodic).</li>
+<li>Notation: The space of complex-valued continuous <b>Z</b>-periodic functions is denoted C(<b>R/Z;C</b>). (The notation <b>R/Z</b> comes from algebra, and denotes the quotient group of the additive group <b>R</b> by the additive group <b>Z</b>). By “continuous” we mean continuous at all points on <b>R</b>; merely being continuous on an interval such as [0, 1] will not suffice, as theremay be a discontinuity between the left and right limits at 1 (or at any other integer).</li>
+<li>Lemma <i>(Basic properties of C(<b>R/Z;C</b>))</i><br />
+(a) <i>(Boundedness)</i> If f &isin; C(<b>R/Z;C</b>), then f is bounded.<br />
+(b) <i>(Vector space and algebra properties)</i> If f, g &isin; C(<b>R/Z;C</b>), then the functions f + g, f − g, and f g are also in C(<b>R/Z;C</b>). Also, if c is any complex number, then the function cf is also in C(<b>R/Z;C</b>).<br />
+(c) <i>(Closure under uniform limits)</i> If \((f_n)_{n=1}^\infty\) is a sequence of functions in C(<b>R/Z;C</b>) which converges uniformly to another function \(f:R \to C\), then f is also in C(<b>R/Z;C</b>)</li>
+</ul></li>
+<li>Inner Products on Periodic Functions
+<ul class="org-ul">
+<li>Definition <i>(Inner product)</i>
+If f, g &isin; C(<b>R/Z;C</b>), we define the inner produc \(\langle f,g \rangle\) to be the quantity \(\langle f,g \rangle  = \int_{[0,1]}f(x)\overline{g(x)}dx\).<br />
+Note:  In order to integrate a complex-valued function, \(f(x) = g(x) + ih(x)\), we use the definition that \(\int_{[a,b]}f:= \int_{[a,b]}g + i\int_{[a,b]}h\); i.e., we integrate the real and imaginary parts of the function separately.</li>
+<li>Lemma: Let f, g, h &isin; C(<b>R/Z;C</b>).<br />
+(a) <i>(Hermitian property)</i> We have \(\langle g,f \rangle = \overline{\langle f,g \rangle}\).<br />
+(b) <i>(Positivity)</i> We have \(\langle f,f \rangle \geq 0\). Furthermore, we have \(\langle f,f \rangle = 0\) if and only if f = 0 (i.e., f(x) = 0 for all x &isin; R).<br />
+(c) <i>(Linearity in the first variable)</i> We have \(\langle f + g, h \rangle = \langle f,h \rangle + \langle g,h \rangle\). For any complex number c, we have \(\langle cf,g \rangle = c\langle f,g \rangle\).<br />
+(d) <i>(Antilinearity in the second variable)</i> We have  \(\langle f , g + h \rangle = \langle f,g \rangle + \langle f,h \rangle\). For any complex number c, we have \(\langle cf,g \rangle = \overline{c}\langle f,g \rangle\).</li>
+<li>Definition: <i>L<sup>2</sup> norm ||f||<sub>2</sub> of a function f &isin; C(<b>R/Z;C</b>)</i>
+\[ \|f\|_2:=\sqrt{\langle f,f\rangle} = \left(\int_{[0,1]}f(x)\overline{f(x)}dx\right)^{1/2} = \left(\int_{[0,1]}|f(x)|^2 dx\right)^{1/2} \]
+Thus ||f||<sub>2</sub> &ge; 0 for all f . The norm ||f||<sub>2</sub> is sometimes called the <i>root mean square of f</i>.<br />
+*Remark: This \(L^2\) norm isrelated to, but is distinctfrom, the \(L^\infty\) norm \(\|f\|_\infty := sup_{x\in R} |f(x)|\). For instance, if \(f(x) = \sin{(2\pi x)}\), then \(\|f\|_\infty = 1\) but \(\|f\|_2 = \frac{1}{\sqrt{2}}\). In general, the best one can say is that \(0 \leq \|f\|_2 \leq \|f\|_infty\).</li>
+<li>Lema <i>(Some basic properties of the L<sup>2</sup> norm)</i>:
+Let f, g &isin; C(<b>R/Z;C</b>).<br />
+(a) <i>(Non-degeneracy)</i> We have \(\|f\|_2 = 0\) if and only if \(f=0\).<br />
+(b) <i>(Cauchy–Schwarz inequality)</i> We have \(|\langle f, g \rangle | \leq \| f\|_2 \|g\|_2\).<br />
+(c) <i>(Triangle inequality)</i> We have \(\|f + g\|_2 \leq \|f\|_2 + \|g\|_2\).<br />
+(d) <i>(Pythagoras’ theorem)</i> If \(\langle f,g \rangle = 0\), then \|f + g\|<sub>2</sub><sup>2</sup> = \|f\|<sub>2</sub><sup>2</sup> + \|g\|<sub>2</sub><sup>2</sup>$. In light of Pythagoras’ theorem, we sometimes say that f and g are <i>orthogonal</i>.<br />
+(e) <i>(Homogeneity)</i> We have \(\|cf\|_2 = |c|\|f\|_2\) for all \(c \in C\).</li>
+<li>Definition <i>(L<sup>2</sup> metric d<sub>L<sup>2</sup></sub> on C(<b>R/Z;C</b>)</i>
+\[d_{L^2}(f,g):= \|f − g\|_2 = \left(\int_{[0,1]}|f(x) − g(x)|^2 dx\right)^{1/2}.\]
+<i>The L<sup>2</sup> metric is very similar to the l<sup>2</sup> metric on Euclidean spaces Rn, which is why the notation is deliberately chosen to be similar.</i></li>
+<li>Remark:<br />
+(a) Note that a sequence f<sub>n</sub> of functions in C(<b>R/Z;C</b>) will converge in the L<sup>2</sup> metric to f &isin; C(<b>R/Z;C</b>) if \(d_{L^2}(f_n,f) \to 0\) as \(n \to \infty\), or in other words that \(\lim_{n\to\infty}\int_{[0,1]}|f_n(x) − f(x)|^2 dx = 0\).<br />
+(b) The notion of convergence in L<sup>2</sup> metric is different from that of uniform or pointwise convergence.<br />
+(c) The L<sup>2</sup> metric is not as well-behaved as the \(L^\infty\) metric. For instance, it turns out the space C(<b>R/Z;C</b>) is not complete in the L<sup>2</sup> metric, despite being complete in the \(L^\infty\) metric.</li>
+</ul></li>
+<li>Trigonometric Polynomials
+<ul class="org-ul">
+<li>Definition <i>(Characters)</i>
+For every integer n, we let <i>e<sub>n</sub></i> &isin; C(<b>R/Z;C</b>) denote the function \(e_n(x):=e^{2\pi inx}\). This is sometimes referred to as the <i>character with frequency n</i>.</li>
+<li>Definition <i>(Trigonometric polynomials)</i>
+A function \(f\) in C(<b>R/Z;C</b>) is said to be a trigonometric polynomial if we can write \(f=\sum_{n=-N}^N c_ne_n\) for some integer N &ge; 0 and some complex numbers \((c_n)_{n=−N}^N\).</li>
+<li>Lemma <i>(Characters are an orthonormal system)</i>
+For any integers n and m, we have \(\langle e_n, e_m \rangle = 1\) when n = m and \(\langle e_n, e_m \rangle = 0\) when n &ne; m. Also, we have \(\|e_n\| = 1\).</li>
+<li>Corollary:
+Let \(f = \sum_{n=−N}^N c_ne_n\) be a trigonometric polynomial. Then we have the formula \(c_n = \langle f, e_n \rangle\) for all integers −N &le; n &le; N. Also, we have \(0 = \langle f, e_n \rangle\) whenever n &gt; N or n &lt; −N. Also, we have the identity \(\|f\|_2^2 = \sum_{n=−N}^N |c_n|^2\).</li>
+<li>Definition <i>(Fourier transform)</i>
+For any function \(f\) &isin; C(<b>R/Z;R</b>), and any integer n &isin; Z, we define the \(n^{th}\) <i>Fourier coefficient of \(f\)</i> , denoted \(\hat{f}(n)\), by the formula \[\hat{f}(n):= \langle f, e_n \rangle = \int_{[0,1]} f(x)e^{−2\pi inx} dx.\]
+The function \(\hat{f}: Z \to C\) is called the <i>Fourier transform of f</i>.</li>
+<li>Note: in particular we have the <i>Fourier inversion formula</i>
+\[f = \sum_{n=-\infty}^\infty \hat{f}(n)e_n\]
+or in other words
+\[f(x) = \sum_{n=−\infty}^\infty \hat{f}(n)e^{2\pi inx}.\]
+The right-hand side is referred to as the <i>Fourier series of f</i>. Also, we have the <i>Plancherel formula</i>
+\[\|f\|_2^2 = \sum_{n=-\infty}^\infty\|\hat{f}(n)\|^2.\]
+<ul class="org-ul">
+<li><b>Remark</b>: We stress that at present we have only proven the Fourier inversion and Plancherel formulae in the case when f is a trigonometric polynomial. Note that in this case that the Fourier coefficients \(\hat{f}(n)\) are mostly zero (indeed, they can only be non-zero when −N &le; n &le; N), and so this infinite sum is really just a finite sum in disguise. In particular there are no issues about what sense the above series converge in; they both converge pointwise, uniformly, and in L<sup>2</sup> metric, since they are just finite sums.</li>
+</ul></li>
+<li><i>Now, we will extend the Fourier inversion and Plancherel formulae to general functions in C(R/Z; C), not just trigonometric polynomials. (It is also possible to extend the formula to discontinuous functions such as the square wave, but we will not do so here.)</i></li>
+</ul></li>
+<li>Periodic Convolutions
+<ul class="org-ul">
+<li>Theorem <i>(Weierstrass approximation theoremfor trigonometric polynomials)</i>
+Let \(f\) &isin; C(<b>R/Z;C</b>), and let &epsilon; &gt; 0. Then there exists a trigonometric polynomial \(P\) such that \(\|f − P\|_\infty \leq \varepsilon\).<br />
+<i>*Note 1:</i> This theorem asserts that any continuous periodic function can be uniformly approximated by trigonometric polynomials. To put it another way, if we let P(<b>R/Z;C</b>) denote the space of all trigonometric polynomials, then the closure of P(<b>R/Z;C</b>) in the \(L^\infty\) metric is C(<b>R/Z;C</b>).<br />
+<i>*Note 2:</i> It is possible to prove this theorem directly from the Weierstrass approximation theorem for polynomials, and both theorems are a special case of a much more general theorem known as the <i>Stone-Weierstrass theorem</i>, which we will not discuss here. However we shall instead prove this theorem from scratch, in order to introduce a couple of interesting notions, notably that of periodic convolution.</li>
+<li>Definition <i>(Periodic convolution)</i>
+Let \(f, g\) &isin;  C(<b>R/Z;C</b>). Then we define the <i>periodic convolution</i> \(f ∗ g: R \to C\) of \(f\) and \(g\) by the formula
+\[f ∗ g(x):= \int_{[0,1]} f(y)g(x − y) dy.\]
+<i>*Note:</i> Note that this formula is slightly different from the convolution for compactly supported functions, because we are only integrating over [0, 1] and not on all of R. Thus, in principle we have given the symbol f ∗ g two conflicting meanings. However, in practice there will be no confusion, because it is not possible for a non-zero function to both be periodic and compactly supported.</li>
+<li>Lemma <i>(Basic properties of periodic convolution)</i>
+Let \(f, g, h\) &isin; C(<b>R/Z;C</b>).<br />
+(a) <i>(Closure)</i> The convolution f ∗ g is continuous and Z-periodic. In other words, \(f ∗ g\) &isin; C(<b>R/Z;C</b>).<br />
+(b) <i>(Commutativity)</i> We have \(f ∗ g = g ∗ f\).<br />
+(c) <i>(Bilinearity)</i> We have \(f ∗ (g + h) = f ∗ g + f ∗ h\) and \(( f + g) ∗ h = f ∗ h +g ∗ h\). For any complex number \(c\), we have \(c( f ∗ g) = (cf ) ∗ g = f ∗ (cg)\).</li>
+<li>Definition <i>(Periodic approximation to the identity)</i>
+Let &epsilon; &gt; 0 and 0 &lt; &delta; &lt; 1/2. A function \(f\) &isin; C(<b>R/Z;C</b>) is said to be a <i>periodic \((\varepsilon, \delta)\) approximation to the identity</i> if the following properties are true:<br />
+(a) \(f(x) \geq 0\) for all \(x \in R\), and \(\int_{[0,1]}f = 1\).<br />
+(b) We have \(f(x) < \varepsilon\) for all \(\delta \leq |x| \leq 1 − \delta\).</li>
+<li>Lemma:
+For every &epsilon; &gt; 0 and 0 &lt; &delta; &lt; 1/2, there exists a trigonometric polynomial P which is an \((\varepsilon, \delta)\) approximation to the identity.</li>
+</ul></li>
+<li>The Fourier and Plancherel Theorems
+<ul class="org-ul">
+<li>Theorem <i>(Fourier theorem)</i>
+For any f ∈ C(<b>R/Z;C</b>), the series \(\sum_{n=−\infty}^\infty\hat{f}(n)e_n\) converges in L<sup>2</sup> metric to \(f\) . In other words, we have
+\[\lim_{n\to\infty}\|f − \sum_{n=-N}^N\hat{f}(n)e_n\|_2 = 0.\]</li>
+<li><b>Remark</b>:
+Note that we have only obtained convergence of the Fourier series \(\sum_{n=-\infty}^\infty\hat{f}(n)e_n\) to \(f\) in the L<sup>2</sup> metric. One may ask whether one has convergence in the uniform or pointwise sense as well, but it turns out (perhaps somewhat surprisingly) that the answer is no to both of those questions. However, if one assumes that the function f is not only continuous, but is also differentiable, then one can recover pointwise convergence; if one assumes continuously differentiable, then one gets uniform convergence as well. These results are beyond the scope of this text and will not be proven here.</li>
+<li>Theorem:
+Let \(f\) &isin; C(<b>R/Z;C</b>), and suppose that the series \(\sum_{n=-\infty}^\infty|\hat{f}(n)|\) is absolutely convergent. Then the series \(\sum_{n=-\infty}^\infty\hat{f}(n)e_n\) converges uniformly to \(f\). In other words, we have
+\[\lim_{n\to\infty} \| f − \sum_{n=-N}^N\hat{f}(n)e_n\|_\infty= 0.\]</li>
+<li>Theorem <i>(Plancherel theorem or Parseval’s theorem)</i>
+For any \(f\) &isin; C(<b>R/Z;C</b>), the series \(\sum_{n=−\infty}^\infty|\hat{f}(n)|^2\) is absolutely convergent, and
+\[\|f\|_2^2 = \sum_{n=-\infty}^\infty |\hat{f}(n)|^2.\]</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org3025973" class="outline-4">
+<h4 id="org3025973"><span class="section-number-4">2.1.6</span> Chap 6 - Several Variable Differential Calculus</h4>
+<div class="outline-text-4" id="text-2-1-6">
+<ol class="org-ol">
+<li>Derivatives in Several Variable Calculus
+<ul class="org-ul">
+<li>Definition <i>(Differentiability)</i>
+Let \(E\) be a subset of \(R^n, f: E \to R^m\) be a function, \(x_0 \in E\) be a limit point of \(E\), and let \(L: R^n \to R^m\) be a linear transformation. We say that \(f\) is differentiable at \(x_0\) with derivative \(L\) if we have
+\[\lim_{x\to x_0;x\in E−\{x_0\}}\frac{\|f(x) - (f(x_0)+L(x-x-x_0))\|}{\|x-x_0\|} = 0 \]
+Here \(\|x\|\) is the length of \(x\) (as measured in the l<sup>2</sup> metric):
+\[\|(x_1, x_2, ... , x_n)\| = (x_1^2 + x_2^2 + .... + x-n^2)^{1/2}.\]</li>
+<li>Lemma <i>(Uniqueness of derivatives)</i>
+Let \(E\) be a subset of \(R^n, f: E \to R^m\) be a function, \(x_0 \in E\) be an interior point of \(E\), and let \(L_1: R^n \to R^m\) and \(L_2: R^n \to R^m\) be linear transformations. Suppose that \(f\) is differentiable at \(x_0\) with derivative \(L_1\), and also differentiable at \(x_0\) with derivative \(L_2\). Then \(L_1 = L_2\).</li>
+</ul></li>
+<li>Partial and Directional Derivatives
+<ul class="org-ul">
+<li>Definition <i>(Directional derivative)</i>
+Let \(E\) be a subset of \(R^n, f: E \to R^m\) be a function, let \(x_0\) be an interior point of \(E\), and let \(v\) be a vector in \(R^n\). If the limit
+\[\lim_{t\to 0;t>0,x_0+tv\in E}\frac{f(x_0 + tv) − f(x_0)}{t}\]
+exists, we say that \(f\) is differentiable in the direction \(v\) at \(x_0\), and we denote the above limit by \(D_vf(x_0)\):
+\[ D_vf(x_0):= \lim_{t\to 0;t>0} \frac{f(x_0 + tv) − f(x_0)}{t}.\]
+<b>Remark</b>: Note that we are dividing by a scalar \(t\), rather than a vector, so this definition makes sense, and \(D_vf(x_0)\) will be a vector in \(R^m\). It is sometimes possible to also define directional derivatives on the boundary of \(E\), if the vector \(v\) is pointing in an “inward” direction (this generalizes the notion of left derivatives and right derivatives from singlevariable calculus); but we will not pursue these matters here.</li>
+<li>Lemma:
+Let \(E\) be a subset of \(R^n, f: E \to R^m\) be a function, \(x_0\) be an interior point of \(E\), and let \(v\) be a vector in \(R^n\). If \(f\) is differentiable at \(x_0\), then \(f\) is also differentiable in the direction \(v\) at \(x_0\), and \(D_vf(x_0)=f'(x_0)v\).<br />
+<i>*Note: One consequence of this lemma is that total differentiability implies directional differentiability. However, the converse is not true</i></li>
+<li>Definition <i>(Partial derivative)</i>
+Let \(E\) be a subset of \(R^n\), let \(f: E \to R^m\) be a function, let \(x_0\) be an interior point of \(E\), and let \(1 \leq j \leq n\). Then the partial derivative of \(f\) with respect to the \(x_j\) variable at \(x_0\), denoted \(\frac{\partial f}{\partial x_j}(x_0)\), is defined by
+\[\frac{\partial f}{\partial x_j}(x_0):= \lim_{t\to 0;t\neq 0,x_0+te_j\in E} \frac{f(x_0 + te_j) − f(x_0)}{t} = \frac{d}{dt} f(x_0 + te_j)\vert_{t=0} \]
+provided of course that the limit exists. (If the limit does not exist, we leave \(\frac{\partial f}{\partial x_j}(x_0)\) undefined.)<br />
+We say that \(f\) is <i>continuously differentiable</i> if the partial derivatives \(\frac{\partial f}{\partial x_1}, ..., \frac{\partial f}{\partial x_n}\)  exist and are continuous on \(E\).<br />
+Informally, the partial derivative can be obtained by holding all the variables other than \(x_j\) fixed and then applying the single-variable calculus derivative in the \(x_j\) variable. Note that if \(f\) takes values in \(R^m\), then so will \(\frac{\partial f}{\partial x_j}\). Indeed, if we write \(f\) in components as \(f = (f_1,... , f_m)\), it is easy to see that
+\[ \frac{\partial f}{\partial x_j} (x_0) = \left( \frac{\partial f_1}{\partial x_1}(x_0), ..., \frac{\partial f_m}{\partial x_j}(x_0)\right),\]
+i.e., to differentiate a vector-valued function one just has to differentiate each of the components separately.</li>
+<li>Theorem:
+Let \(E\) be a subset of \(R^n, f: E to R^m\) be a function, \(F\) be a subset of \(E\), and \(x_0\) be an interior point of \(F\). If all the partial derivatives \(\frac{\partial f}{\partial x_j}\) exist on \(F\) and are continuous at \(x_0\), then \(f\) is differentiable at \(x_0\), and the linear transformation \(f'(x0): R^n \to R^m\) is defined by
+\[f'(x_0)(v_j)_{1\leq j\leq n} = \sum_{j=1}^n \frac{\partial f}{\partial x_j} (x0).\]</li>
+<li>Remark:
+If the partial derivatives of a function \(f: E \to R^m\) exist and are continuous on some set \(F\), then all the directional derivatives also exist at every interior point \(x_0\) of \(F\), and we have the formula
+\[D_{(v_1,...,v_n)}f(x_0) = \sum_{j=1}^n v_j \frac{\partial f}{\partial x_j}(x_0).\]
+In particular, if \(f: E \to R\) is a real-valued function, and we define the <b><i>gradient</i></b> \(\nabla f(x_0)\) of \(f\) at \(x_0\) to be the n-dimensional row vector \(\nabla f(x_0):=(\frac{\partial f}{\partial x_1} (x_0),... , \frac{\partial f}{\partial x_n} (x_0))\), then we have the familiar formula
+\[D_v f(x_0) = v.\nabla f(x_0)\]
+whenever \(x_0\) is in the interior of the region where the gradient exists and is continuous.</li>
+</ul></li>
+<li>Double Derivatives and Clairaut’s Theorem
+<ul class="org-ul">
+<li>Definition <i>(Twice continuous differentiability)</i>
+Let \(E\) be an open subset of \(R^n\), and let \(f: E \to R^m\) be a function. We say that \(f\) is twice continuously differentiable if it is continuously differentiable, and the partial derivatives \(\frac{\partial f}{\partial x_1}, ... , \frac{\partial f}{\partial x_n}\) are themselves continuously differentiable.</li>
+<li>Theorem <i>(Clairaut’s theorem)</i>
+Let \(E\) be an open subset of \(R^n\), and let \(f: E \to R^m\) be a twice continuously differentiable function on \(E\). Then we have \(\frac{\partial f}{\partial x_j}\frac{\partial f}{\partial x_i}(x_0) =\frac{\partial f}{\partial x_i}\frac{\partial f}{\partial x_j}(x_0)\) for all \(1 \leq i, j \leq n\).</li>
+</ul></li>
+<li>The Contraction Mapping Theorem
+<ul class="org-ul">
+<li>Definition <i>(Contraction)</i>
+<i>Let (X, d) be a metric space, and let f: X &rarr; X be a map. We say that f is a contraction if we have d(f(x), f(y)) &le; d(x, y) for all x, y &isin; X. We say that f is a strict contraction if there exists a constant 0 &lt; c &lt; 1 such that d(f(x), f(y)) &le; cd(x, y) for all x, y &isin; X ; we call c the contraction constant of f.</i></li>
+<li>Definition <i>(Fixed points)</i>
+Let f: X &rarr; X be a map, and x &isin; X . We say that x is a fixed point of f if f(x) = x.<br />
+*Note: Contractions do not necessarily have any fixed points; for instance, the map f: R &rarr; R defined by f(x) = x + 1 does not. However, it turns out that strict contractions always do, at least when X is complete.</li>
+<li>Theorem <i>(Contraction mapping theorem)</i>
+<i>Let (X, d) be a metric space, and let f: X &rarr; X be a strict contraction. Then f can have at most one fixed point. Moreover, if we also assume that X is non-empty and complete, then f has exactly one fixed point.</i></li>
+<li>Remark: We shall give one consequence of the contraction mapping theorem which is important for our application to the inverse function theorem. Basically, this says that any map f on a ball which is a “small” perturbation of the identity map, remains one-to-one and cannot create any internal holes in the ball.</li>
+<li>Lemma:
+Let B(0, r) be a ball in R<sup>n</sup> centered at the origin, and let g: B(0, r) &rarr; R<sup>n</sup> be a map such that g(0) = 0 and ||g(x) − g(y)|| &le; 1/2||x − y|| for all x, y &isin; B(0, r) (here ||x|| denotes the length of x in R<sup>n</sup>). Then the function f: B(0, r) &rarr; R<sup>n</sup> defined by f(x):= x + g(x) is one-to-one, and furthermore the image f(B(0, r)) of this map contains the ball B(0, r/2).</li>
+</ul></li>
+<li>The Inverse Function Theorem in Several Variable Calculus
+<ul class="org-ul">
+<li>Theorem <i>(Inverse function theorem)</i>
+Let \(E\) be an open subset of \(R^n\), and let \(f: E \to R^n\) be a function which is continuously differentiable on \(E\). Suppose \(x_0 \in E\) is such that the linear transformation \(f'(x_0) : R^n to R^n\) is invertible. Then there exists an open set \(U\) in \(E\) containing \(x_0\), and an open set \(V\) in \(R^n\) containing \(f(x_0)\), such that \(f\) is a bijection from \(U\) to \(V\). In particular, there is an inverse map \(f^{−1} : V \to U\). Furthermore, this inverse map is differentiable at \(f(x_0)\), and
+\[(f^{−1})'(f(x_0)) = (f'(x_0))^{-1}.\]</li>
+</ul></li>
+<li>The Implicit Function Theorem
+<ul class="org-ul">
+<li>Theorem <i>(Implicit function theorem)</i>
+Let \(E\) be an open subset of \(R^n\), let \(f: E \to R\) be continuously differentiable, and let \(y = (y_1,... , y_n)\) be a point in \(E\) such that \(f(y) = 0\) and \(\frac{\partial f}{\partial x_n}(y) \neq 0\). Then there exists an open subset \(U\) of \(R^{n−1}\) containing \((y_1,... , y_{n−1})\), an open subset \(V\) of \(E\) containing \(y\), and a function \(g: U \to R\) such that \(g(y_1,... , y_{n−1}) = y_n\), and
+\[\{(x_1,... , x_n) \in V : f(x_1,... , x_n) = 0\}\]
+\[= \{(x_1,... , x_{n−1}, g(x_1,... , x_{n−1})) : (x_1,... , x_{n−1}) \in U\}.\]
+In other words, the set \(\{x \in V : f(x) = 0\}\) is a graph of a function over \(U\). Moreover, \(g\) is differentiable at \((y_1,... , y_{n−1})\), and we have
+\[\frac{\partial g}{\partial x_j}(y_1,... , y_{n−1}) = −\frac{\partial g}{\partial x_j}(y)/\frac{\partial g}{\partial x_n}(y) \]
+for all \(1 \leq j \leq n − 1\).</li>
+<li>Remark:
+Sets which look like graphs of continuous functions at every point have a name, they are called <i>manifolds</i>. Thus \(\{x \in R^n : f(x) = 0\}\) will be a manifold if it contains no critical points of \(f\) . The theory of manifolds is very important in modern geometry (especially differential geometry and algebraic geometry), but we will not discuss it here as it is a graduate level topic.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge3d79ed" class="outline-4">
+<h4 id="orge3d79ed"><span class="section-number-4">2.1.7</span> Chap 7 - Lebesgue Measure</h4>
+<div class="outline-text-4" id="text-2-1-7">
+<ol class="org-ol">
+<li>Outer Measure
+<ul class="org-ul">
+<li>Definition <i>(Open box)</i>
+An open box (or box for short) \(B\) in \(R^n\) is any set of the form
+\[B = \prod_{i=1}^n (a_i, b_i) := \{(x_1,... , x_n) \in R^n: x_i \in (a_i, b_i) \text{ for all } 1 \leq i \leq n\},\]
+where \(b_i \geq a_i\) are real numbers. We define the volume \(vol(B)\) of this box to be the number
+\[vol(B) := \prod_{i=1}^n (b_i − a_i) = (b_1 − a_1)(b_2 − a_2)...(b_n − a_n).\]</li>
+<li>Definition <i>(Covering by boxes)</i>
+Let \(\Omega \subseteq R^n\) be a subset of \(R^n\). We say that a collection \((B_j)_{j\in J}\) of boxes cover \(\Omega\) iff \(\Omega \subseteq \bigcup_{j\in J} B_j\).</li>
+<li>Definition <i>(Outer measure)</i>
+If \(\Omega\) is a set, we define the outer measure \(m^∗(\Omega )\) of \(\Omega\) to be the quantity
+\[m^∗(\Omega ) := \inf \left\{\sum_{j\in J} vol(B_j): (B_j)_{j\in J} \text{ covers $\Omega$ ; J at most countable } \right\}\]</li>
+</ul></li>
+<li>Outer Measure Is not Additive
+<ul class="org-ul">
+<li>Proposition <i>(Failure of countable additivity)</i>
+There exists a countable collection \((A_j)_{j\in J}\) of disjoint subsets of \(R\), such that \(m^∗(\bigcup_{j\in J}A_j) \neq \sum_{j\in J}m^∗(A_j)\).<br />
+<b>Remark</b>: <i>The proof used the axiom of choice. This turns out to be absolutely necessary; one can prove using some advanced techniques in mathematical logic that if one does not assume the axiom of choice, then it is possible to have a mathematical model where outer measure is countably additive.</i></li>
+<li>Proposition <i>(Failure of finite additivity)</i>
+There exists a finite collection \((A_j)_{j\in J}\) of disjoint subsets of \(R\), such that
+\[m^∗\left( \bigcup_{j\in J} A_j\right) \neq \sum_{j\in J}m^∗(A_j).\]</li>
+</ul></li>
+<li>Measurable Sets
+<ul class="org-ul">
+<li>Definition <i>(Lebesgue measurability)</i>
+Let \(E\) be a subset of \(R^n\). We say that \(E\) is <i>Lebesgue measurable</i>, or <i>measurable</i> for short, iff we have the identity
+\[m^∗(A) = m^∗(A \cap E) + m^∗(A \backslash E)\]
+for every subset \(A\) of \(R^n\). If \(E\) is measurable, we define the <i>Lebesgue measure</i> of \(E\) to be \(m(E) = m^∗(E)\); if \(E\) is not measurable, we leave \(m(E)\) undefined.</li>
+<li>Lemma <i>(Half-spaces are measurable)</i>
+The half-space \({(x_1,... , x_n) \in R^n : x_n > 0}\) is measurable.</li>
+<li>Lemma <i>(Properties of measurable sets)</i><br />
+(a) If \(E\) is measurable, then \(R^n\backslash E\) is also measurable.<br />
+(b) (Translation invariance) If \(E\) is measurable, and \(x \in R^n\), then \(x + E\) is also measurable, and \(m(x + E) = m(E)\).<br />
+(c) If \(E_1\) and \(E_2\) are measurable, then \(E_1 \cap E_2\) and \(E_1 \cup E_2\) are measurable.<br />
+(d) (Boolean algebra property) If \(E_1, E_2,... ,E_ N\) are measurable, then \(\bigcup_{j=1}^N E_ j\) and \(\bigcap_{j=1}^N E_j\) are measurable.<br />
+(e) Every open box, and every closed box, is measurable.<br />
+(f) Any set \(E\) of outer measure zero (i.e., \(m^∗(E) = 0\)) is measurable.</li>
+<li>Lemma <i>(Finite additivity)</i>
+If \((E_j)_{j\in J}\) are a finite collection of disjoint measurable sets, then for any set \(A\) (not necessarily measurable), we have
+\[m^*\left( A \cap\bigcup_{j\in J}E_j\right) = \sum_{j\in J} m^∗(A \cap E_j).\]
+Furthermore, we have \(m\left(\bigcup_{j\in J} E_j\right) = \sum_{j\in J} m(E_j)\).</li>
+<li>Corollary: If \(A \subseteq B\) are two measurable sets, then \(B\backslash A\) is also measurable, and \(m(B\backslash A) + m(A) = m(B)\).</li>
+<li>Lemma <i>(Countable additivity)</i>
+If \((E_j)_{j\in J}\) are a countable collection of disjoint measurable sets, then \(\bigcup_{j\in J} E_j\) is measurable, and \(m\left(\bigcup_{j\in J} E_j\right) = \sum_{j\in J} m(E_j)\).</li>
+<li>Lemma <i>(&sigma; -algebra property)</i>
+If \((\Omega_j)_{j\in J}\) are any countable collection of measurable sets (so \(J\) is countable), then the union\(\bigcup_{j\in J}\Omega_j\) and the intersection \(\bigcap_{j\in J}\Omega_j\) are also measurable.</li>
+<li>Lemma: Every open set can be written as a countable or finite union of open boxes.</li>
+<li>Lemma <i>(Borel property)</i> Every open set, and every closed set, is Lebesgue measurable.</li>
+</ul></li>
+<li>Measurable Functions
+<ul class="org-ul">
+<li>Definition <i>(Measurable functions)</i>
+Let \(\Omega\) be a measurable subset of \(R^n\), and let \(f:\Omega \to  R^m\) be a function. A function \(f\) is measurable iff \(f^{−1}(V)\) is measurable for every open set \(V \subseteq R^m\).<br />
+<i>*Remark: most sets that we deal with in real life are measurable, so it is only natural to learn that most functions we deal with in real life are also measurable.</i></li>
+<li><b>Retrive</b> <i>(inverse images)</i>:
+If U is a subset of Y, we define the set \(f^{−1}(U)\) to be the set<br />
+\(f^{−1}(U) := \{x \in X : f(x) \in U\}\).<br />
+In other words, \(f^{−1}(U)\) consists of all the elements of X which map into U: \(f(x) \in U <=> x \in f^{−1}(U)\). We call \(f^{−1}(U)\) the inverse image of U.<br />
+*Example: If f: Z &rarr; Z is the map f(x) = x<sup>2</sup>, then \(f^{−1}(\{0, 1, 4\}) = \{−2, −1, 0, 1, 2\}\). <br />
+<i>Note that f does not have to be invertible in order for \(f^{−1}(U)\) to make sense</i>. Also <i>note that images and inverse images do not quite invert each other</i>, for instance we have \(f^{−1}(f(\{−1, 0, 1, 2\})) \neq \{−1, 0, 1, 2\}\).</li>
+<li>Lemma <i>(Continuous functions are measurable)</i>
+Let \(\Omega\) be a measurable subset of \(R^n\), and let \(f: \Omega \to R^m\) be continuous. Then \(f\) is also measurable.</li>
+<li>Lemma:
+Let \(\Omega\) be a measurable subset of \(R^n\), and let \(f: \Omega \to  R^m\) be a function. Then \(f\) is measurable if and only if \(f^{−1}(B)\) is measurable for every open box \(B\).</li>
+<li>Corollary:
+Let \(\Omega\) be a measurable subset of \(R^n\), and let \(f:\Omega \to R^m\) be a function. Suppose that \(f = (f_1,... , f_m)\), where \(f_j:\Omega \to R\) is the <i>jth</i> co-ordinate of \(f\). Then \(f\) is measurable if and only if all of the \(f_j\) are individually measurable.</li>
+<li>Remark:
+<i>Unfortunately, it is not true that the composition of two measurable functions is automatically measurable; however we can do the next best thing: a continuous function applied to a measurable function is measurable.</i></li>
+<li>Lemma:
+Let \(\Omega\) be a measurable subset of \(R^n\), and let \(W\) be an open subset of \(R^m\). If \(f:\Omega \to W\) is measurable, and \(g: W \to R^p\) is continuous, then \(g\circ f : \Omega \to R^p\) is measurable.</li>
+<li>Corollary:
+Let \(\Omega\)  be a measurable subset of \(R^n\). If \(f:\Omega \to R\) is a measurable function, then so is \(|f|\), \(\max(f,0)\), and \(\min(f,0)\).</li>
+<li>Corollary:
+Let \(\Omega\)  be a measurable subset of \(R^n\). If \(f:\Omega \to R\) and \(g:\Omega \to R\) are measurable functions, then so is \(f + g, f − g, fg, \max(f, g), \min( f, g)\). If \(g(x) \neq 0\) for all \(x \in \Omega\) , then \(f/g\) is also measurable.</li>
+<li>Lemma:
+Let \(\Omega\)  be a measurable subset of \(R^n\), and let \(f: \Omega \to R\) be a function. Then \(f\) is measurable if and only if \(f^{−1}((a, \infty))\) is measurable for every real number \(a\).</li>
+<li>Definition <i>(Measurable functions in the extended reals)</i>
+Let \(\Omega\)  be a measurable subset of \(R^n\). A function \(f: \Omega \to R^*\) is said to be measureable iff \(f^{−1}((a,+\infty])\) is measurable for every real number \(a\).</li>
+<li>Lemma <i>(Limits of measurable functions are measurable)</i>
+Let \(\Omega\)  be a measurable subset of \(R^n\). For each positive integer \(n\), let \(f_n :|Omega \to R^∗\) be a measurable function. Then the functions \(\sup_{n\geq 1} f_n\), \(\inf_{n\geq 1}f_n\), \(\limsup_{n\to\infty} f_n\), and \(\liminf_{n\to\infty} f_n\) are also measurable. In particular, if the \(f_n\) converge pointwise to another function \(f :\Omega \to R^∗\), then \(f\) is also measurable.</li>
+<li><i>Note: As you can see, just about anything one does to a measurable function will produce another measurable function. This is basically why almost every function one deals with in mathematics is measurable. (Indeed, the only way to construct nonmeasurable functions is via artificial means such as invoking the axiom of choice.)</i></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6cd84ef" class="outline-4">
+<h4 id="org6cd84ef"><span class="section-number-4">2.1.8</span> Chap 8 - Lebesgue integration</h4>
+<div class="outline-text-4" id="text-2-1-8">
+<ol class="org-ol">
+<li>Simple Functions
+<ul class="org-ul">
+<li>Definition <i>(Simple functions)</i>
+Let \(\Omega\) be a measurable subset of \(R^n\), and let \(f:\Omega \to R\) be a measurable function. We say that \(f\) is a <i>simple function</i> if the image \(f(\Omega)\) is finite. In other words, there exists a finite number of real numbers \(c_1, c_2,... , c_N\) such that for every \(x \in \Omega\) , we have \(f(x) = c_j\) for some \(1 \leq j \leq N\).</li>
+<li>Definition <i>(the characteristic function)</i>
+\(\chi_E : \Omega \to R\) by setting \(\chi_E(x):=1\) if \(x \in E\), and \(\chi_E(x):=0\) if \(x \notin E\). (In some texts, \(\chi_E\) is also written \(1_E\) and is referred to as an <i>indicator function</i>.)</li>
+<li><i>Remark:</i>
+Three basic properties of simple functions: they form a vector space, that they are linear combinations of <i>characteristic functions</i>, and that they approximate measurable functions.</li>
+<li>Definition <i>(Lebesgue integral of simple functions)</i>
+Let \(\Omega\) be a measurable subset of \(R^n\), and let \(f: \Omega \to R\) be a simple function which is non-negative; thus \(f\) is measurable and the image \(f(\Omega)\) is finite and contained in \([0, \infty )\). We then define the <i>Lebesgue integral</i> \(\int_{\Omega}f\) of \(f\) on \(\Omega\) by
+\[\int_{\Omega}f := \sum_{\lambda \in f(\Omega);\lambda >0} \lambda m(\{x \in \Omega : f(x) = \lambda\}).\]
+We will also sometimes write \(\int_{\Omega}f\) as \(\int_{\Omega}fdm\) (to emphasize the rôle of Lebesgue measure m) or use a dummy variable such as \(x\), e.g., \(\int_{\Omega}f(x)dx\).</li>
+<li><i>Notational convention:</i>
+if a property P(x) holds for all points in &Omega;, except for a set of measure zero, then we say that P holds for almost every point in &Omega;.</li>
+</ul></li>
+<li>Integration of Non-negative Measurable Functions
+<ul class="org-ul">
+<li>Definition <i>(Majorization)</i>
+Let \(f:\Omega \to R\) and \(g:\Omega \to R\) be functions. We say that \(f\) majorizes \(g\), or \(g\) minorizes \(f\), if we have \(f(x) \geq g(x)\) for all \(x \in \Omega\).<br />
+We sometimes use the phrase "f dominates g" instead of "f majorizes g".</li>
+<li>Definition <i>(Lebesgue integral for non-negative functions)</i>
+Let \(\Omega\) be a measurable subset of \(R^n\), and let \(f :\Omega \to [0,\infty ]\) be measurable and non-negative. Then we define the <i>Lebesgue integral</i> \(\int_{\Omega}f\) of \(f\) on \(\Omega\) to be
+\[ \int_\Omega f := \sup \left\{ \int_\Omega s : s \text{ is simple and non-negative, and minorizes }f \right\} . \]
+<i>*Remark: The reader should compare this notion to that of a lower Riemann integral. Interestingly, we will not need to match this lower integral with an upper integral here.</i></li>
+<li>Proposition
+Let \(\Omega\)  be a measurable set, and let \(f:\Omega \to [0, \infty ]\) and \(g: \Omega \to [0, \infty ]\) be non-negative measurable functions.<br />
+(a) We have \(0 \leq \int_\Omega f \leq \infty\). Furthermore, we have \(\int_\Omega f = 0\) if and only if \(f(x) = 0\) for almost every \(x \in \Omega\) .<br />
+(b) For any positive number \(c\), we have \(\int_\Omega cf = c\int_\Omega f\).<br />
+(c) If \(f(x) \leq g(x)\) for all \(x \in\Omega\), then we have \(\int_\Omega f \leq \int_\Omega g\).<br />
+(d) If \(f(x) = g(x)\) for almost every \(x \in \Omega\), then \(\int_\Omega f = \int_\Omega g\).<br />
+(e) If \(\Omega' \subseteq \Omega\) is measurable, then \(\int_{\Omega'} f = \int_\Omega f\chi_{\Omega'} \leq \int_\Omega f\).</li>
+<li>Lemma <i>(Interchange of addition and integration)</i>
+Let \(\Omega\)  be a measurable subset of \(R^n\), and let \(f :\Omega \to [0, \infty ]\) and \(g:\Omega \to [0, \infty ]\) be measurable functions. Then \(\int_\Omega (f + g) = \int_\Omega f + \int_\Omega g\).</li>
+</ul></li>
+<li>Integration of Absolutely Integrable Functions
+<ul class="org-ul">
+<li>Definition <i>(Absolutely integrable functions)</i>
+Let \(\Omega\) be a measurable subset of \(R^n\). A measurable function \(f : \Omega \to R^∗\) is said to be absolutely integrable if the integral \(\int_\Omega |f|\) is finite.<br />
+Of course, \(|f|\) is always non-negative, so this definition makes sense even if \(f\) changes sign. Absolutely integrable functions are also known as \(L^1(\Omega )\) functions.<br />
+If \(f :\Omega \to R^∗\) is a function, we define the positive part \(f^+:\Omega \to [0, \infty ]\) and negative part \(f^− :\Omega \to [0, \infty ]\) by the formulae \(f^+:= \max( f, 0); f^−:= − \min( f, 0)\).</li>
+<li>Definition <i>(Lebesgue integral)</i> Let \(f :\Omega \to R^∗\) be an absolutely integrable function. We define the <i>Lebesgue integral</i> \(\int_\Omega f\) of \(f\) to be the quantity
+\[\int_\Omega f:= \int_\Omega f^+ - \int_\Omega f^- .\]</li>
+<li>Proposition:
+Let &Omega; be a measurable set, and let \(f :\Omega \to R\) and g :&Omega; &rarr; R$ be <i>absolutely integrable functions</i>.<br />
+(a) For any real number c (positive, zero, or negative), we have that cf is absolutely integrable and &int;<sub>&Omega;</sub> cf = c&int;<sub>&Omega;</sub> f.<br />
+(b) The function f + g is absolutely integrable, and &int;<sub>&Omega;</sub> (f + g) = &int;<sub>&Omega;</sub> f + &int;<sub>&Omega;</sub> g.<br />
+(c) If f(x) &le; g(x) for all x &isin; &Omega; , then we have &int;<sub>&Omega;</sub> f &le; &int;<sub>&Omega;</sub> g.<br />
+(d) If f(x) = g(x) for almost every x &isin; &Omega; , then &int;<sub>&Omega;</sub> f = &int;<sub>&Omega;</sub> g.</li>
+<li>Theorem <i>(Lebesgue dominated convergence theorem)</i>
+Let &Omega;  be a measurable subset of \(R^n\), and let f<sub>1</sub>, f<sub>2</sub>,&#x2026; be a sequence of measurable functions from &Omega; to R^∗ which <i>converge pointwise</i>. Suppose also that there is an absolutely integrable function F:&Omega;  &rarr; [0, &infin; ] such that |f<sub>n</sub>(x)| &le; F(x)for all x &isin; &Omega; and all n = 1, 2, 3,&#x2026; . Then
+\[ \int_\Omega \lim_{n\to\infty} f_n = \lim_{n\to\infty}\int_\Omega f_n.\]</li>
+<li><p>
+Definition <i>(Upper and lower Lebesgue integral)</i>
+Let &Omega; be ameasurable subset of R<sup>n</sup>, and let f: &Omega; &rarr; R be a function <i>(not necessarily measurable)</i>. We define the <i>upper Lebesgue integral</i> \(\overline{\int_\Omega} f\) to be
+\[\overline{\int_\Omega}f := \inf \left\{\int_\Omega g: g \text{ is an absolutely integrable function from $\Omega$ to R that majorizes f} \right\}\]
+and the <i>lower Lebesgue integral</i> \(\underline{\int_\Omega} f\) to be
+\[\underline{\int_\Omega} f:= \sup\left\{g : g \text{ is an absolutely integrable function from $\Omega$ to R that minorizes f}\right\}.\]
+</p>
+<ul class="org-ul">
+<li>Lemma:</li>
+</ul>
+<p>
+Let &Omega; be a measurable subset of R<sup>n</sup>, and let f : &Omega; &rarr; R be a function <i>(not necessarily measurable)</i>. Let A be a real number, and suppose \(\overline{\int_\Omega}f = \underline{\int_\Omega} f = A\). Then f is absolutely integrable, and
+\[\int_\Omega f = \overline{\int_\Omega}f = \underline{\int_\Omega} f = A. \]
+</p></li>
+</ul></li>
+<li>Comparison with the Riemann Integral
+<ul class="org-ul">
+<li><b>Remark</b>: <i>every Riemann integrable function is also Lebesgue integrable, at least on bounded intervals. However, the converse is not true. Take for instance the function f: [0, 1] &rarr; R defined by f(x):=1 when x is rational, and f(x):=0 when x is irrational. we know that f is not Riemann integrable. On the other hand, f is the characteristic function of the set Q &cap; [0, 1], which is countable and hence measure zero. Thus f is Lebesgue integrable and \(\int_{[0,1]} f = 0\). Thus the Lebesgue integral can handle more functions than the Riemann integral; this is one of the primary reasons why we use the Lebesgue integral in analysis. The other reason is that the Lebesgue integral interacts well with limits, as the Lebesgue monotone convergence theorem, Fatou’s lemma, and Lebesgue dominated convergence theorem already attest. There are no comparable theorems for the Riemann integral.</i></li>
+</ul></li>
+<li>Fubini’s Theorem
+<ul class="org-ul">
+<li>Theorem <i>(Fubini’s theorem)</i>
+Let f: R<sup>2</sup> &rarr; R be an absolutely integrable function. Then there exists absolutely integrable functions F: R &rarr; R and G: R &rarr; R such that for almost every x, f(x, y) is absolutely integrable in y with
+\[F(x) = \int_R f(x, y)dy,\]
+and for almost every y, f(x, y) is absolutely integrable in x with
+\[G(y) = \int_R f(x, y)dx.\]
+Finally, we have
+\[\int_R F(x)dx = \int_{R^2} f = \int_{R^2}G(y)dy.\]</li>
+<li>Remark:
+Very roughly speaking, Fubini’s theorem says that
+\[\int_R\left(\int_R f(x, y)dy\right)dx = \int_{R^2} f = \int_R\left(\int_R f(x, y)dx\right) dy.\]
+This allows us to compute two-dimensional integrals by splitting them into two onedimensional integrals. The reason why we do not write Fubini’s theorem this way, though, is that it is possible that the integral \(\int_R f(x, y)dy\) does not actually exist for every x, and similarly \(\int_R f(x, y)dx\) does not exist for every y; Fubini’s theorem only asserts that these integrals only exist for <i>almost every</i> x and y. For instance, if f(x, y) is the function which equals 1 when y &gt; 0 and x = 0, equals −1 when y &lt; 0 and x = 0, and is zero otherwise, then f is absolutely integrable on R<sup>2</sup> and \(\int_{R^2} f = 0\) (since f equals zero almost everywhere in R<sup>2</sup>), but \(\int_R f(x, y)dy\) is not absolutely integrable when x = 0 (though it is absolutely integrable for every other</li>
+</ul></li>
+</ol>
+<p>
+x).
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org13d0748" class="outline-2">
+<h2 id="org13d0748"><span class="section-number-2">3</span> Functional analysis</h2>
+<div class="outline-text-2" id="text-3">
+</div>
+<div id="outline-container-org0d9db3e" class="outline-3">
+<h3 id="org0d9db3e"><span class="section-number-3">3.1</span> Introductory functional analysis with application - Kreyzig</h3>
+<div class="outline-text-3" id="text-3-1">
+</div>
+<div id="outline-container-orgcad207d" class="outline-4">
+<h4 id="orgcad207d"><span class="section-number-4">3.1.1</span> Chap 1 - Metric spaces</h4>
+<div class="outline-text-4" id="text-3-1-1">
+<ol class="org-ol">
+<li>Metric space
+<ul class="org-ul">
+<li><i>Sequence space \(l^\infty\)</i>:
+We take the set \(X\) of all <i>bounded sequences</i> of complex numbers and define the metric by
+\[d(x,y) =  \sup_{j\in N}|x_j-y_j|; x, y \in X\]
+\(l^\infty\) is a <i>sequence space</i> because each element of \(X\) (each point of \(X\)) is a sequence.</li>
+<li>Definition <i>(Dense set, separable space)</i>
+A subset \(M\) of a metric space \(X\) is said to be <i>dense</i> in \(X\) if
+\[\overline{M}=X.\]
+\(X\) is said to be <i>separable</i> if it has a <i>countable subset</i> which is dense in \(X\).<br />
+Hence if \(M\) is dense in \(X\), then every ball in \(X\), no matter how small, will contain points of \(M\); or, in other words, in this case there is no point \(x \in X\) which has a neighborhood that does not contain points of \(M\).<br />
+<b>Example:<br />
+(i) *Real line R</b>. <i>The real line <b>R</b> is separable</i>.<br />
+(ii) <b>Complex plane C</b>. <i>The complex plane <b>C</b> is separable</i>.<br />
+(iii) <b>Discrete metric space</b>. <i>A discrete metric space X is separable if and only if X is countable.</i> <br />
+(iv) <b>Space \(l^\infty\)</b>. <i>The space \(l^\infty\) is not separable.</i><br />
+(v) <b>Space \(l^p\)</b>. <i>The space \(l^p\) with \(1 \leq p \leq +\infty\) is separable.</i></li>
+<li>Definition <i>(Isometric mapping, isometric spaces)</i>.
+Let X = (X, d) and X' =(X', d') be metric spaces. Then:<br />
+(a) <i>A mapping T</i> of X into X' is said to be <i>isometric</i> or an <i>isometry</i> if T preserves distances, that is, if for all x, y &isin; X, d'(Tx, Ty) = d(x, y), where Tx and Ty are the images of x and y, respectively.<br />
+(b) <i>The space X</i> is said to be <i>isometric</i> with the space X' if there exists a <i>bijective isometry</i> of X onto X'. The spaces X and X' are then called <i>isometric spaces</i>.<br />
+<i>Hence isometric spaces may differ at most by the nature of their points but are indistinguishable from the viewpoint of metric. And in any study in which the nature of the points does not matter, we may regard the two spaces as identical-as two copies of the same "abstract" space.</i></li>
+<li>Theorem <i>(Completion 1)</i>.
+For a metric space X = (X, d) there exists a complete metric space X' = (X', d') which has a subspace W that is isometric with X and is dense in X'. This space X' is unique except for isometries, that is, if X'' is any complete metric space having a dense subspace W' isometric with X, then X'' and X' are isometric.</li>
+<li>Definition <i>(Homeomorphism)</i>
+A homeomorphism is a <i>continuous bijective mapping</i> T: X &rarr; Y <i>whose inverse is continuous</i>; the metric spaces X and Y are then said to be <i>homeomorphic</i>.<br />
+(a) If X and Y are isometric, they are homeomorphic.
+(b) A complete and an incomplete metric space may be homeomorphic. (ex: (0,1) and <b>R</b>).</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org12cef2e" class="outline-4">
+<h4 id="org12cef2e"><span class="section-number-4">3.1.2</span> Chap 2 - Normed spaces and Banach spaces</h4>
+<div class="outline-text-4" id="text-3-1-2">
+<ol class="org-ol">
+<li>Vector space
+<ul class="org-ul">
+<li>Definition <i>(Quotient space, codimension)</i>
+Let Y be a subspace of a vector space X. The <i>coset</i> of an element x &isin; X with respect to Y is denoted by x + Y and is defined to be the set
+\[ x+Y = \{v | v = x+y,y \in Y\}.\]
+<i>*Lema</i>: The distinct cosets form a partition of X. Under algebraic operations defined by
+\[ (w + Y)+(x + Y)=(w+x)+ Y; \alpha(x+y)=\alpha x + Y\]
+these cosets constitute the elements of a vector space. This space is called the <i>quotient space</i> (or sometimes <i>factor space</i>) of X by Y (or <i>modulo</i> Y) and is denoted by X/Y. Its dimension is called the <i>codimension</i> of Y and is denoted by codim Y, that is,
+\[\text{codim }Y = \dim(X/Y).\]</li>
+</ul></li>
+<li>Normed space. Banach space
+<ul class="org-ul">
+<li>Motivation:
+<i>in many cases a vector space X may at the same time be a metric space because a metric d is defined on X. However, if there is no relation between the algebraic structure and the metric, we cannot expect a useful and applicable theory that combines algebraic and metric concepts. To guarantee such a relation between "algebraic" and "geometric" properties of X we define on X a metric d in a special way as follows. We first introduce an auxiliary concept, the norm (definition below), which uses the algebraic operations of vector space. Then we employ the norm to obtain a metric d that is of the desired kind. This idea leads to the concept of a normed space. It turns out that normed spaces are special enough to provide a basis for a rich and interesting theory, but general enough to include many concrete models of practical importance. In fact, a large number of metric spaces in analysis can be regarded as normed spaces, so that a normed space is probably the most important kind of space in functional analysis, at least from the viewpoint of present-day applications.</i></li>
+<li>Definition <i>(Normed space, Banach space)</i>.
+A <i>normed space</i> X is a vector space with a norm defined on it. A <i>Banach space</i> is a complete normed space (complete in the metric defined by the norm). Here a <b>norm</b> on a (real or complex) vector space X is a real-valued function on X whose value at an \(x \in  X\) is denoted by \(\|x\|\) and which has the properties: <br />
+(Nl) \(\|x\| \geq 0\) <br />
+(N2) \(\|x\| = 0 <=> x = 0\) <br />
+(N3) \(\|\alpha x\| = |\alpha |\|x\|\) <br />
+(N4) \(\|x+y\| \leq \|x\| + \|y\|\) <br />
+here x and y are arbitrary vectors in X and &alpha; is any scalar. A norm on X defines a metric d on X which is given by
+\[ \textbf{(1)	} d(x, y) = \|x - y\|;  (x, y \in X) \]
+and is called the <i>metric induced by the norm</i>. The normed space just defined is denoted by \((X, \|\cdot \|)\) or simply by \(X\).</li>
+<li>Remark 1:
+The defining properties (Nl) to (N4) of a norm are suggested and motivated by the length |x| of a vector x in elementary vector algebra, so that in this case we can write ||x|| = |x|. It is not difficult to conclude from (Nl) to (N4) that (1) does define a metric. Hence normed spaces and Banach spaces are metric spaces.<br />
+we notice that (N4) implies <b>(2)</b> \(\left| \|y\| - \|x\| \right| \leq \|y - x\|\) . Formula (2) implies an important property of the norm:
+\[ \text{The norm is continuous, that is, $x \longmapsto \|x\|$ is a continuous mapping of $(X, \| \cdot \|)$ into $R$ .}\]</li>
+<li>Remark 2:
+<i>Can every metric on a vector space be obtained from a norm? The answer is no.</i></li>
+<li>Lemma <i>(Translation invariance)</i>.
+A metric d induced by a norm on a normed space X satisfies:<br />
+(a) \(d(x+a, y+a)=d(x, y)\) <br />
+(b) \(d(\alpha x, \alpha y) = |\alpha | d(x, y)\) <br />
+for all \(x, y, a \in  X\) and every scalar \(\alpha\) .</li>
+</ul></li>
+<li>Further Properties of Normed Spaces
+<ul class="org-ul">
+<li>Theorem <i>(Subspace of a Banach space)</i>.
+A subspace Y of a Banach space X is complete if and only if the set Y is ciosed in X.<br />
+*Note: <i>By definition, a subspace Y of a Banach space X is a subspace of X considered as a normed space. Hence we do not require Y to be complete. (Some writers do, so be careful when comparing books.)</i></li>
+<li>Theorem (Completion 2). Let \(X = (X, \|\cdot\|)\) be a normed space. Then there is a Banach space X' and an isometry A from X onto a subspace W of X' which is dense in X'. The space X' is unique, except for isometries.<br />
+*Note: The previous completion theorem <i>(completion 1)</i> implies the existence of a complete metric space X' = (X', d') and an isometry A: X &rarr; W = A(X), where W is dense in X' and X' is unique, except for isometries. Consequently, to prove the present theorem, we must make X' into a vector space and then introduce on X' a suitable norm.</li>
+</ul></li>
+<li>Finite Dimensional Normed Spaces and Suhspaces
+<ul class="org-ul">
+<li>Lemma <i>(Linear combinations)</i>.
+Let \(\{x_1,... ,x_n\}\) be a linearly independent set of vectors in a normed space X (<i>of any dimension</i>). Then there is a number c &gt; 0 such that for every choice of scalars \(\alpha_l, ... ,\alpha_n\) we have
+\[ \|\alpha_1 x_1 + ... + \alpha_n x_n \| \geq c(|\alpha_1 | + ... + |\alpha_n |); (c > 0).\]
+<i>Very roughly speaking it states that in the case of linear independence of vectors, we cannot find a linear combination that involves large scalars but represents a small vector.</i></li>
+<li>Theorem <i>(Completeness)</i>.
+Every finite dimensional subspace Y of a normed space X is complete. In particular, every finite dimensional normed space is complete.</li>
+<li>Theorem <i>(Closedness)</i>.
+Every finite dimensional subspace Y of a normel1 space X is closed in X.<br />
+<b>Remark:</b> <br />
+<i>Infinite dimensional subspaces need not be closed. For instance, consider the space of continuous functions X = C[0, 1] equipped with the maxnorm. Let Y be the subspace Y = span (1, t, t<sup>2</sup>, &#x2026;) of polynomials. The exponential function is in \(\overline{Y}\) but not in Y.</i></li>
+<li>Definition <i>(Equivalent norms)</i>
+<i>Another interesting property of a finite dimensional vector space X is that all norms on X lead to the same topology for X, that is, the open subsets of X are the same, regardless of the particular choice of a norm on X. The details are as follows:</i> <br />
+A norm \(\|\cdot\|\) on a vector space X is said to be equivalent to a norm \(\|\cdot\|_0\) on X if there are positive numbers a and b such that for all \(x \in X\) we have
+\[  a\| x\|_0 \leq \| x \| \leq  b\| x\|_0 .\]</li>
+<li>Theorem <i>(Equivalent norms)</i>.
+On a finite dimensional vector space X, any norm \(\|\cdot\|\) is equivalent to any other norm \(\|x\|_0\).</li>
+</ul></li>
+<li>Compactness and Finite Dimension
+<ul class="org-ul">
+<li>Lemma <i>(Compactness)</i>.
+A compact subset M of a metric space is closed and bounded. The converse of this lemma is in general false.</li>
+<li>Theorem <i>(Compactness)</i>.
+In a <i>finite dimensional normed space</i> X, any subset M &sub; X is compact if and only if M is closed and bounded.</li>
+<li>Remark: <i>In R<sup>n</sup> (or in any other finite dimensional normed space) the compact subse~ are precisely the closed and bounded subsets, so that this property (closedness and boundedness) can be used for defining compactness. However, this can no longer be done in the case of an infinite dimensional normed space.</i></li>
+<li>Theorem (Finite dimension). If a normed space X has the property that the closed unit ball \(M =\{x| \| x\| \leq 1\}\) is compact, then X is finite dimensional.</li>
+<li>Theorem <i>(Continuous mapping)</i>.
+Let X and Y be metric spaces and T: X &rarr; Y continuous mapping. Then the image of a compact subset M of X under T is compact.</li>
+</ul></li>
+<li></li>
+
+<li></li>
+
+<li>Linear functional
+<ul class="org-ul">
+<li>The concept of "isomorphism," 
+<ul class="org-ul">
+<li>In our work we are concerned with various spaces. Common to all of them is that they consist of a set, call it X, and a "structure" defined on X. For a metric space, this is the metric. For a vector space, the two algebraic operations form the structure. And for a normed space the structure consists of those two algebraic operations and the norm.</li>
+<li>By definition, this is a bijective mapping of X onto X' which preserves the structure.</li>
+<li>isomorphism T of a metric space is a bijective mapping which preserves distance.</li>
+<li>An isomorphism T of a vector space is a bijective mapping which preserves the two algebraic operations of vector space.</li>
+<li>Isomorphisms for normed spaces are vector space isomorphisms which also preserve norms</li>
+</ul></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org978f209" class="outline-4">
+<h4 id="org978f209"><span class="section-number-4">3.1.3</span> Chap 3 - Inner product spaces. Hilbert spaces</h4>
+<div class="outline-text-4" id="text-3-1-3">
+<ol class="org-ol">
+<li></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org6a8611d" class="outline-4">
+<h4 id="org6a8611d"><span class="section-number-4">3.1.4</span> Chap 4 - Fundamental theorems for Normed and Banach spaces</h4>
+<div class="outline-text-4" id="text-3-1-4">
+<ol class="org-ol">
+<li><b>Zorn's Lemma</b>
+<ul class="org-ul">
+<li><i>Zorn's lemma.</i><br />
+Let \(M \neq \varnothing\) be a partially ordered set. Suppose that every chain \(C \subset M\) has an upper bound. Then \(M\) has at least one maximal element.<br />
+*Remark:
+The name "lemma" is for historical reasons. Zorn's lemma can be derived from the <i>axiom of choice</i>, which states that for any given set \(E\), there exists a mapping \(c\) ("choice function") from the power set \(P(E)\) into \(E\) such that if \(B \subset E, B \neq \varnothing\) , then \(c(B) \in B\). Conversely, this axiom follows from Zorn's lemma, so that <i>Zorn's lemma and the axiom of choice can be regarded as equivalent axioms.</i></li>
+<li>Hamel basis (lemma).
+Every vector space X &ne; {0} has a <i>Hamel basis</i> (the basis which spans X).</li>
+<li></li>
+</ul></li>
+<li><b>Adjoint Operator</b>
+<ul class="org-ul">
+<li>Compare \(T^\times\) vs \(T^*\):<br />
+Differences between the <i>adjoint</i> operator \(T^\times\) of \(T: X \to Y\) and the <i>Hilbert-adjoint</i> operator \(T^*\) of \(T: H_1 \to  H_2\), where X, Y are normed spaces and H<sub>1</sub>, H<sub>2</sub> are Hilbert spaces
+<ul class="org-ul">
+<li>\(T^\times\) is defined on the dual of the space which contains the range of T, whereas \(T^*\) is defined directly on the space which contains the range of T.</li>
+<li>For \(T^\times\) : \((\alpha T)^\times = \alpha T^\times\) ; for \(T^*\) : \((\alpha T)^* = \overline{\alpha} T^*\).</li>
+<li>In the finite dimensional case, \(T^\times\) is represented by the transpose of the matrix representing T, whereas \(T^*\) is represented by the complex conjugate transpose of that matrix.</li>
+</ul></li>
+</ul></li>
+<li>Reflexive spaces</li>
+<li><b>Category Theorem. Uniform Boundedness Theorem</b>
+<ul class="org-ul">
+<li>Definition (Category).<br />
+A subset M of a metric space X is said to be<br />
+(a) <i>rare</i> (or nowhere dense) in X if its closure \(\overline{M}\) has no interior points<br />
+(b) <i>meager</i> (or of the first category) in X if M is the union of countably many sets each of which is rare in X,<br />
+(c) nonmeager (or of the second category) in X if M is not meager in X.<br />
+Each concept has two names, a new name and an old one given in parentheses.</li>
+<li><b>Baire's Category Theorem</b> <i>(Complete metric spaces)</i>. <br />
+If a metric space \(X \neq \varnothing\) is complete, it is nonmeager in itself.<br />
+Hence if \(X \neq \varnothing\) is complete and
+\[ X = \bigcup_{k=1}^\infty A_k \text{ ( $A_k$ closed)}\]
+then at least one \(A_k\) contains a nonempty open subset.</li>
+<li><b>Uniform Boundedness Theorem.</b> <br />
+Let \((T_n)\) be a sequence of bounded linear operators \(T_n: X \to Y\) from a Banach space \(X\) into a normed space \(Y\) such that \((\|T_n x\|)\) is bounded for every \(x \in X\), say,
+\[ \|T_n x\| \leq c_x; n=1,2,... \]
+where c<sub>x</sub> is a real number. Then the sequence of the norms ||T<sub>n</sub>|| is bounded, that is, there is a c such that
+\[ \|T_n\| \leq c;  n=1,2,... \]</li>
+</ul></li>
+<li><b>Strong and Weak Convergence</b>
+<ul class="org-ul">
+<li>Definition <i>(Strong convergence)</i>. <br />
+A sequence \((x_n)\) in a normed space \(X\) is said to be strongly convergent (or convergent in the norm) if there is an \(x \in X\) such that
+\[\lim_{n\to\infty}\|x_n - x\| = 0. \]
+This is written
+\[ \lim_{n\to\infty}x_n= x\]
+or simply
+\[ x_n \longrightarrow x. \]
+\(x\) is called the strong limit of \((x_n)\), and we say that \((x_n)\) converges strongly to \(x\).</li>
+<li>Definition <i>(Weak convergence)</i>. <br />
+A sequence \((x_n)\) in a normed space \(X\) is said to be weakly convergent if there is an \(x \in X\) such that for every \(f \in X'\),
+\[\lim_{n\to\infty} f(x_n) = f(x).\]
+This is written
+\[ x_n \xrightarrow{\quad w \quad} x \]
+or \(x_n \rightharpoonup x\). The element \(x\) is called the weak limit of \((x_n)\), and we say that \((x_n)\) converges weakly to \(x\).</li>
+</ul></li>
+<li>Convergence of Sequences of Operators and Functionals
+<ul class="org-ul">
+<li>Definition <i>(Convergence of sequences of operators)</i>.<br />
+Let \(X\) and \(Y\) be normed spaces. A sequence \((T_n)\) of operators \(T_n \in B(X, Y)\) is said to be:<br />
+(1) <i>uniformly operator convergent</i> if \((T_n)\) converges in the norm on \(B(X, Y)\) <br />
+(2) <i>strongly operator convergent</i> if \((T_n x)\) converges strongly in \(Y\) for every \(x \in X\),<br />
+(3) <i>weakly operator convergent</i> if \((T_n x)\) converges weakly in \(Y\) for every \(x \in X\).</li>
+<li>Definition <i>(Strong and weak* convergence of a sequence of functionals)</i>.<br />
+Let \((f_n)\) be a sequence of bounded linear functionals on a normed space \(X\). Then:<br />
+(a) <i>Strong convergence</i> of \((f_n)\) means that there is an \(f \in X'\) such that \(\|f_n - f\| \rightarrow 0\). This is written \(f_n \rightarrow f\). <br />
+(b) <i>Weak* convergence</i> of \((f_n)\) means that there is an \(f \in X'\) such that \(f_n(x) \rightarrow f(x)\) for all \(x \in X\). This is written \(f_n \xrightarrow{\quad w* \quad} f\).<br />
+\(f\) in (a) and (b) is called the <i>strong limit and weak* limit</i> of \((f_n)\), respectively.</li>
+<li><b>Remark:</b> If the convergence is uniform, \(T \in B(X, Y)\) ; otherwise \(\|T_n - T\|\) would not make sense. If the convergence is strong or weak, \(T\) is still linear but may be unbounded if \(X\) is not complete.</li>
+</ul></li>
+<li><b>Open mapping theorem</b>
+<ul class="org-ul">
+<li>Definition <i>(Open mapping)</i>. <br />
+Let X and Y be metric spaces. Then T: D(T) &rarr; Y with domain D(T) &sub; X is called an open mapping if for every open set in D(T) the image is an open set in Y. <br />
+<b>Note</b>: Note that if a mapping is not surjective, one must take care to distinguish between the assertions that the mapping is open as a mapping from its domain <br />
+(a) into Y,<br />
+(b) onto its range.<br />
+(b) is weaker than (a). For instance, if X &sub; Y, the mapping x \mapsto x of X into Y is open if and only if X is an open subset of Y, whereas the mapping x \mapsto x of X onto its range (which is X) is open in any case.</li>
+</ul></li>
+<li><b>Closed Linear Operators. Closed Graph Theorem</b>
+<ul class="org-ul">
+<li>Definition <i>(Closed Hnear operator)</i>.<br />
+Let \(X\) and \(Y\) be normed spaces and \(T: D(T) \longmapsto Y\) a linear operator with domain \(D(T) \subset X\). Then T is called a <i>closed linear operator</i> if its graph
+\[G(T)=\{(x,y) | x\in D(T), y=Tx\}\]
+is closed in the normed space \(X \times Y\), where the two algebraic operations of a vector space in \(X \times Y\) are defined as usual, that is
+\[(x_1,y_1) + (x_2,y_2) = (x_1 + X_2, y_1 + y_2)\]
+\[ \alpha (x, y) = (\alpha x, \alpha y)\]
+(\(\alpha\) a scalar) and the norm on \(X \times Y\) is defined by
+\[ \|(x, y)\| =\|x\| + \|y\|. \]</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org1a1e634" class="outline-4">
+<h4 id="org1a1e634"><span class="section-number-4">3.1.5</span> Chap 7 - SPECTRAL THEORY OF LINEAR OPERATORS IN NORMED SPACES</h4>
+<div class="outline-text-4" id="text-3-1-5">
+<ol class="org-ol">
+<li><b>Spectral Theory in Finite Dimensional Normed Spaces</b>
+<ul class="org-ul">
+<li><b>Definition <i>(spectrum, resolvent set of a matrix)</i></b> <br />
+The set \(\sigma (A)\) of all eigenvalues of matrix \(A\) is called the <i>spectrum</i> of \(A\). Its complement \(\rho (A) = C - \sigma (A)\) in the complex plane is called the <i>resolvent set</i> of \(A\).</li>
+<li><b>Note</b>: if &xi; &isin; &rho; (A) then A - &xi; I is invertible</li>
+</ul></li>
+<li><b>Basic concepts</b>
+<ul class="org-ul">
+<li><b>Definition <i>(Regular value, resolvent set, spectrum)</i>.</b> <br />
+Let \(X \neq {O}\) be a complex normed space and \(T: D(T) \to X\) a linear operator with domain D(T) &sub; X$. A regular value \(\lambda\) of \(T\) is a complex number such that<br />
+\(\quad\) (Rl) \(R_\lambda (T)\) exists,<br />
+\(\quad\) (R2) \(R_\lambda (T)\) is bounded,<br />
+\(\quad\) (R3) \(R_\lambda (T)\) is defined on a set which is dense in \(X\).<br />
+The <i>resolvent set</i> \(\rho (T)\) of \(T\) is the set of all regular values \(\lambda\) of \(T\). Its complement \(\sigma (T) = C - \rho (T)\) in the complex plane \(C\) is called the <i>spectrum</i> of \(T\), and a \(\lambda \in \sigma (T)\) is called a <i>spectral value</i> of \(T\). Furthermore, the spectrum \(\sigma (T)\) is partitioned into three disjoint sets as follows.<br />
+\(\quad\) The <b>point spectrum</b> or <b>discrete spectrum</b> \(\sigma_p (T)\) is the set such that \(R_\lambda (T)\) does not exist. A \(\lambda \in \sigma_p (T)\) is called an <i>eigenvalue</i> of \(T\).<br />
+\(\quad\) The <b>continuous spectrum</b> \(\sigma_c (T)\) is the set such that \(R_\lambda (T)\) exists and satisfies (R3) but not (R2), that is, \(R_\lambda (T)\) is unbounded.<br />
+\(\quad\) The <b>residual spectrum</b> \(\sigma_r (T)\) is the set such that \(R_\lambda (T)\) exists (and may be bounded or not) but does not satisfy (R3), that is, the domain of \(R_\lambda (T)\) is not dense in \(X\).</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgecde8ac" class="outline-4">
+<h4 id="orgecde8ac"><span class="section-number-4">3.1.6</span> Chap 8 - Compact linear operators on normed spaces and their spectrum</h4>
+<div class="outline-text-4" id="text-3-1-6">
+<ol class="org-ol">
+<li><b>Compact Linear Operators on Normed Spaces</b>
+<ul class="org-ul">
+<li><b>Definition <i>(Compact linear operator)</i></b>. <br />
+Let \(X\) and \(Y\) be normed spaces. An operator \(T: X \to Y\) is called a <i>compact linear operator</i> (or <i>completely continuous linear operator</i>) if \(T\) is linear and if for every bounded subset \(M\) of \(X\), the image \(T(M)\) is <i>relatively compact</i>, that is, the closure \(\overline{T(M)}\) is compact.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgf62f9ad" class="outline-3">
+<h3 id="orgf62f9ad"><span class="section-number-3">3.2</span> Functional analysis - Gustav Holzegel's note</h3>
+<div class="outline-text-3" id="text-3-2">
+</div>
+<div id="outline-container-org8afbf12" class="outline-4">
+<h4 id="org8afbf12"><span class="section-number-4">3.2.1</span> Normed Spaces and Banach Spaces</h4>
+<div class="outline-text-4" id="text-3-2-1">
+<ol class="org-ol">
+<li>Definition <i>(linearly independent)</i>.<br />
+A set \(M \subset X\) is called linearly independent if <b><i>every finite subset</i></b> of \(M\) is linearly independent.</li>
+<li>Definition <i>(Hamel basis)</i>. <br />
+A set \(E \subset X\) is called a Hamel basis of \(X\) if \(E\) is linearly independent and every vector \(x \in X\) can be written uniquely as a finite linear combination of elements in \(E\).</li>
+<li>Definition <i>(Schauder basis)</i>.<br />
+If a normed space X contains a sequence \(e_n\) with the property that for every \(x \in X\) there is a unique sequence of scalars \(\alpha_n\) such that \(\| x − \alpha_1 e_1 − \alpha_2 e_2 − ... \alpha_n e_n \| \to 0\) as \(n \to \infty\) then \((e_n)\) is called a <i>Schauder basis</i> of \(X\).</li>
+<li>Lema: if X has a Schauder basis, then it is separable. (The converse is in general false.)</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf1ac432" class="outline-4">
+<h4 id="orgf1ac432"><span class="section-number-4">3.2.2</span> Linear Operators</h4>
+<div class="outline-text-4" id="text-3-2-2">
+<ol class="org-ol">
+<li>Lema: The operator norm is indeed a norm.</li>
+<li>Theorem: If a normed space is finite dimensional then every linear operator T on X is bounded.</li>
+<li>Theorem: <br />
+Let \(T: D(T) \to Y\) be a linear operator where \(D(T) \subset X\) and \(X; Y\) are normed spaces. Then <br />
+(1) \(T\) is continuous <i>if and only if</i> \(T\) is bounded<br />
+(2) If \(T\) is continuous at a single point it is continuous everywhere</li>
+<li>Note: the space of all linear functionals on a vector space can itself be made into a vector space. This vector space is denoted \(X^*\) and called the <i>algebraic dual space</i> of \(X\). The linear operations are defined as expected:
+\[(f_1 + f_2)(x) = f_1(x) + f_2(x); (\alpha f)(x) = \alpha f(x).\]
+The algebraic dual space is to be distinguished from the <i>dual space</i>, which is <span class="underline">the space of <i>bounded (=continuous)</i> linear functionals</span> in the context of normed spaces.</li>
+<li><b>Theorem</b>:<br />
+Let X; Y be normed spaces. If Y is a Banach space, then B(X,Y) is a Banach space.<br />
+<b><i>Note</i></b>: <i>An important consequence of this theorem is that if you consider bounded linear functionals from a normed space X into R or C (which are complete), then independently of whether the domain is complete or not, the space of bounded linear functionals will be complete.</i></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orge393cfb" class="outline-4">
+<h4 id="orge393cfb"><span class="section-number-4">3.2.3</span> The dual space and the Hahn-Banach theorem</h4>
+<div class="outline-text-4" id="text-3-2-3">
+<ol class="org-ol">
+<li><b>Definition <i>(affine hyperplane)</i></b> <br />
+The zero set of a linear functional \(f(v) = 0\) represents a <i>hyperplane</i> in \(R^n\) and, more generally, the set \(\{v | f(v) = c\}\) represents a translated (affine) hyperplane. We adapt these definitions for an arbitrary (possibly \(\infty\) -dimensional) vector space \(V\) over \(R\), i.e. we call the set \(H = \{v \in V | f(v) = c\}\) an <i>affine hyperplane</i> in \(V\).</li>
+<li><b>Definition <i>(Convex set)</i></b>
+A set \(K \subset V\) is <i>convex</i> if \(v_0, v_1 \in K\) implies that
+\[ v(t) = (1 − t)v_0 + tv_1 \]
+lies in \(K\) for all \(0 \leq t \leq 1\).</li>
+<li><b>Theorem <i>(Hahn-Banach)</i></b><br />
+Let \(V\) be a real vector space and \(p\) a sublinear functional on \(V\) . Let \(M \subset V\) be a linear subspace and \(f\) a linear functional on \(M\) satisfying
+\[ f(v) \leq p(v) \text{ for all } v \in M.\]
+Then \(f\) can be extended on all of \(V\) such that
+\[ F(v) \leq p(v) \text{ for all } v \in V \quad \text{ and } \quad F(v) = f(v) \text{ for } v \in M.\]
+*Note: if the context is clear, the terms linear subspace and subspace can be used interchangeably.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgad9508c" class="outline-4">
+<h4 id="orgad9508c"><span class="section-number-4">3.2.4</span> Some Spectral Theory: Compact Operators</h4>
+<div class="outline-text-4" id="text-3-2-4">
+<ol class="org-ol">
+<li>Infinite diagonal matrices
+<ul class="org-ul">
+<li>Operator \(T: H \to H\) called a linear transformation diagonalized if with respect to some /orthonormal basi/s \((\varphi )_{k=1}^\infty\) we have for all \(k\)
+\[ T\varphi_k = \lambda_k\varphi_k \text{ with } \lambda_k \in C\]
+In other words the \(\{\lambda_k\}\) are eigenvectors with eigenvalue \(\lambda_k\). Therefore, if we have
+\[ f = \sum_{k=1}^\infty \alpha_k\varphi_k \text{ then } Tf = \sum_{k=1}^\infty \alpha_k\lambda_k\varphi_k.\]
+The sequence \(\{\lambda_k\}\) is called the <i>multiplier sequence</i> corresponding to \(T\).</li>
+</ul></li>
+<li>Theorem:<br />
+Suppose \(T\) is a <i>compact self-adjoint operator</i> \(T : H \to H\) for \(H\) a(separable) infinite dimensional Hilbert space. Then there exists an orthonormal basis \(\{\varphi_k\}){k=1}^\infty\) of \(H\) consisting of eigenvectors of \(T\):
+\[ T\varphi_k = \lambda_k\varphi_k.\]
+Moreover, \(\lambda_k \in R\) and \(\lambda_k \to 0\) as \(k \to \infty\).
+*Note: <i>In the case of finite dimensional Hilbert spaces, the theorem reduces to the familiar theorem in linear algebra about diagonalizing symmetric matrices.</i></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="outline-container-org3cb50be" class="outline-2">
+<h2 id="org3cb50be"><span class="section-number-2">4</span> Some confusing things:</h2>
+<div class="outline-text-2" id="text-4">
+</div>
+<div id="outline-container-org365d510" class="outline-3">
+<h3 id="org365d510"><span class="section-number-3">4.1</span> Some terms about function or mapping or operator (vector spaces)</h3>
+<div class="outline-text-3" id="text-4-1">
+<ol class="org-ol">
+<li>Let \(D(T) \subset X\) and \(R(T) \subset Y\), where \(X\) and \(Y\) are vector spaces, both real or both complex. Then \(T\) is an operator from (or mapping of) \(D(T)\) <b>onto</b> \(R(T)\), written
+\[ T: D(T) \to R(T)\]
+or from \(D(T)\) <b>into</b> \(Y\), written
+\[ T: D(T) \to  Y.\]
+If \(D(T)\) is the whole space \(X\), <i>then-and only then</i>- we write
+\[ T: X \to Y.\]</li>
+<li>D(T): Domain of T</li>
+<li>R(T): Range of T, some time called Imange of T (some text use for retriction of T on subset of domain)</li>
+<li>Y: Codomain of T</li>
+<li>Preimage: of subset of the codomain is the set of all inputs that produce outputs in that set.</li>
+<li>Injection: two - to - two function. Giữ nguyên tính phân biệt và đầy đủ của các phần tử trong domain (giống hình ảnh ống tiêm - tiêm vào codomain)</li>
+<li>Surjection: every elements in codomain have at least a coresponding element in domain that map to it.</li>
+<li>Bijection: Injection + Surjection</li>
+<li>Inverse of function: a function have an inverse iff it is bijective.</li>
+<li>Preimage and inverse notation: \(f^{-1}(B)\) vs \(f^{-1}(x)\). B is a subset of codomain of f. x is an element of domain of f.</li>
+<li>In some texts, defintion of function might be different and confusing with relation. they may use terms like total, well-define, partial function&#x2026;.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org0349dac" class="outline-3">
+<h3 id="org0349dac"><span class="section-number-3">4.2</span> Interchange of limits</h3>
+<div class="outline-text-3" id="text-4-2">
+<ol class="org-ol">
+<li>Continuity of the limit: \(f_n\)  be a sequence of continuous functions <i>uniformly convergence</i> to \(f\) <br />
+<ul class="org-ul">
+<li>Continuity of limits = limit of continuities<br /></li>
+<li>\(\lim_{k\to\infty}(\lim_{n\to\infty}f_n(x_k) = \lim_{n\to\infty}(\lim_{k\to\infty}(f_n(x_k))\)</li>
+<li>\(\lim_{k\to\infty} f(x_k) = \lim_{n\to\infty}f_n(x)\)</li>
+</ul></li>
+<li>Integral of limits: \(f_n\)  be a sequence of Riemann integrable functions <i>uniformly convergence</i> to \(f\) <br />
+<ul class="org-ul">
+<li>Integral of limits = limit of integrals<br /></li>
+<li>\(\int_a^b \lim_{n\to\infty} f_n = \lim_{n\to\infty}\int_a^b f_n\)</li>
+<li>\(\int_a^b f = \lim_{n\to\infty}\int_a^b f_n\)</li>
+</ul></li>
+<li>Derivative of limits: if \(f'_n\) <i>converges uniformly</i> to \(f'\), and \(f_n(x_0)\) converges for some \(x_0\), then \(f_n\) also <i>converges uniformly</i> to \(f\) (on bounded interval), and:<br />
+<ul class="org-ul">
+<li>Derivative of limits = limit of derivarives</li>
+<li>\(f'(x) = \frac{d}{dx} \lim_{n\to\infty} f_n(x) = \lim_{n\to\infty}\frac{d}{dx}f_n(x) =  \lim_{n\to\infty} f'_n(x)\)</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgacec71c" class="outline-3">
+<h3 id="orgacec71c"><span class="section-number-3">4.3</span> Interchange (swap) integrals or infite sums (several variables)</h3>
+<div class="outline-text-3" id="text-4-3">
+<ol class="org-ol">
+<li>ex: see Tenren Tao's analysis</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgaa3ad50" class="outline-3">
+<h3 id="orgaa3ad50"><span class="section-number-3">4.4</span> Interchanging limits or derivatives (several variables)</h3>
+<div class="outline-text-3" id="text-4-4">
+<ol class="org-ol">
+<li>ex: see Tenren Tao's analysis</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orgbbd3524" class="outline-2">
+<h2 id="orgbbd3524"><span class="section-number-2">5</span> Calculus</h2>
+<div class="outline-text-2" id="text-5">
+</div>
+<div id="outline-container-orgf7680ba" class="outline-3">
+<h3 id="orgf7680ba"><span class="section-number-3">5.1</span> Multivarible calculus</h3>
+<div class="outline-text-3" id="text-5-1">
+</div>
+<div id="outline-container-org863197b" class="outline-4">
+<h4 id="org863197b"><span class="section-number-4">5.1.1</span> </h4>
+</div>
+</div>
+</div>
+<div id="outline-container-org212fc76" class="outline-2">
+<h2 id="org212fc76"><span class="section-number-2">6</span> Algebra</h2>
+<div class="outline-text-2" id="text-6">
+</div>
+<div id="outline-container-org628ee2e" class="outline-3">
+<h3 id="org628ee2e"><span class="section-number-3">6.1</span> Resources</h3>
+<div class="outline-text-3" id="text-6-1">
+</div>
+<div id="outline-container-org5673d95" class="outline-4">
+<h4 id="org5673d95"><span class="section-number-4">6.1.1</span> chicago-ug-math-bib</h4>
+<div class="outline-text-4" id="text-6-1-1">
+</div>
+<ol class="org-ol">
+<li><a id="org0234b5a"></a>Intermediate - Abstract algebra<br />
+<div class="outline-text-5" id="text-6-1-1-1">
+<ol class="org-ol">
+<li>Dummit/Foote, Abstract algebra: Comprehensive, very good for reference.</li>
+<li>Herstein, Topics in algebra</li>
+<li>Artin, Algebra: nontraditional approach to undergraduate algebra, emphasizing concrete computational examples heavily throughout. used in MIT OCW courses.</li>
+<li>Hungerford, Algebra: might be good, some dont like it</li>
+<li>a book of abstract algebra: charles Pinter. might be very good.</li>
+<li>Fraleigh J.B. A First Course in Abstract Algebra - Fraleigh made it, he gives a good introduction abstract algebra for newbie. Ideal for a first coures.</li>
+<li>Jacobson N. Basic Algebra I</li>
+</ol>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgbd7f1fc" class="outline-3">
+<h3 id="orgbd7f1fc"><span class="section-number-3">6.2</span> A book of abstract algbera - Charles C.Pinter</h3>
+<div class="outline-text-3" id="text-6-2">
+</div>
+<div id="outline-container-org2a7a6f9" class="outline-4">
+<h4 id="org2a7a6f9"><span class="section-number-4">6.2.1</span> Groups</h4>
+<div class="outline-text-4" id="text-6-2-1">
+<ol class="org-ol">
+<li><b>Definition:</b> <br />
+By a group we mean a set \(G\) with an operation \(*\) which satisfies the axioms:<br />
+(Gl) \(*\) is associative.<br />
+(G2) There is an element \(e \in G\) such that \(a * e = a\) and \(e * a = a\) for every element \(a \in G\).<br />
+(G3) For every element \(a \in G\), there is an element \(a^{-1} \in G\) such that $a * a<sup>-1</sup> = e and \(a^{-1} * a = e\).<br />
+*Note: If the commutative law holds in a group \(G\), such a group is called a <i>commutative group</i> or, more commonly, an <i>abelian group</i>.</li>
+<li><b>Order of G</b>: <br />
+If G is a finite group, the number of elements in G is called the order of G. It is customary to denote the order of G by the symbol |G|.</li>
+<li><b>Definition <i>(subgroup)</i></b>: <i>(informal, my own words).</i> 
+<ul class="org-ul">
+<li>We call S a subgroup of G if S is <i>closed with respect to operation</i> of G and is <i>closed with respect to inverses</i> of that operation.</li>
+<li>Lema: <i>if G is a group and S is a subgroup of G, then S itself is a group</i></li>
+</ul></li>
+<li><b>Definition <i>(cyclic subgroup of G)</i></b>: <i>Informal</i>
+<ul class="org-ul">
+<li>If a<sub>1</sub> ,&#x2026; , a<sub>n</sub> are any finite number of elements of G, we define S to be the subgroup of G <i>generated by</i> a<sub>1</sub> ,&#x2026; , a<sub>n</sub>  which contains all the possible products or sum of a<sub>1</sub>,&#x2026; , a<sub>n</sub> and their inverses. <i>(in other words, in any group G, a set S of elements of G is said to generate G if every element of G can be expressed as a product of elements in S and inverses of elements in S.)</i></li>
+<li>In particular, if a is a single element of G, we may consider the subgroup generated by a. This subgroup is designated by the symbol &lt;a&gt;, and is called a <i>cyclic subgroup</i> of G; a is called its generator.</li>
+</ul></li>
+<li>*Definition <i>(semigroup)</i>:
+<ul class="org-ul">
+<li>A set A with an associative operation is called a <i>semigroup</i>. (There does not need to be an identity element, nor do elements necessarily have inverses.)</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org8d96334" class="outline-4">
+<h4 id="org8d96334"><span class="section-number-4">6.2.2</span> Groups of permutations</h4>
+<div class="outline-text-4" id="text-6-2-2">
+<ol class="org-ol">
+<li><b>Definition/(Permutation)/:</b>
+<ul class="org-ul">
+<li>By a permutation of a set A we mean a bijective function from A to A, that is, a one-to-one correspondence between A and itself.</li>
+</ul></li>
+<li><b>Definition <i>(identity function)</i>:</b>
+<ul class="org-ul">
+<li>For any set A , the identity function on A; symbolized by \(\epsilon_A\) or simply \(\epsilon\), is the function x &rarr; x which carries every element of A to itself. That is, it is defined by
+\[ \epsilon(x) = x \text{ for every element } x \in A \]</li>
+<li>Lema: <i>the set of all the permutations of A, with the operation \(\circ\) of composition, is a group</i></li>
+</ul></li>
+<li><b>Definition <i>(Symetric group on A)</i></b>:
+<ul class="org-ul">
+<li>For any set A , the <i>group of all the permutations</i> of A is called the <i>symmetric group</i> on A, and it is represented by the symbol S<sub>A</sub> . For any positive integer n, the symmetric group on the set {l, 2, 3,&#x2026; , n} is called the <i>symmetric group on n elements</i>, and is denoted by S<sub>n</sub>.</li>
+<li><b>Remark:</b> By a <i>group of permutations</i> we mean any group S<sub>A</sub> or S<sub>n</sub> , or any subgroup of one of these groups. Among the most interesting groups of permutations are the groups of symmetries of geometric figures <i>(just a subgroup of S<sub>A</sub> with A is set of all vertices of the figure - my own words)</i>.</li>
+<li>For every positive integer n &ge; 3, the regular polygon with n sides has a group of symmetries, symbolized by D<sub>n</sub>, which may be found as we did here. These groups are called the <i>dihedral groups</i>. For example, the group of the square is D<sub>4</sub>, the group of the pentagon is D<sub>5</sub>, and so on.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org2c91ea9" class="outline-4">
+<h4 id="org2c91ea9"><span class="section-number-4">6.2.3</span> Permutations of a finite set</h4>
+<div class="outline-text-4" id="text-6-2-3">
+<ol class="org-ol">
+<li><b>Definition <i>(cycle)</i>:</b>
+<ul class="org-ul">
+<li>Let a<sub>1</sub> , a<sub>2</sub> ,&#x2026; , as be distinct elements of the set {1, 2, . . . , n} . By the cycle (a<sub>1</sub> a<sub>2</sub> &#x2026;  a<sub>s</sub> ) we mean the permutation a<sub>1</sub> &rarr; a<sub>2</sub> &rarr; &#x2026; &rarr; a<sub>s</sub> &rarr; a<sub>1</sub> &#x2026; of {1, 2, . . . , n}, while leaving all the remaining elements of {1, 2, . . . , n} fixed.</li>
+<li>If (a<sub>1</sub> a_ 2 &#x2026; a<sub>s</sub> ) is a cycle, the integer s is called  its length; thus, (a<sub>1</sub> a<sub>2</sub> &#x2026;  a<sub>s</sub> ) is a cycle of length s. A cycle of length 2 is called a <i>transposition</i>.</li>
+<li>Lema: If two cycles have no elements in common they are said to be <i>disjoint</i>. Disjoint cycles commute.</li>
+</ul></li>
+<li><b>Theorem 1</b>:
+<ul class="org-ul">
+<li><i>Every permutation is either the identity, a single cycle, or a product of disjoint cycles.</i></li>
+<li><b>Remark</b>: <br />
+Every permutation, after it has been decomposed into disjoint cycles, may be brokern down further and expressed as a <i>product of transpositions</i>. However, the expression as a product of transpositions is not unique, and even the number of transpositions involved is not unique. Nevertheless, when a permutation &pi; is written as a product of transpositions, one  property of this expression is unique: <i>the number of transpositions involved is either always even or always odd.</i></li>
+</ul></li>
+<li><b>Theorem 2</b>:
+<ul class="org-ul">
+<li>No matter how &epsilon; written as a product of transpositions, the number of transpositions is even.</li>
+</ul></li>
+<li><b>Theorem 3</b>:
+<ul class="org-ul">
+<li><i>If &pi; &isin; S<sub>n</sub>, then &pi; cannot be both an odd permutation and an even permutation.</i></li>
+<li>Note: The set of all the even permutations in S<sub>n</sub> is a subgroup of S<sub>n</sub>. It is denoted by A<sub>n</sub>, and is called the <i>alternating group</i> on the set {1, 2,&#x2026; , n}.</li>
+</ul></li>
+<li><b>Definition <i>(Conjugate Cycles)</i>:</b>
+<ul class="org-ul">
+<li>Let &alpha; = (a<sub>1</sub>,&#x2026; , a<sub>s</sub> ) be a cycle and let &pi; be a permutation in S<sub>n</sub>. Then \(\pi \alpha \pi^{-1}\) is the cycle \((\pi(a_1) ,... , \pi(a_s))\) .If &alpha; is any cycle and &pi; any permutation, \(\pi \alpha \pi^{-1}\) is called a <i>conjugate of &alpha;</i>.</li>
+<li>Lema: <i>Any two cycles of the same length are conjugates of each other.</i></li>
+</ul></li>
+<li><b>Definition <i>(order of an permutation)</i>:</b>
+<ul class="org-ul">
+<li>If &alpha; is any permutation, the least positive integer n such that &alpha;<sup>n</sup> = &epsilon; is called the order of &alpha; .</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgff02473" class="outline-4">
+<h4 id="orgff02473"><span class="section-number-4">6.2.4</span> Isomorphism</h4>
+<div class="outline-text-4" id="text-6-2-4">
+<ol class="org-ol">
+<li><b>Definition:</b>
+<ul class="org-ul">
+<li>Let G<sub>1</sub> and G<sub>2</sub> be groups. A bijective function f: G<sub>1</sub> &rarr; G<sub>2</sub> with the property that for any two elements a and b in G<sub>1</sub> ,
+\[ f(ab) = f(a)f(b) \]
+is called an <i>isomorphism</i> from G<sub>1</sub> to G<sub>2</sub> . If there exists an isomorphism from G<sub>1</sub> to G<sub>2</sub> , we say that G<sub>1</sub> is <i>isomorphic</i> to G<sub>2</sub> .
+\[ \text{we write } G_1 \cong G_2 \]</li>
+</ul></li>
+<li><b>Cayley's Theorem</b>:
+<ul class="org-ul">
+<li>Every group is isomorphic to a group of permutations.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orga6d3e9c" class="outline-4">
+<h4 id="orga6d3e9c"><span class="section-number-4">6.2.5</span> Order of group elements</h4>
+<div class="outline-text-4" id="text-6-2-5">
+<ol class="org-ol">
+<li><b>Definition <i>(order of group elements)</i></b>:
+<ul class="org-ul">
+<li>If there exists a nonzero integer m such that a<sup>m</sup> = e, then the order of the element a is defined to be the least positive integer n such that a<sup>n</sup> = e. If there does not exist any nonzero integer m such that a<sup>m</sup> = e, we say that a has order infinity.</li>
+<li>If a is any element of a group, we will denote the order of a by <b>ord(a)</b></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org49794fa" class="outline-4">
+<h4 id="org49794fa"><span class="section-number-4">6.2.6</span> Counting cosets</h4>
+<div class="outline-text-4" id="text-6-2-6">
+<ol class="org-ol">
+<li><b>Definition <i>(Coset)</i>:</b>
+<ul class="org-ul">
+<li>Let G be a group, and H a subgroup of G. For any element a in G, the symbol aH denotes the set of all products ah, as a remains fixed and h ranges over H. aH is called a left coset of H in G.</li>
+<li>In similar fashion, Ha denotes the set of all products ha, as a remains fixed and h ranges over H. Ha is called a right coset of H in G.</li>
+<li>note: <i>In practice, it will make no difference whether we use left cosets or right cosets, just as long as we remain consistent. Thus, from here on, whenever we use cosets we will use right cosets. To simplify our sentences, we will say coset when we mean "right coset."</i></li>
+</ul></li>
+<li><b>Theorem 1</b>:
+<ul class="org-ul">
+<li>The family of all the cosets Ha, as a ranges over G, is a partition of G.</li>
+</ul></li>
+<li><b>Theorem 2:</b>
+<ul class="org-ul">
+<li>If Ha is any coset of H, there is a one-to-one correspondence from H to Ha.</li>
+</ul></li>
+<li><b>Lagrange's theorem:</b>
+<ul class="org-ul">
+<li>Let G be a finite group, and H any subgroup of G. The order of G is a multiple of the order of H.</li>
+</ul></li>
+<li><b>Theorem 4:</b>
+<ul class="org-ul">
+<li>If G is a group with a prime number p of elements, then G is a cyclic group. Furthermore, any element a &ne; e in G is a generator of G.</li>
+</ul></li>
+<li><b>Theorem 5:</b>
+<ul class="org-ul">
+<li>The order of any element of a finite group divides the order of the group.</li>
+<li>if G is a group and H is a subgroup of G, <i>the index</i> of H in G is the number of cosets of H in G. We denote it by (G:H)
+\[ (G:H) =  \dfrac{\text{order of } G}{\text{order of } H}\]</li>
+</ul></li>
+<li><b>Cauchy's theorem:</b>
+<ul class="org-ul">
+<li>If G is a finite group, and p is a prime divisor of |G|, then G has an element of order p.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb5a6966" class="outline-4">
+<h4 id="orgb5a6966"><span class="section-number-4">6.2.7</span> Homomorphisms</h4>
+<div class="outline-text-4" id="text-6-2-7">
+<ol class="org-ol">
+<li><b>Definition <i>(Homomorphism)</i>:</b>
+<ul class="org-ul">
+<li>If G and H are groups, a <b>homomorphism</b> from G <b>to</b> H is a function f: G &rarr; H such that for any two elements a and b in G, f(ab) = f(a)f(b)</li>
+<li>If there exists a homomorphism from G <b>onto</b> H, we say that H is a <b>homomorphic image</b> of G.</li>
+<li><i>The underlying idea is:</i> In a homomorphic image of G, some aspect of G is isolated and faithfully preserved while all else is deliberately lost.</li>
+</ul></li>
+<li><b>Theorem 1</b>:
+<ul class="org-ul">
+<li>Let G and H be groups, and f: G &rarr;  H a homomorphism. Then; <br />
+(i) f(e) = e, and <br />
+(ii) \(f(a^{-1}) = [f(a)]^{-1}\) for every element a &isin; G</li>
+</ul></li>
+<li><b>Definition <i>(normal subgroup)</i></b>:
+<ul class="org-ul">
+<li>Let H be a subgroup of a group G. H is called a normal subgroup of G if it is closed with respect to conjugates, that is, if
+\[\text{for any } a \in H \text{ and } x \in G \quad xax^{-1} \in H \]</li>
+<li>Note that according to this definition, a normal subgroup of G is any nonempty subset of G which is closed with 'respect to products, with respect to inverses, and with respect to conjugates.</li>
+</ul></li>
+<li><b>Definition <i>(kernel)</i>:</b>
+<ul class="org-ul">
+<li>Let f: G &rarr; H be a homomorphism. The <b>kernel</b> of f is the set K of all the elements of G which are carried by f onto the neutral element of H. That is,
+\[ K = \{x \in G: f(x) = e\} \]</li>
+</ul></li>
+<li><b>Theorem:</b>
+<ul class="org-ul">
+<li>Let f: G &rarr; H be a homomorphism.<br />
+(i) The kernel of f is a normal subgroup of G, and<br />
+(ii) The range of f is a subgroup of H.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgf8cdeeb" class="outline-4">
+<h4 id="orgf8cdeeb"><span class="section-number-4">6.2.8</span> Quotient groups</h4>
+<div class="outline-text-4" id="text-6-2-8">
+<ol class="org-ol">
+<li><b>Theorem 1 <i>(property of normal subgroup)</i>:</b>
+<ul class="org-ul">
+<li>If H is a normal subgroup of G, then aH = Ha for every a &isin; G.</li>
+<li>In other words, there is no distinction between left and right cosets for a normal subgroup.</li>
+</ul></li>
+<li><b>Theorem 2</b>
+<ul class="org-ul">
+<li>Let H be a normal subgroup of G. If Ha = Hc and Hb = Hd, then H(ab) = H(cd).</li>
+</ul></li>
+<li><b>Quotient Group</b>:
+<ul class="org-ul">
+<li>Let G be a group and let H be a <i>normal subgroup</i> of G. The set which consists of all the cosets of H is denoted by G/H. Thus, if Ha, Hb, He, . . . are cosets of H, then G/H = {Ha, Hb, He, . . . }</li>
+<li><b>Theorem 3</b>: G/H with coset multiplication - Ha.Hb = H(ab) - is a group. <i>Note: For coset multiplication uniquely defined, H need to be normal subgroup</i></li>
+<li>The group G/H is called the <i>factor group</i>, or <i>quotient group</i> of G by H.</li>
+</ul></li>
+<li><b>Theorem 4</b>:
+<ul class="org-ul">
+<li>G/H is a homomorphic image of G.</li>
+</ul></li>
+<li><b>Theorem 5</b>
+<ul class="org-ul">
+<li>Let G be a group and H a subgroup of G. Then<br />
+(i) \(Ha = Hb\) iff \(ab^{-1} \in H\) and <br />
+(ii) \(Ha = H\) iff \(a \in H\)</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org517d981" class="outline-4">
+<h4 id="org517d981"><span class="section-number-4">6.2.9</span> The fundamental homorphism theorem</h4>
+<div class="outline-text-4" id="text-6-2-9">
+<ol class="org-ol">
+<li><b>Theorem 1</b>:
+<ul class="org-ul">
+<li>Let f: G &rarr; H be a homomorphism with kernel K. Then f(a) = f(b) iff Ka = Kb</li>
+<li>In other words, any two elements a and b in G have the same image under f iff they are in the same coset of K.</li>
+</ul></li>
+<li><b>Theorem 2 <i>(fundamental homomorphism theorem)</i>:</b>
+<ul class="org-ul">
+<li>Let f: G &rarr; H be a homomorphism of G onto H. If K is the kernel of f, then \(H \cong G/K\).</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org4c614bf" class="outline-4">
+<h4 id="org4c614bf"><span class="section-number-4">6.2.10</span> Rings: Definitions and elementary properties</h4>
+<div class="outline-text-4" id="text-6-2-10">
+<ol class="org-ol">
+<li><b>Theorem 1:</b>
+<ul class="org-ul">
+<li>Let a and b be any elements of a ring A.<br />
+(i) a0 = 0 and 0a = 0 <br />
+(ii) a(-b) = -(ab) and (-a)b = -(ab) <br />
+(iii) (-a)(-b) = ab</li>
+</ul></li>
+<li>Note 1:
+<ul class="org-ul">
+<li>In any ring, a nonzero element a is called a <b>divisor of zero</b> if there is a nonzero element b in the ring such that the product ab or ba is equal to zero. For example, in Z<sub>6</sub>, 2.3 = 0.</li>
+</ul></li>
+<li>Note 2:
+<ul class="org-ul">
+<li>A ring is said to have the <b>cancellation property</b> if ab = ac or ba = ca implies b = c for any elements a, b, and c in the ring if a &ne; 0</li>
+</ul></li>
+<li><b>Theorem 2:</b>
+<ul class="org-ul">
+<li>A ring has the cancellation property iff it has no divisors of zero.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org22a8993" class="outline-4">
+<h4 id="org22a8993"><span class="section-number-4">6.2.11</span> Ideals and Homomorphisms</h4>
+<div class="outline-text-4" id="text-6-2-11">
+<ol class="org-ol">
+<li><b>Subring:</b>
+<ul class="org-ul">
+<li>If a nonempty subset B \subseteq A is closed with respect to addition, multiplication, and negatives, then B with the operations of A is a ring.</li>
+<li><i>B is a subring of A if and only if B is closed with respect to subtraction and multiplication. The reason is that B is closed with respect to subtraction iff B is closed with respect to both addition and negatives.</i></li>
+</ul></li>
+<li><b>Ideals:</b>
+<ul class="org-ul">
+<li>A nonempty subset B of a ring A is called an ideal of A if B is closed with respect to addition and negatives, and B absorbs products in A <i>(for all b &isin; B and x &isin; A, xb and bx are in B.)</i>.</li>
+</ul></li>
+<li><b>Homomorphisms:</b>
+<ul class="org-ul">
+<li>A homomorphism from a ring A to a ring B is a function f : A &rarr; B satisfying the identities
+\[f(x_1 + X_2) = f(x_1) + f(x_2)\]
+and
+\[ f(x_1x_2) = f(x_1)f(x_2)\]</li>
+</ul></li>
+<li><b>Kernel:</b>:
+<ul class="org-ul">
+<li>If f is a homomorphism from a ring A to a ring B, the <b>kernel of f</b> is the set of all the elements of A which are carried by f onto the zero element of B. In symbols, the kernel of f is the set K = {x &isin; A : f(x) = 0}</li>
+<li><i>It is a very important fact that the kernel of f is an ideal of A.</i></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgc03d0ea" class="outline-4">
+<h4 id="orgc03d0ea"><span class="section-number-4">6.2.12</span> Quotient rings</h4>
+<div class="outline-text-4" id="text-6-2-12">
+<ol class="org-ol">
+<li><b>Cosets of rings:</b>
+<ul class="org-ul">
+<li>Let A be a ring, and J an ideal of A. For any element a &isin; A, the symbol J + a denotes the set of all sums j + a, as a remains fixed and j ranges over J. That is,
+\[ J + a = \{j + a : j \in J\}\]
+J + a is called a <b>coset</b> of J in A</li>
+</ul></li>
+<li><b>Theorem 1</b>
+<ul class="org-ul">
+<li>Let J be an ideal of A. If J + a = J + c and J + b = J + d, then<br />
+(i) J + (a + b) = J + (c + d) , and <br />
+(ii) J + ab = J + cd.</li>
+</ul></li>
+<li><b>Theorem 2:</b> A/J with coset addition and multiplication is a ring (quotient ring).</li>
+<li><b>Theorem 3:</b> A/J is a homomorphic image of A.</li>
+<li><b>Theorem 4:</b> Let f : A &rarr; B be a homomorphism from a ring A onto a ring B, and let K be the kernel of f. Then B &cong; A/K.</li>
+<li>Note:
+<ul class="org-ul">
+<li>Theorems 3 and 4 together assert that every quotient ring of A is a homomorphic image of A, and, conversely, every homomorphic image of A is isomorphic to a quotient ring of A. Thus, for all practical purposes, quotients and homomorphic images of a ring are the same.</li>
+<li>As in the case of groups, there are many practical instances in which it is possible to select an ideal J of A so as to "factor out" unwanted traits of A, and obtain a quotient ring A/J with "desirable" features.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org99eb31b" class="outline-4">
+<h4 id="org99eb31b"><span class="section-number-4">6.2.13</span> Intergral domains</h4>
+<div class="outline-text-4" id="text-6-2-13">
+<ol class="org-ol">
+<li>Definition <i>(integral domain)</i>:*
+<ul class="org-ul">
+<li>An integral domain is a commutative ring with unity having the cancellation property, that is, if a &ne; 0 and ab = ac then b = c.</li>
+<li>The term "integral domain" means a system of algebra ("domain") having integerlike properties.</li>
+</ul></li>
+<li><b>Definition <i>(Characteristic of ring with unity)</i>:</b>
+<ul class="org-ul">
+<li>In a ring with unity, if 1 has additive order n, we say the ring has "characteristic n." In other words, if A is a ring with unity, the <b>characteristic</b> of A is the least positive integer n such that
+\[ (1 + 1 + · · · + 1)_{n\_times} = 0 \]
+If there is no such positive integer n, A has <b>characteristic 0</b>.</li>
+</ul></li>
+<li><b>Theorem 1</b>: All the nonzero elements in an integral domain have the same additive order.</li>
+<li>*Theorem 2:/
+<ul class="org-ul">
+<li>In an integral domain with nonzero characteristic, the characteristic is a prime number.</li>
+<li>PROOF: If the characteristic were a composite number mn, then by the distributive law,
+\[ (m.1)(n.1) = (1 + · · · + 1)_{m\_terms} (1 + · · · + 1)_{n\_terms} = (1 + 1 + · · · + 1)_{mn\_terms} = (mn).1 = 0 \]
+Thus, either m.1 = 0 or n.1 = 0, which is impossible because mn was chosen to be the least positive integer such that (mn).1 = 0.</li>
+</ul></li>
+<li><b>Theorem 3:</b>
+<ul class="org-ul">
+<li>In any integral domain of characteristic p, for all elements a and b
+\[ (a + b)^p = a^p + b^P \]</li>
+<li>PROOF: This formula becomes clear when we look at the binomial expansion. <i>Note that the binomial formula is correct in every commutative ring</i>.</li>
+</ul></li>
+<li><b>Theorem 4</b>: Every <b>finite</b> integral domain is a field.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgc9d8926" class="outline-4">
+<h4 id="orgc9d8926"><span class="section-number-4">6.2.14</span> The integers</h4>
+<div class="outline-text-4" id="text-6-2-14">
+<ol class="org-ol">
+<li><b>Integral system:</b>
+<ul class="org-ul">
+<li>The set of all the positive elements of A is denoted by \(A^+\)</li>
+<li>An ordered integral domain A is called an integral system if every nonempty subset of \(A^+\) has a least element. In other words, <i>if every nonempty set of positive elements of A has a least element</i>. This property is called the <i>well-ordering property</i> for \(A^+\).</li>
+</ul></li>
+<li>*Theorem: every integral system is isomorphic to Z.</li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org203a5c0" class="outline-4">
+<h4 id="org203a5c0"><span class="section-number-4">6.2.15</span> Factoring into primes</h4>
+<div class="outline-text-4" id="text-6-2-15">
+<ol class="org-ol">
+<li><b>Theorem 1</b>: Every ideal of Z is principal.</li>
+<li><b>Principal ideal</b>:
+<ul class="org-ul">
+<li>In a commutative ring with unity, the set of all the multiples of a fixed element a by all the elements in the ring - in other words, the set of all the products <i>xa</i> as <i>a</i> remains fixed and <i>x</i> ranges over all the elements of the ring - is called the <b>principal ideal generated by a</b>, and is denoted by <i>&lt;a&gt;</i></li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org118e749" class="outline-4">
+<h4 id="org118e749"><span class="section-number-4">6.2.16</span> Rings of Polynomials</h4>
+<div class="outline-text-4" id="text-6-2-16">
+<ol class="org-ol">
+<li><b>Theorem 1:</b> Let A be a commutative ring with unity. Then A[x] is a commutative ring with unity.</li>
+<li><b>Theorem 2:</b>
+<ul class="org-ul">
+<li>If A is an integral domain, then A[x] is an integral domain.</li>
+<li>If A is an integral domain, we refer to A[x] as a <i>domain of polynomials</i></li>
+</ul></li>
+<li><b>Theorem 3 <i>(Division algorithm for polynomials)</i>:</b>
+<ul class="org-ul">
+<li>If a(x) and b(x) are polynomials over a field F, and b(x) &ne; 0, there exist polynomials q(x) and r(x) over F such that <br />
+a(x) = b(x)q(x) + r(x) <br />
+and r(x) = 0 or deg r(x) &lt; deg b(x)</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb0781db" class="outline-4">
+<h4 id="orgb0781db"><span class="section-number-4">6.2.17</span> Factoring Polynomials</h4>
+<div class="outline-text-4" id="text-6-2-17">
+<ol class="org-ol">
+<li><b>Theorem l:</b>
+<ul class="org-ul">
+<li>Every ideal of F[x] is principal.</li>
+<li>Note carefully that in F[x], the principal ideal generated by a polynomial a(x) consists of all the products a(x)s(x) as a(x) remains fixed and s(x) ranges over all the members of F[x].</li>
+</ul></li>
+<li><b>Theorem 2:</b>
+<ul class="org-ul">
+<li>Any two nonzero polynomials a(x) and b(x) in F[x] have a gcd d(x). Furthermore, d(x) can be expressed as a "linear combination"
+\[d(x) = r(x)a(x) + s(x)b(x)\]
+where r(x) and s(x) are in F[x].</li>
+</ul></li>
+<li><b>Definition:</b>
+<ul class="org-ul">
+<li><b>Relatively prime</b>: Polynomials a(x) and b(x) in F[x] are said to be relatively prime if their gcd is equal to 1 . (This is equivalent to saying that their only common factors are constants in F.)</li>
+<li><b>Reducible</b>: A polynomial a(x) of positive degree is said to be <b>reducible over</b> F if there are polynomials b(x) and c(x) in F[x], both of positive degree, such that a(x) = b(x)c(x).</li>
+<li><b>Irreducible:</b> A polynomial p(x) of positive degree in F[x] is said to be <b>irreducible over</b> F if it cannot be expressed as the product of two polynomials of positive degree in F[x]. Thus, p(x) is irreducible iff it is not reducible. <i>Note: When we say that a polynomial p(x) is irreducible, it is important that we specify irreducible over the field F. A polynomial may be irreducible over F, yet reducible over a larger field E. For example, p(x) = x<sup>2</sup> + 1 is irreducible over R; but over C it has factors (x + i)(x - i).</i></li>
+</ul></li>
+<li>*Theorem 3 <i>(Factorization into irreducible polynomials)</i>
+<ul class="org-ul">
+<li>Every polynomial a(x) of positive degree in F[x] can be written as a product
+\[ a(x) = kp_1(x)p_2(x)...p_r(x) \]
+where k is a constant in F and \(p_1(x),... , p_r(x)\) are <i>monic irreducible polynomials</i> of F[x].</li>
+</ul></li>
+<li><b>Theorem 4 <i>(Unique factorization)</i>:</b>
+<ul class="org-ul">
+<li>If a(x) can be written in two ways as a <i>product of monic irreducibles</i>, say
+\[ a(x) = kp_1(x)...p_r(x) = lq_1(x)... q_s(x) \]
+then k = l, r = s, and each \(p_i(x)\) is equal to a \(q_j(x)\) .</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-orgb7c2949" class="outline-4">
+<h4 id="orgb7c2949"><span class="section-number-4">6.2.18</span> Extension of fields</h4>
+<div class="outline-text-4" id="text-6-2-18">
+<ol class="org-ol">
+<li></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org5699aca" class="outline-4">
+<h4 id="org5699aca"><span class="section-number-4">6.2.19</span> Notation</h4>
+<div class="outline-text-4" id="text-6-2-19">
+<ol class="org-ol">
+<li>\(\overline{a}\) : If a is any integer, the coset (in \(Z_n\))  which contains a will be denoted by \(\overline{a}\)</li>
+<li>A[x]: the set of all polynomials whose coefficients are in ring A.</li>
+<li>F[x]: the set of all polynomials whose coefficients are in filed F.</li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-org3679819" class="outline-3">
+<h3 id="org3679819"><span class="section-number-3">6.3</span> A first course in abstract algebera - Fraleigh</h3>
+<div class="outline-text-3" id="text-6-3">
+<ol class="org-ol">
+<li><b>Group and Subgroup:</b>
+<ul class="org-ul">
+<li><b>Group:</b> Has 3 properties: associativity + identity element + inverse</li>
+<li><b>Theorem:</b> <i>Every cyclic group is abelian</i></li>
+<li><b>Theorem:</b> Let G be a cyclic group with generator a. If the order of G is infinite, then G is isomorphic to &lt;Z,+&gt; If G has finite order n, then G is isomorphic to &lt;Z<sub>n</sub> ,+&gt;</li>
+<li><b>Theorem:</b> Let \(\varphi : G \to G'\) be a group homomorphism. Then the left and right cosets of \(Ker(\varphi)\) are identical. Furthermore, \(a, b \in G\) are in the same coset of \(Ker(\varphi)\) if and only if \(\varphi (a) = \varphi (b)\)</li>
+<li><b>Theorem:</b> The following are four equivalent conditions for a subgroup H of a group G to be a normal subgroup of G.<br />
+<ol class="org-ol">
+<li>ghg^−1 &isin; H for all g &isin; G and h &isin; H.<br /></li>
+<li>gHg^−1 = H for all g &isin; G. <br /></li>
+<li>There is a group homomorphism φ : G &rarr; G' such that Ker(φ) = H. <br /></li>
+<li>gH = Hg for all g &isin; G.</li>
+</ol></li>
+<li><b>Definition <i>(Alternating group A<sub>n</sub>)</i></b>: The subgroup of S<sub>n</sub> consisting of the even permutations of n letters is the <b>alternating group</b> A<sub>n</sub>  on n letters.</li>
+<li><b>Remark: <i>(The Converse of the Theorem of Lagrange is False)</i></b> Recall that the Theorem of Lagrange states that the order of a subgroup of a finite group G must divide the order of G. ex: although the group A<sub>4</sub> has 12 elements and 6 divides 12, A<sub>4</sub> has no subgroup of order 6.</li>
+</ul></li>
+<li><b>Advanced group theory:</b>
+<ul class="org-ul">
+<li></li>
+</ul></li>
+<li><b>Rings and Fields</b>
+<ul class="org-ul">
+<li><b>Definition:</b> A ring in which the multiplication is commutative is a commutative ring. A ring with a multiplicative identity element is a ring with unity; the multiplicative identity element 1 is called “unity.”</li>
+<li><b>Definition:</b> Let R be a ring with unity 1 &ne; 0. An element u in R is a <b>unit</b> of R if it has a multiplicative inverse in R. If every nonzero element of R is a unit, then R is a <b>division ring</b> (or <b>skew field</b>). A field is a commutative division ring. A noncommutative division ring is called a <b>“strictly skew field.”</b> <br />
+ex: Q, R, C, and Z<sub>p</sub> for p a prime number are all fields.</li>
+<li><b>Definition:</b> If a and b are two nonzero elements of a ring R such that ab = 0, then a and b are <b>divisors of 0</b> (or <b>0 divisors</b>).</li>
+<li><b>Remark:</b> If R is a ring with unity and a is a unit in R, then a is not a divisor of 0. To see this, note that if \(ab = 0\), then \(a^{−1}ab = 0\), so \(b = 0\). Similarly, if \(ba = 0\), then \(baa^{−1} = 0\), so \(b = 0\). The theorem below shows that in the ring Z<sub>n</sub> every element is either 0, a unit, or a 0 divisor.</li>
+<li><b>Theorem:</b> Let m &isin; Z<sub>n</sub>. Either m = 0, m is relatively prime to n, in which case m is a unit in Z<sub>n</sub>, or m is not relatively prime to n, in which case m is a 0 divisor in Zn.</li>
+<li><b>Theorem:</b> <i>The cancellation laws hold in a ring R if and only if R has no divisors of 0.</i></li>
+<li><b>Definition:</b> An integral domain D is a commutative ring with unity 1 &ne; 0 that contains no divisors of 0. <br />
+<i>Thus, if the coefficients of a polynomial are from an integral domain, one can solve a polynomial equation in which the polynomial can be factored into linear factors in the usual fashion by setting each factor equal to 0.</i></li>
+<li><b>Definition /(the characteristic of a ring):</b> If for a ring R a positive integer n exists such that n.a = 0 for all a &isin; R, then <b>the least such positive integer</b> is the characteristic of the ring R. If no such positive integer exists, then R is of <b>characteristic 0</b>. <br />
+ex: The ring Zn is of characteristic n, while Z, Q, R, and C all have characteristic 0.</li>
+<li><b>Theorem:</b> The set R[x] of all polynomials in an indeterminate x with coefficients in a ring R is a ring under polynomial addition and multiplication. If R is commutative, then so is R[x], and if R has unity 1 &ne; 0, then 1 is also unity for R[x]</li>
+</ul></li>
+<li><b>The Evaluation Homomorphisms</b>
+<ul class="org-ul">
+<li><b>Theorem <i>(The Evaluation Homomorphisms for Field Theory)</i>:</b>
+<ul class="org-ul">
+<li>Let F be a subfield of a field E, let \(\alpha\) be any element of E, and let x be an indeterminate. The map \(\phi_\alpha : F[x] \to E\) defined by
+\[ \phi_\alpha (a_0 + a_1x + ...  + a_nx^n) = a_0 + a_1\alpha + ... + a_n\alpha^n \]
+for \((a_0 + a_1x + ...  + a_nx^n) \in F[x]\) is a homomorphism of F[x] into E. Also, \(\phi_\alpha(x) = \alpha\), and \(\phi_\alpha\) maps F isomorphically by the identity map; that is, \(\phi_\alpha(a) = a\) for \(a \in F\). The homomorphism \(\phi_\alpha\) is <b>evaluation at</b> \(\alpha\).</li>
+</ul></li>
+<li><b>Definition <i>(Irreducible Polynomials)</i>:</b>
+<ul class="org-ul">
+<li>A nonconstant polynomial f(x) &isin; F[x] is <b>irreducible over</b> F or is an <b>irreducible polynomial in</b> F[x] if f(x) cannot be expressed as a product g(x)h(x) of two polynomials g(x) and h(x) in F[x] both of lower degree than the degree of f(x). If f(x) &isin; F[x] is a nonconstant polynomial that is not irreducible over F, then f (x) is reducible over F.</li>
+<li>It is worthwhile to remember that the units in F[x] are precisely the nonzero elements of F. Thus we could have defined an irreducible polynomial f(x) as a nonconstant polynomial such that in any factorization f(x) = g(x)h(x) in F[x], either g(x) or h(x) is a unit.</li>
+</ul></li>
+</ul></li>
+<li><b>Prime and maximal ideals</b>
+<ul class="org-ul">
+<li><b>Theorem</b> Let R be a commutative ring with unity. Then M is a maximal ideal of R if and only if R/M is a field</li>
+<li><b>Corollary</b> A commutative ring with unity is a field if and only if it has no proper nontrivial ideals.</li>
+<li><b>Definition <i>(prime ideal)</i>:</b> An ideal N &ne; R in a commutative ring R is a prime ideal if ab &isin; N implies that either a &isin; N or b &isin; N for a, b &isin; R.</li>
+<li><b>Remark:</b>
+<ul class="org-ul">
+<li>The definition of a prime ideal may seem a little strange. It is, however, a natural generalization of the notion of a “prime” in the integers Z. Let n be a nonnegative integer. According to the above definition the ideal nZ is a prime ideal provided n &ne; 1 (to ensure that the ideal is proper) and provided every time the product ab of two integers is an element of nZ, at least one of a, b is an element of nZ. Put another way, if n &ne; 0, it must have the property that whenever n divides ab, n must divide a or divide b. This is equivalent to the usual definition that n is a prime number. Thus the <i>prime ideals of Z are just the ideals pZ of Z generated by prime numbers p together with the ideal 0.</i></li>
+</ul></li>
+<li><b>Theorem</b> Let R be a commutative ring with unity, and let N &ne; R be an ideal in R. Then R/N is an integral domain if and only if N is a prime ideal in R.</li>
+<li><b>Corollary</b> Every maximal ideal in a commutative ring R with unity is a prime ideal.</li>
+<li><b>Theorem</b> Let R be a ring with unity. If R has characteristic n &gt; 1, then R contains a subring isomorphic to Z<sub>n</sub>. If R has characteristic 0, then R contains a subring isomorphic to Z.</li>
+<li><b>Theorem</b>
+<ul class="org-ul">
+<li>A field F is either of prime characteristic p and contains a subfield isomorphic to Z<sub>p</sub> or of characteristic 0 and contains a subfield isomorphic to Q.</li>
+<li>Thus every field contains either a subfield isomorphic to Z<sub>p</sub> for some prime p or a subfield isomorphic to Q. These fields Z<sub>p</sub> and Q are the fundamental building blocks on which all fields rest.</li>
+</ul></li>
+<li><b>Definition</b> The fields Z<sub>p</sub> and Q are <b>prime fields.</b></li>
+</ul></li>
+<li><b>Ideal Structure in F[x]</b>
+<ul class="org-ul">
+<li><b>Theorem</b> If F is a field, every ideal in F[x] is principal.</li>
+<li><b>Theorem</b> An ideal &lt;p(x)&gt; &ne; {0} of F[x] is maximal if and only if p(x) is irreducible over F.</li>
+</ul></li>
+<li><b>Application to Unique Factorization in F[x]</b>
+<ul class="org-ul">
+<li></li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+<div id="outline-container-orge53d1be" class="outline-2">
+<h2 id="orge53d1be"><span class="section-number-2">7</span> Pandas</h2>
+<div class="outline-text-2" id="text-7">
+<ol class="org-ol">
+<li>Groupby
+<ul class="org-ul">
+<li>Return groupby object</li>
+<li>When chain with statical methods, return series or dataframe with group index.
+So we can use vectorize operation like: (df.groupby[ ['A','B'] ].size()/df.groupby['A'].size()).reset<sub>index</sub>(name="tỷ lệ"): tính tỷ lệ % các thành phần của B trong từng group A</li>
+<li>Khác biệt giữa size() và count(): size tính tất cả các dòng của group kể cả na -&gt; do đó trả về group index và 1 cột mới chứa tổng số dòng trong mỗi group (series nếu as<sub>index</sub>=false, dataframe nếu as<sub>index</sub>=true - vì chuyển group index sang cột - tương đương với reset<sub>index</sub>) , count chỉ đếm các dòng non-na ở từng cột sau group -&gt; do đó trả về group index và tổng số dòng non-na cho mỗi cột sau group (datframe nếu có nhiều cột, series nếu chỉ có 1 cột).</li>
+</ul></li>
+<li>Vectorize operation
+<ul class="org-ul">
+<li>Khi pandas thực hiện phép tính dựa trên 2 data frame, vd: df3 = df1.A + df2.C, thì pandas sẽ tính toán các hàng dựa trên index (không cần trùng tên index nếu chỉ có duy nhất 1 index, phải trùng tên index nếu có nhiều lớp index), <b>KHông nhất thiết 2 dataframe phải cùng số hàng, kết quả trả về sẽ bằng tổng số index trùng và index không trùng giữa 2 dataframe</b>, những index nào không trùng giữa 2 dataframe thì sẽ trả về nan</li>
+</ul></li>
+</ol>
+</div>
+</div>
+<div id="outline-container-org5968caf" class="outline-2">
+<h2 id="org5968caf"><span class="section-number-2">8</span> Math road map</h2>
+<div class="outline-text-2" id="text-8">
+</div>
+<div id="outline-container-org312dff7" class="outline-3">
+<h3 id="org312dff7"><span class="section-number-3">8.1</span> 13/07/2023:</h3>
+<div class="outline-text-3" id="text-8-1">
+<ol class="org-ol">
+<li>You've done introduction of Analysis I, II, and functional analysis. That means you've just touch on very surface of it, i.e just some important definitions and its properties.</li>
+<li>Now, you should do the same thing with algebra</li>
+<li>Then, learn deeply (that mean you must take time to do a lot of excercises) probability, statistisc, and machine learning.</li>
+<li>Because learning deeply on those objects might take a lot of time to gain enough knownledge to do useful things (about 2 - 3 years), you must learn pratical things to earn money like web apps, mobile apps, and window apps.</li>
+<li>Now web apps should be prioritized.</li>
+<li>You should do some research about some trend:
+<ul class="org-ul">
+<li>Progressive web apps (PWA): these apps work like moblie apps, fast loading, offline working, and push nortification. ex: uber, twitter.</li>
+<li>Accelerated mobile pages (AMP): faster load on mobile devices. ex: news apps</li>
+<li>single page applications (SPA): only one page, without reloading when users interact. ex: Gmail, google maps, facebook.</li>
+<li>you shoul youn Dajango at first because you are learning it, then might consider MERN stack.</li>
+</ul></li>
+</ol>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="date">Created: 2023-08-02 T4 20:26</p>
+<p class="validation"><a href="https://validator.w3.org/check?uri=referer">Validate</a></p>
+</div>
+</body>
+</html>

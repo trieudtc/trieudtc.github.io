@@ -1,0 +1,160 @@
+:PROPERTIES:
+:ID:       01ac575e-f912-4407-8751-538e20f22a19
+:END:
+#+title: Valvular_heart_diseases
+
+* 2022 ESC guideline
+** Patient evaluaion
+*** Clinical evaluation
+    - 
+*** Echocardiography
+    - 
+*** Other non-invasive investigations
+    - Stress testing
+      + The primary purpose of exercise testing is to unmask the objective occurrence of symptoms in patients who claim to be asymptomatic. It is especially useful for risk stratification in aortic stenosis.
+      + 
+*** Invase investigations
+    - 
+** Risk stratification
+   - Risk scores
+     + 
+** Management of associated conditions
+*** Coronary artery disease
+    - 
+*** Atrial fibrilation
+    - The use of NOACs is not recommended in patients with AF and moderate to severe mitral stenosis.. IIIC. 
+*** Endocarditis phrophylaxis
+    - 
+*** Prophylaxis for rheumatic fever
+** Aortic regurgitation
+*** Evaluation
+    1. Echocardiography
+       - Identification of the mechanism follows the same principle such as for mitral regurgitation:
+	 + normal cusps but insufficient coaptation due to dilatation of the aortic root with central jet (type 1)
+	 + cusp prolapse with eccentric jet (type 2)
+	 + or retraction with poor cusp tissue quality and large central or eccentric jet (type 3).
+       - 
+*** Indications for intervention
+    - Acute aortic regurgitation may require urgent surgery. It is mainly caused by infective endocarditis and aortic dissection but may also occur after blunt chest trauma and iatrogenic complications during catheter-based cardiac interventions.
+    - In symptomatic patients, surgery is recommended irrespective of the LVEF as long as aortic regurgitation is severe and the operative risk is not prohibitive.
+    - Surgery is recommended in symptomatic and asymptomatic patients with severe aortic regurgitation undergoing coronary artery bypass grafting (CABG), or surgery of the ascending aorta or another valve.
+    - In asymptomatic patients with severe aortic regurgitation, impairment of LV function [LVEF <_50% or left ventricular end-systolic diameter (LVESD) >50 mm] are associated with worse outcomes and surgery should therefore be pursued when these cut-offs are reached.
+    - LVESD should be related to body surface area (BSA) and a cut-off of 25 mm/m2 BSA appeared to be more appropriate, especially in patients with small body size (BSA <1.68 m2) or with large BSA who are not overweight.
+    - Irrespective of the degree of aortic regurgitation and type of valve pathology, in patients with an aortic diameter >_55 mm with tricuspid or bicuspid aortic valves, ascending aortic surgery is recommended when the operative risk is not prohibitive.
+    - 
+*** Recomendations for intervention
+    - Definition of *severe aortic regurgitation*
+      + [[./img/Valvular_heart_diseases/Severe_aortic_regurgitation_criteria.JPG]]
+    - *With severe aortic regurgitation*
+      + Surgery is recommended in symptomatic patients regardless of LV function. IB
+      + Surgery is recommended in asymptomatic patients with LVESD >50 mm or LVESD >25 mm/m2 BSA (in patients with small body size) or resting LVEF <=50%. IB
+      + Surgery may be considered in asymptomatic patients with LVESD >20 mm/m2 BSA (especially in patients with small body size) or resting LVEF <=55%, if surgery is at low risk. IIbC
+    - Aortic root or tubular ascending aortic aneurysm (irrespective of the severity of aortic regurgitation)
+      + Ascending aortic surgery is recommended in patients with Marfan syndrome who have aortic root disease with a maximal ascending aortic diameter >=50 mm. IC
+      + Ascending aortic surgery should be considered in patients who have aortic root disease with maximal ascending aortic diameter: IIaC
+	1) >=55 mm in all patients.
+	2) >=45 mm in the presence of Marfan syndrome and additional risk factorsd or patients with a TGFBR1 or TGFBR2 mutation (including LoeysDietz syndrome).
+	3) >=50 mm in the presence of a bicuspid valve with additional risk factors or coarctation.
+    - 
+*** Medical therapy
+    - Angiotensin-converting enzyme inhibitors (ACEI) or dihydropiridines, may provide symptomatic improvement in individuals with chronic severe aortic regurgitation in whom surgery is not feasible.
+    - In patients with Marfan syndrome, beta-blockers remain the mainstay for medical treatment and reducing shear stress and aortic growth rate and should be considered before and after surgery.
+*** Serial testing
+    - All asymptomatic patients with severe aortic regurgitation and normal LV function should be followed up at least every year.
+    - In patients with either a first diagnosis or with LV diameter and/or ejection fraction showing significant changes or approaching thresholds for surgery, follow-up should be continued at 36-month intervals. Surgery may be considered in asymptomatic patients with significant LV dilatation (LVEDD >65 mm), and with progressive enlargement in the size of LV or progressive decrease of LVEF during follow-up.
+    - Patients with mild-to-moderate aortic  regurgitation can be seen on a yearly basis and echocardiography performed every 2 years.
+    - If the ascending aorta is dilated (>40 mm), it is recommended to systematically perform CCT or CMR. Follow-up assessment of the aortic dimension should be performed using echocardiography and/ or CMR. Any increase >3 mm should be validated by CCT angiography/CMR and compared with baseline data.
+** Aortic stenosis
+*** Evaluation
+    1. Echocardiography
+       - [[./img/Valvular_heart_diseases/Aortic_stenosis_echo.png]]
+       - Tiếp cận
+	 + Chênh áp cao, Vmax cao: Cần kiểm tra xem có yếu tố nào làm tăng dòng không (vd, thiếu máu, cường giáp, còn ống động mạch, bệnh tim phì đại tắc nghẽn), sẽ làm tăng giả chênh áp và Vmax. Correct yếu tố làm tăng dòng nếu có. -> hẹp nặng.
+	 + Chênh áp thấp, Vmax thấp, diện tích van > 1.0cm2 thì không hẹp nặng.
+	 + Chênh áp thấp, Vmax thấp, diện tích van <= 1.0 cm2: kiểm tra lại các yếu tố làm đo lường sai (vd huyết áp cap), correct nếu có. Sau đó kiểm tra dòng
+	   1) Nếu dòng bình thường SVi > 35 mL/m2 thì khả năng không hẹp nặng
+	   2) Nếu dòng thấp SVi <= 35 mL/m2: kiểm tra xem cơ tim có co bóp tốt không. Nếu EF >=50% thì làm thêm CLS khác (CCT). Nếu EF < 50% thì làm siêu âm tim gắng sức bằng dobutamin: nếu tăng stoke volume < 20% thì làm thêm CLS (CCT); nếu tăng stroke volume >= 20% thì xem diện tích van có tăng > 1cm2 không, nếu tăng > 1cm2 thì chứng tỏ giả hẹp nặng do cơ tim co bóp yếu, nếu diện tích van <=1cm2 thì chứng tỏ hẹp nặng. 
+*** Indications for intervention
+    1. Symptomatic aortic stenosis
+       - Intervention is recommended in symptomatic patients with severe, high-gradient aortic stenosis [mean gradient >=40 mmHg, peak velocity >=4.0 m/s, and valve area <=1.0 cm2 (or <=0.6 cm2/m2)]. IB. 
+       - Intervention is recommended in symptomatic patients with severe low-flow (SVi <_35 mL/m2), low-gradient (<40 mmHg) aortic stenosis with reduced ejection fraction (<50%), and evidence of flow (contractile) reserve. IB.
+       - Intervention should be considered in symptomatic patients with low-flow, low-gradient (<40 mmHg) aortic stenosis with normal ejection fraction after careful confirmation that the aortic stenosis is severe. IIaC
+       - Intervention should be considered in symptomatic patients with low-flow, low-gradient severe aortic stenosis and reduced ejection fraction without flow (contractile) reserve, particularly when CCT calcium scoring confirms severe aortic stenosis. IIaC
+    2. Asymptomatic patients with severe aortic stenosis
+       - Interventio  is recommended in asymptomatic patients with severe aortic stenosis and impaired LV function of no other cause, and those who are asymptomatic during normal activities but develop symptoms during exercise testing.
+       - Intervention is recommended in asymptomatic patients with severe aortic stenosis and systolic LV dysfunction (LVEF <50%) without another cause. IB. 
+       - Intervention is recommended in asymptomatic patients with severe aortic stenosis and demonstrable symptoms on exercise testing. IC
+       - Intervention should be considered in asymptomatic patients with severe aortic stenosis and systolic LV dysfunction (LVEF <55%) without another cause. IIaB.
+       - Intervention should be considered in asymptomatic patients with severe aortic stenosis and a sustained fall in BP (>20 mmHg) during exercise testing. IIaC.
+       - Intervention should be considered in asymptomatic patients with LVEF >55% and a normal exercise test if the procedural risk is low and one of the following parameters is present: IIaB. 
+	 1) Very severe aortic stenosis (mean gradient >_60 mmHg or Vmax >5 m/s).
+	 2) Severe valve calcification (ideally assessed by CCT) and Vmax progression >_0.3 m/s/ year.
+	 3) Markedly elevated BNP levels (>3x age- and sex-corrected normal range) confirmed by repeated measurements and without other explanation.
+*** Medical therapy
+    - No medical therapies influence the natural history of aortic stenosis.
+    - ACEI are safe in aortic stenosis (provided that BP is monitored carefully) and may have beneficial myocardial effects before the onset of symptoms, and after TAVI and SAVR.
+    - Coexisting hypertension should be treated to avoid additional afterload, although medication (particularly vasodilators) should be titrated to avoid symptomatic hypotension.
+*** Serial testing
+    - Rate of progression of aortic stenosis varies widely.
+    - Those with severe aortic stenosis should be followed up every 6 months (at least) to allow earliest symptom detection (using exercise testing if symptoms are doubtful) and any change in echocardiographic parameters (particularly LVEF). Measurement of natriuretic peptides may be considered.
+    - Several studies suggest that the prognosis of moderate degenerative aortic stenosis is worse than previously considered251254 (particularly if there is significant valve calcification) and these patients should be reevaluated at least annually. Younger patients with mild aortic stenosis and no significant calcification may be followed up every 2-3 years.
+** Mitral regurgitation
+*** Carpentier's Classification
+    1. Type 1: Normal leaflet motion
+       - Caused by annular dilation or leaflet perforation
+       - Regurgitation jet directed centrally
+    2. Type 2: Excessive leaflet motion
+       - Caused by papillary muscle rupture, chordal rupture, or redundant chordae
+       - Eccentric jet directed away from the involved leaflet
+    3. Type 3: Restricted leaflet motion
+       - IIIa: Leaflet motion restricted in both systole and diastole
+	 + Caused by rheumatic heart disease commonly
+	 + Normal papillary muscles
+	 + Jet may be centrally or eccentrically directed
+       - IIIb: Leaflet motion restricted in systole
+	 + Caused by papillary muscle dysfunction or left ventricular dilation
+	 + Abnormal papillary muscles
+	 + Jet may be centrally or eccentrically directed
+*** Primary mitral regurgitation
+**** Evaluation
+     - [[./img/Valvular_heart_diseases/Severe_mitral_regurgitation_criteria.jpg]]
+
+**** Indications for intervention
+     - Urgent surgery is indicated in patients with acute severe mitral regurgitation. In the case of papillary muscle rupture as the underlying disease, valve replacement is generally required.
+     - indications for intervention in *severe primary mitral regurgitation*
+       + Surgery is recommended in symptomatic patients who are operable and not high risk. IB.
+       + Surgery is recommended in asymptomatic patients with LV dysfunction (LVESD >_40 mm and/or LVEF <_60%). IB
+       + Surgery should be considered in asymptomatic patients with preserved LV function (LVESD <40 mm and LVEF >60%) and AF secondary to mitral regurgitation or pulmonary hypertensionc (SPAP at rest >50 mmHg). IIaB.
+       + Surgical mitral valve repair should be considered in low-risk asymptomatic patients with LVEF >60%, LVESD <40 mmd and significant LA dilatation (volume index >_60 mL/m2 or diameter >_55 mm) when performed in a Heart Valve Centre and a durable repair is likely. IIaB. 
+**** Serial testing
+     - Asymptomatic patients with severe mitral regurgitation and LVEF >60% should be followed clinically and by echocardiography every 6 months.
+     - In asymptomatic patients with severe PMR and progressive increase of LV size (LVESD approaching 40 mm) or decrease of LVEF on serial studies, surgical mitral valve repair should be discussed.
+     - Asymptomatic patients with moderate mitral regurgitation and preserved LV function can be followed on a yearly basis and echocardiography should be performed every 1-2 years.
+*** Secondary mitral regurgitation
+**** Evaluating
+     - Tiêu chuẩn siêu âm chẩn đoán hở van 2 lá nặng thứ phát giống với hở van 2 lá nặng nguyên phát.
+     - 
+**** Medical therapy
+     - If symptoms persist after optimization of conventional heart failure therapy, options for mitral valve intervention should be promptly evaluated before further deterioration of LV systolic function or cardiac remodelling occur. 
+**** Indications for intervention
+     - Valve surgery/intervention is recommended only in patients with severe SMR who remain symptomatic despite GDMT (including CRT if indicated) and has to be decided by a structured collaborative Heart Team. IB.
+** Mitral stenosis
+*** Rheumatic mitral stenosis
+**** Evaluation
+     - Clinically significant mitral stenosis is defined by a mitral valve area (MVA) <_1.5 cm2.
+     - Commissural fusion with thickening of the posterior leaflet is the most important mechanism of stenosis. 
+**** Indications for intervention in moderate or severe MS (valve area <=1.5 cm2)
+     - Bệnh nhân có triệu chứng. IB - C.
+     - Bệnh nhân không có triệu chứng. IIaC
+       + Nguy cơ huyết khối cao (history of systemic embolism, *dense spontaneous contrast in the LA*, new-onset or paroxysmal AF).
+	 + *Spontaneous echo contrast (SEC)* indicates blood stasis in cardiac chambers and major vessels, and is a known precursor of thrombus formation
+       + High risk of haemodynamic decompensation (systolic pulmonary pressure >50mmHg at rest, need for major NCS, desire for pregnancy).
+**** Medical therapy
+     - In patients in sinus rhythm, OAC is recommended when there has been a history of systemic embolism or a thrombus is present in the LA and should also be considered when TOE shows dense spontaneous echocardiographic contrast or an enlarged LA (M-mode diameter >50 mm or LA volume >60 mL/m2)
+**** Serial testing
+     - Asymptomatic patients with clinically significant mitral stenosis should be followed up yearly by clinical and echocardiographic examinations; and at longer intervals (2-3 years) in case of moderate stenosis.
+     - Follow-up of patients after successful PMC is similar to that of asymptomatic patients and should be more frequent if asymptomatic restenosis occurs. 
+*** Degenerative mitral stenosis with mitral annular calcification
+**** Evaluation
+     - Siêu âm khó đánh giá hơn so với hẹp van 2 lá do thấp.
+     - 

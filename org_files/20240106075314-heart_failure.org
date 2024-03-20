@@ -1,0 +1,616 @@
+
+:PROPERTIES:
+:ID:       113fb41d-d23e-4ee2-84eb-b9c2cb710829
+:END:
+#+title: Heart_failure
+
+* Books
+* Practical Cardiovascular Medicine - Elias B. Hanna
+** Heart Failure
+*** DEFINITION, TYPES, CAUSES, AND DIAGNOSIS OF HEART FAILURE
+**** Definition
+     - HF is defined as a clinical combination of congestive findings and low output findings, corroborated by objective evidence of cardiac dysfunction (elevated BNP, echo evidence of systolic or diastolic dysfunction, or elevated LA pressure).
+**** Congestive findings
+     - *Bendopnea*, i.e. dyspnea within 15 sec of bending forward (e.g., dyspnea when putting on shoes), is *highly specific* for a baseline elevation of PCWP or RA pressure, with a further rise upon bending, particularly in the setting of low cardiac output.
+     - *S3*: in patients > 40 years old, S3 is highly specific (~90%) for an elevated PCWP, but insensitive
+     - *S4* is less specific for an elevated PCWP and may be seen with compensated LV dysfunction.
+     - In general, *one to two congestive signs along with at least one congestive symptom are required for the clinical diagnosis of HF*. The most reliable congestive findings are orthopnea, elevated JVP, S3, and a recent, quick weight gain. In particular, elevated JVP at rest or with hepatojugular reflux is the most sensitive and specific finding (>80%) for the diagnosis of elevated right- but also left-sided filling pressures (PCWP).
+     - Tổng hợp: Khó thở khi gắng sức, khó thở khi nằm, khó thở kịch phát về đêm, khó thở khi cúi, tăng - giảm cân nhanh, phù chân - báng bụng - gan to đau (cần trên 4 lít ứ dịch thì mới thấy phù ngoại biên), tĩnh mạch cổ nổi, phản hồi gan cảnh (+),  ran - TDMP, S3, S4, X  quang, B-lines trên siêu âm phổi. 
+**** Low-output findings
+     - Since the pulse pressure corresponds to stroke volume, a *narrow pulse pressure (<25% SBP)* or a borderline systolic blood pressure implies a low stroke volume. *In fact, a narrow pulse pressure is the physical finding that most reliably predicts a low cardiac output (>85% sensitivity and specificity)*. Occasionally, severe arterial noncompliance prevents pulse pressure from narrowing.
+     - Pulsus alternans, which refers to an every-other-beat variation in pulse intensity. This is different from pulsus paradoxus, which is a more gradual variation in pulse intensity, seen in tamponade.
+     - Tổng hợp: Mệt nhiều, giai đoạn nặng có thể giảm tri giác, thở Cheyne-Stokes, đau bụng (do thiếu máy ruột chức năng hoặc gan căng), giảm pulse pressure, huyết áp giảm, nhịp nhanh, mạch alternans, suy thận, giảm natri máu, đáp ứng kém lợi tiểu. 
+**** Three major types of HF. 
+***** HF secondary to LV systolic dysfunction, where EF is reduced ≤40%: HHpEF
+      - HFpEF may be difficult to diagnose in dyspneic patients with no overt congestion. *A combination of BNP and echo features is suggestive of the diagnosis but is insensitive and may miss HFpEF in 20-40% of the cases*. /The gold standard for diagnosis is elevated mean PCWP at rest (>15 mmHg) or with exercise (≥25 mmHg)/, and right heart catheterization with exercise may be considered in select cases.
+      - 
+***** HF secondary to LV diastolic dysfunction, where EF is normal (≥50%), sometimes supranormal, and LV is generallyof normal or small size: HFmEF
+      - Patients with HF and EF of 40 to 50% constitute a specific group wherein the LV pressure–volume relationship may be as steep as in diastolic failure, and wherein the diastolic function is more severely impaired than systolic function. HF with EF 40–50% is predominantly a diastolic failure with mild systolic dysfunction: it behaves like HFpEF but its etiologies are closer to systolic HF, hence it is better called HF with mildly reduced EF (HFmEF).
+      - [[./img/Heart_failure/HFpEF_diagnostic_alorghrithm.jpg][Lưu đồ chẩn đoán suy tim EF bảo tồn]]
+      - LV systolic dysfunction is, in fact, a combined systolic and diastolic dysfunction. However, /by definition, to use the term diastolic HF, EF must be preserved./
+***** HF due to severe valvular disease, in which the ventricular function is initially normal
+**** Two additional types of HF
+***** High-output heart failure, particularly obesity, which overlaps with the obese subtype of HFpEF
+***** Predominant or isolated right heart failure
+**** CAUSES OF HEART FAILURE
+***** Systolic HF or HF with reduced EF (HFrEF)
+      - Thường gặp nhất CAD, thứ 2 Tăng huyết áp, van tim, bệnh cơ tim dãn. 
+***** HF with preserved EF (HFpEF)
+      1. Hypertension or obesity with or without LV hypertrophy
+	 - Cơ chế:
+	   + Bất thường chức năng tâm trương
+	   + Cơ chế khác *HFpEF does not always equate with diastolic HF:* Rung nhĩ (giảm đổ đầy thất trái), giảm co bóp cơ tim (EF bình thường không nhất thiết co bóp bình thường), quá tải thể tích (vượt quá khả năng đàn hồi cơ tim, Mildly dilated LV is most characteristic of the young obese HFpEF (vs. small, stiff LV of elderly HFpEF). Obese high-output HF is part of the same spectrum but has a more dramatic rise in volume and cardiac output than obese HFpEF.), Chronotropic incompetence, Microvascular dysfunction .
+      2. CAD (ischemia without infarction)
+      3. Restrictive cardiomyopathy (RCM)
+      4. Constrictive pericarditis
+***** Right HF
+      1. Tăng áp lực: Bệnh phổi, PE, ...
+      2. Tăng thể tích: ASD, hở van 3 lá, van động mạch phồi.
+      3. Bất thường chức năng thất phải: ARVD, nhồi máu thất phải. Acute myocarditis, tachycardia-mediated cardiomyopathy, and idiopathic, HIV, or alcoholic cardiomyopathy usually lead to RV and LV involvement, but one may be more predominantly involved than the other.
+      4. In any patient presenting with predominant right heart failure, do not overlook the possibility of pericardial processes and restrictive cardiomyopathy, the great mimickers of right heart failure. Tamponade mimics acute right heart failure, while constrictive pericarditis and restrictive cardiomyopathy mimic chronic right heart failure. /Restrictive cardiomyopathy is a biventricular failure but frequently presents clinically as a predominant right heart failure./
+**** DIAGNOSTIC TESTS
+***** Siêu âm tim
+      - Echocardiography is done to corroborate the three major categories of HF based on the assessment of EF, valvular function, diastolic dysfunction (low E’), and LA pressure (elevated E/E’).
+      - In the absence of low E’, high E/E’, or LA enlargement on echo, reconsider the diagnosis of diastolic HF and consider other causes of dyspnea.
+      - Echo can suggest a cause, such as ischemia in the case of focal wall motion abnormalities (albeit not very specific), or hypertensive or infiltrative cardiomyopathy in the case of a thickened septum. 
+***** BNP
+      - Pro-BNP is the precursor of BNP; it is cleaved into BNP and NT-pro-BNP. NT-pro-BNP value is usually ≈4 x BNP, and more so (>6x) with age>65 or renal failure.
+      - BNP > 400–500 pg/ml (or NT-pro-BNP > 1200 pg/ml) is highly suggestive of acute left HF in a patient with acute dyspnea.
+      - BNP < 100 pg/ml (or NT-pro-BNP < 300 pg/ml) excludes acute left HF as a cause of acute dyspnea.
+      - A BNP cutoff of 35 pg/ml (NT-pro-BNP 125 pg/ml) is a better cutoff to exclude chronic HF as a cause of chronic exertional symptoms (ESC).
+      - In the acute setting, BNP levels of 100–500 pg/ml are in the intermediate range
+      - In the chronic setting, BNP levels of 35–100 pg/ml are in the intermediate range (up to 240 pg/ml,~1000 for NT-pro-BNP if AF).
+      - Evolution and follow-up of BNP levels: In one analysis, a 30–50% BNP or NT-pro-BNP reduction during the hospital stay strongly predicted a reduction in hospitalizations, beyond clinical variables, suggesting that BNP may be used as a target before HF discharge.
+      - As a rule of thumb, for the same degree of HF (or lack thereof), BNP value is doubled in patients older than 75 and tripled in AF; BNP value is halved in obese patients (BMI>35).
+***** ECG
+      - *A completely normal ECG almost excludes the diagnosis of HF, particularly systolic HF and acute HF*
+***** Diastolic stress testing
+*** Chronic treatment of heart failure
+**** Treatment of systolic heart failure
+***** Treat the underlying etiology
+      - HTN should be treated to a goal < 130/80 mmHg. In systolic HF, HTN may get “normalized” or reduced as a result of the low cardiac output; *HF drugs are provided regardless of blood pressure, up to SBP of 90-100 mmHg, as long as clinically tolerated*
+      - Revascularization with CABG or PCI should be considered in patients with ischemic cardiomyopathy, i.e., CAD extensive enough to explain the cardiomyopathy, rather than incidental single-vessel CAD. Revascularization should also be considered in patients with diastolic HF and extensive CAD.
+***** Value of revascularization in ischemic cardiomyopathy: STICH trial
+      - Overall, this trial supports CABG in ischemic cardiomyopathy, particularly 3-vessel CAD with the lowest EF <27%. Yet the benefit from CABG did not appear until 2 years of follow-up and the benefit was not dramatic, which implies that CABG is not urgent in patients with ischemic cardiomyopathy.
+***** Role of viability testing and ischemic testing
+      - 
+***** Drugs that effect survival in EF < 40%
+      1. Three compensatory mechanisms occur in HF and are ultimately harmful.
+	 - LV remodeling is the process of LV dilatation: *LV end-systolic volume is the best measurement of LV remodeling.* EF, often considered a contractility index, is affected by preload and afterload and is, in fact, more a remodeling index than a contractility index. Note that afterload correlates with LV size and is not simply equivalent to aortic pressure (Laplace law): /Afterload = wall stress = LV radius x LV systolic pressure/2x LV thickness/
+	 - Increased activity of the sympathetic system increases cardiac contractility: but ultimately exhausts the myocardium, makes it less responsive to catecholamines, and promotes apoptosis.
+	 - Increased activity of the renin–angiotensin–aldosterone system (RAAS): elicits vasoconstriction and increases blood volume. This aims to maintain the blood pressure and the kidney perfusion, but is deleterious to the LV. In addition, angiotensin II directly acts on harmful myocardial AT1 receptors that promote cellular growth, LV dilatation, and LV fibrosis and increase the release of myocardial norepinephrine.
+      2. Specifics of drugs that affect survival
+	 - *ACE-I or ARB*: increase cardiac output, reduce LV remodeling, and improve EF. They reduce mortality by ~20% and reduce HF hospitalizations by ~30%.
+	   + The main ARBs studied in HF are candesartan and valsartan.
+	   + A rise in creatinine of over 25% and/or over 0.3 mg/dl early after initiation of ACE-I is not associated with a loss of benefit with continued ACE-I therapy, and renal function largely recovers on follow-up; in fact, in 2 studies, patients with early worsening of renal function appeared to derive the largest benefit from continued ACE-I therapy.
+	   + If creatinine rises ≥ 50% or ≥ 0.5 mg/dl, reduce other BP-lowering drugs, ensure the patient is not using NSAIDs, assess for excessive diuresis and consider reducing the diuretic dose. Along with that, hold the ACE-I for a few days to allow renal recovery then restart half the initial dose. In fact, one study suggests that even ACE-I-induced creatinine elevations ≥ 50% are not associated with increased mortality.
+	   + *Only if creatinine rises ≥ 100% ACE-I is stopped*
+	   + Avoid or be cautious in case of K >5 mEq/l at baseline or >5.5 mEq/l with therapy. If K rises to 5.5-5.9 upon ACE-I initiation without a severe rise in creatinine, discontinue potassium supplements, then, if needed, reduce the dose of the aldosterone antagonist and the ACE-I.
+	   + Attempt titration every 5 days to the optimal dose used in randomized trials, which is approximately one-half of the maximal dose. In comparison with the low dose, the intermediate or high dose further reduces HF hospitalizations by 24% but does not significantly improve mortality (ATLAS trial, where lisinopril 2.5–5 mg was compared with 30–40 mg). Thus, *even if a high dose is not reached, it is expected that the low dose will lead to similar benefit on mortality.*
+	   + In CHARM-Added trial, kết hợp ARB và ACEI giúp giảm thêm tỷ lệ nhập viện và tử vong tim mạch, không ảnh hưởng đến tỷ lệ tử vong toàn bộ. Nhưng vẫn nên ưu tiên kết hợp với kháng aldosteron vì giảm giảm tỷ lệ nhập viện, tử vong tim mạch, tử vong toàn bộ. Chống chỉ định kết hợp ARB/ACEI/Aldosterone antagonist vì nguy cơ tăng kali máu.
+	 - *Beta-blocker:*
+	   + Improve contractility, EF (by 5–15%), and HF symptoms, and reduce mortality by 35–60% and HF hospitalizations by 40%.
+	   + The three agents that have been shown to improve survival and outcomes in HF are: Metoprolol succinate, Carvedilol, Bisoprolol.
+	   + While metoprolol upregulates β-receptor density towards normal levels, carvedilol maintains a low density of these receptors. Moreover, selective β1-blockade with metoprolol may enhance the ino- and chronotropic response to β2-adrenergic stimulation, an untoward effect. Thus, *carvedilol is a more potent antiadrenergic agent than metoprolol, as manifested by the more significant blunting of heart rate response*.
+	   + With its more comprehensive blockade of all adrenergic receptors, carvedilol improves myocardial function, EF, and cardiac hemodynamics such as stroke volume, PA pressure, and PCWP, more than other β-blockers and reverses remodeling more effectively.
+	   + Double the dose every 2 weeks and monitor for worsening of dyspnea, edema, weight gain, bradycardia, and hypotension. If the patient is off the β-blocker for over 1 week for any reason, or after an episode of cardiogenic shock, restart at the lowest dose and re-titrate.
+	   + If edema increases or HF develops within a week of titration, increase the diuretic dose; if this is not effective, decrease the β-blocker dose and titrate more slowly.
+	   + A substudy of the COPERNICUS trial showed that HF patients with chronic SBP < 95 mmHg derived the same relative benefit and more absolute benefit compared to patients with higher SBP, despite the lower tolerated carvedilol doses: *the sickest patients derive the most benefit despite lower doses.* In fact, those drugs reduce BP in HTN, but increase BP in patients with severe HF and low BP, after few days of hazard.
+	   + *Order of therapy:* start low-dose ACE-I (lisinopril ~5 mg), then start low-dose β-blocker and titrate β-blocker every 2 weeks. Spironolactone then SGLT2 inhibitor may be sequentially initiated while the patient is still on small doses of ACE-I and β-blocker, before full uptitration of the latter. After reaching the maximally tolerated dose of β-blocker, and if it is possible from the blood pressure and renal standpoints, up-titrate the ACE-I at 1-week intervals.
+	   + The improvement in outcomes with β-blocker therapy is incremental with the following three factors, in order of importance: (1) dose achieved; (2) baseline severity of HF; (3) HR achieved and HR reduction. *The relationship between lower heart rate and survival is only true in sinus rhythm, not AF.*
+	 - *Aldosterone receptor antagonists* (spironolactone, eplerenone)
+	   + The high aldosterone levels seen in HF not only induce renal sodium retention but directly act on the myocardial and arterial aldosterone receptors, leading to myocardial and arterial fibrosis and baroreceptor dysfunction (sympathetic augmentation).
+	   + Aldosterone antagonists reduce HF mortality by 30%, HF hospitalization by 30–40%, and improve NYHA functional class (RALES trial).
+	   + Aldosterone acts at the DNA level and induces the genomic synthesis of distal tubular Na channels and basal Na/K pumps that absorb Na and secrete K and H. The aldosterone receptor blockers inhibit this synthesis rather than directly block Na/K pumps, and therefore have a slow onset of action of 2–3 days and a slow offset (3–4 days), similar to aldosterone and other steroids.
+	   + Contraindications: creatinine > 2 mg/dl or GFR < 30 ml/min; K > 5 mEq/l.
+	   + Dosage of spironolactone: 12.5–25.0 mg daily; careful up-titration to 37.5–50.0 mg daily may be tried in patients with refractory HF or persistent hypokalemia.  Potassium and creatinine should be checked within 3 days and again at 1 week after therapy initiation, then Q2–4wk for the next 3 months. In real-world registries, hyperkalemia is common with aldosterone antagonists (up to 20%). In fact, these agents should be avoided if K monitoring is not possible (compliance issues), and the patient should be instructed about interruption of therapy should diarrhea or dehydration occur (renal failure).
+	   + If K rises to 5-5.4 with spironolactone, maintain the same dose; if K rises to 5.5-5.9, hold it for a few days then resume half the dose; if K ≥6, discontinue it.
+	   + In cirrhosis, a high dose of spironolactone (100–400 mg), higher than the one studied in HF, has been shown to induce more natriuresis than a loop diuretic. In fact, the avid distal sodium reabsorption induced by hyperaldosteronism makes loop diuretics ineffective in 50% of cirrhotic patients.
+	 - *Angiotensin receptor-Neprilysin inhibitor*
+	   + valsartan+ neprilysin inhibitor (combined in one molecule, not just one pill). *PARADIGM-HF trial*
+	   + Neprilysin is a peptidase that degrades natriuretic peptides, bradykinin, and adromedullin; counteracting vasoconstriction, sodium retention, and LV remodeling. Natriuretic peptides reduce maladaptive hypertrophy and fibroblast proliferation in the heart and kidneys. 
+	   + Angiotensin--neprilysin inhibitor was associated with *more symptomatic hypotension* yet *less renal dysfunction and hyperkalemia than ACE-I, and slower renal decline over the long term*: natriuretic peptides selectively vasodilate the afferent arteriole, thereby increasing renal flow and offsetting the hypotensive effect and the efferent dilatation.
+	   + In-hospital initiation of angiotensinneprilysin inhibitor dramatically reduces early HF rehospitalizations by 42%, compared to in-hospital ACE-I followed by a later switch to angiotensin-neprilysin inhibitor at 8 weeks (PIONEER-HF trial).
+	   + /Yet, its selective use in advanced class IV HF with mean SBP ~110 did not improve outcomes or NT-pro-BNP vs. ARB (LIFE trial); and its initiation in acute MI with low EF was not superior to ACE-I (PARADISE-MI)/.
+	   + In order to prevent angioedema, the recommended washout period between an ACE inhibitor and sacubitril–valsartan is 36 hours.
+	   + Neprilysin inhibitor is the only HF therapy that increases BNP, but not NT-ProBNP
+	 - Hydralazine–nitrate combination
+	   + superior to enalapril in terms of exercise tolerance and EF improvement. Similer in terms of reduction in hospitalization. 
+	   + The benefit is partly related to the afterload and preload reduction. More importantly, nitrates are metabolized into nitric oxide (NO), while hydralazine prevents the oxidation of NO through its antioxidant properties, allowing to maintain the NO effect. ACE-I also prevents NO oxidation and may be beneficial in combination with nitrates. NO promotes endothelial and vascular homeostasis and appropriate myocardial remodeling and contractility, which improves EF by up to 5%. Hydralazine–nitrate combination may also directly reduce pulmonary vascular resistance in patients with left HF-associated pulmonary hypertension.
+	   + *Black patients frequently have a defective genetic variant of NO synthase that may explain the particular benefit*; many white patients also have this variant, and thus pharmacogenomics rather than race may guide hydralazine–nitrate therapy in the future.
+	   + Dosing: start hydralazine 12.5 mg TID, increase it to 25 mg TID in 2–4 days, then increase by 25 mg/dose Qweek. Target is ~50–75 mg TID (may reduce to BID in renal failure). Start isosorbide dinitrate 20 mg TID and titrate up to 40 mg TID.
+***** Drugs that improve symptoms and morbidity
+      1. Diuretics
+	 - Both loop and thiazide diuretics are secreted by the proximal tubule into the lumen and work from the luminal side of the nephron.
+	 - All diuretics are highly bound to albumin, which traps them and delivers them to the secretory site of the nephron. In very low albumin states (<2 g/dl), some of the diuretic is lost in the extravascular space, and in nephrotic syndrome, even the diuretic that gets to the nephron’s lumen is bound to the urinary albumin, preventing it from acting on the sodium pump.
+	 - Diuretic threshold. A diuretic dose is only effective if it exceeds the required threshold at the tubular level. This threshold varies between individuals and diseases. Once the threshold is exceeded, there is a point at which maximal natriuresis is achieved, and beyond which no further natriuresis is gained with higher doses
+	 - For a normal subject, the threshold IV dose of furosemide may be 10 mg, while the maximum effective dose is 40 mg.
+	 - For a patient with HF, the IV threshold may be 40 mg, the administration of 20 mg BID does not achieve any diuresis in comparison to 40 mg Qday. On the other hand, if 40 mg Qday is effective (i.e., urination > 500 ml after the dose) but does not maintain euvolemia, 40 mg BID is a better strategy than 80 mg Qday.
+	 - With IV furosemide, urine output peaks 30–60 minutes after dose administration; with oral furosemide, urination starts 1 hour later (slower with severe edema). The duration of action is short (~4–6 h).
+	 - Practical use of oral loop diuretics:
+	   + The patient needs to take extra dose(s) if weight increases > 3 lb in < 5 days. He needs to continue taking an extra dose of diuretic daily until the weight returns to baseline. If in 1–2 days, the weight continues to rise, a clinic visit is immediately warranted and metolazone may be added for 1-2 days.
+	   + Euvolemic outpatients who are minimally symptomatic on a small daily dose of furosemide ≤ 40 mg may consider furosemide withdrawal (ReBIC trial). On the other hand, patients with severe HF requiring high chronic doses of furosemide (>200 mg/d) may be supplemented with a biweekly or triweekly dose of chlorthalidone or metolazone.
+	   + *Oral potassium (~20–40 mEq per day) may be added*, particularly if the patient is not receiving an aldosterone antagonist. K goal is ≥ 4 mEq/l. Patients requiring high doses of potassium are often magnesium-deficient and should receive magnesium supplementation.
+	   + *In acutely decompensated HF*, a rise in BUN and creatinine with diuretic therapy is often related to worsening congestion rather than over-diuresis, as most of these patients remain volume overloaded; diuresis should be maintained or increased until euvolemia is achieved.
+	   + *In the chronic*, stable setting, a rise in BUN and creatinine frequently implies excessive volume contraction, and a reduction of the diuretic dose is often needed, unless signs of fluid retention are present.
+	   + Chronic high doses of furosemide (>160 mg/day) may be needed in advanced HF and may even be associated with a mortality reduction on adjusted analysis, as long as BUN is not increased.
+	 - In the modern era, two therapies provide a diuretic effect while reducing mortality and attenuating renal deterioration and may allow lowering of the loop diuretic dose: /angiotensin-neprilysin inhibitor and SGLT-2 inhibitors./
+      2. Digoxin
+	 - Digoxin inhibits the sarcolemmal Na/K-ATPase, which increases intracellular Na and subsequently increases the intracellular Ca through the Ca/Na sarcoplasmic passive exchange, leading to an inotropic effect. Digoxin also increases the vagal tone.
+	 - Digoxin was overall beneficial and reduced HF hospitalizations by ~30%, particularly in the more severe cases (EF < 25%, class III or IV).
+	 - The goal trough level is ≤ 0.8 ng/ml (serum level is checked at least 6 hours after the last dose). Trough levels of 0.5–0.8 ng/ml were associated with a lower mortality than placebo in the DIG trial; trough levels > 1.1 ng/ml were associated with a higher mortality than placebo.
+	 - Signs of toxicity:
+	   + • Bradyarrhythmias, tachyarrhythmias (atrial tachycardia with block, non-paroxysmal junctional tachycardia, and VT, including the characteristic bidirectional VT)
+	   + • Nausea and vomiting, visual scotomas or halos, neurologic changes.
+      3. Ivabradine
+	 - In the SHIFT trial of patients with class II–IV systolic HF (EF ≤ 35%), prior HF hospitalization in the last year, and sinus rate ≥ 70 bpm despite a maximally tolerated β-blocker dose, ivabradine reduced HF hospitalizations and HF death by 26%.
+	 - it slightly increases the risk of AF occurrence in patients with sinus rhythm.
+      4. SGLT-2 inhibitors
+	 - Na is co-absorbed with glucose. SGLT-2 inhibitors cause glycosuria, and along with it, osmotic diuresis and natriuresis.
+***** Devices
+      1. ICD
+	 - Fifty percent of patients with HF die of VT or VF. The remaining 50% of patients die of end-stage, low-output HF. Late MI contributes to 30–50% of both types of mortality in ischemic HF.
+	 - ICD được chỉ định phòng ngừa thứ phát cho bệnh nhân có loạn nhịp thất gây rối loạn huyết động. Hoặc phòng ngừa tiên phát cho những bệnh nhân EF giảm nhiều (< 30 - 35%), NYHA II-III, mặc dù đã điều trị nội khoa tối ưu trong khoảng thời gian 3 - 6 tháng (xem guideline để biết thông tin chi tiết).
+	 - Những bệnh nhân NYHA IV, hoặc lớn tuổi - nhiều bệnh nền, thì không có chỉ định ICD vì không giúp ích giảm tỷ lệ tử vong (chỉ thay đổi nguyên nhân tử vong).
+      2. CRT
+***** Other therapeutic measures
+      1. Salt restriction (< 2- 3 g/day).
+      2. Fluid restriction: 1.5 - 2 l/day is necessary in advanced HF, decompensated HF, or hyponatremia.
+      3. Omega-3 fatty acids. Omega-3 fatty acids, at a dose of 1 g/day, have been shown to slightly reduce mortality in class II–IV HF with any EF, in the GISSI-HF trial (9% relative risk reduction, class IIa recommendation).160 Depending on the brand, 1 gram of fish oil contains 350- 850 mg of omega-3 acids; the goal is 850 mg of omega-3 acids daily (ESC).
+      4. Avoidance of NSAIDs, non-dihydropyridines and nifedipine (negative inotropic effect), glitazones, and anti-TNF-α drugs.
+      5. 25% of HF patients have obstructive sleep apnea
+      6. Up to 35% of HF patients, especially patients with more advanced HF, have central sleep apnea (Cheyne-Stokes): It is treated with nocturnal O2, which leads to symptomatic improvement. Non-invasive ventilation is not beneficial in central sleep apnea and may rather increase mortality (SERVE-HF trial).
+      7.  Iron therapy. Iron deficiency is highly prevalent in HF, affecting ~40% of patients, including ~30% of patients without anemia. Iron deficiency impairs myocardial and musculoskeletal metabolism, even in the absence of anemia. *In HF, higher cutoffs of ferritin are used to define iron deficiency, as some iron is misused and blocked in the reticuloendothelial system (ferritin < 100, or 100–300 with iron saturation < 20%)*
+*****  Prognosis
+      - The average yearly mortality of patients with class II or III HF is ~6–10%.
+      - Refractory functional class III.B or IV: 1-year mortality 30–50%.
+**** Treatment of HFpEF
+***** Treatment of HTN to <130/80 (ACC guidelines) or <140/80 (ESC HTN guidelines)
+      - Afterload reduction has lusitropic effects and improves the LV pressure–volume relationship.In addition, vasodilator therapy with ACE-I or CCB improves arterial compliance, the impairment of which being a cornerstone of HFpEF and exertional HTN
+      - excessive afterload reduction may not be as well tolerated in diastolic HF as in systolic HF. Vasodilators are less likely to increase stroke volume and more likely to reduce BP in patients with diastolic HF than systolic HF, and thus vasodilators may not be tolerated in diastolic HF with normal or low-normal BP.
+***** Decongestion with diuretics, not nitrates
+      - Patients with decompensated HFpEF and peripheral edema usually tolerate high doses of diuretics.
+      - Diuretics are more likely to reduce cardiac output in severe diastolic failure than in systolic HF, and chronically, a smaller diuretic dose is usually advised.
+      - Long-acting nitrate has decongestive effects, Yet, in the NEAT-HFpEF trial, nitrate did not improve exercise capacity and rather worsened activity level in stable patients with HFpEF, most of whom had normal NT-pro-BNP.
+      - HFpEF requires afterload reduction to improve relaxation and cardiac output, and preload reduction to reduce congestion, but the therapeutic window is narrower than in systolic HF. 
+***** Rhythm control of tachyarrhythmias, especially in the chronic setting
+***** Revascularization of CAD that is extensive enough to contribute to HF
+***** Questionable value of heart rate reduction: β-Blockers, non-DHP calcium channel blockers, ivabradine
+      1. Acute use
+	 - acute heart rate of up to 110-120 bpm is accepted. Unlike acute systolic HF, β-Blockers and non-DHP can be used when a fast tachyarrhythmia (>110–120 bpm) dictates acute rate control.
+      2. Even chronically
+	 - it is unlikely that prolonging diastole translates into any symptomatic relief in HFpEF. To the contrary, β-blockers may worsen symptoms in the subset of patients with chronotropic incompetence (~50% of HFpEF), or patients with a small and stiff cavity and limited preload reserve, whose cardiac output totally depends on heart rate.
+	 - *Only a cardioselective β-blocker with vasodilatory effect, nebivolol, has been shown to reduce cardiovascular hospitalization in all types of HF in the elderly, including HFpEF*
+***** ACE-I, ARB, or sacubitril-valsartan
+      - Candesartan marginally reduced HF hospitalizations in the CHARM-Preserved trial (by an absolute value of only 2% at 3 years); other trials, like I-PRESERVE and PARAGON-HF, failed to show a benefit from ARB or sacubitril-valsartan.
+      - while early worsening of renal function after ACE-I/ARB initiation does not affect the long-term benefit from this therapy in systolic HF, *early worsening of renal function after ACE-I/ARB initiation is associated with worsening of cardiovascular outcomes and mortality in HFpEF (worsening renal function defined as a creatinine rise ≥ 0.3 mg/dl, or GFR decline ≥ 20%)*
+***** Spironolactone
+      -  In the TOPCAT trial, Spironolactone có làm giảm nhẹ tỷ lệ tử vong và tỷ lệ nhập viện. Benefit is expected to be higher in sicker patients, as long as objective evidence of HF is present (high BNP) (ACC guidelines class IIb).
+*** Acute heart failure and acutely decompensated heart failure
+**** Introduction
+     1. Acute HF presentation encompasses three syndromes:
+	- Acutely decompensated HF (ADHF): ~70%
+	- De novo acute HF (~25%), due to acute ischemia/MI, acute valvular regurgitation, hypertensive crisis with acute diastolic HF, or fulminant myocarditis.
+	- A small proportion of acute HF presentations (~5%) are secondary to a chronic severe systolic HF with a relentless and progressive deterioration of a low-output state.
+     2. Diễn tiến
+	- In general, though, even in the latter patients, the rise in LV filling pressure precedes the clinical presentation by several days or weeks and, in contrast to the abruptness of symptoms and the limited weight gain, the hemodynamic change is generally progressive over weeks. 
+**** Triggers of acute decompensation
+***** Non-compliance with medical therapy, salt and fluid restriction, or NSAID use
+***** Acute HTN
+      - The abnormal vascular compliance leads to marked blood pressure lability with relatively minor changes in the intravascular volume; this causes a precipitous increase in afterload and decompensates LV failure.
+      - Note, however, that acute HTN may at least partly be the result of the acute pulmonary edema and the accompanying sympathetic surge. This explains the precipitous blood pressure fall commonly seen with initiation of diuresis. Besides which, the impaired vascular compliance leads not only to a sudden blood pressure rise with a slight volume change but also to a sudden blood pressure fall. While vasodilatation increases stroke volume of the failing heart, excessive vasodilatation, seen sometimes in patients who get intubated and sedated, may not be matched by enough rise in cardiac output, as the cardiac reserve is limited, which leads to precipitous hypotension. Thus, *the aggressive initiation of vasodilators or multiple antihypertensive drugs on admission should be avoided until diuresis has been started.*
+***** Acute ischemia.
+      - Diffuse ischemia may lead to acute diastolic dysfunction, systolic dysfunction, or ischemic MR.
+***** Arrhythmias
+      - A patient with decompensated HF typically has an elevated rate (80–110 bpm). AV block or sinus bradycardia, even at a rate of 50–60 bpm, is inappropriate and signifies that the bradyarrhythmia is a factor underlying HF decompensation.
+***** Any systemic infection; anemia
+      - Normally, in infectious states and chronic anemia, as in exercise, both preload and inotropism increase, allowing cardiac output to increase and match the high metabolic demands. In systolic or diastolic dysfunction, three untoward effects occur: (i) LV is unable to accommodate the increased preload, which raises filling pressures; (ii) stroke volume cannot increase enough to match the dilated circulation, which reduces tissue perfusion; (iii) the incumbent tachycardia may decompensate HF.
+      - 
+***** Acute valvular insufficiency, including dynamic functional MR
+***** Notes
+      - On admission, 30–64% of acute HF patients have moderate or severe renal failure. This is, most often, a result of HF and is not usually related to over-diuresis.
+      - 40–50% of acute heart failure episodes have no known precipitan. 
+**** Profiles of acute HF: congestion without low cardiac output, congestion with low cardiac output
+***** Always assess for:
+      1. Congestion, or "wet" picture
+	 - Khó thở, khó thở khi cúi
+	 - Phù chân, báng bụng, tràn dịch màng phổi
+	 - Tĩnh mạch cổ nổi, phản hồi gan tĩnh mạch cảnh (+), ran
+	 - S3, P2 lớn nghe được ở mỏm hoặc bờ dưới trái xương ức.
+	 - *the lack of a 30% decrease in systolic and pulse pressures during the strain phase of Valsalva maneuver is a highly sensitive and specific (~90%) sign of volume overload*. [[https://www.thelancet.com/action/showPdf?pii=S0140-6736%2815%2961485-4][Xem nghiệm pháp valsalva biến điổi - REVERT trail]]. [[https://www.ncbi.nlm.nih.gov/books/NBK537248/][Xem 4 giai đoạn sinh lý của nghiệm pháp valsalva]]. Cách đo:
+	   + /This is done using continuous non-invasive pressure monitoring and a 10–15 s strain; alternatively, using a BP cuff inflated at systolic pressure or slightly above it, Korotkoff sounds remain heard throughout the strain phase of Valsalva and do not overshoot after the release./
+      2. Peripheral perfusion, or "cold" signs.
+	 - portend a worse prognosis, with a mortality that is twice as high as “warm” HF.
+	 - *Borderline or low SBP (<90–100 mmHg), narrow pulse pressure (pulse pressure < 25% SBP, reflecting a reduced stroke volume), or pulsus alternans. A narrow pulse pressure is the most sensitive and specific finding in low stroke volume (less sensitive in the elderly whose stiff arteries widen the pulse pressure, even with a low stroke volume).*
+	 - Symptomatic hypotension with low-dose ACE-I
+	 - Cool extremities. *Cool forearms and legs are more specific for low cardiac output than cool hands and feet.*
+	 - Severe fatigue, drowsiness (patient falls asleep during interview), Cheyne–Stokes respiration.
+	 - Severe worsening of renal failure.
+	 - Hyponatremia. 
+***** Then classify the acute HF into the following hemodynamic profiles
+      1. Wet and warm: chiếm 2/3
+      2. Wet and cold: ~ 30%. *levated lactic acid and low SvO2<60% support “cold” HF*
+      3. Dry and cold: This may be due to hypovolemia, or a euvolemic severe HF (~5% of acute HF), in which case it portends the worst ADHF prognosis.
+      4. Notes: While cardiogenic shock is classically described in patients with acute large MI, it may also be seen in patients with chronic severe cardiomyopathy and decompensating factors (acute infection, arrhythmia, excessive vasodilators or sedation, *cases where the limited cardiac output reserve cannot match the dilated circulation*). In addition, volume overload, by itself reduces myocardial perfusion and cardiac output and may initiate a vicious circle of progressive HF deterioration.
+**** Treatment of acute HF: diagnosis and treatment of triggers
+***** Ischemia must be ruled out and treated
+      - Even when ACS is not suspected, a coronary angiogram is performed as part of acute or severe HF workup, unless previously done; it is preferably performed during the index HF hospitalization, after appropriate diuresis.
+***** HTN treatment
+***** AF
+      - A new HF coinciding with a newly diagnosed atrial tachyarrhythmia is a tachycardia- or AF-mediated cardiomyopathy 25–50% of the time.
+      - Beside rate control, consider elective, pre-discharge rhythm control and DC cardioversion for persistent AF that is believed to be a major contributor to the HF exacerbation, even if the rate is appropriate: reinstitution of atrial systole and rate regularity improved HF outcomes and increased EF by >10% in AF ablation trials, compared to rate control.
+***** Eventual surgery or Mitraclip for severe functional MR that persists despite diuresis and HF therapy
+***** Look for anemia, any infection, renal failure, and hyponatremia.
+      - Hyponatremia usually signifies advanced low-output HF with high vasopressin and hemodilution from hypervolemia.
+      - Outpatient hypernatremia signals dehydration and is very unusual in acute HF.
+***** Consider endomyocardial biopsy when acute/fulminant myocarditis is suspected.
+****  Treatment of acute HF: diuretics, cardiorenal syndrome, aggressive decongestion, ultrafiltration
+***** Diuretics
+      - *Doses over 120 mg are ototoxic and are best administered slowly, over 30 min, to reduce this risk.*
+      - Administer multiple daily doses of furosemide in acute HF, such as Q6–12 h. Once the threshold is defined, not much is gained by providing higher single doses, as the maximal response to a single dose is reduced in HF. Frequent dosing of the threshold provides a more effective diuresis and prevents the post-diuretic sodium reabsorption that occurs during the diuretic-free intervals. For someone whose diuretic threshold is 40 mg IV, the administration of 40 mg Q6h is likely better than 80 mg Q12h
+      - If there is no response to the maximal single dose of furosemide, two diagnoses should be considered: (1) very low renal flow resulting from an inappropriate cardiac output at the renal level or inappropriate BP (e.g., 90–100 mmHg); (2) acute, intrinsic kidney injury unresponsive to the diuretic (e.g., acute tubular necrosis). Inotropic therapy is administered and often initiates diuresis in the case of low renal flow.
+      - If there is a moderate response to the maximal single dose of furosemide (e.g., 500 ml of urine output over several hours after a 160–200 mg dose), the diagnosis is distal tubular reabsorption of sodium and water, beyond the Henle loop; a thiazide diuretic or an ADH antagonist may be added to boost the overall, 24-hour urine output (sequential nephron blockade).
+      - Thiazide diuretics and tolvaptan attenuate the distal tubular escape from the loop diuretic effect; thus, *they increase the total diuresis but do not initiate diuresis in unresponsive patients.*
+      - *Thiazides are long acting and do not need to be administered 1 hour before the loop diuretic*
+      - *Goal of diuresis*:
+	+ 2–3 liters of net negative fluid balance per day, which corresponds to 3.5–5 liters of urine/day.
+	+ The same goal applies for congested, acute right heart failure.
+	+ The goal is lower when both of the following conditions are met: no significant peripheral edema and no LV or RV dilatation (steep pressure–volume relationship); or when the predominant manifestation is ascites. The volume clearance across the peritoneal membrane cannot exceed 500 ml/day; in patients with predominant ascites, a diuresis of 2 liters per day comes at the expense of the intravascular volume.
+      - Adverse metabolic effects and potential solutions:
+	+ Hyponatremia- The urine induced by loop diuretics is half-tonic, like 0.45% half-saline, and thus can cause hypernatremia in patients with no water intake. However, hyponatremia is much more common and results from ADH and neurohormonal activation. /Potential solution: If severe <125, vasopressin (ADH) V2-antagonist may be used to create aquaresis (e.g., oral tolvapatan 15mg, 1 or 2 doses)./
+	+ Contraction metabolic alkalosis signals chloride depletion and the need to slow the diuresis or replete the potassium deficit. Diuresis needs to be continued in patients with persistent volume overload, possibly at a slower rate with aggressive potassium replacement. /Potential solution: Acetazolamide inhibits the proximal tubule’s carbonic anhydrase. Thus, it eliminates HCO3- and Na and counteracts metabolic alkalosis; it may be added to loop diuretics when significant metabolic alkalosis develops/
+      - Notes: Worsening of renal function occurs in ~30% of patients hospitalized with ADHF (worsening = ↑ creatinine by ≥ 0.3 mg/dl or ≥ 1.5x or ↓GFR ≥30%). If the patient is still clinically or radiographically congested, continue diuresis even if creatinine rises. In this case, the rise in creatinine is due to the persistent venous congestion per se (cardiorenal syndrome) rather than “overdiuresis.”.
+***** Acute cardiorenal syndrome
+      - Acute cardiorenal syndrome (type 1) refers to worsening renal function and progressive volume overload in a patient with acute HF. This syndrome reduces diuretic response. *Cardiac output may be normal at the central level but the local renal flow is reduced*
+      - Mechanism
+	+ Quá tải thể tích. Tăng áp lực tĩnh mạch thận, làm giảm dòng máy qua thận.
+	+ Giảm huyết áp động mạch hệ thống do điều trị: Multiple analyses showed that renal deterioration in ADHF strongly correlates with mean and systolic BP reduction during therapy.
+	+ Slow plasma refill. Dịch nội mạch bị lấy đi do lợi tiểu không kịp bù bằng dịch mô kẽ.
+	+ Tăng áp lực trong ổ bụng do báng bụng làm tăng áp lực tĩnh mạch thận, giảm tưới máu thận.
+      - Baseline CKD is one of the strongest risk factors, as it reflects reduced renal autoregulation reserve and an inability to withstand hemodynamic stress.
+      - Sinh lý: renal blood flow = ΔP/R.
+	+ Tưới máu thận phụ thuộc vào chênh áp động mạch - tĩnh mạch thận ΔP (local) và kháng lực tiểu động mạch thận R (chủ yếu là độ giãn của động mạch thận đến).
+	+ Trong THA, ΔP tăng, nhưng bù lại R tăng do co tiểu động mạch đến, -> tưới máu thận không thay đổi.
+	+ Trong hạ huyết áp hoặc suy tim có giảm tưới máu thận, ΔP giảm, chế độ tự điều hòa và feedback ống thận - cầu thận (giảm Na đoạn xa) làm dãn động mạch đến, tức giảm R, duy trì tưới máu thận.
+	+ Trong trường hợp suy tim nặng, tiểu động mạch đến không dãn thêm đượ nữa, đặc biệt có tăng có chất co mạch như agiotensin II, R không thể giảm thên -> giảm tưới máu thận. Tuy nhiên thận còn 1 cơ thế điều hòa co tiểu động mạch ra, làm tăng áp lực lọc, do đó vẫn duy trì GRF mặc dùng tưới máu thận có thể giảm vài lần.
+	+ Trong trường hợp suy tim rất nặng, ΔP tiếp tục giảm. R không thể giảm thêm. Tăng áp lực lọc không thể duy trì GFR. *GRF phụ thuộc hoàn toàn vào ΔP. Reducing RA pressure and increasing arterial pressure would have a direct, nearly linear effect on GFR at this point; also, re-dilating the afferent artery improves GFR.*
+      - While cardiorenal syndrome is the most common form of progressive renal dysfunction encountered in acute HF, *intrinsic acute renal failure may occur as well, and should be suspected in patients who are oliguric and diuretic resistant*. Acute tubular necrosis may occur as a result of the sustained ischemic injury and may persist for 7–10 days, requiring hemodialysis in the interim. On the other hand, post-renal obstruction, glomerulonephritis, or NSAID or acute interstitial nephritis may be present and make renal failure the cause rather than the result of acute HF. Urinalysis and urinary microscopic exam are thus warranted, seeking parenchymal disease.
+      - The combination of two particular factors predicts a poor renal tolerance of acute diuresis: (i) no or minimal peripheral edema, and (ii) nondilated LV and RV with steep pressure–volume relationship (e.g., de novo acute HF, diastolic HF). The preload volume is not dramatically increased, but the preload pressure (LVEDP) is. Mild and careful diuresis may be the best option (e.g., negative fluid balance 1–1.5 l/day).
+      - 
+***** Importance of aggressive decongestion, even in the face of a rising creatinine
+      - the increase in creatinine does not portend a negative prognosis if decongestion is achieved. Besides, the rise in creatinine does not necessarily imply a worsening of renal function; it may simply reflect hemoconcentration, a desired effect. Although creatinine may fluctuate initially, it generally becomes lower than baseline at 30–60 days in patients appropriately decongested
+      - *How about a rising BUN?* /Contrary to a common misconception, a rising BUN and a BUN/creatinine ratio ≥20 in acute HF is often associated with more severe signs of congestion (rather than hypovolemia), a higher BNP, and a lower SBP, yet a higher likelihood of renal recovery/. Those patients tend to be sicker and have higher long-term mortality and recurrent renal dysfunction. *Only a BUN that starts to rise after several liters of diuresis and full clinical decongestion (no edema, normal JVP) may imply hypovolemia*.
+***** Continuous loop diuretic drip vs. intermittent boluses- Role of ultrafiltration
+      - In the DOSE trial, a continuous diuretic infusion was associated with similar renal and clinical outcomes as bolus administration.
+      - in the CARRESS-HF trial of patients with acute HF and cardiorenal syndrome, ultrafiltration at a rate of 200 ml/h was not more effective than high-dose diuretics in achieving decongestion, weight loss, or clinical improvement, and led to significantly more creatinine rise that persisted at 60 days.
+      - *Those two trials illustrate that the principal goal of acute HF therapy is aggressive decongestion, achieved through a highvolume diuresis and a high diuretic dose if needed (urine output 3.5–5 liters/day), even in the face of an increase in creatinine. /Only patients with abrupt acute HF without significant peripheral edema and with a non-dilated LV may not tolerate this highvolume diuresis/.*
+***** Diuretic resistance
+      - This is more specifically defined as:
+	+ (i) limited response to a single dose (<1 L of urine at 6 hours),
+	+ (ii) net negative fluid balance < 2 liters/day despite a daily dose of intravenous furosemide > 160– 240 mg, or
+	+ (iii) post-diuretic urinary sodium concentration that is less than the expected “0.45% half-saline” (<50-70 mEq/L on a spot urine sample).
+      - Patients who do not achieve any diuresis with a high diuretic dose generally have a very low renal flow; inotropic therapy and/or ultrafiltration may be considered for these patients. If no response is achieved with inotropic therapy, acute tubular necrosis is suspected, and hemodialysis may be required.
+      - *After 24–48 hours of inotropic therapy or ultrafiltration,* diuretic responsiveness is often restored, as cardiac output improves with the reduction of afterload, RV–LV interdependence, and functional MR, while renal perfusion improves with the reduction of renal venous afterload. 
+**** Treatment of acute HF: vasodilators
+***** Nguyên tắc
+      - since even transient hypotension impairs renal function and outcomes, vasodilators are avoided if SBP < 110 mmHg (ESC).
+      - Vasodilators are only started after ensuring that SBP is stable at ≥ 110 mmHg, rather than maintained by the high catecholamine state of HF (in which case BP may precipitously drop with the relief of dyspnea).
+      - Caution- Patients with diastolic HF are more vasodilator-sensitive than those with systolic HF, and may have a precipitous BP drop with vasodilators, even if they are hypertensive on presentation. Patients with low-output, cold HF have a limited cardiac output reserve which may prevent them from filling a dilated circulation: BP and tissue perfusion may precipitously drop with vasodilators.
+      - *In general, initiate diuresis and ensure BP is stable before initiating vasodilator therapy, low and slow.*
+***** Intravenous nitroglycerin
+      - Nitroglycerin is a venodilator that acts as a mixed venous and arterial vasodilator at medium doses, particularly in the context of severely increased systemic vascular resistance or high-dose diuresis (diuretics may activate RAAS and lead to vasoconstriction). *Nitrate tolerance develops after several hours of therapy and appears to be improved by the combination with hydralazine or ACE-I*.
+      - 
+***** Initiate oral vasodilators when B is stable
+      - such as ACE-I and/or the combination of hydralazine and oral nitrates, as early as 12-24 hours, mainly in case of LV systolic dysfunction. The combination of hydralazine and nitrates may be started acutely in HF, with some evidence suggesting benefit.
+**** Treatment of acute HF: IV inotropic agents
+***** Nguyên tắc
+      - IV inotropic agents may worsen survival over the long term even when used temporarily; therefore, they should be avoided if possible.
+      - An inotrope, typically at a low dose, is still indicated temporarily in: (i) wet and cold HF with SBP < 90 mmHg, or (ii) wet and cold HF not responding to diuretics. 
+*****  Dobutamine (β1- and β2-agonist) and milrinone (phosphodiesterase-5 inhibitor) have inotropic and vasodilatory effects
+      - Milrinone is a phosphodiesterase-5 inhibitor that increases intracellular cAMP along the β-receptor pathway. It has more marked vasodilatory and hypotensive effects and a more prolonged effect than dobutamine, with a 2.5-hour half-life, more so in renal failure. Milrinone should be avoided if SBP < 80 mmHg, and the dose should be reduced by 50% in renal failure.
+      - Start a small drip of milrinone (0.2 mcg/kg/min) and titrate it very slowly every few hours, allowing the increase in cardiac output to catch the vasodilatory effect, therefore preventing hypotension. Milrinone has significant pulmonary vasodilatory potential and may be the preferred inotrope in patients with pulmonary hypertension
+      - Dobutamine has a marked β1-agonist effect, and a less marked β2- and α1-agonist effect. The β2- and α1-receptors have counter effects on the vasculature (vasodilatation and vasoconstriction, respectively), which explains that the vasodilatory and hypotensive effects of dobutamine are usually minimal, and in fact BP often improves with the increase in cardiac output. Only in critical patients with severe vasoconstriction and occupancy of all α-receptors, dobutamine may have a predominant β2 and vasodilatory effect.
+      - A low dose of dobutamine (2–5 mcg/kg/min) usually provides the desired effect. Higher doses (up to 10 mcg/kg/min) may be required in patients previously receiving β-blockers.
+      - *Note that* chronic β-blocker therapy with carvedilol and, to a lesser extent, metoprolol, may lessen the hemodynamic effects of dobutamine, mandating higher doses. On the other hand, chronic β-blocker therapy seems to enhance the effects of milrinone. Milrinone increases cAMP downstream of the β-receptor pathway, uninhibited by blockade of the β-receptor.
+***** Norepinephrine and dopamine
+      - have inotropic and vasoconstrictive effects. These agents are used in severe hypotension (SBP < 70–80 mmHg). For a similar increase in cardiac output, dopamine produces greater elevation in heart rate and more arrhythmias than dobutamine and norepinephrine.
+***** Note
+      - Inotropes can often be weaned off within a few days. Inotropes initiate diuresis and reduce ventricular volumes, and thus improve ventricular afterload, functional MR/TR, and myocardial perfusion in a sustained fashion. 
+**** In-hospital and pre-discharge use of ACE-I/ARB, angiotensin-neprilysin inhibition, and β-blockers
+***** Nguyên tắc
+      - ACE-I and β-blockers should be continued in most acute HF cases, except severe renal deterioration (discontinuation of ACE-I), or lowoutput HF with borderline or low BP and consideration of inotropes (discontinuation of both).
+      - A patient who is receiving chronic ACE-I/ARB should continue to receive it even if there is some worsening of renal function during the hospital stay. Holding ACE-I/ARB with the aim of improving kidney function actually impairs outcomes and worsens diuretic response.
+      - If the patient was not on an ACE-I/ARB chronically, ACE-I/ARB may be started early, after waiting 12-24 hours to ensure hemodynamic stability. *Acute ACE-I/ARB increases diuresis*, as it curbs angiotensin II’s effect on tubular reabsorption, and does not alter renal function, as long as SBP does not dramatically decline.
+      - in-hospital initiation of angiotensin-neprilysin inhibitor is superior to the initiation of ACE-I followed by a switch 8 weeks later.
+      - If ACE-Is and/or β-blockers were discontinued or never started, they should be initiated or reinitiated ≥ 24 hours before discharge, after amelioration of the cold state and azotemia. The pre-discharge initiation of β-blockers reduces the 60-day mortality by 59%.
+      - If the patient has required inotropic support, β-blocker may be initiated ≥ 1 day after inotropic discontinuation, followed by one or more additional days of monitoring. The same monitoring applies when ACE-I is initiated in a patient recovering from azotemia. 
+**** VIII. Treatment of acute HF: O2, non-invasive ventilatory support (CPAP, BiPAP), intubation
+      - CPAP or BiPAP chỉ nên áp dụng cho bệnh nhân tỉnh táo hoàn toàn, không thiếu oxy máu trầm trọng hoặc acidotic (PH > 7.2), và không tụt huyết áp. Ngừng ngay nếu không hiệu quả trong < 30 phút vì có thể tăng cô hô hấp, tăng áp lực dạ dày gây asipration, và chậm thời gian đặt nội khí quản.
+      - Intubation is required in patients with severe respiratory distress if CPAP/BiPAP and furosemide have not been effective quickly.
+      - Nội khí quản - thông khí áp lực dương giúp giảm tiền tải và hậu tải (giảm áp lực xuyên thành), và giảm nhanh chóng phù phổi.
+      - /Contrary to the LV effect, positive pressure ventilation directly increases RV afterload (PA pressure) and may worsen cardiac output in predominant RV failure./
+**** Discharge
+     - The patient needs to achieve near optimal volume before discharge: normal JVP, no bendopnea, no “orthoedema” (no orthopnea, no edema).
+     - NT-pro-BNP or BNP should have declined >30%. [[https://www.ahajournals.org/doi/10.1161/CIRCHEARTFAILURE.112.969246?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed][xem thêm 1]], [[https://www.acpjournals.org/doi/10.7326/M16-1468?url_ver=Z39.88-2003&rfr_id=ori:rid:crossref.org&rfr_dat=cr_pub%20%200pubmed][xem thêm 2]]
+     - *Assess for dyspnea during a 1-min flat position, and while bending down for 15 sec. The patient should be able to ambulate without dizziness and with minimal dyspnea.*
+     - Oral diuretic dose should maintain a slightly negative input/output balance. If the patient was receiving 80 mg of IV furosemide Q12h, he is placed on a maintenance dose of 40 mg of oral furosemide, twice a day (i.e., a total oral furosemide dose that is numerically 0.5–0.75 the intravenous dose used, taking into account how well decongested the patient is). This oral dose is far lower than the intravenous dose in terms of dose equivalence (~4 times lower), but is usually effective enough at the compensated stage in a patient who is almost euvolemic with improved renal perfusion. Appropriate diuresis should be ensured within a few hours of the oral dose.
+     - Early clinical and creatinine/K/BNP checkup should be performed within a week of discharge, and the oral dose of furosemide up- or down-titrated during this visit.
+     - The in-hospital mortality of acutely decompensated heart failure, whether systolic or diastolic, is ~4%. There are four major prognostic risk factors (ADHERE database):209,250 ↑ BUN or creatinine on admission, SBP < 115 mmHg, “cold” low-output HF, positive troponin (especially > 1 ng/ml, regardless of the presence of ischemia)
+**** Inability of severe HF to tolerate vasodilatation or hemodialysis
+     - While decongestion improves cardiac output, quick fluid removal during dialysis (2–3 liters in 3 hours) exceeds plasma refill time and creates transient reduction of intravascular volume.
+     - in patients with limited cardiac output reserve, especially those whose BP is borderline low. BP will precipitously drop during dialysis. Norepinephrine may be used to constrict the empty circulation and maintain BP during dialysis; in hypotension, norepinephrine does not increase afterload untowardly, as it only raises the SBP to 90–100 mmHg.
+**** Outpatient monitoring of HF and prevention of hopitalization
+     - Daily monitoring of body weight is the easiest method of monitoring fluid status, with a gain of over 3 lb in less than a week indicating the need for extra doses of diuretics.
+     - However, weight gain is not sensitive enough (~20% sensitivity) to detect HF deterioration, and the weight increase is smaller than considered clinically relevant in > 50% of patients (~2 lb).
+     - in stable HF outpatients, several monitoring methods have been developed to prevent HF hospitalization:
+       + BNP monitoring, particularly in patients < 75 years of age with systolic HF.
+       + Impedance cardiography
+       + A new, wearable home vest can detect daily change in lung volume content using built-in electromagnetic emissions.
+       +  Invasively implanted hemodynamic monitors, such as CardioMEMS. 
+*** Management of isolated or predominant RV failure
+**** Cause of right HF
+     - three categories: (i) pressure overload, (ii) volume overload, and (iii) intrinsic RV disease.
+     -  Acute pulmonary hypertension is at the center of most cases of acute RV failure.
+**** RV morphological features; echocardiographic and hemodynamic features of RV dysfunction
+     - The three-dimensional RV volume is actually larger than the LV volume, which implies that normally the RV EF is lower than LV EF, with 40% as the lower limit of normal.
+     - Two echo indices are valuable for the assessment of RV systolic function: (i) TAPSE (tricuspid annular plane systolic excursion, normal > 16 mm), which is the systolic excursion of the lateral tricuspid annulus toward the apex, measured on M-mode; (ii) tissue Doppler of the lateral tricuspid annulus (called S’, normal > 10 cm/s)
+**** Pathophysiology, ventricular interdenpendence
+     1. Afterload sensitivity
+	- the RV is very sensitive to acute afterload changes and quickly fails in acute pressure overload (such as pulmonary embolism)
+	- RV is also intolerant to dilatation
+     2. Ventricular interdependence
+	- LV failure leads to RV failure through pulmonary hypertension and through the loss of septal contribution to RV function. In fact, the septum and the RV free wall contribute almost equally to the RV function, and 20–40% of RV systolic pressure and output result from LV contraction.
+	- On the other hand, RV failure, particularly when acute, may lead to LV failure. RV dilatation causes pericardial stretching and functional pericardial constriction, which forces the RV to eventually compress the LV in diastole. These changes decrease LV distensibility and preload; also, LV contractility is reduced by the paradoxical septal motion to the right in systole (loss of septal contribution). In fact, the interdependent effect on the LV reduces cardiac output more than the loss of RV ejection.
+     3. Secondary right-to-left shunt
+	- The high RA pressure may induce a large right-to-left shunting in patients with PFO. That is how severe RV failure may lead to refractory hypoxemia
+     4. In patients with severe pulmonary hypertension, the PA pressure may decline into the mild/moderate range as RV failure develops. In those patients, a high systolic PA pressure predicts recovery of RV function with therapy and better outcomes than patients with lower systolic PA pressure.
+**** Treatment of acute RV failure (isolated or predominant RV failure)
+     1. Respiratory failure with hypoxemia, should be aggressively treated, with mechanical ventilation if needed.
+     2. Preload management:
+	- Diuresis is very beneficial to reduce RV dilatation, improve functional TR (secondary to RV dilatation), and reduce ventricular interdependence, all of which improve cardiac output.
+	- As such, aggressive diuresis (2-3 liters negative balance/day) is pursued in acute on chronic cases, while gentler diuresis (0.5-1 L/day) may be pursued in chronic cases.
+	- *In acute RV failure secondary to RV MI or PE*, two concepts may allow small volume loading:
+	  + (i) a non-dilated RV increases its stroke volume with increasing preload, before reaching the point of ventricular interdependence;
+	  + (ii) a high CVP, up to 10-14 mmHg, does not imply a high preload in acute, de novo, RV failure. The RV pressure-volume relationship is shifted leftward, meaning that the CVP rises even if RV volume is normal. Thus, if RV is not dilated and if CVP<10-14 mmHg, give a 500–1000 ml saline load
+	  + *If there is no hemodynamic response (i.e., increased BP and urine output), if the RV is dilated, or if CVP>14 mmHg, volume loading should be avoided,* as it may lead to further RV dilatation, failure, and hemodynamic compromise. At this point, consider inotropes and *consider afterload reduction with inhaled nitric oxide*. Note that digoxin may also be useful in RV failure.
+     3. Maintenance of an appropriate systemic systolic blood pressure (SBP) and resistance (SVR)
+     4. Notes:
+	- As opposed to the failing LV, the failing RV is less tolerant of a low SBP.
+	- The RV, on the other hand, is not favored by a low SBP from an afterload standpoint and, in fact, *the RV depends on an adequate SBP for its coronary perfusion*. While the LV coronary flow is mostly diastolic, the RV coronary flow is at least 50% systolic, and depends on the gradient between SBP and systolic RV pressure.
+	- The ratio of SBP/systolic PA pressure, or SVR/PVR, is an important ratio in RV failure.
+	- *Thus, norepinephrine, which increases RV contractility and increases SVR, is often the preferred inotrope in RV failure; it does not have a significant effect on PVR at low/medium doses (<0.5 mcg/kg/min), and thus favorably affects the SVR/PVR ratio*
+	- Systemic vasodilators are poorly tolerated in RV failure because of the reduction of SVR but also because the underfilled LV cannot increase its output to match the vasodilated circulation. Low-dose dobutamine (<10 mcg/kg/min) and milrinone increase RV contractility and reduce PVR; however, they are also systemic vasodilators and thus must be used in conjunction with vasopressors, such as norepinephrine or vasopressin.
+     5. Afterload reduction (PVR)
+	- Treatment of hypoxemia is key. Moreover, inhaled NO, inhaled milrinone, or inhaled epoprostenol effectively reduces PVR and RV distension.
+     6. Maintain sinus rhythm and AV synchrony
+	- AF or AV dissociation may have more profound hemodynamic effects in RV failure than LV failure. In RV failure, the LV is small and underfilled, which makes it highly dependent on the left atrial kick. Also, RA contraction directly raises RV pressure and, thus, flow into the PA; in fact, acute RV failure is characterized by a very large RA and RV A wave, pushing blood into the PA.
+	- As in decompensated LV failure, an increase in heart rate (80–110 bpm) is often necessary to allow RV filling and emptying through providing more cardiac cycles.
+     7. Effect of mechanical ventilation
+	- Mechanical ventilation reduces hypoxemia, and thus indirectly improves PVR and RV output. However, positive-pressure ventilation directly increases RV afterload (PA pressure) unlike its effect on the LV (directly reduces LV afterload).
+	- A strategy of low tidal volume with limited plateau pressure should be implemented.
+     8. Right-to-left shunting through a PFO
+	- serves to unload the RV, reduce RA pressure, and increase the LV filling and cardiac output. Thus, although this shunt induces hypoxemia (arterial O2 saturation 80–85%), some degree of shunting improves the cardiac output, the overall oxygen delivery, and the patient’s symptoms and functional status and should not be closed.
+	- In fact, patients with Eisenmenger syndrome (with inherent R–L shunt) and patients with idiopathic pulmonary hypertension who have a PFO live longer than patients with pulmonary hypertension and no shunt.
+	- That is why balloon atrial septostomy has been beneficial in cases of refractory right HF.
+	- Only excessive shunting, as in patients with very high RA pressure > 20 mmHg and very poor RV function, may drastically reduce pulmonary blood flow and induce profound hypoxemia (overall untoward effect).
+*** Notes quan trọng
+**** Quản lý tần số tim trong suy tim
+     - *Acutely*, it is rather tachycardia that improves cardiac output and LV filling by providing more cardiac cycles, up to a rate of ~110 bpm(beyond which, in HF, energy reserves decline, contractility declines and negates any cardiac output benefit).
+     - *Chronically*, a controlled heart rate (60-70 bpm) is particularly useful in compensated, sinus-rhythm HFrEF. Contrary to prior teaching, such heart rate reduction has a questionable merit in HFpEF and in AF, where a rate of 80-100 bpm may be acceptable.
+     - [[./img/Heart_failure/Heart_rate_management_in_HF.jpg][Quản lý tần số tim trong suy tim]]
+       - 
+** Additional Heart Failure Topics
+*** Specific cardiomyopathies
+**** Arrhythmia-induced cardiomyopathy
+     1. Tachycardia-induced cardiomyopathy
+	- Biventricular dilatation then failure may develop with any uncontrolled tachyarrhythmia that persists for over 2 weeks (range: 3 days to 6 months).
+	- Both LV and RV dilate with mild thinning and no hypertrophy.
+	- this cardiomyopathy may be observed with chronic rates of only 105–110 bpm, rates that are usually well tolerated chronically and do not come to medical attention until the patient develops HF..
+	- Interestingly, the tachyarrhythmia may not be persistent; tachycardia that occurs over 10–15% of the day may cause a cardiomyopathy.
+	- A newly diagnosed tachyarrhythmia at a rate >105-110 bpm, coinciding with HF exacerbation, suggests the possibility of tachycardiamediated cardiomyopathy. This is the case in 25–50% of new-onset AFs or atrial arrhythmias coinciding with a new HF presentation. *Also, the persistence of the fast heart rate after diuresis and HF improvement suggests this diagnosis.*
+	- After HF is treated (diuresis) and compensated, the tachyarrhythmia is targeted with a heart rate goal < 100 bpm (as good as a goal <80 bpm based on *RACE-II HF substudy*, substudies of β-blockers in HF, and Swedish HF registry).
+	- This cardiomyopathy usually reverses several weeks after rhythm control, typically between 2-12 weeks (initial improvement of LV contractility, followed by LV size reduction). Rate control only achieves marginal improvement. Residual ultrastructural abnormalities persist, explaining a fast recurrence of LV dysfunction with recurrence of the arrhythmia.
+     2. PVC-induced cardiomyopathy
+	- About 7-30% of patients with a PVC burden >10% develop cardiomyopathy, particularly when the PVC burden is >24% (on Holter monitor).
+	- This cardiomyopathy generally develops slowly, over months or years, and resolves 2-12 weeks after ablation.
+	- *frequent PACs with similar heart rate irregularity do not induce cardiomyopathy*. In fact, the degree of LV dyssynchrony induced by the PVC is a major predictor of LV dysfunction, explaining why PVCs with QRS>150 ms (or PVCs originating from the epicardium) more readily induce cardiomyopathy, mimicking RV pacing.
+	- Conversely, the more extreme irregularity of AF may induce cardiomyopathy solely through a more sustained calcium mishandling.
+	- *Holter monitoring, preferably for 6 days, is performed to quantify PVC burden*.
+	- Before the development of cardiomyopathy, frequent symptomatic PVCs may be treated with β-blockers or verapamil, keeping in mind a limited efficacy of 10-24%; alternatively, class Ic drugs (flecainide) are highly effective (>70%).
+	- Once cardiomyopathy develops, the options are limited to ablation vs. amiodarone therapy, both of which are highly effective.
+	- *Asymptomatic frequent PVCs with normal LV do not have any indication for therapy. Since cardiomyopathy is reversible, aggressive preventive therapy is not warranted.3 A watch-and-wait approach is adopted, with LV monitoring every 6-12 months.*
+     3. AF-induced cardiomyopathy
+	- in patients with rate-controlled AF and HF, AF ablation improves EF by 10-18% (e.g., CAMERA-MRI trial).12 Patients with AF, no LV scar on MRI, and a persistently low EF despite rate control are suspicious for AF-induced or aggravated cardiomyopathy.
+     4. LBBB-induced cardiomyopathy
+	- Patients with isolated LBBB and no associated myocardial or coronary disease may develop a dilated cardiomyopathy /secondary to LV dyssynchron./
+	- This likely occurs in a minority of patients with LBBB (<5-10%), over years to decades (mean 11.6 years in one study),13 particularly when LBBB is very wide ≥150 ms. 
+**** Viral myocarditis
+     1. Subclinical myocarditis: Viêm cơ tim không triệu chứng (không suy tim)
+	- Thường giới hạn, một số ít bệnh nhân phát triển suy tim mạn được chẩn đoán sau vài năm với bệnh cơ tim dãn không rõ nguyên nhân.
+     2. Clinical myocarditis: Triệu chứng suy tim hoặc viêm màng ngoài tim.
+	- Mild acute myocarditis presents with LVEF of 40–50% and sometimes mild HF, along with acute pericarditis signs. It usually recovers, in >90% of the patients, within weeks or months.
+	- Severe acute myocarditis is a myocarditis that manifests as HF or significant LV dysfunction. It reverses in ~35%, significantly improves in ~40%, and progresses to a more severe HF in ~25% of patients. The overall 5-year mortality of patients with persistent HF is similar to idiopathic DCM (~50%).
+	- Very severe acute myocarditis manifests as severe HF of recent onset (typically 2 weeks) with cardiogenic shock or ventricular arrhythmias, usually with a normal-size LV that has not had time to dilate and with severe thickening of the ventricular walls from edema, sometimes leading to low QRS.  voltage.
+     3. Clinical manifestions
+	- Suy tim, có thể sốc.
+	- HỘi chứng giả nhồi máu cơ tim: đau ngực, thay đổi ECG, tăng CRP, tràn dịch màng ngoài tim (dịch tiết). *ST có thể chênh lan toản hoặc theo vùng, chụp mạch vành thường cần để loại trừ nhồi máu cơ tim khi có ST chênh lên và tăng troponin*.
+	- In a patient presenting with acute HF and no CAD, a large troponin rise, higher than seen with HF, is a hint to myocarditis. *LV dysfunction is often global but may be segmental.*
+	- *In young patients with AV block or VT, consider: sarcoidosis, ARVD, myocarditis (such as giant cell or eosinophilic myocarditis), lamin A/C mutation, and Chagas disease. They have a predilection for arrhythmia even before overt myocardial disease.*
+     4. Diagnosis
+	- Biopsy is only indicated in cases of very severe myocarditis, where an urgent diagnosis of giant-cell myocarditis needs to be made and immunosuppressive therapy, ventricular assist device and transplant considered.
+	- With immunosuppressive therapy (generally 2 to 3 of the following: prednisone, mycophenolate, azathioprine, cyclosporine, muromonab), the prognosis of giant cell myocarditis has improved significantly, with transplant-free survival rates of 69% at 1 year and 58% at 5 years.
+	- *In patients acutely presenting with chest pain, troponin rise, and ST abnormality (diffuse or focal), a presumptive diagnosis of perimyocarditis is made after coronary angiography rules out CAD, in the absence of a takotsubo pattern of LV dysfunction.*
+	- In patients presenting with HF, a presumptive diagnosis of myocarditis or genetic DCM is made when cardiomyopathy has no clear explanation.
+**** Acute eosinophilic myocarditis
+     - Acute eosinophilic myocarditis may be due to drug hypersensitivity, Churg and Strauss vasculitis, hypereosinophilic syndrome (the latter 2 also cause chronic eosinophilic myocarditis, i.e. Loeffler syndrome), or may be idiopathic.
+       - 75% có tăng eosinophine, nhưng có thể thoáng qua và không thấy lúc nhập viện nhưng xuất hiện sau đó.
+       - Triệu chứng kèm theo có thể sốt, phát ban hoặc triệu chứng không đặc hiệu khác.
+       - Thậm chí khi không có tăng eosinophil nhưng nếu bệnh nhân có tiề căn dị ứng với thuốc và EF giảm mới xuất hiện hoặc tăng troponin thì vẫn nên nghi ngời có viêm cơ tim tăng eosinophil.
+       - Eosinophil tấn công nội mạc cơ tim, gây huyết khối thất trái hoặc thất phải trong 15 - 30% trường hợp.
+       - Triệu chứng có thể nặng nhưng thoáng qua và phục hồi nếu ngưng thuốc và dùng corticoid liều cao (khác với các loại viêm cơ tim khác). 
+**** Chagas disease
+     - Bệnh thường ở các nước Mỹ Latinh. Do lý sinh trùng (trypanosome) lây truyền qua côn trùng cắn.
+     - Acute infection is mild; it rarely leads to a picture of acute myocarditis with HF that is usually reversible. Years later, ~30% develop chronic Chagas disease, which is characterized by a progressive biventricular failure and, frequently, a characteristic large apical aneurysm.
+     - Thromboembolic complications, conduction blocks, and arrhythmias are common. 
+**** Sarcoidosis
+     - Sarcoid cardiomyopathy is characterized by myocardial sarcoid infiltration, with granulomas and edema early on and fibrosis later on. The LV wall may be thickened by granulomas, which leads to LV diastolic dysfunction; or thinned by fibrosis with localized aneurysms, which leads to LV systolic dysfunction.
+     - Sarcoidosis typically involves the basal septum and the lateral LV, leading to localized akinesis or dyskinesis of these segments.
+     - This basal septal involvement leads to infra-His ≥ 2nd-degree AV block, RBBB, or LBBB, as well as pseudo-Q waves. VT, frequent PVCs, and atrial arrhythmias are also common.
+     - Echo is not very sensitive for detecting the early small granulomas and localized dysfunction, and arrhythmias or conduction blocks may be the earliest manifestation.
+     - ~5-20% of cardiac sarcoidosis is limited to the heart, i.e. isolated cardiac sarcoidosis.
+     - Sudden death from ventricular tachyarrhythmias or conduction blocks is the most common cause of death in cardiac sarcoidosis, accounting for 30–65% of deaths.32 Progressive cardiomyopathy is the second most common cause of death.
+     - Diagnosis:
+       + Patients with established extra-cardiac sarcoidosis: Any patient with extracardiac sarcoidosis should be screened for cardiac involvement with clinical history, ECG (RBBB, LBBB, ≥2nd-degree AV block, frequent PVCs, VT, SVT), echo, and Holter. Any significant abnormality on the latter tests dictates cardiac MRI.
+       + Patients with no known extracardiac sarcoidosis but with suggestive cardiac findings:
+	 1) Young patient with VT, conduction block, cardiomyopathy with RBBB or LBBB.
+	 2) Non-ischemic cardiomyopathy with thick walls, segmental dysfunction, or pseudo-Q waves
+**** Takotsubo and other stres-related cardiomyopathies
+     1. Takotsubo cardiomyopathy (TC, also called “stress-induced cardiomyopathy” or “apical ballooning syndrome”)
+	- This is a transient form of cardiomyopathy that occurs after a major stress and typically leads to dyskinesis and “ballooning” of the ventricular apex (không điển hình ở khoảng giữa hoặc nền).
+	- Massive catecholamine surge leads to contraction band necrosis, which is actually a form of stunning rather than necrosis, similar to what is seen with cocaine overdose.
+	- TC typically involves post-menopausal women (~95% of cases), and only 2% of affected patients are <50 years of age.
+	- ST chênh lên thường gặp ở thành trước và thành bên, hiếm khi thành dưới. Không gặp ST chênh lên thành dưới đơn độc.
+	- *ST elevation evolves into deep anterior T-wave inversion and prolonged QT within 24–48 hours; patients frequently present at the stage of T-wave inversion without residual ST elevation, T-wave inversion being the most universal finding.*
+	- On echo and left ventriculography, the apex is akinetic/dyskinetic while the base is hypercontractile, and the overall EF is ~30% (20–40%).
+	- The ECG and echo findings characterize anterior MI as much as TC, and coronary angiography should be performed in all these cases to rule out LAD disease.
+	- All cases of TC are reversible within 2 months (half of them resolve within a week). A risk of recurrence of 11% has been described over a 4-year follow-up.
+	- **HF and cardiogenic shock may result from the poor LV function but also from the basal hypercontractility that leads to LVOT obstruction*, the latter being seen in ~15% of TCs. *These two forms of HF or shock need to be differentiated by echo and are treated differently*. In LVOT obstruction, inotropes are avoided; β-blockers are used if HF is present (carefully), while α-agonists are used if shock is present.
+	- 3 kiểu trigger: do cảm xúc, tiên lượng tốt; do gắng sức, tiên lượng kém hơn; không rõ trigger, tiên lượng trung bình.
+     2. Other stress-related transient cardiomyopathies
+	- Neurogenic stress cardiomyopathy is seen in up to 20–30% of patients with subarachnoid hemorrhage, and less often in ischemic stroke. *As opposed to TC, it usually involves the basal and mid-ventricular segments and spares the apex (inverted TC pattern)*
+	- Septic or acute medical illness cardiomyopathy: ~50% of septic patients develop a septic cardiomyopathy. It results from the myocardial depressant effect of cytokines (TNF-α) and is usually characterized by diffuse global hypokinesis rather than a TC pattern. *Septic cardiomyopathy always normalizes within 7–10 days.*
+**** Infiltrative restrictive cardiomyopathy: Amyloidosis
+     1. Amyloid light-chain (AL) amyloidosis
+	- may be primary or secondary to multiple myeloma.
+	- It is seen at an age over 40–50 and is associated with amyloid renal failure and nephrotic syndrome, macroglossia, jaw claudication, and bruising around the eyes.
+     2. Mutant transthyretin amyloidosis
+	- It leads to cardiomyopathy and peripheral or autonomic neuropathy (no renal involvement).
+     3. Wild-type (senile) transthyretin amyloidosis
+	- It is the most common form of cardiac amyloidosis.
+     4. Notes:
+	- AL Amyloidosis thường biểu hiện lâm sàng nặng hơn và tiến triển nhanh hơn 2 loại còn lại (sống sót sau khởi phát suy tim 15 tháng vs 5 năm). 
+	- Carpal tunnel syndrome, typically bilateral, is prevalent in all types of amyloidosis and may precede clinical presentation by several years. Spinal stenosis may be seen in senile amyloidosis from spinal ligament infiltration.
+     5. Clinical hints to amyloidosis:
+	+ Huyết áp bình thường hoặc thấp trên bệnh nhân nhân trước đó có tăng huyết áp, không dung nạp UCMC/UCBT và phải ngưng thuốc huyết áp.
+	+ HFpEF tăng cao BNP mạn tính hoặc tăng troponin kéo dài.
+	+ HFpEF có suy thất phải rõ rệt.
+	+ Hội chứng ống cổ tay hoặc hẹp ống sống; Bệnh thần kinh tự động, bệnh thần kinh ngoại biên.
+	+ Biên độ QRS không tương xứng với độ dày thất trái.
+	+ Apical sparing on strain echo (“red” apex, “cherry sundae”)
+     6. Đặc điểm ECG và siêu âm tim
+	+ Siêu âm tim: Dày thất (mean septal thickness 15 mm in AL amyloidosis, 18 mm in senile amyloidosis). Cần nghĩ đến Amyloidosis khi chẩn đoán phân biệt với bệnh tim phì đại hoặc bệnh cơ tim do tăng huyết áp. “red” apex, “cherry sundae” có thể giúp chẩn đoán phân biệt với độ nhạy và đặc hiệu 70 - 80% (in HCM and HTN, strain may be abnormal in a different, patchy way, or may be normal). 
+	+ ECG: QRS thấp, Q giả/
+     7. Chẩn đoán:
+	+ AL amyloidosis: Serum kappa/lambda free light chain ratio + serum and urine immunofixation.
+	+ Transthyretin amyloidosis: Myocardial scan with bone scintigraphy.
+     8. Điều trị
+	+ 
+** Pathophysiology of heart failure and heamodynamic aspects
+*** LV diastolic pressure in normal conditions and in HF (whether systolic or diastolic)
+    1. LVEDP - áp lực cuối tâm trương thất trái
+       - An elevated LVEDP (>16 mmHg) usually signifies LV dysfunction and is the most used surrogate of LV dysfunction (systolic or diastolic dysfunction).
+       - In fact, an elevated LVEDP with normal EF and normal LV volume equates with LV diastolic dysfunction and is a prerequisite for defining diastolic heart failure.
+    2. Normal
+       - E > A.
+    3. Diastolic dysfunction
+       - 2 đặc điểm:
+         + Giảm thư giãn thất (Poor LV relaxation): absence of the LV dip in early diastole. On tissue Doppler, LV relaxation is best characterized by the annular velocity E’ (E’= myocardial recoil or relaxation).
+         + Giảm compliance: tăng LVEDP.
+       - Note that LV diastolic pressure and LA pressure are normal outside A wave, particularly when LA is compliant enough to prevent an increase in LA pressure outside A wave. E/A is reversed and E’ is reduced.
+    4. In decompensated LV diastolic or systolic dysfunction
+       - Sóng E cao (do chênh áp LA-LV đầu tâm trương lớn) nhưng hẹp (Compliance kém).
+       - Mặc dù có tăng áp lực thất trái during A wave, nhưng there is no significant flow during A wave (small A with E/A >1.5–2).
+*** Definition of Afterload
+    1. Định nghĩa
+       - Hậu tải chỉ sức căng mà cơ tim phải chịu trong suốt quá trình tâm thu, gọi là sức căng hoặc strss thành thất.
+       - Hậu tải không chỉ đơn thuần là áp lực động mạch chủ. Hậu tải phụ thuộc vào áp lực tâm thu trong buồng tim, áp lực ngoài màng tim và kích thước buồng tim, độ dày thành cơ tim.
+       - In summary, the afterload is defined as ventricular wall stress and, according to *Laplace’s law*, is equal to: (systolic LV radius × systolic LV transmural pressure) / 2 × myocardial thickness.
+    2. Preload
+       - preload is end-diastolic volume, not end-diastolic pressure.
+       - Bệnh nhân suy tim tâm thu mất bù khiến đường cong Frank-Starling bị phẳng/ thậm chí đi xuống, Lợi tiểu lúc này không làm giảm CO, thậm chí có thể làm tăng (do làm giảm thể kích thước thất trái -> giảm hậu tải, hoặc phục hồi đường cong Frank-Starling nếu nó đi xuống). 
+*** Cardiac output, relation to preload and afterload
+    1. Cung lượng tim phụ thuộc vào
+       - Inotropism. Là chức năng co bóp nội tại của sarcomere. Không phụ thuộc vào tiền tải và hậu tải (change contractility but not inotropism).
+       - Chronotropism. An acutely decompensated heart is unable to increase stroke volume with longer filling times; thus, tachycardia increases the cardiac output and should be respected in decompensated states. It also increases contractility, up to a certain point.
+       - Preload. Tăng preload làm tăng CO đến 1 điểm nào đó sau đó làm giảm CO (dãn thất trái làm tăng afterload, tăng hở 2 lá chức năng, giảm đường cong Frank-Starlin). 
+       - Afterload
+    2. Notes:
+       - The failing heart is typically more afterload- than preload-dependent and is more afterload-dependent than a normal heart. *Small changes in afterload can produce large changes in stroke volume*.
+       - Trường hợp suy tim mạn tính, có thất trái dãn, thường đáp ứng tốt với lợi tiểu (giảm phù phổi, tăng cung lượng tim)
+       - Trường hợp suy tim tâm trương nặng hoặc suy tim tâm thu cấp mới khởi phát (như nhồi máu cơ tim cấp lớn) -> LVEDV - thể tích cuối tâm trương thất trái không tăng, do đó phù phổi cấp có thể khởi phát ngay cả preload bình thường do compliance rất kém và steep pressure–volume ventricular relationship. Những bệnh nhân này phải cẩn thận khi sử dụng lợi tiểu để giảm tiền tải. 
+*** LV pressure–volume relationship in systolic versus diastolic failure: therapeutic implications
+    - Tất cả bệnh nhân suy tim tâm thu /mất bù hoặc không mất bù/ có giảm thư giãn thất; tất cả bệnh nhân suy tim tâm thu /mất bù/ có giảm compliance; do đó thật ra suy tim tâm thu là sự kết hợp cả suy tim tâm thu và suy tim tâm trương.
+    - PCWP of 15–18 mmHg corresponds to an unnecessary increase in LV end-diastolic volume (preload) and may be safely reduced to 12 mmHg in chronic systolic LV failure, including acutely decompensated chronic systolic failure.
+    - patients with severe restrictive cardiomyopathy may require high PCWP to keep an adequate end-diastolic volume and cardiac output.
+    - Giảm Afterload có thể làm cải thiện thư giản thành thất *lusitropic effect*.
+*** Optimal heart rate in HF
+    - Patients with compensated diastolic or systolic LV failure have impaired relaxation and E/A reversal on echo. They may decompensate with any volume load or mild exertion that increases preload and/or afterload *(E/A changes from <0.8 to >1.5)*. Moreover, inappropriate tachycardia, the loss of atrial contraction with atrial fibrillation, or a very prolonged PR interval impedes atrial emptying and leads to volume overload of the LA and increased LA pressure.
+    - Except in cases of tachycardia >110 bpm, slowing the heart rate to prolong diastole or reestablishing atrial contraction does not help at this point, since LV fills minimally outside early diastole, and even if it does, it is on the flat portion of Frank-Starling curve (stroke volume does not rise with preload). In fact, *tachycardia of up to 110 bpm may be acutely helpful as it provides peak contractility, and increases cardiac output and LA emptying by increasing the number of emptying cycles per minute*; tachycardia >110 bpm becomes counterproductive in HF.
+*** Additional features of HF with preserved EF
+    - HFpEF, often called diastolic HF, is differentiated from systolic HF by a normal EF, a *non-dilated or only mildly dilated LV during decompensation (LV end-diastolic volume <75 ml/m2 or <96 ml/m2, respectively)*, and a steep pressure–volume relationship.
+    - HFpEF không chỉ đơn thuần là suy tim tâm trương, có nhiều cơ chế khác thấy ở phần lớn người bệnh:
+      + Tăng độ cứng thành động mạch
+      + Giảm nhẹ chức năng co thất trái.
+	- EF is more a marker of remodeling than intrinsic contractility; as such, impaired systolic function is better diagnosed by: (i) reduced LV strain on echo, which is highly prevalent in HFpEF (~50% in TOPCAT trial); (ii) impaired capacity to reduce end-systolic volume with exercise; (iii) *end-systolic elastance Ees, which is the true measure of contractility and is independent of loading conditions= end-systolic pressure (SBP)/end-systolic volume*. [[./img/Heart_failure/Pressure_volume_loops.jpg][xem hình]]
+      + Thể tích thất trái thường nhỏ, đặc biệt là ở người bệnh lớn tuổi không béo phì.
+      + Thể tích thất trái có thể dãn nhẹ, đặc biệt là ở người béo phì.
+      + Nhịp nhanh
+      + Pulmonary hypertension disproportionate to the rise of PCWP?  beside the postcapillary pulmonary hypertension, a precapillary pulmonary arterial hypertension frequently coexists or develops during the course of HFpEF and may be an independent contributor to the symptomatology of HFpEF.
+      + Atrial cardiomyopathy with stiff LA
+      + *Thuốc giãn mạch dễ gây tụt huyết áp và ít tăng stroke volume ở bệnh nhân suy tim tâm trương so với suy tim tâm thu.* CƠ chế:
+	1) Suy tim tâm trương nhạy cảm với Giảm preload hơn so với suy tim tâm thu. (dễ làm giảm stroke volume)
+	2) Giảm Afterload giúp tăng cung lượng tim, nhưng ít hiệu quả hơn trong suy tim tâm trương (LV bình thường) so với suy tim tâm thu (LV dãn). [[./img/Heart_failure/Stroke_volume_afterload_relationship.jpg][Xem hình]]
+	3) Tăng độ cứng thành mạch làm huyết áp nhạy cảm với afterload, giảm nhẹ hoặc tăng nhẹ afterload có thể gay tụt hoặc tăng cao huyết áp. 
+*** Suy tim cung lượng cao
+    - Đặc điểm là tăng áp lực đổ đầy thất trái +/- phải, Cardiac index ở mức bình thường cao (>= 4 L/min/m2 or >= 8 L/min), wide pulse pressure.
+    - 3 nguyên nhân chính: Béo phì, thiếu máu nặng, bệnh phổi.
+    - Cung lượng tim cao thường liên quan đến dãn mạch hệ thống hoặc AV fistula.
+    - Đặc điểm sinh lý bệnh:
+      + The systemic vasodilatation or the fistula requires a high cardiac output to maintain the systemic pressure, which eventually leads to renal salt retention and a high venous return/preload.
+      + While increased in absolute value, the cardiac output may not be high enough to fill the vasodilated circulation, meaning it is a relatively low cardiac output. This is similar to the exertional response of any HF: cardiac output increases in absolute value (e.g., 2×the baseline), but is below the required increase (4–5 times the baseline), with inability to accommodate the high venous return.
+    - LV thường dãn hoặc ở mức bình thường trên. EF có thể giảm theo thời gian nhưng thường không quá nặng.
+    - Điều trị:  Diuretics, particularly spironolactone and possibly SGLT2 inhibitors, are the mainstay treatment. Vasodilators such as CCBs aggravate the problem and are best avoided; ACE-I, if needed, may not be as harmful as it blocks the angiotensin-aldosterone axis at the center of salt retention.
+* Acute heart failure
+** Congestion in acute heart failure
+   - Impairment of renal function in AHF is often secondary to increased central venous pressure leading to renal venous hypertension and higher renal interstitial pressure resulting in decreased glomerular filtration rate and oliguria. 
+** Clinical tools for evaluation of congestion
+   - Clinical signs and symptoms
+   - Biology: BNP, Hematocrit, serum creatinine
+   - Ultrasound: B lilnes on lung ultrasound, repiratory variation of IVC.
+   - Fluid removal is often associated with reduction of plasma NP levels with a decrease >30% at Day 5 being a good prognostic marker.
+   - *Of note, sCr may be altered in the days and weeks following hospitalization for AHF due to many mechanisms including diuretic therapies; it often returns eventually to baseline values and should not be considered as an indicator of poor prognosis.* Therefore, some suggest to use the term of ‘permissive hypercreatininemia’ in HF. Therefore, the terms worsening renal function, acute kidney injury, and increased sCr cannot be used interchangeably.
+** Contemporary indices of congestion
+   - Three or more B-lines in two or more bilateral lung zones can be considered diagnostic for pulmonary oedema (sensitivity, 94%; specificity, 92%)
+   - The PAP-guided HF management was associated with a 28% and 37% fewer HF hospitalization after 6 and 15 months, respectively, compared to clinically-driven therapy. The benefits of  PAP-guided therapy occurred regardless of LVEF and have been replicated in clinical practice. 
+** Therapeutic management and treatments of acute heart failure
+*** In general
+    - Điều trị suy tim cấp dựa trên(5) phát hiện và chẩn đoán nhanh chóng, chẩn đoán nguyên nhân, đánh giá độ nặng, bệnh đồng mắc, và khởi động điều trị nhanh chóng. 
+*** Treatment according to aetiology of acute heart failure
+    - CHAMPIT: Hội chứng vành cấp, tăng huyết áp cấp cứu, rối loạn nhịp, nguyên nhân cơ học, thuyên tắc phổi cấp, nhiễm trùng, chèn ép tim.
+    - Những nguyên nhân khác hiếm gặp hơn: Bệnh van tim, bệnh cơ tim chu sinh, bệnh tuyến giáp.
+*** Decongestive therapies
+    1. Diuretic response
+       - Currently, net fluid output and changes in body weight are frequently used, though they only capture changes in total body water and not in extracellular sodium accumulation.
+       - In addition to measuring sodium in a continuous urinary collection, a spot urine sample 1–2 h following loop diuretic administration has been shown to have an excellent correlation with total urine sodium output in a 6 h urine collection. [[https://doi.org/10.1161/CIRCHEARTFAILURE.115.002370][link]]
+       - Despite persistent increased urinary volume output (diuresis), renal sodium output (natriuresis) diminishes over time, due to increased renal sodium reabsorption while facing low sodium intake. Therefore, increasingly hypotonic urine is produced during consecutive days of loop diuretic therapy, depending upon altered renal haemodynamics, differential substrate delivery (sodium and/or diuretics), neurohormonal factors, and structural kidney abnormalities, including arginine vasopressin action.
+    2. Diuretic ultilization
+       - Over 95% of the loop diuretics are bound to albumin, do not undergo glomerular filtration, and reach their target site by active secretion from the blood into the urine by the organic acid transporters present in the proximal tubules.
+       - In the DOSE-AHF trial, no difference in improved global assessment of dyspnoea was seen between continuous infusion vs. bolus injection.
+       - A satisfactory diuretic response can be defined as a urine sodium content > 50–70 mEq/L at 2 h and/or by a urine output > 100– 150 mL/h during the first 6 h after administration.
+       - Finally, a transient increased in sCr after initiation of decongestive therapy can be observed, which may not represent acute kidney injury but rather a haemodynamically-driven event that should not prompt discontinuation of diuretics or other life-saving therapies.
+       - If the diuretic response remains inadequate, concomitant administration of other diuretics with different tubular sites of action, such as thiazides or acetazolamide, may be considered. However, this combination requires careful monitoring of serum electrolytes and renal function.
+    3. Vasopressin receptor antagonists
+       - Randomized controlled clinical trials have failed to demonstrate benefit of tolvaptan on HF hospitalizations and mortality at 60 days after discharge
+    4. Vasdilators
+       - Drugs with a dual arteriolar and venous effects like sodium nitroprusside (SNP) appear to contribute to the immediate haemodynamic response of the drug. Both effects lead to an increase in cardiac output in patients with HF and often reduce the basal tachycardia.
+       - An important issue with SNP is that prolonged use beyond 72 h can lead to cyanide poisoning, particularly in patients with impaired renal function.
+    5. Other therapeutic measures
+       - Of note, a pseudo-hyponatraemia may occur in hyperglycaemia.
+       - ‘Depletional hyponatraemia’ (=deficit in Na+) is due to various mechanisms including diuretic agents that enhance sodium excretion, associated with potassium/magnesium losses, malnutrition, diarrhoea, vomiting.
+       - ‘Dilutional hyponatraemia’ is related to increased water retention due to increased osmotic and non-osmotic release of arginine vasopressin (AVP) and insufficient tubular flow through diluting (distal) segments of the nephron. *Hyponatraemia may be corrected by improving distal nephron flow (loop diuretics with or without hypertonic saline, acetazolamide, renin-angiotensin system blockers, inotropes, or vasodilator therapy) or by administration of a vasopressin antagonist.*
+       - Regardless of the mechanisms, distally working diuretics (thiazide-type, amiloride, mineralocorticoid receptor antagonists) should be stopped and plasma K+ and Mg++ restored.
+*** Non-invase ventilation
+    - The latest ESC guidelines recommended non-invasive ventilation as Class IIa recommendations with a level of evidence B in AHF patients with respiratory distress (defined as respiratory rate > 25/min and/or SpO2 < 90%).
+*** Morphine and anxiolytic treatments
+*** Risk stratification and early folow-up after discharge
+    - 

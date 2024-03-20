@@ -1,0 +1,63 @@
+:PROPERTIES:
+:ID:       9fdf88e9-627d-495b-b955-f193c5f8517f
+:END:
+#+title: ABG
+
+* Strong medicine
+** ABG Interpretion
+*** Introduction
+    - Measured directly
+      + PH
+      + PaCO2
+      + PaO2
+    - Calculated
+      + HCO3-
+      + O2 saturation
+*** Normal acid-base regulation
+    1. Role of acid - base balance
+       - PH 7.4 (7.35 -7.45)
+       - Herderson-Hasselbalch Equation
+	 + pH = 6.1 + log([HCO3-]/0.03xPaCO2)
+    2. Acid eliminated
+       - Lung (CO2)
+       - Kidney
+	 + Proximal tubule: tái hấp thu HCO3-
+	 + Distal tubule/ collecting duct: Tiết H+, tiết NH4+
+    3. K+/H+ exchange
+       - acidemia -> hyperkalimia (do tăng trao đổi K+ ra ngoài tế bào, H+ vào trong tế bào)
+       - 0.1 PH <=> 0.6 mEq/L K+ (0.2 - 1.7) (thay đổi tùy khác nhau theo bệnh nhân nên phải theo dõi kỹ nồng độ K+ khi có toan chuyển hóa)
+       - Kiềm hóa máu có thể gây hạ kali máu nhưng mức tương quan có vẻ ít hơn toan hóa máu. 
+*** Simple acid-base disorders
+    1. Step 1: always start with the pH
+    2. Step 2: Check the PaCO2 (normal 35-45 mmHg)
+       - nếu PaCO2 thay đổi cùng chiều với pH thì do chuyển hóa ngược lại là do hô hấp
+*** Compensation and mixed disorders
+    1. Never "Overcompensation"
+    2. How fast the compensation occur?
+       - Hô hấp: bắt đầu xảy ra vài phút nhưng đỉnh có thể 1 - 24hrs
+       - Chuyển hóa: đỉnh 12hrs - 5days
+    3. Bù trừ ho hấp cho kiềm chuyển hóa khá kém do giảm thông khí sẽ khiến giảm nồng độ oxy trong máu, do đó sẽ kích thích não làm tăng thông khí trở lại.
+    4. Step 3: Tính mức độ bù trừ
+       - [[./img/ABG/compensation formulas 1.JPG]]
+       - [[./img/ABG/compensation formulas 2.JPG]]
+       - [[./img/ABG/compensation formulas 3.JPG]]
+       - 
+*** Anion gap
+    1. Aniongap = [Na+] - ([CL-]+[HCO3-])
+    2. Normal range: 8 - 12 mEq/l (Lab specific) nên dùng bảng tham chiếu của lab
+    3. toan chuyển hóa aniongap bình thường
+       - Loss HCO3-
+	 + Tiêu chảy
+	 + Type 2 RTA
+	 + Acetazolamid
+	 + Ureteral diversion
+       - Decreased renal H+ excretion
+	 + Renal failure
+	 + Type 1 RTA
+	 + Type 4 RAT (hypoaldosteronism)
+    4. Toan chuyển hóa tăng anion gap (tăng anion bệnh lý)
+       - toan acid lactic, ketoacid, renal failure (giảm thả phospat, sulphat)
+    5. Hypoalbuminemia
+       - AG_adjusted = AG_measured + 2.5(4-[Alb])
+*** The Delta ratio and Triple disorders
+    1. 

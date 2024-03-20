@@ -1,0 +1,9 @@
+:PROPERTIES:
+:ID:       3868d913-1639-4253-ae29-d7308978dda7
+:END:
+#+title: Universal Definition of Heart Failure
+
+* Universal definition and classification of heart failure: a report of the Heart Failure Society of America, Heart Failure Association of the European Society of Cardiology, Japanese Heart Failure Society and Writing Committee of the Universal Definition of Heart Failure
+
+* Link
+  https://onlinelibrary.wiley.com/doi/10.1002/ejhf.2115

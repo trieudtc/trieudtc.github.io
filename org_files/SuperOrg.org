@@ -1,0 +1,87 @@
+* Organizing rules
+** Content
+*** Rule 1: How keep files up to date
+- Files in work's usb always the newst version
+**** TODO Keep files synchronizing <2022-02-09 Wed +1w>
+   - Schedule> week interval
+*** Rule 2: Keep a minimum number of files
+- Remember that the purpose of org file is keep you organize. It is
+unresonable if you seperate each file for each task. -> keep them all
+in one place unless they are too difference.
+*** Rule 3: How to orgazine files
+|---------------------+----------------------------------------------------------------------|
+| 1. SuperOrg         | A supper file that defines how to organize all                       |
+|                     | other files as well as your ideas, branstorming... You can           |
+|                     | think it as a medium to translate idea from your brain to org files. |
+|---------------------+----------------------------------------------------------------------|
+| 2. Work             | All things relate to work                                            |
+|---------------------+----------------------------------------------------------------------|
+| 3. Learning         | All things realate to learning including books, courses,...          |
+|---------------------+----------------------------------------------------------------------|
+| 4. Ideas            |                                                                      |
+|---------------------+----------------------------------------------------------------------|
+| 5. Foreing language |                                                                      |
+|---------------------+----------------------------------------------------------------------|
+| 6. Medicine         |                                                                      |
+|---------------------+----------------------------------------------------------------------|
+
+*** Rule 4: How to structure a file
+- Don't create too many levels of hierachy but not all details at surface as well
+- Keep the image of tree in mind when structuring a file
+- Use tag for searching and filtering
+  |------+------------------------------------------------------|
+  | fmap | - Tag cho kế hoạch/chủ đề sẽ làm/học trong tương lai |
+  |      | nhưng chưa định ngày làm                             |
+  |------+------------------------------------------------------|
+  | pmap | - Tag cho kế hoạch/chủ đề sẽ làm/học trong hiện tại  |
+  |      | - Dùng TODO để scheduling                            |
+  |------+------------------------------------------------------|
+  | dmap | - Tag cho kế hoạch/chủ đề đã xong                    |
+  |------+------------------------------------------------------|
+  | rmap | - Tag cho kế hoạch/chủ đề cần retrieve               |
+  |      | - Dùng timestamp để scheduling để nhắc nhở           |
+  |------+------------------------------------------------------|
+*** Rule 5: How to view organizined tasks (Agenda view + Sparse Trees)
+- view TODO
+- view agenda week, month
+- view agenda tags: fmap. f stands for "future"; map cho toàn bộ map
+* Plan
+1. Soft skill sets
+   - Selft study
+   - Critical thinking (including model thinking)
+   - Leading team
+   - Influent people
+   - Negotitation
+   - Problem solving and Decision making
+   - Prevention of cognetive pitfalls (bias)
+   - Jugdement
+   - Time management and Productivity
+   - Mindfullness
+2. Core hard skill sets
+   - Medical specialist
+   - AI Specialist (need Math and Computer science)
+3. Complientary skill sets
+   - Computer scence
+   - Programing (Excel + VBA, C, C#, Java, Python)
+   - Math
+   - MBA (including Project management)
+   - Clear writing
+* Brainstorming
+  - Xem xét thêm game theory vào roadmap of maths    
+* TODO Actions in action
+  - [ ] Tạo list tư duy sai lầm thường gặp
+  - [ ] Luôn để 4 thứ này trước mắt:
+    + Mục tiêu dài hạn của ta là gì?
+    + Mục tiêu ngắn hạn của ta là gì?
+    + Nó có liên quan gì đến mục tiêu dài hạn?
+    + Hôm nay ta làm gì? cho mục tiêu gì?
+  - [ ] Ghi chép những quan sát thường ngày:
+    + Cần phải ghi chép nhửng quan sát thường ngày, rút ra bài học, sau đó hệ thống chúng lại. Kinh nghiệm vô thức không tự tạo thành wisdom được, bạn muốn có wisdom thì bạn phải hệ thống những quan sát của mình lại.
+    + Ghi chép theo chủ đề, theo nguyên tắc: nếu bạn viết sách về nó thì bạn muốn viết gì. 
+  - [ ] Tập thói quen ghi chép ideas lại ngay lập tức
+  - [ ] Chiến lược cho việc học và làm:
+    + Học ngay cái mình thích
+    + Làm ngay cái mình học
+    + Nghĩ cách kiếm tiền để học cái mình thích
+  - [ ] Luyện viết, luyện ghi nhớ (thơ và quote)
+  - [ ] Tạo list những điều sẽ học

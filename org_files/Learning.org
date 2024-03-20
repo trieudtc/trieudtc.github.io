@@ -1,0 +1,1077 @@
+
+#+TODO: TODO(t) IN-PROGRESS(i) | DONE(d)
+#+TAGS: important confuse book
+* Emacs
+** Fundamental
+   F10 		menubar
+   C-x C-q	Readonly mode in current buffer
+   M-m		Move to the fist non-white chracter of the line
+   M-a		Move back to beginning of sentence
+   M-e		Move forward to end of sentence
+   C-a		Move back to beginning of line
+   C-e		Move forward to end of line
+   M->		Move to the end of buffer
+   M-<		Move to the beginning of buffer
+   C-k		Kill from the cursor position to end of line
+   M-k		Kill to the end of the current sentence
+   C-S-Bspace	Invoke M-x kill-whole-line
+   C-Y M-y	yank-pop command
+   M-^		join this lie to previous line
+   C-M-\	Indent region
+   C-x C-i	Rigid indent
+   M-l		Downcase word
+   M-u		Upcase word
+   M-x auto-fill-mode	 minor mode that breaks the line in between
+   words automatically if the line is too long
+   /C-h(F1) c key/	 very brief description of the command
+   /C-h(F1) a regrex/	Command Apropos
+   /C-q then char/ 	Read next input character and insert it
+   C-shift-backspace 	del the whole line
+** Org mode
+*** common use key bidings
+    |--------------+-----------------------------------------------------------+------|
+    | key          | command                                                   | note |
+    |--------------+-----------------------------------------------------------+------|
+    | /genaral/    |                                                           |      |
+    | S-Tab        | Global tree cycling                                       |      |
+    | Tab          | Subtree cycling                                           |      |
+    | C-u Tab      |                                                           |      |
+    | C-c C-n      | Previous/ next heading                                    |      |
+    | C-c C-n      |                                                           |      |
+    | C-c C-f      | Previous/ next heading same level                         |      |
+    | C-c C-b      |                                                           |      |
+    | C-c C-u      | Back to higher level heading                              |      |
+    | *Editing*    |                                                           |      |
+    | C-RET        | Insert a new same level heading                           |      |
+    | M-RET        | Insert a new heading or wrap a region in a table          |      |
+    | M-S-RET      | Insert new TODO entry with same level as current heading. |      |
+    |              | /Insert new checkbox if in plain list/                    |      |
+    | M-LEFT       | Change level of heading                                   |      |
+    | M-RIGHT      |                                                           |      |
+    | M-UP         | Swap subtree, same level                                  |      |
+    | M-DOWN       |                                                           |      |
+    | C-c C-w      | refile to different location                              |      |
+    | C-c n s      | Narrow buffer to current subtree and widen it again       |      |
+    | or w         |                                                           |      |
+    |--------------+-----------------------------------------------------------+------|
+    | /table/      |                                                           |      |
+    | *Swap*       |                                                           |      |
+    | S-up...right | Swap cells                                                |      |
+    | M-up...right | Swap rows/columns                                         |      |
+    | *Kill*       |                                                           |      |
+    | M-S Left     | Kill the current column                                   |      |
+    | M-S Up       | Kill the current row or horizontal line (-----)           |      |
+    | *Insert*     |                                                           |      |
+    | M-S-right    | Insert columns                                            |      |
+    | M-S-down     | Insert row                                                |      |
+    | C-c RET      | Insert (-----)                                            |      |
+    | C-c -        |                                                           |      |
+    | *Sort*       |                                                           |      |
+    | C-c ^        | sort in the region                                        |      |
+    |--------------+-----------------------------------------------------------+------|
+
+*** Basics of TODO
+    |--------------------+---------------------------------------------------+------|
+    | Key                | function                                          | note |
+    |--------------------+---------------------------------------------------+------|
+    | C-c C-t            | Cycle TODO state                                  |      |
+    | S-right            |                                                   |      |
+    | S-left             |                                                   |      |
+    | C-c / t            | View TODO in a sparse tree                        |      |
+    | C-c /              | Select a sparse-tree creating command             |      |
+    | *Progress logging* |                                                   |      |
+    | C-u C-c C-t        | note and record the time of the TODO state change |      |
+    | *Priorities*       |                                                   |      |
+    | S-UP               | Up/Down the priority of the current headline      |      |
+    | S-Down             |                                                   |      |
+    | *Tag*              |                                                   |      |
+    |--------------------+---------------------------------------------------+------|
+
+*** tags
+    - To limit tag inheritance to specific tags, or to turn it off entirely, use the variables /org-use-tag-inheritance/ and /org-tags-exclude-from-inheritance.
+* Soft skill sets
+** Self study
+*** Tôi tự học                                                         :rmap:
+**** Những câu tâm đắc
+  - Một việc làm trong âm thầm, lặng lẽ trong cô tịch nhưng đầy hăng hái, đầy kiên nhẫn sẽ là những công việc làm ra nhiều kết quả vẻ vang và sâu sắc nhất. 
+  - Muốn thành những bậc tài hoa, điều thứ nhất là phải có lý tưởng, có đủ tin tưởng và chí kiên nhẫn để thực hiện lý tưởng ấy; điều thứ ha là làm việc cho có trật tự, có phương pháo, nhẫn nại và lặng lẽ, không bồn chồn, không vội vã.
+  - Cần nói nửa lời thôi, nhưng là những lời nói khêu gợi. 
+  - "Nhà văn cần phải biết nín lặng, đừng nói hết ý nghĩ của mình và phải để cho độc giả có chỗ tỏ ra sự hiểu biết của họ". - Jean Guitton. 
+  - "Không có sự dốt nát nào nhục nhã bằng tin tưởng rằng minh đã hiểu những gì mình không hiểu". - Socrate.
+  - Trước cảnh vật vô cùng hùng vĩ, con người cảm thấy những cao vọng của mình đều là ti tiện không đâu. - Thu Giang Nguyễn Duy Cần. 
+  - "Học cho rộng, hỏi cho kỹ, phân biện sáng rõ, là cho hết sức". - Khổng Tử.
+**** Thử tìm một định nghĩa
+  - Học thức là một vấn đề thuộc phẩm, chứ không phải lượng.
+**** Những yếu tố chính
+***** Học vấn và thời gian
+  - "Dốt kim thời"
+  - "Nhà chuyên môn"
+  - "Ngụy bác học" hay "ngụy tri thức"
+***** Cái học bề rộng và cái học bề sâu
+  - Người tri thức cần phải có một cái học rộng để khỏi phải bị thiên kiến trong khi nhận xét và phê bình. 
+  - Nhưng cần nhất phải có một cái học chuyên môn, một cái học về bề sâu. 
+  - "Phải có một cái học tổng quát để phụng sự cho ngành chuyên môn của mình". - Victor Duruy. 
+***** Biết tổ chức sự hiểu biết của mình
+  - Người học thức không chỉ là người học nhiều mà thôi, mà là người đã "tiêu hóa" được cái học của mình, vì đã biết tổ chức những tài liệu mà mình đã thu thập thành một cái biết có cơ sở vững vàng và rộng rãi. 
+**** Những điều kiện thuận tiện cho sự tự học
+***** Thời giờ
+  - Chấp thời gian là phản văn hóa. 
+***** Tinh thần tản mác
+***** Đời sống đơn giản
+***** Sự tập trung tinh thần
+  - "Điều khó khăn nhất trong khi nghiên cứu là tìm cho ra cái điểm đặc biệt và chủ yếu. Do đó, tất cả đề có thể quy về một mối...". - Taine.
+  - “Trong khi viết lại một tác phẩm nào, tôi luôn luôn làm một cái bản mục lục phân tích từng vấn đề. Tôi làm bản ấy, không phải lúc mới khởi thảo, hoặc sau khi viết xong bản thảo, mà là lần lần sau khi viết xong mỗi đoạn. Tôi tóm lại mỗi đoạn bằng một câu hết sức gãy gọn và rõ ràng. Đâu phải dễ dàng gì tìm ra được liền câu đại lược ấy, nhưng hễ một khi tìm ra được nó rồi thì câu ấy chỉ cho ta thấy trong đoạn văn này có những gì dư, những gì thiếu, những gì không ăn chịu nhau, hoặc không đầu đuôi, bởi thảy đều phải quy về câu tóm tắt ấy. Hơn nữa, câu tóm tắt này cùng những câu tóm tắt khác của các đoạn sau, gộp chung lại, giúp cho ta thấy cái yếu điểm của toàn chương”. - Taine. 
+  - Đọc sách là muốn tìm nắm lấy cái đại ý của toàn tập, phải đọc nó suốt một hơi, đừng bận những tiểu tiết về văn từ cũng như về ý tưởng. Về sau sẽ đọc trở lại vài lần một khi đã nắm được đại ý. Bấy giờ, ta sẽ đọc kỹ lại từng thiên, từng đoạn, từng câu. Nhưng bao giờ cũng phải biết để ý đến chỗ thuần nhất của nó.
+***** Óc tổng quan
+***** Óc nhân quả
+  - Cần phải tạo cho mình một khuynh hướng luôn luôn đứng trước một sự kiện gì đều phải biết tìm dây nhân quả thì sự học hỏi của ta mới chắc chắn vững vàng.
+***** Óc tế nhị
+  - Ngừa sự ngụy luận 
+***** Óc tán thưởng
+  - "Biết ngạc nhiên, đó là nguyên nhân của triết học". - Platon.
+**** Phương tiện chính yếu
+***** Đọc sách (tóm lược)
+  - Chỉ  đọc những sách hay, đã qua thử thách. 
+  - Đọc 2 lần. Nhanh, để nắm tổng quát; chậm, để lấy chi tiết. 
+  - Cố găng đọc ngay chính văn. 
+**** Phương pháp phê bình sử học
+***** Phê bình ngoại bộ
+  - Tìm tài liệu cho đầy đủ. Phải phân biệt "sự thực" với "phán đoán" hay "phỏng đoán".
+  - Phê bình về lai lịch của tài liệu. 
+  + Nó ở đâu mà đến?
+  + Nó xảy ra hồi nào?
+  + Ai thuật lại nó?
+  - "Phục hồi" lại nguyên văn hay nguyên thể của những tài liệu do "tam sao thất bổn".
+***** Phê bình nội bộ
+  - Giải thích tài liệu
+  + Tác giả muốn nói gì? (Phải đặt mình trong hoàn cảnh tác giả mà suy nghĩ, đừng ép tác giả nói điều ông ấy không nói)
+  - Tìm sự thành thực của tác giả
+  - Tìm sụ đích xác của chứng cứ
+  + Vì người thành thực chưa đủ đảm bảo điều họ nói là đúng với sự thật. 
+  + Phải hết sức cẩn thận với những thứ được thuật lại từ sự "nghe lỏm" chứng không phải từ sự quan sát. 
+  - So sánh tài liệu
+**** Một vài nguyên tắc làm việc
+  1. Đi từ cái dễ đến cái khó, và phải tin ở sự thành công
+  2. Làm việc đều đều, không nên để gián đoạn
+  3. Khởi đầu bằng những yếu tố đầu tiêu của môn học ấy, đừng bao giờ đốt giai đoạn
+  4. Biết lựa chọn
+  5. Biết quý thời giờ làm việc
+  6. Biết dùng thời giờ làm việc và tiết kiệm từng phút một
+  7. Hễ làm việc gì thì làm cho hoàn tất, đừng phải trở lại làm một lần thứ hai
+  8. Muốn làm việc cho có hiệu quả thì phải có một sức khỏe dồi dào
+** Critical thinking (including model thinking)
+*** Thuật tư tưởng                                                     :pmap:
+**** Tư tưởng là gì
+     - Tư tưởng là phán đoán, mà phán đoán là nhận thức và quyết định sự liên lạc giữa hai tư tưởng, hai sự vật.
+**** Lý luận là gì
+     - Nhân một phán đoán này mà tìm ra một phán đoán khác, đó là lý luận.
+***** Diễn dịch
+      - Tam đoạn luận: Đại tiền đề, tiểu tiền đề, và kết luận. Các biến thể: nhị đoạn luận, liên châu luận
+      - Song quan luận: Câu đại tiền đề có 2 cửa để ép kết luận vào một trong 2 cửa đó. VD: “Khi nghe tiếng đồn xấu kẻ khác, ta nên tự hỏi như vầy: Ta không nên nghe những lời đồn đãi xấu xa của kẻ khác. Vì hai lẽ: Hoặc người bị nói xấu đây là ưng, hoặc người ấy bị oan. Nếu ưng, thì với sự phê bình của mình đây là thêm cho họ một sự đau đớn nữa, đó là ta thiếu lòng nhân. Nếu người ấy bị oan, thì lời phê bình của ta đây là lời phê bình bất công và phạm vào tội gièm pha. Bởi vậy, nghe lời nói xấu kẻ khác mà nghe theo và phê bình, thế nào ta cũng phạm một điều: Bất nhân hoặc bất công. Bất nhược ta đừng phê bình tới là xong”.
+***** Qui nạp
+      - Qui nạp theo nhà khoa học, là tư tưởng mà biết hoãn lại sự phán đoán của mình, không kết luận "bướng", không hấp tấp, vội vàng. Hoài nghi của nhà khoa học, là hoài nghi để mà chiêm nghiệm, không phải lối hoài nghi của người theo chủ nghĩa hoài nghi triệt để đâu. 
+***** Loại suy
+      - Dựa trên sự tương đồng của những sự việc để kết luận. Kết luận dựa trên loại suy thường là kết luận không chặt chẽ nhưng rất hữu dụng để suy tư tìm ra cái mới (theo người học).
+      - Tỉ luận là lối so sánh, ví von. VD: "Cá không ăn muối cá ươn. Con không nghe cha mẹ, trăm đường con hư". Cái này không được gọi là loại suy. Nhà viết văn thường hay dùng lối này là muốn giúp để suy nghĩ, chớ không phải muốn chứng giải một điều gì. Khi đọc sách, phải coi chừng lối tỉ luận, bởi có nhiều nhà văn hay lợi dụng phép này để chứng giải những lý thuyết lờ mờ của mình (tức là ngụy biện).
+**** Sai lầm khi lý luận
+***** Sai lầm của phép diễn dịch
+****** Dùng chữ có nhiều nghĩa khác nhau trong một câu luận
+       - VD: "Bất kỳ là ai được tự do thời phải có trách nhiệm. Mà con chim được tự do; Cho nên, con chim cũng phải có trách nhiệm". 
+****** Nguyên tắc sai (đại tiền đề sai)
+       - Đây là lối tiên thiên mà các nhà tôn giáo chính trị ưa dùng nhất: đại tiền đề của họ là một câu sách thánh hoặc một câu khẩu hiệu của bè phái mà họ đã nhận suông như một nguyên tắc tuyệt đối. Những câu nguyên tắc ấy, là những quả quyết suông, những ức thuyết còn đợi sự thí nghiệm. Ta cần phải thận trọng cho lắm, không khéo lại sa vào cạm bẫy của họ như chơi. Tỉ như cây này: "Chỉ có những ai theo chủ thuyết X mới thật phụng sự cho Tiến bộ thôi; Anh không theo chủ thuyết ấy; Anh không phụng sự cho sự Tiến bộ".
+****** Đi lạc đề
+       - Luận theo tam đoạn luận mà cho đúng phép, thời câu kết luận phải nằm trong tiền đề, không được phép ra khỏi đó.
+       - VD: "Ở thành thị thì không khí không tốt; Mà Sài gòn là một thành thị; Bởi vậy, ở Sài gòn khó thể làm ăn"
+****** Luận chứng ngoài vấn đề
+       - Chứng luận quá đề
+	 + VD: Trong một cuộc hội nghị, người ta bàn cãi coi nên đánh hay không đánh giặc. Có 2 người lại bàn: "Chiến tranh là bất công". Đó là chứng luận quá đề. Ở đây người ta không bàn chung về vấn đề chiến tranh mà bàn về một cuộc chiến tranh cụ thể. 
+       - Chứng luận thiếu sót
+	 + Tiếp vd trên: Có kẻ lại bảo "Cuộc chiến tranh này sẽ có lợi cho chúng la, nếu chúng ta thắng trận". Đó là chứng luận thiếu sót, vì chiến trah chẳng phải vì lợi mà thôi, là đủ để khai chiến.
+       - Chứng luận lạc đề
+	 + Tiếp theo vd trên: Cũng có kẻ viện lẽ: "Mình phải làm cho quốc gia cường mạnh thêm lên". Đó là chứng luận ngoài vấn đề, vì cũng có biết bao phương thế khác có thể mưu cho quốc gia được cường thịnh gấp bội. 
+****** Tuần hoàn luật pháp
+       - Cắt nghĩa câu này bằng câu kia: Những câu kia chính nó cũng cần phải cắt nghĩa nữa mới đặng. Hay nói cách khác: Điều mình đem ra để chứng luận, tự nó cũng cần phải chứng giải mới đặng. VD: "Á phiện làm chúng ta ngủ tại n có tính chất làm cho ta ngủ".
+****** Cái vòng luẩn quẩn
+       - Lấy cái này giải cái kia, rồi lấy cái kia giải lại cái này. Lấy B giải A, rồi nếu có buộc phải giải B, thời lại trở lấy A mà giải lại B. Như câu này của Descartes: "Trời là có thật, vì cái lý của ta không thể sai lầm được. Mà lý của ta sở dĩ không sai lầm được, là bởi do Trời mà ra vậy". 
+***** Sai lầm của phép qui nạp
+****** Luật ngẫu nhiên
+       - Ngụy luận người đàn bad tóc hoe, vơ đũa cả nắm
+       - Nhận thấy một vài ông thầy thuốc Nam học vấn lôi thôi, trị bệnh cẩu thả, liền qui nạp bướng rằng Thầy thuốc Nam không đáng tin cậy hoặc thuốc Nam dở. 
+****** Nhận nhầm nguyên nhân
+       - Lối luận này cho rằng hễ A đứng trước B, thì A là nguyên nhân của B. 
+****** Liệt cử thiếu sót
+       - Người ta thường lầm tưởng rằng liệt cử được 5, 10 bằng cớ thuận với ức thuyết của mình là đã có đủ điều kiện để chứng nhận rằng ức thuyết của mình là đúng.
+       - Ta nên biết rằng: /"Những bằng cứ thuận, dù nhiều đến bậc nào, cũng không chứng nhận được gì cả"/.
+       - Những nhà bán thuốc cao đơn hoàn tán của ta thường hay dùng đến cái lối luận này lắm: Họ đưa ra một mớ chứng thư của một số bệnh nhân đã dung thuốc họ có công hiệu để tỏ rằng: thuốc ấy là thánh dược. Họ quên không chịu đưa ra bằng cứ nghich lại, rằng thuốc ấy đã không cứu hoặc đã lỡ giết bao nhiêu người rồi. 
+***** Sai lầm của phép loại suy
+      - Phần đông người ta thường hay lầm lẫn phép loại suy và phép tỉ luận. Phép tỉ luận dùng để dẫn dụ, không như phép loại suy dùng dể dẫn chứng.
+      - "Trái đất là hành tinh có người ở, là vì có không khí. Mà Sao Hỏa cũng là hành tinh, cho nên cũng có người ở". Luận như thế là sót điều kiện "không khí".
+      - Trong khi suy nghĩ cần tránh xa lối luận này. Người có óc giản lược thường hay suy nghĩ bằng phép "loại suy thiếu điều kiện" như trên. Họ thường lấy mình mà độ kẻ khác.
+      - Có câu ngạn ngữ này, nên nhớ mãi trong khi lý luận hay nghe người khác lý luận: /So sánh không phải là luận cứ/.
+      - Muốn tránh cái sai lầm khi suy nghĩ hay lý luận bằng loại suy ta cần để ý đến sự đồng tính của hai hiện tượng. 
+***** khác
+****** Một câu hỏi chứ nhiều câu hỏi
+       - VD: tại sao con cá chết lại nặng hơn con cá sống?. Câu này lẽ ra phải phân thành 2 câu mới đúng.
+	 1. Con cá chết thì nặng hơn con cá sống, có thật vậy không?
+	 2. Nếu quả có thật vậy, thì tại làm sao như thế
+**** Chủ quan và khách quan
+***** Phán đoán về giá trị: chủ quan
+      - Trong khi phán đoán, cần phân biệt rõ thế nào là phán đoán về giá trị và thế nào là phán đoán về sự thật.
+      - Phán đoán về giá trị là lối phán đoán của những nhà luân lí, tôn giáo, mỹ thuật, chính trị, kinh tế. Giá trị ở đây chính là giá trị đối với long ao ước của con người. Giá trị của sự vật cao hat thấp thế nào, chỉ do nơi lòng ham muốn của ta nhiều hay ít mà thôi vậy.
+      - Phán đoán về sự thật, ở vào thời buổi nào, ở vào hoàn cảnh nào cũng đều không biến thiên giá trị của nó.
+      - Tuy nhiên, có kẻ sẽ vặn rằng: Ở đời không có một phán đoán nào khách quan cả. Vì đã gọi là phán đoán là đối với một chủ quan rồi. Ánh sáng là gì nếu không có cặp mắt để thấy nó? Luật hấp dẫn có làm gì nếu không có một tư tưởng để hiểu nó? Bởi vậy dầu sao, đã có phán đoán là có chủ quan rồi vậy.
+      - Tuy nhiên, phán về sự thật là một phán đoán chủ quan nhưng phần chủ quan chỉ là một "đơn số" thôi, cón phán đoán về giá trị, là thứ phán đoán mà phần chủ quan tăng lên "bội số".
+      - Xã hội nào cũng có một bản giá trị riêng. Cái mà xã hội chung quanh hiện tại đã nhìn nhận và cho là giá trị, ta không có quyền khinh rẻ. Giá trị sở dĩ thánh mệnh lệnh vì nó có tính cách xã hội ở trong. Bởi vậy, phải coi chừng, đừng có chạm đến lòng tín ngưỡng của xã hội chung quanh một cách vô ích.
+      - C. Bougle nói: nói: “Ta hãy thử xem cái tâm trí của người cổ lỗ với tâm trí của một kẻ văn minh mà so sánh thì rõ: Không lẫn lộn loại này với loại kia, biết đứng trên nhiều phương diện khác nhau để xem xét sự vật, biết trọng kính và không lầm lẫn với nhau những qui luật của các ngành hoạt động của mình đang làm, đó là cái biểu hiện rằng mình là người có giáo dục cao… Kẻ nào không biết phân biệt và đảo lộn tất cả những tiêu chuẩn, tức là đứng ở phương diện chính trị mà phê bình một công cuộc kinh tế, hoặc đứng theo phương diện luân lý mà phê bình một công trình mỹ thuật, người đó thật là một người không kịp thời rất đáng chán… Biết theo chỗ phân biệt giữa các giá trị của mọi vật để phê bình, đó là tiêu biểu của một lối tự do siêu đẳng”.
+      - Trong những bài diễn thuyết về Tôn Giáo, Khoa Học và Luân Lý, F. Buison kể lại câu chuyện thương tâm như vầy: “Theo nhiều bộ lạc người da đỏ, có một điều cấm kị này, là người đàn bà gần sinh phải đi ra khỏi làng mình mà sinh. Khi kia có một người đàn bà gần sinh, nhưng trời lạnh lắm. Người chồng liền buộc lòng phải đào ngoài xa một lỗ lớn trong tuyết và bồng người vợ đem bỏ vào lỗ ấy. Trong khi ấy người chồng khóc thảm thiết, vì biết chắc vợ mình thế nào rồi cũng phải chết”. F. Buisson lại nói: “Giá người chồng có đủ cam đảm phá cái điều cấm kị ấy, không biết sợ oai tế các bậc trưởng lão trong làng, không sợ lời dị nghị chê bai của chung quanh và sự hăm he của thầy phù thủy, chỉ biết nghe lòng nhân ái của mình thôi để chống lại với tập quán xã hội, đó là một lối luân lý tự do của cá nhân đã lẻn vào được trong bộ lạc ấy rồi”. Công việc của người chồng ấy đã làm có thể là một việc phi lý, chớ không phải là vô luân, vì luân lý của người ta nhận cho đó là “phải”, và ai làm trái lại là “quấy”.
+***** Phán đoán theo sự thật: Khách quan
+      - Ta nên để ý rằng, bất kì là một việc phát minh nào, không bao giờ do một số đông người hợp lại mà tìm ra. Lập ra hội này hội kia là để cổ lệ, chớ phát minh sáng tạo là công việc riêng của từng người, của từng cá nhân trầm tư mặc tưởng trong yên lặng và tịch mịch.
+      - Mỗi khi ta lý luận, nếu để ý cho kĩ mà quan sát, sẽ thấy toàn là tìm sự thỏa mãn, yên ủi hơn là tìm chân lý. Miễn là thỏa mãn dục vọng của bản ngã mình là đủ, vả lại tìm đủ cách để lý luận, để chứng minh sự tín ngưỡng ấy.[They don't seek the answer, they seek the agreement]
+      - Phán đoán theo giá trị và phán đoán theo sự thực là hai lối phán đoán không nên lầm lẫn với nhau trong tư tưởng hay phê bình.
+**** Tín ngưỡng và trí thức
+     - Đừng nói chi tín ngưỡng lớn lao căn bản của một dân tộc làm gì. Những ý kiến, những dư luận hằng ngày thông dụng trong dân gian, sức mạnh của nó cũng hết sức lớn lao. Một khi con người vô tâm để cho nó chi phối, thời đã mất hết tư cách tư tưởng và phán đoán vô tư rồi. Cá nhân bấy giờ chỉ là cái hồn của quần đoàn, tư tưởng theo quần đoàn, hành động theo quần đoàn, nghĩa là theo dục vọng của quần đoàn. 
+***** Bàn về những nguyên động lực của con người
+****** Sướng và khổ
+       - Vui sướng là một vấn đề tương quan luôn luôn tùy hoàn cảnh... Cái khổ ngày nay có thể là cái sướng đối với ngày mai. cái sướng ngày nay biết đâu rồi sẽ khổ đối với ngày mai. Cái sướng của người ngu, người trí lấy làm bực mình, mà cái sướng của người trí, kẻ ngu cũn lấy làm bực mình vậy. Anh say rượu trong quán có cái sướng của anh, nó không giống với cái sướng của nhà văn sĩ viết xong một bài văn hay. 
+****** Lòng ham muốn
+       - Một ham muốn nào mà lấn được cả năng trí ta rồi thời nó thay đổi cả quan niệm của ta đối với mọi sự mọi vật trong đời. Cả ý hướng, cả tín ngưỡng của ta cũng theo đó mà biến đổi cả. 
+****** Hy vọng
+       - Hy vọng là một lối sung sướng trong cảnh chờ đợi, có lẽ sung sưới hơn cái sung sướng của sự thỏa mãn. Bởi vậy các nhà cải cách họ chỉ đem hy vọng này thay vào một hy vọng kia, chớ không bao giờ dám đánh đổ hoặc làm cho hy vọng của dân chúng được thỏa mãn... không khác nào người ta cột bó lúa trước mồm con lừa là để gạt cho nó đi tới mãi. Hy vọng là nguyên động lực lớn nhất của hành vi con người
+****** Thói quen
+***** Cái ta tình cảm và cái ta lý trí
+      - Những kẻ nào tin rằng với Trí Huệ có thể thay đổi được Tình Cảm là lầm. /Tôi không đồng quan điểm với tác giả về vấn đề này, đành ràng Trí Huệ và Tình cảm là 2 điều khác biệt, cái này cao không đảm bảo cho cái kia cao tương xứng, nhưng sự ảnh hưởng lẫn nhau là điều không thể phủ nhận hoàn toàn/.
+      - Theo Dule Ribot: "Đem cái "Ta Lý Trí" để phê bình hành vi của cái "Ta Tình Cảm" là một việc không thể làm được." 
+***** Những yếu tố tạo ra tín ngưỡng
+****** Yếu tố bên trong
+       - Biết được những yếu tố tạo thành một dư luận, một tín ngưỡng là có thề biết được cái bí quyết làn cho người ta nghe theo mình, nhận những điều mình muốn truyền bá, dẫn dụ (influent). Mà cũng là một bí quyết để tránh cho mình khỏi phải bị vường vào cái bẫy của những kẻ muốn nhồi sọ mình.
+	 + Tính khí. Địa vị của tính trong cuộc gây tạo dư luận và tín ngưỡng thật là quan hệ to tát vô cùng. Nhà triết học khôn ngoan nhất, cũng không thoát được khỏi ảnh hưởng của nó. Những nhà triết học Á Đông bao giờ cũng có những quan niệm an chịu với tính khí dân tộc Á Đông, không giống với những nhà triết học Âu Tây
+	 + Lý tưởng
+****** Yếu tố bên ngoài
+       - Ám thị: ám thị là làm cho người ta phải nghe theo. Còn lý luận, thì chỉ có thể làm cho người ta tin mình, nhưng không ép ai phải nghe theo mình.
+	 + Có nhiều cách ám thị: Sách, báo, diễn thuyết, quảng cáo, ... Mà dùng lời nói là hiệu quả nhất
+	 + Nói ra, là đã ám thị rồi; nhưng quả quyết là ám thị thêm nữa. Nhắc đi nhắc lại mãi lời đã quả quyết kia là đem sự ám thị đến chỗ tột cùng thế lực của nó. Thuật quảng cáo là thuật ám thị bằng quả quyết và nhắc đi nhắc lại mãi cho người ta tin mình.
+	 + Những kẻ dễ bị ám thị nhất là những kẻ bị dục vọng chi phối. Thương, ghét làm cho tấm lòng bị thu hẹp lại, rất dễ bị ám thi, và dễ làm cho người ta thay đổi ý kiến mình lắm.
+	 + Trước khi muốn ám thị ai, cần phải gây thiện cảm với người ấy. Nếu họ ghét mình, thì không có phương thế nào mong nói cho họ nghe theo mình đặng.
+       - Mối cảm lúc ban sơ
+	 + Người ta thường chỉ căn cứ theo cái mối cảm lúc ban đầu thôi, để phê phán. Thoáng qua, họ những có cảm tưởng gì, họ bèn lấy đó làm nền tảng cho sự phán đoán sau này.
+	 + /Những mối cảm lúc ban đầu cần phải xem nó là những mối cảm không đáng tin cậy, luôn luôn cần phải kiểm tra lại./
+       - Ưa giải nghĩa
+	 + Thay vì thú nhận sự dốt nát của mình về những vấn đề mình chưa có thể giải nổi, lắm khi chính khoa học cũng rất dễ dãi với những lối giải lý miễn cưỡng như thế (tôn giáo)
+       - /Tiếng nói và hình ảnh (ý nghĩa mơ hồ, huyền bí)/
+	 + Những tiếng nói nào khó định nghĩa nhất là những tiếng dùng có hiệu quả nhiều hơn hết. Tỷ như những “dân quyền”,“lao động”, “tư bản”, “bình đằng”, “tự do”, “tiến hóa” v.v… là những tiếng có cái nghĩa rất mơ màng cần phải giải ít ra cả vài ba trăm trang giấy cũng chưa hết ý. Thế mà, cái ma lực của nó chính ở chỗ đó. Trong cái tên vắn tắt của nó, dường như nó đã có chứa sẵn sự giải quyết tất cả các vấn đề của con người.
+       - Ảo vọng (tương tự hy vọng). Với quần chúng, sống cần phải có ảo vọng. ["Ý nghĩa cuộc sống" có phải là một ảo vọng?]
+       - Quả quyết và sự lặp đi lặp lại
+	 + Câu  nói quả quyết càng được vắn tắt, khêu gợi và rắn rỏi chừng nào thì ảnh hưởng lại càng mạnh mẽ chừng nấy.
+	 + /Đối với quần chúng, những bài luận dài dòng không hiệu quả gì cả/.
+	 + Một quả quyết mà lại nhái đi nhái lại mãi, sẽ tạo thành một ý kiến ăn sâu vào đầu óc quần chúng, lâu ngày người ta sẽ tin rằng nó là một chân lý có đủ bằng cứ, không cần nghi ngờ gì nữa cả.
+	 + Hãy chú ý đến nhà chính trị, tín ngưỡng, con buôn hay dùng lối ám thị này lắm
+       - Uy danh. Người đọc sách cần phải để ý coi chừng, đừng để cho cái “uy danh” của người đề tựa thôi miên óc phán đoán của mình đi
+       - Sách, báo, quảng cáo
+
+****** Note
+       - Dùng lý luận không ảnh hưởng gì được quần chúng cả. Với quần chúng chỉ dùng đến Tình Cảm mới ảnh hưởng được họ mà thôi.
+       - Con người khi ở một mình nghĩ khác, mà khi ở trong quần đoàn thì lại nghĩ khác.
+       - Muốn cho suy nghĩ đúng đắn, cần phải suy nghĩ lấy một mình trong yên lặng.
+       - Guglirlmi Ferrero: "Chúng ta có biết chúng ta muốn cái gì không? Đó là vấn đề quan trọng nhất. Mỗi người và mỗi thời đại cần phải tự vấn mãi bằng câu hỏi này, không khác nào ngày đêm ta cần giữ mãi ngọn đèn trong bóng tối. Không thế thì trong ý muốn của ta thảy đều là mơ hồ hỗn độn cả".
+**** Lý luận của tình càm và thị dục
+     - Lối luận của Tình Cảm: Kết luận đã có sẵn, trước khi đi săn tìm bằng cứ.
+     - Đặc tính của lối luận tình cảm:
+       + Chấp mâu thuẫn
+       + Óc thiên tư. Khi yêu mê hay oán ghét một điều gì hay một người nào, đừng bao giờ tin nơi phán đoàn hay lý luận của mình cả.
+**** Thuật tư tưởng
+***** Vấn đề thuộc về hành động
+      - Phải tổ chức công việc thế nào cho chu đáo? Đó là những vấn đề thuộc về tổ chức.
+      - Phải làm cách nào? Đó là những vấn đề về phương pháp.
+      - Phải làm sao cho kẻ khác thi hành đúng mệnh lệnh? Đó là những vấn đề về qui pháp.
+***** Vấn đề thuộc về tri thức
+      - Đi tìm tài liệu. Thiếu tài liệu, nhất định không nên quyết đoán một điều gì cả.
+	+ Ta nên để ý điều này: Học biết rộng nhưng thiếu chuyên môn, đó là học để tiêu khiển, không thể ứng dụng được một cách rõ ràng. Trái lại chuyên môn là thiếu học rộng, thì sự hiểu biết hẹp hòi, phán đoán thường sai lầm mà cũng không tinh tấn được gì.
+      - Học không phải là thu giữ kiến thức, mà chính là nhờ sự quan sát suy nghĩ riêng của mình. Phải biết phê bình.
+**** Vì đâu mà sai lầm [Không thuộc về phần lý luận]
+***** Không rành vấn đề
+      - Hãy cẩn thận khi ra khỏi địa hạt chuyên môn của mình mà phê phán sự việc. Hãy cẩn thận tránh sai lầm vì những điều "không biết là mình không biết", biết bao kẻ đã bao lần phải hỗ thẹn nhận ra mình "múa rìu qua mắt thợ".
+      - Vậy bất kì gặp vấn đề nào, ta phải tự hỏi trước hết:
+	1) Ở đâu, làm cách nào và với ai, ta mới có thể có những tài liệu những điều tra cần thiết và đích xác về vấn đề ta đang muốn biết đó.
+	2) Ta phải căn cứ nơi đâu để kiểm tra những tài liệu ấy? Ta nên biết rằng, có sẵn tài liệu chưa phải đủ, cần phải biết phê bình nó, vì những tài liệu ấy phần nhiều không phải tự mình tai nghe mắt thấy, mình không nên trọn tin nơi nó.
+      - Phải biết nhất định suốt đời không bao giờ chịu bàn đến một vấn đề nào mà mình chưa rõ được ngọn nguồn.
+***** Thiếu ý chí
+      - Lắm kẻ thông minh nhưng lười biếng suy nghĩ, họ chọn theo phần đông, thành kiến, tập tục ... để khỏi phải nhọc công suy nghĩ; dần dà họ mất đi cái óc phán đoán của mình.
+      - Luyện tập trí não cũng là một công phu tốn nhiều sức lực, nhất thiết cần phải có ý chí mới vượt qua.
+***** Sai lầm của nhận thức giác quan
+***** Nguyên tắc sai và thành kiến
+      - Đại tiền đề mà sai thì dù có luận chặt chẽ đến thế nào thì cái kết luận cũng không giá trị gì. (Hãy cẩn thận những đại tiền đề vẫn còn là ức thuyết, một thành kiến hay một học thuyết tôn giáo nào).
+***** Quyền thế và uy danh
+***** Ngôn ngữ
+      - Muốn tư tưởng cho đúng đắn, trước hết cần phải biết rõ cái điều mình nói và để ý thật kỹ đến sự dùng ngôn ngữ cho được thích đáng.
+      - Những câu văn hàm hồ hay không định nghĩa, là một trong nhiều nguyên nhân gây lắm sự sai lầm cho tư tưởng.
+      - Dùng chữ, phải coi chừng đừng dùng chữ cũ với một nghĩa mới.
+	+ Ta thường tưởng lầm rằng mình tha hồ muốn dùng chữ gì thì dùng, miễn mình đừng quên định nghĩa nó lại theo cái nghĩa riêng mình muốn dùng là được.
+	+ Sự thật đâu có dễ dàng như thế. Ta quên rằng một chữ mà đã dùng quen lâu đời, nó không khác nào một cái cây, gốc rễ đã ăn sâu vào tiềm thức của con người rồi, dầu có định nghĩa nó lại cẩn thận đến đâu, cũng không làm sao thay đổi được sức khêu gợi của nó. 
+***** Đi lạc đề
+      - Thường người ta sai lầm trong khi bàn cãi là tại họ thêm vào những điều kiện mà khi trước lúc họ “đưa ra” hay “đặt” vấn đề ấy, họ chưa đề cập đến,
+**** Tư tưởng và quần đoàn
+     - Gustave Le Bon: "Chỉ vì một lẽ ở trong đám đông mà con người bị sụt lại nhiều nấc trên cái thang văn minh. Ở một mình, có thể người ấy là một người có học thức lắm, nhưng ở chung trong một đám đông, người ấy sẽ trở lại là một người bị thiên tính sai sử, nghĩa là không khác nào một người bán khai. Họ có những tính vụt chạc, cộc cằn, hung tợn luôn cả những nhiệt hứng cấp thời như dân cổ lỗ vậy… Cá nhân mà ở trong quần đoàn thì chỉ như một hột cát trong các hột cát: một trận gió thổi qua là tha hồ lôi cuốn đi hướng nào cũng được”.
+*** A concise introductionn to logic
+**** Informal Fallacies
+***** Fallacies of relevance
+      1. Appeal to force (cưỡng ép, ép buộc, đe dọa)
+      2. Appeal to pity (sử dụng sự thương hại)
+      3. Appeal to people
+	 + Phương pháp trực tiếp: Tập hợp đám đông và sử dụng những cách thức để khơi gợi cảm xúc, nỗi sợ hoặc  sự nhiệt tình của đám đông (nhạc, biểu tượng, thông điệp ngắn lặp đi lặp lại...) từ đó khiến đám đông chấp nhận kết luận mà không cần chứng cứ.
+	 + Phương pháp gián tiếp: Nhắm vào các cá nhân riêng lẽ trong đám đông: Bandwagon argument (phong trào), the appeal to vanity (sự phù phiếm, liên kết với hình ảnh đẹp, người nổi tiếng - vd quảng cáo), the appeal to snobbery (sự hợm hĩnh, dựa vào một nhóm nhỏ được cho là cao quý hơn ở một phương diện nào đó), the appeal to tradition (dựa vào tập tục, thói quen).
+      4. Argument against the person (Không tán công luận cứ mà tấn công người tranh luận, hạ thấp uy tín người tranh luận)
+      5. Accident (Áp dụng sai quy luật chung cho một trường hợp đặc biệt)
+      6. Straw man (bóp méo luận cứ của người tranh luận và tấn công vào đó)
+      7. Missing the point. (Luận cứ thì đúng nhưng kết luận không liên quan hoặc liên quan mờ nhạt đến luận cứ)
+      8. Red herring (dẫn người nghe đi lạc hướng sang một chủ đề khác một cách tinh tế, không ăn nhập gì đến vấn đề ban đầu)
+***** Fallacies of week induction
+      1. Appeal to unqualified authority
+      2. Appeal to ignorance (Một sự vật chưa được chứng minh hoặc không thể chứng minh không có nghĩa là sự vật đó không có thật)
+      3. Hasty generalization
+      4. False cause
+      5. Slippery slope (chain reaction not likely to occur)
+      6. Weak analogy
+***** Fallacies of presumption, ambiguity, and illicit transference
+      1. Presumption: begging the question, complex question, false dichotomy, suppressed evidence (không đưa đủ bằng chứng, bằng chứng chỉ về một phía),
+      2. Ambiguity: equivocation (dùng từ nhiều ngữ nghĩa), amphiboly (câu có nghĩa không rõ ràng do dấu câu, đại từ....)
+      3. Illicit transference: Composition (tổng hợp thành phần không đại diện cho tổng thể), division (phân chi tổng thể không đại diện cho thành phần)
+** Leading team
+*** Leading people and Teams - University of Michigan
+**** Course 1 - Inspiring and Motivating
+***** Becoming a visionary leader
+      - Truyền tải tầm nhìn của lãnh đạo đóng vai trò rất quan trọng trong Performance của team, ngang với structure the team. Not just What you say but how you say it.
+      - /How to effectively communicate your vision. 3 fundamental questions:/
+	+ Why your team exists
+	+ What success looks like
+	+ How we must act to ensure success
+      - /Checklist: What to say/
+	+ Refer to fundamental values
+	+ Using stories, anecdotes, metaphors, and analogies
+	+ Use rhetoroical questions and *3-part lists*
+	+ Express moral conviction
+	+ Use inclusive language (we, our...)
+	+ Repeat, repeat, repeat...
+      - IMPORTANT: up to 60% of the socio-emotional meaning of a message is conveyed via non-verbal cues!
+	+ Not being loud
+	+ vary your intonation, volume, and pitch
+	+ Smlie (genuinely)
+	+ Maintain an open body posture (increasing testosterone and decreasing cortisol)
+***** Setting effective goals and expectation
+      - Goal difficulty and Job performance
+	+ For acepted goals, performance increases linearly and significantly with goal difficulty
+	+ For rejected goals, performance decreaces linearly and significantly with goal difficulty
+      - The risk of Stretch goals
+	+ Can promote unethical behavior
+	+ Can promote dissatifaction (Because they are much more likely to focus on the difference between aspiration level and what they've accomplished)
+	+ -> SO by setting stretch goals, you can promote immediate performance results but those results may not necessarily be sustainable <-
+      - SMART Goals
+	+ Specific, Measurable, Agreed-upon, Resonable, Time-bound
+	+ Limitations: Unwise goals, Unethical behavior, Conflicts among Discrete goals, Tunel vison, Constrain learning and creativity
+      - Making goals meaningful
+	+ Allow teamates to see how their product influences the lives of other people
+	+ Allow for a significant degree of autonomy in how people accomplish these goals
+	+ Giving people an opportunity to use and learn a variety of skills; *If a partical person is stuck in the same role for longer than 3 years, that typically correlates with lower levels of engagement and motivation?*
+***** Humman needs and drivers of performance
+      - Classic models of human motives
+	+ Hierachy of needs (Maslow)
+	+ Hygien factor vs Motivators (Hertxberg)
+	+ Extrinsic vs Intrinsic (Deci + Ryan)
+      - 4 Major motivation traps
+	+ Assuming people are like us (Social Projection)
+	+ Assuming extrinsic rewards have a liner relationship with happiness
+	+ Not aligning rewards with desired outcomes
+	  1. A mix of extrinsic and instrinsic rewards can promote Quantity
+	  2. Instrinsic rewards can promote Quality while extrinsic has almost no effect.
+	+ Ignoring social comparison and fairness concerns
+	  Nếu reward cá nhân hóa (reward khác nhau dựa trên individual's value) quá mức có thể khiến other team members cảm thấy không không bằng mặc dù họ không đánh giá cao reward đó. 
+***** Aligning rewards with behaviors and deliver effective feedback
+      - Equity theory
+	+ Reward-to-effort(input) ratios are relative to peers, not absolute
+	+ Một người (nhân viên) sẽ không hài lòng khi phần thưởng/nỗ lực của mình nhỏ hơn so với đồng nghiệp [cảm thấy không công bằng - mặc dù giá trị tuyệt đối của phần thưởng có thể lớn]
+      - Apply equity principles
+	+ Đảm bảo sự tương đồng trong cảm nhận về input
+	+ Đảm bảo input có liên quan và quan trọng cho tổ chức
+	+ Để ý đến value của nhân viên để reward cho phù hợp với value của họ
+	+ Cần communicate tốt để tất cả nhân viên hiểu rõ input/reward
+	+ Strive for equity in the long-term
+      - Folly of rewarding A while hopping for B.
+	Adressing Folly A/B:
+	+ Understand what behaviors you are rewarding
+	+ Reward systems should reinfore desired behavoirs
+	+ Alter the reward system
+      - Schedule reinforcement
+	+ Fixed interval
+	+ Fixed ratio (geting paid after every 5 cars sold)-  More effective
+	+ Varible interval
+	+ Varible ratio - most effective [Like addiction in games, gambles...)
+      - Functions of a performance appraisal
+	+ Evaluation
+	  Thông thường phần đánh giá hay được thực hiện chung với phần kế hoạch tiếp theo (development plan), tuy nhiên khi đưa ra negative feed back, người bị nhận xét thường có xu hướng defend và khó lắng nghe tiếp tục. Vậy nên chia làm 2 phần khác nhau, ở các buổi khác nhau, mỗi buổi cho một mục đích. 
+	+ Development
+	+ Motivation
+      - Challenges of performance appraisal
+	+ 3 key cognitive biases:
+	  1. The fundamental attribution error
+	     Ta thường đánh giá thành công của mình là do bản thân, thất bại là do ngoại cảnh; thành công của người khác là do ngoại cảnh, thất bại là do bản thân họ. 
+	  2. The selft-fulfilling prophecy
+	     “Treat a man as he is, and he will remain so. Treat a man the way he can be and ought to be, and he will become as he can be and should be.” - Raph Waldo Emerson.
+	  3. Illusion of transparency
+	     Nên đặt câu hỏi để xác nhận 2 bên đều hiểu rõ vấn đề, hoặc yêu cầu người khác trình bày lại vấn đề để chắc chắn rằng họ hiểu đầy đủ.
+      - Providing critical performance feedback
+	1. Is the message i'm giving that person the truth?
+	2. Is the truth necessary?
+	3. Can that truth be delivered in the wau that's helpful rather than hurtful?
+	4. Don't wait
+	5. Focus on behaviors and not on personality
+	6. Focus on few key behaviors
+	7. Be specific
+	8. Don't "sandwich" or "sugarcoat"
+	9. Confirm understanding
+	10. Follow up with positive reinforcement when seeing desired changes
+      - Seeking performance feedback
+	+ How i am doing?
+	+ What can i do to improve?
+**** Course 2 -  Managing talent
+***** The talent pipeline
+      - Recruiment, selection, and onboarding
+	+ Trategy first then positions that drive your strategy
+	+ What skills and abilities do people who will fil the postions need to have?
+	+ Determine your recruiment brand
+	+ Determine recruiment plan to creat a robust pool of candidates
+	+ Creat structured behavioral interviewing plan (best), IQ test might be good
+	+ Onboard people using best practices
+      - Managing performance, evaluation and feedback
+	+ Why? *Dunning-Kruger* effect (we tend to have inflated perception of the self, the less experience and expertise we have in given area, the more confident we are about our superior skills and performance). This effect can be dangerous for organiztion because the most confident people are the least knowledgeable in that paricular area. A formal validated standalized aproach to performance can help to mitigate those biases.
+	+ Measuring results and behaviors
+	+ Performance appraisal form (should use 5 points)
+	  Using absolute or comparetive rating system (forced distribution, forced peer ranking)
+	+ 360 degree feedback.
+	  /2 ways of using it:/
+	  1. For formal evaluation system (keep in mind that if using 360s for evalutive purposes, that can effect the quality of data)
+	  2. For pure development
+	  /Changlenges with 360 degree feedback/
+	  1. Inexperienced raters
+	  2. Raters not held accountable for the quality of their ratings
+	  3. Raters can miscode (or misunderstand) the scale of the target of evaluation
+	  4. Discrepancies in evaluations
+	  5. Omitting key stakeholders
+	  6. Low participation raters
+	  /Best practices in 360 degree feedback/
+	  1. Agligment (các tiêu chí đánh giá tương quan vói mục tiêu của cá nhân và tổ chức)
+	  2. Continuity (Đánh giá liên tục, thường xuyên, kip thời; khi trì hoãn quá lâu (vd sau 1 dự án) thì người đánh giá sẽ không nhớ rõ ràng để đánh giá chính xác)
+	  3. Validation (cẩn thận lựa chọn scale đánh giá, vd lựa chọn đánh giá sự hỗ trợ đồng nghiệp bằng frequency scale có thể không phản ánh sự thật, do mức độ tiếp xúc khác nhau giữa các đồng nghiệp)
+	  4. Realiability (Group 9 subordinates, 8 peers, 4 managers produce good reliability on 5-point scales, cẩn thận khi group đánh giá không đủ như vậy): *Intraclass correlation coefficient* measure interrater reliability: should be > 0.48
+	+ Rater errors
+	  1. Availiability bias
+	  2. Leniency error and Central tendency error (có thể dùng forced curve or forced peer ranking, nhưng nguy cơ gây giảm hoạt động phối hợp, xây dựng của team)
+	  3. Attribution error 
+	  4. Sample size error
+	  5. Halo error (ta thường đánh giá một skill cụ thể dựa trên ấn tượng chung về người đánh giá, chưa hẳn chính xác)
+	+ Rater error training, Frame-of-reference traing: Dùng để traing giảm rater error
+	+ Stereotypes in performance evaluations
+	  Race, gender, physical attractiveness
+      - Developing and coaching your team
+	+ The ACS Model (Assesment, Challenge, Support)
+	  1. Assesment
+	     + Phải trả lời 2 câu hỏi quan trọng: What are you  assessing? and why?
+	     + Khi sử dụng các công cụ assessment (vd personality test) phải luôn hỏi evidence?
+	     + Focus on weekness or strength?
+	       80% nhân viên trong số 200.000 người được khảo sát, cảm thấy họ không có cơ hội sử đụng thế mạnh của mình trong công việc hằng ngày (Gallup poll)
+	       Chúng ta nên tập trung phát triển strength, cải thiện weekness ở ngưỡng chấp nhận được (không quá tập trung vào weekness)
+	  2. Challenge
+	     /Features of a developmental experience/ (keep in mind when design a developmental plan)
+	     1. is it novel?
+	     2. Is the outcome high stakes?
+	     3. Does it invole significant change?
+	     4. Do you have to work across boundaries?
+	     5. Does it expose you to diverse thinking?
+	     /Learning from experience/: The more challenge the more development if:
+	     1. Feedback liên tục và kịp thời, không đợi đến cuối project
+	     2. Growth mindset not performent mindset (payen et al., journal of applied pysochology, 2007)
+	     /Implementation/
+	     1. The value of exprimentation
+		Khi giao task, nhân viên thường hay focus on performance, điều này khiến hạn chế khả năng học tập: we should reinforce research & Development mindset, trail and error
+	     2. Expect and tolerate ambiguity
+	     3. Revisit your priories and goals, update them regularly
+	     4. Keep learning journal
+	     5. Manage your energy - do not over-commit (focus on few core goals)
+	     6. Find a balance between competing priorities
+	     7. Seek counsel from others with similar challlenges
+	     8. Engage others to hold you acountable
+	     9. Meet regularly to talk about stressors
+	  3. Support
+	     /Helping building personal Board of Directors/
+	     1. who on your board and what board are you on?
+	     2. Your network shoud consit contacts in other functions and contacts at higher levels
+	     3. 4 role (Sponsor, support, stretch, mentor)
+	     /Reflecting backwards to learn going forward/
+	     5 steps to success
+	     1. Close to the event
+	     2. Have a structured plan
+	     3. Use "what if..." scenarios for road not taken
+	     4. Develop "if-then" implications
+	     5. Establish public accountability for change
+	  4. Coaching
+	     /6 steps to effective coaching/
+	     1. Build relationship
+		Listen and inquire
+		Avoid advocating and providing advice too early in the relationship
+		Show that you care
+	     2. Assess needs
+	     3. Establosh goals/plan
+	     4. Co-Creat Stratergies
+	     5. Evaluate and Adapt
+	     /Seven Coaching questions/ (by Paula Caproni, author of Managerment skills for everyday life)
+	     1. What are the most important activities you should be spending your time on right now? Hơ do these activities creat value? (most important activities that creat most value)
+	     2. What result do you want to creat? what should you do more or less of to achieve that result?
+	     3. What does your team need from you to be successful? How are you meeting those needs today? how might you better fulfill those need tomorow?
+	     4. What do you wnant your legacy to be? How might you change your behavior to achive this legacy?
+	     5. What inhibits you from doing more of the things you should be doing? How might you minimize non-productive work?
+	     6. What are your greatest strenghs? How might you put yourself in a position to better leverage those strengths?
+	     7. How can i help?
+	     /Start-Stop-Continue Framework/
+	     1. Trục y: Thời gian (next week, next month, next 3 month, next 3 year)
+	     2. Trục x: 4 cột (what will i start doing?, what will i stop doing, what will i continue doing, who can help me?)
+	     3. Focus on 1 or 2 goals for personal change. DO NOT overwhelm!
+      - Creating and Building a robust talent pipeline
+	+ What is talent? A3E2 model
+	  1. Ability (high performance)
+	  2. Learning Agility
+	  3. Aspiration
+	  4. Employee engagement
+	  5. Emotional intelligent
+** Influent People
+** Negotitation
+** Problem solving and Decision making
+** Prevention of cognetive pitfalls (bias)
+** Jugdement
+** Time management and Productivity
+** Mindfullness
+* Core hard skill sets
+** AI specialist
+** Medical specialist
+* Complimentary skill sets
+** Computer science                                                    :pmap:
+*** Quantum computing
+**** Website
+***** [[[https://www.linkedin.com/pulse/my-path-quantum-computing-sergio-gago][Tổng hợp nguồn]]]
+***** [[Quantum.country][Very good introduction]]
+*** AI
+*** Operating system                                                   :pmap:
+*** Compiler and Interpereter
+**** Crafting interpreter                                         :book:pmap:
+***** Chap A Map of the Territory
+****** The Parts of a Languague
+******* Scanning = Lexing = Lexical analysis
+	- Break strings to tokens
+******* Parsing
+	- Take tokens and build a tree structure: Parse tree or Abstract syntax tree (ASTs)
+******* Static analysis
+	- The characteristics of language start coming into play
+	- Things up to this point is called Front end of the implementation
+******* Intermediate representations (IR)
+	- Act like an interface between front end and back end (midle end)
+	- Help easily support many platforms
+	- There may be several IRs, each later one is closer to machine code
+******* Optimization
+******* Code generation
+	- Now  we are in the back end
+	- We have a decision to make:
+	  + Do we generate instructions for a real CPU
+	  + or a virtual one (bytecode - because each instruction is usually a single byte long)?
+	- We can think byte code as a dense,binary encoding of language's low level operations. 
+******* Virtual machine
+	- If we generate bytecode, again we have two choices:
+	  + We can write a mini-compiler for each target architecture: this stage is pretty simple; we're basically using our bytecode as an IR
+	  + Or we can write a virtual machine (a program that emulates a chip). We get simplicity and portiblity
+	- The term "Virtual machine" also refers to others kind of abstraction. If we want to be unambiguous, we call this language virtual machine or process virtual machine
+******* Runtime
+	- except for the basest of low-level languagle, we usually need some services that our language provides while the program is running like garbage collector,...
+	- All of this is going at runtime, so it's called the runtime.
+	- It gets inserted directly into the resulting executable or it lives in an interpreter or VM. 
+****** Shortcuts and Alternate Routes
+******* Single-pass compilers
+	- interleave parsing, analysis, code generation without allocating any syntax trees or other IRs.
+	- No intermidate structures to store global information about the program.
+	- No revisiting any previous parsed part of the code
+	- Ex: pascal, C
+******* Tree-walk interpreters
+	- Begin executing code right after parsing it to an AST (maybe a bit of stactic analysis appiled)
+	- To run the program, the interpreter traverses the syntax tree one branch and leaf at a time, evaluating each node as it goes.
+******* Transpilers
+	- Used to call source-to-source compiler or transcompiler
+******* Just-in-time compilation
+	- Ex: JVM, CLR (Microsoft's Common Language Runtime), most JavaScript interpreters
+	- 
+***** Chap A Tree-Walk Interpreter
+****** Scanning
+******* The interpreter framework
+******** Lox.java
+	 1. main(): runFile(), runPrompt(), hadError field
+	 2. runFile(String path):
+	    - run()
+	    - If it has error, exit. 
+	 3. runPromt():
+	    - run()
+	    - if it has error, start a new prompt. 
+	 4. run(String source):
+	    - Both runFile() and runPrompt() are wrappers around this function.
+	    - Instantiating a Scanner class (creat a Scanner object): New Scanner(source)
+	 5. Error handling:
+	    - error(int line, String message): report()
+	    - report(int line, String where, String message):
+	      + act as some kind of "ErrorReporter" interface that gets passed to where has error.
+	      + And we can use different reporting strategies for each kind of error.
+	      + it’s good engineering practice to separate the code that generates the errors from the code that reports them.
+******* Lexemes and Tokens
+******** Lexeme
+	 - Is the smallest sequences that represent sth.
+******** Token
+	 - Is the lexeme and its atribute
+******** Token type
+********* TokenType.java
+	  1. enum TokenType
+******** Literal value
+	 - We can convert the lexemes that are textual representation of a literal value to its value at this stage.
+******** Location information
+	 - it's helpful to report errors
+********* Token.java
+	 - Token class has atributes: type, lexeme, literal, line
+******* Regular langgues and Expressions
+	- Lexical grammar defines how a language groups characters into lexemes
+	- See regular language vs iregular language for more information
+******* The Scanner Class
+*** Database
+**** Terms
+     1. Primary key
+     2. Surrogate key: artifical primary key tạo ra thay thế cho composite key hoặc long natural primary key
+     3. Candiadate key: một tổ hợp nhỏ nhất của thuộc tính có thể làm primary key
+     4. Functional dependency: A->B cột B phụ thuộc hoàn toàn vào cột A (chỉ có một giá trị duy nhất B cho mỗi A). A gọi là determinant
+     5. Partial functional dependency: Một nonkey atribute phụ thuộc vào  một phần của composite primary key. Vd CustomerName phụ thuộc hoàn toàn vào OrderID trong compsite key OrderID+ProductID. (A,B) primary key và A,B->C và A->C
+     6. Transive dedenpency: Một nonkey atribute phụ thuộc vào primary key thông qua một nonkey atribute khác. A(primary key) -> B(nonkey) -> C(nonkey)
+**** Normal form
+     1. 1NF: Mỗi hàng là duy nhất (không lặp), có primary key. Anomalies: Insert, update, delete anomaly
+     2. 2NF: Không còn partial functional dependency
+     3. 3NF: Không còn transive dependency. Nghĩa là các nonkey atribute chỉ phụ thuộc và phụ thuộc hoàn toàn vào primary key (Mỗi determinant có một bảng relation riêng). 
+**** 
+*** Structure and Interpretation of Computer program
+**** Building Abstractions with Procedures
+***** Elements of Programming
+****** 3 Cơ chế của một powerful language:
+       1. Primitive expressions
+       2. Means of combination
+       3. Means of abstraction (ex: associate names with values, compound procedures, )
+       4. Any powerful programming language should be able to describe primitive data and primitive procedures and should have methods for combining and abstracting procedures and data
+****** Elements:
+       Expressions, Naming and enviroment,evaluating combinations (rules, special forms), compound procedures, conditional expressions and predicates, models of how interpreters work
+***** The Substitution Model for Procedure Application
+      - Normal order evaluation: fully expand and then reduce
+      - Applicative oder evaluation: evaluate the arguments and then apply
+***** Procedures and the Processes They Generate
+****** Linear recursion and iteration
+       Be careful not to confuse the notion of a recursive process with the notion of a recursive procedure
+****** Tree recursion
+       When we consider processes that operate on _hierarchically structured data_ rather than numbers, we will find that tree recursion is a natural and powerful tool. But even in numerical operations, treerecursive processes can be useful in helping us to understand and design programs
+***** Formulating Abstractions with Higher-Order Procedures
+      - Procedures that manipulate procedures are called higher-order procedures
+****** First-class procedures
+       - In general, programming languages impose restrictions on the ways in which computational elements can be manipulated.
+       - Elements with the fewest restrictions are said to have first-class status. Some of the “rights and privileges” of first-class elements are:
+	 1. They may be named by variables.
+	 2. They may be passed as arguments to procedures.
+	 3. They may be returned as the results of procedures. (_the major implementation cost of first-class procedures is that allowing procedures to be returned as values requires reserving storage for a procedure’s free variables even while the procedure is not executing._)
+	 4. _They may be included in data structures_.
+**** Building Abstractions with Data
+***** Introduction to data abstraction
+****** What is data abstraction
+       1. Data abstraction is a methodology that enables us to isolate how a compound data onject is used from the details of how it is contructed from more primitive data objects.
+       2. The basic idea is to structure the programs so that they operate on "abstrac data". Chương trình này make no asumptions về compound data. Điều thứ 2 là, a "concrete" data representation is defined independent of the programs that use the data. Interface giữa Programs và abstract data sẽ là Selectors và constructors prodcedures, that implenment the abstract data in terms of the concrete representation.
+       3. VD: chúng ta sẽ áp dụng abstraction data để triển khai một phần mềm A tính toán phân số. Giả sử gọi phần abstract (compound) data là X, X sẽ chứa tử số và mẫu số. Seletor procedures sẽ trích tử số và mẫu sô từ X, contructor procedures sẽ lưu tử số và mẫu số vào x. Cấu trúc dùng để glue phần tử số và mẫu số là concrete data, X là abstract data. Như vậy phần mềm A chỉ cần quan tâm đến tử số và mẫu số qua việc sử dụng interface là selectors và constructors, còn X triển khai như thế nào tức là cách selector và consctructor sử dụng cấu trúc nào để tạo concrete data là không quan trọng đối với phần mềm A. 
+****** Abstraction barriers
+       1. Procedures at each level (package "for public use") are the interface that define the abstraction barriers and connect the different levels.
+****** What is meant by data?
+       1. In general, we can think of data as defined by some collection of selectors and constructors, together with specified conditions that these procedures must fullfil in order to be a valid representaion.
+       2. Ta có thể sử dụng procedure như là data miễn là nó thỏa mãn định nghĩa trên. Xem vd trang 124. It demonstrates that the ability to manipulate procedures as objects automatically provides the ability to represent compound data.
+***** Hierarchial data and the Closure property
+****** Closure property
+       1. In general, an Operation for combining data objects has the closure property if the results of combining things with that operation can themselves be combined using the same operation.
+       2. Closure is the key to power in any means of combination because it permit us to create hiearachial structure.
+       3. The word "closure" here come from abstract algebra, where a set of elements is said to be closed under an operation if applying the operation to elements in the set produces an element that is again an element of the sert. The Lisp community also (unfortunately) uses the word “closure” to describe a totally unrelated concept: A closure is an implementation technique for representing procedures with free variables (tôi thấy dùng từ closure cho nghĩa thứ 2 này thật rối nghĩa, procedure này có "đóng kín" đâu, nó hở ở free variables (phải có cơ chế để biết procedure nào dùng free varibles nào để maitaince), thế mà lại gọi là clousure!!!)
+****** Sequence as conventional interfaces
+       1. Sử dụng sequence như là một interface giữa các phần program khác nhau - signal flow structure (các program này xử lý sequence tương tự như signal-processing: Bộ phát enumerator - lọc filter - chuyển đổi map or tranducers - tổng hợp accumulate)
+       2. The key to organizing programs to reflect the signal-flow struture is to concentate on the "signals" that flow from one stage in the process to the next. If we represent these signals as lists, then we can use list operations to implement the processing at each of the stages.
+       3. We can encourage modular design by providing a library of standard components (VD enumerator-filter-map-accumualate) together with a conventional interface (VD sequence) for connecting the components in flexible ways.
+       4. When we uniformly represent structures as sequences, we have localized the data-structure dependencies in our programs to a small number of sequence operations. By changing these, we can experiment with alternative representations of sequences, while leaving the overall design of our programs intact
+***** Symbolic data
+      1. Quotation
+	 The quotation mark is just a single-character abbreviation for wrapping the next complete expression with quote to form (quote <expression>)  <=> '<expresssion>
+***** Multiple representation for abstract data
+      1. The needs for multiple representation of "data" (người viết)
+	 - Bên cạnh abstraction barriers that isolate representation from use, Ta cần thêm abstraction barriers giữa các representations so that they can coexist in a single program.
+	 - Hơn nữa, ta cần conventions để có thể kết hợp các modules thiết kế độc lập in to larger systens /additively/, mà không phải thiết kế lại các modules này
+      2. Tagged data and Data-directed programing and additivity
+***** Systems with Generic Operations
+      1. 
+**** Terms
+     1. List-structured data: data objects constructed form pairs
+     2. Closure property: Xem trang 133 - 134
+     3. dotted-tail notation: In a procedure definition, a parameter list that has a dot before the last parameter name indicates that, when the procedure is called, the initial parameters (if any) will have as values the initial arguments, as usual, but the final parameter’s value will be a list of any remaining arguments. (xem trang 141)
+     4. Mapping over list:  Scheme standardly provides a map procedure that takes a procedure of n arguments, together with lists, and applies the procedure to all the first elements of the lists, all the second elements of the lists, and so on, returning a list of the results. (Xem trang 143)
+     5. Mapping over trees: Xem trang 152
+     6. Stratified design: The language used at each lelvel of a stratified design has primitives, means of combination, and means of abstraction appropriate to that level of detail.
+     7. Generic Procedures: Procedures that can operate on data that may be represented in more than one way.
+     8. Data-directed programming: is the technique of designing programs to work directly with a table that contains the procedures associated with the datas. The key idea of data-directed programming is to handle generic operations in programs by dealing explicitly with operation-and-type tables.
+     9. The principle of least commitment
+     10. Dispatching on type: The general strategy of checking the type of datum and calling an appropriate procedure.
+     11. Message passing: The name comes from the image that a data object is an entity that receives the requested operation name as a “message" and then invokes the procedures. instead of using “intelligent operations” that dispatch on data types, we work with “intelligent data objects” that dispatch on operation names.
+**** Bài học
+***** Các kiểu thiết kế module
+      1. Thiết kế module đi kèm interface  (analog to blackbox), các module chỉ cần đảm bảo kết quả nhất quán ở interface (analog to specification), kiểu thiết kế như thế nào không quan trọng (implementation) -> interface cần phải đảm bảo tuân theo và phải được thiết kết tốt ngay từ đầu. 
+      2. Khi muốn dùng nhiều modules khác nhau có cùng interface (multiple representation) ta cần một convention (vd table, generic procedures, type tags) mà các bên cần tuân theo khi thiết kế.
+
+** Programing (Excel + VBA, C, C#, Java, Python)
+** Math                                                                :pmap:
+*** Regularly updating resources <2022-02-09 Wed +4w>
+**** [[https://terrytao.wordpress.com/][Terence Tao's Blog]]
+*** Static resources
+*** Books
+** MBA                                                                 :pmap:
+*** TODO Hoàn thành 2 books Influence, sau đó đén negotiation, sau đó, lướt nhanh qua kinh tế vi mô và cuối cùng trở về Projectmanagement
+*** Project management
+**** Heilmeier's Catechism
+     - Một số câu hỏi cần cân nhắc trước khi bắt đầu dự án/ phát triển sản phẩm/ nghiên cứu
+       1. Bạn dự định làm điều gì? hãy trình bày một cách rõ ràng mà không dùng các thuật ngữ khó hiểu
+       2. Cách thực hành hiện tại như thế nào? Nó có điểm nào giới hạn không?
+       3. Điểm mới trong cách tiếp cận của bạn? Tại sao bạn nghĩ nó sẽ thành công?
+       4. Ai sẽ quan tâm đến dự án này?
+       5. Nếu bạn thành công, nó có tạo ra điều gì khác biệt không?
+       6. Những rủi ro có thể gặp phải là gì? lợi ích là gì khi chấp nhận rủi ro(the payoff)? (Không dùng negative word để tránh risk aversion)
+       7. Dự án cần bao nhiêu kinh phí?
+       8. Dự án cần bao nhiêu thời gian?
+       9. Đâu là điểm trung hạn và thời điểm cuối cùng để đánh giá tiến độ và thành công của dự án?
+*** Negotiation
+*** Influence people
+**** Sách của Aristotle
+     - Logos
+     - Pathos
+     - Ethos
+**** Sách của Cadini
+**** Sách của 2 anh em Heath & Health
+*** Microeconomics
+*** Product management
+**** Escaping the build trap
+***** The value exchange system
+      1. Business value: Tiền, dữ liệu, knowledge capital, or promotion... Những giá trị tạo ra cho khách hàng phải tương ứng với giá trị tạo ra cho công ty.
+      2. Value from customer perspective: 
+***** Bài học rút ra
+      1. Phải luôn bắt đầu bằng câu hỏi why chứ không phải what.
+      2. Phải luôn chú ý đến value tạo ra cho khách hàng. Research, kiểm thử, validate, đo lường.
+      3. Product manager phải tiếp xúc trực tiếp đến khách hàng, khi xa rời khách hàng thì không thể nắm được pain points để giải quyết. [theo tác giả, Scaled Agile Framework (SAFe) rất khó hoạt động tốt, do product managers - chịu trách nhiệm external facing với khách hàng, they define the requirements and scope of the products to be built, sau đó comunicate xuống cho các product owner - chịu trách nhiệm internal facing, they define the components of the solution and working with developers to ship it. The product managers are essentially Waterfalling down the requirements, and the teams are not allowed to prove whether these are the right things to build. *No one is doing validation work.*
+      4. Khi bạn quá tập trung cho việc làm cái gì chứ không phải tại sao bạn làm điều đó (nghiên cứu, kiểm thử, đo lường), hầu hết thời gian của bạn là viết user's stories (hoặc những thứ tương tự), khả năng cao là bạn đã mắc vào Build Trap.
+      5. With a good strategy framework in place and ruthless prioritization around a few key goals, one person can effectively talk to customers, understand their problems, and help to define the solutions with the team. The amount of external versus internal work will shift, depending on the maturity and success of your product. But, you should never be doing all this work at once.
+      6. It’s important to have a team size's flexibility.  Nên bắt đầu với team nhỏ để validate idea, sau khi đã tìm ra hướng đi hãy scale lên team lớn hơn.
+      7. Nên để team có một mức độ Autonomous nhất định. Chế độ kiểm soát chỉ nên khi nhân công có chất lượng kém, đối với một team có kiến thức và kỹ năng cao - Autonomus sẽ giúp họ phát huy được hết khả năng.
+      8. A good company strategy should be made up of two parts: the operational framework, or how to keep the day-to-day activities of a company moving; and the strategic framework, or how the company realizes the vision through product and service development in the market.
+      9. When teams are not sufficiently constrained, they become stuck, but not too constrained.
+      10. Strategy deployment: Thiết lập goals và Objectives và thời gian tương ứng, phù hợp với từng level trong công ty. ex:  executives might be looking at a five-year strategy, middle management is thinking in smaller strategies—yearly or quarterly—bounding the teams in a direction that allows them to make decisions on a monthly or weekly basis
+      11. Có nhiều kiểu strategy deployment, VD như OKRs dùng ở Google, Hoshin Kanri dùng ỏ Toyota. Chọn đúng kiểu (framework) triển khai rất quan trọng, nhưng hiểu thế nào là một good strategy framework còn quan trọng hơn nữa. Trong hầu hết các công ty, 4 mức  triển khai sau là phù hợp:  |Vission -> strategic intent| [compay level]  -> |product initiative -> options|.
+      12. Strategy creation: This is something that takes time and focus to craft and maintain. You need to be identifying problems and determining how to organize around solving them at every level of strategy.
+      13. A good mission explains why the company exists. A vision, on the other hand, explains where the company is going based on that purpose. the best thing a company can do is to combine both the mission and the vision into one statement to provide the value proposition of the company—what the company does, why it does it, and how it wins doing that
+      14. Getting the right level and number of strategic intents is incredibly important. One intent is usually good for a small company, and three are plenty for a large organization. Yes, three. I know that sounds like very few goals for an organization of thousands of people, but that is key. This is also where the level and time frame matter. Strategic intents should be at a high level and business focused. They are about entering new markets, creating new revenue streams, or doubling down in certain areas.
+      15. product initiative: VD “As a Netflix subscriber, I want to be able to watch Netflix anywhere, with anyone, comfortably.” This is the company’s /product initiative/. It then explored many possible solutions—developing the Roku, partnering with Xbox and creating an app for it, and ultimately enabling all the internet-connected devices it could. All of these solutions, which I call /options/, were aligned to this product initiative.
+      16. team goal, and it’s how we measure the success of the option. Although it can take six months or longer to reach the product initiative goal, the team goal should be something we can measure after every release, which gives us feedback that our option is working the way we want it to.
+      17. One of the biggest mistakes I’ve seen in product management is teams rushing in to apply a tool or practice at the wrong stage. Many times, they are experimenting unnecessarily when the problem is not yet known or when there is already a good idea about the solution.
+      18. “Don’t spend your time overdesigning and creating unique, innovative solutions for things that are not core to your value proposition. If someone has already solved that problem with a best practice, learn from that, implement their solutions, gather data to determine if it’s successful in your situation, and then iterate. Reserve your time and energy for the things that will make or break your value proposition.”
+      19. kill the bad ideas! The fewer features, the better. That is how you reduce the complexity of products. Otherwise, you can quickly run into feature fatigue from customers. Remember, it’s about quality, not quantity.
+      20. Product Metrics: Vanity metrics (from lean start up),is about goals that look shiny and impressive because they always get bigger. People are excited to share how many users are on their product, how many daily page views they have, or how many logins their system has. Điều này có thể thu hút nhà đầu tư nhưng không giúp ích cho team make decison về sản phẩm. Thay vào đó hãy dùng actionable metric by adding time component to it. Xem thêm pirate metrics và HEART metrics.
+      21. Validate problem: khi thấy một vấn đề, chớ vội nhanh tìm giải pháp cho nó, phải có gắng lượng giá nó. Nó có đã là vấn đề chính chưa hay có một vấn đền lớn hơn ẩn chứa đâu đó đằng sau nó.
+      22. *Product Kata*:(1) [Understan the direction "Vision & Strategic intent| Product initiative"] ~ (2) [Analyze the current state "Current state of intents| Current state of Initiative/Product"] ~ (3)[Set the next goal "Product initiative| Option goal"] -> (4) [Choose step of product process "Problem exploration| Solution exploration| Solution Optimization"]. 
+      23. It’s not that you don’t have time to innovate; it’s that you are not making time to innovate.
+      24. It’s easy to fall into the trap of solving problems before you find their root causes. We’re all prone to problem solve, even if we don’t know what the problem is. Our brains love thinking in terms of solutions.
+      25. Người dùng không phải lúc nào cũng có cách giải quyết vấn đề tốt nhất cho vấn đề của họ, tuy nhiên họ tend to đưa ra ngay solution cho developer. Nhiệm vụ của ta là cố gắng hiểu được problem của khách hàng là gì, chứ không phải giải quyết vấn đề theo cách của họ.
+      26. Generative Vs. Evaluation Research. Nghiên cứu các vấn đề thực sực cần giải quyết cho người dùng vs đánh giá usability testing. Nên đọc thêm.
+      27. concierge experiment: deliver the end result to your client manually, but they do not look like the final solution at all. Your customers will understand that you’re doing it manually and that it’s not automated. Because you get to work with your customers closely, there is a ton of feedback flowing through and there are tight learning loops.
+      28. Wizard of Oz: The idea behind the Wizard of Oz is that, unlike the concierge experiment, it looks and feels like a real, finished product. Customers don’t know that, on the backend, it’s all manual. Someone is pulling the strings—just like the Wizard of Oz. Wizard of Oz can also be combined with techniques such as A/B testing. In A/B testing, you split a portion of your traffic to a new solution idea to see whether it moves a metric compared to the current state of the site.
+      29. Concept testing is another solution experiment that focuses more on high-touch interaction with the customer
+      30. story mapping: phương pháp sắp xếp backlog trực quan để ưu tiên những công việc cần làm.
+      31. Prioritizing Work: There are many frameworks out there that will help you prioritize, like benefits mapping, Kano models,
+and others, but my favorite is Cost of Delay.
+***** Questions
+      1. Làm sao biết features nào là có giá trị với người dùng?
+	 + Lean startup might have the answer
+      2. Làm sao biết cách làm hiện tại của mình đã không còn hợp thời để thay đổi? Ngay cả khi tình hình có vẻ vẫn ổn (vd lợi nhuận vẫn tăng, nhưng có một công ty đối thủ đang có cách làm mới mặc dù rất nhỏ - chưa đáng xem là một đối thủ cạnh tranh - như trường hợp của Netflix và Uber hay Grab)
+      3. Làm sao tìm được "paint points to solve" của user?
+      4. How the build trap emerges and what signs you need to look out for
+** Clear writing
+*** Luyện văn                                                          :rmap:
+**** Ý và lời
+     - Một tác phẩm hay thì ý phải xứng với lời, lời phải xứng với ý.
+**** Tính sáng sủa
+     - Tránh các lỗi sau
+      1. Câu dài quá
+      2. Dùng nhiều điển tích khó hiểu
+      3. Dùng nhiều danh từ chuyên môn; nếu phải dùng thì nên giảng ra
+      4. Câu thiếu nghĩa
+	 VD: "Ngài thủ tướng tuyên bố quan trọng khi ở Bắc Việt về"
+	 Tuyên bố cái gì?
+	 Cái gì quan trọng? Lời tuyên bố quan trọng? Hay tình hình ở Bắc Việt nghiêm trọng?
+      5. Lối đặt câu có thể làm cho độc giả hiểu lầm
+	 VD: "Máu me đầy người, nó ghì chặt kẻ thù của nó"
+	 Ai máu me đầy người? Nó hay kẻ thù của nó?
+      6. Những tiếng "như", "hơn", "hay" cũng dễ gây ra sự hiểu lầm
+	 VD: "Tôi biết anh Bửu rõ hơn anh Quang"
+      7. Những câu tối nghĩa, vô nghĩa
+	 VD: "Sự quyết định cua các bà các cô thường là những sự không quyết định"
+**** Tính tinh xác
+     1. Dùng tiếng cho đúng.
+     2. Nguyên nhân dùng tiếng không tinh xác:
+	- Dụng ngữ không phong phú. Muốn cho dụng ngữ được phong phú, ta phải đọc nhiều, nghe nhiều, từng trải nhiều, du lịch nhiều và thường dùng tự điển.
+	- Ta không rõ nghĩa những tiếng ta dùng và viết sai chính tả
+	- Những tiếng nghĩa tương tự. VD: Câu "Mưa gì mưa mãi!" có vẻ bực tức hơn câu "Mưa gì mưa hoài!" vì tiếng "mãi" là tiếng trắc, mạnh hơn tiếng "hoài" là tiếng bằng.
+**** Tính gọn
+     - Tật rườm là tật chung của người cầm bút
+     - Hãy chọn một ý chính, và nhất quyết nương theo ý chính đó, mạnh dạn bỏ đi những ý không liên quan mật thiết với ý chính đó dù ý đó có hay ho cỡ nào (Câu này của người viết, học từ cụ Nguyễn Duy Cần)
+     - Những tiếng mà, thì, đặng, rồi, nữa, cho..., nếu không giúp ích làm cho câu rõ nghĩa hơn hoặc dễ đọc hơn thì ta có thể bỏ những tiếng đó đi cho câu văn được gọn. 
+**** Hoa mĩ nhưng tự nhiên
+     - Văn đẹp là nhờ hình ảnh
+     - Nhưng ta phải để ý lựa những hình ảnh đẹp và tự nhiên. Muốn vậy, phải tránh những lỗi này:
+       1. Không được quá đáng mà hóa ra lố bịch
+       2. Không được vô lí
+       3. Phải hợp với ý của cả đoạn. VD: Bạn có thể viết: "Nhà văn đó sinh trưởng ở nơi nghìn năm vật" (tức Hà Nội) nhưng nếu bạn viết: "Chiếc tày Phi Long của tôi chuyên chở xi măng từ bến Sáu kho tới nơi nghìn năm vật" thì hình ảnh "nghìn năm vật" đặt không đúng chỗ.
+       4. Đừng thô tục
+       5. Đừng sáo
+       6. Hình ảnh không nên quá nhiều
+**** Tính thành thật
+     - Văn làm cho người ta cảm động hay không là nhờ đức thành thật. Vậy bạn đừng cố ý viết sai sự thật, mà cũng đừng sơ ý, bạn phải tra cứu cẩn thận, nhận xét kỹ càng. 
+**** Tính đặc sắc
+**** Đức biến hóa
+     - Tránh những lỗi điệp ý và điệp lời
+     - Xen những câu văn dài vào những câu ngắn
+     - Lời, ý, giọng, hơi văn và thể văn đều phải thay đổi
+**** Nhạc trong văn
+     Muốn cho câu văn được êm đềm, bạn nên:
+     - Tránh lỗi điệp âm
+     - Đừng dùng nhiều dấu ngoặc quá
+     - Khéo ngắt câu
+     - Tránh viết những câu thọt, những câu nhát gừng, cũng đừng viết những câu dài quá mà không có lấy một dấu phết, làm người đọc phải hết hơi, hổn hển. 
+**** Phép chấm câu
+     - Chúng ta có thể lựa dấu tùy nghĩa và giọng
+**** Dịch ngoại văn
+     - Nên giữ tính cách Việt Nam cho câu văn dịch
+**** Chúng tôi luyện viết tiếng Việt
+***** Liên tục và cân xứng
+      - Liên tục về ý, cách sử dụng từ loại. VD: Hãy xem câu sau: "Điều quan trọng nhất của các kỹ sư vệ sinh là cho nước cống chảy đi cách nào ít hại vệ sinh nhất, giảm tới mứ tối thiểu sự nhơ bẩn nước sông ngòi và nhiều đảm bảo sức khỏe cho dân chúng". Câu này mất sự liên tục vì dùng không nhất trí từ loại: "cho", "giảm" là động từ, "nhiều đảm bảo" là danh từ. Câu này còn một lỗi nữa là: không ai nói "Điều quan trọng cũa các kĩ sư" để diễn ý "Điểm quan trong nhất theo các kĩ sư".
+      - Dư sự liên tục cũng hóa hỏng. VD: "Tính cách khoa học của nền văn minh hiện đại đã được đánh dấu bằng sự phát triển mạnh mẽ của cơ giới chủ nghĩa, sự thành lập thêm nhiều phòng thí nghiệm, sự nâng cao trình độ và sự phức tạp của các chương trình giáo khoa". Câu trên có 3 sự kiện: "sự phát triển...", "sự thành lập...", "sự nâng cao ... và sự phức tạp...", nhưng ta có cảm tưởng "sự phức tạp của các chương trình giáo khoa" là một sự kiện riêng.
+      - VD: Câu "Lớp đầy trẻ em" không cân xứng bằng "Lớp học đầy trẻ em", "Trong lớp đầy trẻ em", "Lớp đầy trẻ".
+* Interesting learning resources                                       :pmap:
+** Blogs
+   1. https://khmt.wordpress.com/
+   2. http://www.paulgraham.com/articles.html [Tập hợp các bài essay của Paul Graham]
+* Mục tiêu
+** Dài hạn (life time goals)
+*** Objectives - Key results
+    - Don't be a mediocre person
+      + Phải hiểu biết chuyên sâu:
+	1. Công nghệ (Math, AI, physics...)
+	2. Y tế
+	3. Phylosophy
+    - Thoải mái nghiên cứu và làm dự án cá nhân (cần có thu nhập thụ động đủ để tự do tài chính - thời giá bây giờ thì cũng phải 50tr/tháng mới sống thoải mái được)
+** Ngắn hạn (đến cuối tháng 10 năm 2022)
+*** Objectives - Key results
+    - Start a trial small business
+    - Hệ thống lại kiến thức về tư duy
+    - Tạo được thói quen luyện viết và ghi nhớ
+    
+*** Liên hệ với mục tiêu dài hạn
+* Less Wrong
+* Physics
+** Quantum Mechanics
+*** How to teach your dog quantum physics
+**** Particle-Wave Duality
+     1. THE BIRTH OF THE QUANTUM: LIGHT AS A PARTICLE
+	- 1900: Max Planck. E = hf
+	- 1905: Einstein. Photoelectric effect
+	- 1916: Robert Millikan. Thí nghiệm về photoelectric effect
+	- 1923: Compton. Thí nghiệm chiếu tia X lên bề mặt vật rắn, làm tăng bước sóng của tia X (do truyền momentum cho electron)
+	- Einstein, Millikan, and Compton đạt giải Nobel vì tìm ra tính chất hạt của ánh sáng
+     2. INTERFERING ELECTRONS: PARTICLES AS WAVES
+	- 1923: Broglie. argued that there ought to be symmetry between light and matter, and so a material particle such as an electron ought to have a wavelength.
+	- 1927: Clinton Davisson and Lester Germer. Thí nghiệm chiếu chùm tia electron lên bề mặt nikel và phát hiện giao thoa. Cùng khoảng, thời gian Thomson làm thí nghiệm tương tự, chiếu chùm electron lên bề mặt kim loại và phát hiện giao thoa
+	- 
+* Things to learn
+** Collaborative product development
+*** Làm sao để một nhóm làm việc phối hợp với nhau tốt và vẫn duy trì tính độc lập
+**** Làm thế nào để công việc nhanh và linh hoạt:
+     - Phải trao quyền cho cấp dưới: quy định rõ ngưỡng phải báo cáo và chịu trách nhiệm cho quyết định dưới ngưỡng. 
+* Philosophy
+** Thế giới của Sophie
+*** Tôi là ai
+*** Thế giới từ đâu ra
+*** Các nhà triết học tự nhiên - triết gia tiền Socrates (trả lời cho những câu hỏi về tự nhiên)
+    1. 570 trước CN: Xenophanes. "con người đã tạo nên các thần theo hình ảnh của chính mình".
+    2. Ba nhà triết học thành Miletus. phải có một chất nào đó là nguồn gốc của mọi sự biến đổi trong thiên nhiên.
+       + Thales. Nước là nguồn gốc của tất cả mọi thứ. "Mọi vật đều ngập tràn thánh thần".
+       + Anaximander. Cùng thới với Thales.Ông ta cho rằng thế giới của chúng ta chỉ là một trong vô số các thế giới sinh ra rồi tan đi trong một cái mà ông gọi là “vô biên”. Thật khó có thể hiểu rõ ý của ông về “vô biên”, nhưng có lẽ ông ta không nói đến một chất đã được biết đến theo cách mà Thales hình dung.
+       + 570 - 526 trước CN. Anaximenes. nguồn gốc của mọi thứ phải là “khí” hoặc “hơi”.
+    3. 500 trước CN. Làm thế nào mà một chất bỗng dưng biến thành một cái gì đó khác?
+       + 540 - 480 t.CN. Parmenides. Mọi thứ đang tồn tại đã luôn luôn tồn tại. Và chẳng có cái gì đang tồn tại có thể biến thành hư vô. Nhưng Parmenides còn đi xa hơn nữa. Ông cho rằng không hề có sự thay đổi thực sự. Không có gì có thể trở thành cái gì khác chính nó. Ông nhận thức bằng các giác quan rằng sự vật thay đổi. Nhưng ông không thể đồng nhất nó với những gì lý tính của ông mách bảo. Khi phải lựa chọn giữa việc dựa vào giác quan hay dựa vào lý tính, ông đã chọn lý tính. *Niềm tin không thể lay chuyển vào lý tính của con người được gọi là chủ nghĩa duy lý. Một người theo chủ nghĩa duy lý là người cho rằng lý tính của con người là cội nguồn của mọi tri thức về thế giới.*
+       + 540-480 t.Cn. Heraclitus. “Mọi thứ đều trôi”. Ông cho rằng thực sự biến đổi liên tục mới là đặc tính cơ bản của tự nhiên. Ở giữa trạng thái vận động không ngừng và những sự đối lập của thiên nhiên, Heraclitus nhìn thấy một Thực Thể là nguồn gốc của mọi vật, mà ông gọi là Thượng Đế hay logos. Các tri giác giác quan là đáng tin cậy.
+       + 490-430 t.CN. Empedocles. Parmenides nói rằng: - Không có gì có thể biến đổi, và do đó - Các tri giác giác quan của ta không đáng tin cậy. Trái lại, Heraclitus cho rằng: - Mọi vật đều vận động không ngừng - Các tri giác giác quan là đáng tin cậy. Empedocles thấy rằng nguồn gốc của bất đồng căn bản là ở chỗ cả hai đều giả thiết sự tồn tại của một chất duy nhất.Empedocles tin rằng thiên nhiên bao gồm bốn nguyên tố mà ông gọi là cái “gốc”. Bốn gốc này là đất, không khí, lửa và nước.
+	 - Cái gì đã kết hợp các nguyên tố này để làm xuất hiện sự sống mới? Và cái gì đã làm cho “hỗn hợp”, chẳng hạn của một bông hoa, phân rã trở lại?
+	 - Empedocles tin rằng trong thiên nhiên có sự tác động của hai lực khác nhau mà ông gọi là tình yêu và xung khắc. Tình yêu kết hợp chúng với nhau và xung khắc chia rẽ chúng. Ông phân biệt giữa “chất” và “lực”. Điều nay rất đáng chú ý. Ngay cả hiện nay, các nhà khoa học cũng phân biệt giữa các nguyên tố và các lực thiên nhiên.
+       + 500-428 t.Cn. Anaxagoras. ông không thể đồng ý rằng một chất cơ bản nào đó, chẳng hạn nước, có thể biến đổi thành mọi vật mà ta thấy trong thế giới tự nhiên. Ông cũng không công nhận rằng đất, không khí, nước, và lửa có thể biến thành xương và máu. *Anaxagoras cho rằng thiên nhiên được xây dựng từ vô số các hạt nhỏ xíu mắt thường không nhìn thấy. Hơn nữa, mọi thứ đều có thể chia thành các phần nhỏ hơn, nhưng ngay cả trong những phần nhỏ nhất cũng có những mảnh của  tất cả các vật khác. Ông cho rằng, nếu da và xương không phải do vật khác biến đổi thành, thì phải có da và xương trong sữa ta uống và trong thực phẩm ta ăn.*
+	 - ông đã tuyên bố Mặt Trời không phải một vị thần mà chỉ là một hòn đá nóng đỏ lớn hơn toàn bộ bán đảo Peloponnese
+	 - Anaxagoras rất quan tâm đến thiên văn học. Ông tin rằng mọi thiên thể đều có cấu tạo giống Trái Đất. Ông đi đến kết luận này sau khi nghiên cứu một mảnh thiên thạch. Điều này cho ông ý tưởng rằng có thể có con người sống trên các hành tinh khác. Ông cũng chỉ ra rằng Mặt Trăng không tự phát sáng, ông khẳng định rằng ánh sáng của nó bắt nguồn từ Trái Đất.
+    4. 460-370 t.Cn. Democritus. Democritus đồng ý với các vị tiền nhân rằng các biến đổi trong thiên nhiên không phải là do có cái gì đó thực sự “thay đổi”. Do vậy, ông giả thiết rằng mọi thứ đều được cấu tạo từ các khối nhỏ vô hình, mỗi khối đều vĩnh cửu và bất biến. Democritus gọi những đơn vị nhỏ nhất này là các nguyên tử. Democritus không tin có một “lực” hay “linh hồn” nào có thể can thiệp vào các quá trình của thiên nhiên. Ông cho rằng cái duy nhất tồn tại là các nguyên tử và sự trống rỗng. Do ông chỉ tin vào những gì thuộc về vật chất, ta gọi ông là một nhà duy vật.
+       + Democritus cho rằng thuyết nguyên tử còn giải thích các tri giác giác quan của ta. Khi ta cảm nhận điều gì đó, đó là do vận động của các nguyên tử trong không gian. Khi ta nhìn thấy Mặt Trăng là khi các “nguyên tử Mặt Trăng” thâm nhập mắt ta.
+       + Nhưng còn “linh hồn” thì sao? Có chắc là nó cấu thành từ các nguyên tử, từ những thứ vật chất? Chắc chứ! Democritus tin rằng linh hồn bao gồm các “nguyên tử linh hồn” tròn và nhẵn. Khi một người chết, các nguyên tử linh hồn bay đi mọi hướng và sau đó có thể trở thành một phần của một linh hồn mới.
+    5. 
+*** Triết học thành Athens (3 nhà triết học cổ điển vĩ đại)
+    1. 470 - 399 t.CN. Socrates. là nhân vật kỳ bí nhất trong toàn bộ lịch sử triết học. Ông không bao giờ viết dù chỉ một dòng. Nhưng ông lại là một trong những nhà triết học có ảnh hưởng lớn nhất đối với tư tưởng của Châu Âu, một phần không nhỏ là do cái chết bi thảm của ông. ông chỉ đưa ra các câu hỏi, nhất là để bắt đầu cuộc đối thoại, như thể ông là người không biết gì. Trong quá trình đối thoại, ông sẽ để người kia nhận ra những điểm yếu trong luận cứ của họ, và khi bị dồn vào chân tường, cuối cùng họ sẽ phải nhận ra cái gì đúng, cái gì sai.
+       + Chính Socrates đã nói “Điều duy nhất mà tôi biết, đó là tôi chẳng biết gì cả”.
+       + Socrates cho rằng khả năng phân biệt đúng sai nằm trong lý tính của con người chứ không phải trong xã hội. Ông tin vào sự tồn tại của những quy tắc vĩnh cửu và tuyệt đối về đúng và sai.
+    2. 428-347 t.CN. *Plato*.
+       + Plato đi đến kết luận rằng phải có một thực tại đằng sau “thế giới vật chất“. Ông gọi thực tại này là thế giới ý niệm, nó bao gồm các “khuôn mẫu“ vĩnh cửu và bất biến nằm sau các hiện tượng đa dạng mà ta gặp trong thiên nhiên. Quan điểm đáng chú ý này được gọi là /thế giới ý niệm/ (/the world of ideas/) của Plato.
+       + /Tri thức đích thực/: ta chỉ có thể có tri giác không chính xác về những vật ta cảm nhận bằng các giác quan. Nhưng ta có thể có tri thức đích thực bằng những gì ta hiểu  bằng lý tính.
+       + /Một linh hồn bất tử/: Plato tin rằng thực tại được chia thành 2 vùng, thế giới tri giác và thế giới ý niệm. Plato cho rằng linh hồn đã hiện hữu trước khi nó trú ngụ trong thể xác. linh hồn cảm thấy một nỗi “mong mỏi được trở về với khởi nguồn chân chính của nó” - Plato gọi sự khao khát này là eros.
+       + Ra khỏi bóng tối của cái hang. Truyện về cái Hang của Plato.
+       + /Nhà nước lý tưởng/: (/ideal state/; /the philosophic state).  Plato cho rằng nhà nước nên được lãnh đạo bởi các nhà triết học. Theo Plato, cơ thể con người gồm có ba phần: đầu, ngực, và bụng. Ứng với mỗi phần là một năng lực tương ứng của linh hồn. Lý tính ở trong đầu, ý chí thuộc về  ngực, còn lòng ham muốn nằm ở bụng. Mỗi năng lực đó đều có một lý tưởng hay “đức tính”. Lý tính hướng tới sự uyên bác. Ý chí vươn tới lòng dũng cảm, còn lòng ham muốn phải được kiềm chế để có thể đạt được sự điều độ. Chỉ khi cả ba phần cùng hoạt động như một thể thống nhất, ta mới có một cá nhân hài hòa, hay nói cách khác là “có đạo đức”. Một cơ thể có đầu, ngực, bụng. Còn nhà nước có chính quyền, quân đội và người lao động. Ngày nay, người ta gọi nhà nước kiểu Plato là nhà nước chuyên chế.Nhưng  có một điều rất đáng chú ý  đó là Plato cho rằng phụ nữ cũng có thể lãnh đạo hiệu quả không kém đàn ông, vì lý do đơn giản: các nhà cầm quyền lãnh đạo bằng lý tính. Ông khẳng định rằng phụ nữ có năng lực lý luận như nam giới nếu họ được đào tạo như nam giới và không phải nuôi dạy con hay làm công việc nội trợ. Sau nhiều cản trở về chính trị, Plato viết cuốn Luật pháp, trong đó, ông mô tả “nhà nước pháp quyền” là nhà nước tốt thứ nhì. 
+    3. 384-322 t.CN. *Aristotle*. Aristotle không phải là người gốc Athens. Ông sinh ra ở Macedonia và đến Hàn lâm viện của Plato khi Plato 61 tuổi. Không chỉ là nhà triết học Hy Lạp vĩ đại cuối cùng, ông còn là nhà sinh vật học vĩ đại đầu tiên của châu Âu.
+       + Aristotle chỉ ra rằng không có gì tồn tại trong ý thức mà trước đó chưa được trải nghiệm bằng giác quan. Plato hẳn đã nói rằng không có gì tồn tại trong thế giới tự nhiên mà trước đó lại chưa có trong thế giới ý niệm. Aristotle cho rằng như thế là Plato đã “nhân đôi sự vật”. Ông đã dùng con ngựa “ý niệm” để giải thích về một con người. Nhưng thế nghĩa là thế nào, Sophie? Câu hỏi của tôi là: con ngựa “ý niệm” ở đâu ra. Biết đâu, thậm chí có thể có một con ngựa thứ ba mà con ngựa “ý niệm” chỉ là một mô phỏng của nó?
+       + Aristotle không phủ nhận rằng con người có lý tính bẩm sinh. Ngược lại, theo Aristotle, lý tính chính là đặc điểm nổi bật nhất của con người. Nhưng lý tính của ta hoàn toàn trống rỗng cho đến khi ta cảm nhận được cái gì đó bằng giác quan. Vậy, con người không có “ý niệm” bẩm sinh.
+       + Aristotle cho rằng mỗi thay đổi trong thiên nhiên là một sự biến đổi của “chất” từ “tiềm năng” thành “sự thực”.
+       + /Nguyên nhân sau cùng/: Aristotle tin rằng có một mục đích đằng sau mọi thứ trong tự nhiên. Trời mưa để cây mọc; cam và nho mọc để người ăn trái.
+       + Logic học
+       + Hệ thống cấp bậc của thiên nhiên. Aristotle chia “sinh vật” thành hai phạm trù khác nhau: thực vật và động vật. Cuối cùng, động vật lại được chia thành phạm trù con: cầm thú và con người. Khi Aristotle phân chia các hiện tượng thiên nhiên thành các phạm trù khác nhau, tiêu chí của ông là các đặc điểm của đối tượng, cụ thể hơn, nó làm gì hoặc có thể làm gì. Thỉnh thoảng, Aristotle lại nhắc nhở chúng ta rằng phải có một vị Chúa Trời, người đã khởi đầu mọi chuyển động trong thế giới tự nhiên. Do vậy, Chúa Trời phải ở trên đỉnh của cấp bậc thiên nhiên.
+       + Luân lý học - ethics. Aristotle tin rằng có ba hình thức của hạnh phúc. Hình thức thứ nhất của hạnh phúc là khoái lạc và hưởng thụ. Hình thức thứ hai là cuộc sống của một công dân tự do có tinh thần trách nhiệm. Hình thức thứ ba là cuộc sống của một nhà tư tưởng và triết gia. Từ đó, Aristotle nhấn mạnh rằng cả ba tiêu chí đều phải cùng có mặt thì con người mới tìm được hạnh phúc và sự đầy đủ. Ông bác bỏ mọi hình thức thiếu cân bằng.
+       + Quan điểm về phụ nữ. Aristotle có xu hướng tin rằng phụ nữ không hoàn thiện theo một nghĩa nào đó. Một phụ nữ là một “người đàn ông không hoàn chỉnh”.
+*** 400 t.CN. Các triết gia Yếm thế (The Cynics).
+    Các triết gia Yếm thế nhấn mạnh rằng hạnh phúc chân chính không có trong các thuận lợi bên ngoài chẳng hạn sự giàu sang, quyền lực chính trị và sức khỏe tốt. Hạnh phúc chân chính là ở sự không phụ thuộc vào những thứ ngẫu nhiên và phù du đó, nó nằm trong tầm tay của mọi người.Triết gia Yếm thế nổi tiếng nhất là Diogenes, một học trò của Antisthenes. Người ta kể rằng ông chỉ sống với một cái thùng và chẳng có gì ngoài một cái áo choàng, một cây gậy và một túi bánh mì. (Do vậy chẳng dễ gì mà ăn trộm được hạnh phúc của ông!) Một hôm, ông được Alexander Đại Đế đến thăm khi ông đang ngồi sưởi nắng bên cạnh cái thùng. Vị hoàng đế đứng trước mặt ông và hỏi xem ông có mong muốn điều gì không. “Có,” Diogenes trả lời. “Tôi muốn ngài đứng tránh sang bên. Ngài đang chắn mặt trời.” Các triết gia Yếm thế tin rằng con người không cần quan tâm đến sức khỏe của bản thân. Thậm chí họ không cần lo âu về đau khổ bệnh tật và cái chết. Họ cũng không để bản thân phải dằn vặt bởi sự quan tâm đến nỗi thống khổ của người khác. /Ngày nay, từ “yếm thế” hay “chủ nghĩa yếm thế” đã mang ý nghĩa về sự hoài nghi nhạo báng về sự chân thật của con người, và hàm ý sự vô cảm trước nỗi đau khổ của người khác./
+***  300 t.CN. Các triết gia Khắc kỷ (The Stoics).
+    Người sáng lập ra trường phái này là Zeno, người đảo Síp, ông đã đến với các triết gia Yếm thế ở Athens sau một vụ đắm tàu. Cũng như Heraclitus, các triết gia Khắc kỷ tin rằng mọi người đều là một phần của cùng một tri thức con người - hay “logos”. Họ cho rằng mỗi người là một thế giới thu nhỏ hay “tiểu vũ trụ” - một phản ánh của “đại vũ trụ”. Từ đó dẫn tới tư tưởng rằng tồn tại một lẽ phải phổ quát - cái gọi là quy luật tự nhiên. Và vì quy luật tự nhiên này dựa trên lý tính phổ quát phi thời gian của con người, nó không thay đổi theo thời gian và không gian. Cũng như vậy, các triết gia Khắc kỷ đã xóa bỏ sự khác biệt giữa cá nhân và vũ trụ, họ còn phủ nhận mọi mâu thuẫn giữa “tinh thần” và “vật chất”. Chỉ có một thiên nhiên, họ quả quyết. Kiểu tư tưởng này được gọi là thuyết nhất nguyên (ngược lại với thuyết nhị nguyên rõ ràng hay thực tại kép của Plato). Ngoài ra, các triết gia Khắc kỷ còn nhấn mạnh rằng tất cả các quá trình tự nhiên như bệnh tật và cái chết đều là những quy luật bất diệt của tự nhiên. Do vậy, con người phải học cách chấp nhận số phận của mình. Không có cái gì xảy ra một cách tình cờ. Mọi sự xảy ra đều là tất yếu, do vậy, chẳng ích gì mà phàn nàn khi số mệnh gõ cửa. Họ cho rằng, con người còn phải tiếp nhận những sự kiện hạnh phúc trong cuộc sống một cách điềm tĩnh.
+*** 300 t.CN. Các triết gia theo thuyết hưởng lạc. (The Epicureans).
+    Socrates còn có một học trò tên là Aristippus. Ông tin rằng mục đích của cuộc sống là để đạt được sự hưởng thụ về giác quan cao nhất có thể được. Ông nói “cái thiện cao nhất là niềm khoái lạc, cái ác lớn nhất là nỗi đau đớn”. Epicurus (341 - 270) thành lập một trường phái triết học ở Athens. Các môn đệ của ông được gọi là các Epicurian - hay những người theo thuyết hưởng lạc. Ông đã phát triển luân lý học về khoái lạc của Aristippus và kết hợp những thuyết nguyên tử của Democritus. Tuy nhiên, Epicurus nhấn mạnh rằng “khoái lạc” không nhất thiết có nghĩa là sự thỏa mãn về giác quan, Các giá trị như tình hữu nghị và sự thưởng thức nghệ thuật cũng được tính đến. Hơn nữa, sự vui sống đòi hỏi các lý tưởng Hy Lạp cổ về sự tự chủ, điều độ, và trầm tĩnh. Sự thèm muốn phải được kiềm chế, sự trầm tĩnh sẽ giúp ta chịu đựng đau khổ. /“Cái chết không can dự đến ta”, Epicurus nói một cách khá giản dị, “vì khi ta còn tồn tại, cái chết chưa có mặt. Và khi cái chết đến, ta không còn tồn tại.”/
+*** Chủ nghĩa Plato mới
+    205 - 270. Plotinus, Nhân vật quan trọng nhất của chủ nghĩa Plato mới
+*** 2 nền văn hóa
+**** Người Ấn - Âu
+**** Người Semite
+     1. Kinh thánh đạo Hồi - kinh Koran, và Cựu Ước đều được viết bằng họ ngôn ngữ Semite.
+     2. Ki Tô giáo cũng có nguồn gốc Semite, nhưng Tân Ước lại được viết bằng tiếng Hy Lạp, và khi thần học hay tín điều Ki Tô giáo được định hình một cách có hệ thống, nó lại bị ảnh hưởng bởi Hy Lạp và La Mã, và do đó bị ảnh hưởng bởi triết học Hy-La.
+*** Thời Trung Cổ
+    1. Kéo dài # 1000 năm: 400 - 1400.
+    2. năm 529. Đó là năm mà nhà thờ đóng cửa Hàn lâm viện của Plato ở Athens. Do vậy, năm 529 đã trở thành biểu tượng của việc Giáo hội Ki Tô giáo đậy nắp đóng kín triết học Hy Lạp. Từ đó, các tu viện nắm độc quyền về giáo dục, tư tưởng, và suy nghĩ.
+*** Thời Phục Hưng
+    1. Phong trào Phục Hưng cũng là sự phát triển văn hóa rực rỡ bắt đầu từ cuối thế kỷ XIV. Nó bắt nguồn từ Bắc Ý và nhanh chóng lan rộng lên phía bắc trong các thế kỷ XV và XVI
+*** Thời Baroque (thế kỷ XVII)
+    1. Từ ‘baroque’ bắt nguồn từ một từ được dùng để chỉ cho một viên ngọc trai có hình thù không đều. Sự bất qui tắc chính là đặc điểm của nghệ thuật Baroque. Thời này, nghệ thuật phong phú, đa dạng, nhiều thể đối lập hơn so với nghệ thuật hài hòa dễ hiểu của thời Phục Hưng.
+    2. nhà triết học người Anh Thomas Hobbes. Ông tin rằng mọi vật, trong đó có con người và động vật, đều cấu tạo chỉ từ các hạt vật chất. Kể cả ý thức - hay linh hồn - của con người cũng hình thành từ vận động của các hạt nhỏ xíu trong bộ nào.
+    3. 1596. René Descartes.
+       + Mối quan tâm chủ yếu của ông là những gì ta có thể biết, nói cách khác là tri thức đáng tin cậy. Một câu hỏi lớn khác cũng ám ảnh ông đó là về mối quan hệ giữa thể xác và tâm thức.
+       + Descartes giữ quan điểm rằng ta không thể chấp nhận bất cứ điều gì là đúng trừ khi chúng ta có thể tri giác nó một cách rõ ràng và xác thực. Để làm được việc này, cần phải chia một vấn đề phức hợp ra thành càng nhiều nhân tố đơn càng tốt. Sau đó, ta có thể xuất phát từ ý niệm đơn giản nhất. Descartes tin rằng triết học nên đi từ cái đơn giản đến cái phức tạp. Chỉ khi đó mới có thể xây dựng được một sự thấu hiểu mới. Cuối cùng cần phải đảm bảo rằng không cái gì bị bỏ xót bằng cách liên tục liệt kê và kiểm soát. Khi đó một kết luận triết học sẽ nằm trong tầm tay.
+       + “Khi suy xét kỹ càng, tôi không tìm thấy một đặc điểm nào phân biệt rõ ràng giữa trạng thái thức và trạng thái ngủ mơ, Descartes viết. Và ông tiếp tục: ‘Làm sao bạn có thể dám chắc là cả cuộc đời mình không phải là một giấc mơ ?’”
+       + Ông đã nghi ngờ mọi thứ, và đó chính là điều duy nhất mà ông biết chắc. Và giờ ông chợt nhận ra một điều: Có một điều chắc chắn phải đúng và đó chính là: Ông đã nghi ngờ. Khi ông nghi ngờ, ông hẳn đang suy nghĩ, vậy chắc chắn ông là một bản thể tư duy. Hẳn như ông đã tự phát biểu về mình: “Cognito, ergo sum”. -> /Tôi tư duy, vậy tôi tồn tại/.
+       + Bây giờ Descartes tự hỏi liệu có cái gì khác mà ông có thể tri giác được với cùng độ xác tín trực giác đó hay không. Ông đi đến kết luận rằng trong tâm thức mình có một ý niệm rõ ràng và xác thực về một thực thể hoàn hảo. Đó là một ý niệm mà ông luôn luôn có và do đó, Descartes thấy rằng một ý niệm như thế hiển nhiên không thể xuất phát từ bản thân ông. Ông khẳng định rằng ý niệm về một thực thể hoàn hảo không thể xuất phát từ một người mà chính anh ta lại không hoàn hảo. Do vậy, ý niệm về sự hoàn hảo phải xuất phát từ chính thực thể hoàn hảo đó, hay nói cách khác là từ Chúa Trời. Như vậy, đối với Descartes việc Chúa Trời tồn tại cũng hiển nhiên như việc một bản thể tư duy chắc chắn phải tồn tại.
+       + Descartes đã tin rằng thực tại gồm có hai chất hoàn toàn phân biệt được: Tư duy và phần mở rộng
+       + ...
+    4. 1632 - 1677. Baruch Spinoza.
+       + Một trong những trụ cột của triết học Spinoza chính là nhìn sự vật từ góc độ của vĩnh cửu
+       + Ông đồng nhất thiên nhiên với Chúa Trời. Ông nói Chúa Trời là tất cả và tất cả là Chúa
+       + Cuốn sách quan trọng nhất của ông là cuốn Luân lý học - Diễn giải bằng hình học
+    5. những nhà kinh nghiệm chủ nghĩa: hay các nhà triết học kinh nghiệm - quan trọng nhất là Locke, Berkeley, và Hume, cả ba đều là người Anh
+       + Các nhà triết học duy lý đứng đầu của thế kỷ XVII là Descartes, người Pháp; Spinoza, người Hà Lan; và Leibniz, người Đức. Vậy nên người ta thường phân biệt giữa chủ nghĩa kinh nghiệm Anh và chủ nghĩa duy lý Châu Âu.
+       + Một nhà kinh nghiệm chủ nghĩa sẽ rút ra mọi tri thức về thế giới từ những gì các giác quan cho ta biết. Phát biểu kinh điển về cách tiếp cận theo lối kinh nghiệm là của Aristotle. Ông nói: Không có gì trong tâm thức ngoại trừ những thứ bắt nguồn từ những gì ta nhận được từ các giác quan. Quan điểm này ngụ ý một sự phê phán trực tiếp đối với Plato, người đã cho rằng con người mang theo một tập hợp các “ý niệm” bẩm sinh từ thế giới ý niệm
+       + 1632 - 1704. John Locke. Tác phẩm chính của ông là Luận về sự Hiểu biết của Con người, xuất bản năm 1690. Trong đó ông đã cố gắng làm sáng tỏ hai câu hỏi. Thứ nhất, chúng ta lấy các ý niệm của mình từ đâu, và thứ hai, chúng ta có thể tin vào những gì các giác quan mách bảo hay không.
+       + 1711- 1776. *David Hume*. [Ông này là một người rất đặc biệt, tôi cực kỳ tò mò muốn xem được tư tưởng của ông]. Tác phẩm chính của ông, Khảo luận về Bản chất Con người [17], được xuất bản khi Hume mới 28 tuổi, nhưng ông nói rằng mình đã có ý tưởng về cuốn sách từ hồi 15 tuổi. Hume bắt đầu với việc chỉ ra rằng con người có hai loại tri giác khác nhau, đó là các ấn tượng và các ý niệm. “Ấn tượng" là cảm giác tức thời về thực tại bên ngoài. “Ý niệm là hồi ức về các ấn tượng đó. Hume còn phản bác lại tư tưởng duy lý trong lĩnh vực luân lý. Các nhà duy lý đã luôn khẳng định rằng khả năng phân biệt đúng sai là sẵn có trong lý tính con người. Ta đã gặp tư tưởng về cái gọi là lẽ phải tự nhiên từ nhiều triết gia từ Socrates đến Locke. Nhưng theo Hume, không phải lý tính quyết định những gì ta nói và làm. Hume đã nói rằng, "lý tính không mâu thuẫn với việc thà để cho cả thế giới bị hủy diệt còn hơn mình bị xước ngón tay.” - “Tis not contrary to reason to prefer the destruction of the whole world to the scratching of my finger". Hume đã khẳng định rằng thói quen đã làm ta thấy mối quan hệ nhân quả sau các quá trình tự nhiên. Theo Hume, ta không thể nhận thức được rằng viên bi-a đen là nguyên nhân gây ra chuyển động của viên bi-a trắng. Do đó, ta không thể chứng minh rằng viên đen sẽ luôn luôn làm viên trắng chuyển động.
+       + 1685 - 1753. George Berkeley. là một giám mục người Ireland.
+*** Thời kỳ Khai Sáng tại Pháp (the enlightenment, thế kỷ 17 - 18)
+1. Phản đối chính quyền
+2. Chủ nghĩa duy lý
+3. Phong trào Khai Sáng
+4. Chủ nghĩa lạc quan văn hoá
+5. Sự quay về với thiên nhiên
+6. Tôn giáo tự nhiên
+7. Quyền con người 	
+*** 1724 -1804. Immanuel Kant. (Đức)
+    1. Gia đình ông rất sùng đạo. Đức tin tôn giáo của ông đã tạo nên nền móng quan trọng cho triết học của ông. Cũng như Berkeley, ông thấy cần phải bảo tồn cơ sở cho đức tin Ki Tô giáo.
+    2. Ta có thể biết được gì về thế giới: Có hai khả năng chính được rút ra: hoặc thế giới đúng hệt như ta tri giác được, hoặc đó chỉ là cách nó hiện ra trong lý tính của ta.
+    3. Kant gọi ‘thời gian’ và ‘không gian’ là hai ‘hình thức trực quan’ của ta. Và ông nhấn mạnh rằng, trong tâm thức của ta, hai hình thức này đi trước mọi trải nghiệm. Nói cách khác, trước khi trải nghiệm cái gì, ta có thể biết rằng ta sẽ nhận thức nó như là một hiện tượng trong không gian và thời gian. Bởi vì ta không thể tháo ‘cặp kính’ lý tính”. Kant cho rằng thời gian và không gian thuộc về điều kiện của con người. Thời gian và không gian là hai dạng thức tri giác đầu tiên và quan trọng nhất, chúng không phải các thuộc tính của thế giới vật chất.
+    4. Bởi vì tâm thức con người không chỉ là “sáp ong thụ động” khi tiếp nhận các cảm giác từ bên ngoài. Tâm thức để lại dấu ấn trong cách ta tri giác về thế giới. Em có thể so sánh điều đó với khi em rót nước vào bình thuỷ tinh. Nước tự thích nghi với hình dạng của cái bình. Cũng như vậy, các tri giác của ta tự thích nghi với các ‘hình thức trực quan’ của ta”. Kant khẳng định rằng không chỉ có tâm thức thích ứng với sự vật, mà sự vật cũng thích ứng với tâm thức. Ông gọi đây là cuộc cách mạng Copernic trong vấn đề  tri thức con người.
+    5. Luật nhân quả là vĩnh cửu và tuyệt đối đơn giản là vì lý tính con người tri giác về mọi sự xảy ra theo kiểu nguyên nhân và kết quả. Triết học của Kant khẳng định rằng nó là cố hữu bên trong chúng ta. Ông đồng ý với Hume rằng ta không thể biết chắc thế giới ‘tự nó’ như thế nào. Ta chỉ có thể biết rằng thế giới như thế nào ‘đối với tôi’ - hay mọi người. Đóng góp vĩ đại nhất của Kant cho triết học chính là đường ranh mà ông đã vạch ra giữa vật tự thân - das Ding an sich -  và sự vật như nó hiện ra đối với chúng ta.
+    6. Hume đã chứng tỏ rằng ta không thể tri giác cũng chẳng thể chứng minh được các quy luật tự nhiên. Điều này làm Kant cảm thấy lo ngại. Nhưng ông tin rằng ông có thể chứng minh được tính hiệu lực tuyệt đối của các quy luật bằng cách chỉ ra rằng thực ra ta đang nói về các quy luật của tri giác con người.
+    7. tổng kết lại. Theo Kant, có hai yếu tố đóng góp cho tri thức con người về thế giới. Một là các yếu tố ngoại vi mà ta không thể biết được trước khi ta tri giác được về chúng qua các giác quan. Ta có thể gọi đây là vật liệu của tri thức. Yếu tố kia là các điều kiện nội tại trong chính con người - chẳng hạn sự nhận thức các sự kiện trong không gian và thời gian và trong mối tương quan với một luật nhân quả bền vững. Ta có thể gọi yếu tố này là hình thức của tri thức.
+    8. Kant tin rằng có những giới hạn rõ ràng đối với những gì ta có thể biết. khi ta tự hỏi thế giới từ đâu ra và bàn luận các lời giải thích có thể, thì theo một nghĩa nào đó lý tính chuyển sang trạng thái 'trì hoãn'. Bởi vì nó không có vật liệu giác quan để xử lý, không có kinh nghiệm để sử dụng, vì ta chưa bao giờ trải nghiệm toàn bộ thực tại vĩ đại mà ta chỉ là một phần nhỏ xíu trong đó. Đặt những câu hỏi đó sẽ mãi mãi là một thuộc tính của lý tính con người. Đó là lý do tại sao ta cứ hỏi và hỏi, gắng hết sức để tìm câu trả lời cho những câu hỏi sâu sắc nhất. Nhưng ta chẳng bao giờ có được cái gì vững chắc để bám vào; ta không bao giờ có một câu trả lời vừa ý bởi vì lý tính không có điểm tựa. Đối với những câu hỏi nặng ký chẳng hạn như câu hỏi về bản chất của thực tại, Kant chứng minh rằng sẽ luôn có hai quan điểm đối lập mà khả năng đúng hay sai đều như nhau, tùy vào những gì lý tính của ta mách bảo.
+    9. Chính ông đã gọi niềm tin vào linh hồn bất tử, sự tồn tại của Chúa và ý chí tự do của con người là những tiên đề thực tiễn. ‘Tiên đề’ là điều được thừa nhận mà không thể chứng minh. Theo Kant, ‘tiên đề thực tiễn’ là điều phải được thừa nhận vì mục đích thực tiễn; có nghĩa là: vì đạo đức của con người. Ông nói: ‘Thừa nhận sự tồn tại của Chúa Trời là một sự cần thiết về mặt đạo đức.’
+    10. Theo Hume, cả lý tính lẫn kinh nghiệm của ta đều không quyết định sự khác biệt giữa đúng và sai. Chính cảm tính của ta làm điều đó. Đối với Kant, đây là một nền tảng quá yếu ớt. Kant đã luôn cảm thấy rằng sự phân biệt đúng sai là một vấn đề thuộc về lý tính chứ không phải cảm tính. Ở đây, ông đồng ý với các nhà duy lý, những người đã nói rằng khả năng phân biệt đúng sai là cố hữu trong lý tính con người. Ai cũng biết cái gì đúng cái gì sai không phải bởi vì ta đã được học, mà là nó được sinh ra trong tâm thức. Theo Kant, ai cũng có ‘lý tính thực tiễn’, đó là trí tuệ cho ta khả năng phân biệt đúng sai trong mọi trường hợp. Khả năng phân biệt đúng sai cũng có tính bẩm sinh như mọi thuộc tính khác của lý tính. Cũng giống như chúng ta đều là những bản thể thông minh nhận thức mọi sự trong mối quan hệ nhân quả, tất cả chúng ta đều tiếp cận được cùng một qui tắc đạo đức phổ quát. Qui tắc đạo đức này cũng có tính đúng đắn tuyệt đối như các định luật vật lý. Theo Kant, qui tắc đạo đức cũng tuyệt đối và cũng phổ quát như luật nhân quả. Nó cũng không thể được chứng minh bằng lý tính. Nhưng dù sao, nó vẫn là tuyệt đối và bất biến. theo Kant, chính thiện chí chứ không phải kết quả hành động là cái quyết định xem hành động đó có đúng đắn về mặt đạo đức hay không. Do đó, luân lý học của Kant còn được gọi là luân lý học thiện chí.”
+    11. Một trong những câu nói thường được trích dẫn của ông đã được khắc trên bia mộ ông tại Konigsberg: “Hai điều tràn ngập tâm tư tôi với sự ngưỡng mộ và kính sợ luôn luôn mới mẻ và gia tăng mỗi khi nghĩ tới: bầu trời đầy sao trên đầu tôi và qui tắc đạo đức ở trong tôi.”
+    12. Kant đã ủng hộ việc thành lập một “hiệp hội các quốc gia”. Trong bài luận Hòa bình bất diệt, ông đã viết rằng các tất cả các nước nên đoàn kết trong một hiệp hội các quốc gia, nó sẽ đảm bảo sự cùng tồn tại trong hòa bình giữa các quốc gia. Bài luận này được công bố năm 1725. Khoảng 125 năm sau, sau Thế chiến lần thứ nhất, Hiệp hội các Quốc gia đã được thành lập. Sau Thế chiến lần thứ hai, nó được thay thế bằng Liên hợp quốc. Do đó con có thể nói rằng Kant là cha đẻ của ý tưởng Liên hợp quốc.
+*** Chủ nghĩa Lãng mạn. Cuối thế kỷ XVIII - giữa thế kỷ XIX
+*** 1770 - 1831. Hegel.
+    1. Thực ra, người ta không rõ có thể nói Hegel có 'triết học' của riêng ông hay không. Cái thường được biết với tên triết học Hegel chủ yếu chỉ là một phương pháp để hiểu sự tiến triển của lịch sử. Triết học Hegel không dạy ta điều gì về bản chất bên trong của cuộc sống, nhưng nó dạy ta cách suy nghĩ một cách hữu ích.
+    2. Tất cả các hệ thống triết học trước Hegel có một điểm chung, đó là sự nỗ lực đặt ra các tiêu chí vĩnh cửu đối với những gì con người có thể biết về thế giới. Điều đó đúng với Descartes, Spinoza, Hume và Kant. Mỗi người đều cố gắng nghiên cứu nền tảng cả nhận thức của con người. Họ đều đưa ra những tuyên bố về yếu tố phí thời gian của tri thức con người về thế giới. Hegel không tin điều đó là có thể. Ông tin rằng nền tảng của nhận thức của con người thay đổi từ thế hệ này qua thế hệ khác. Do đó, không có 'chân lý vĩnh cửu', không có lý tính thời gian. Điểm cố định duy nhất mà triết học có thể bám vào chính là lịch sử. [không thể nói cái gì đúng hay sai khi tách nó ra khỏi tiến trình của lịch sử]
+    3. Phép biện chứng. Ông còn gọi ba trạng thái của tri thức này là chính đề, phản đề và hợp đề. Ví dụ, em có thể nói rằng chủ nghĩa duy lý của Descartes là một chính đề, nó bị phủ nhận bởi phản đề là chủ nghĩa kinh nghiệm của Hume. Nhưng mâu thuẫn, hay sự căng thẳng giữa hai cách tư duy, đã được giải toả bởi hợp đề của Kant. Kant đồng ý với những người duy lý ở một số điểm và đồng ý với các nhà kinh nghiệm chủ nghĩa tại những điểm khác. Nhưng câu chuyện không kết thúc tại Kant. Hợp đề của Kant giờ lại trở thành xuất phát điểm cho một chuỗi phê phán, hay một 'bộ ba' khác. Bởi vì một hợp đề cũng sẽ bị phủ nhận bởi một phản đề mới."
+    4. 'lý tính' của Hegel là logic động. Vì đặc điểm của thực tại là những sự đối lập nên miêu tả thực tại cũng phải đầy tương phản
+*** 1813. Soren Kierkegaard
+*** Marx.
+    1. Ông không phải là một nhà duy vật triết học như các triết gia theo thuyết nguyên tử cổ đại, ông cũng không ủng hộ chủ nghĩa duy vật cơ giới của các thế kỷ XVII và XVIII. Nhưng ông cho rằng chính các yếu tố vật chất trong xã hội xác định cách tư duy của ta. Những yếu tố vật chất với bản chất đó chắc chắn đã có vai trò quyết định đối với sự phát triển của lịch sử.
+    2. Hegel đã chỉ ra rằng sự phát triển của lịch sử được định hướng bởi sự căng thẳng giữa các mặt đối lập - cái mà sau đó được giải toả bằng một thay đổi bất ngờ. Marx đã phát triển tư tưởng này xa hơn nữa. Nhưng theo Marx, Hegel đã lộn đầu xuống đất mà chổng chân lên trời
+    3. Hegel gọi lực đẩy lịch sử lên phía trước là tinh thần thế giới hay lý tính thế giới. Marx cho rằng, điều này bị lộn ngược. Ông muốn chứng minh rằng chính các thay đổi về vật chất gây ảnh hưởng lên lịch sử. 'Các quan hệ tinh thần' không tạo ra các thay đổi về vật chất, điều ngược lại mới đúng. Các thay đổi vật chất tạo ra các quan hệ tinh thần mới. Marx đặc biệt nhấn mạnh rằng chính các lực lượng kinh tế trong xã hội đã tạo ra thay đổi và nhờ đó đẩy lịch sử lên phía trước
+    4. Marx gọi các mối quan hệ vật chất, kinh tế, xã hội này là cơ sở hạ tầng của xã hội. Cách tư duy của xã hội, các thể chế chính trị, hệ thống luật pháp và không kém phần quan trọng là tôn giáo, đạo đức, nghệ thuật và khoa học, Marx gọi là kiến trúc thượng tầng của xã hội.
+    5. hiệu ứng tương tác của các nền tảng của xã hội đối với kiến trúc thượng tầng của nó. Nếu Marx phủ nhận tương tác này thì ông đã là một nhà duy vật cơ giới. Nhưng vì Marx đã nhận ra rằng có một mối quan hệ tương tác và biện chứng giữa các cơ sở hạ tầng và kiến trúc thượng tầng, ta nói rằng ông là một nhà duy vật biện chứng.
+    6. “Như vậy, ta có thể kết luận rằng chính phương thức sản xuất trong một xã hội quyết định các điều kiện về chính trị và tư tưởng trong xã hội đó. Không phải ngẫu nhiên mà ngày nay cách tư duy và các quy tắc đạo đức của chúng ta có phần nào khác với thời phong kiến cổ xưa.” “Như vậy Marx không tin vào một lẽ phải của tự nhiên vĩnh cửu?” “Không. Theo Marx, vấn đề cái gì đúng đắn về mặt đạo đức là một sản phẩm của cơ sở hạ tầng của xã hội. Ví dụ, không phải ngẫu nhiên mà trong xã hội nông dân ngày trước, cha mẹ là người chọn vợ chồng cho con cái mình. Đó là vấn đề ai sẽ thừa kế trang trại. Trong một thành phố hiện đại, các quan hệ xã hội không giống như vậy. Ngày nay, người ta có thể gặp người chồng hoặc vợ tương lai của mình tại một buổi tiệc hay một sàn nhảy, và nếu yêu nhau đủ nhiều, người ta sẽ tìm một nơi nào đó để sống chung.”
+    7. Marx nhấn mạnh rằng gần như giai cấp thống trị xã hội chính là những người đặt ra các quy tắc về đúng và sai. Bởi vì 'lịch sử của mọi xã hội từ trước đến nay là lịch sử của các cuộc đấu tranh giai cấp.' Nói cách khác, lịch sử chủ yếu là vấn đề ai là người sở hữu các tư liệu sản xuất.
+    8. Marx hiểu rằng các điều kiện trong kiến trúc thượng tầng của xã hội có thể có một ảnh hưởng qua lại đối với hạ tầng cơ sở của xã hội, nhưng ông phủ nhận rằng kiến trúc thượng tầng có chút lịch sử độc lập nào của riêng nó. Cái đã đưa lịch sử phát triển từ xã hội nô lệ thời Cổ Đại tới xã hội công nghiệp ngày nay về căn bản được quyết định bởi các thay đổi trong hạ tầng cơ sở của xã hội.
+    9. Marx tin rằng trong mọi thời kỳ của lịch sử đều đã có một sự mâu thuẫn giữa hai giai cấp có ảnh hưởng lớn trong xã hội. Xã hội nô lệ thời Cổ đại có sự mâu thuẫn giữa công dân tự do và nô lệ. Xã hội phong kiến thời Trung Cổ có mâu thuẫn giữa chủ đất và nông nô; và sau đó là giữa quý tộc và một dân chúng. Còn tại thời của Marx, trong cái mà ông gọi là một xã hội tư sản hoặc xã hội tư bản chủ nghĩa, mâu thuẫn lớn nhất là giữa các nhà tư bản và công nhân hay giữa những người vô sản. Như vậy, mâu thuẫn nằm giữa những người sở hữu tư liệu sản xuất và những người không sở hữu. Và do 'giai cấp trên' không tự nguyện từ bỏ quyền lực của họ nên thay đổi chỉ có thể xảy ra bằng cách mạng.
+    10. Cùng với Engels, năm 1848, ông đã xuất bản Tuyên ngôn Cộng sản. Câu đầu tiên trong bản tuyên ngôn này viết rằng: Một bóng ma đang ám ảnh châu Âu - bóng ma của chủ nghĩa Cộng sản.
+    11. Nếu một người công nhân sản xuất một sản phẩm, sản phẩm này có một giá trị trao đổi nhất định. Nếu giờ ta lấy giá trị trao đổi trừ đi tiền công cho công nhân và các chi phí sản xuất khác, ta luôn có một số tiền nào đó còn dư lại. Marx gọi số tiền này là giá trị thặng dư hay lợi nhuận. Nói cách khác, nhà tư bản đút túi một giá trị mà thực ra do người công nhân tạo ra. Đó là ý nghĩa của bóc lột.
+    12. Marx tin rằng có nhiều mâu thuẫn cố hữu trong phương thức sản xuất tư bản chủ nghĩa. Chủ nghĩa tư bản là một hệ thống kinh tế tự huỷ diệt vì nó thiếu một sự kiểm soát hợp lý. Trong một thời kỳ, ta có một 'xã hội giai cấp' mới, trong đó những người vô sản chế ngự giai cấp tư sản bằng vũ lực. Marx gọi đây là chế độ chuyên chính vô sản. Nhưng sau một thời kỳ quá độ, sự chuyên chính của giai cấp vô sản sẽ được thay thế bằng một 'xã hội không có giai cấp', trong đó tư liệu sản xuất thuộc sở hữu 'toàn dân' - nghĩa là của chính nhân dân. Chính sách của xã hội này là 'làm theo năng lực, hưởng theo nhu cầu'. Hơn nữa, giờ đây lao động thuộc về chính những người lao động và cảm giác bị lạc lõng của thời kỳ tư bản chủ nghĩa chấm dứt.
+    13. Chủ nghĩa Marx đã dẫn tới những biến động lớn. Không nghi ngờ gì, chủ nghĩa xã hội đã thành công lớn trong việc đấu tranh chống lại một xã hội phi nhân tính. Dù sao thì ở châu Âu, ta cũng đang sống trong một xã hội công bằng hơn và đoàn kết hơn thời Marx. Đó có phần không nhỏ là nhờ chính Marx và toàn thể phong trào xã hội chủ nghĩa
+    14. Sau Marx, phong trào xã hội chủ nghĩa chia thành hai nhánh chính, phong trào dân chủ xã hội và chủ nghĩa Lenin. Với chủ  nghĩa xã hội, phong trào dân chủ xã hội là phương cách của Tây Âu. Ta có thể gọi đây là cuộc cách mạng chậm. Chủ nghĩa Lenin giữ nguyên niềm tin của Marx rằng cách mạng là cách duy nhất để đấu tranh với xã hội giai cấp cũ. Nhánh này có ảnh hưởng lớn tại Đông Âu, châu Á, và châu Phi. Theo cách của mình, mỗi nhánh đều đấu tranh chống lại điều kiện sống khổ cực và sự áp bức.
+    15. Ở đây, lại một lần nữa, ta thấy rằng mọi thứ con người chạm vào đều trở thành một hỗn hợp của thiện và ác. Tuy nhiên, không có lý gì quy tội cho Marx vì những yếu tố tiêu cực của 50 hay 100 năm sau khi ông qua đời tại cái gọi là các nước xã hội chủ nghĩa. Nhưng có lẽ ông đã nghĩ quá ít về những người sẽ trở thành những người điều hành của một 'xã hội cộng sản'. Có lẽ sẽ không bao giờ có một 'vùng đất hữa'. Loài người sẽ luôn tạo ra các vấn đề mới để đấu tranh về nó.
+*** 1809. Darwin.
+    1. quan niệm về sự tiến hoá không phải là điều hoàn toàn mới. Quan niệm về một quá trình tiến hoá sinh học đã bắt đầu được chấp nhận rộng rãi trong một số giới từ những năm 1800. Người phát ngôn tiên phong cho quan niệm này là Lamarck, nhà động vật học người Pháp. Ngay cả trước ông, Eramus Darwin, ông nội của Darwin, đã đưa ra giả thuyết rằng cây cỏ và động vật đã tiến hoá từ một vài loài nguyên thuỷ. Nhưng không ai trong họ đã đưa ra được một lời giải thích chấp nhận được về việc quá trình tiến hoá này đã diễn ra như thế nào. Do vậy, đối với những người trong giáo hội, họ không được coi là những mối đe doạ lớn.
+*** 1856. Freud
+*** Thế kỷ XX
+**** Chủ nghĩa hiện sinh
+     1. Đây là một thuật ngữ chỉ những dòng triết học lấy trạng thái sinh tồn của con người làm xuất phát điểm.
+     2. 1844 - 1900. Friedrich Nietzche. Theo Nietzche, cả Ki Tô giáo và triết học truyền thống đã quay lưng lại với thế giới thực tế và hướng về ‘thiên đường’ hay ‘thế giới niệm’. Còn cái được coi là thế giới ‘thực’ thật ra chỉ là một thế giới giả. ‘Hãy chân thực với thế giới’, ông nói : « Đừng nghe theo những người cho bạn những kỳ vọng siêu nhiên ». Cụm từ ‘Chúa đã chết’ bắt nguồn từ Nietzche.
+     3. 1905 - 1980. Jean-Paul Sartre. Trong suốt lịch sử triết học, các nhà triết học đã cố gắng tìm hiểu con người là gì - hay bản tính tự nhiên của con người là gì. Nhưng Sartre lại tin rằng con người không có cái ‘bản chất’ vĩnh cửu đó để dựa vào. Do đó, tìm kiếm ý nghĩa của cuộc đời nói chung là điều vô nghĩa. Chúng ta bị buộc phải ứng biến. Ta như những diễn viên bị lôi lên sân khấu mà chưa học lời thoại. Không có kịch bản, không có người nhắc vở thì thào hướng dẫn. Ta phải tự quyết định mình sẽ sống như thế nào. Thuyết hư vô cho rằng chẳng có cái gì có ý nghĩa và cái gì cũng được phép. Sartre tin rằng cuộc sống phải có ý nghĩa. Đó là điều cực kỳ quan trọng. Nhưng chính ta là người phải tạo ý nghĩa cho cuộc đời mình. Tồn tại là sáng tạo cuộc đời mình 
+*** Terms
+    1. Chủ nghĩa hoài nghi: mặc dù các câu hỏi triết học có thể có lời giải đáp, nhưng con người không thề hiểu được sự thực về các câu đố của thiên nhiên và vũ trụ. các suy đoán triết học vô ích.
+    2. thuyết bất khả tri: Một người không thể dám chắc về sự tồn tại hay không tồn tại của thần linh hay Chúa Trời
+    3. Chủ nghĩa duy lý: Niềm tin không thể lay chuyển vào lý tính của con người được gọi là chủ nghĩa duy lý. Một người theo chủ nghĩa duy lý là người cho rằng lý tính của con người là cội nguồn của mọi tri thức về thế giới.
+    4. Thuyết phiếm thần (pantheism): quan niệm rằng tất cả mọi thứ đều thuộc về một Thượng đế trừu tượng nội tại bao trùm tất cả; hoặc rằng Vũ trụ, hay thiên nhiên, và Thượng đế là các khái niệm tương đương.
+    5. Giordano Bruno: là một tu sĩ dòng Đa Minh, nhà triết học, nhà toán học và nhà thiên văn học người Ý.[3] Bruno được biết đến với các lý thuyết mở rộng hơn nữa thuyết nhật tâm của Nicolaus Copernicus khi đề xuất rằng các ngôi sao chỉ là các mặt trời bên ngoài Thái dương hệ và có các hành tinh của chúng xoay quanh, và hơn nữa có khả năng rằng tại các hành tinh này thậm chí còn có thể hình thành sự sống. Ông cũng khẳng định rằng vũ trụ là bao la vô tận và do vậy không có thiên thể nào ở "trung tâm". Năm 1593, Bruno bắt đầu bị Tòa án dị giáo Roma xét xử, dưới sự chủ trì của Hồng y Bellarmino, do việc chối bỏ một số giáo lý Công giáo nền tảng (như về Ba Ngôi, thiên tính của Đức Kitô, sự đồng trinh của Maria, sự biến đổi bản thể). Quan điểm phiếm thần của ông cũng là một vấn đề bị lưu ý nghiêm trọng.Tòa án đã kết tội và ông bị hỏa thiêu tại Roma vào năm 1600.
+    6. Rationalist: người theo chủ nghĩa duy lý
+    7. empiricist: Người theo chủ nghĩa kinh nghiệm. các nhà kinh nghiệm chủ nghĩa tin rằng mọi tri thức về thế giới phát triển từ các giác quan.
+    8. agnostic: Người theo thuyết bất khả tri là người khẳng định rằng không thể chứng minh hay phản chứng được sự tồn tại của Chúa Trời hay thần thánh
+    9. “Tự nhiên chủ nghĩa” là một ý thức về thực tại mà không chấp nhận thực tại nào khác ngoài thiên nhiên và thế giới cảm giác. Do đó, một nhà tự nhiên chủ nghĩa cũng coi loài người là một phần của thiên nhiên. Một nhà khoa học tự nhiên sẽ chỉ dựa vào các hiện tượng tự nhiên chứ không dựa vào các giả thuyết duy lý hay bất cứ hình thức mặc khải thần thánh nào.”
+* programming languages
+** Python
+*** Pandas
+**** Some caveats should be avoid
+***** SettingwithCopyWarning
+      1. Modifying a view will change the orginal datframe, while modyfing a copy will not. So if two variables reffere to same dataframe through a view, some nasty bugs might happen very far a way the orignal caveat line of codes, because change in one variable affects other varible through a view. On other hand, if you try to change value of original dataframe through a copy, it will fail.
+      2. So, when those things happen:
+	 - Common issue #1: Chained assignment
+	   + Like this code: data[data.bidder == 'parakeet2004']['bidderrate'] = 100
+	   + The above code just affects the copy, so original dataframe wil not be changed.
+	   + The solution: combine the chained operations into a single operation using loc so that pandas can ensure the original DataFrame is set.
+	   + ex: data.loc[data.bidder == 'parakeet2004', 'bidderrate'] = 100
+	 - Common issue #2: Hidden chaining
+	   + The solution is to explicitly tell pandas to make a copy when we create the new dataframe
+***** Some useful codes
+      1. DataFrame.isin(values): Whether each element in the DataFrame is contained in values.
+	 - Parameters:
+	   + values: iterable, Series, DataFrame or dict
+	     The result will only be true at a location if all the labels match. If values is a Series, that’s the index. If values is a dict, the keys must be the column names, which must match. If values is a DataFrame, then both the index and column labels must match.
+	 - Returns: DataFrame. DataFrame of booleans showing whether each element in the DataFrame is contained in values.
+      2. pd.to_datetime(data[date_col_name],format=date_format)
+      3. DataFrameGroupBy.filter(func, dropna=True, *args, **kwargs)
+	 - Apply function (true or false) cho từng nhóm group và trả về data frame
+	 - Parameters:
+	   + func: function. Criterion to apply to each group. Should return True or False.
+	   + dropna: bool. Drop groups that do not pass the filter. True by default; if False, groups that evaluate False are filled with NaNs.
+	 - Returns: DataFrame
+      4. DataFrameGroupBy.idxmax(axis=None, skipna=True, numeric_only=False)
+	 - Return index of first occurrence of maximum over requested axis.

@@ -1,0 +1,323 @@
+:PROPERTIES:
+:ID:       2d8b681f-dd80-40cf-b487-8452253bd497
+:END:
+#+title: Danh_gia_truoc_mo
+
+* 2022 ESC guideline
+** Questions
+*** What to look for?
+**** Clinical risk evaluation
+     1. Surfery related risk (30 day risk of CV death, MI, and stroke)
+	1) Low surgical risk (<1%)
+	   - Phẫu thuật nông (ngực, răng, tuyến giáp, mắt, phụ khoa, cắt sụn chêm, tạo hình,, cắt tiền liệt tuyến đường niệu đạo, VATS minor lung resection. 
+	2) Intermediate surgical risk (1-5%)
+	   - Động mạch cảnh không triệu chứng (CEA - carotid endarterectomy or CAS - carotid artery stenting) hoặc có triệu chứng (CEA), sửa phình động mạch chủ nội mạch, phẫu thuật đầu cổ, Phẫu thuật trong phúc mạc, phẫu thuật trong lồng ngực (non-major), phẫu thuật khớp hông, cột sống, tạo hình động mạch ngoại vi, ghép thận, phẫu thuật phụ khoa- tiết ngiệu lớn. 
+	3) High surgical risk (>5%)
+	   - Cắt tuyến thượng thận, phãu thuật động mạch chủ và mạch máu lớn, động mạch cảnh có triệu chứng (CAS), phẫu thuật tụy - tá tràng, cắt gan, ống mật, cắt thực quản, phẫu thuật tái thông mạch chi dưới trong thiếu máu chi cấp hoặc đoạn chi, phẫu thuật phổi, ghép gan, ghép phổi, thủng tạng rỗng, cắt toàn phần bàng quang.
+     2. Patient-related risk
+	1) Đánh giá ban đầu
+	   - Nguy cơ tim mạch truyền thống (tuổi, hút thuốc lá, THA, đái tháo đường, RLLPM, béo phì, tiền căn gia đình bệnh tim mạch sớm); hoặc đã có CVD; bệnh đồng mắc.
+	2) Phân loại bệnh nhân
+	   - < 65 tuổi, không có bệnh tim mạch, không có yếu tố nguy cơ tim mạch: nguy cơ thấp, chỉ làm ECG và biomarkers khi phẫu thuật nguy cơ cao và bệnh nhân >45 tuổi.
+	   - >= 65 tuổi hoặc có yếu tố nguy cơ tim mạch:
+	     + Những người bệnh này có nguy cơ undetected CVD.
+	     + Cần đánh giá ECG, biomarkers và funtional capacity cho phẫu thuật nguy cơ trung bình trở lên.
+	     + Có CVD:
+	     + Những người bệnh này có nguy cơ nặng hơn bệnh tim mạch có sẵn, tăng nguy cơ tử vong.
+	     + Cần đánh giá ECG, biomarkers và funtional capacity cho phẫu thuật nguy cơ trung bình trở lên, nếu phẫu thuật nguy cơ cao cần hội chẩn liên chuyên khoa.
+	3) Sử dụng công cụ đánh giá
+	   - Risk scores
+	     + RCRI (Lee's score) update 2019
+	     + Surgical risk calculator
+	     + ACS NSQIP
+	     + SORT
+	     + AUB-HAS2 cardiovascular risk index
+	   - Fraility
+	     + Of the available screening tools for frailty, the Frailty Index and the Frail Phenotype are the most commonly recommended
+	     + A simpler approach is offered by the Clinical Frailty Scale, which relies on information from the history taking
+	   - Functional capacity
+	     + a recent large prospective cohort study of high-risk patients undergoing NCS found self-reported inability to climb two flights of stairs added incremental value to the 30 day cardiac event rate when added to the RCRI.
+	     + [[https://www.mdcalc.com/calc/3910/duke-activity-status-index-dasi][DASI score]]
+	     + A DASI score < 34 was associated with increased odds of 30 day death or MI.
+	     + Adjusting risk assessments according to self-reported ability to climb two flights of stairs should be considered in patients referred for intermediate- or high-risk NCS. IIaB
+	4) ECG
+	5) Biomarkers
+	   + hs-cTn trước phẫu thuật, 24h - 48h sau phẫu thuật đối với phẫu thuật nguy cơ trung bình - cao, ở người có yếu tố nguy cơ tim mạch (bao gồm >= 65 tuổi), hoặc có bệnh tim mạch, hoặc triệu chứng gợi ý bệnh tim mạch. Class IB
+	   + BNP or NT-ProBNP: đối với phẫu thuật nguy cơ trung bình - cao, ở người có yếu tố nguy cơ tim mạch (bao gồm >= 65 tuổi), hoặc có bệnh tim mạch hoặc triệu chứng gợi ý bệnh tim mạch. class IIaB
+	6) Siêu âm tim qua thành ngực lúc nghỉ
+	   + Pre-operative TTE provides information on three main risk markers for post-operative cardiac events: LV dysfunction, VHDs, and cardiomyopathies.
+	7) Stress test
+	   + An exercise stress test alone should only be considered a valuable alternative to diagnose obstructive CAD if non-invasive imaging tests are unavailable.
+	8) Angiography
+	   + CCTA: CCTA should be considered to rule out CAD in patients with suspected CCS or biomarker-negative NSTE-ACS in case of low-to-intermediate clinical likelihood of CAD, or in patients unsuitable for non-invasive functional testing undergoing non-urgent, intermediate-, and high-risk NCS. IIaC
+	   + Invasive coronary angiography: Pre-operative ICA may be considered in stable CCS patients undergoing elective surgical CEA. Class IIbB.
+*** Chiến lược giảm nguy cơ
+    1. Thay đổi lối sống và yếu tố nguy cơ tim mạch
+       - Ngưng hút thuốc lá > 4 tuần. Class IB.
+       - Kiểm soát yếu tố nguy cơ: THA, RLLPM, đái tháo đường. class IB.
+    2. Thuốc
+       1) Beta blockers
+	  - initiation of beta-blockers before NCS was not associated with a net clinical benefit in most analyses, but they might be beneficial in patients with high CV risk profiles or who are undergoing high-risk surgical interventions (including vascular interventions).
+	  - When oral beta-blockade is initiated in CAD patients who undergo NCS, the use of atenolol or bisoprolol as a first choice may be considered
+	  - Increased mortality following pre-operative beta-blocker withdrawal has been reported in five observational studies. Interruption of this therapy for > 2 days post-operatively may double the risk of AF.
+	  - Chưa biết thời gian và liều tối ưu của betablockers chu phẫu.
+	  - *Pre-operative initiation of beta-blockers in advance of high-risk NCS may be considered in patients who have two or more clinical risk factors /(Ischaemic heart disease, cerebrovascular disease, renal insufficiency, or diabetes mellitus, according to the RCRI score)/, in order to reduce the incidence of peri-operative myocardial infarction* IIbA. Ideally at least 1 week before surgery, starting with a low dose with dose titration for target heart rate. The target is a resting heart rate 60–70 b.p.m with a systolic blood pressure > 100 mmHg. 
+	  - *Pre-operative initiation of beta-blocker in advance of NCS may be considered in patients who have known CAD or myocardial ischaemia* IIbB. Treatment should ideally be initiated between 30 and (at least) 2 days before surgery, starting at a low dose, and should be continued post-operatively.
+	  - Peri-operative continuation of beta-blockers is recommended in patients currently receiving this medication. IB
+       2) Amiodarone
+	  - while preventive amiodarone seems to reduce the incidence of AF, the clinical benefits associated with its routine use are unclear
+       3) Statins
+	  - In patients with an indication for statins, it should be considered to initiate statins peri-operatively. IIaC.
+	  - In patients already on statins, it is recommended to continue statins during the peri-operative period. IB
+       4) Renin–angiotensin–aldosterone system inhibitors
+	  - The majority of studies suggest that continued use of RAAS inhibitors is associated with a higher risk of peri-operative hypotension and, as a consequence, higher use of vasopressors and inotropes
+	  - A systematic review, including nine studies (five RCTs and four cohort studies), revealed that withholding ACEI/ARB on the morning of surgery was not associated with mortality or MACE. however, it did confirm that withholding therapy was associated with less intra-operative hypotension
+	  - If an ACEI/ARB is withheld prior to NCS, it should be restarted as soon as possible in order to prevent unintended long-term omission.
+	    - *In patients with stable HF, peri-operative continuation of RAAS inhibitors may be considered* IIbC.
+	    - In patients without HF, withholding RAAS inhibitors on the day of NCS should be considered to prevent peri-operative hypotension. IIaB. 
+       5) Calcium channel blockers
+	  - In patients already on CCBs, particularly in those with vasospastic angina, it is recommended to continue CCBs during the peri-operative period, but withholding the dose on the day of surgery in order to avoid post-operative hypotension
+       6) Diuretics
+	  - For patients on diuretics to treat hypertension, transient discontinuation of diuretics on the day of NCS should be considered. IIaB. 
+       7) Ivabradine
+	  - Các nghiên cứu đang tiến hành. 
+       8) Sodium–glucose co-transporter-2 inhibitors
+	  - The US Food and Drug Administration (FDA) recommends interrupting SGLT-2 inhibitor therapy for at least 3–4 days before scheduled surgery and to be vigilant for symptoms related to EDKA, prompting measurement of ketones.
+	  - It should be considered to interrupt SGLT-2 inhibitor therapy for at least 3 days before intermediate- and high-risk NCS. IIaC.
+       9) Thuốc chống huyết khối
+	  1) Đánh giá nguy cơ chảy máu của phẫu thuật
+	     - Phẫu thuật nguy cơ chảy máu thấp
+	       + Đục thủy tinh thể, glaucoma
+	       + Phẫu thuật 1 - 3 răng, nha chu, implant, endodontic
+	       + Nội soi không cắt hoặc sinh thiết
+	       + Phẫu thuật nông (rạch abcess,...)
+	     - Phẫu thuật nguy cơ chảy máu trung bình
+	       + Phẫu thuật ổ bụng (cắt túi mật, hernia repair, cắt đại tràng)
+	       + Phẫu thuật vú
+	       + Complex dental procedures (nhổ nhiều răng)
+	       + Nội soi sinh thiết đơn giản
+	       + Thủ thuật kim nòng lớn
+	       + Phẫu thuật mắt khác
+	       + Phẫu thuật chỉnh hình nhỏ (Nội soi khớp bàn tay, bàn chân)
+	     - Phẫu thuật nguy cơ chảy máu cao (tần suất chảy máu và mức độ ảnh hưởng)
+	       + Phẫu thuật ổ bụng + sinh thiết, extrcoporeal shockawave lithotripsy
+	       + Phẫu thuật ung thư lớn (gan, tụy, ...)
+	       + Neuraxial (spinal or epidural) anaesthesia
+	       + Phẫu thuật thần kinh (sọ não, cột sống)
+	       + Phẫu thuật chình hình lớn
+	       + Procedures with vascular organ biopsy (kidney or prostate)
+	       + Phẫu thuật tạo hình thẩm mỹ
+	       + Specific interventions (colon polypectomy, lumbar puncture, endovascular aneurysm repair)
+	       + Thoracic surgery, lung resection surgery
+	       + Urological surgery (prostatectomy, bladder tumour resection)
+	       + Vascular surgery (e.g. AAA repair, vascular bypass)
+	  2) Kháng kết tập tiểu cầu
+	     - Kháng kết tập tiểu cầu đơn
+	       + *For patients undergoing high bleeding risk surgery (e.g. intracranial, spinal neurosurgery, or vitreoretinal eye surgery), it is recommended to interrupt aspirin for at least 7 days pre-operatively.* IC.
+	       + In patients without a history of PCI, interruption of aspirin at least 3 days before NCS may be considered if the bleeding risk outweighs the ischaemic risk, to reduce the risk of bleeding. IIbB
+	       + Trong trường hợp phòng ngừa nguyên phát bằng P2Y12, khuyến cáo nên short interuption (không rõ thời gian) ở phẫu thuật nguy cơ chảy máu cao.
+	       + Patients treated with P2Y12 inhibitor monotherapy as part of a deescalation strategy after PCI/ACS, or due to a recent stroke, PAD, or aspirin intolerance, might require peri-operative management of this monotherapy. A careful interdisciplinary evaluation of perioperative bleeding vs. ischaemic risk is warranted in these situations, and individual decisions based on the peri-operative bleeding and ischaemic risk (e.g. surgery under P2Y12 monotherapy, switching to aspirin, short interruption, or bridging in the peri-operative phase) may be applicable, although evidence for these different regimens is missing. 
+	     - Kháng kết tập tiểu cầu kép
+	       + The preferred management of patients on DAPT due to PCI is to delay elective NCS until completion of the full course of DAPT (6 months after elective PCI and 12 months after ACS)
+	       + Once the P2Y12 inhibitor has been discontinued, surgery should be performed while the patient is still on aspirin.
+	       + Aspirin might be discontinued as a last measure only with very high bleeding risk and a comparably low ischaemic risk. However, such surgical procedures should be performed in hospitals where 24/7 catheterization laboratories are available so as to treat patients immediately in case of peri-operative ischaemic events
+	       + *It is recommended to delay elective NCS until 6 months after elective PCI and 12 months after an ACS* IA
+	       + *After elective PCI, it is recommended to delay time-sensitive NCS until a minimum of 1 month of DAPT treatment has been given* IB.
+	       + *In high-risk patients with a recent PCI (e.g. STEMI patients or high-risk NSTE-ACS patients), a DAPT duration of at least 3 months should be considered before time-sensitive NCS.* IIaC
+	       + High risk of peri-operative stent thrombosis defined by at least one of the following: history of recurrent MI, history of stent thrombosis under antiplatelet therapy, reduced left ventricular ejection fraction (<40%), poorly controlled diabetes, severely impaired renal function/haemodialysis, recent complex PCI (i.e. severely calcified lesion, left main PCI, chronic total occlusion, bifurcational/crush technique, bypass graft PCI), stent malapposition/residual dissection.
+	       + *In patients with a previous PCI, it is recommended to continue aspirin peri-operatively if the bleeding risk allows* IB.
+	       + If interruption of P2Y12 inhibitor is indicated, it is recommended to withhold ticagrelor for 3–5 days, clopidogrel for 5 days, and prasugrel for 7 days prior to NCS.
+	       + *If antiplatelet therapy has been interrupted before a surgical procedure, it is recommended to restart therapy as soon as possible (within 48 h) post-surgery, according to interdisciplinary risk assessment* IC.
+	  3) Thuốc kháng đông đường uống
+	     1) Đặc điểm dược động lực học của kháng đông đường uống
+		+ Warfarin: thời gian Cmax 2 - 6h, plasma half-life 36 - 48h, thời gian tác dụng sau liều cuối ~ 5 ngày, không thải qua thận
+		+ acenocoumarol (half-life 12 h)
+		+ NOACs: Cmax 1 - 4h, plasma half-life ~ 12h, thời gian tác dụng sau liều cuối 24h, thải qua thận 30 - 80%
+		+ Procedures where mechanical compression is unfeasible carry a high risk of serious bleeding complications.
+	     2) Vitamin K antagonists
+		- Vitamin K antagonists in patients with mechanical heart valves
+		- Vitamin K antagonists for atrial fibrillation/venous thromboembolism.
+		  + In patients using VKA for AF or venous thromboembolism (VTE), invasive procedures with a low bleeding risk can be performed without VKA interruption. The INR should be monitored and maintained at the lower level of the therapeutic range
+		  + When interruption is necessary due to high bleeding risk procedures, the BRIDGE trial in AF patients showed that 3–5 days of warfarin interruption without bridging was superior to heparin bridging, having the same incidence of arterial and venous thromboembolism and significantly lower incidence of major bleeding
+		  + Bridging therapy may be considered for patients with a *high thrombotic risk (i.e. AF with CHA2DS2-VASc (congestive heart failure, hypertension, age ≥75 years, diabetes mellitus, stroke, vascular disease, age 65–74 years, sex category [female]) score >6, recent cardioembolic stroke <3 months, or high risk of VTE recurrence, weighing the risk of bleeding against the risk of thromboembolism*
+		- Restarting vitamin K antagonists after invasive procedures or surgery
+		- Reversal of vitamin K antagonists
+		- Non-vitamin K antagonist oral anticoagulants
+		  + Unplanned surgery in patients on non-vitamin K antagonist oral anticoagulants and reversal for emergency procedures.
+		  + Planned interventions in patients on non-vitamin K oral anticoagulants.
+		    - Invasive surgical interventions may require temporary discontinuation of NOAC therapy, while many less-invasive procedures with a relatively low risk of bleeding may be performed under minimally interrupted or uninterrupted NOAC therapy.
+		    - In patients taking a NOAC, peri-operative bridging using heparin or LMWH was associated with increased risk of bleeding without reduction in thromboembolic events
+		    - Therefore, when NOAC interruption is required for surgery, bridging is not recommended, except in a few high thrombotic risk circumstances (Very few circumstances when bridging with heparin may be considered in patients taking a NOAC include high thromboembolic risk conditions, such as: 1) patients with a recent (within 3 months) thromboembolic event (stroke, systemic embolism, or VTE); 2) patients who experienced a thromboembolic event during previous interruption of NOAC therapy.
+		    - /When to restart non-vitamin K antagonist oral anticoagulants after interventions:/ In general, NOAC can be restarted 6–8 h after interventions with rapid and complete haemostasis. When the bleeding risk with full-dose anticoagulation resumption outweighs the risk of thromboembolic events, therapeutic anticoagulation may be postponed to >48–72 h after the procedure, using prophylactic post-operative thromboprophylaxis until the resumption of full-dose NOAC is deemed safe. Post-operative heparin administration should also be considered in patients unable to take oral therapy. Off-label use of reduced-dose NOACs to attenuate the risk of post-operative bleeding is not recommended, as there is no evidence informing such an approach.
+		    - *In non-minor bleeding risk procedures in patients using a NOAC, it is recommended to use an interruption regimen based on the NOAC compound, renal function, and bleeding risk* IB
+		    - *For interventions with a very high risk of bleeding, such as spinal or epidural anaesthesia, interruption of NOACs for up to five half-lives and re-initiation after 24 h should be considered* IIaC
+		    - In minor bleeding risk surgery and other procedures where bleeding can be easily controlled, it is recommended to perform surgery without interruption of OAC therapy. IB
+		    - In patients using NOACs, it is recommended that minor bleeding risk procedures are performed at trough levels (typically 12–24 h after last intake). IC
+		    - If bleeding risk with resumption of full-dose anticoagulation outweighs the risk of thromboembolic events, postponing therapeutic anticoagulation 48–72 h after the procedure may be considered, using post-operative thromboprophylaxis until resumption of full OAC dose is deemed safe. IIbC
+		  + Combination therapy (antiplatelet and anticoagulant)
+	  4) Peri-operative thromboprophyla
+    3. Phòng ngừa thuyên tắc chu phẫu
+       - The Caprini score has been developed for risk stratification, and validated in different surgical settings. Thromboprophylaxis should be considered for patients with moderate (i.e. 5–8 points) and high scores (i.e. ≥9 points).
+       - Thromboprophylaxis should be initiated during the hospital stay until 12 h before NCS and continued post-operatively based on individual risk assessment for bleeding. In most cases, thromboprophylaxis should be continued until the patient becomes fully mobilized or until hospital discharge (usually up to 10 days).
+*** Các bệnh cảnh đặc biệt
+**** CAD
+     1. Risk for patients with coronary artery disease
+	- Chưa có đủ bằng chứng để khuyến cáo PCI thường quy cho CCS
+	- Đối với ACS thì cân nhắc phương pháp tái thông tùy tình huống, sự khẩn cấp của phẫu thuật, thời gian sử dụng kháng kết tập tiểu cầu kép và risk of delayed surgery...
+**** Chronic heart failure
+     1. Hypertrophic obstructive cardiomyopathy
+	- Avoidance of prolonged pre-operative fasting and dehydration is important to maintain stroke volume and reduce the risk of increased obstruction. Furthermore, it is important to avoid vasodilating anaesthetic agents and maintain neutral fluid  balance during the peri-operative period. The heart rate should be kept low (60–65 beats per minute [b.p.m.]) and AF should be avoided. Medication used to treat LV outflow tract obstruction should remain on board during NCS.
+**** Valvular heart disease
+     1. Risk for patients with valvular heart disease
+	- The magnitude of risk is highly variable and depends on the severity of VHD and type of NCS. It is particularly increased in patients with obstructive valve pathology, eg. AS or MS.
+     2. Aortic valve stenosis
+	- Patients with no symptoms and LVEF >= 50%: NCS without additional procedures.
+	- Patients with no symptoms and LVEF < 50% but low to intermidiate risk NCS: NCS without additional procedures.
+     3. Mitral valve stenosis
+	- Non-cardiac surgery can be performed with a relatively low risk of complications in patients with *mild MS (valve area >1.5 cm2)* and in asymptomatic patients with moderate-to-severe MS (valve area ≤1.5 cm2) and systolic pulmonary artery pressure (SPAP) <50 mmHg on echocardiography.
+	- As transmitral gradients are flow-sensitive, tachycardia and fluid overload can cause pulmonary oedema during NCS. In this regard, *arterial vasodilators should be avoided and surveillance for peri-operative AF is of paramount importance.*
+     4. Aortic valve regurgitation
+	- In patients with mild-to-moderate aortic valve regurgitation (AR), NCS can be performed without additional risk.
+	- Patients with severe AR in whom valvular intervention is needed should be treated before intermediate-or-high-risk elective NCS.
+     5. Mitral valve regurgitation
+	- 
+**** Arrhythmias
+     1. Atrial fibrillation/flutter
+	- Optimal rate control (i.e. resting heart rate < 110 b.p.m.) is mandatory in all patients with AF, whereas rhythm control (i.e. achieving and maintenance of sinus rhythm) in the pre-operative period may be considered only if symptoms persist despite optimal rate control.
+     2. Bradyarrhythmias
+	- Prophylactic pacing in the settings of asymptomatic bifascicular block, with or without first-degree atrioventricular block, is generally not indicated, and chronotropic drugs (atropine, isoprenaline, adrenaline, or, alternatively, aminophylline, dopamine, or glucagon in beta-blocker or CCB overdosing) are usually effective.
+	- Patients with bifascicular bundle branch block or prolonged His-ventricular interval are at an increased risk of developing complete heart block.482,483 Equipment needed to perform emergent transcutaneous pacing and personnel able to perform such a procedure should be immediately available during NCS in patients with bifascicular block; alternatively, a permanent pacemaker may be implanted.
+     3. Management of patients with cardiac implantable electronic devices
+	- A pre-operative check should have been performed at least once within the 12 months preceding surgery for pacemaker patients and within 6 months for patients with ICD, in the absence of any malfunction.
+	- Lưu ý nguy cơ electromagnetic interference (EMI) (xem thêm). 
+**** Pulmonary arterial hypertension
+     - It is recommended to continue chronic therapy for PAH in the peri-operative phase of NCS. IC
+     - It is recommended that haemodynamic monitoring of patients with severe PAH continues for at least 24 h in the post-operative period.
+**** THA
+     - In a recent randomized trial among patients undergoing abdominal surgery, an individualized intra-operative treatment strategy with systolic BP values kept within a 10% difference from the pre-operative office measurement resulted in a reduced risk of post-operative organ dysfunction.
+     - In patients with chronic hypertension undergoing elective NCS, it is recommended to avoid large peri-operative fluctuations in blood pressure, particularly hypotension, during the peri-operative period. IA.
+     - It is not recommended to defer NCS in patients with stage 1 or 2 hypertension. IIIC.
+**** Peripheral artery disease
+     1. Peripheral artery disease and non-vascular non-cardiac surgery
+	- Non-cardiac surgery should be prioritized in patients needing revascularization for PAD, but careful peri-operative monitoring of deterioration in lower extremity perfusion is warranted, particularly in those patients with chronic limb-threatening ischaemia (e.g. peripheral BP of ≤50–70 mmHg in the foot joint and ≤30–50 mmHg in the toes)
+	- For patients with AAA, pain control is essential to ensure stable BP, minimizing rupture risk. Patients with large AAA (i.e. >5 cm in diameter for women and >5.5 cm for men) should be evaluated for aortic aneurysm repair (preferably EVAR) before non-vascular NCS is planned, particularly in the case of malignant tumours, depending on the stage of malignant disease.
+     2. Peripheral artery disease and vascular non-cardiac surgery
+**** Bệnh mạch máu não
+     - Pre-operative carotid artery and cerebral imaging is recommended in patients with a history of TIA or stroke in the previous 6 months and who have not undergone ipsilateral revascularization. IC
+     - For patients with carotid artery disease undergoing NCS, the same indications for carotid revascularization should be considered as for other patients with carotid stenosis. IIaC
+**** Renal disease
+     - Contrast-induced AKI is defined as a rise in serum creatinine of 44 mmol/L (0.5 mg/dL) or a 25% relative rise from baseline at 48 h (or 5–10% at 12 h) following contrast administration. It occurs in up to 15% of patients with CKD who are undergoing radiographic procedures.
+     - If a cystatin C measurement assay is available, cystatin C measurement should be considered in patients with impaired eGFR (<45–59 mL/min/1.73 m2) to confirm kidney disease. IIaC
+**** Obesity
+     - Obesity is defined as a body mass index (BMI) of ≥30 kg/m2, morbid obesity as a BMI ≥35 kg/m2, and super-morbid obesity as a BMI ≥50 kg/m2.
+**** Diabetes
+     - In patients with diabetes or disturbed glucose metabolism, a pre-operative HbA1c test is recommended, if this measurement has been  not performed in the previous 3 months. In case of HbA1c ≥8.5% (≥69 mmol/mol), elective NCS should be postponed, if safe and practical. IB.
+*** Peri-operative mornitoring and anaesthesia
+**** Peri-operative mornitoring
+     - Of note, post-operative outcome is not only negatively influenced by the occurrence of intra-operative hypotension, but also by hypotensive events during the initial four post-operative days.
+     - For adult non-cardiac surgical patients, there is insufficient evidence to recommend a general upper limit of arterial pressure at which therapy should be initiated, although pressures >160 mmHg have been associated with myocardial injury and MI.
+     - The assumed association between intra-operative tachycardia and adverse peri-operative outcome remains a subject of ongoing controversy. 
+**** Gây tê vùng
+     - Neuraxial analgesia may induce sympathetic blockade. When reaching the thoracic dermatome level 4, a reduction in cardiac sympathetic drive may occur, with subsequent reduction in myocardial contractility, heart rate, and change in cardiac loading conditions.
+     - There are no studies specifically investigating the changes in outcomes related to neuraxial anaesthetic techniques in patients with cardiac disease.
+     - Cardiac patients often take various types of drugs that interfere with coagulation; therefore, care should be taken to ensure sufficient coagulation ability when neuraxial blocks are applied. /Xem thêm guideline của hội gây mê Châu Âu/.
+**** Post-operative management
+     - It is recommended to avoid post-operative acute pain.IB
+     - In order to minimize the risk of post-operative organ dysfunction, it is recommended to avoid an intra-operative mean arterial pressure decrease of >20% from baseline values or <60–70 mmHg for ≥10 min. IB
+     - Non-aspirin NSAIDs are not recommended as first-line analgesics in patients with established or high risk of CVD.
+*** Peri-operative cardiovascular complications
+**** Introduction
+     - PMI, which is the most common CV complication, is largely asymptomatic in ~90% of patients and is therefore missed in routine clinical practice in the absence of surveillance for PMI.
+     - While the risk of CV complications after NCS is highest in the immediate peri-operative period, it seems to remain increased for a prolonged ‘vulnerable period’ of 3–5 months.
+**** Peri-operative myocardial infarction/injury
+     - Peri-operative MI (PMI) is defined as acute cardiomyocyte injury (post-operative hs-cTn T/I release) with or without accompanying symptoms, and with or without ECG or imaging evidence of acute myocardial ischaemia.
+       - Overall, 30 day mortality in patients developing PMI is ~10%
+       - Type-2 MI patients are usually treated as for type-1 MI, although the evidence for this is limited.
+       - The term myocardial injury following NCS (MINS) has been used for a selected subset of patients with cardiac PMI, in whom cardiomyocyte injury was deemed most likely due to CAD with myocardial ischaemia (i.e. secondary to supply–demand mismatch or thrombosis), in the absence of an atypical surgical physiological stress, and no evidence of a cardiac non-CAD aetiology, e.g. rapid AF, acute HF)
+       - Based on a randomized placebo-controlled trial, in patients with MINS and at low risk of bleeding, initiation of dabigatran 110 mg orally b.i.d. may be considered about 1 week after NCS. IIbB
+       - Pulmonary embolism should be suspected in patients with PMI without a clear cause. Close haemodynamic monitoring and monitoring of RV function (echocardiography, CT) is essential to determine which PE patients require aggressive therapy.
+	 - 
+* 2014 ACC/AHA guiline
+** 
+* Ôn bài
+  1. Đánh giá nguy cơ phẫu thuật (Nhồi máu cơ tim, đột quỵ tử vong trong 30 ngày sau phẫu thuật.
+     - Nguy cơ thấp
+     - Nguy cơ trung bình
+     - Nguy cơ cao
+  2. Khai thác thông tin bệnh nhân
+     - Nguy cơ tim mạch truyền thống: tuổi, hút thuốc lá, đái tháo đường, THA, RLLPM, béo phì, tiền căn gia đình bệnh tim mạch sớm (lưu ý hỏi về bệnh tim di truyền).
+     - Có bệnh lý tim mạch đã được chẩn đoán xác định (lưu ý hỏi về test dùng để chẩn đoán, vd bệnh mạch vành chẩn đoán bằng gì?)
+     - Bệnh đồng mắc.
+  3. Xem xét các test cần bổ sung để đánh giá sâu hơn
+     - Mục đích: đánh giá mức độ nặng của bệnh hiện có, tìm các bệnh lý tiềm ẩn chưa có triệu chứng.
+     - Phân 3 loại:
+       + *Bệnh nhân < 65 tuổi, không có yếu tố nguy cơ tim mạch*: không cần thực hiện thêm test gì nếu nguy cơ phẫu thuật trung bình, thấp. Nếu nguy cơ phẫu thuật cao thì test ECG, biomarkers (hs troponin T, NT-ProBNP/BNP), đánh giá khả năng gắng sức.
+       + Bệnh nhân > 65 tuổi, hoặc có nhiều yếu tố nguy cơ tim mạch: ECG, biomarkers, khả năng gắng sức nếu phẫu thuật nguy cơ trung bình trở lên.
+       + Đã có bệnh lý tim mạch: ECG, biomarkers, khả năng gắng sức nếu phẫu thuật nguy cơ trung bình trở lên. Cần hội chẩn liên chuyên khoa nếu phẫu thuật nguy cơ cao.
+  4. Đánh giá nguy cơ bằng công cụ/thang điểm:
+     - Thường dùng nhất là thang điểm RCRI (Lee's score, updated 2019) dùng 6 tham số:
+       + Bệnh mạch máu não
+       + Có bệnh mạch vành
+       + Suy tim sung huyết
+       + Creatinin >= 2mg/dl
+       + Đái tháo đường cần điều trị bằng insulin
+       + Phẫu thuật nguy cơ cao (trong lồng ngực, trong ổ bụng, phẫu thuật mạch máu trên bẹn - theo ACC/AHA 2014)
+       + 0đ ~4%, 1đ ~6%, 2đ ~10%, >2đ ~15%.
+  5. Thuốc đang sử dụng
+     - Betablockers: nếu có 2 yếu tố nguy cơ lâm sàng trở lên (Ischaemic heart disease, cerebrovascular disease, renal insufficiency, or diabetes mellitus, theo RCRI) thì có thể cân nhắc kê đơn Betablocker nếu BN chưa được kê IIbA. Tốt nhất là trước khi phẫu thuật ít nhất 1 tuần, bắt đầu liều thấp tăng dần đến mục tiêu nhịp tim 60 - 70 lần/phút, huyết áp > 100mmHg. Nếu bệnh nhân có bệnh mạch vành thì có thể cân nhắc kê đơn betablocker (nên ưu tiên Bisoprolol hoặc atenolol), với liều thấp tốt nhất 30 ngày và ít nhất là 2 ngày trước phẫu thuật. IIbB.  
+     - ACEIs/ARBs: Nếu bệnh nhân có suy tim ổn định, có thể cân nhắc không ngưng trước phẫu thuật. IIbC. Nếu bệnh nhân không có suy tim, nên cân nhắc ngưng vào sáng ngày phẫu thuật, và khởi động lại sớm nhất có thể. IIaB. 
+     - CCBs: khuyến cáo tiếp tục CCBs chu phẫu, nhưng ngưng liều vào ngày phẫu thuật để tránh tụt huyết áp. (in text, not in recomendations of ESC 2022)
+     - Statins: kê đơn nếu có chỉ định. IIaC.
+     - Lợi tiểu: Ngưng lợi tiểu ngày phẫu thuật. IIaB.
+     - SGLT-2: Ngưng ít nhất 3 ngày trước /phẫu thuật nguy cơ trung bình - cao/. IIaC. 
+  6. Đánh giá nguy cơ chảy máu của phẫu thuật
+     - Nguy cơ chảy máu (tần suất chảy máu và mức độ ảnh hưởng lâm sàng)
+     - Nguy cơ thấp: cườm, nhổ 1 - 3 răng, nội soi không sinh thiết, phẫu thuật nông. 
+     - Nguy cơ trung bình: phẫu thuật ổ bụng (cắt túi mật, cắt đại tràng, sửa thoát vị. 
+     - Nguy cơ cao: lưu ý gây tê tủy sống (dưới màng nhện) hoặc ngoài màng cứng. 
+  7. Thuốc kháng kết tập tiểu cầu
+     - SAPT:
+       + Nếu phẫu thuật nguy cơ chảy máu cao (phẫu thuật sọ não, cột sống, dịch kính, ...) thì ngưng Aspirin ít nhất 7 ngày. IC.
+       + Trường hợp khác (không có tiền căn PCI) thì cân nhắc nguy cơ chảy máu và nguy cơ ischaemic, có thể cân nhắc ngưng aspirin ít nhất 3 ngày trước phẫu thuật. IIbB.
+     - DAPT:
+       + Nếu có thể thì trì hoãn phẫu thuật chương trình 6 tháng (ít nhất 1 tháng) sau PCI chương trình, 12 tháng (ít nhất 3 tháng) sau PCI ACS hoặc nguy cơ tắc stent cao (tiền căn MI tái phát, tiền căn tắc stent khi đang dùng kháng kết tập tiểu cầu, Ef < 40%, đái tháo đường kiểm soát kém, suy giảm chức năng thận nặng/chạy thận nhân tạo, PCI sang thương phức tạp gần đây - sang thương vôi hóa nặng, left main, tắc mạn tính toàn phần, bifurcational/crush technique, bypass graft PCI), stent malapposition/residual dissection.)
+       + Clopidogrel 5 ngày, ticagrelor 3- 5 ngày, Prasugrel 7 ngày. 
+       + Nếu *phẫu thuật lớn* trước khi full liều DAPT (6 tháng chương trình, 12 tháng ACS hoặc nguy cơ cao) thì phải có đội can thiệp sẵn sàng 24/7.
+       + Nên tiếp tục Aspirin khi người bệnh có tiền căn PCI, trừ khi nguy cơ chảy máu rất cao so với nguy cơ huyết khối (phải có đội can thiệp sẵn sàng 24/7).
+       + Nên khởi động lại kháng kết tập tiểu cầu sớm nhất có thể (trong vòng 48h sau phẫu thuật).
+  8. Thuốc kháng đông đường uống
+     - Đặc điểm dược động lực học:
+       + Warfarin: Cmax 2 - 6h, bán thải 1.5 - 2 ngày, tác dụng sau liều cuối ~5 ngày, không thải qua thận.
+       + NOACs: Cmax 1-4h, bán thải 12h, thời gian tác dụng sau liều cuối ~24 giờ, thải qua thận 30 - 80%.
+     - Kháng vitamin K
+       + Duy trì INR ở ngưỡng điều trị dưới nếu nguy cơ chảy máu của phẫu thuật thấp.
+       + Nếu nguy cơ chảy máu trung bình - cao, mà nguy cơ huyết khối thấp thì ngưng kháng vitamin K 3 - 5 ngày, không bắc cầu kháng đông đường tiêm.
+       + Nếu nguy cơ chảy máu trung bình - cao, mà nguy cơ huyết khối cao (van cơ học thế hệ cũ?, CHA2DS2-VASc > 6, đột quỵ huyết khối từ tim < 3 tháng, nguy cơ thuyên tắc tĩnh mạch sâu tái phát cao - antithrombin 3 deficiency or protein C and/or S deficiency) thì cân nhắc lợi ích - nguy cơ điều trị bắc cầu với UFH hoặc LMWH.
+     - NOACs:
+       + Nếu nguy cơ chảy máu của phẫu thuật thấp thì không cần ngưng NOACs hoặc chỉ cần ngưng ngắn (liều cuối đối với thuốc uống 2 lần/ngày). Nếu có suy thận thì nên phẫu thuật lúc nồng độ thuốc thấp nhất 12h or 24h tùy theo số lần uống trong ngày). 
+       + Nếu nguy cơ chảy máu trung bình - cao, mà nguy cơ huyết khối thấp thì ngưng NOACs, không bắc cầu kháng đông đường tiêm. 
+	 - Mnemonic: DA2RE 012 minor low high. Chức năng thận bình thường (> 80 ml/phút)
+	 - Mnemonic: Chức năng thận giảm thì A2ER vẫn giữ như cũ trừ khi độ lọc cầu thận dưới 30ml/phút thì A2RE 012 thành A2RE 0(1.5)2
+       + Nếu nguy cơ chảy máu của phẫu thuật trung bình - cao, mà nguy nguy cơ huyết khối cao, thì cân nhắc lợi ích - nguy cơ điều trị bắc cầu với UFH hoặc LWMH.
+       + Nếu nguy chảy máu rất cao thì cân nhắc ngưng NOACs thời gian bằng 5 lần bán thải, khởi động lại sau 24h. Nếu cơ chảy máu cao > nguy cơ huyết khối thì tái khởi động lại sau 48-72 giờ, trong lúc đó dùng liều phòng ngừa huyết khối sau phẫu thuật (thuốc kháng đông đường tiêm) 
+  9. Các bệnh cảnh đặc biệt
+     - Bệnh tim phì đại tắc nghẽn đường ra thất trái: tránh nhịn đói dài, thiếu dịch, thuốc gây mê dãn mạch. Nhịp tim nên giữ 60 -65, tránh rung nhĩ. Nên tiếp tục thuốc điều trị bệnh tim phì đại tắc nghẽn đường ra thất trái.
+     - Hẹp van động mạch chủ: Nếu bệnh nhân không có triệu chứng và EF >=50%, không cần can thiệp gì thêm. Nếu bệnh nhân không có triệu chứng và EF < 50% và nguy cơ phẫu thuật thấp - trung bình, thì không cần can thiệp gì thêm. Còn lại thì hội chẩn với Heart team.
+     - Hẹp van 2 lá: hẹp mức độ nhẹ (diện tích van > 1.5cm2), hoặc hẹp trung bình - nặng nhưng bệnh nhân không có triệu chứng và áp lực động mạch phổi tâm thu (SPAP) < 50 mmHg trên siêu âm tim thì có thể phẫu thuật tương đối an toàn. tránh nhịp nhanh, thuốc dãn động mạch, quá tải dịch, phải lưu ý tầm soát rung nhĩ trước phẫu thuật.
+     - Rối loạn nhịp: Không cần tạo nhịp phòng ngừa trong trường hợp block 2 nhánh có hoặc không kèm theo block nhĩ thất độ I, cần có thiết bị tạo nhịp qua da sẵn sàng.
+     - Phình động mạch chủ bụng: Bệnh nhân có phình lớn động mạch chủ bụng (>5cm đối với nữ, > 5.5cm đối với nam) nên được đánh giá điều trị sửa phình trước khi phẫu thuật.
+     - Đái tháo đường: phẫu thuật chương trình nên trì hoãn nếu HbA1c >= 8.5%.
+  10. Theo dõi sau phẫu thuật
+      - cTn trước phẫu thuật, ngày 1, 2, 3, giúp phát hiện >90% trường hợp MINS (Myocardial injury after non-cardiac surgery).
+      - Tiêu chuẩn chẩn đoán:
+	+ Tăng cTn sau phẫu thuật với ít nhất 1 mẫu trên 99th percentile of the ULR for the cTn assay, with a rise/fall pattern indicative of acute myocardial injury. (Tăng/giảm 20%)
+	+ Xảy ra trong vòng 30 ngày (thường gặp nhất trong 72h) sau phẫu thuật.
+	+ Do thiếu máu cơ tim, không do các nguyên nhân khác (thuyên tắc phổi, ...)
+      - Tiên lượng nặng: tăng hs cTnT >= 14ng/L so với trước phẫu thuật, tăng hs cTnT >= 5ng/l so với mẫu trước đó và > 20ng/L < 65ng/l, hs cTnT >= 65ng/l,  non–high-sensitivity fourthgeneration troponin T ≥30 ng/L (Roche fourth-generation Elecsys TnT assay).
+      - Cần loại trừ các nguyên nhân khác:
+	+ Myocardial injury related to pulmonary embolism, valvular heart disease, and acute decompensated heart failure should not be treated as MINS because these diagnoses would substantially alter the approach to treatment.
+	+ Nhiễm trùng huyết, thuyên tắc phổi, stroke, 
+      - Điều trị:
+	+ Chưa có phương pháp điều trị tối ưu.
+	+ Điều trị nguyên nhân + Apsirin (liều thấp) + statin + in patients with MINS and at low risk of bleeding, initiation of dabigatran 110 mg orally b.i.d. may be considered about 1 week after NCS.
+	+ Nếu thỏa tiêu chí nhồi máu cơ tim theo the Universal Definition of Myocardial Infarction thì điều trị theo guideline tương ứng. 

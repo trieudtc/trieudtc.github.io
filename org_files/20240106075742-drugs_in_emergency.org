@@ -1,0 +1,70 @@
+:PROPERTIES:
+:ID:       8a883244-2e2b-4841-853e-82030ae18497
+:END:
+#+title: Drugs_in_emergency
+
+* Mnemonic
+  1. Dobutamin - dopamin
+     - Liều 5 - 20 mcg/kg/min
+     - Người 50kg:
+       + Dobutamin 250mg pha trong 50ml glucose 5%, bơm tiêm điện 3 ml/giờ
+       + Dopamin 200mg pha trong 50ml glucose 5%, bơm tiêm diện 3 ml/giờ
+  2. Nitroglycerin
+     - Liều khởi đầu 5 mcg/min, tăng 5cmg/min mỗi 3 - 5 phút đến 20mcg/min, sau đó có thể tăng 10 - 20 mcg/min mỗi 3 - 5 phút. 
+     - Liều 10mg/10ml, pha đủ 50 ml nacl 0.9%, bơm tiêm điện 1.5 ml/giờ (5mcg/phút), sau đó có thể tăng mỗi 3ml/giờ.
+  3. Amiodarone
+     - Liều 150mg/3ml, pha trong 10ml glucose 5%, tiêm tĩnh mạch chậm trong 10 phút (tránh hạ huyết áp)
+     - Sau đó liều 1 mg/phút, trong 6 giờ, 150 mg/3ml 1/2 ống pha trong 50ml glucose 5%, bơm tiêm điện 40ml/giờ
+     - Sau đó liều 0.5mg/phút, trong 18 giờ, 150 mg/3ml 1/2 ống pha trong 50ml glucose 5%, bơm tiêm điện 20 ml/giờ
+  4. Noradrenalin, adrenalin
+     - Liều 0.1 - 0.5 mcg/kg/min
+     - Người 50kg:
+       + Noradrenalin 4mg/4ml, pha trong 50ml glucose 5%, bơm tiêm điện 3ml/giờ
+       + Noradreanalin 4mg/4ml, pha trong 500ml glucose 5%, chảy X giọt/phút
+       + Adrenalin 1mg/ml, pha trong 50ml glucose 5%, bơm tiêm điện 15ml/giờy
+       + Adrenalin 1mg/ml, pha trong 500ml glucose 5%, chảy L giọt/phút (bằng số kg của người bệnh)
+  5. Magnesium trong điều trị xoắn đỉnh
+     - Magnesium Dosing: 1–2 grams IV/IO over 5 minutes.
+       - There is no universal dosing regimen for magnesium in this setting. The ACLS guidelines recommend 1 – 2 grams magnesium sulfate (MgSO4) IV over 15 minutes (4), while another recommended regimen is 2 grams MgSO4 as an IV bolus, followed by a continuous magnesium infusion at 2 – 4 mg/min
+	 - The following is recommended for hypomagnesemia associated with serious cardiac arrhythmias (e.g., torsade de pointes) or generalized seizures:
+	   + Infuse 2 g MgSO4 (16 mEq of Mg) intravenously over 2 – 5 minutes.
+	   + Follow with 5 g MgSO4 (40 mEq of Mg) in 250 or 500 mL isotonic saline infused over the next 6 hours.
+	   + Continue with 5 g MgSO4 every 12 hours (by continuous infusion) for the next 5 days.
+
+* Digoxin
+** Phương pháp tính liều
+   1. Phương pháp tính dựa trên dực động lực học của thuốc
+      - CLEARANCE ESTIMATE: *Cl = 1.303(CrCl) + Cl_NR*
+	+ Cl is the digoxin clearance in mL/min
+	+ CrCl is creatinine clearance in mL/min
+	+ Cl_NR is digoxin nonrenal clearance. (40 nếu không suy tim hoặc suy tim NYHA I - II, 20 nếu suy tim NYHA III - IV)
+      - VOLUME OF DISTRIBUTION ESTIMATE:
+	+ *V = 7 L/kg . Wt* (người bình thường)
+	+ *V = [226 + 298*CrCl/(29.1+CrCl)](Wt/70)* (nếu creatinine clearance ≤30 mL/min)
+	+ Sử dụng IBW thế cho Wt nếu cân nặng thực > 30% IBW.
+   2. Jusko-Koup method
+      - *D/τ = (Css ⋅ Cl) / F*
+	+ F =0.7 is the bioavailability fraction for the oral dosage form
+	+ F = 1 for intravenous digoxin
+	+ D is the digoxin dose in μg, τ is the dosage interval in days
+	+ Cl is digoxin clearance in L/d
+	+ Note that for concentration units ng/mL = μg/L, and this conversion will be made before the equation is used. Also, conversion factors are needed to change milliliters to liters (1000 mL/L) and minutes to days (1440 min/d).
+      - *LD = (Css ⋅ V) / F*
+      - Note:
+	+ When digoxin loading doses are administered, they are usually given in divided doses separated by 4–6 hours (50% of dose at first, followed by two additional doses of 25%)
+      - Css: Steady state concentration
+	+ Suy tim: 0.5–1 ng/mL. khởi đầu 0.8ng/ml là hợp lý
+	+ Rung nhĩ: 0.8–1.5 ng/mL thường đủ để kiểm soát tần số < 100 l/p. Khởi đầu 1.2 ng/mL là hợp lý.
+   3. Jelliffe Method
+      - Lượng digoxin thải hàng ngày: *%lost/d = 14% + 0.20(CrCl)*
+	+ 14% is the percent of digoxin eliminated per day by nonrenal routes
+	+ CrCl is creatinine clearance in mL/min.
+      - Initial digoxin maintenance dose: *D = {TBS ⋅ [14% + 0.20(CrCl)]} / (F ⋅ 100)*
+	+ TBS is total body stores in μg/d
+	+ Bệnh nhân CrCl > 30 mL/min, digoxin total body stores of 8–12 μg/kg are usually required to cause inotropic effects while 13–15 μg/kg are generally needed to cause chronotropic effects.
+	+ Bệnh nhân CrCl < 30 mL/min) decreases digoxin volume of distribution, initial digoxin total body stores of 6–10 μg/kg are recommended.
+      - *LD = TBS / F*
+** Mnemonic
+   1. Bệnh nhân 50 kg, CrCl 60 ml/p suy tim NyHA III
+      - V: 7 * 50 = 350 L
+      - Cl: 1.303 * 60 + 20 = 98.18 ml/p

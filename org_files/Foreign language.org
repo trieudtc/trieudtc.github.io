@@ -1,0 +1,31 @@
+#+TODO: TODO(t) IN-PROGRESS(i) | DONE(d)
+#+TAGS: important(i) confuse(c) elusive(e)
+* English
+** English in medicine
+** Vocabulary
+**** Subject
+***** Word                                                          :confuse:
+***** Prolific	/prəˈlɪf.ɪk/ adj 	Highly productive
+***** Vocation	n			a type of work or way of life that you believe is especially suitable for you
+***** Avocation	n			You do st because you love it
+***** Summon	v			to formally call for the presence of someone
+***** Dispatch	v			Send off quickly
+***** Ruse	v 			Mưu mẹo (để che dấu điều gì)
+***** Deposition n			bản tường trình, bản khai (tòa án); Gián chức :elusive:
+***** Depose	v			Giáng chức; khai, trình (tòa án) :elusive:
+***** Sprinkle	v			Rắc, rải
+***** Sprinkler	v			Vòi phun mưa
+***** Mud 	n			Bùn
+***** Muddy 	v, adj
+***** Muddle	v
+***** Muddled	adj
+***** puddle	n, v
+***** Pudding	n
+***** addle 	v
+***** Addled	adj
+* Ede
+* Japanese
+* TODO tao tags cho new words
+- family tags. Vd, fam_mud
+- Confuse tags. vd, cnf_mud_muddle_puddle_addle
+- Similar tags. Vd, sim_mud

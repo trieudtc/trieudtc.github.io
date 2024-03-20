@@ -1,0 +1,7 @@
+:PROPERTIES:
+:ID:       6688141a-11fe-4509-8c37-059487ea96f4
+:END:
+#+title: Inotropes and vasopressors
+
+xem: [[https://www.ahajournals.org/doi/full/10.1161/CIRCULATIONAHA.107.728840][Inotropes and Vasopressors: Review of Physiology and Clinical Use in Cardiovascular Disease]]
+

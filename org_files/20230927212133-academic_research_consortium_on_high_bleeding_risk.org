@@ -1,0 +1,13 @@
+:PROPERTIES:
+:ID:       f3237d09-58aa-41be-a2c5-a9c1dfe59b66
+:END:
+#+title: Academic Research Consortium on High Bleeding Risk
+
+Nguồn tài liệu
+233. Urban P, Mehran R, Colleran R, Angiolillo DJ, Byrne RA, Capodanno D, et al. Defining
+high bleeding risk in patients undergoing percutaneous coronary intervention: a consensus document from the Academic Research Consortium for High Bleeding Risk. Eur
+Heart J 2019;40:2632–2653. https://doi.org/10.1093/eurheartj/ehz372
+234. Doomun D, Doomun I, Schukraft S, Arroyo D, Cook S, Huwyler T, et al. Ischemic and
+bleeding outcomes according to the academic research consortium high bleeding risk
+criteria in all comers treated by percutaneous coronary interventions. Front Cardiovasc
+Med 2021;8:620354. https://doi.org/10.3389/fcvm.2021.620354

@@ -1,0 +1,639 @@
+:PROPERTIES:
+:ID:       362cd8d4-ea9c-42e7-98c5-fcb6f8006e7f
+:END:
+#+title: ECG
+
+* Books
+** Chou's Electrocardiology in clinical practice
+*** Normal ElectroCardiogram: Origin and Description
+**** Normal ECG
+     1. P wave
+	- The P axis varies from 0 to +75 degrees, with most falling between +45 and +60 degrees
+	- P wave is always (+) in DI and DII; (-) in aVR.
+	- In DIII it may be upright, diphasic, or inverted
+	- in lead aVL is also variable in polarity
+	- In lead aVF the P wave is usually upright, but a diphasic or flat P wave is seen occasionally.
+     2. PR interval
+	- The PR interval spans the time required for the propagating impulse to advance from the atria through the AV node, bundle of His, bundle branches, and the system of Purkinje fibers until the ventricular myocardium begins to depolarize
+	- It *does not include* the duration of conduction from the SA node to the right atrium (SA conduction)
+	- The interval should be measured in the lead with the largest, widest P wave and the longest QRS duration. *Such a selection avoids inaccuracies incurred by using the leads in which the early part of the P wave or QRS complex is isoelectric*
+     3. QRS
+	- The mean QRS axis tends to shift leftward with increasing age.
+	- In an individual younger than 30 years, the axis is seldom superior to 0 degrees. After age 40 the axis is seldom to the right of +90 degrees.
+	- There is also an association between the QRS axis and body weight. A thin person is likely to have a more vertical axis, and overweight individuals tend to have a more leftward axis. The leftward shift of the QRS axis with aging is particularly prevalent in overweight subjects.
+	- lead I usually records a dominant R wave, except in young subjects with a rightward axis, in whom an R/S ratio of less than 1 may be seen.
+	- in lead aVL, in which the entire QRS may be negative if the QRS axis is +90 degrees or more. *Such a pattern is believed to characterize the vertical position of the heart*
+	- In lead II the R deflection is invariably prominent if the axis is normal, as the projection of the mean vector is always on the positive side of this lead.
+	- In contrast, the vector points toward the negative side of lead aVR, which therefore always records a negative deflection.
+	- An essentially upright complex is more common in lead aVF, especially in young individuals.
+	- Because of the orientation of the lead III axis, the morphology of the QRS complex in this lead is variable. The *respiratory variation of the morphology also is most pronounced in this lead*. For the same reason, *notching and slurring of the QRS complex may be seen normally in this lead* and, albeit less frequently, in the other inferior leads.
+	- The interval corresponding to the earliest 20 to 30 ms of the QRS complex, directed *rightward and anteriorly,* represents more than septal depolarization (including paraseptal)
+	- The major ventricular forces are represented by a *leftward-directed* vector.
+	- The terminal portion of the normal QRS complex represents posterobasal depolarization of the septum and both ventricles and can be represented by a *superiorly oriented QRS deflection that may be directed anteriorly or posteriorly*. This means that the r in the right precordial leads and the S in the left precordial leads are normal components of the QRS complex and can be variously expressed in different individuals.
+     4. Q wave
+	- Q waves are more likely to be seen in the inferior leads when the QRS axis is vertical and in leads I and aVL when the QRS axis is horizontal.
+	- The Q wave is present in one or more of the inferior leads (leads II, III, aVF) in more than 50 percent of normal adults
+	- and in leads I and aVL in fewer than 50 percent
+	- In lead aVR the initial negativity usually is part of the QS deflection.
+	- *The duration of the Q wave is of considerable importance in the diagnosis of myocardial infarction*. *With the exception of leads III and aVR*, the Q waves in the limb leads normally do not exceed 0.03 second in duration. Indeed, in less than 5 percent of the normal population the Q wave duration exceeds 0.02 second in these leads. In lead III, Q wave duration is occasionally as long as 0.04 second but rarely is it 0.05 second. This lead accounts for most of the erroneous diagnoses of myocardial infarction.
+	- The amplitude of the Q waves is less than 0.4 mV in all limb leads except lead III, in which it may reach 0.5 mV. The depth of the Q wave is less than 25 percent of the R wave, but lead III is the exception.
+     5. R wave
+	- *The R wave may be absent in lead V1, and a QS complex is recorded. A QS deflection, however, is rare in lead V2.*
+     6. S Wave
+	- The S wave is most prominent in lead aVR. An amplitude may be up to 1.6 mV in young subjects.
+	- A relatively large S wave sometimes is present also in leads III and aVL, depending on the QRS axis. The magnitude usually does not exceed 0.9 mV.
+	- In leads I, II, and aVF the S wave amplitudes are less than 0.5 mV
+	- Note S1Q3T3 in PE (S > 1.5mm, or 0.15 mV)
+     7. ST Segment
+	- Myocardial ischemia, which can cause a shift of the ST segment *(systolic injury current)* or of the TQ segment *(diastolic injury current)*. Xem thêm [[https://www.youtube.com/watch?v=YvFonWwBAIU][Electrophysiology Pt6: ST segment elevation]]
+	- ST segment elevation is more common and is usually present in the inferior leads. ST segment depression seldom is seen in leads I, II, or aVF because *the ST vector in the frontal plane, if present, is directed inferiorly and usually leftward.*
+	- Any ST segment depression in the precordial leads is considered abnormal, as the normal ST vector in the horizontal plane is directed *anteriorly and leftward.*
+     8. T wave
+	- The mean QRS vector and the mean T vector form a narrow angle.
+	- In normal individuals the T vector is *oriented leftward, inferiorly, and (in most adults) anteriorly*. In children and young adults (especially females), the orientation may be slightly posterior but becomes increasingly anterior with advancing age.
+	- *In the horizontal plane the T vector is directed leftward and usually anteriorly*. Therefore the T waves are always upright in left precordial leads V5 and V6. In about 5 percent of women the T wave is inverted in lead V1. An inverted, diphasic, or flat Twave is much less common in lead V2 (less than 10 percent), is seen only occasionally in V3, and is exceptional in lead V4 (seen mostly in young patients).In adult men, Twave inversion in the right precordial leads is relatively uncommon.
+	- When T wave inversion is present in two or more of the right precordial leads in the normal adult, the ECG resembles that of normal children and adolescents, and the phenomenon is called /persistent juvenile pattern/.
+	- T wave inversion
+	  + I: incorrect lead placement
+	  + N: No Bundle (RBBB, LBBB)
+	  + V: Ventrical hypertrophy
+	  + E: Embolism
+	  + R: Reciprocal/reperfused/refractory OMI
+	  + S: sudden death (ARVD)
+	  + I: Iatrogenic (digoxin)
+	  + O: Obtunded
+	  + N: Normal variant
+	  + Note: Điện cực sai/thay đổi thứ phát (dẫn truyền, lớn thất)/nguyên phát (tái tưới máu, nhồi máu, ), thuyên tắc phổi/ khác (tăng áp lực nội sọ, loạn sản thất phải gây loạn nhịp, digitalis)/ normal variant persistent juvenile pattern. 
+     9. QT Segment
+	- Because the adjustment of the QT interval to changes in the RR interval occurs gradually rather than instantaneously, the QT measurement represents a steady-state value only when the rhythm remains regular for several cycles.
+**** Common Normal Variants
+     1. S1S2S3 partern
+	- Sóng S ở chuyển đạo chi do khử cực đường ra thất phải hoặc thành nền sau vách liên thất. Hướng lên - sang phải.
+	- Khoảng 20% người bình thường có S1S2S3 partern. S1S2S3 partern thật sự (S lớn hơn R ở cả ba chuyển đạo) thường rất ít, thường gặp hơn là S lớn hơn R ở DII, DIII, nhưng nhỏ hơn R ở DI. Cần chú ý phân biệt S1S2S3 (S2 > S3) với chuyển trái bất thường (S3 > S2).
+	- S1S2S3 cũng thường gặp ở bệnh nhân phì đại thất phải hoặc khí phế thủng (có lẽ độ nhạy và đặc hiệu không cao). xem thêm: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8414529/; https://trepo.tuni.fi//bitstream/handle/10024/141641/1_s2.0_S0022073622000899_main.pdf?sequence=1; https://litfl.com/right-ventricular-hypertrophy-rvh-ecg-library/
+**** Atrial Abnormalities
+     1. Atrial depolarization
+	- The normal P wave axis in the frontal plane is usually about 60 degrees. Do đó P luôn + ở DI, DII, có thể dương, âm hoặc 2 pha.
+	- Bất thường sóng P có thể do lớn nhĩ (dày, dãn, hoặc cả 2) hoặc không do bất thường cấu trúc nhĩ (bất thường huyết động, nhịp tim, tự động tính, vị trí tim, dẫn truyền, ...)
+     2. Right  atrial abnormalities
+	- Right atrial hypertrophy
+	  + Vì nhĩ phải chỉ ảnh hưởng phần đầu sóng P nên không gây kéo dài tổng thời gian sóng P.
+	  + Correlate kém với lâm sàng và giải phẫu. Thường nhất là bệnh tim bẩm sinh, bệnh van 3 lá, tâm phế mạn. P phế cũng ít đặc hiệu cho lớn nhĩ phải.
+	  + an abnormally tall P wave in the right precordial leads is a more specific finding for right atrial enlargement than the diagnostic criteria based on the limb leads. An initial positive component of the P wave in lead V1 of >0.04 second has been also suggested as an indication of right atrial enlargement.
+	- P Phế
+	  + For the reasons mentioned previously, there is no relation between the weight of the right atrium and the amplitude, duration, or axis of the P wave. Chou and Helm showed that in about half of the studied cases, P pulmonale was associated with conditions in which right atrial enlargement was not expected, and that in 36 percent of cases the P pulmonale pattern appeared to represent left atrial rather than right atrial enlargement
+     3. Left atrial abnormality
+	- Tiêu chuẩn chẩn đoán:
+	  1. The P terminal force in lead V1 is equal to or more negative than -0.04 mVsec (thời gian x biên độ)
+	  2. P mitrale: The P wave is notched with a duration of 0.12 second or more
+	  3. Leftward shift of the P wave axis in the frontal plane to þ15 degrees or beyond or a leftward shift of the terminal P forces in the frontal plane is present.
+     4. Biatrial Enlargement: Diagnostic Criteria
+	1. The presence of a large diphasic P wave in lead V1 with the initial positive component >1.5 mm and the terminal negative component reaching 1 mm in amplitude, >0.04 second in duration (“abnormal P terminal force”), or both
+	2. The presence of a tall, peaked P wave (>1.5 mm) in the right precordial lead and a wide, notched P wave in the limb leads or left precordial leads (V5 and V6)
+	3. An increase in both the amplitude (>= 2.5 mm) and duration (>= 0.12 second) of the P wave in the limb leads.
+**** Ventricular enlargment
+     1. Left Ventricular Enlargement (Hypertrophy and Dilation)
+	- The increase in the left ventricular mass exaggerates the *leftward and posterior QRS forces*.
+	- In about 35 to 90 percent of LVH cases, the delayed onset of intrinsicoid deflections occurs >=45 ms after the onset of the QRS complex, nhưng không đặc hiệu vì cũng có thể thấy trong dày thất phải
+	- REPOLARIZATION ABNORMALITIES:
+	  + Deviation of the ST segment and the T wave in the direction opposite to the main QRS vector in the horizontal and frontal planes causes widening of the QRS/T angle. *The combination of increased QRS amplitude and a wide QRS/T angle* results in a pattern known as /left ventricular strain/.
+	  + The ST and T changes in the left ventricular strain pattern are secondary to delayed propagation of the impulse in the conducting system, the hypertrophied myocardium, or both.
+	- *Diagnostic Criteria for Patients Aged 40 Years or Older (QRS <0.12)*
+	  + The most commonly used are the Sokolov-Lyon criteria: S wave depth in V1 + tallest R wave height in V5-V6 > 35 mm
+	  + Voltage criteria must be accompanied by non-voltage criteria to be considered diagnostic of LVH: Onset of the intrinsicoid deflection in V5 or V6 >=0.05 second +  ST segment depression and T wave inversion in the left precordial leads and in the limb leads in which major QRS deflection is upright.
+	  + /If high QRS voltage and the secondary repolarization changes are both present, a false positive diagnosis of LVH is seldom made./
+	- *ST Segment and T Wave Changes*
+	  + The two most commonly used repolarization criteria for the diagnosis of LVH are a QRS/T angle >100 degrees and a T wave that is upright in V2 and more negative than -0.1 mV in V6.
+	  + The classic ST and T wave changes in LVH consist of ST segment depression with *upward convexity* and T wave inversion in the left precordial leads. 
+	  + Less pronounced repolarization changes, such as slight ST segment depression or flat T waves in the left precordial leads, which usually precede *frank ST segment deviation* and T wave inversion during development of LVH, are also helpful, particularly when the voltage is increased.
+	  + Phân biệt thay đổi ST-T do thiếu máu cơ tim: 2/3 trường hợp thay đổi ST-T thứ phát do LVH có hình dạng khác với ST-T nguyên phát (terminally inverted T waves with an isoelectric or horizontally depressed ST segment). Repolarization changes attributed to myocardial ischemia can be distinguished from the secondary repolarization abnormalities caused by LVH if, instead of the expected secondary ST segment elevation and upright T wave, one encounters ST segment depression and T wave inversion in leads V1 and V2.
+	- *Abnormal Left Axis Deviation* : Khi dùng đơn độc thì không đặc hiệu và không nhạy cho LVH.
+	- *Poor R Wave Progression in Precordial Leads*
+	  + Poor progression of the R wave in the right and mid-precordial leads occurs commonly with LVH41 and is associated with a leftward shift of the transitional zone in the precordial leads (i.e., R/S ratio <1 in V5).
+	  + Occasionally, R waves are absent in leads V1, V2, and even V3, resulting in a QS deflection in these leads that mimics anteroseptal myocardial infarction
+	- *Abnormal Q Wave in Inferior Leads*
+	  + Occasionally, an abnormal Q wave is recorded in leads III and aVF and less often in lead II, mimicking inferior myocardial infarction.
+	  + The mechanism of this pseudoinfarction pattern is not clear
+	- *Systolic and Diastolic Overload of the Left Ventricle*
+	  + The ECG pattern of left ventricular systolic overload includes high voltage of the R wave and the classic secondary ST segment and Twave changes in the left precordial leads.
+	  + With diastolic overload of the left ventricle, which is seen in patients with aortic insufficiency mitral insufficiency, and patent ductus arteriosus, the ECG usually exhibits high voltage of the R waves with prominent Q waves in the left precordial leads. The ST segment is usually elevated, with an upright, peaked T wave.
+	  + /Trên thực tế lâm sàng thì correlation chỉ tốt ở người trẻ có tim bẩm sinh./
+     2. *Note for LVH criteria:*
+	- Các tiêu chí ECG cho LVH thường test trên dân số có tỷ lệ bệnh tim lưu hành cao, do đó áp dụng cho dân số có tỷ lệ bệnh tim thấp dễ bị dương tính giả (< 46% chính xác)
+	- Tuổi: cần phải cẩn thận áp dụng tiêu chuẩn điện thế cho người trẻ (< 40 tuổi), nên tìm thêm các đặc điểm ủng hộ: trục lệch trái, kéo dài thòi gian intrinsicoid delfection in  V5 V6, kéo dài thời gian QRS 0.11s, notching QRS ở mid-precordial leads. Vì ở người bình thường, hầu hết R ở V5 cao hơn ở V6, nếu R v6 > V5 thì cũng gợi ý bất thường.
+	- A low hematocrit increases the QRS voltage and a high hematocrit decreases it because of changes in blood resistivity.
+	- PRESENCE OF LBBB:
+	  + The sum of the S amplitude in V2 and the R amplitude in V6 exceeding 4.5 mV had an 86 percent sensitivity and 100 percent specificity for LVH
+	  + the diagnosis of LVH was supported by the findings of left atrial enlargement and QRS duration >160 ms
+     3. Right Ventricular Hypertrophy and Dilation
+	- *3 Types of RVH*
+	  + (1) Typical RVH pattern with anterior and rightward displacement of the main QRS vector;
+	  + (2) incomplete right bundle branch block (RBBB);
+	  + (3) posterior and rightward displacement of the main QRS axis, predominantly in patients with chronic lung disease.
+	- *Typical RVH Pattern*
+	  + The typical RVH pattern is a mirror image of the LVH pattern, with right axis deviation in the frontal plane, tall R waves in the right precordial leads, deep S waves in the left precordial leads, and a slight increase in QRS duration.
+	  + thường thấy trong các bệnh làm lớn thất phải đơn thuần: hẹp động mạch phổi bẩm sinh, tứ chứng Fallot, tăng áp động mạch phổi nguyên phát.
+	  + Diagnostic criteria (LITFL)
+	    1) Right axis deviation of +110° or more.
+	    2) Dominant R wave in V1 (> 7mm tall or R/S ratio > 1).
+	    3) Dominant S wave in V5 or V6 (> 7mm deep or R/S ratio < 1).
+	    4) QRS duration < 120ms (i.e. changes not due to RBBB).
+	  + Supporting criteria
+	    1) Right atrial enlargement (P pulmonale).
+	    2) Right ventricular strain pattern = ST depression / T wave inversion in the right precordial (V1-4) and inferior (II, III, aVF) leads.
+	    3) S1 S2 S3 pattern = far right axis deviation with dominant S waves in leads I, II and III.
+	    4) Deep S waves in the lateral leads (I, aVL, V5-V6).
+	  + *Differential Diagnosis*
+	    + *Abnormal Right Axis Deviation*. Other than RVH, the situations in which right axis deviation may be seen are as follows:
+	      1) Normal young or slender adults
+	      2) Chronic obstructive pulmonary disease
+	      3) Lateral myocardial infarction
+		 - In these patients the initial R wave in lead I is usually absent, however, and abnormal Q waves are often observed also in the left precordial leads.
+		 - Inverted T waves in leads I, aVL, V5, and V6 are often present in patients with lateral myocardial infarction but are uncommon in patients with pure RVH
+	      4) Left posterior fascicular block
+		 - The differentiation of abnormal right axis deviation due to RVH from that secondary to left posterior fascicular block may not be possible without clinical information.
+		 - If the P waves are suggestive of right atrial enlargement, however, the presence of RVH may be inferred. Left posterior fascicular block is favored if signs of inferior or posterior myocardial infarction are evident
+	    + *Tall R Wave, Small S Wave, Increased R/S Ratio in Lead V1 in Conditions Other than RVH*
+	      1) Normal young adults
+	      2) True posterior infarction
+		 - In patients with true posterior myocardial infarction, the polarity of the T wave in V1 often is helpful in the differential diagnosis. Although exceptions do occur, an inverted T wave usually is seen in patients with RVH, whereas an upright T wave in V1 is likely to be associated with posterior myocardial infarction.
+		 - Because true posterior myocardial infarction is seldom encountered in the absence of inferior or lateral wall infarction, the differential diagnosis is usually not difficult
+	      3) Intraventricular conduction disturbances attributed to left septal fascicular block
+	      4) Displacement of the heart due to pulmonary disease
+	      5) Wolff-Parkinson-White pattern
+	    + *ST Segment and T Wave Changes in RVH*
+	      - If the T waves are biphasic in the right precordial leads, it is useful to note whether the configuration is of the positive-negative or negative-positive type. A negative-positive biphasic T wave is abnormal and often is seen in patients with RVH, whereas the positive-negative configuration may be normal.
+	    + *Systolic and Diastolic Overload Patterns*
+	      - With systolic overloading, which was called pressure overloading by later investigators, lead V1 exhibits a tall monophasic R wave or a diphasic RS, Rs, or qR complex. The T wave usually is inverted in this lead. This pattern typically is seen in patients with pulmonary stenosis, tetralogy of Fallot, or pulmonary hypertension
+	      - With diastolic, or volume, overload of the right ventricle, lead V1 usually shows an rSR1 pattern. This is the typical QRS complex in patients with an atrial septal defect, partial anomalous pulmonary venous return, or tricuspid insufficiency.
+	      - As a rule, the hemodynamic correlation of these two ECG overload patterns is more satisfactory in congenital than acquired heart disease.
+     4. Combined Ventricular Hypertrophy
+**** Chap 4 - Left Bundle Branch Block
+***** ECG CRITERIA
+      1. The QRS duration is 120 ms.
+      2. Leads V5, V6, and aVL show broad and notched or slurred R waves.
+      3. With the possible exception of lead aVL, the Q wave is absent in left-sided leads.
+      4. The R peak time is prolonged by more than 60 ms in leads V5 and V6 but is normal in leads V1 and V2 when it can be determined
+***** Clinical significance and Prognosis
+      1. Cause:
+	 - Structure diseases: hypertrophy, dilation, fibrosis, ischemic, various cardiopathies, advanced valvular heart diseases.
+	 - Toxic, inflammatory changes, hyperkalimia, digitalis toxic.
+	 - Primary degenerative disease of the conducting system (Lenegre disease) or sclerosis and calcification of the cardiac.  skeleton (Lev disease).
+	 - Septal myectomy in patients with obstructive hypertrophic cardiomyopathy.
+      2. Siêu âm tim
+	 - In most subjects with LBBB, regional wall motion abnormalities (i.e., akinetic or dyskinetic segments in the septum, anterior wall, or at the apex) are present even in the absence of coronary artery disease, previous myocardial infarction, or cardiomyopathy, probably as a result of an abnormal sequence of activation.
+	 - Lưu ý phân biệt rối loạn vận động vùng với thiếu máu cơ tim. 
+      3. Tiên lượng
+	 - The presence of LBBB has no adverse prognostic significance in subjects without evidence of structural heart disease.
+***** QRS Axis in the frontal plane
+      1. The appearance of LBBB may cause no QRS axis shift in the frontal plane or variable degrees of left and superior axis shift
+      2. A less common, atypical pattern is the LBBB with right axis deviation. This may be caused by right ventricular hypertrophy (RVH) or MI.
+***** Atypical LBBB
+      - In a common atypical pattern, RS deflections are present in leads V5 and V6. In most cases of this type, a typical R pattern is present in leads I and aVL and can also be recorded in leads V7 and V8. It can be assumed therefore that the RS pattern in leads V5 and V6 corresponds to a transitional zone that is displaced to the left, which may be caused by cardiac dilatation or a ventricular aneurysm.
+***** QRS MORPHOLOGY IN PREMATURE VENTRICULAR COMPLEXES
+      - In the presence of LBBB, PVCs with a narrow or slightly widened QRS complex are common. This may be due to fusion with a conducted impulse when PVCs arise late in the contralateral chamber during diastole or to an equal or a nearly equal delay in both bundle branches. The latter may occur when the PVC originates in the septum distal to the site of the LBBB or when the LBBB is caused not by an anatomic interruption but instead by a conduction delay.
+***** Recognition of Myocardial Ischemia and Myocardial Infarction in the Presence of LBBB
+      1. Tiêu chuẩn Sgarbossa
+	 - In this study, concordant ST segment elevation >1 mm had a sensitivity of 73 percent, whereas discordant ST segment elevation >5 mm had a sensitivity of 31 percent, and concordant ST segment depression in leads V1, V2, or V3 had a sensitivity of 25 percent. The specificity of all patterns was 92 to 96 percent.
+	 - The results of this study require a caveat because the amplitude of the ST segment deviation has been expressed in millimeters (assuming that 1 mm = 0.1 mV) rather than in percent of QRS amplitude, which influences the amplitude of the ST segment deviation. (Xem thêm tiêu chuẩn của DR Smith).
+      2. QRS changes
+	 - Cabrera’s sign (Notching of the S wave in leads V3 through V5) is a fairly reliable predictor of previous MI and of an anterior site in presence of LBBB.
+***** Functional Bundle Brand Block
+      1. Mechanism of cycle length depent bundle branch block
+	 - The onset of tachycardia- or acceleration-dependent bundle branch block is best explained by voltageor time-dependent refractoriness, whereas the perpetuation can be attributed to concealed transseptal conduction from the contralateral bundle branch.
+	 - The mechanism of bradycardia- or deceleration-dependent bundle branch block at critically long cycles is more controversial
+      2. WENCKEBACH PERIODICITY
+	 - diagnostic criteria:
+	   + (1) the “opening” impulse should be normally conducted in the affected bundle branch;
+	   + (2) the second impulse should be conducted with a delay of no more than 40 to 60 ms; and
+	   + (3) the last complex of the sequence should not be activated retrogradely.
+      3. 
+**** Chap 5 - Right Bundle Branch Block
+***** Complete RBBB
+****** Introduction
+       - The initial portion of the QRS complex remains unchanged despite absent right septal depolarization. The late QRS portion represents an unopposed slow conduction spread across the septum to the right ventricle in the anterior and either superior or inferior direction.
+       - The duration of the slow terminal QRS portion is 0.04 second or longer. It corresponds to the wide S wave seen in leads I, V5, and V6 and the R' in lead V1. The terminal deflection may be upright or downward in the inferior leads but is always upright in lead aVR and usually downward in lead aVL. A marked superior deviation of the terminal deflection is relatively uncommon and is usually associated with the presence of structural heart disease.
+****** QRS morphology
+       - The first normally inscribed QRS portion is sometimes called the “unblocked” part. It occupies the first 0.06 to 0.08 second of the QRS interval. Development of the right bundle branch block (RBBB) does not alter the initial component of the normally inscribed QRS complex, /but the duration of the initial unblocked QRS portion varies./
+	 + Sometimes the initial rS deflection is fully preserved,
+	 + but more often the S wave is shortened to a variable degree or it disappears entirely, with the initial r wave appearing as a notch on the ascent of the R' deflection.
+	 + Sometimes the initial r deflection becomes invisible, and the QRS complex is transformed into a pure broad R wave or an Rs complex.
+	 + Other variations include disappearance of the initial r wave, resulting in a qR pattern.
+	 + The relation between the amplitude of R and R' also varies; that is, the R amplitude
+may be smaller than, equal to, or larger than the amplitude of R'.
+****** ST - T in RBBB
+       - In uncomplicated RBBBs there is usually little ST segment displacement
+       - The T wave polarity is opposite to the terminal, slowly inscribed deflection of the QRS complex
+       - It is upright in leads I, V5, and V6 and inverted in the right precordial leads.
+       - In the transitional precordial leads (e.g., V3 or V4) the T wave may be diphasic. This pattern may also occur in the right precordial leads.
+       - A negative T wave in the left precordial leads is always abnormal, but an upright T wave in the leads with an R' pattern (i.e., V1 or V2) is seen sometimes in the absence of factors that may explain its presence, such as an anterior myocardial infarction or a posterior myocardial infarction.
+****** Q wave in RBBB
+       - The presence of RBBB does not interfere with the recognition of Q wave anterior and inferior myocardial infarction.
+       - but may cause difficulty with the recognition of posterior myocardial infarction. A diagnosis of myocardial infarction of the inferior wall is sometimes suggested incorrectly when the initial r in leads III and aVF is small or isoelectric.
+***** RBBB IN THE GENERAL POPULATION
+      - Many subjects with RBBB have no evidence of underlying heart disease. Such isolated RBBB occurs more commonly than does isolated left bundle branch block (LBBB).
+      - Moreover, many asymptomatic subjects with a change from a normal pattern to an RBBB  pattern had no evidence of heart disease. The cause of RBBB in these otherwise healthy individuals remains uncertain.
+***** RBBB AND ACUTE MYOCARDIAL INFARCTION
+      - The RBBB pattern occurs in 3 to 29 percent of patients with acute myocardial infarction. It is often accompanied by left anterior fascicular block. The important lesion is usually in the left anterior descending coronary artery.
+      - Xem thêm
+	+ [[http://hqmeded-ecg.blogspot.com/2015/09/pseudostemi-and-true-st-elevation-in.html][PseudoSTEMI and True ST elevation in Right Bundle Branch Block (RBBB)]]
+	+ [[https://emergencymedicinecases.com/ecg-rbbb-occlusion-mi/][RBBB and Occlusion MI]]
+	+ [[http://hqmeded-ecg.blogspot.com/2019/07/two-patients-with-rbbb.html][Two patients with RBBB]]
+	+ [[http://hqmeded-ecg.blogspot.com/2018/11/chest-pain-and-rbbb-what-do-you-think.html][Chest Pain and RBBB. What do you think?]]
+***** PROGNOSIS
+      - The prognosis of patients with RBBB depends on the presence or absence and the type of heart disease. In the absence of heart disease, the prognosis and the survival time are not much different from those of the general population.
+      - 
+**** Chap 6 - Other Intraventricular Conduction Disturbances
+***** Fasicular blocks
+****** LEFT ANTERIOR FASCICULAR BLOCK
+       - Because the initial septal and inferior wall activation is directed rightward and inferiorly, an initial q wave is recorded in lead I and an r wave in the inferior leads.
+       - As a result of these changes in excitation there is:
+	 + (1) Q in leads I, aVL, or the left precordial leads (or some combination of these leads)and R in leads III and aVF; *In practice, the Q wave amplitude is variable and the Q wave may become temporarily absent without other ECG changes.*
+	 + (2) prominent R in leads I and aVL and a deep S in leads III and aVF
+       - 
+**** Chap 7 - Acute ischemia: Electrocardiographic Patterns
+***** Lưu tạm
+****** Localization of ST segment elevation and recicprocal ST segment depression
+       - The vector of the deviated ST segment is directed toward the site of ischemia.
+	 + ischemia or infarction of the anterior wall causes ST segment elevation in the anterior precordial leads.
+	 + ischemia or infarction of the inferior wall causes ST segment elevation in leads III, aVF, and occasionally lead II.
+	 + */Right ventricular infarction causes segment elevation in the right precordial lead V1./*
+	 + ST segment elevation in the lead V1 is also believed to be specific for anterior MI in which the first septal perforator is involved
+****** ANTERIOR WALL MI AND OCCLUSION OF THE LAD CORONARY ARTERY
+       - In patients with acute injury associated with an anterior MI, ST segment elevation is usually present in leads I, aVL, a variable number (usually 3 to 6) of precordial leads, and */occasionally lead II/*. Reciprocal ST segment depression is nearly always present in leads III and aVF.
+       - In patients with an anterior MI, ST segment elevation in lead V1 occurs less frequently than in leads V2 and V3. The presence of ST elevation in lead V1 suggests that the conal branch of the right coronary artery is either absent or small and therefore does not reach the intraventricular septum.
+       - Conversely, the absence of ST segment elevation in lead V1 during acute anterior MI suggests the presence of a large conal branch of the right coronary artery protecting the septum from transseptal MI
+       - When the ST segment was elevated in the anterior precordial leads, the presence of ST elevation in leads I and aVL was predictive of a proximal lesion (to the first diagonal branch) in 87 percent of cases; its absence was predictive of a distal obstruction in 73 percent of cases. The presence of reciprocal ST segment depression in the inferior leads was also suggestive of a proximal lesion
+******* LAD Occlusion Proximal to the First Septal and First Diagonal Branch
+	- This type of very proximal LAD occlusion often causes right bundle branch block (RBBB).
+	- ST vector is directed superiorly. |^|
+	- causing ST elevation in leads aVR, aVL, V1–V3, or V4, and reciprocal ST depression in inferior leads as well as in leads V5–V6.
+******* LAD Occlusion Proximal to the First Septal but Distal to the First Diagonal or Intermediate Branch
+	- This type of proximal LAD occlusion results in rightward direction of ST vector,
+	- and unlike in the occlusion distal to both the first septal and first diagonal, the ST segment is depressed in lead aVL
+******* Distal LAD Occlusion
+	- shows that the ST vector points inferiorly. To the left, the ST segment is elevated in the inferior and lateral precordial leads, but depressed in lead aVR.
+	- *aVR is the mirror image of an imaginary lead situated between I and II. So if you don't see any ST elevation in I and/or II, there is no ST depression in aVR. Remember that, among limb leads, only I and II are even measured by the machine. All the other limb leads are calculated ("derived") from I and II. Perhaps you are better at "seeing" ST depression that ST elevation, in which case aVR is more useful to you. /00000 Steve Smith 0000/*
+******* Occlusion of the First Diagonal Branch of the LAD Coronary Artery
+	- Occlusion of the first diagonal branch causes ST elevation mainly in leads I and aVL and fewer changes in the precordial leads.
+******* Occlusion of the Main Septal Branch
+	- Occlusion of the main septal branch causes ST segment elevation in leads V1 and V2 and reciprocal ST segment depression in leads II, III, aVF, V5, and V6.
+****** LEFT MAIN CORONARY ARTERY OCCLUSION
+       - Diagnosis of left main coronary artery occlusion is difficult. It can be suspected when ST elevation is present in all but inferior leads.
+       - SOme authors suggested that:
+	 + left main occlusion should be suspected when ST elevation in lead aVR is greater than in lead V1.
+	 + diffuse ST segment depression
+	 + ST segment deviation in lead V6 greater than or equal to ST segment deviation in lead V1.
+****** ST SEGMENT DEVIATION IN LEAD aVR
+       - Lead aVR faces predominantly superior-posterior wall of the left ventricle. Therefore ST segment in aVR tends to be elevated when it is depressed in anterior leads and tends to be depressed when the ST segment is elevated in anterior leads. These changes are noted mostly when ST segment deviation is large and may be overlooked when the QRS amplitude in the lead aVR is low, particularly when there is an rSR0 pattern with T wave directed opposite to the terminal QRS portion.
+       - the vectorial analysis of the lead aVR should be performed not in isolation, but rather in concert with changes in all available leads
+****** INFERIOR WALL MI AND OCCLUSION OF RCA OR LEFT CIRCUMFLEX CORONARY ARTERY
+       - In the presence of acute injury associated with an inferior MI, the ST segment is elevated in leads II, III, and aVF and occasionally in leads V5 and V6.
+       - Reciprocal ST segment depression is usually present in leads I and aVL and often in one or more precordial leads, predominantly leads V2–V3. Changes in lead V1 vary. ST segment elevation in lead V1 may be caused by the presence of right ventricular MI, which can be suspected also when reciprocal ST segment depression in lead V1 is absent.
+       - The presence of ST segment depression in lead V1 indicates either a reciprocal change alone or an association with posterior wall MI.
+****** RIGHT OR CIRCUMFLEX CORONARY OCCLUSION?
+       - Inferior MI is caused by the occlusion of the dominant left circumflex artery in about 18% of cases.
+       - Although both vessels perfuse the inferior wall, the RCA territory covers the medial part including the inferior septum, whereas the circumflex territory covers the left posterobasal and lateral area.
+       - Thus in the case of RCA occlusion, the ST vector is directed inferiorly and rightward, whereas in the case of left circumflex occlusion, the ST vector points inferiorly and leftward. Accordingly, in RCA occlusion, the ST elevation is greater in lead III than in lead II with ST depression in lead I, whereas in the case of circumflex occlusion, ST segment in lead I is either elevated or isoelectric.
+       - In the experience of these investigators, ST depression in lead I was predictive of RCA occlusion in 86 percent of cases and an isoelectric or elevated ST segment in lead I was predictive of circumflex occlusion in 77 percent of cases.
+       - In the patients with inferior MI, ST segment elevation in one or more of leads I, aVL, V5, and V6 was highly suggestive of occlusion of the left circumflex artery
+       - In patients with inferior MI, ST segment elevation in lead III exceeding that in lead II, particularly when combined with ST segment elevation in lead V1, is a powerful predictor of occlusion of the right coronary artery proximal to the acute margin of the heart
+****** LATERAL, INFEROLATERAL, AND POSTEROLATERAL MI
+       - Lateral wall involvement causes ST segment elevation in leads V5 and V6. It occurs more frequently in circumflex artery than right coronary artery occlusion, but independent of the vessel involved, ST elevation in these leads implies a larger ischemic area.
+       - Localizaton of ST segment elevation and reciprocal ST segment depression varies in patients with a lateral MI depending on the extent and location of the MI
+	 + Typically, ST segment elevation in patients with inferolateral MI is present in leads II, III, aVF, V5, and V6. The lead with maximal ST segment elevation, however, is usually V6 or V5.
+	 + In patients with high lateral MI caused by occlusion of the left circumflex coronary artery, the ST segment is usually elevated in leads I, aVL, V5, and V6; it is depressed in leads III and aVF and occasionally in lead V1
+	 + Posterior wall involvement causes reciprocal ST depression in right precordial leads. When present in patients with RCA occlusion, it indicates dominance of this vessel. *In case of circumflex artery occlusion, the posterior wall is nearly always involved. Therefore absence of ST segment depression in the right precordial leads in inferior MI is strongly suggestive of RCA involvement.* In patients with posterolateral MI, ST segment elevation may be either absent or present in leads V5 and V6
+	 + In patients with a so-called true posterior MI (i.e., without ECG evidence of inferior or lateral MI), ST segment elevation may be present in leads V7–V9 and reciprocal ST segment depression in leads V1–V3. (a criterion of 0.05 mV instead of 0.1 mV ST elevation was applied to the posterior leads)
+****** ACUTE INJURY PATTERN IN BOTH ANTERIOR AND INFERIOR LEADS
+       - In the GUSTO study, a pattern with combined ST segment elevation in at least two of leads V1–V4 and more than two leads of leads II, III, and aVF was present in 179 of 2996 patients with acute MI. Of these patients, RCA occlusion was present in 59 percent and distal LAD occlusion in 36 percent. Patients with combined anterior and inferior ST segment elevation tended to have limited MI size and a more preserved LV function
+****** ACUTE INJURY PATTERN IN RIGHT PRECORDIAL LEADS
+       - In the presence of an inferior MI, a diagnosis of RV MI is supported by a discordant pattern of ST segment elevation in V1 and ST segment depression in V2
+       - ST segment elevation in leads V3R and V4R may be present in patients with acute anterior MI but seldom extends to lead V5R. Moreover, when the ST segment elevation caused by acute anterior MI is present in leads V3R–V5R, the magnitude of the ST segment elevation diminishes from V3R to V5R, whereas in the presence of RV MI, the ST segment elevation is either the same or increases from V3R to V5R.
+****** TOMBSTONING PATTERN
+       - The term “tombstoning pattern of ST segment in acute MI” was apparently introduced by Wimalarathna. It is used infrequently to label a purely monophasic pattern occurring most often in patients with proximal occlusion of LAD coronary artery62 and suggesting a large infarct and a low LV ejection fraction.
+****** VENTRICULAR ARRHYTHMIAS DURING ACUTE ISCHEMIA
+       - The most common arrhythmias during reperfusion are PVCs and accelerated ventricular rhythms; these arrhythmias are seen more often after lysis of the occluding thrombus than after coronary angioplasty
+**** Chap 8 - Myocardial Infarction
+***** Myocardial Infarction
+****** MI with abnormal Q wave
+       - The definition of a wide Q wave does not apply to leads aVR and V1, which may normally lack the initial R wave. Additionally, in leads III, aVF, and aVL the initial R wave may be absent, and a QS or QR deflection may represent a normal variant
+       - The QS pattern in lead III is more prevalent in subjects with a horizontal heart position, many of whom are obese; the QS is more prevalent in lead aVL in slender subjects with a vertical heart position.
+       - A Q wave is also considered abnormal, even if it is less than 30 ms in duration, when it is present in leads that normally display an initial R wave (e.g., leads V2 and V3), but this definition of abnormality does not apply when the transitional zone is shifted to the left or right3 or when the electrodes are placed high with respect to the anatomic position of the heart.
+       - The Q wave develops within 6 to l4 hours (mean 9 hours) after the onset of symptoms.
+****** Q WAVE VS. NON-Q WAVE INFARCTION
+       - The terms imply that a Q wave MI is larger than a non–Q wave MI
+***** ECG Abnormalities Simulating MI
+****** 4 categories
+       - (1) loss of viable myocardium caused by lesions other than MI;
+       - (2) altered distribution of the myocardial mass;
+       - (3) altered sequence of depolarization;
+       - (4) altered position of the heart.
+****** LOSS OF VIABLE MYOCARDIUM
+****** ALTERED DISTRIBUTION OF MYOCARDIAL MASS
+       - Abnormal Q waves resembling Q waves in myocardial infarction are particularly common in patients with hypertrophic cardiomyopathy
+       - A qR pattern in the right precordial leads is often present in patients with severe RVH, usually in association with right atrial enlargement and tricuspid regurgitation
+****** ALTERED SEQUENCE OF DEPOLARIZATION AND ABNORMAL POSITION OF THE HEART
+       - In stocky or obese persons with a high diaphragm position, this causes a deep Q wave or a QS deflection in lead III. Such “positional” Q waves can be recognized because they disappear during deep inspiration. However, it is not conclusive evidence against infarction because Q waves caused by remote inferior MI sometimes behave in the same manner.
+       - “poor R wave progression” can be caused by one of the following mechanisms: (1) right to left septal depolarization, such as incomplete or complete LBBB, LVH, dextrocardia, or “corrected” transposition of the great vessels; (2) inferior deviation of the initial QRS force; (3) downward displacement of the point of origin of the initial QRS force; (4) position of the recording electrodes; or (5) pseudo-Q wave caused by perpendicular orientation of the initial QRS deflection to the lead axis
+	 + 
+**** Chap 9 - Non-Q-Infarction, NSTEMI, UA
+***** ECG DIAGNOSIS OF NQMI
+      - The T wave inversion usually evolves in the leads with ST segment elevation or ST segment depression, and the T wave is often deeply inverted. NQMI is one of the most common causes of the so-called giant negative T waves.
+      - The extent of myocardial involvement cannot be predicted from the magnitude and extent of T wave abnormalities
+***** T Wave Abnormalities
+      - In the differential diagnosis of an abnormal T wave, the following T wave characteristics suggest the presence of myocardial ischemia or NQMI:
+	+ (1) the T wave is preceded by a horizontal ST segment;
+	+ 2) the T wave is nearly symmetric and deep;
+	+ (3) T wave abnormalities occur in several contiguous leads;
+	+ and (4) the QT interval is prolonged.
+      - 
+**** Chap 16 - AtrioVentricular Junctional Rhythms
+***** Introducution
+      - Like the SA node, the AV node is an epicardial structure receiving a rich autonomic nervous supply.
+***** AV JUNCTIONAL ESCAPE RHYTHMS
+      - An escape rhythm is defined as at least three escape impulses in a row
+      - If the tracing during sinus rhythm is not available and the AV junctional rhythm is associated with an abnormally wide QRS complex, it may simulateventricular rhythm. Such a differentiation is often impossible from the body surface ECG alone unless some conducted supraventricular complexes are recorded.
+      - Scherlag et al. divided AV junctional pacemakers into two types.
+	+ With the first type, the rate ranged from 45 to 60 beats/min and increased after atropine administration. These pacemakers are located proximal to the His bundle.
+	+ With the second type, located in the His bundle, the rate ranged from 35 to 45 beats/min and did not change significantly after atropine administration.
+***** Active-Type AV Junctional Rhythm and Junctional Tachycardia
+      1. *Differential Diagnosis*
+	 - when the normal QRS complex is preceded by a negative P wave in leads II and III, a PR interval of less than 0.12 second favors a junctional origin. A negative P wave in these leads with a PR interval more than 0.12 second may indicate either an ectopic atrial or a junctional origin.
+	 - The premature complex with an RP interval less than 0.12 second is unlikely to be ventricular in origin, as the interval is too short for ventriculoatrial (VA) conduction unless an accessory pathway is present. A longer RP interval, however, does not exclude a junctional origin of the ectopic complex.
+      2. *AUTOMATIC JUNCTIONAL TACHYCARDIA*
+	 - *Tachycardia due to increased automaticity of the AVJ in adults is nearly always associated with structural heart disease.*
+	 - The heart rate is 120 to 220 beats/min, but the rate may vary from minute to minute. 2. The QRS duration is normal unless
+	 - The rhythm is generally regular, but occasionally it is grossly irregular, mimicking atrial fibrillation or multifocal atrial tachycardia.
+	 - In the presence of retrograde atrial capture, automatic junctional tachycardia is difficult to differentiate from reentrant AVor AV nodal tachycardia on the body surface ECG:
+	   + *Some irregularity of the rhythm and varying of the heart rate favor the automatic mechanism rather than the reentrant mechanism*. Automatic junctional tachycardia does not respond to vagal stimulation, which may or may not terminate an AV nodal or AV reentrant tachycardia
+      3. ACCELERATED AV JUNCTIONAL RHYTHM (NONPAROXYSMAL JUNCTIONAL TACHYCARDIA)
+	 - The rate of junctional discharge is only moderately increased, being about 70 to 130 beats/min
+***** AV Nodal Reeentry
+****** AV NODAL REENTRANT  TACHYCARDIA
+       1. *Common AV Nodal Tachycardia*
+	  - The refractory period of the slow pathway is shorter than that of the fast pathway
+	  - In most patients with AVNRT, the slow pathway conducts as fast as 170 to 180 beats/min and in some cases up to 250 beats/min
+	  - In most patients with AVNRT, the fast retrograde pathway conducts as fast as 180 beats/min and in some cases 250 beats/min or more.
+	  - Atrioventricular nodal reentrant tachycardia is the most common form of paroxysmal supraventricular tachycardia, comprising approximately 50 percent of all regular supraventricular tachycardias.
+	  - Characteristics
+	    1) The onset and termination of the tachycardia are abrupt. The episode may last seconds, minutes, hours, or days.
+	    2) The episode is often initiated by a premature atrial impulse with prolonged PR interval.
+	    3) The heart rate is usually *140 to 220 beats/min,* and the rhythm is regular.
+	    4) The P-QRS complex has the morphologic characteristics of a junctional complex described previously. The P waves are inverted in leads II, III, and aVF. The P waves may superimpose on, follow, or *(rarely) precede the QRS complex.*
+	       + In the common, or typical, form of AVNRT, which is seen in 90 to 95 percent of cases, the retrograde P waves are either totally or partially masked by the QRS complexes.
+	       + The P waves cannot be detected on the surface ECG in about 50 percent of the typical form.
+	       + In the other near 50 percent, the P waves distort the terminal portion of the QRS complex and may appear as “pseudo-S” waves in the inferior leads or “pseudo-R” waves in lead V1.
+	    5) The QRS complex may be normal or abnormally wide because of aberrant ventricular conduction or a preexisting intraventricular conduction defect
+       2. *Uncommon AV Nodal Tachycardia*
+	  - In an uncommon variant of AVNRT (uncommon AVNRT) *the anterograde limb is the fast pathway and the retrograde limb the slow pathway*, resulting in a long RP' interval and a short P'R interval
+	  - However, in many cases the P0R interval is still longer than the RP0 interval
+	  - *The ECG pattern is indistinguishable from that of AV reentrant tachycardia, utilizing a slowly conducting accessory pathway in the retrograde direction*
+	  - Some patients have three or more pathways, and both AV nodal pathways forming a reentrant circuit may be “slow,” giving rise to a slow-slow type of AVNRT.
+       3. *DIFFERENTIAL DIAGNOSIS OF AVNRT*
+	  - In summary, the common form of AV nodal reentrant tachycardia can be differentiated from the other supraventricular tachycardias if the retrograde P wave is totally or partially superimposed on the QRS complex.
+	  - Because one cannot always be sure that the former is the case when the P wave cannot be identified, the presence of a retrograde P wave, which is partially seen at the end of the QRS, is practically diagnostic of this arrhythmia.
+	  - A definitive diagnosis of the uncommon form of AVNRT is difficult without intracardiac electrophysiologic studies because the duration of the RP' interval is similar to that in the AV reentrant tachycardia utilizing concealed A-V bypass.
+	  - According to Wellens, however, the differentiation can be made on clinical grounds because the uncommon AVNRT is usually paroxysmal, whereas A-V reentry with slow accessory pathway is usually incessant and prone to causing cardiomyopathy
+       4. *Reciprocal Impulses*
+	  - Reciprocal impulses (echo beats) occur when the impulse activates the chambers (atria or ventricles), returns, and reactivates the same chambers again.
+	  - The above term is used when the reentry phenomenon is limited to one or two complexes. If the process continues, reentrant tachycardia develops
+**** Chap 17 - Ventricular Arrhythmias
+***** Premature Ventricular Complexes
+****** SITE OF ORIGIN
+       - As a broad general rule, the right ventricular ectopic pacemaker generates a ventricular complex with left bundle branch block (LBBB) pattern, and the left ventricular ectopic pacemaker generates a ventricular complex with right bundle branch block (RBBB) pattern
+       - A superior frontal plane QRS axis under such circumstance suggests a location of the pacemaker in or near the posterior division of the left bundle branch. A rightward QRS axis suggests a location in or near the anterior division of the left bundle branch.
+       - A basal location of the pacemaker is associated with dominant anterior QRS forces, with most or all of the precordial leads displaying an upright QRS complex
+       - An apical location generates posteriorly oriented QRS forces and mostly negative QRS complexes in the precordial leads
+       - errors can be made when attempting to localize the site of origin of a PVC on the basis of the morphology of the ventricular complex on the surface ECG, especially in patients with coronary artery disease.
+****** Monomorphic VT (Paroxysmal VT)
+       1. The tachycardia is called sustained if it lasts longer than 30 seconds or requires intervention for termination
+       2. VENTRICULAR RATE
+	  - An ectopic ventricular rhythm with a rate below 110 beats/min is generally referred to as accelerated ventricular rhythm or nonparoxysmal ventricular tachycardia
+	  - When the ventricular rate is more than 200 beats/min and the tracing resembles a continuous sine wave, the rhythm is usually called ventricular flutter.
+       3. USING THE ECG TO LOCALIZE THE SITE OF ORIGIN OF VT *Xem sau*
+       4. 
+**** T wave abnormal
+***** DIFFUSE (“GLOBAL”) T WAVE INVERSION
+      - The term “diffuse inversion” is applied when the T wave is inverted (and often symmetric) in all standard leads except aVR, although leads V1, III, and aVL are occasionally spared
+      - The most common causes were myocardial ischemia and central nervous system disorders. Other conditions included pericarditis, myocarditis, apical hypertrophic cardiomyopathy, cardiac metastases, carotid endarterectomy, cocaine abuse, and pheochromocytoma. In some cases, no associated condition was apparent
+***** ISOLATED T WAVE INVERSION IN ADULTS
+      - Another rare variant is an isolated negative T wave in the mid-precordial leads V3 and V4. In such cases the T wave tends to be diphasic rather than frankly negative. This pattern sometimes occurs in the absence of heart disease
+***** Postextrasystolic Abnormalities
+      - The cause of occasional primary T wave changes in the first and sometimes also the second or third postextrasystolic complex is not known
+***** Posttachycardia Abnormalities
+      - In about 20 percent of patients with paroxysmal tachycardia, the normal upright T wave becomes inverted for hours or days after termination of the episode3 or interruption of tachycardia by ablation.
+      - This may occur after ventricular or supraventricular tachycardia and is unrelated to the age of the patient or to the presence or absence of heart disease
+**** Chap 12 - Diseases of the Heart and Lungs
+***** ARRHYTHMOGENIC RIGHT VENTRICULAR DYSPLASIA
+      1. The typical ECG pattern of patients with symptomatic arrhythmogenic right ventricular dysplasia (ARVD) resembles that of incomplete or complete RBBB with a negative T wave in the right precordial leads, but the terminal QRS deflection (r' or R') may be “focal,” which means it is not represented by a synchronous terminal QRS delay in other leads.
+      2. Several investigators have considered the epsilon wave a major diagnostic criterion of dysplasia, but it is probably a marker of a more advanced disease because its overall incidence in 75 cases reported by Bender et al. was only 5.5 percent.
+      3. At the same time a late potential in the shape of an epsilon appears sometimes in patients with other cardiomyopathies, probably corresponding to the underlying sites of slow conduction.
+      4. The most prevalent ECG criterion was prolonged S wave upstroke in leads V1–V3, measuring >=55 ms. This criterion correlated with severity of the disease and induction of VT on electrophysiological study
+***** ACUTE PULMONARY EMBOLISM
+      1. Cause of ECG changes:
+	 1) increased sympathetic stimulation;
+	 2) change in cardiac position;
+	 3) dilation of the right ventricle; and
+	 4) possible ischemia of the right ventricle. The last two factors, in turn, can be attributed to acute pulmonary hypertension.
+      2. 
+**** Chap 21 - Effect of Drugs on the Electrocardiogram
+***** 
+*** Bài học
+**** Normal ECG
+     - Phân tích kiểu hình của QRS nên dựa trên trục của điện tim
+     - Ở DIII, do thường vuông góc với trục điện tim nên kiểu hình dễ thay đổi và có thể biến đổi theo hô hấp
+     - Người trẻ thì tim thường thẳng sau đó dần ngang (leftward shifting), người béo phì tim cũng thường nằm ngang hơn.
+     - 3 vector QRS ở chuyển đạo trước ngực:
+       1. Khử cực vách và cạnh vách: hướng sang phải - ra trước
+       2. Khử cực thất hướng sang trái
+       3. Khử cực phần nền sau: hướng lên trên - ra trước hoặc ra sau 
+     - Đo đoạn PR nên đo ở chuyển đoạn P lớn nhất, QRS dài nhất, để tránh đoạn đẳng điện ảo
+     - SÓng T: trục frontal thường hướng sang trái - dưới - trước. ở người trẻ, đặc biệt là phụ nữ có thể hướng ra sau, sau đó từ từ hướng ra trước khi lớn tuổi. trục horizontal thường trái trước, do đó V5,6 T luôn dương, V1 có thê âm, V2 - 3 có thể âm, 2 pha  hoặc flat nhưng hiếm
+     - ST chênh lên có thể do 2 cơ chế (lý thuyết): Dòng điện tổn thương tâm thu hoặc dòng điện tổn thương tâm trương
+     - Trục sóng ST nếu có thường: frontal hướng xuống - sang trái nên chuyển đạo dưới thường ST chênh lên, hiếm khi chênh xuống. Trục Horizontal thì hướng sang trái - ra trước, nên ST chênh xuống ở chuyển đạo trước ngực thường là bất thường. 
+     - Thời gian sóng Q quan trọng trong chẩn đoán nhồi máu cơ tim, ổ DIII Q có thể dài nhất đến 0.04s
+     - QS có thể có ở V1, ở V2 thì hiếm hơn
+     - QT phụ thuộc vào nhịp tim và thường phải mất vài chu kỳ thì mới ổn định nến nhịp tim có thay đổi. 
+**** Common Normal Variants
+     - S1S2S3: Nhiều tác giả định nghĩa khác nhau, s nhỏ ở DI,II, III rất thường gặp, "true S1S2S3" nghĩa là S > R ờ 2 hoặc 3 chuyển đạo D thì ít gặp hơn. Có thể gặp trong lớn thất phải, khí phế thủng. Lưu ý phân biệt S1S2S3 (S2>S3) với trục chuyển trái (S3>S2).
+**** Ventrical Enlargment
+     1. LVH
+	- Tiêu chuẩn điện thế Sokolov Lyon (S2 + R5 or 6 >= 35mm): áp dụng cho nhóm người trên 40 tuổi, QRS < 0.12s. Áp dụng cho người trẻ nên cẩn thận, nên tìm thêm các tiêu chí kèm theo: trục lệch trái, nhánh nội điện V5-6 > 0.05s, QRS 0.11s, R6 >R5 là một gợi ý.
+	- Ventricular strain pattern: ST chênh xuống cong lồi, T âm ngược với QRS (pressure overload), T cao + ST chênh lên cùng hướng QRS (volume overload)
+	- Thỉnh thoảng có thể bắt gặp Q ở chuển đạo dưới trong LVH, cơ chế chưa rõ, gây nhầm lẫn với nhồi máu cơ tim.
+     2. RVH
+	- Tiêu chuẩn trục lệch phải > 110, R > S (or > 0.7 mV) ở V1, S > R (or > 0.7 mV) ở V5or6, QRS < 0.12s.
+**** Acute ischemic pattern
+     1. Tắc đoạn gần LAD
+	- Trục ST *hướng lên trên*.
+	- ST chênh lên: /DI/, aVR, aVL, V1 - V3
+	- ST chênh xuống: DIII, AVF, V5, V6
+     2. Tắc đoạn gần septal, không tắc Diagonal
+	- Trục ST hướng xuống dưới theo chiều của AVL?, hướng lên trên theo chiều của V1 - V4?, *hơi hướng sang phải*
+	- ST chênh lên: DII, DIII, aVF, V1 - V6?
+	- *ST chênh xuống: aVL* 
+     3. Tắc đoạn gần Diagonal, không tắc septal
+	- Trục ST hướng lên trên, hơi hướng sang trái?
+	- ST chênh lên: aVL, V1? - V6
+	- ST chênh xuống: aVF, 
+     4. Tắc Diagonal
+	- ST chênh lên DI, aVL
+	- ST chênh xuống: DIII, aVF
+     5. Tắc đoạn xa LAD
+	- Trục ST hướng xuống dưới
+	- ST chênh lên DII, DIII, aVF, v5, v6
+	- ST chênh xuống *aVR*
+	- 
+	- Typical findings are the presence of Q waves in leads V4, 5 , 6 and and the *absence of ST depression in the inferior leads.*
+	- In this situation there is ischemia in the infero-apical part therefore the ST vector will point inferiorly. the ST segment in the inferior leads will become isoelectric or even positive. 
+     6. Tắc nhánh vách
+	- Trục ST hướng sang V1, V2
+	- ST chênh lên V1, V2
+	- ST chênh xuống DII, DIII, aVF, V5, V6
+     7. Tắc leftmain
+	- khó, có thể gần giống tắc đoạn gần LAD
+	- diffuse ST chênh xuống, chênh lên aVR, có thể v1
+     8. Tắc RCA hoặc LCx
+	- Phân biệt RCa hoặc Lcx
+	  + RCA: 80% trường hợp, DIII > DII, DI chên xuống, có chênh lên ở V1
+	  + Lcx: ST chênh lên DI, aVl, V5, v6
+     9. SUMMARY: ECG-ANGIOGRAPHIC CORRELATION FOR MI
+	- Anteroseptal, anterior, extensive anterior infarction: Likely the LAD coronary artery. If leads I and aVL are also involved in an anterior extensive infarct, the culprit lesion is likely to be proximal to the diagonal branch.
+	- Inferior infarction: Right coronary artery (RCA) or, less likely, the left circumflex artery (LCX).
+	- Inferoposterior infarction: RCA or LCX.
+	- Inferior infarction plus right ventricular infarction: Proximal RCA.
+	- Anterolateral, high lateral, inferolateral, posterolateral infarction: LCX
+     10. The other 4 recommended locations are:
+	 - septal (Q in V1, V2),
+	 - apical-anterior (Q in V1, V2 to V4–V6),
+	 - extensive anterior (Q in V1, V2 to V4–6, aVL, and sometimes I),
+	 - and inferior (Q in II, III, and aVF)
+     11. tiến triển trong AMI
+	 - In a classic sequence of events, during MI the first ECG change is the “hyperacute” T wave (see Chapter 7) followed by ST segment elevation, Q waves (possibly abnormal R waves), decreased ST segment elevation with the beginning of T wave inversion, and return of the ST segment to baseline with symmetric T wave inversion and a prolonged QT interval
+	 - The extent, magnitude, and time course of ST elevation and the associated reciprocal ST segment depression are highly variable. In most cases the initial ST segment elevation decreases markedly during the first 7 to 12 hours after the onset of chest pain and subsides within a few days.
+     12. Nhồi máu cơ tim cũ
+	 - The position of the heart also plays a role in the appearance of Q waves in the “inferior” leads, creating false patterns of an inferior MI. Conversely, in patients with an inferior infarction, *a diminutive R wave may remain or reappear after the initial presence of a Q wave in leads III and aVF* and thus obscure the presence of a remote inferior infarction. In such cases, suspicion of the past inferior infarction is enhanced by the presence of a typical symmetric inverted T wave in leads II, III, and aVF or a first-degree AV block (or both).
+	 - The likelihood of correctly diagnosing an inferior infarction is enhanced when the Q wave is present not only in lead III but also in leads aVF and II. Because lead aVF represents half of the sum of leads II and III, the presence of a Q wave in both leads II and III always results in a Q wave in lead aVF. When the Q wave is present in lead III but absent in lead II, the Q wave in aVF may be present or absent a Q wave in lead aVF may be present if there is a Q wave in lead II but not in lead III. In such cases, inferior infarction is unlikely. Disappearance of the Q wave in lead III or aVF (or both) during deep inspiration lessens the likelihood of inferior MI, but unfortunately this finding lacks specificity
+	 - Diagnosis of an old posterior wall MI is facilitated by the presence of an upright symmetric T wave in association with increased R amplitude in leads V1 and V2
+     13. Q WAVES IN PREMATURE VENTRICULAR COMPLEXES
+	 - It has been reported that a QR pattern in a premature ventricular complex (PVC) with a Q wave >40 ms and a Q amplitude greater than the R amplitude in lead V1 (V2 - V4 ?) has 93 to 95 percent specificity for detection of an anterior MI. A Q wave in leads III and aVF is of more limited value for detecting an inferior infarction.
+     14. PE:
+	 - pattern is caused by a change in cardiac position and perhaps an intraventricular conduction disturbance. A large PE may also cause dilatation and ischemia of the right ventricle, dilatation of the right atrium, and increased sympathetic stimulation. The corresponding ECG changes may include sinus tachycardia, atrial arrhythmias (particularly atrial flutter), axis shift in the frontal plane, inverted Twaves in two or more precordial leads, “clockwise rotation,” “P pulmonale,” and incomplete or complete RBBB
+**** pericarditis DIFFERENTIATION FROM MI,  AND MYOCARDITIS
+     1. Myocardial Infarction
+	- the ventricular surface area generating the ST vector is usually more extensive with typical pericarditis than with MI. Therefore with pericarditis, the elevation of the ST segment is recorded in more standard leads than it is during MI. At the same  time, reciprocal depression of the ST segment with pericarditis is recorded in fewer standard leads than with infarction
+	- The absence of QTc lengthening in pericarditis may help differentiate pericarditis from subacute or chronic ischemia.
+	- During the acute injury stage of MI the elevated ST segment is typically convex, and the terminal portion of the QRS complex is frequently obliterated and incorporated into the ST segment. During the acute stage of pericarditis the elevated ST segment is usually concave, and no component of the QRS complex is obliterated, which means that when the S wave is pulled up by the elevated ST segment, *the J point is clearly discernible.*
+	- *Fusion of the ST segment and T wave into a single monophasic curve practically rules out acute pericarditis as the sole cause of ST segment elevation*
+     2. Myocarditis
+	- The most common finding associated with myocarditis is diffuse T wave inversion without ST segment shift, although ST segment displacement, usually depression, occurs occasionally. Often myocarditis and pericarditis coexist
+**** Anatomy of heart
+     - Thất phải chiếm phần lớn bên phải trước ở góc nhìn trước sau
+     - Thất phải và thất trái chiếm diện tích ngang nhau ở góc nhìn hoành
+     - Vách liên thất cong sang phải, đi từ mặt sau ra trước, từ phải sang trái, chéo từ phần phần giữa hoành hướng lên bên trái.
+     - Block phân nhánh trái trên sẽ ảnh hưởng trục điện tim ở mặt nhìn frontal do hướng khử cực sẽ bị chuyển thành từ dưới lên trên, ngược lại với block phân nhánh trái dưới. Block nhánh phải thì không ảnh hưởng trục điện tim ở frontal do hưởng khử cực bên trái đồng  đều sau đó đi qua cơ thất bên phải cũng đồng đều ở các hướng. 
+****  Note nhanh (cần xem lại)
+***** Tăng kali máu
+      1. T cao nhọn, hẹp
+      2. QRS rộng
+      3. PR dài
+      4. P nhỏ dần -> invisible
+      5. nhịp bộ nối
+      6. nhịp thoát thất
+***** Thuốc chống loạn nhịp
+      1. Cơ chế:
+	 - Sodium channel–blocking effect slows conduction in all cardiac fibers except the sinoatrial (SA) node and the AV node. In the latter structures, conduction depends mainly on the calcium channel.
+	 - Vagal action slows the activity of the pacemakers and prolongs atrioventricular (AV) conduction
+	 - otassium channel–blocking drugs prolong repolarization (i.e., the duration of cardiac action potential) and thereby prolong the duration of the effective refractory period
+	 - The two calcium channel–blocking drugs verapamil and diltiazem slow automaticity and conduction in the SA and AV nodes but not in other cardiac tissues.
+	 - The dihydropyridine class of calcium channel– blocking drugs, which shares the negative inotropic and vascular effects with the above two drugs, is devoid of significant action on the SA and AV nodes at therapeutic concentrations.
+	 - Block of the sodium-potassium pump by digitalis glycosides shortens the duration and alters the repolarization slope of the ventricular action potential because of altered sodium, potassium, and calcium transmembrane gradients
+	 - Use-dependent (or rate-dependent) effect describes an increase in the sodium channel block (i.e., increased slowing of conduction) associated with increased heart rates.
+	 - Reverse use-dependent effect applies to potassium channel–blocking drugs and means that the degree of block increases with decreasing heart rate; that is, the action potential duration (and refractoriness) deviates toward longer values from the predicted RR-dependent duration more at slow heart rates than at fast heart rates
+	 - 
+****** CLASSIFICATION
+       1. IA
+	  - quinidine, procainamide
+	  - These drugs block not only the sodium channel but also one or more of the potassium channels and to a degree the calcium channel
+       2. Class IB drugs
+	  - include lidocaine, phenytoin.
+	  - These drugs block the sodium current predominantly at rapid heart rates and in depolarized
+       3. IC
+	  - encainide, flecainide, propafenone, tricyclic antidepressants (e.g., imipramine and amitriptyline).
+	  - These drugs block sodium entry into the myocyte more tenaciously at therapeutic doses and have a strong use-dependent effect.
+       4. II
+	  - Antiarrhythmic drugs in class II (i.e., b-adrenergic blockers)
+	  - depress automaticity of the SA node and prolong conduction time through the AV node (AH interval
+       5. III
+	  - Class III action prolongs repolarization, most often by blocking one of the potassium channels, but it may be produced also by other mechanisms, such as increased inward sodium current
+	  - Some of the potassium channel–blocking drugs in this category are sotalol, amiodarone
+       6. IV
+	  - Class IV action inhibits the calcium inward current
+****** Hoạt động điện của tế bào cơ tim
+       1. loại đáp ứng nhanh
+	  - cơ thất và sợi purkinkje
+	  - na ca |K|
+	  - 5 pha
+	    + pha 0: Na vào nhập bào qua kênh na nhanh
+	    + Pha 1: ka xuất
+	    + Pha 2: bình nguyên ca nhập, Na vào ka ra qua kênh na chậm
+	    + Pha 3: Na ca ra, ka ra?
+	    + Pha 4: trở về bình thường vì hoạt động của bơm Na-K
+	  - tóm tắt: Na - ka - Ca - Na/K
+       2. Loại đáp ứng chậm
+	  - Nút xoang và nút nhĩ thất
+	  - Pha 0: không dốc nhiều, do khử cực không dựa vào kênh Na+ nhanh, mà dựa vào kênh Ca++ type L
+***** Định vị trí ngoại tâm thu thất
+      1. V1
+	 - Upright: RBBB - thất trái
+	 - Downgoing: LBBB - Thất phải hoặc vách (thường gặp ở vách hơn)
+      2. DI
+	 - upright: vách
+	 - down: mỏm hoặc thành bên
+      3. DII, DIII, aVF
+	 - up: thành trước
+	 - down: thành dưới
+      4. positive concordance: base
+      5. Negative concordance: apex
+      6. idiopathic VT
+	 - Chia thành outflow tract (thường nhất RVOT), bó nhánh, vòng van, và khác 
+	 - ROVT: LBBB, trục dưới, R trasistion sau hoặc từ v3 (nếu trước V3 Aortic cusp VT)
+***** Phân biệt VT vs SVT
+      - Các đặc điểm VT
+	1. A: trục tây bắc
+	2. B: rộng > 160ms
+	3. C: concordance
+	4. D: Phân ly nhĩ thất, nhịp fusion, capture beat
+	5. E: left ear
+	6. Brugada sign: Distance from onset of R wave to nadir of S wave is > 100ms in leads V1-6
+	7. Josephson sign
+      - The Basel algorithm 2 trong 3 (sec 93, spec 90)
+	+ Tiền căn nhồi máu cơ tim, suy tim EF < 35, ICD
+	+ time to first peak DII or avR > 40ms
+	+ 
+
+* Strong medicine (youtube chanel)
+** Tachycarrhythmias
+*** 6 Questions
+    1. What is the heart rate?
+       - [[./img/ECG/Tachyarrhythmia_question1.jpg]]
+    2. Is the rhythm regular, regularly irregular, irregularly irregular?
+    3. Are the QRS complexes wide or narrow?
+       - [[./img/ECG/Tachyarrhythmia_question3.jpg]]
+    4. What is the atrial activity?
+       - [[./img/ECG/Tachyarrhythmia_question4.jpg]]
+    5. What is the relationship of P waves to QRS complexes?
+    6. Is the onset of the arrhythmia abrupt or gradual? Is there any rate variation during the arrhythmia?
+       - [[./img/ECG/Tachyarrhythmia_question6.jpg]]
+*** Use of vagal maneuvers an Adenosine
+    - [[./img/ECG/Tachyarrhythmia_use_of_vagal_maneuvers_and_adenosine.jpg]]
+    - 
+** AV Blocks
+   - [[./img/ECG/AV_block.jpg]]
+** AMI
+   1. New conduction system disease complicating an acute MI
+      - [[./img/ECG/Conduction_system_in_AMI.jpg]]
+** Long QT syndrome
+   - [[./img/ECG/Drugs_cause_longQT.jpg]]
+   - 

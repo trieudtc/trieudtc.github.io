@@ -1,0 +1,8 @@
+:PROPERTIES:
+:ID:       de47db73-ef8f-45a9-b6aa-2ce08559556b
+:END:
+#+title: Right Ventrical Assessment
+
+1. 2 bài dánh giá chức năng thất phải từ AHA ACC
+   - [[https://www.ahajournals.org/doi/10.1161/circulationaha.107.653576][Right Ventricular Function in Cardiovascular Disease, Part I]]
+   - [[https://www.ahajournals.org/doi/10.1161/CIRCULATIONAHA.107.653584][Right Ventricular Function in Cardiovascular Disease, Part II]]

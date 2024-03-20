@@ -1,0 +1,21 @@
+:PROPERTIES:
+:ID:       11be0ff6-e795-4ff2-82ea-f2c5d0c965e2
+:END:
+#+title: Arrhythmias
+
+* Introduction
+* Class I
+** Mechanism
+   - Block kênh Natri
+   - [[./img/Arrhythmias/Class_I_drugs.jpg]]
+** Indicationsw
+   - [[./img/Arrhythmias/Class_I_indications.jpg]]
+** Side effects
+   - [[./img/Arrhythmias/Class_I_side_effects.jpg]]
+* Class II
+  - [[./img/Arrhythmias/beta_blockers.jpg]]
+* Class III
+  - [[./img/Arrhythmias/Class_III_drugs.jpg]]
+  - [[./img/Arrhythmias/Use_dependence_and_reverse.jpg]]
+* Summary
+  -[[./img/Arrhythmias/Drugs_summary.jpg]]

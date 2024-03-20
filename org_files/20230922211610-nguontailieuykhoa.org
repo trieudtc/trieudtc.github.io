@@ -1,0 +1,70 @@
+:PROPERTIES:
+:ID:       32f3081d-ba61-4e68-ac60-8326d2eb2b77
+:END:
+#+title: NguonTaiLieuYKhoa
+* Phương pháp cập nhật y văn
+** Brainstorming
+   + Mục tiêu hiện tại là thu nạp kiến thức. Tôi chưa đạt đến trình độ theo dõi cái mới liên tục.
+   + Do đó hiện tại nên tập trung thu nạp kiến thức, cập nhật y văn chỉ nên phụ thôi (hội thảo, đàn anh, các trang tổng quát như jwatch.org, medscape.com, AHA - ACC, ESC, AFP,...)
+** Search queries in Pubmed
+** Thu nạp kiến thức
+*** Từ các textbook, guideline, review, overview, clinical
+    https://www.mayoclinicproceedings.org/ (hay)	CME  - treatment approach
+    https://www.thelancet.com/clinical/diseases (hay)
+    https://www.thelancet.com/clinical/series (hay)
+    https://journalwise.acponline.org/Articles/SpecialtyAlerts (hay)
+    https://www.acponline.org/clinical-information
+    https://jamanetwork.com/journals/jamacardiology
+    https://www.healio.com/cardiology/learn-the-heart/cardiology-review 
+    https://www.healio.com/cardiology/learn-the-heart/cardiology-review/clinical-trials (Tóm tắt, nghiên cứu nền tảng)
+    https://www.aafp.org/afp/viewRelatedDepartmentsByDepartment.htm?departmentId=17
+    https://www.aafp.org/afp/viewRelatedDepartmentsByDepartment.htm?departmentId=12
+    https://www.aafp.org/afp/topicModules/viewAll.htm
+    https://www.aafp.org/journals/afp/explore/departments.html
+    https://www.radcliffecardiology.com/electrophysiology-arrhythmia
+    https://www.iscpcardio.org/ 
+    https://www.bmj.com/education 
+    https://www.bmj.com/too-much-medicine 
+    http://annals.org/aim/journal-club 
+    http://annals.org/aim/in-the-clinic 
+    https://www.bmj.com/  (proxy hoặc vpn nauy -> truy cập miễm phí)	
+* Nguồn tài liệu y khoa
+** ESC
+   Consensus & Position Papers
+   https://www.escardio.org/Guidelines/Consensus-and-Position-Papers 
+   ESC recommend reading (8 phân mục)
+   https://www.escardio.org/Guidelines/Recommended-Reading/ 
+   E-journal of Cardiology Practice (16 volume từ năm 2003)
+   https://www.escardio.org/Journals/E-Journal-of-Cardiology-Practice 
+   ESC journal family (nhiều tạp chí)
+   https://www.escardio.org/Journals 
+   ESC Virtual Journal
+   https://www.escardio.org/Journals/Virtual-Issues 
+** AHA/ACC
+   https://www.acc.org/guideline (guidelines, expert consensus documents, ....)
+   https://professional.heart.org/professional/GuidelinesStatements/UCM_492626_Guidelines-Statements-Search-Page.jsp 
+** Sách về tim mạch học
+*** General cardiology
+    1. Practical Cardiovascular Medicine 2nd Edition by Elias B. Hanna, nhiều người recomend
+    2. Cardiology: Handbook for Clinicians First Edition by Elias Hanna, Cũng nhiều người recommend, cùng tác giả phía trên
+    3. Cardiology: An Illustrated Textbook, có người recommend cao hơn cả Braunward, đặc biệt là về anatomy
+*** Echocardiography
+    1. The Echo Manual (Third edition) by Jae Oh, Great book introductory book. This edition was published in 2006. However, it covers most of the things that you need to know during your first echocardiography month, very easy to read and has a lot of  pictures including tomographic anatomy to understand echo views.
+    2. Clinical Echocardiography Review: A Self-Assessment Tool (First edition), Echo board exam prep book
+*** Cath
+    1. Grossman & Baim’s Cardiac Catheterization, Angiography, and Intervention (Eight edition)
+    2. Cardiac Catheterization Handbook (Fifth edition) by Morton Kern, Good book for first cath lab rotation
+*** ECG
+    1. The Complete Guide to ECGs, tai dien thoai
+** Sách cấp cứu
+   1. Manual of emergency airway management (2012)
+   2. Wounds and Lacerations. Emergency Care and Closure-Saunders (2012)
+   3. Avoiding Common Errors in the Emergency Department
+** Sách ICU
+   1. Marino - The ICU Book, most recommend
+   2. Oh's Intensive Care Manual
+   3. 
+** BIostat
+   1. Users' Guides to the Medical Literature
+** Nghệ thuật khám bệnh
+   1. The Rational Clinical Examination

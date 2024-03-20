@@ -1,0 +1,15 @@
+:PROPERTIES:
+:ID:       0c3987cd-051e-4819-bf83-88aad2feb908
+:END:
+#+title: Prob and Stat
+
+* Probability and Random Variables (18.600)
+** Permutations and combinations
+   1. Permutation
+      - A function f is called an *involution* if f(f(x)) = x for all x.
+      - A permutation is an involution if all cycles have length one or two.
+      - A permutation is “fixed point free” if there are no cycles of length one.
+   2. Binominal coefficent
+      - $\left( \begin{array}{c} n\\k \end{array} \right)  := \dfrac{n!}{k!(n-k)!}$
+      - $\left( \begin{array}{c} n\\k \end{array} \right)  = \left( \begin{array}{c} n -1 \\ k - 1 \end{array} \right) + \left( \begin{array}{c} n - 1 \\ k \end{array} \right)$
+** 

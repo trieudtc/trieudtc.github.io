@@ -1,0 +1,32 @@
+:PROPERTIES:
+:ID:       7aa1a61b-717e-495a-bb4f-5bafb3445276
+:END:
+#+title: Pulmonary embolism
+
+* 2019 ESC guideline
+** Chẩn đoán
+*** Assessment of clinical (pre-test) probability
+    1. The revised Geneva clinical prediction rule
+    2. The Wells clinical prediction rule
+    3. Regardless of the score used, the proportion of patients with confirmed PE can be expected to be ~10% in the low-probability category, 30% in the moderate-probability category, and 65% in the high probability category. When the two-level classification is used, the proportion of patients with confirmed PE is ~12% in the PE-unlikely category and 30% in the PE-likely category.
+*** Xử trí tiếp theo
+    1. Khởi động điều trị kháng đông ngay với bệnh nhân có xác suất PE từ trung bình - cao, trong lúc thực hiện các test chẩn đoán xác định. IC
+    2. D-dimer (ưu tiên loại nhạy cao), ở bệnh nhân ngoại trú/cấp cứu, có xác xuất thấp - trung bình để loại trừ PE. IA
+    3. Dùng D-dimer điều chỉnh theo tuổi (tuổi * 10 mcg/L, ở bệnh nhân > 50 tuồi).
+    4. CTPA
+    5. It is recommended to accept the diagnosis of VTE (and PE) if a CUS shows a proximal DVT in a patient with clinical suspicion of PE. IA
+    6. If CUS shows only a distal DVT, further testing should be considered to confirm PE. IIaB
+*** Đánh giá độ nặng và nguy cơ tử vong sớm
+    1. Huyết động không ổn định hoặc
+    2. PESI + RV dysfunction + Tăng men tim
+*** Điều trị giai đoạn cấp
+    1. Điều oxy
+    2. Điều trị suy thất phải cấp
+       + Dịch: loading cẩn thận, NaCl hoặc lactate Ringer, <= 500ml trong 150 - 30 phút.
+       + Vasopressor và inotropes: Noradrenalin 0.2 - 1.0 mcg/kg/min, Dobutamin 2 -20 mcg/kg/min.
+    3. Kháng đông
+       + Use of UFH is nowadays largely restricted to patients with overt haemodynamic instability or imminent haemodynamic decompensation in whom primary reperfusion treatment will be necessary. UFH is also recommended for patients with serious renal impairment [creatinine clearance (CrCl) <_30 mL/min] or severe obesity.
+       + UFH, bao gồm liều bolus theo cân nặng, khởi đầu ngay cho bệnh nhân nhân *nguy cơ cao*. IC
+       + Systemic thrombolytic therapy is recommended for high-risk PE. IB
+       + Norepinephrine and/or dobutamine should be considered in patients with high-risk PE. IIaC.
+       + Kháng đông nên được sử dụng ngay cho bệnh nhân có *xác suất* PE trung bình - cao. 

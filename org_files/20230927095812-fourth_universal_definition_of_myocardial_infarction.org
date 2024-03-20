@@ -1,0 +1,33 @@
+:PROPERTIES:
+:ID:       1d6ddbee-37c4-49e9-92d3-8f9e542d3a56
+:END:
+#+title: Fourth universal definition of myocardial infarction
+
+* Draft
+  1. Type 1: tắc nghẽn
+  2. Type 2: cung cầu oxy - deman
+  3. type 3: tử vong nghi do nhồi máu cơ tim hoặc được chứng minh trên tử thiết
+  4. type 4: MI do PCI
+  5. type 5: MI do CABG
+* Pathological characteristics of myocardial ischaemia and infarction
+  1. the first ultrastructural changes and are seen as early as 10–15 min after the onset of ischaemia
+  2. Experimentally, necrosis progresses from the subendocardium to the subepicardium over several hours. 
+* Biomarker detection of myocardial injury and infarction
+  1. Increases in cTnI values have not been reported to occur following injury to non-cardiac tissues.
+  2. Biochemical data indicate that injured skeletal muscle expresses proteins that are detected by the cTnT assay, leading to some situations where elevations of cTnT could emanate from skeletal muscle.
+  3. 
+* Criteria for type 1 MI
+  - Detection of a rise and/or fall of cTn values *(> 20%)* with at least one value above the 99th percentile URL and with at least one of the following:
+    + Symptoms of acute myocardial ischaemia;
+    + New ischaemic ECG changes;
+    + Development of pathological Q waves;
+    + Imaging evidence of new loss of viable myocardium or new regional wall motion abnormality in a pattern consistent with an ischaemic aetiology;
+    + Identification of a coronary thrombus by angiography including intracoronary imaging or by autopsy.
+* Criteria for prior or silent/unrecognized MI
+  - Any one of the following criteria meets the diagnosis for prior or silent/unrecognized MI:
+    + Pathological Q waves, with or without symptoms, in the absence of non-ischaemic causes;
+      1) Any Q wave in leads V2–V3 > 0.02 s or QS complex in leads V2–V3.
+      2) Q wave ≥ 0.03 s and ≥ 1 mm deep or QS complex in leads I, II, aVL, aVF or V4–V6 in any two leads of a contiguous lead grouping (I, aVL; V1–V6; II, III, aVF)
+      3) R wave > 0.04 s in V1–V2 and R/S > 1 with a concordant positive T wave in absence of conduction defect.
+    + Imaging evidence of loss of viable myocardium in a pattern consistent with ischaemic aetiology;
+    + Pathological findings of a prior MI.

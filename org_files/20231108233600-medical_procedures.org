@@ -1,0 +1,20 @@
+:PROPERTIES:
+:ID:       991fd50e-905f-468c-96ba-46077a960334
+:END:
+#+title: Medical Procedures
+
+* Books
+** Eric Reichman - Emergency Medicine Procedures
+*** Central Venous Access
+**** Equipment
+     1. Kim 25G
+     2. "Finder" needle, thưởng dùng 22G cho ngưởi lớn
+     3. Chỉ nylon 3-0 or 4-0
+     4. Dao 11
+     5. Nước mưới sinh lý
+     6. 
+**** Note
+     1. Heparin vs Nacl dùng trong CVC
+	- [[https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008462.pub4/epdf/full][Heparin versus 0.9% sodium chloride locking for prevention of occlusion in central venous catheters in adults (Review)]]
+	- [[https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD008462.pub2/epdf/full][Heparin versus 0.9% sodium chloride intermittent flushing forprevention of occlusion in central venous catheters in adults(Review)]]
+	- 

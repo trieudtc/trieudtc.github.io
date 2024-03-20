@@ -1,0 +1,49 @@
+:PROPERTIES:
+:ID:       f92deb7d-b59b-4af9-856a-4f55acec7dc5
+:END:
+#+title: Brainstorming
+Các tư duy chưa biết xếp vào đâu
+* Y khoa
+** Hồi sức cấp cứu
+   1. Cần phải đặt ra câu hỏi nào khi tiếp cận một bệnh nhân (thật ra là trong mọi trường hợp) try 5WH
+   2. Có những tình huống hồi sức cấp cứu nào? tiếp cận ban đầu các tình huống cấp cứu đó ra sao?
+* Học tập
+** Path to success (in becoming expert)
+   1. Đọc kinh điển: để đạt kiến thức nền tổng quát của ngành
+   2. Tìm thầy giỏi: bớt sai và đi nhanh hơn
+   3. Into crowd (most people stuck here): đọc nghiên cứu nền tảng, nghiên cứu mới
+   4. Become expert: Learn more fundamental thing
+   5. Observing repeatedly
+* Things to do 
+** Những việc muốn làm
+   1. Học toán *YES*
+   2. Học Computer Science *NO*
+      + Web programming
+      + Security
+   3. 
+** Những việc nên làm
+   1. Y khoa *YES*
+** Chiêm nghiệm 
+*** Đừng tin lời ta ngay mà hãy chiêm nghiệm và thực thấy
+    - Lời Phật dạy thật chí phải. Lúc trước tôi từng nghĩ rằng ông Phật này cũng "giả nai" hay sao, vì nếu lời mình đúng thì cứ bảo người khác tin chứ cần chi phải nói thế. Nhưng không, nếu ta tin lời Phật một trăm phần trăm là lầm to đấy. Vì sao vậy?
+    - Sự thật, hay Đạo, không thể diễn tả rốt ráo thành lời được, mà phải thực chứng. Giả sử Phật nói buông bỏ tất cả sẽ giác ngộ mà ta chưa hiểu về đem bỏ tất cả mọi thứ thì toi.
+    - Tùy người, tình huống mà Phật dùng lời để chỉ ngay sự thật cho người đó thấy. Nếu chúng ta ở hoàn cảnh khác mà áp dụng thì e là sẽ lầm đường không chừng.
+    - Do vậy, ta không cần phải bối rối, lo lắng, ngờ vực hay sợ sai. Mỗi người thầy sẽ nhìn sự thật ở mặt nào đó và truyền đạt đến ta không thể ráo riết được. Ta chỉ xem đó là lời gợi mở. Ta phải thực chứng. Khi ta luôn quan sát mình thì chắc chắn sẽ thấy được sự thật không sớm thì muộn. Như lời Phật nói, ta không có thầy, ta là thầy của chính ta.
+** Ôn bài trước khi đi làm
+   - Kiến thức khám tim nền tảng
+   - Kiến thức cấp cứu nền tảng
+   - ECG
+   - Tiếp cận bệnh nặng
+     + Rối loạn điện giải
+     + CPR
+     + Hôn mê tăng áp lực thẩm thấu vs ceton
+     + CABG
+     + ARDS
+     + Viêm phổi
+     + Kháng sinh
+     + 
+*** today list
+    1. COPD
+    2. CKD, AKI, Tiếp cận bệnh nhân cần chạy thận. Nên xem ngay sau bài suy tim cấp/
+    3. Siêu âm tim
+    4. Thứ tự đọc bài: Hanna Practical cardiovascular medicine, ilustrated cardiology, marino ICU, nghe siêu âm tim, đọc chủ đề khi cần. 

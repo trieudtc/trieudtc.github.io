@@ -1,0 +1,45 @@
+:PROPERTIES:
+:ID:       24351018-367f-4f9c-83b6-02469faa8e94
+:END:
+#+title: Supper_Org_Roam
+* Các node chính
+** Capture ideas
+   [[id:f92deb7d-b59b-4af9-856a-4f55acec7dc5][Brainstorming]]
+** Y khoa
+*** Tim mạch
+    1. [[id:38d115e7-3617-443e-9ac0-45f30bcba177][Tim_mach]]
+    2. [[id:7da37411-fa24-463a-9c8b-a30f27533ec5][Kham tim]]
+    3. [[id:de47db73-ef8f-45a9-b6aa-2ce08559556b][Right Ventrical Assessment]]
+    4. [[id:6688141a-11fe-4509-8c37-059487ea96f4][Inotropes and vasopressors]]
+    5. [[id:362cd8d4-ea9c-42e7-98c5-fcb6f8006e7f][ECG]]
+    6. [[id:11be0ff6-e795-4ff2-82ea-f2c5d0c965e2][Arrhythmias]]
+    7. [[id:2d8b681f-dd80-40cf-b487-8452253bd497][Danh_gia_truoc_mo]]
+    8. [[id:01ac575e-f912-4407-8751-538e20f22a19][Valvular_heart_diseases]]
+    9. [[id:113fb41d-d23e-4ee2-84eb-b9c2cb710829][Heart_failure]]
+    10. [[id:7aa1a61b-717e-495a-bb4f-5bafb3445276][Pulmonary embolism]]
+    11. [[id:3429615a-b3f6-435c-8ce0-3bb5ff9b1e92][Stress testing]]
+*** Hồi sức cấp cứu
+    1. [[id:aef22b38-8936-4c1c-8f0d-0882e4399c95][Hoi Suc Tim Mach]]
+    2. [[id:58b4c443-fc93-4fec-846a-6788cfcc6ec8][Hoi_suc_cap_cuu]]
+    3. [[id:f17afb56-49c7-4ffe-92be-b21090ec7eb7][Fluid in ICU]]
+*** Nội khoa
+    1. [[id:c4b7c919-8066-4160-974e-4a1dffab85bb][COPD]]
+*** Dược
+    1. [[id:8a883244-2e2b-4841-853e-82030ae18497][Drugs_in_emergency]]
+*** Cận lâm sàng
+    1. [[id:9fdf88e9-627d-495b-b955-f193c5f8517f][ABG]]
+*** Chẩn đoán hình ảnh
+    [[id:67b3077c-eb16-4906-94d0-33b95b7d4a75][Chan Doan Hinh Anh]]
+*** Thủ thuật
+    [[id:991fd50e-905f-468c-96ba-46077a960334][Medical Procedures]]
+*** Nghiên cứu y sinh
+    [[id:a1e0a2bd-ec18-46b5-9db3-4ab8c98bd51a][Nghien cuu y sinh]]
+*** Nguồn tài liệu y khoa
+    [[id:32f3081d-ba61-4e68-ac60-8326d2eb2b77][NguonTaiLieuYKhoa]]
+** Khác
+*** Xin việc
+    [[id:8048c16d-6f74-48a5-8828-5e725cef60bf][ChuanBiXinViec]]
+** File learnign cũ
+   [[id:2e7bb037-b53d-4bb3-a1c5-4670dba06295][Original_Learning_file]]
+** Mathematics
+   [[id:0c3987cd-051e-4819-bf83-88aad2feb908][Prob and Stat]]

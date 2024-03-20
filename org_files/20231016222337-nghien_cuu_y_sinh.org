@@ -1,0 +1,296 @@
+:PROPERTIES:
+:ID:       a1e0a2bd-ec18-46b5-9db3-4ab8c98bd51a
+:END:
+#+title: Nghien cuu y sinh
+
+* Books
+** Users' guides to the medical literature
+*** The Foundations
+**** What is the Questions?
+**** Finding Current Best Evidence
+     1. Hierarchy of evidence (Primary studies)
+	- For questions regarding therapy or harm
+	  1. Randomized trial
+	  2. Observational study
+	  3. Unsystematic observational study
+     2. Levels of Processing
+	- Primary studies
+	- Systematic reviews
+	- Guidelines 
+     3. Pyramid of EBM Resources (where to search)
+	- Nonpreappraised research
+	  + [[http://www.ncbi.nlm.nih.gov/pubmed][MEDLINE]] or CINAHL (http://www.cinahl.com)
+	  + [[https://www.cochranelibrary.com/central][CENTRAL (Cochrane Controlled Trials Registry)]] 
+	    -  Because it includes only trials, this registry is the fastest, most reliable method of determining whether a controlled trial has been published on any topic
+	    - Most CENTRAL records are taken from bibliographic databases (mainly PubMed and Embase.com), but records are also derived from other published and unpublished sources, including CINAHL, ClinicalTrials.gov and the WHO's International Clinical Trials Registry Platform.
+	- Preappraised research
+	  + ACP Journal Club:
+	    - [[https://www.acpjournals.org/topic/category/journal-club][ACP Journal Club]]
+	    - Once a bimonthly stand-alone journal, ACP Journal Club is published by the American College of Physicians and appears in Annals of Internal Medicine. The ACP Journal Club editorial office is based at McMaster University and is editorially independent from Annals of Internal Medicine and the American College of Physicians.
+	  + [[https://www.cochranelibrary.com/][Cochrane]]
+	  + Một cách tốt để tìm các  preappraised research là thông qua một database chất lượng, có ban tổng hợp và chọn lọc từ nhiều nguồn khác nhau, theo những tiêu chí chặt chẽ. Ví dụ như McMaster PLUS (continuously updated database  highly selective articles (with approximately 3300 added every year) that also feeds several other EBM resources and journals (eg, ACP Journal Club, Clinical Evidence, DynaMed, Cocranche).Tìm kiếm McMaster PLUS database qua search engine: [[https://www.accessss.org/][ACCESS]], [[https://www.evidencealerts.com/Pages/About][EvidenceAlert]]
+	  + synopses are usually a 1-page, structured summary of the research findings, along with a brief commentary from an expert in the field. 
+	- Summaries and guidelines
+	  + Current examples widely used by clinicians include UpToDate,  [[https://www.ebsco.com/clinical-decisions/dynamed-solutions/dynamed][DynaMed]], and [[http://bestpractice.bmj.com][BMJ Best Practice]]
+	  + A useful resource to search for guidelines is [[http://www.guideline.gov][the US National Guideline Clearinghouse]], which includes guidelines from many countries. *Nolonger available*. Try [[http://www.g-i-n.net/library/international-guidelines-library][Guideline International Network]] instead. 
+	- Search all of above at once
+	  + https://www.tripdatabase.com/
+	  + https://www.accessss.org
+     4. Choosing an EMB resource
+	- Currency is important
+	  + if it is more than 2 years old, it is possible that future studies lead to a different conclusion.
+     5. Accounts
+	- Pubmed: trieudtc.ykhoahopnhan.vn@gmail.com: pass facebook
+	- ACCESS: caotrieu47@yahoo.com: pass facebook
+	- Evident alert: caotrieu47@yahoo.com: pass facebook
+     6. Translating a question into search terms
+	- How to choose and combine search terms
+	  + Simple search terms for summaries (Uptodate, Dynamed) and preappraised research (Cochrane, ACP Journal club).
+	  + More specific and structured searchs (PICO) for nonpreappraised research (PubMed).
+	- The Medical Subject Headings (MeSH) Thesaurus (http://www.nlm.nih.gov/mesh/MBrowser.html) can help you find words generally used by indexers for a given medical concept.
+*** TODO Therapy
+**** Randomized trials
+     1. Users’ guides for an Article About Therapy
+	- *How serious was the risk of bias?*
+	  - Did intervention and control groups start with the same prognosis?
+	  - Were patients randomized?
+	  - Was randomization concealed?
+	  - Were patients in the study groups similar with respect to known prognostic factors?
+	  - Was prognostic balance maintained as the study progressed?
+	  - To what extent was the study blinded?
+	  - Were the groups prognostically balanced at the study’s completion?
+	  - Was follow-up complete?
+	  - Were patients analyzed in the groups to which they were randomized?
+	  - Was the trial stopped early?
+	- *What are the results?*
+	  - How large was the treatment effect?
+	  - How precise was the estimate of the treatment effect?
+	- *How can i apply the results to patient care?*
+	  - Were the study patients similar to my patient?
+	  - Were all patient-important outcomes considered?
+	  - Are the likely treatment benefits worth the potential harm and costs?
+     2. How Serious Is The Risk of Bias?
+	- Investigators may make mistakes that compromise randomization, or randomization may fail because of chance—unlikely events sometimes happen.
+	- Although we will never know whether similarity exists for the unknown prognostic factors, we are reassured when the known prognostic factors are well balanced.
+	- Loss to follow-up may substantially increase the risk of bias. If assuming a worst-case scenario does not change the inferences arising from study results, then loss to follow-up is unlikely a problem.
+     3. What are the result?
+	- How large was the treatment effect?
+	  + The /absolute difference/ (known as the /absolute risk reduction/ [ARR] or /risk difference/)
+	  + The relative risk (RR) and Relative risk reduction (RRR = 1 - RR).
+	  + Investigators may compute the RR during a specified period, as in a survival analysis; the relative measure of effect in such a time-to-event analysis is called the /hazard ratio/.
+	  + /When people do not specify whether they are talking about RRR or ARR/ —for instance, “Drug X was 30% effective in reducing the risk of death” or “The efficacy of the vaccine was 92%”— *they are almost invariably talking about RRR*
+	- How Precise Was the Estimate of the Treatment Effect?
+	  + P. Giả thuyết H (intervention có gây khác biệt). Giả thuyết H' (intervention không gây khác biệt). kết quả nghiên cứu A. P = P(A/H') < 0.05 là có ý nghĩa thống kê. intepret: giả thiết là không có sự khác biệt (H') thì xác xuất ra kết quả A là P(A/H') < 0.05%. Điều này khác với việc nói rằng nghiên cứu của chúng ta chính xác 95% P(H/A), sai 5%.
+	  + 95% CI: 95% of times (of doing the same procedure of the research) [L,U] will contain the true value. Với thiết kế nghiên cứu này, 95% chúng ta sẽ bắt được true value, khoảng CI này không chứa H' thì có ý nghĩa thống kê; còn chuyện kết quả ra như thế này rồi, true value có nằm trong khoảng CI hay không P(H/A) thì không biết, tỷ lệ bao nhiêu % cũng không biết  
+     4. How can i apply the results to patient care
+	- /Substitute outcomes/ or /surrogate outcomes/: Outcomes that are not in themselves important to patients but are associated with outcomes that are important to patients (eg, bone density for fracture, cholesterol for myocardial infarction, and blood pressure for stroke)
+	- Even when investigators report favorable effects of treatment on a patient-important outcome, you must consider whether there may be deleterious effects on other outcomes. For instance, cancer chemotherapy may lengthen life but decrease its quality.
+	- /Composite end points/: Like surrogate outcomes, composite end points are attractive for reducing sample size and decreasing length of follow-up. Unfortunately, they can mislead.
+	- /Number needed to treat (NNT)/: the number of patients who must receive an intervention of therapy during a specific period to prevent 1 adverse outcome or produce 1 positive outcome. NNT = 1/ARR
+	- The impact of a treatment is related not only to its RRR but also to the risk of the adverse outcome it is designed to prevent. A key element of the decision to start therapy, therefore, is to consider the patient’s risk of the event if left untreated.
+	- Trading off benefits and risks also requires an accurate assessment of the adverse effects of treatment. Randomized trials with relatively small sample sizes are unsuitable for detecting rare but catastrophic adverse effects of therapy.
+**** TODO How to use noninferiority trial
+     1. Để đọc sau
+**** Does treatment lower risk? Understanding the results
+     1. The Number Needed to Treat
+	- *Assuming a constant RRR?* (IS  RRR là trị số nội tại?, như vậy ARR không phải giá trị nội tại?)
+	  + The NNT is inversely related to the proportion of patients in the control group who have an adverse event
+     2. Survival data
+	- When the timing of events is important, investigators could present the results in the form of several 2 × 2 tables constructed at different points of time after the study began.
+	- The analysis of accumulated data that takes into account the timing of events is called survival analysis.
+	- The probability of events occurring at any point in each group is referred to as *the hazard for that group*, and the *weighted RR during the entire study duration* is known as *the hazard ratio*.
+	- *“Competing risks”* is an issue that arises when one event influences the likelihood of another event. The most extreme example is death: if the outcome is stroke, people who die can no longer have a stroke.
+	- Xem them The censoring process.
+     3. Which measure of association is best?
+	- For example, Forrow et al found that clinicians were less inclined to treat patients after presentation of trial results as the absolute change in the outcome compared with the relative change in the outcome. In a similar study, Naylor et al found that clinicians rated the effectiveness of an intervention lower when events were presented in absolute terms rather than using RRR. Moreover, clinicians offered lower effectiveness ratings when they viewed results expressed in terms of NNT than when they saw the same data as RRRs or ARRs. The awareness of this phenomenon in the pharmaceutical industry may be the reason for their propensity to present physicians with treatment-associated RRRs.
+	- Considering how our interpretations differ with data presentations, we are best *advised to consider all of the data* (as either a 2 × 2 table or a survival analysis) and then reflect on both the relative and the absolute figures.
+**** Confidence intevals: was the single study or Meta-analysis large enough?
+     1. Use of the CI avoids the yes/no dichotomy of hypothesis testing.
+*** Harm (Observational Studies)
+**** users’ guides for an article about harm
+     1. How serious is the risk of bias?
+	- In a cohort study, aside from the exposure of interest, did the exposed and control groups start and finish with the same risk for the outcome?
+	- Were patients similar for prognostic factors that are known to be associated with the outcome (or did statistical adjustment address the imbalance)?
+	- Were the circumstances and methods for detecting the outcome similar?
+	- Was the follow-up sufficiently complete?
+	- In a case-control study, did the cases and control group have the same risk for being exposed in the past?
+	- Were cases and controls similar with respect to the indication or circumstances that would lead to exposure (or did statistical adjustment address the imbalance)?
+	- Were the circumstances and methods for determining exposure similar for cases and controls?
+     2. What are the results?
+	- How strong is the association between exposure and outcome?
+	- How precise was the estimate of the risk?
+     3. How can i apply the result to patient care?
+	- Were the study patients similar to the patient in my practice?
+	- Was follow-up sufficiently long?
+	- Is the exposure similar to what might occur in my patient?
+	- What is the magnitude of the risk?
+	- Are there any benefits that are known to be associated with exposure?
+**** How serious is the risk of bias?
+     1. clinicians and administrators must evaluate the risk of bias, the strength of the association between the assumed cause and the adverse outcome, and the relevance to patients in their practice or domain.
+     2. There are 4 reasons why RCTs may not be helpful for determining whether a putative harmful agent truly has deleterious effects
+	- we may consider it unethical to randomize patients to exposures that might result in harmful effects without benefit (eg, smoking)
+	- we are often concerned about rare and serious adverse effects that may become evident only after tens of thousands of patients have consumed a medication for a period of years. For instance, even a very large RCT failed to detect an association between clopidogrel and thrombotic thrombocytopenic purpura, which appeared in a subsequent observational study.
+	- RCT duration of follow-up is limited, yet not infrequently we are interested in knowing effects years, or even decades, after the exposure (eg, long-term consequences of chemotherapy in childhood).
+	- even when events are sufficiently frequent and occur during a time frame feasible for RCTs to address, study reports often fail to adequately provide information on harm.
+     3. Given that clinicians will not find RCTs to answer most questions about harm, they must understand the alternative strategies used to minimize bias. This requires a familiarity with observational study designs.
+	- There are 2 main types of observational studies: cohort and case-control.
+	  + In a cohort study, investigators identify exposed and nonexposed groups of patients, each a cohort, and then follow them forward in time, monitoring the occurrence of outcomes of interest in an attempt to identify whether there is an association between the exposure and the outcomes. *The cohort design is similar to an RCT but without randomization*; rather, the determination of whether a patient received the exposure of interest results from the patient’s or investigator’s preference or from happenstance.
+	  + Case-control studies also assess associations between exposures and outcomes. *Rare outcomes or those that take a long time to develop can threaten the feasibility not only of RCTs but also of cohort studies*
+     4. Cohort studies
+	- In a cohort study, aside from the exposure of interest, did the exposed and control groups start and finish with the same risk for the outcome?
+	- Were patients similar for prognostic factors that are known to be associated with the outcome (or did statistical adjustment address the imbalance)?
+	  + For instance, in the association between NSAIDs and the increased risk of upper gastrointestinal tract bleeding, age may be associated with exposure to NSAIDs and gastrointestinal bleeding.
+	  + When a variable with prognostic power differs in frequency in the exposed and unexposed cohorts, we refer to the situation as *confounding*.
+	  + Even if investigators document the comparability of potentially confounding variables in exposed and nonexposed cohorts, and even if they use statistical techniques to adjust for differences, important prognostic factors that the investigators do not know about or have not measured may be unbalanced between the groups and thus may be responsible for differences in outcome. We call this *residual confounding*.
+	- Were the circumstances and methods for detecting the outcome similar?
+	  + In cohort studies, ascertainment of outcome is the key issue.
+	    + For example, investigators have reported a 3-fold increase in the risk of malignant melanoma in individuals who work with radioactive materials. One possible explanation for some of the increased risk might be that physicians, concerned about a possible risk, search more diligently and therefore detect disease that might otherwise go unnoticed (or they may detect disease at an earlier point). This could result in the exposed cohort having an apparent, but spurious, increase in risk—a situation known as *surveillance bias* also known as *detection bias* or *ascertainment bias*.
+	- Was the follow-up sufficiently complete?
+     5. Case-Control studies
+	- Case-control studies are always retrospective in design.
+	  + Retrospectively, investigators ascertain prior exposure to putative causal agents. /This design entails inherent risks of bias because exposure data require memory and recall or are bsed on a collection of data that were originally accumulated for purposes other than the intended study/.
+	- In a case-control study, did the cases and control group have the same risk for being exposed in the past?
+	- Were cases and controls similar with respect to the indication or circumstances that would lead to exposure (or did statistical adjustment address the imbalance)?
+	  + As with cohort studies, case-control studies are susceptible to unmeasured confounding.
+	- Were the circumstances and methods for determining exposure similar for cases and controls?
+	  + In case-control studies, ascertainment of the exposure is a key issue. if case patients have a better memory for exposure than control patients, the result will be a spurious association.
+	  + *Recall bias* and *interview bias*
+     6. what Is the risk of Bias in Cross-sectional studies?
+	- in the cross-sectional study, the exposure and the existing or prevalent outcome are measured at the same point in time.
+	  + Accordingly, the direction of association may be difficult to determine.
+	  + Another important limitation is that the outcome or the threat of experiencing an adverse outcome may have led patients assigned as cases to leave the study, so a measure of association may be biased against the association.
+     7. what Is the risk of Bias in Case series and Case reports?
+	- 
+**** What are the results?
+     - How strong is the association between exposure and outcome?
+       + The RR is not applicable to case-control studies. For case-control studies, instead of using a ratio of risks, the RR, we use a ratio of odds, the OR, specifically the odds of a case patient being exposed divided by the odds of a control patient being exposed.
+       + *Unless the risk of the outcome in the relevant population is high (20% or more), you can think of the OR as providing a good estimate of the much easier to conceptualize RR*
+     - How precise Is the estimate of the risk?
+       + linicians can evaluate the precision of the estimate of risk by examining the CI around that estimate.
+**** How can i apply the result to patient care?
+     - Were the study patients similar to the patient in my practice?
+     - Was follow-up sufficiently long?
+     - Is the exposure similar to what might occur in my patient?
+     - what Is the Incremental risk?
+     - Are there any benefits that are known to be associated with exposure?
+*** TODO Diagnosis
+**** The Process of Diagnosis
+***** Two Complementary approaches to Diagnosis
+      1. Pattern recognition
+	 + See it and recognie disorder.
+	 + Then compare posttest probability with thresholds.
+      2. Probabilistic diagnostic reasoning.
+	 + Clinical assessment generates pretest probability.
+	 + New information generates posttest probability (may be iterative).
+	 + Compare posttest probability with thresholds.
+***** Clusters of Fidings define CLinical Problems
+      1. Group findings into clusters
+	 - Experienced clinicians often group findings into meaningful clusters, summarized in brief phrases about the symptom, body location, or organ system involved, such as “involuntary weight loss with anorexia.”
+	 - These clusters, often termed “clinical problems,” represent the starting point for the probabilistic approach to differential diagnosis.
+***** Clinicans select a Small list of Diagnostic possibilities
+      1. Priorritized diffrential diagnosis based on three considerations:
+	 - Probabilistic: disorders more likely
+	 - Prognostic: disorders more serious
+	 - Pragmatic: disorders more responsive to treatment
+***** TODO Estimating the pretest probability facilitate the diagnostic process
+      1. Xem sau
+**** TODO Diagnostic Test
+***** Xem sau. Nên xem thêm /Likelihood ratios/ trong cuốn The Rational Clinical Examination.
+      1. Fun to read [[https://www.physiotutors.com/sensitivity-specificity-predictive-values-and-likelihood-ratios-for-dummies/][Sensitivity, Specificity, PPV, NPV, LR explained]] 
+*** TODO Prognosis
+**** Xem sau
+*** Summarizing the Evidence
+**** The Process of a Systematic Review and Meta-analysis
+***** SySTEmATIC REvIEwS ANd mETA-ANAlySIS: AN INTRodUCTIoN
+      1. Definitons
+	 - A systematic review is a summary of research that addresses a focused clinical question in a *systematic, reproducible manner*.
+	 - Systematic reviews can provide estimates of therapeutic efficacy, prognosis, and diagnostic test accuracy and can summarize the evidence for questions of “how” and “why” addressed by qualitative research studies.
+	 - A systematic review is often accompanied by a meta-analysis (a statistical pooling or aggregation of results from different studies) to provide a single best estimate of effect. The pooling of studies increases precision (ie, narrows the confidence intervals [CIs])
+***** A Synopsis of the Process of a Systematic Review and meta-analysis
+      1. The process of conducting a systemic review and meta-analysis
+	 - Systemic review
+	   + Formulate question/eligibility criteria (PICO/Methodologic criteria)
+	   + A priori hypotheses to explain heterogeneity
+	   + Conduct search
+	   + Screen titles and abstracts
+	   + Review full text of possibly eligible studies
+	   + Assess risk of bias, abstract data
+	 - Meta-analysis
+	   + Generate summary estimates and CIs
+	   + Look for explanations of heterogeneity
+	   + Rate confidence in estimates of effect
+***** Judging the Credibility of the Effect Estimates
+      1. The credibility of the systemic review
+	 - By credibility, we mean the extent to which the design and conduct of the review are likely to have protected against misleading results.
+	   + Did the review explicitly address a sensible clinical question?
+	   + Was the search for relevant studies exhaustive?
+	   + Was the risk of bias of the primary studies assessed?
+	   + Did the review address possible explanations of between-study differences in results?
+	   + Did the review present results that are ready for clinical application?
+	   + Were selection and assessments of studies reproducible?
+	   + Did the review address confidence in effect estimates?
+      2. Was the process credible?
+	 - Did the review explicitly address a sensible clinical question?
+	   + What makes a meta-analysis too broad or too narrow? When deciding whether the question posed in the meta-analysis is sensible, clinicians need to ask themselves whether the underlying biology is such that they would anticipate more or less the same "treatment effect" across the range of patients included. ie, were Eligibility Criteria for Inclusion in the Systematic Review Appropriate?
+	     1) Are results likely to be similar across the range of included patients (eg, older and younger, sicker and less sick)?
+	     2) Are results likely to be similar across the range of studied interventions or exposures (eg, for therapy, higher dose or lower dose; for diagnosis, test results interpreted by experts or nonexperts)?
+	     3) Are results likely to be similar across the range of ways the outcome was measured (eg, shorter or longer follow-up)?
+	   + systematic review authors must specify the criteria for study inclusion related to the risk of bias.
+	 - Was the search for relevant studies exhaustive?
+	   + For most clinical questions, searching a single database is insufficient and can lead to missing important studies. Therefore, searching *MEDLINE, EMBASE, and the Cochrane Central Register of Controlled Trials* is recommended for most clinical questions.
+      3. Was the risk of bias of the primary studies assessed?
+	 - There is no one correct way to assess the risk of bias. Some reviewers use long checklists to evaluate risk of bias, whereas others focus on 3 or 4 key aspects of the study.
+      4. Did the review address possible explanations of between-study differences in results?
+	 - Systematic review authors should hypothesize possible explanations for heterogeneity (a priori, when they plan the review) and test their hypotheses in a subgroup analysis. Subgroup analyses may provide important insights, but they also may be misleading.
+      5. Did the review present results that are ready for clinical application?
+      6. Were selection and assessments of studies reproducible?
+	 - Xem thêm *chance-corrected agreement such as the κ statistic*
+      7. Did the review address confidence in effect estimates?
+**** Understanding and Applying the Results of a Systematic Review and Meta-analysis
+***** Understanding the Summary Estimate of a Meta-annalysis
+      1. A summary or pooled estimate
+	 - dichotomous outcomes: Relative risk (RR), Relative risk reduction (RRR), odds ratio (OR), relative odds reduction
+	 - Time to event methods (eg, survial analysis): hazard ratio (HR)
+	 - Diagnosis: likelihood ratios or diagnostic ORs.
+	 - Continuos variables:
+	   + If the outcome is measured the same way in each study (eg, duration of hospitalization): *weighted mean difference*.
+	   + If  the outcome measures used in the primary studies are similar but not identical: The *effect size*. Arule of thumb for understanding effect sizes suggests that 0.2 SD represents small effects; 0.5 SD, moderate effects; and 0.8 SD, large effects.
+***** Understading the Estimate of Absolute Effect
+      1. 
+***** Rating Confidence in the Estimates (the quality of evidence)
+      1. The GRADE approach
+	 - GRADE suggests rating confidence in estimates of effect in 4 categories: high, moderate, low, or very low.
+      2. how serious Is the risk of Bias in the Body of evidence?
+	 - Authors of systematic reviews evaluate the risk of bias for each of the outcomes measured in each individual study
+      3. are the results Consistent across studies?
+	 - Evaluating variability in study results
+	   1) Visual evaluation of variability
+	      + How similar are the point estimates?
+	      + To what extent do the confidence intervals overlap?
+	   2) Statistical tests evaluating variability
+	      + Yes-or-no tests for heterogeneity that generate a P value.
+	      + I^2 test that quantifies the variability explained by betweenstudy differences in results
+	 - Visual evaluation of variability
+	   + If CIs overlap widely, random error, or chance, remains a plausible explanation for the differences in the point estimates.
+	   + When CIs do not overlap, random error becomes an unlikely explanation for differences in apparent treatment effect across studies.
+	 - yes-or-no statistical Tests of heterogeneity
+	   + The /null hypothesis/ of the test for heterogeneity is /that the underlying effect is the same in each of the studies/ (eg, the RR derived from study 1 is the same as that from studies 2, 3, and 4). Therefore, the null hypothesis assumes that all of the apparent variability among individual study results is due to chance.
+	   + *Cochran Q*, the most commonly used test for heterogeneity, generates a probability based on a χ2 distribution that between-study differences in results equal to or greater than those observed are likely to occur simply by chance.
+	   + When a meta-analysis includes studies with small sample sizes and a correspondingly small number of events, the test of heterogeneity may not have sufficient power to detect existing heterogeneity.
+	   + In a meta-analysis that includes studies with large sample sizes and a large number of events, the test for heterogeneity may provide potentially misleading results that reveal statistically significant but unimportant differences in point estimates.  This is another reason why clinicians need to use their own visual assessments of heterogeneity (similarity of point estimates, overlap of CIs) and consider the results of formal statistical tests in that context.
+	 - Magnitude of heterogeneity statistical Tests
+	   + The I^2 statistic is a preferred alternative approach for evaluating heterogeneity that focuses on the magnitude of variability rather than the statistical significance of variability.
+	   + Interpretation of the I 2 statistic
+	     1) 0% No worries
+	     2) 25% Only a little concerned
+	     3) 50% Getting concerned
+	     4) 75% Very concerned
+	     5) 100% Why are we pooling?
+	 - What to do When Between-study variability in results Is large?
+      4. how precise are the results?
+***** do the results directly apply to my patient?
+***** Is There Concern about reporting Bias?
+      1. strategies to address reporting Bias. *Xem thêm*
+***** are There reasons to Increase the Confidence rating?
+**** Network Meta-analysis
+***** 
