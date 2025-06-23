@@ -1,0 +1,15 @@
+* Wald's test:
+  - Tương tự z test cho multivariable
+  - lúc này \theta - \theta_0 sẽ thành norm || \theta - \theta_0||, normal distribution -> Chi-squared
+* Method of moments:
+  - Một các khác (MLE, MAP, least squared) để estimate parameter,
+  - vd: estimate u và ơ của Z (u, ơ) -> 1st moment: E[X] = u, 2nd moment: E[X^2] = u^2 + ơ^2
+* Fisher information:
+  - ước tính độ nhạy (thông tin) mà data có thể estimate parameter (theta) bằng cách đo lường độ cong của log(f(x|theta)) dùng đạo hàm bậc 2. Có thể ứng dụng để thiết kế cách lấy số liệu nghiên cứu sao cho fisher information là lớn nhất.
+* KL divergence:
+  - một cách dùng đo lường sự khác biệt giữa 2 distributions, MLE có thể suy ra từ KL divergence
+* Monter Carlo intergation:
+  - dùng xác suất để tính tích phân, (vd tính diện tích 1/4 hình tròn, từ đó có thể ước tính số pi)
+* Likelihood ratio test:
+  - The primary goal of the LRT is to determine if a more complex model (the alternative hypothesis, H1​) provides a significantly better fit to the observed data than a simpler, constrained model (the null hypothesis, H0​).
+  - vd: fit cox model 4 biến , sau đó fit lại với 3 biến (set coefition 1 biến cần tes/home/DjangoN1/trieudtc.github.io/org_filet =0) -> dùng likelihood ratio test để kiểm định có ý nghĩa thống kê không.
