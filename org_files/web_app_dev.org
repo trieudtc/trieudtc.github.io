@@ -1,0 +1,172 @@
+* The basic things
+** Structure of a Django project:
+    - mysite/ --> Project's name
+        - manage.py
+        - mysite/ --> the same name of project
+            __init__.py --> make an directory a package
+            settings.py
+            urls.py
+            asgi.py
+            wsgi.py
+        - polls/ --> this is a app's name
+            __init__.py
+            admin.py
+            apps.py
+            models.py
+            tests.py
+            views.py
+            migrations/
+                __init__.py
+
+** Creating a project
+*** The command line
+    - $ django-admin startproject project's name
+*** Creating an app
+    - The command line
+      + $ python manage.py startapp app's name
+    - Creat a view
+      + Tạo một function nhận request object và return HttpRespone object
+      + view là một function
+    - Creating ulrs.py để routing trong app
+      + Khi server nhận url sẽ search ulrs.py của project -> urls.py của app tương ứng -> view
+    - Adding route của app vào urls.py của project ( ROOT_URLCONF in project's setting.py)
+      + from django.urls import include, path
+      + urlpatterns = [path("polls/", include("polls.urls")), path("admin/", admin.site.urls),]
+      + The include() function:
+        + allows referencing other URLconfs. Whenever Django encounters include(), it chops off whatever part of the URL matched up to that point and sends the remaining string to the included URLconf for further processing.
+        + The idea behind include() is to make it easy to plug-and-play URLs. Since polls are in their own URLconf (polls/urls.py), they can be placed under “/polls/”, or under “/fun_polls/”, or under “/content/polls/”, or any other path root, and the app will still work.
+        + When to use include(): You should always use include() when you include other URL patterns. admin.site.urls is the only exception to this.
+      + path("<int:question_id>/vote/", views.vote, name="vote"),
+        + Using angle brackets “captures” part of the URL and sends it as a keyword argument to the view function
+*** Django Data Models
+    - Set up ban đầu
+        - project's name/settings.py: Database setup
+          + Mặc định sẽ để SQLite
+          + If you wish to use another database, install the appropriate /database bindings/ and change the "ENGINE"
+        - project's name/settings.py:  INSTALLED_APPS
+          + /The migrate command looks at the INSTALLED_APPS/ setting and creates any necessary database tables according to the database settings in /settings.py file and the database migrations shipped with the app
+          + The migrate command will only run migrations for apps in INSTALLED_APPS.
+    - Creating models
+      + class model's_name(models.Model):
+      + def __str__(self): It’s important to add __str__() methods to your models, not only for your own convenience when dealing with the interactive prompt, but also because objects’ representations are used throughout Django’s automatically-generated admin.
+      + Database API: [[Database API] [https://docs.djangoproject.com/en/4.2/topics/db/queries/]]
+      + model relations: [[Accessing related objects][https://docs.djangoproject.com/en/4.2/ref/models/relations/]]
+*** Creating an admin user
+    - The command line: $ python manage.py createsuperuser
+    - Tạo interface cho một model trong admin interface
+      + app's_name/admin.py:
+        + from .models import Model's_name
+        + admin.site.register(Model's_name)
+    - [[Customize the admin form][https://docs.djangoproject.com/en/4.2/intro/tutorial07/]]
+*** Creating views
+**** Tạo view bằng function: Def ...
+     - Wire views to urls
+       + path("<int:question_id>/vote/", views.vote, name="vote"),
+         + Using angle brackets “captures” part of the URL and sends it as a keyword argument to the view function
+**** Class based view
+     - Có thể def GET POST để phân luồng mà không cần dùng conditional branching như trong function based view
+     - Object oriented techniques such as mixins (multiple inheritance) can be used to factor code into reusable components.
+     - Cách dùng:
+       + from django.views import View
+       + def SomeView(view)
+       + In urls.py: from myapp.views import Someview
+       + path(".../", SomeView.as_view(), name = "...")
+**** Creating templates
+     - Creating a directory called "templates" in app's directory
+     - By convention DjangoTemplates looks for a “templates” subdirectory in each of the INSTALLED_APPS.
+     - Template namespacing:
+       + we might be able to get away with putting our templates directly in polls/templates (rather than creating another polls subdirectory), but it would actually be a bad idea. Django will choose the first template it finds whose name matches, and if you had a template with the same name in a different application, Django would be unable to distinguish between them. We need to be able to point Django at the right one, and the best way to ensure this is by namespacing them. That is, by putting those templates inside another directory named for the application itself.
+     - Sử dụng template trong views
+       + from django.template import loader
+       + Load template: template = loader.get_template("polls/index.html")
+       + pass it a context: context = {"latest_question_list": latest_question_list}
+         + The context is a dictionary mapping template variable names to Python objects
+       + Render: return HttpResponse(template.render(context, request))
+       + A shortcut: render():
+         + return render(request, "polls/index.html", context)
+         + Khi dùng shortcut render() thì không cần import HttpRespone và loader
+         + The render() function takes the request object as its first argument, a template name as its second argument and a dictionary as its optional third argument. It returns an HttpResponse object of the given template rendered with the given context.
+         + Có thể dùng object request trong template mà không cần pass vào context.
+     - Some template's rules
+       + {{ variable }}
+         + Dictionary lookup, attribute lookup and list-index lookups are implemented with a dot notation: {{ my_dict.key }}; {{ my_object.attribute }}; {{ my_list.0 }}
+         + If a variable resolves to a callable, the template system will call it with no arguments and use its result instead of the callable.
+         + Filters: {{ my_date|date:"Y-m-d" }}
+         + Comments: {# this won't be rendered #}. A {% comment %} tag provides multi-line comments.
+       + {% code %}
+       + URL in template
+         + ex: <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li> : this code look for url named "detail" and pass the "question.id"
+         + Namespacing URL names:
+           + add an app_name to set the application namespace: app_name = "polls" in app'surls.py
+           + Then the above ex should be: <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
+           + That useful in case of having multiple apps when name conflict might happen
+**** Raising a 404 error
+     - from django.http import Http404
+       + Try ... except Question.DoesNotExist: raise Http404("Question does not exist")
+     - A shortcut: get_object_or_404()
+       + from django.shortcuts import get_object_or_404
+       + question = get_object_or_404(Question, pk=question_id)
+       + The get_object_or_404() function takes a Django model as its first argument and an arbitrary number of keyword arguments, which it passes to the get() function of the model’s manager. It raises Http404 if the object doesn’t exist.
+     - get_list_or_404()
+       + works just as get_object_or_404() – except using filter() instead of get(). It raises Http404 if the list is empty.
+**** Generic view
+     - from django.views import generic
+     - class IndexView(generic.ListView); class DetailView(generic.DetailView)
+     - Cần cung cấp model = model's name. template_name =
+     - Trong detail view django sẽ lấy tên model làm tên context, trong list view sẽ lấy tên context là model'sNam_list .
+     - Để thay đổi tên context thì dùng  thuộc tính: context_object_nam
+     - Trong detail view thì url path() phải cung cấp argument pk (primary kêy để lấy ọbject )
+*** URL dispatcher
+    - Path converters
+      + str - Matches any non-empty string, excluding the path separator, '/'. This is the default if a converter isn’t included in the expression.
+      + int - Matches zero or any positive integer. Returns an int.
+      + slug - Matches any slug string consisting of ASCII letters or numbers, plus the hyphen and underscore characters. For example, building-your-1st-django-site.
+      + uuid - Matches a formatted UUID. To prevent multiple URLs from mapping to the same page, dashes must be included and letters must be lowercase. For example, 075194d3-6885-417e-a8a8-6c931e272f00. Returns a UUID instance.
+      + path - Matches any non-empty string, including the path separator, '/'. This allows you to match against a complete URL path rather than a segment of a URL path as with str.
+    - [[Registering custom path converters][https://docs.djangoproject.com/en/5.2/topics/http/urls/]]
+    - Using regular expressions
+      + To do so, use re_path() instead of path().
+      + the syntax for named regular expression groups is (?P<name>pattern), where name is the name of the group and pattern is some pattern to match.
+      + Each captured argument is *sent to the view as a string*, regardless of what sort of match the regular expression makes.
+      + When switching from using path() to re_path() or vice versa, it’s particularly important to be aware that the type of the view arguments may change, and so you may need to adapt your views
+      + Nested arguments: lưu ý dùng non-caputuring argument (?:...) để không pass những argument không đúng vào view
+    - Captured parameters:
+      + An included URLconf (using include())receives any captured parameters from parent URLconfs
+    - Passing extra options to view functions
+      + The path() function can take an optional third argument which should be a dictionary of extra keyword arguments to pass to the view function
+      + urlpatterns = [path("blog/<int:year>/", views.year_archive, {"foo": "bar"}),]
+      + In this example, for a request to /blog/2005/, Django will call views.year_archive(request, year=2005, foo='bar').
+*** The static files
+    - create a directory called static in app's directory /similar to template directory/
+    - Static file namespacing similar to template file namespacing
+    - Use static files:
+      + First load static: {% load static %}
+      + then <link rel="stylesheet" href="{% static 'polls/style.css' %}">
+      + template tag generates the absolute URL of static files
+*** Djangp Authentication
+    - Tạo template cho login view
+      + registration/login.html
+    - Template mặc định cho logout: registration/logged_out.html
+      + Có thể overide logout view và dùng customsized logout template
+      + from django.contrib.auth.views import LogoutView
+      + class MyLogout(LogoutView):
+      + template_name = 'registration/logout.html'
+      + path("logout/", MyLogout.as_view(), name="logout")
+      + Then usign the path myapp/logout để logout thay cho mặc định accounts/logout
+    - Redirect afer login or logout
+      + cung cấp giá trị url cho varible next bằng GET hoặc POST method.
+      + fully qualified URL (e.g. 'https://www.yahoo.com/search/')
+      + an absolute path with no domain (e.g. '/search/')
+      + a relative path (e.g. 'search/')
+*** Form Object
+**** Basic Form
+     - Tạo forms.py
+     - from django import forms; from django.core import validators
+     - class BasicForm(forms.Form):
+     - Tạo view:
+       + Phân luồng cho GET và POST
+       + Có thể đẩy dữ liệu vào form băng form = BasicForm(initial={ dictionary}). Basicform(request.POST)
+       + return render(request, 'authz/form.html', {'form':form})
+       + if not form.is_valid(): check xem form có validate không
+       + return redirect('/authz/form/'): nên redirect sau khi post để tránh gửi double khi user refresh
+**** Model Form:
