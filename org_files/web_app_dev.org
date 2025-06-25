@@ -169,4 +169,79 @@
        + return render(request, 'authz/form.html', {'form':form})
        + if not form.is_valid(): check xem form có validate không
        + return redirect('/authz/form/'): nên redirect sau khi post để tránh gửi double khi user refresh
-**** Model Form:
+**** Model Form
+     - sample code
+       - from django.views.generic.edit import CreateView, UpdateView, DeleteVie
+       - class BookCreate(CreateView):
+       - model = Boo
+       - fields = '__all__
+       - success_url = reverse_lazy('authz:author_list')
+     - template: django sẽ tự động lấy template name: model_form cho CreateView và UpdateView, model_confirm_delete cho DeleteVie
+*** OwnerRow
+	- Tạo  owner.py, sau đó extend LoginRequiredMixins và Create, Update, DeleteView
+	- overide get và post method sao cho chỉ user được phép chỉnh sửa
+	- Sample code
+			class OwnerAuthorUpdate(OwnerUpdateView):
+    		model = Author
+    		template_name = "authz/author_update.html"
+    		fields = '__all__'
+
+			class OwnerUpdateView(LoginRequiredMixin, UpdateView):
+   		    def get_queryset(self):
+        			qs = super(OwnerUpdateView, self).get_queryset()
+        			return qs.filter(owner=self.request.user
+** JavaScript
+*** Sample code
+    - Sample code
+        <script>
+    	function hello() {
+		let heading =  document.querySelector('h1');
+		if (heading.innerHTML ===  "goodbye")
+		{heading.innerHTML = "goodbye";}
+		else
+		{heading.innerHTML = "hello";}
+    	}
+    	function count() {
+    	counter = 10;
+    	alert(`count is {counter}`);
+    	document.addEventListener('DomContentLoaded', function() {
+		document.querySelector('button').onClick = 'counter';
+	    })
+	    document.addEventListener('DomContentLoaded', () => {
+		document.querySelector('form').onsubmit = function() {
+			const name = document.querySelector('tag', '#id', '.class').value;
+			alert(`hello, ${nam}!`);
+	    	};
+	    });
+
+    	document.addEventListener('DomContentLoaded', function() {
+		document.querySelectorAll('button').forEach(function(button) {
+			button.onClick = function(){
+				document.querySelector('#hello').style.color = buttion.dataset.color
+			};
+		});
+
+	    });
+        document.addEventListener('DomContentLoaded', () => {
+	    document.querySelector('select').onchange = () => {
+		document.querySelector('#helllo').style.color = this.value;};
+        });
+        localStorage.getItem('key');
+        localStorage.setItem('key', value);
+
+        fetch('url').then(response => response.json()).then( do something);
+        </script>
+
+        <script src="sdjsf.js"> </script>
+        <button data-color="red">Red</buttion>
+        <button data-color="blue">Blue</buttion>
+        <button data-color="green">Green</buttion>
+
+        let : khai báo một biến
+        const: khai báo một const, không thai đổi được
+        == : check value. ===: check value and typ
+*** Single page application
+    - dùng fetch, để lấy phần cần hiển thị
+*** Java Script history API
+    - history.pushState(data, "", what should go to url)
+    - window.onpopstate = function(event) ....
