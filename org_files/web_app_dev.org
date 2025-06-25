@@ -137,7 +137,8 @@
       + urlpatterns = [path("blog/<int:year>/", views.year_archive, {"foo": "bar"}),]
       + In this example, for a request to /blog/2005/, Django will call views.year_archive(request, year=2005, foo='bar').
 *** The static files
-    - create a directory called static in app's directory /similar to template directory/
+    - create a directory called static in app's directory/ similar to template directory/
+    - Exmple: static/app/css, js, image/
     - Static file namespacing similar to template file namespacing
     - Use static files:
       + First load static: {% load static %}
