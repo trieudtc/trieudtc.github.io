@@ -1,0 +1,39 @@
+* Nguồn tài liệu
+  -
+* Protocol tại BV Gia Định
+** TODO Minimal protocol <- do this firs
+   - Mặt cắt từ mỏm
+     - 4 buồng - 2 buồng - 5 buồng:
+       1. Xem vận động vùng
+	   2. Đo EF (simpson biplane)
+	   3. Đo thể tích nhĩ trái nếu nghi bất thường
+	   4. Tapse
+	   5. e' vách, e' bên (nếu e' vách bất thường)
+	   6. Doppler xung qua van 2 lá, đo E/A
+	   7. Doppler liên tục qua van động mạch chủ, đo???
+	   8. Doppler liên tục qua van 3 lá, đo??? tại sao dùng doppler liên tục?
+     - Mặt cắt cạnh ức trục dọc:
+       1. Đo kích thước các buồng:
+          - RVOT
+	      - ???
+       2. Doppler màu van động mạch chủ
+       3. Doppler màu van 2 lá
+   - Mặt cắt cạnh ức trục ngang
+     1. Dopper màu, liên tục? van 2 lá, van động mạch phổi
+     2. Xem hình thể van động mạch chủ
+     3. Xem hình thể van 2 lá qua mặt cắt ngang van 2 lá
+     4. Xem vận động vùng
+   - Mặt cắt dưới sườn
+     1. Đo IVC
+     2. Xem vách liên nhĩ.
+        + Mặt cắt vàng xem thông liên nhĩ
+        + Khảo sát ở đối tượng nào??? nữ trẻ???
+** More comprehensive protocol
+* Protocol chuẩn theo ASE, BSE
+* Learning by subjects
+** TODO Basic views <- then do this
+** TODO Evaluation of left ventrical <- the third
+** TODO Evaluation of right ventrical <- the fourth
+** TODO Valvular heart diease <- the fifth
+* Ultrasond physics
+* Board review
