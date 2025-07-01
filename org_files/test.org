@@ -1,0 +1,73 @@
+* CPR
+** Di chuyển người bệnh đến nơi an toàn
+*** Kỹ thuật xoay người bệnh
+** Nhận biết ngưng tim ngưng thở
+*** Nếu bệnh nhân bất tỉnh + ngưng thở/thở bất thường (ngáp cá) -> Cần kiểm tra mạch <= 10s, người không chuyên có thể không cần kiểm tra mạch mà thực hiện ngay CPR.
+*** Ở trẻ em mạch <60 lầ/phút và có dấu hiệu tưới máu kém <=> mất mạch (vì cung lượng tim ở trẻ nhũ nhi và trẻ nhỏ phụ thuộc lớn vào tần số tim)
+- kiểm tra mạch cánh tay ở trẻ nhũ nhi
+- Kiểm tra mạch cảnh hoặc đùi ở trẻ lớn
+*** Câu hỏi:
+**** Kiểm tra mạch như thế nào?
+**** Nếu không chắc chắn khi kiểm tra mạch thì xử trí như thế nào?
+** Kích hoạt cấp cứu
+** Nhấn tim và thông khí
+*** Thứ tự thực hiện C-A-B
+**** Tại sao thứ tự thực hiện là C-A-B?
+- Giúp giảm thời gian chờ thực hiện CPR
+*** Kỹ thuật
+**** Tần số nhấn tim 100 - 120 lần/phút
+**** Biên độ nhấn tim
+- Người lớn: 5cm, không quá 6cm
+- Trẻ em: ít nhất 1/3 bề dày thành ngực (khoảng 4cm ở trẻ sơ sinh- 5cm ở trẻ lớn)
+**** Vị trí đặt tay
+- Người lớn: Giữa ngực (nửa dưới xương ức)
+- Trẻ em: trên xương ức ngay phía dưới đường nối 2 núm vú
+**** Tỷ lệ nhấn tim:thông khí.
+- Người lớn:
+  - Tidal volume 500 - 600ml hoặc đủ để thấy lồng ngực nâng lên.
+  - Tỷ lệ 30:2 nếu chưa đặt NKQ, mỗi lần thông khí kéo dài khoảng hơn 1 giây.
+  - Nếu bệnh nhân còn mạch(rõ và mạnh): mỗi 6 giây 1 một lần.
+  - Lưu ý: không lấy hơi quá sâu để thông khí vì có thể thông khí quá mực và khiến người cứu hộ bị choáng (chóng mặt)
+- Trẻ em:
+  - Khi chưa đặt NKQ. Nếu 1 người cấp cứu 30:2. Nếu 2 người cấp cứu 15:2
+  - Khi đã có NKQ hoặc ngưng thở có mạch: 2-3 giây một lần thông khí
+**** Thay đổi người mỗi 2 phút hoặc khi quá mệt
+**** Kiểm soát đường thở
+- Mục đích?
+- Kỹ thuật ngửa đầu nâng cằm. Dùng kỹ thuật đẩy hàm trong trường hợp nghi ngờ tổn thương cột sống cổ.
+- Nếu không thể khai thông đường thở bằng kỹ thuật đẩy hàm và/hoặc không thể đặt ống thông miệng hầu/mũi hầu thì nên thực hiện kỹ thuật ngửa đầu nâng cằm (COR 1, LOE C-EO)
+- Trong trường hợp tổn thương cột sống cổ, người chưa được đào tạo không nên sử dụng thiết bị cố định cột sống cổ vì có thể gây hại (COR 3-harm, LOE C-LD). VD: Thay vào đó, dùng 1 tay chặn 1 bên đầu để giữ cho cột sống cổ cố định.
+**** Kiểm tra lại mạch/nhịp:
+- Mỗi 2 phút, không quá 10s
+- Không kiểm tra liền mạch/nhịp mà làm CPR ngay sau khi sốc điện (COR 2b, LOE C-LD)
+*** Sai sót thường gặp
+**** Nhấn quá nông hoặc quá sâu
+**** Nhấn quá nhanh
+**** Vị trí đặt tay không đúng (đặt mù)
+**** Tư thế nhấn tim không hiệu quả
+**** Không để thành ngực thư giãn đủ hoặc quá nảy
+**** ...
+*** Câu hỏi:
+**** Có cần cởi áo bệnh nhân trước khi nhấn tim không?
+**** Có cần ngưng nhấn tim khi thông khí không? tại sao?
+**** Xử trí khi cảm thấy thông khí khó khăn?
+- Nguyên nhân thường gặp nhất là khai thông đường thở chưa hiệu quả, do đó thực hiện ngửa đầu nâng cằm lại và thông khí lại 1 lần.
+- Nếu vẫn thất bại?
+**** Thông khí quá nhiều có gây hại? tại sao?
+**** Trẻ em trong hướng dẫn CPR được xác định như thế nào?
+- Từ 1 tuổi đến dậy thì (phát triển nhũ ở nữ và lông nách ở nam)
+
+** Tư thế bệnh nhân sau CPR
+** Dị vật đường thở
+*** Người lớn:
+- Nhận biết mức độ nặng: ho không ra tiếng, tím tái, không nói được, không thở được. Dấu hiệu thường gặp là tay người bệnh ôm vùng cổ.
+*** Trẻ em
+- Mức độ nhẹ: để người bệnh tự ho tống dị vật và quan sát kỹ dấu hiệu tắc nghẽn nặng
+- Mức độ nặng: ấn bụng (abdominal thrust) ở trẻ lớn; ở trẻ nhũ nhi 5 lần vỗ ngực sau đó 5 lần nhấn ngực cho đến khi tống được dị vật hoạc bất tỉnh. không nhấn bụng ở trẻ nhũ nhi vì có thể gây tổn thương tạng
+- Nếu BN bất tỉnh: CPR ngay lập tức
+**
+* CVD risk stratification
+** AHA/ACC
+** ESC
+** WHO
+** National vascular disease prevention alliance. Autralia 2012
