@@ -1,0 +1,11 @@
+* Add focus function that do:
+- If current cursor is on header: find the child of that header, copy content of that header and the child. Put information in {contentBefore: content before that header; contentFocus: content of that header and the child; contentAfter: contentafter that header and the child; focusMode: "on"}.  change the textarea value = contentFocus. set cursor position at the end of contentFocus text
+- if current cursor is not on header: do nothing. 
+* Add unFocus function that do:
+- if focusMode: "on":  change the textarea value = contentBefore +/n +  contentFocus + /n + contentAfter. focusMode: "off". set cursor position = contentBefore.length + whereTheCursorOn().offset
+- if focusMode: "off": do nothing
+* Add key shortcut ctrl+shift + f for that toggle focus and unFocus functions
+-  f
+* now add function that do: 
+  - Exchange current line up or down
+  - reset position of cursor = where

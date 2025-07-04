@@ -19,7 +19,8 @@
       box-sizing: border-box;
       resize: none;
       font-family: monospace;
-      color: #021d6e;
+      color: #0036b3; /*#021d6e;*/
+      /*background-color: #252627;*/
     }
 
     #controls {
@@ -75,6 +76,7 @@
   <button id="toggleDebug">Enable Debug</button>
 
   <div>
+    <a id="focusMode" class="button-link">Focus mode</a>
     <a id="newFile" href="{% url 'authz:orgmode' %}" class="button-link">New file</a>
     <a id="openBtn" href="{% url 'authz:list_my_directory' %}" class="button-link">Open</a>
     <button id="saveBtn">Save</button>
@@ -113,11 +115,11 @@
  <a href="{% url 'login' %}?next={{request.path }}"> Login </a>
  {% endif %}
  <br>
- Shortcuts: <strong>Alt+q</strong> to Collapse/Expand, <strong>Alt+Enter</strong> to insert sibling item
+ Shortcuts: <strong>Ctrl+q</strong> to Collapse/Expand, <strong>Ctrl+Enter</strong> to insert sibling item
 
 </div>
 
-<textarea id="myTextarea" spellcheck="false">{{ content }}</textarea>
+<textarea id="myTextarea" spellcheck="false" autofocus ="true" placeholder = "Wellcome to Orgmode Resembling Editor">{{ content }}</textarea>
 
 
 <script>
@@ -639,129 +641,42 @@ function decreaseLevelAtCursor() {
   isSaved = false;
 }
 
+function cycleListMarker(direction) {
 
-// ========== Shortcuts ==========
-
-textarea.addEventListener('keydown', (e) => {
   const pos = whereTheCursorOn();
   if (!pos) return;
 
-  const structure = whatLevelOn(pos.lineText);
+  const lines = textarea.value.split('\n');
+  const index = pos.lineIndex;
+  const line = lines[index];
 
-  // Alt + q
-  if (e.key.toLowerCase() === 'q' && e.altKey) {
-    e.preventDefault();
-    const hasCollapsed = /.*?\s*\.\.([\u200B\u200C\u200D\u2060\uFEFF\u180E]{30})\.\.\s*$/.test(pos.lineText);
-    if (structure.type === "none") return;
-    if (hasCollapsed) {
-      expandAndUpdate();
-    } else {
-      collapseAndStore();
-    }
-  }
+  const match = line.match(/^(\s*)([-+]|(\d+)\.)(\s+)(.*)$/);
+  if (!match) return;
+  saveStateForUndo();
+  const indent = match[1];
+  const marker = match[2];
+  const spacing = match[4];
+  const content = match[5];
 
-  // Alt + Enter
-  if (e.key === 'Enter' && e.altKey) {
-    e.preventDefault();
-    const level = structure.level;
-    let prefix = '';
+  const markers = ['-', '+', '1.'];
+  let currentIndex = markers.findIndex(m => m.startsWith(marker));
 
-    if (structure.type === "header") {
-      prefix = '*'.repeat(level) + ' ';
-    } else if (structure.type === "list") {
-      const indent = ' '.repeat(level);
-      if (structure.marker && /^\d+\.$/.test(structure.marker)) {
-        const nextNum = parseInt(structure.marker) + 1;
-        prefix = indent + nextNum + '. ';
-      } else if (structure.marker) {
-        prefix = indent + structure.marker + ' ';
-      }
-    }
+  if (currentIndex === -1) return;
 
-    const cursor = textarea.selectionStart;
-    textarea.setRangeText('\n' + prefix, cursor, cursor, 'end');
-  }
+  let newIndex = (currentIndex + direction + markers.length) % markers.length;
+  lines[index] = indent + markers[newIndex] + spacing + content;
+  // Recalculate cursor offset
+  const delta = markers[newIndex].length - match[2].length;
+  const newCursor = pos.offset + delta;
+  textarea.value = lines.join('\n');
+  textarea.selectionStart = textarea.selectionEnd = newCursor;
+  textarea.focus();
+  isSaved = false;
 
-  // Alt + A => Collapse/Expand all of same type & level
-  if (e.key.toLowerCase() === 'a' && e.altKey) {
-    e.preventDefault();
-
-    saveStateForUndo(); // Step 0: Save current state for undo
-
-    const pos = whereTheCursorOn();
-    if (!pos) return;
-
-    const referenceStructure = whatLevelOn(pos.lineText);
-    if (referenceStructure.type === "none") return;
-        else {
-        toggleSameLevel(referenceStructure);
-        }
-    }
-    // Alt + z => Cycle through collapsing headers by level
-    if (e.key.toLowerCase() === 'z' && e.altKey) {
-        e.preventDefault();
-        cycleCollapseByHeaderLevel();
-}
-// Ctrl + ArrowUp => Increase font size
-if (e.ctrlKey && e.key === 'ArrowUp') {
-  e.preventDefault();
-  changeFontSizeDelta(+1);
-}
-
-// Ctrl + ArrowDown => Decrease font size
-if (e.ctrlKey && e.key === 'ArrowDown') {
-  e.preventDefault();
-  changeFontSizeDelta(-1);
-}
-
-// Ctrl + ArrowRight => Increase level
-if (e.ctrlKey && e.key === 'ArrowRight') {
-  e.preventDefault();
-  increaseLevelAtCursor();
-}
-
-// Ctrl + ArrowLeft => Decrease level
-if (e.ctrlKey && e.key === 'ArrowLeft') {
-  e.preventDefault();
-  decreaseLevelAtCursor();
 }
 
 
-});
 
-// ========== Debug & Buttons ==========
-
-function debugDisplay() {
-  if (!debugEnabled) return;
-  const obj1 = whereTheCursorOn();
-  const obj2 = obj1 ? whatLevelOn(obj1.lineText) : { type: "none", level: 0 };
-  alert(`Cursor Info: ${JSON.stringify(obj1)}, Structure Info: ${JSON.stringify(obj2)}`);
-}
-
-document.getElementById('toggleDebug').addEventListener('click', () => {
-  debugEnabled = !debugEnabled;
-  document.getElementById('toggleDebug').textContent = debugEnabled ? 'Disable Debug' : 'Enable Debug';
-});
-
-textarea.addEventListener('click', debugDisplay);
-textarea.addEventListener('keyup', debugDisplay);
-
-// Removed input event listener here and replaced with the new one above for undo
-textarea.addEventListener('input', () => {
-    isSaved = false;
-    collapseCycle = { maxLevel: 0, state: 0 };
-});
-
-document.getElementById('openBtn').addEventListener('click', function (e) {
-  if (!isSaved && !confirm("You have unsaved changes. Continue anyway?")) {
-    e.preventDefault(); // cancel navigation
-  }
-});
-document.getElementById('newFile').addEventListener('click', function (e) {
-  if (!isSaved && !confirm("You have unsaved changes. Continue anyway?")) {
-    e.preventDefault(); // cancel navigation
-  }
-});
   function getCookie(name) {
     let cookieValue = null;
     if (document.cookie && document.cookie !== '') {
@@ -807,7 +722,298 @@ document.getElementById('newFile').addEventListener('click', function (e) {
     }
   }
 
+// Focus mode
+
+let focusState = {
+  mode: "off",
+  contentBefore: "",
+  contentFocus: "",
+  contentAfter: "",
+};
+
+function focusModeOn() {
+  const pos = whereTheCursorOn();
+  if (!pos) return;
+
+  const lines = textarea.value.split('\n');
+  const lineIndex = pos.lineIndex;
+  const structure = whatLevelOn(lines[lineIndex]);
+
+  if (structure.type !== 'header') return;
+
+  const child = theChildOf(lineIndex);
+  const focusLines = [];
+
+  focusLines.push(lines[lineIndex]); // current header
+  const start = lineIndex;
+  let end = lineIndex;
+
+  if (child) {
+    focusLines.push(...lines.slice(child.start, child.end + 1));
+    end = child.end;
+  }
+
+  focusState = {
+    mode: "on",
+    contentBefore: lines.slice(0, start).join('\n'),
+    contentFocus: focusLines.join('\n'),
+    contentAfter: lines.slice(end + 1).join('\n'),
+  };
+
+  textarea.value = focusState.contentFocus;
+  textarea.selectionStart = textarea.selectionEnd = textarea.value.length;
+  textarea.focus();
+
+  document.getElementById("focusMode").style.backgroundColor = "blue";
+  document.getElementById("focusMode").style.color = "white";
+}
+
+function focusModeOff() {
+  if (focusState.mode !== "on") return;
+
+  const currentCursorOffset = whereTheCursorOn()?.offset || 0;
+  focusState.contentFocus = textarea.value
+  textarea.value = [
+    focusState.contentBefore,
+    focusState.contentFocus,
+    focusState.contentAfter
+  ].filter(Boolean).join('\n');
+
+  focusState.mode = "off";
+
+  const newCursorPos = (focusState.contentBefore ? focusState.contentBefore.length + 1 : 0) + currentCursorOffset;
+  textarea.selectionStart = textarea.selectionEnd = newCursorPos;
+  textarea.focus();
+
+  document.getElementById("focusMode").style.backgroundColor = "#f0f0f0";
+  document.getElementById("focusMode").style.color = "black";
+}
+
+function toggleFocusMode() {
+  if (focusState.mode === "on") {
+    focusModeOff();
+  } else {
+    focusModeOn();
+  }
+}
+
+function swapLine(direction) {
+  const pos = whereTheCursorOn();
+  if (!pos) return;
+
+  const lines = textarea.value.split('\n');
+  const fromIndex = pos.lineIndex; // Original index of the line where cursor is
+  const toIndex = fromIndex + direction; // Target index for the line where cursor is
+
+  // Prevent out-of-bounds swaps
+  if (toIndex < 0 || toIndex >= lines.length) return;
+
+  saveStateForUndo(); // Save state before modification
+
+  // 1. Identify the line content the cursor is currently on
+  const lineContentWithCursor = lines[fromIndex];
+  const originalColumn = pos.column;
+
+  // 2. Perform the swap on the array of lines
+  const temp = lines[fromIndex];
+  lines[fromIndex] = lines[toIndex];
+  lines[toIndex] = temp;
+
+  // 3. Update the textarea with the new content
+  textarea.value = lines.join('\n');
+
+  // 4. Calculate the new absolute cursor offset
+
+  // Find the start of the line that *now contains* the original line content.
+  // This line is now at 'toIndex'.
+  let startOfNewLineWithCursor = 0;
+  for (let i = 0; i < toIndex; i++) {
+    startOfNewLineWithCursor += lines[i].length + 1; // +1 for the newline character
+  }
+
+  // The new cursor offset is the start of that line plus the original column.
+  // We clamp it to the length of the *new* line (which is the original line's content)
+  // to prevent it from going beyond the line's end if the original column was past
+  // the end of the line (e.g., if click past the last character).
+  const clampedColumn = Math.min(originalColumn, lineContentWithCursor.length);
+  const newCursorOffset = startOfNewLineWithCursor + clampedColumn;
+
+  // 5. Set the cursor position
+  textarea.selectionStart = textarea.selectionEnd = newCursorOffset;
+  textarea.focus();
+
+  isSaved = false;
+}
+
+// ========== Shortcuts ==========
+
+textarea.addEventListener('keydown', (e) => {
+  const pos = whereTheCursorOn();
+  if (!pos) return;
+
+  const structure = whatLevelOn(pos.lineText);
+
+  // Ctrl + q
+  if (e.key.toLowerCase() === 'q' && e.ctrlKey) {
+    e.preventDefault();
+    const hasCollapsed = /.*?\s*\.\.([\u200B\u200C\u200D\u2060\uFEFF\u180E]{30})\.\.\s*$/.test(pos.lineText);
+    if (structure.type === "none") return;
+    if (hasCollapsed) {
+      expandAndUpdate();
+    } else {
+      collapseAndStore();
+    }
+  }
+
+  // ctrl + Enter
+  if (e.key === 'Enter' && e.ctrlKey) {
+    e.preventDefault();
+    const level = structure.level;
+    let prefix = '';
+
+    if (structure.type === "header") {
+      prefix = '*'.repeat(level) + ' ';
+    } else if (structure.type === "list") {
+      const indent = ' '.repeat(level);
+      if (structure.marker && /^\d+\.$/.test(structure.marker)) {
+        const nextNum = parseInt(structure.marker) + 1;
+        prefix = indent + nextNum + '. ';
+      } else if (structure.marker) {
+        prefix = indent + structure.marker + ' ';
+      }
+    }
+
+    const cursor = textarea.selectionStart;
+    textarea.setRangeText('\n' + prefix, cursor, cursor, 'end');
+  }
+
+  // Alt + z => Collapse/Expand all of same type & level
+  if (e.key.toLowerCase() === 'z' && e.altKey) {
+    e.preventDefault();
+
+    saveStateForUndo(); // Step 0: Save current state for undo
+
+    const pos = whereTheCursorOn();
+    if (!pos) return;
+
+    const referenceStructure = whatLevelOn(pos.lineText);
+    if (referenceStructure.type === "none") return;
+        else {
+        toggleSameLevel(referenceStructure);
+        }
+    }
+    // Alt + a => Cycle through collapsing headers by level
+    if (e.key.toLowerCase() === 'a' && e.altKey) {
+        e.preventDefault();
+        cycleCollapseByHeaderLevel();
+}
+// Alt + ArrowUp => Increase font size
+if (e.altKey && e.key === 'ArrowUp') {
+  e.preventDefault();
+  changeFontSizeDelta(+1);
+}
+
+// Alt + ArrowDown => Decrease font size
+if (e.altKey && e.key === 'ArrowDown') {
+  e.preventDefault();
+  changeFontSizeDelta(-1);
+}
+
+// Ctrl + ArrowRight => Increase level
+if (e.ctrlKey && e.key === 'ArrowRight') {
+  e.preventDefault();
+  increaseLevelAtCursor();
+}
+
+// Ctrl + ArrowLeft => Decrease level
+if (e.ctrlKey && e.key === 'ArrowLeft') {
+  e.preventDefault();
+  decreaseLevelAtCursor();
+}
+
+// Ctrl + . => Cycle list marker forward
+if (e.ctrlKey && e.key === '.') {
+  e.preventDefault();
+  cycleListMarker(1); // forward
+}
+
+// Ctrl + , => Cycle list marker backward
+if (e.ctrlKey && e.key === ',') {
+  e.preventDefault();
+  cycleListMarker(-1); // backward
+}
+
+// Ctrl + s => save file
+
+if (e.ctrlKey&&e.key.toLowerCase() ==='s'){
+    e.preventDefault();
+    if (focusState.mode === "on") { focusModeOff()}
+    expandAll();
+    const currentFilename = filenameDisplay.textContent.trim();
+    const content = textarea.value;
+
+    if (currentFilename === 'new_file') {
+      const newName = prompt('Enter a filename (e.g., notes.txt):');
+      if (!newName) return;
+      saveToServer(newName, content);
+    } else {
+      saveToServer(currentFilename, content);
+    }
+}
+
+// Ctrl + Shift + F => Toggle Focus Mode
+if (e.ctrlKey && e.shiftKey && e.key.toLowerCase() === 'f') {
+  e.preventDefault();
+  toggleFocusMode();
+}
+  if (e.ctrlKey && e.key === 'ArrowUp') {
+    e.preventDefault();
+    swapLine(-1);
+  }
+
+  if (e.ctrlKey && e.key === 'ArrowDown') {
+    e.preventDefault();
+    swapLine(1);
+  }
+});
+
+// ========== Debug & Buttons ==========
+
+function debugDisplay() {
+  if (!debugEnabled) return;
+  const obj1 = whereTheCursorOn();
+  const obj2 = obj1 ? whatLevelOn(obj1.lineText) : { type: "none", level: 0 };
+  alert(`Cursor Info: ${JSON.stringify(obj1)}, Structure Info: ${JSON.stringify(obj2)}`);
+}
+
+document.getElementById('toggleDebug').addEventListener('click', () => {
+  debugEnabled = !debugEnabled;
+  document.getElementById('toggleDebug').textContent = debugEnabled ? 'Disable Debug' : 'Enable Debug';
+});
+
+textarea.addEventListener('click', debugDisplay);
+textarea.addEventListener('keyup', debugDisplay);
+
+// Removed input event listener here and replaced with the new one above for undo
+textarea.addEventListener('input', () => {
+    isSaved = false;
+    collapseCycle = { maxLevel: 0, state: 0 };
+});
+
+document.getElementById('openBtn').addEventListener('click', function (e) {
+  if (!isSaved && !confirm("You have unsaved changes. Continue anyway?")) {
+    e.preventDefault(); // cancel navigation
+  }
+});
+document.getElementById('newFile').addEventListener('click', function (e) {
+  if (!isSaved && !confirm("You have unsaved changes. Continue anyway?")) {
+    e.preventDefault(); // cancel navigation
+  }
+});
+
   saveBtn.addEventListener('click', () => {
+    if (focusState.mode === "on") { focusModeOff()}
+
     expandAll();
     const currentFilename = filenameDisplay.textContent.trim();
     const content = textarea.value;
@@ -822,6 +1028,7 @@ document.getElementById('newFile').addEventListener('click', function (e) {
   });
 
   saveAsBtn.addEventListener('click', () => {
+    if (focusState.mode === "on") { focusModeOff()}
     expandAll();
     const content = textarea.value;
     const newName = prompt('Save As: Enter a new filename (e.g., mydoc.html):');

@@ -1,7 +1,5 @@
-1. Gets the current line's structure (type + level).
-2. Finds all lines with the same type and level.
-3. Checks if all are collapsed.
-4. expandAll to get clean state. 
-5. if all were collapsed. we are good because we expanded them all
-6. If not scan line by line from top line. check if the line is the same structure of the line in first step, detect the child-> store information. using information of previous parent and child to jump to next  parent, do the same until the end. update text at the same time at the end. 
-7. Resets the cursor to the top.
+- Exchange current line up or down 
+* now add function that do:
+1. jskc
+  - reset position of cursor = where
+* sadkj

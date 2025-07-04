@@ -1,5 +1,21 @@
 * Nguồn tài liệu
-  -
+** Sách sổ tay siêu âm tim
+*** Thiết lập máy siêu âm
+    1. Năng lượng âm
+      - Năng lượng càng cao, hình ảnh càng tốt, tỉ số nhiễm âm SNR tốt hơn
+      - Chỉ tăng năng lượng truyền âm khi chế độ mặc định có SNR thấp
+      - Tác động sinh học:
+        + Nhiệt: chỉ số nhiệt TI nên duy trì dưới 2
+        + Tạo bọt khí: chỉ số cơ học MI nên duy trì dưới 1.9
+    2. Gain
+    3. Tần số truyền âm
+       - Tần số thấp hơn -> độ phân giải thấp hơn nhưng xuyên thấu tốt hơn
+       - Harmonic imaging -> tăng SNR, tăng độ phân giải ngang, nhưng giảm độ phân giải không gian dọc (điều này quan trọng khi khảo sát các cấu trúc nhỏ mỏng như lá van)
+    4. Focus: Khuyến cáo focus gần cấu trúc sâu nhất
+    5. Rate: rate cao -> giảm phân giải ngang
+    6. Doppler liên tục và doppler xung
+       - Doppler xung
+         + Nyquist Frequency = PRF / 2
 * Protocol tại BV Gia Định
 ** TODO Minimal protocol <- do this firs
    - Mặt cắt từ mỏm
