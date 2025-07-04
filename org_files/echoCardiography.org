@@ -15,7 +15,43 @@
     5. Rate: rate cao -> giảm phân giải ngang
     6. Doppler liên tục và doppler xung
        - Doppler xung
-         + Nyquist Frequency = PRF / 2
+         + Nyquist Frequency = PRF / 2. PRF: pulse repetition frequency
+         + Scale: điều chỉnh scale tức là điều chỉnh PRF
+         + Baseline: điều chỉnh baseline chỉ là cách "clever" để hiển thị phần aliasing (không thay đổi PRF), nhưng có thể nhầm lẫn giữa vận tốc âm với vận tốc rất cao (vượt ngưỡng Nyquist)
+       - Khuyến cáo:
+         + Tốc độ quét: khuyến cáo nên để 100 mm/s trừ khi tìm sự khác biệt giữa các nhịp tim
+         + Wall fiter: should be as low as possible while avoiding pollution by myocardial velocities
+         + Color gain: nên để mức cao nhất có thể, không có tín hiệu nhiễu (color confetti). Cái này đơn giản chỉ khuyến đại tín hiệu, không phải điều chỉnh PRF. 
+         + 
+** Basic ultrasound
+  - Shadowing and coloring
+    + Due to attenuation and lack of attenuation
+  - Gain, reject, compress
+  - Artefacts
+    1. Reverberations
+      + May also occur in color doppler
+    2. Ringdown artefact
+      + Present similar to resonance mechanism (eliminate by change of frequency) but different mechanism (multiple reverberations within a short space)
+    3. Comet tails: ringdown in lung ultrasound 
+    4. Side lobes
+  - Source: https://stoylen.folk.ntnu.no/strainrate/Basic_ultrasound.html 
+** Bài giảng thầy Vinh
+*** Giải phẫu tim
+    - Kích thước tim người lớn: 8*12cm
+    - Đường kính nhĩ trái # ĐMC # 30mm. Phình nếu > 1.5 lần bình thường. 
+    - Tỷ lệ VLT_cuối tâm trương/ thành sau thất trái # 0.9 - 1.3
+    - 2 cột cơ nhú van 2 lá hướng 3-4h và 7-8h (không nối vách liên thất)
+    - Van 2 lá bám thấp hơn 3 lá (mặt cắt 4 buồng từ mỏm)
+    - Mặt cắt dưới sườn là mặt cắt vàng chẩn đoán thông liên nhĩ
+    - Mặt cắt trên hõm ức khảo sát còn ống động mạch
+    - Doppler: vận tốc dòng máu qua van # 1m/s
+      + Chủ: 1.25
+      + 2 lá: 1.0
+      + Phổi: 0.75
+      + 3 lá: 0.5
+    - Áp lực:
+      + Thất trái: 100mHg
+      + Thất phải: 20-25mmHg
 * Protocol tại BV Gia Định
 ** TODO Minimal protocol <- do this firs
    - Mặt cắt từ mỏm

@@ -21,6 +21,10 @@
       font-family: monospace;
       color: #0036b3; /*#021d6e;*/
       /*background-color: #252627;*/
+      padding-bottom: 500px; /* adds space below last line */
+      scroll-padding-bottom: 0px; /* for smooth keyboard scroll into view */
+      overflow-y: auto;
+      line-height: 1.4em;
     }
 
     #controls {
@@ -766,12 +770,19 @@ function focusModeOn() {
 
   document.getElementById("focusMode").style.backgroundColor = "blue";
   document.getElementById("focusMode").style.color = "white";
+
+// Calculate the scroll position 300px above the bottom of content
+  const scrollPosition = textarea.scrollHeight - textarea.clientHeight - 300;
+
+// Scroll to that position inside the textarea
+  textarea.scrollTop = scrollPosition > 0 ? scrollPosition : 0;
 }
 
 function focusModeOff() {
   if (focusState.mode !== "on") return;
 
   const currentCursorOffset = whereTheCursorOn()?.offset || 0;
+  const currentLineIndex = whereTheCursorOn()?.lineIndex || 0;
   focusState.contentFocus = textarea.value
   textarea.value = [
     focusState.contentBefore,
@@ -787,6 +798,9 @@ function focusModeOff() {
 
   document.getElementById("focusMode").style.backgroundColor = "#f0f0f0";
   document.getElementById("focusMode").style.color = "black";
+  const scrollToLine = currentLineIndex + focusState.contentBefore.split('\n').length - 6; // scroll to 6 lines before cursor
+  const lineNumber = scrollToLine > 0 ? scrollToLine : 0;
+  smoothScrollToLine(textarea, lineNumber)
 }
 
 function toggleFocusMode() {
@@ -843,6 +857,16 @@ function swapLine(direction) {
   textarea.focus();
 
   isSaved = false;
+}
+
+function smoothScrollToLine(textarea, lineNumber) {
+  const lineHeight = parseInt(getComputedStyle(textarea).lineHeight, 10);
+  const targetScrollTop = lineNumber * lineHeight;
+
+  textarea.scrollTo({
+    top: targetScrollTop,
+    behavior: 'smooth'
+  });
 }
 
 // ========== Shortcuts ==========
