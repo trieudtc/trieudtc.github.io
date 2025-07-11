@@ -1,2 +1,25 @@
 * Các kỹ thuật can thiệp động mạch vành:
-** 
+* Đặt máy tạo nhịp tạm thời
+** Các bước
+  1. Chọc tĩnh mạch dưới đòn
+     - Kiểm tra bóng
+     - Gắn sleeve vô trùng
+     - Luồn catheter
+  2. 
+  3. Bơm bóng, khóa van
+  4. Luồn catheter
+  5. Xả bóng
+  6. 
+  7. Kết nối điện cực
+     - rate 80, output 5mA, sen full-demand (most sensitivity, maximum), turn pacer on. 
+  8. Kiểm tra pacing
+  9. Test ngưỡng output
+     - Giảm output từ từ để tìm ngưỡng
+     - Set output = 2.5 lần ngưỡng (thường 2-3 mA)
+  10. Test sensing
+      - Set rate > 10 beats than intrisic rhythm
+      - Set sen asynchronous mode (minimum sen), ensure that there is complete capture
+      - Set sen 3mV
+      - Giảm nhịp, kiểm tra sen
+      - Điều chỉnh sen, tìm ngưỡng
+      - Set sen = 0.5 ngưỡng 

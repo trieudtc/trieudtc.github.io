@@ -86,6 +86,192 @@
 ** TODO Basic views <- then do this
 ** TODO Evaluation of left ventrical <- the third
 ** TODO Evaluation of right ventrical <- the fourth
-** TODO Valvular heart diease <- the fifth
+** Valvular heart diease
+*** Hẹp van 2 lá
+1. Giải phẫu
+   - Diện tích mở van 2 lá bình thường 4-6 cm2
+   - Cơ nhú
+     + Cơ nhú trước bên: LAD + LCX
+     + Cơ nhú sau giữa: RCA -> thường bị ảnh hưởng trong NMCT cấp
+   - Nguyên nhân: 99% hậu thấp, bẩm sinh, vôi hóa vòng van - lá van (thoái hóa)
+2. Giải phẫu bệnh
+   - Hậu thấp
+     + Xơ hóa, dày, đóng vôi (bóng lưng)
+     + Mép van dính, bìa van dày
+     + Dây thừng gân: dính, co rút
+3. Chẩn đoán
+  - T1 đanh
+  - Rung tâm trương - thổi tiền tâm thu
+  - Clac mở van 2 lá
+  - Mức độ hẹp
+    + nhẹ: >1.5 cm2
+    + Vừa: 1.5-1.0 cm2
+    + Nặng: <1.0 cm2
+4. Siêu âm tim
+  - Xác định bệnh, đánh giá độ nặng, biến chứng, nguyên nhân, hướng dẫn điều trị
+  - Mục tiêu
+    + Tính chất lá van: lá van, vòng van, mép van, dây chằng dưới van
+    + Diện tích mở van
+    + Kích thước buồng tim
+    + Huyết khối buồng tim
+    + Áp lực động mạch phổi
+    + Chức năng thất trái, thất phải
+    + Bệnh phối hợp
+  - Thực hành
+    1. Mặt cắt cạnh ức trục dọc
+      - Phình đầu gối của *lá van trước* thì tâm trương
+      - Hình thái học trong hẹp van 2 lá hậu thấp
+        + Dày các bìa lá van: >=5mm
+        + Dính mép: Đặc trưng bệnh lý
+        + Dính và co rút dây chằng: bình thường điểm đóng gần hoặc ngay mặt phẳng vòng van
+        + Lắng đọng vôi hóa
+      - Mode TM:
+        + 2 lá van 2 lá vận động cùng chiều, mất dạng M của lá trước
+        + Độ dốc EF giảm: bình thường 70-150mm/s. nặng < 10mm/s
+    2. Mặt cắt cạnh ức trục ngang
+      - Khảo sát
+        + Tính chất van ĐMC
+        + Doppler dòng máu qua van ĐMP
+        + Đo áp lực trung bình và áp lực ĐMP tâm trương (dòng hở ĐMP)
+        + Cục máu đông nhĩ trái, tiểu nhĩ trái
+        + Hở van 3 lá
+        + ÁP lực ĐMP tâm thu (dòng hở 3 lá)
+      - Đo diện tích van 2 lá
+        + Phương pháp 2D (planimetry)
+          - Tương quan tốt với diện tích giải phẫu
+          - Ít phụ thuộc tần số tim, lưu lượng, sức chứa buồng tim
+          - Không bị ảnh hưởng bởi hở van 2 lá (hẹp tương đối)
+          - PP đáng tin cậy nhất đánh giá sau nong van 2 lá bằng bóng qua da
+          - Đo giữa hay cuối tâm trương (mở lớn nhất)
+          - Đo trong ít nhất 3ck nếu nhịp xoang, 5ck nếu rung nhĩ
+        + Doppler
+          - MVA = 220/PHT. Sử dụng dốc thấp nhất
+          - Phương pháp dùng DT
+          - Phương pháp phương trình liên tục
+          - Không chính xác: trong 24-72 giờ sau nong van (phù nề), Hở van ĐMC - 2 lá có ý nghĩa, nhịp nhanh xoang (E và A nhập lại), độ đàn hồi thất giảm, thông liên nhĩ.
+      - Khảo sát tiểu nhĩ trái rõ nhất
+      - Đi ngược từ thất lên để xác định lỗ mở van 2 lá (chỗ nhỏ nhất)
+    3. Mặt cắt từ mỏm
+      - Vận tốc dòng máu nhĩ thất
+      - Diện tích mở van 2 lá theo PHT
+      - Tính chất van 2 lá và bộ máy dưới van
+      - Độ nặng hở van 3 lá, PAPs
+      - Hở van 2 lá, bệnh ĐMC phối hợp
+      - Chuyển động xoáy hoặc cục máu đông nhĩ trái
+    4. Bệnh lý phối hợp
+      - Lớn nhĩ trái
+        + DK nhĩ trái/ gốc DMC = 1-1.1
+        + LA (AP): nữ 2.7-3.8. Nam 3-4 cm. AP dimension index 1.5-2.3cm/m2 (theo diện tích da)
+        + LA volume: < 34ml/m2 
+      - Tăng áp động mạch phổi
+        + PAPs với dòng hở van 3 lá
+          - Phương trình Bernouli giản lược: delta P = PAPs - RAP = 4(V_TR)^2 -> cần đánh giáp vận tốc dòng hở van 3 lá (V_TR) và áp lực nhĩ phải
+        + Đánh giá áp lực ĐMP bằng doppler với dòng hở ĐMP
+          - Hở van ĐMP sinh lý gặp 50% người bình thường
+      - Đánh giá thất (P)
+        + Dày thành thất phải: >0.5cm (cạnh ức trục dọc hoặc dưới sườn)
+        + TAPSE <16: có rối loạn chức năng thất phải
+        + d_base > 42mm và d_mid > 35mm: dãn thất phải
+        + d_long > 86: lớn thất (P)
+      - Đánh giá lớn nhĩ (P)
+        + Theo đường kính ngang > 44mm
+        + Đường kính dọc > 53mm
+        + Diện tích > 18cm2
+      - Đường kính vòng van 3 lá 2D (TAD)
+        + Bình thường: 28 +/- 5mm (mặt cắt 4 buồng)
+        + Dãn vòng van 3 lá: TAD > 40mm (>21mm/m2)
+    5. Wilkin score: dùng để đánh giá trước nong van 2 lá bằng bóng qua da
+*** Hẹp van động mạch chủ
+**** Nguyên nhân
+     1. Hẹp do vôi hóa van ĐMC 3 mảnh
+        - Vôi hóa ở phần trung tâm mỗi lá van (không dính mép van) -> lỗ van ĐMC thì tâm thu hình ngôi sao
+     2. Van ĐMC 2 mảnh + vôi hóa
+        - Thường do dính lá vành trái và phải
+        - Chẩn đoán chắc chắn nhất khi quan sát thấy 2 lá van này trong thì tâm thu
+     3. Bệnh van tim hậu thấp
+        - Dính mép van -> lỗ van thì tâm thu hình tam giác
+        - Dày/vôi hóa chủ yếu dọc theo bờ các lá van
+     4. Hẹp van động mạch chủ bẩm sinh, hiếm gặp ở người lớn
+**** Đánh giá mức độ hẹp van động mạch chủ
+     1. Đo lường về huyết động
+        - Chủ yếu dựa vào 3 thông số (3 thông số này nên đồng nhất về độ nặng)
+          + Đo vận tốc đỉnh qua lỗ van
+          + Chênh áp trung bình qua van ĐMC
+          + Diện tích van ĐMC (AVA)
+     2. Cách đo các thông số
+        - Đường kính LVOT
+          + Cạnh ức trục dọc (zoom)
+          + Đo ngay chỗ bám van (hay lùi 0.5-1.0cm)
+          + Bờ trong đến bờ trong
+          + Vuông góc thành ĐMC
+          + Giữa thì tâm thu
+          + Average (3-5 cycles)
+        - Vận tốc buồng tống thất trái
+          + Apical long-axis or 5CV
+          + PW doppler, đặt gần lá van nhất có thể, vị trí trung tâm
+          + 
+*** Hở van động mạch chủ
+    - Nguyên nhân
+    - Chẩn đoán
+    - SA tim
+       1. Xác định hở van
+          - Đo đạc
+            + Vòng van, xoang valsava, khớp xoang ống, động mạch chủ lên
+            + Biên độ mở van DMC (M mode qua van, cạnh ức trục dọc)
+            + Số lá van ĐMC (cạnh ức trục ngang)
+            + Quai ĐMC (hõm ức), ĐMC xuống (2 buồng tại mỏm), ĐMC bụng
+          - Xác định hở van
+            + Dấu trực tiếp: van sigma đóng không kín
+            + Dấu gián tiếp: Xem lá trước van 2 lá
+            + Doppler màu, liên tục: độ nhayh > 95%, chuyên # 100%
+              + Mặt cắt cạnh ức trục dọc: Doppler màu qua van DMC + M mode
+       2. Lượng giá độ nặng
+          - 4 phương pháp chính: độ dài dòng hở bằng doppler màu, tỉ lệ độ rộng dòng hở (ít dùng do sai số chủ quan), lượng máu phụt ngược, PISA và VC. 
+          - Thông số bán định lượng: 
+            + Vena contracta (cm): <0.3 nhẹ, 0.3-0.6 trung bình, >0.6 nặng. Phản ánh đường kính lỗ hở
+            + Pressure half time (PHT): >500 nhẹ, 200-500 trung bình, <200 nặng. Mặt cắt 3 buồng hoặc 5 buồng từ mỏm. 
+          - Thông số định lượng:
+            + Đo diện tích lỗ hở: PISA: 5 buồng từ mỏm. EROA, R vol (thể tích phụt ngược)
+            + Xem bảng phân độ ESC
+            + lưu ý: dòng phụt ngược lệch tâm là phải có bất thường (không phải do giãn vòng van)
+            + Dòng chảy ngược động mạch chủ thì tâm trương
+       3. Nguyên nhân/ cơ chế
+          - Phân loại theo Mỹ: Iabcd, II, III
+          - xem thêm: Recomendations for cardiac chamber quantification by echocardiography in adults
+       4. Ảnh hưởng trên tim
+          - Thất trái: kích thước, chức năng
+          - Nhĩ trái
+          - Áp lực ĐMP
+       5. Tổn thương phối hợp
+       6. Thực hành
+          - Mặt cắt cạnh ức trục dọc
+            + TÍnh chất lá van
+            + Vận động lá van
+            + Xác định hở van, cơ chế
+            + Độ nặng: độ dài dòng hở, vc, pisa, đường kính dòng phụt/ đường kính buồng thoát
+            + Kích thước buồng tim, phân suất tống máu, chuyển động thành thất
+            + Huyết khối nhĩ trái, thất trái
+            + TDMT
+          - Cạnh ức trục ngang
+            + Dòng phụt hở van (doppler màu): Frezze thì tâm trương -> đốm màu đỏ ngay chính giữa
+            + Tính chất lá van: số lượng lá van, đóng vôi, dày, mép đóng vôi
+            + Huyết khối tiểu nhĩ trái
+          - Mặt cắt 4-5 buồng từ mỏm
+            + Tính chất lá van
+            + Cơ chế hở van
+            + Huyết khối
+            + Dòng hở: hướng (trung tâm, lêch tâm), độ nặng
+            + Vận tốc dòng máu phụt ngược
+            + Hở 2 lá: độ nặng, cơ chế
+            + Hở van 3 lá: độ nặng, cơ chế
+            + Áp lực DMP tâm thu
+          - 4 buồng dưới sườn
+            + TÍnh chất van 2 lá (khi mặt cắt 4 buồng từ mỏm không rõ)
+            + TM trên gan
+            + Tràn dịch màng tim (TDMT)
+          - Mặt cắt trên hỡm ức
+            + Quai ĐMC
+            + Bệnh lý phối hợp (Còn ống ĐM, Hẹp eo ĐMC)
+       7. Step by step
 * Ultrasond physics
 * Board review

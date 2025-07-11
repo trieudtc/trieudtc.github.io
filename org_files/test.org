@@ -1,5 +1,123 @@
-- Exchange current line up or down 
-* now add function that do:
-1. jskc
-  - reset position of cursor = where
-* sadkj
+gfdg
+gfd
+* Nguồn tài liệu
+** Sách sổ tay siêu âm tim
+*** Thiết lập máy siêu âm
+    1. Năng lượng âm
+      - Năng lượng càng cao, hình ảnh càng tốt, tỉ số nhiễm âm SNR tốt hơn
+      - Chỉ tăng năng lượng truyền âm khi chế độ mặc định có SNR thấp
+      - Tác động sinh học:
+        + Nhiệt: chỉ số nhiệt TI nên duy trì dưới 2
+        + Tạo bọt khí: chỉ số cơ học MI nên duy trì dưới 1.9
+    2. Gain
+    3. Tần số truyền âm
+       - Tần số thấp hơn -> độ phân giải thấp hơn nhưng xuyên thấu tốt hơn
+       - Harmonic imaging -> tăng SNR, tăng độ phân giải ngang, nhưng giảm độ phân giải không gian dọc (điều này quan trọng khi khảo sát các cấu trúc nhỏ mỏng như lá van)
+    4. Focus: Khuyến cáo focus gần cấu trúc sâu nhất
+    5. Rate: rate cao -> giảm phân giải ngang
+    6. Doppler liên tục và doppler xung
+       - Doppler xung
+         + Nyquist Frequency = PRF / 2. PRF: pulse repetition frequency
+         + Scale: điều chỉnh scale tức là điều chỉnh PRF
+         + Baseline: điều chỉnh baseline chỉ là cách "clever" để hiển thị phần aliasing (không thay đổi PRF), nhưng có thể nhầm lẫn giữa vận tốc âm với vận tốc rất cao (vượt ngưỡng Nyquist)
+       - Khuyến cáo:
+         + Tốc độ quét: khuyến cáo nên để 100 mm/s trừ khi tìm sự khác biệt giữa các nhịp tim
+         + Wall fiter: should be as low as possible while avoiding pollution by myocardial velocities
+         + Color gain: nên để mức cao nhất có thể, không có tín hiệu nhiễu (color confetti). Cái này đơn giản chỉ khuyến đại tín hiệu, không phải điều chỉnh PRF. 
+         + 
+ed.mn 
+
+afds.nfdesk 
+** Basic ultrasound
+  - Shadowing and coloring
+    + Due to attenuation and lack of attenuation
+  - Gain, reject, compress
+  - Artefacts
+    1. Reverberations
+      + May also occur in color doppler
+    2. Ringdown artefact
+      + Present similar to resonance mechanism (eliminate by change of frequency) but different mechanism (multiple reverberations within a short space)
+    3. Comet tails: ringdown in lung ultrasound 
+    4. Side lobes
+  - Source: https://stoylen.folk.ntnu.no/strainrate/Basic_ultrasound.html 
+** Bài giảng thầy Vinh
+*** Giải phẫu tim
+    - Kích thước tim người lớn: 8*12cm
+    - Đường kính nhĩ trái # ĐMC # 30mm. Phình nếu > 1.5 lần bình thường. 
+    - Tỷ lệ VLT_cuối tâm trương/ thành sau thất trái # 0.9 - 1.3
+    - 2 cột cơ nhú van 2 lá hướng 3-4h và 7-8h (không nối vách liên thất)
+    - Van 2 lá bám thấp hơn 3 lá (mặt cắt 4 buồng từ mỏm)
+    - Mặt cắt dưới sườn là mặt cắt vàng chẩn đoán thông liên nhĩ
+    - Mặt cắt trên hõm ức khảo sát còn ống động mạch
+    - Doppler: vận tốc dòng máu qua van # 1m/s
+      + Chủ: 1.25
+      + 2 lá: 1.0
+      + Phổi: 0.75d
+      + 3 lá: 0.5
+    - Áp lực:
+      + Thất trái: 100mHg
+      + Thất phải: 20-25mmHg
+* Protocol tại BV Gia Định
+** TODO Minimal protocol <- do this firs
+   - Mặt cắt từ mỏm
+     - 4 buồng - 2 buồng - 5 buồng:
+       1. Xem vận động vùng
+	   2. Đo EF (simpson biplane)
+	   3. Đo thể tích nhĩ trái nếu nghi bất thường
+	   4. Tapse
+	   5. e' vách, e' bên (nếu e' vách bất thường)
+	   6. Doppler xung qua van 2 lá, đo E/A
+	   7. Doppler liên tục qua van động mạch chủ, đo???
+	   8. Doppler liên tục qua van 3 lá, đo??? tại sao dùng doppler liên tục?
+     - Mặt cắt cạnh ức trục dọc:
+       1. Đo kích thước các buồng:
+          - RVOT
+	      - ???
+       2. Doppler màu van động mạch chủ
+       3. Doppler màu van 2 lá
+   - Mặt cắt cạnh ức trục ngang
+     1. Dopper màu, liên tục? van 2 lá, van động mạch phổi
+     2. Xem hình thể van động mạch chủ
+     3. Xem hình thể van 2 lá qua mặt cắt ngang van 2 lá
+     4. Xem vận động vùng
+   - Mặt cắt dưới sườn
+     1. Đo IVC
+     2. Xem vách liên nhĩ.
+        + Mặt cắt vàng xem thông liên nhĩ
+        + Khảo sát ở đối tượng nào??? nữ trẻ???
+** More comprehensive protocol
+* Protocol chuẩn theo ASE, BSE
+
+* Learning by subjects
+** TODO Basic views <- then do this
+** TODO Evaluation of left ventrical <- the third
+** TODO Evaluation of right ventrical <- the fourth
+** Valvular heart diease
+*** Hẹp van động mạch chủ
+**** Nguyên nhân
+     1. Hẹp do vôi hóa van ĐMC 3 mảnh
+        - Vôi hóa ở phần trung tâm mỗi lá van (không dính mép van) -> lỗ van ĐMC thì tâm thu hình ngôi sao
+     2. Van ĐMC 2 mảnh + vôi hóa
+        - Thường do dính lá vành trái và phải
+        - Chẩn đoán chắc chắn nhất khi quan sát thấy 2 lá van này trong thì tâm thu
+     3. Bệnh van tim hậu thấp
+        - Dính mép van -> lỗ van thì tâm thu hình tam giác
+        - Dày/vôi hóa chủ yếu dọc theo bờ các lá van
+     4. Hẹp van động mạch chủ bẩm sinh, hiếm gặp ở người lớn
+**** Đánh giá mức độ hẹp van động mạch chủ
+     1. Đo lường về huyết động
+        - Chủ yếu dựa vào 3 thông số (3 thông số này nên đồng nhất về độ nặng)
+          + Đo vận tốc đỉnh qua lỗ van
+          + Chênh áp trung bình qua van ĐMC
+          + Diện tích van ĐMC (AVA)
+     2. Cách đo các thông số
+        - Đường kính LVOT
+          + Cạnh ức trục dọc (zoom)
+          + Đo ngay chỗ bám van (hay lùi 0.5-1.0cm)
+          + Bờ trong đến bờ trong
+          + Vuông góc thành ĐMC
+          + Giữa thì tâm thu
+          + Average (3-5 cycles)
+        - Vận tốc buồng tống thất trái
+* Ultrasond physics
+* Board review

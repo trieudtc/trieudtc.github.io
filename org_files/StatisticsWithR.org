@@ -1,0 +1,7 @@
+* Nguồn
+- Statistics with R: https://www.modernstatisticswithr.com/
+- Online course: 
+  + Master of applied statistics, PennSate: https://www.worldcampus.psu.edu/degrees-and-certificates/penn-state-online-applied-statistics-masters-degree#courses
+- https://rcompanion.org/handbook/
+- https://rcompanion.org/rcompanion/
+- https://www.biostathandbook.com/
