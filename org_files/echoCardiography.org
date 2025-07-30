@@ -125,7 +125,7 @@
        + Van 2 lá
        + Nhĩ T
      - Mặt cắt cạnh ức trục dài qua đường ra thất P
-       + Ngửa và xoay đầu dò về phía đường ra thất P. (ngửa đầu hướng về phía vai T)
+       + Ngửa và xoay đầu dò về phía đường ra thất P. (ngửa đầu hướng về phía vai T, xoay nhẹ đầu dò theo chiều kim đồng hồ)
        + RVOT
        + Van ĐMP
        + ĐMP
@@ -138,7 +138,7 @@
        + Thất P
        + Depth 10-16cm để thấy IVC
        + Optimize: visualize the RV apex (change one interspace lower)
-     - Mặt cắt cạnh ức trục ngắn khu trú van ĐMP
+     - Mặt cắt cạnh ức trục ngắn khu trú van ĐMC
        + Xoay đầu dò 90 độ từ trục dài và ngửa đầu dò lên trên
        + ĐMC
        + Nhĩ P
@@ -160,6 +160,7 @@
        + Lá vành T
        + Lá vành P
        + Lá không vành
+       + Có thể thấy gốc động mạch vành T ở hướng 3-5 giờ, gốc động mạch vành P ở hướng 11 giờ. (ghi hình các động mạch vành không nằm trong SA tim thường quy)
      - Mặt cắt cạnh ức trục ngắn khu trú van 3 lá
        + Nhĩ P
        + Van 3 lá
@@ -170,6 +171,7 @@
        + ĐMP
        + ĐMC
      - Mặt cắt cạnh ức trục ngắn ngang van 2 lá
+       + Lật đầu dò về phía dưới và hơi hướng sang trái vê phía mỏm tim
        + Thất P
        + Vách liên thất
        + Lá trước + lá sau van 2 lá
@@ -177,6 +179,7 @@
        + Depth 10-16cm để thấy toàn bộ thất T
        + Optimize: make the LV appear round in shape and the RV crescent shaped (change interspace). Adjust the image gain to: visualize the endocardium. 
      - Mặt cắt cạnh ức trục ngắn ngang cơ nhú
+       + Đây là mặt cắt ngang qua phần giữa thất T, rất quan trọng để đánh giá chức năng thất T toàn bộ và theo vùng.
        + Thất P
        + Vách liên thất
        + Cơ nhú sau giữa + trước bên
@@ -199,16 +202,18 @@
        + Optimize:
          + if the ventricles are too spherical, move probe down one interspace
          + LV apex is thinner then the other LV walls and does not contract
+         + Bình thường thất trái chiếm 2/3, nhĩ T chiếm 1/3. Đây là chi tiết hữu ích giúp phát hiện thất T bị co ngắn. Nếu thất T bị co ngắn vùng mỏm có hình dạng tròn hơn
        + Note: Ở view này có thể thấy TM phổi T - ĐMC xuống - TM phổi P
      - Mặt cắt 4 buồng từ mỏm phóng đại thất T
        + Thất T
      - Mặt cắt 4 buồng từ mỏm phóng đại thất P
-       + Xoay đầu dò để ghi hình thất P với diện tích và các đường kính ngang tối đa
+       + Xoay nhẹ đầu dò ngược chiều kim đồng hồ để ghi hình thất P với diện tích và các đường kính ngang tối đa
        + Nhĩ P
        + Van 3 lá
        + Thất P
        + Nhĩ T
        + Thất T
+       + Optimize: một số trường hợp cần nghiêng đầu dò về phía thất P hoặc đưa đầu dò vào giữa 1 chút và lên trên 1 khoang liên sườn. Giúp định hướng chùm siêu âm thẳng hàng với mặt phẳng vòng van 3 lá để đo TAPSE và các vận tốc
      - Mặt cắt 5 buồng từ mỏm
        + Nhĩ T
        + Van 2 lá
@@ -219,7 +224,7 @@
        + Nhĩ P
        + Depth 14 - 18cm để thấy 2 nhĩ
        + Optimize: LVOT alignment (higher interspace and slide probe lateral)
-       + Ngả đầu dò hướng chùm siêu âm ra trước để bộc lộ đường ra thất P, van ĐMP và ĐMP. 
+       + Ngả đầu dò hướng chùm siêu âm ra trước để bộc lộ đường ra thất P, van ĐMP và ĐMP. Mặt cắt đường ra thất P này không nằm trong SA tim thường quy
      - Mặt cắt 4 buông từ mỏm nghiêng ghi hình xoang vành
        + Xoang vành
        + Nhĩ O
@@ -262,6 +267,7 @@
        + Nhĩ P
        + Nhĩ T
        + Depth 16-24cm để thấy toàn bộ nhĩ và thất
+       + Đây là mặt cắt rất quang trọng để khảo sát thông liên nhĩ, thông liên thất, đo bề dày thành tự do thất P
      - Mặt cắt dưới sườn dọc tĩnh mạch chủ dưới
        + IVC
        + Measure 0.5-3.0cm from RA junction
@@ -280,7 +286,7 @@
        + Từ mặt cắt tĩnh mạch chỉ dưới, nghiêng nhẹ đầu dò sang phải và ngả đầu dò lên trên
        + IVC và Hvn
      - Mặt cắt trên hõm ức ghi hình quai ĐMC
-       + Từ vị trí 12 giờ xoay đầu dò hướng về vai trái (1 giờ) và nghiêng đầu dò để chùm siêu âm cắt qua núm vú P và đỉnh xương bả vai T
+       + Bệnh nhân nằm ngửa, được kê gối dưới vai, mặt hướng sang trái. Từ vị trí 12 giờ xoay đầu dò hướng về vai trái (1 giờ) và nghiêng đầu dò để chùm siêu âm cắt qua núm vú P và đỉnh xương bả vai T
        + ĐMC lên
        + Quai ĐMC
        + ĐMC xuống
