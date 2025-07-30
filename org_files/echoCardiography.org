@@ -82,6 +82,212 @@
         + Khảo sát ở đối tượng nào??? nữ trẻ???
 ** More comprehensive protocol
 * Protocol chuẩn theo ASE, BSE
+** ASE's protocol
+*** Điều chỉnh thiết bị
+**** Siêu âm tim 2D
+    - Tần số đầu dò:
+      + SA tim người lớn thường dùng 2 - 5 MHz.
+      + Nên bắt đầu với tần số cao (độ phân giải tốt) sau đó giảm dần để đạt xuyên thấu cao hơn. 
+**** Siêu âm doppler
+    - Thang vận tốc và baseline
+    - Tốc độ quét: 
+      + Nên để mặc định 100mm/s
+      + Nếu đo VTI nên để lớn hơn
+**** Siêu âm doppler màu (CDI)
+    - Gain màu:
+      + Tăng gain màu từ từ cho tới khi xuất hiện các đốm màu ngẫu nhiên ngoài ranh giới cần khảo sát, sau đó giảm từ từ đến khi các đốm màu này biến mất. 
+    - Bản đồ màu (color maps)
+      + Bình thường, scale được đặt ở mức 50-70cm/s.
+      + Màu sẫm thể hiện tốc độ thấp. Màu sáng thể hiện tốc độ cao.
+      + Dòng chảy tầng có màu đơn sắc
+    - Thang vận tốc (scale/PRF)
+      + Khuyến cáo đặt ngưỡng mặc định 50-70cm/s.
+      + Cùng một thể tích hở nhưng hình ảnh dòng hở (dòng chảy rối) có thể lớn hơn nếu giảm scale màu. 
+      + Khi khảo sát dòng chảy thấp trong tâm nhĩ hoặc các tĩnh mạch phổi nên đặt ngưỡng Nyquist ở mức 30cm/s để tính hiệu dòng chảy rơi vào vùng tối (gần baseline)
+**** Siêu âm M-mode
+*** Quy trình siêu âm tim 2D
+**** Các hình ảnh 2D tĩnh và động trong quy trình siêu âm tim
+     - Mặt cắt cạnh ức trục dài với depth sâu
+       + Khảo sát màng tim, màng phổi
+       + Depth 10-16cm: mức động mạch chủ xuống
+       + Depth 20cm: màng phổi
+     - Mặt cắt cạnh ức trục dài khu trú vào thất T
+       + Nhĩ T
+       + Van 2 lá
+       + Thất T
+       + LVOT
+       + Van ĐMC
+       + Vách liên thất
+       + Thất P
+     - Mặt cắt cạnh ức trục dài phóng đại van ĐMC
+       + Van ĐMC
+     - Mặt cắt cạnh ức trục dài phóng đại van 2 lá
+       + Van 2 lá
+       + Nhĩ T
+     - Mặt cắt cạnh ức trục dài qua đường ra thất P
+       + Ngửa và xoay đầu dò về phía đường ra thất P. (ngửa đầu hướng về phía vai T)
+       + RVOT
+       + Van ĐMP
+       + ĐMP
+       + Depth 10-16cm để thấy ĐMC xuống
+       + Optimize: visualize the RV outflow tract (change one interspace higher)
+     - Mặt cắt cạnh ức trục dài qua buồng nhận thất P
+       + Ngả đầu dò hướng về phía đùi P của BN
+       + Nhĩ P
+       + Van 3 lá
+       + Thất P
+       + Depth 10-16cm để thấy IVC
+       + Optimize: visualize the RV apex (change one interspace lower)
+     - Mặt cắt cạnh ức trục ngắn khu trú van ĐMP
+       + Xoay đầu dò 90 độ từ trục dài và ngửa đầu dò lên trên
+       + ĐMC
+       + Nhĩ P
+       + RVOT
+       + Van ĐMP
+       + ĐMP
+       + Nhánh P và T của ĐMP
+       + Depth 10-16cm để thấy ĐMC xuống
+       + Optimize: visualize the RV outflow tract (change one interspace higher)
+     - Mặt cắt cạnh ức trục ngắn khu trú van ĐMP
+       + Van ĐMC
+       + Nhĩ T
+       + Nhĩ P
+       + Van 3 lá
+       + RVOT
+       + Van ĐMP
+       + Vách liên nhĩ
+     - Mặt cắt cạnh ức trục ngắn phóng đại van ĐMC
+       + Lá vành T
+       + Lá vành P
+       + Lá không vành
+     - Mặt cắt cạnh ức trục ngắn khu trú van 3 lá
+       + Nhĩ P
+       + Van 3 lá
+       + Thất P
+     - Mặt cắt cạnh ức trục ngắn khu trú van ĐMP và ĐMP
+       + RVOT
+       + Van ĐMP
+       + ĐMP
+       + ĐMC
+     - Mặt cắt cạnh ức trục ngắn ngang van 2 lá
+       + Thất P
+       + Vách liên thất
+       + Lá trước + lá sau van 2 lá
+       + Thất T
+       + Depth 10-16cm để thấy toàn bộ thất T
+       + Optimize: make the LV appear round in shape and the RV crescent shaped (change interspace). Adjust the image gain to: visualize the endocardium. 
+     - Mặt cắt cạnh ức trục ngắn ngang cơ nhú
+       + Thất P
+       + Vách liên thất
+       + Cơ nhú sau giữa + trước bên
+       + Thất T
+       + Optimize: make the LV appear round in shape and the RV crescent shaped (change one interspace lower). visualize both papillary muscles attached to the LV wall (change one interspace lower). 
+     - Mặt cắt cạnh ức trục ngắn ngang mỏm tim
+       + Mỏm thất T
+       + Optimize: make the LV appear round in shape (change one interspace lower)
+     - Mặt cắt 4 buồng từ mỏm
+       + Nhĩ T
+       + Van 2 lá
+       + Thất T
+       + Vách liên thất
+       + Thất P
+       + Van 3 lá
+       + Nhĩ P
+       + Vách liên nhĩ
+       + Depth 14-18cm để khảo sát tâm nhĩ
+       + Depth 6-10cm để khảo sát mỏm tim
+       + Optimize:
+         + if the ventricles are too spherical, move probe down one interspace
+         + LV apex is thinner then the other LV walls and does not contract
+       + Note: Ở view này có thể thấy TM phổi T - ĐMC xuống - TM phổi P
+     - Mặt cắt 4 buồng từ mỏm phóng đại thất T
+       + Thất T
+     - Mặt cắt 4 buồng từ mỏm phóng đại thất P
+       + Xoay đầu dò để ghi hình thất P với diện tích và các đường kính ngang tối đa
+       + Nhĩ P
+       + Van 3 lá
+       + Thất P
+       + Nhĩ T
+       + Thất T
+     - Mặt cắt 5 buồng từ mỏm
+       + Nhĩ T
+       + Van 2 lá
+       + Thất T
+       + Vách liên thất
+       + LVOT
+       + Thất P
+       + Nhĩ P
+       + Depth 14 - 18cm để thấy 2 nhĩ
+       + Optimize: LVOT alignment (higher interspace and slide probe lateral)
+       + Ngả đầu dò hướng chùm siêu âm ra trước để bộc lộ đường ra thất P, van ĐMP và ĐMP. 
+     - Mặt cắt 4 buông từ mỏm nghiêng ghi hình xoang vành
+       + Xoang vành
+       + Nhĩ O
+       + Thất P
+       + Thất T
+       + Nhĩ T
+     - Mặt cắt 2 buồng từ mỏm
+       + Thất T
+       + Van 2 lá
+       + Nhĩ T
+       + Depth 14-18cm để thấy nhĩ T
+     - Mặt cắt 2 buồng từ mỏm phóng đại thất T
+       + Thất T
+     - Mặt cắt trục dài từ mỏm (3 buồng)
+       + Nhĩ T
+       + Van 2 lá
+       + Thất T
+       + LVOT
+       + Van ĐMC
+       + Depth 14-18cm để thấy nhĩ T
+     - Mặt cắt trục dài từ mỏm phóng đại thất T
+       + Thất T
+     - Mặt cắt 4 buồng từ mỏm khu trú các TM phổi
+       + Tối ưu hóa hình ảnh để khu trú vào nhĩ T và các tĩnh mạch phổi 
+       + Các tĩnh mạch phổi (Pulvns)
+       + Nhĩ T
+       + Van 2 lá
+       + Thất T
+       + Nhĩ P
+       + Van 3 lá
+       + Thất P
+     - Mặt cắt 4 buồng dưới sườn
+       + Ghi hình khi bệnh nhân nín thở sau khi hít sâu
+       + Thất T
+       + Van 2 lá
+       + Thất P
+       + Van 3 lá
+       + Vách liên nhĩ
+       + Vách liên thất
+       + Nhĩ P
+       + Nhĩ T
+       + Depth 16-24cm để thấy toàn bộ nhĩ và thất
+     - Mặt cắt dưới sườn dọc tĩnh mạch chủ dưới
+       + IVC
+       + Measure 0.5-3.0cm from RA junction
+       + Depth 16-24 để thấy toàn bộ IVC
+       + Optimize: 
+         + View the junction of the IVC and RA (IVC must be shown to enter the RA)
+         + make the IVC appear horizontal
+         + image an hepatic vein
+       + Phân biệt IVC với ĐMC bụng
+         + IVC bao 2 phía bởi gan
+         + IVC không đập theo nhịp mạch
+         + IVC thay đổi theo hô hấp
+         + IVC đổ vào nhĩ P
+         + IVC có tĩnh mạch gan đổ vào
+     - Mặt cắt dưới sườn ghi hình tĩnh mạch gan
+       + Từ mặt cắt tĩnh mạch chỉ dưới, nghiêng nhẹ đầu dò sang phải và ngả đầu dò lên trên
+       + IVC và Hvn
+     - Mặt cắt trên hõm ức ghi hình quai ĐMC
+       + Từ vị trí 12 giờ xoay đầu dò hướng về vai trái (1 giờ) và nghiêng đầu dò để chùm siêu âm cắt qua núm vú P và đỉnh xương bả vai T
+       + ĐMC lên
+       + Quai ĐMC
+       + ĐMC xuống
+       + ĐM vô danh (Innom a) - Right Brachiocephalic Artery (RBCA)?
+       + ĐMC cảnh chung trái (LCCA)
+       + ĐM dưới đòn T (LSA)
+       + Depth 10-12cm để thấy ĐMC xuống
 * Learning by subjects
 ** TODO Basic views <- then do this
 ** TODO Evaluation of left ventrical <- the third
@@ -286,6 +492,20 @@
         - Dính mép van -> lỗ van thì tâm thu hình tam giác
         - Dày/vôi hóa chủ yếu dọc theo bờ các lá van
      4. Hẹp van động mạch chủ bẩm sinh, hiếm gặp ở người lớn
+**** Nguyên nhân (bài cô Hương)
+     1. Bẩm sinh
+     2. Thấp tim. Ái lực của thấp tim ở van 2 lá, do đó phải khảo sát van 2 lá, nghi ngờ khi van 2 lá bình thường. 
+     3. Thoái hóa (dày, vôi hóa van ở người già): hội chứng Monckerberg
+     4. Xơ mỡ động mạch: phụ, ít gặp
+**** Sinh lý bệnh
+     - Tam chứng: khó thở khi gắng sức, đau ngực, ngất
+     - Hiếm khi có rối loạn quan trọng khi hẹp # 0.5cm2/2 (1/3 S lỗ van bình thường)
+     - Diện tích van ĐMC bình thường; 3-4cm2
+     - Độ chênh áp tâm thu ở van ĐMC bình thường 4-6mmHg
+     - Mức độ hẹp
+       + Hẹp van ĐMC nhẹ: >1.5 cm2, chênh áp tâm thu <25mmHg
+       + Vừa: 1-1.5cm2, chênh áp tâm thu 25-50mmHg
+       + Nặng: <1cm2, chênh áp tâm thu > 50mmHg, V_max > 4m/s, chênh áp trung bình >40 mmHg. 
 **** Đánh giá mức độ hẹp van động mạch chủ
      1. Đo lường về huyết động
         - Chủ yếu dựa vào 3 thông số (3 thông số này nên đồng nhất về độ nặng)
@@ -304,6 +524,46 @@
           + Apical long-axis or 5CV
           + PW doppler, đặt gần lá van nhất có thể, vị trí trung tâm
           + 
+**** Siêu âm tim (bài cô Hương)
+     1. Mặt cắt cạnh ức trục dọc
+        - Tính chất van
+        - Biên độ mở van
+        - Nhĩ trái
+        - Vách liên thất
+        - Buồng thất
+     2. Mặt cắt cạnh ức trục ngang
+        - Tính chất van ĐMC
+        - Nhĩ T, buồng tim P, van 3 lá
+        - ĐMP: van, thân ĐMP, các nhánh
+     3. Mặt cắt từ mỏm
+        - Tính PAPs tốt nhất (doppler song song với dòng chảy)
+     4. Mặt cắt trên hõm ức
+        - Khảo sát quai ĐMC, ĐMP P
+        - Còn ống động mạch, hẹp eo ĐMC
+* Chu chuyển tim và điện tâm đồ
+** Định nghĩa tâm thu và tâm trương
+   - Chưa có định nghĩa thống nhất
+     + Mechanical systole: bắt đầu từ co đồng thể tích đến đỉnh pha tống máu. Tâm trương bắt đầu khi áp lực thất T bắt đầu giảm
+     + Cardiologic systole: Giữa tiếng T1 và T2
+     + Electrocardiographical systole: Đỉnh sóng R đến cuối sóng T. Một số tác giả tính từ bắt đầu sóng Q. 
+     + Guyton: tâm thu bắt đầu van 2 lá đóng - van động mạch chủ đóng. 
+     + Hội siêu âm tim Mỹ ASE: Cuối tâm trương - frame đầu tiên sau khi van 2 lá đóng. Cuối tâm thu - frame ngay trước khi khởi đầu tâm trương (mở van 2 lá)
+** Chu chuyển tim và ECG
+  1. P
+     - Khử cực nhĩ.
+     - Cuối sóng P nhĩ co đến Q
+  2. R
+     - Co đồng thể tích <- *bắt đầu tâm thu*
+     - *Van 2 lá bắt đầu đóng*
+     - Van ĐMC còn đóng
+  3. S 
+     - Van ĐMC bắt đầu mở (theo hình trong guyton)
+  4. T
+     - Cuối sóng T: *Van động mạch chủ bắt đầu đóng*
+     - Van 2 lá còn đóng.
+     - Pha dãn đồng thể tích <- *bắt đầu tâm trương*
+  5. sau T
+     - Van 2 lá bắt đầu mở
 *** Hở van động mạch chủ
     - Nguyên nhân
     - Chẩn đoán
@@ -317,7 +577,7 @@
           - Xác định hở van
             + Dấu trực tiếp: van sigma đóng không kín
             + Dấu gián tiếp: Xem lá trước van 2 lá
-            + Doppler màu, liên tục: độ nhayh > 95%, chuyên # 100%
+            + Doppler màu, liên tục: độ nhạy > 95%, chuyên # 100%
               + Mặt cắt cạnh ức trục dọc: Doppler màu qua van DMC + M mode
        2. Lượng giá độ nặng
           - 4 phương pháp chính: độ dài dòng hở bằng doppler màu, tỉ lệ độ rộng dòng hở (ít dùng do sai số chủ quan), lượng máu phụt ngược, PISA và VC. 
