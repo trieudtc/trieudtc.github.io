@@ -294,6 +294,105 @@
        + ĐMC cảnh chung trái (LCCA)
        + ĐM dưới đòn T (LSA)
        + Depth 10-12cm để thấy ĐMC xuống
+**** Đo đạc các thông số trên siêu âm tim 2D
+     - Mặt cắt cạnh ức trục dài
+       1. Thất T
+          - Đo cuối tâm trương: khung hình trước đóng van 2 lá hoặc đỉnh sóng R. 
+          - Vị trí đo dưới đầu mút van 2 lá. Trừ trường hợp vách liên thất phì đại vùng đáy (vách liên thất hình Sigma), vị trí đo dịch về phía mỏm tim, ngay dưới chỗ phì đại. 
+          - IVS, LVPWd, LVDd
+          - Đo cuối tâm thu: khung hình ngay trước mở van 2 lá
+       2. Đoạn gần đường ra thất P
+          - Đo cuối tâm trương
+          - Đo từ thành trước thất P dến chỗ nối vách liên thất - ĐMC
+       3. Đường kính trước sau của nhĩ T
+          - Đo cuối tâm thu
+          - Đo thành tước ngang mức xoang Valsava - thành sau nhĩ T vuông góc với trục dọc giả định của nhĩ T
+       4. Đường ra thất T và vòng van ĐMC
+          - Khi van ĐMC mở tối đa, gần thời điểm giữa tâm thu
+          - Đường kính vòng van ĐMC: chỗ bám lá vành P - lá chỗ bám lá không vành
+          - Đường kính đường ra thất T: cách vòng van 3-10mm. 
+       5. ĐMC lên
+          - Đo cuối tâm trương
+          - Đường kính xoang Valsava
+          - Đường kính chỗ nối xoang ống
+     - Mặt cắt cạnh ức trục ngắn
+       1. Đường ra thất P
+          - Đo cuối tâm trương
+          - Đường kính đoạn gần RVOT
+          - Đường kính đoạn xa RVOT: 2 bờ mép trong ngay dưới van ĐMP
+       2. Thân ĐMP
+          - Đo cuối tâm trương
+          - Đo đường kính thân ĐMP: 2 bờ trong, giữa van ĐMP và chỗ ĐMP chia đôi
+     - Mặt cắt từ mỏm
+       1. Thể tích thất T
+          - Phương pháp Biplane
+            + Vẽ viền thất trái được kết thúc bằng vẽ một đường ngang qua vòng van hai lá, từ trung điểm của nó vẽ một trục dọc đến điểm xa nhất của mỏm tim để tính chiều cao của các khối hình đĩa
+            + Chênh lệch chiều dài của thất trái trên mặt cắt 4 buồng từ mỏm và 2 buồng từ mỏm nên < 10%
+       2. Thể tích nhĩ T
+          - Không lấy tiểu nhĩ T và các TM phổi
+          - Chiều cao nhĩ T nên được đo trên cả 2 mặt cắt 4 buồng và 2 buồng. Đo từ trung điểm vòng van đến chỗ xa nhất của trần nhĩ T
+          - Chênh lệch chiều cao trên 2 mặt cắt <= 5mm
+          - Phương pháp (1) tính diện tích x chiều cao
+            + Nên lấy *chiều cao nhỏ hơn* đo được trên 1 trong 2 mặt cắt
+          - Phương pháp (2) tính tổng thể tích các khối hình đĩa trên 2 bình diện
+            + Nên lấy *chiều cao lớn hơn* đo được trên 1 trong 2 mặt cắt
+       3. Các đường kính của thất P
+          - Mặt cắt 4 buồng từ mỏm
+          - Đo cuối tâm trương
+          - Đường kính trục dọc
+          - Đường kính ngang đáy thất P
+          - Đường kính giữa buồng thất P: ngang mức cơ nhú
+       4. Diện tích thất P
+          - Đo diện tích thất P cuối tâm trương
+          - Đo diện tích thất P cuối tâm thi
+          - -> Tính phân suất thay đổi diện tích thất P
+       5. Thể tích nhĩ P
+          - Đo thời điểm cuối tâm thu
+     - Mặt cắt dưới sườn
+       1. Tĩnh mạch chủ dưới
+          - Đo cách chỗ nối TMC dưới và nhĩ P khoảng 1-2cm
+          - Nếu TMC dưới không xẹp hoặc xẹp <50%, nên hướng dẫn bệnh nhân "khịt mũi" để làm tăng áp lực trong lồng ngực. 
+**** Đo đạc các thông số trên siêu âm tim M-Mode
+     - TAPSE
+     - IVC đo cách nhĩ P 1.0-2.0cm
+     - Van động mạch chủ
+       + Hữu ích khi cần đo đạc các thời khoảng và xác định điểm đóng/mở van ĐMC. VD ở BN mang dụng cụ hỗ trợ thất T
+**** Siêu âm doppler màu
+     1. RVOT, van ĐMP và ĐMP
+        - Khảo sát dòng tâm thu qua RVOT, van ĐMP, thân và các nhánh ĐMP
+        - Dòng hở van và các dòng shunt
+        - Mặt cắt cạnh ức trục dài, trục ngắn, và dưới sườn
+     2. Buồng nhận thất P và van 3 lá
+        - Mặt cắt cạnh ức trục dài, trục ngắn, 4 buồng từ mỏm, dưới sườn
+        - Khảo sát dòng tâm trương và dòng hở van
+        - Nên sử dụng doppler màu để hướng dẫn đặt cửa sổ doppler xung và doppler liên tục song song với dòng chảy?
+     3. Buồn nhận thất T và van 2 lá
+        - Mặt cắt cạnh ức trục dài, trục ngắn, 4 buồng, 2 buồng, 3 buồng, dưới sườn
+        - Đặt van 2 lá chính giữa khung hình, hộp màu phủ hết toàn bộ van 2 lá
+        - Dòng chảy qua van 2 lá có phần đi chếch về phía thành bên thất T
+     4. Đường ra thất T và van ĐMC
+        - Mặt cắt cạnh ức trục dài, trục ngắn, 5 buồng, 3 buồng
+        - Siêu âm doppler màu với M mode có thể rất có giá trị để xác định thòi điểm xuất hiện dòng hở tại đường ra thất T
+     5. Quai ĐMC
+     6. Các TM Phổi
+        - Mặt cắt 4 buồng từ mỏm
+          + Mặt cắt này song song nhất với dòng chảy và bộc lộ được 3/4 TMP
+        - Mặt cắt 5 buồng từ mỏm
+          + Có thể bộc lộ TMP thứ 4, TMP trên P
+        - Chỉnh gain màu và giảm ngưỡng Nyquist
+     7. TM gan
+        - Mặt cắt dưới sườn
+        - Khảo sát đoạn giữa của TM gan do đoạn này có góc doppler tốt nhất
+     8. IVC
+        - Ghi  hình IVC ở góc < 60 độ
+     9. Vách liên nhĩ
+        - Mặt cắt 4 buồng từ mỏm, cạnh ức trục ngắn, và dưới sườn
+        - Mặt cắt dưới sườn là mặt cắt tốt nhất do chùm siêu âm đi vuông góc với cấu trúc và đi song song với dòng shunt
+**** Ghi và đo đạc các thông số trên siêu âm doppler
+     1. Nguyên tắc đo đạc
+        - Góc lệch 20 độ -> vận tốc đo được giảm 6%
+        - Khảo sát nhiều mặt cắt và chỉ lấy vận tốc cao nhất
+     2. Đường ra thất P và van ĐMP
 * Learning by subjects
 ** TODO Basic views <- then do this
 ** TODO Evaluation of left ventrical <- the third
