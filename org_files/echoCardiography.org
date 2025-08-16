@@ -372,7 +372,7 @@
         - Dòng chảy qua van 2 lá có phần đi chếch về phía thành bên thất T
      4. Đường ra thất T và van ĐMC
         - Mặt cắt cạnh ức trục dài, trục ngắn, 5 buồng, 3 buồng
-        - Siêu âm doppler màu với M mode có thể rất có giá trị để xác định thòi điểm xuất hiện dòng hở tại đường ra thất T
+        - Siêu âm doppler màu với M mode có thể rất có giá trị để xác định thời điểm xuất hiện dòng hở tại đường ra thất T
      5. Quai ĐMC
      6. Các TM Phổi
         - Mặt cắt 4 buồng từ mỏm
@@ -388,11 +388,170 @@
      9. Vách liên nhĩ
         - Mặt cắt 4 buồng từ mỏm, cạnh ức trục ngắn, và dưới sườn
         - Mặt cắt dưới sườn là mặt cắt tốt nhất do chùm siêu âm đi vuông góc với cấu trúc và đi song song với dòng shunt
+     10. Quy trình ghi hình siêu âm doppler màu
+         1. Đường ra thất P
+           - Mặt cắt cạnh ức trục dài - đường ra thất P
+             + Doppler màu RVOT - PA (hộp màu bao quát tim P)
+         2. Đường vào thất P
+           - Mặt cắt cạnh ức trục dài - buồng nhận thất P
+             + Doppler màu RV - TV (van ba lá) - TR jet (dòng hở ba lá) -  RA
+           - Mặt cắt cạnh ức trục ngắn - ngang van ĐMC
+             + Doppler màu RA - TV - RV
+         3. Đường vào thất T
+           - Mặt cắt cạnh ức trục dài - phóng đại van 2 lá
+             + Doppler mày MV - LA - LV
+           - Mặt cắt cạnh ức trục ngắn - ngang van 2 lá
+             + Doppler màu LV - MV
+           - Mặt cắt 4 buồng
+             + Doppler màu tại LA - MV - LV (hộp màu bao quát toàn bộ tim T)
+           - Mặt cắt 2 buồng
+             + Doppler màu tại LA - MV - LV (hộp màu bao quát toàn bộ tim T)
+         4. Đường ra thất T
+           - Mặt cắt trục dài cạnh ức - Phóng đại van ĐMC
+             + Doppler màu LVOT - AV - Ao
+           - Mặt cắt trục ngắn cạnh ức - ngang van ĐMC
+             + Doppler màu tại AV
+           - Mặt cắt 5 buồng
+             + Doppler màu LVOT - AV - Ao
+           - Mặt cắt 3 buồng
+             + Doppler màu LVOT - AV - Ao
+         5. Quai ĐMC
+           - Mặt cắt trên hõm ức
+             + Doppler màu Asc Ao, transverse arch - Desc Ao
+         6. Các TM Phổi
+           - Mặt cắt 4 buồng - ghi hình TMP
+             + Doppler màu LA - Pulvn
+         7. TM gan và IVC
+           - Mặt cắt dưới sườn - xem TM
+             + Doppler màu IVC, Hvn
+         8. Vách liên nhĩ
+           - Mặt cắt dưới sườn - xem 4 buồng
+             + Doppler màu RV- RA - IAS - LA - LV
 **** Ghi và đo đạc các thông số trên siêu âm doppler
-     1. Nguyên tắc đo đạc
-        - Góc lệch 20 độ -> vận tốc đo được giảm 6%
-        - Khảo sát nhiều mặt cắt và chỉ lấy vận tốc cao nhất
-     2. Đường ra thất P và van ĐMP
+     - Nguyên tắc đo đạc
+       + Góc lệch 20 độ -> vận tốc đo được giảm 6%
+       + Khảo sát nhiều mặt cắt và chỉ lấy vận tốc cao nhất
+     - Đường ra thất P và van ĐMP
+       + Mặt cắt trục dài và trục ngắn, chọn mắt cắt chùm siêu âm đi song song với dòng chảy nhất
+       + Đo VTI và vận tốc đỉnh qua RVOT. Dùng *doppler xung*, cổng lấy mẫu 4-5mm chính giữa RVOT cách van ĐMP 5-10mm. Có thể thấy spike của click đóng van, gợi ý đúng vị trí. 
+       + Đo VTI và vận tốc đỉnh qua van ĐMP. Dùng *doppler liên tục*. 
+       + Dùng doppler liên tục để ghi dòng hở phổi nếu có. Đo vận tốc cuối tâm trương của dòng hở phổi. 
+     - Van 3 lá
+       +  Khảo sát sóng E và A tại đầu mút van 3 lá bằng doppler xung, mặt cắt 4 buồng. Không khuyến cáo đo và báo cáo kết quả trên SA tim thường quy. 
+       + Đo vận tốc đỉnh dòng hở van 3 lá dùng doppler liên tục. 
+     - Van 2 lá
+       + Mặt cắt 4 buồng từ mỏm, doppler xung - hộp mẫu 1-3mm, đầu mút van 2 lá - hơi chếch qua thành bên thất T (do dòng máu thường tạt về hướng này). 
+       + Đo vận tốc đỉnh sóng E, A, thời gian giảm tốc sóng E. 
+       + Nếu có bất thường van 2 lá, van nhân tạo hay sửa van, hoặc có tăng vận tốc dòng chảy qua van 2 lá, dùng doppler liên tục đo vận tốc trung bình và PHT (pressure half time)
+       + Nếu có hở van 2 lá, dùng doppler liên tục để đo VIT, vận tốc đỉnh và chênh áp đỉnh từ mặt cắt 4 buồng, 2 buồng, 3 buồng. 
+       + Significant fusion is present if the beginning of the A wave starts on the E deceleration slope line at an E velocity of >20 cm/sec. In this setting of fusion, the deceleration time should not be measured, the E/A ratio is decreased, and the A-wave velocity increased.
+     - Đường ra thất T và van ĐMC
+       + Mặt cắt 5 buồng và 3 buồng
+       + Doppler xung tại đường ra thất T cách van ĐMC # 5mm. Đo vận tốc đỉnh, VTI. Nếu có aliasing thì chuyern sang HPRF, đo đường kính LVOT tại vị trí có vận tốc cao nhất
+       + Doppler liên tục đo vận tốc qua van ĐMC. Đo vận tốc đỉnh, chênh áp tối đa, chênh áp trung bình và VTI. Chỉ ve viền theo đường bao rõ nhất, không lấy các tín hiệu doppler yếu
+     - Quai ĐMC và ĐMC xuống
+       + Doppler liên tục khảo sát ĐMC xuống khi nghi ngờ có tắc nghẽn ĐMC xuống
+       + Doppler xung tại động mạch chủ xuống cách ĐM dưới đong 3-5mm. Bình thường là phổ tâm thu và không rối. Phổ doppler dòng phụt ngược kéo dài quá 1/3 thời gian đầu tâm trương là bất thường và thường kèm theo hở chủ
+     - TM gan
+       + Hộp lấy mẫu kích thường 3-5mm tại TM gan, cách chỗ đỗ vào IVC 1-2cm
+       + Phổ doppler gồm 3 sóng:
+         1. Sóng S: dòng chảy đổ về IVC trong thì tâm thu
+         2. Sóng D: dòng chảy về IVC đầu tâm trương
+         3. SÓng A: dòng phụt ngược về TM gan khi nhĩ co
+         4. Sóng thứ 4: một số BN có song đảo ngược ngắn sau sóng S do thất P co
+     - Các TMP
+       + Mặt cắt 4 buồng và 5 buồng từ mỏm
+       + Thường TMP trên P, đôi khi TMP dưới P, // nhất với chùm SA
+       + Hộp lấy mẫu 3-5mm tại vị trí 10mm cách nhĩ T
+       + Có 3 pha:
+         1. Sóng S: tâm thất co
+         2. Sóng D: đầu tâm trương
+         3. Sóng A: nhĩ co
+     - SA doppler mô tại vòng van 2 lá và 3 lá
+       + Cần đặt cổng lấy mẫu lớn 5-10mm để bắt được chuyển động toàn bộ của vòng van
+       + Thang bận tốc <= 25cm/s tùy thuộc vào vận tốc thực tế của vòng van
+       + Vận tốc quét 100mm/s
+       + Các sóng chuyển động:
+         1. Sóng s': tâm thu
+         2. Sóng e': đầu tâm trương
+         3. Sóng a': nhĩ co
+       + Cần đo và tính vận tốc trung bình giữa vách và thành bên của cả 3 sóng. Vận tốc e' trung bình được dùng để tính tỷ lệ E/e'
+       + Thông số quan trọng nhất đối với tim P là vận tốc s' của vòng van 3 lá, do có tương quan tốt với chức năng tâm thu thất P
+     - Quy trình ghi và đo các thông số doppler
+       1. Đường ra thất P và van ĐMP
+          - Mặt cắt cạnh ức trục ngắn
+          - Doppler xung tại RVOT: Vận tốc đỉnh, VTI
+          - Doppler liên tục tại RVOT: VTI qua van ĐMP, vận tốc đỉnh qua van ĐMP. Vận tốc cuối tâm trương của dòng hở phổi
+       2. Van 3 lá
+          - Mặt cắt 4 buồng
+          - Dopler xung: E, A
+          - Doppler liên tục: vân tốc đỉnh dòng hở van 3 lá
+       3. Van 2 lá
+          - Mặt cắt 4 buồng
+          - Doppler xung: E, A, thời gian giảm tốc sóng E, dốc giảm tốc sóng E. Khảo sát sự thay đỏi dòng chảy qua van 2 lá khi làm nghiệm pháp Valsava
+          - Doppler liên tục trong hẹp 2 lá: đo VTI tính chênh áp trung bình qua van. PHT
+          - Doppler liên tục trong hở 2 lá: VTI, vận tốc đỉnh
+          - 
+       4. Đường ra thất T
+          - Mặt cắt 5 buồng
+          - Doppler xung LVOT: VTI, Vmax
+          - Doppler liên tục LVOT: Vmax
+          - Doppler liên tục qua van ĐMC: VTI, Vmax
+          - Doppler liên tục của dòng hở chủ: Vmax (để tính PISA), PHT
+       5. ĐMC
+          - Mặt cắt trên hõm ức
+          - Doppler xung tại ĐMC lên: Vmax
+          - Doppler xung tại ĐMC xướng: Vmax
+       6. TM gan
+          - Mặt cắt dưới sườn
+          - Doppler xung: S, D, A
+       7. Các TMP
+          - Doppler xung TMP: S, D, A
+       8. Doppler mô
+          - Mặt cắt 4 buồng
+          - Doppler mô xung của vòng van 2 lá tại thành bên: s', e', a'
+**** Quy trình SA tim hoàn chỉnh
+     - Ghi chú:  (*) hình ảnh siêu âm có thể không tối ưu
+     - PLAX
+       1. Hình ảnh thất T tăng độ sâu - Clip
+       2. Hình ảnh thất T độ sâu phù hợp - Clip
+       3. RVIDd
+       4. IVSd
+       5. LVIDd
+       6. LVPWd
+       7. LVIDs
+       8. LAds
+       9. M-mode van ĐMC
+       10. Đường kính ĐMC và nhĩ trái trên M-mode
+       11. M-mode qua van 2 lá
+       12. M-mode qua thất T
+       13. Zoom LVOT, Ao - clip
+       14. Doppler Zoomed LVOT, Ao - clip
+       15. Zoomed MV -clip
+       16. Doppler zoomed MV - clip
+       17. LVOTd mid sys
+       18. Ao annular diameter mid sys
+       19. Zoomed STJ, SoVAo, Asc Ao - clip
+       20. Doppler STJ, SoVAo, Asc Ao - clip
+       21. STJ Dd
+       22. SoVAo Dd
+       23. Zoomed Asc Ao - clip
+       24. Asc Ao Dd
+       25. RVOT (ngửa đầu dò về vai trái) - clip
+       26. Doppler RVOT - clip
+       27. PW doppler RVOT: VTI, Vmax (*) 
+       28. CW doppler PA: Vmax, VTI, (PR nếu có) (*)
+       29. Proximal RVOT Dd (từ thành trước - chỗ nối vách liên thất và ĐMC)
+       30. RV inflow - clip
+       31. Doppler RV inflow - clip
+       32. CW dTRVmax nếu có
+     - PSAX
+       1. Great vessels (AV, PV, PA and branches) - clip
+       2. RVOT, proximal and distal RVOT Dd
+       3. Main PA Dd (đo khoảng giữa van - chỗ chia đôi)
+       4. Large-sector RA, TV, inflow RV, RVOT, AV - clip
+       5. Narrow-sector RA, TV, Inflow RV - clip
+       6. 
 * Learning by subjects
 ** TODO Basic views <- then do this
 ** TODO Evaluation of left ventrical <- the third
@@ -645,30 +804,6 @@
      4. Mặt cắt trên hõm ức
         - Khảo sát quai ĐMC, ĐMP P
         - Còn ống động mạch, hẹp eo ĐMC
-* Chu chuyển tim và điện tâm đồ
-** Định nghĩa tâm thu và tâm trương
-   - Chưa có định nghĩa thống nhất
-     + Mechanical systole: bắt đầu từ co đồng thể tích đến đỉnh pha tống máu. Tâm trương bắt đầu khi áp lực thất T bắt đầu giảm
-     + Cardiologic systole: Giữa tiếng T1 và T2
-     + Electrocardiographical systole: Đỉnh sóng R đến cuối sóng T. Một số tác giả tính từ bắt đầu sóng Q. 
-     + Guyton: tâm thu bắt đầu van 2 lá đóng - van động mạch chủ đóng. 
-     + Hội siêu âm tim Mỹ ASE: Cuối tâm trương - frame đầu tiên sau khi van 2 lá đóng. Cuối tâm thu - frame ngay trước khi khởi đầu tâm trương (mở van 2 lá)
-** Chu chuyển tim và ECG
-  1. P
-     - Khử cực nhĩ.
-     - Cuối sóng P nhĩ co đến Q
-  2. R
-     - Co đồng thể tích <- *bắt đầu tâm thu*
-     - *Van 2 lá bắt đầu đóng*
-     - Van ĐMC còn đóng
-  3. S 
-     - Van ĐMC bắt đầu mở (theo hình trong guyton)
-  4. T
-     - Cuối sóng T: *Van động mạch chủ bắt đầu đóng*
-     - Van 2 lá còn đóng.
-     - Pha dãn đồng thể tích <- *bắt đầu tâm trương*
-  5. sau T
-     - Van 2 lá bắt đầu mở
 *** Hở van động mạch chủ
     - Nguyên nhân
     - Chẩn đoán
@@ -732,5 +867,29 @@
             + Quai ĐMC
             + Bệnh lý phối hợp (Còn ống ĐM, Hẹp eo ĐMC)
        7. Step by step
+* Chu chuyển tim và điện tâm đồ
+** Định nghĩa tâm thu và tâm trương
+   - Chưa có định nghĩa thống nhất
+     + Mechanical systole: bắt đầu từ co đồng thể tích đến đỉnh pha tống máu. Tâm trương bắt đầu khi áp lực thất T bắt đầu giảm
+     + Cardiologic systole: Giữa tiếng T1 và T2
+     + Electrocardiographical systole: Đỉnh sóng R đến cuối sóng T. Một số tác giả tính từ bắt đầu sóng Q. 
+     + Guyton: tâm thu bắt đầu van 2 lá đóng - van động mạch chủ đóng. 
+     + Hội siêu âm tim Mỹ ASE: Cuối tâm trương - frame đầu tiên sau khi van 2 lá đóng. Cuối tâm thu - frame ngay trước khi khởi đầu tâm trương (mở van 2 lá)
+** Chu chuyển tim và ECG
+  1. P
+     - Khử cực nhĩ.
+     - Cuối sóng P nhĩ co đến Q
+  2. R
+     - Co đồng thể tích <- *bắt đầu tâm thu*
+     - *Van 2 lá bắt đầu đóng*
+     - Van ĐMC còn đóng
+  3. S 
+     - Van ĐMC bắt đầu mở (theo hình trong guyton)
+  4. T
+     - Cuối sóng T: *Van động mạch chủ bắt đầu đóng*
+     - Van 2 lá còn đóng.
+     - Pha dãn đồng thể tích <- *bắt đầu tâm trương*
+  5. sau T
+     - Van 2 lá bắt đầu mở
 * Ultrasond physics
 * Board review
