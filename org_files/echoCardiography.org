@@ -1,4 +1,7 @@
 * Nguồn tài liệu
+** Website Phamnguyenvinh.org
+   - https://phamnguyenvinh.org/vi/sach/atlas-sieu-am-tim/
+   - https://phamnguyenvinh.org/vi/sach/tim-mach-hoc-nhung-dieu-can-biet/
 ** Sách sổ tay siêu âm tim
 *** Thiết lập máy siêu âm
     1. Năng lượng âm
@@ -348,6 +351,7 @@
           - -> Tính phân suất thay đổi diện tích thất P
        5. Thể tích nhĩ P
           - Đo thời điểm cuối tâm thu
+          - Trục dọc nhĩ phải được vẽ từ trung điểm của vòng van ba lá đến trung điểm của trần nhĩ phải
      - Mặt cắt dưới sườn
        1. Tĩnh mạch chủ dưới
           - Đo cách chỗ nối TMC dưới và nhĩ P khoảng 1-2cm
@@ -551,7 +555,83 @@
        3. Main PA Dd (đo khoảng giữa van - chỗ chia đôi)
        4. Large-sector RA, TV, inflow RV, RVOT, AV - clip
        5. Narrow-sector RA, TV, Inflow RV - clip
-       6. 
+       6. Doppler narrow-sector RA, TV, Inflow RV - clip
+       7. Narrow-sector RA, TV: TR Vmax nếu có
+       8. Zoomed AV - clip
+       9. Doppler zoomed AV - clip
+       10. Narrow-sector RVOT, PV, PA - clip
+       11. Doppler narrow-sector RVOT, PV, PA - clip
+       12. PW doppler RVOT: VTI, Vmax (*)
+       13. CW doppler PA: VTI, Vmax, PR (nếu có) (*)
+       14. MV - clip
+       15. Doppler MV - clip
+       16. LV at MV tips - clip
+       17. LV mid papillary muscle level - clip
+       18. LV apex level - clip
+       19. Doppler sweep from MV to apex - clip
+     - Apex
+       1. 4 buồng - clip
+       2. 4 buồng focused LV - clip
+       3. 2 buồng - clip
+       4. 2 buồng focused LV - clip
+       5. 3 buồng - clip
+       6. 3 buồng focused LV - clip
+       7. 3 buồng focused AV, doppler - clip
+       8. 3 buồng CW through AV nếu có AR: đo dốc giảm tốc
+       9. 3 buồng focused MV, doppler - clip
+       10. 3 buồng CW VTI, Vmax nếu có MR (*)
+       11. 2 buồng focused MV, doppler - clip
+       12. 2 buồng focused MV, CW VTI, Vmax nếu có MR (*)
+       11. 4 buồng focused MV, doppler - clip
+       12. 4 buồng PW: E, A, thời gian giảm tốc sóng E
+       13. 4 buồng CW nếu có MS: E, A, dốc giảm tốc sóng E, VTI, chênh áp trung bình
+       14. 4 buồng focused MV CW nếu có MR: Vmax, VTI (*)
+       15. 4 buồng doppler mô vách liên thất và thành bên: s', e', a'
+       16. 4 buồng Pulvn - clip
+       17. 4 buồng Pulvn, doppler - clip
+       18. 4 buồng PW Pulvn: S, D, A
+       19. 4 buồng đo LA volume cuối sys: vẽ viền + trục dọc
+       20. 2 buồng đo LA volume cuối sys: vẽ viền + trục dọc
+       21. 4 buồng đo LV volume cuối dia: vẽ viền
+       22. 4 buồng đo LV volume cuối sys: vẽ viền
+       23. 2 buồng đo LV volume cuối dia: vẽ viền
+       24. 2 buồng đo LV volume cuối sys: vẽ viền
+       25. 5 buồng - clip
+       26. 5 buồng focused AV, LVOT, doppler - clip
+       27. 5 buồng PW LVOT: VTI, Vmax
+       28. 5 buồng CW AV: VTI, Vmax
+       29. 5 buồng PW khảo sát từ mỏm đến AV nếu cần - clip
+       30. Xoang vành - clip
+       31. 4 buồng khu trú thất P - clip
+       32. 4 buồng TV, doppler - clip
+       33. 4 buồng PW TV (E, A optional)
+       34. TR_Vmax nếu có
+       35. DTI TV lateral annulus: s', e', a'
+       36. TAPSE M-mode
+       37. 4 buồng focused RV: length, d basal, d midcavity at end dia
+       38. 4 buồng focused RV: area end dia
+       39. 4 buồng focused RV: area end sys
+       40. 4 buồng RA area: viền + đo chiều cao hay trục dọc (Trục dọc nhĩ phải được vẽ từ trung điểm của vòng van ba lá đến trung điểm của trần nhĩ phải)
+     - Apex, optional
+       1. Đánh giá sức căng trục dọc thất T - clip
+       2. Đánh giá chức năng thất T trên 3D - clip
+     - SC
+       1. 4 buồng - clip
+       2. Doppler 4 buồng - clip
+       3. Đánh giá IVC theo hô hấp - clip
+       4. Đường kính IVC
+       5. Tĩnh mạch gan - clip
+       6. Doppler tĩnh mạch gan - clip
+       7. PW tĩnh mạch gan: S, D, A
+     - SSN (Suprasternal notch)
+       1. Aortic arch - clip
+       2. Aortic arch narrow-sector Asc Ao, doppler - clip
+       3. Aortic arch narrow-sector Asc Ao, PW: Vmax
+       4. Aortic arch narrow-sector transverse arch and Desc Ao, doppler - clip
+       5. Aortic arch PW Doppler Desc Ao peak velocity (CW nếu cần)
+**** Siêu âm tim qua thành ngực có trọng điểm
+***** Tràn dịch màng ngoài tim
+      - 
 * Learning by subjects
 ** TODO Basic views <- then do this
 ** TODO Evaluation of left ventrical <- the third
@@ -893,3 +973,7 @@
      - Van 2 lá bắt đầu mở
 * Ultrasond physics
 * Board review
+* Linh tinh
+** Bài giảng chuẩn hóa SAT - BS Khôi
+   - Cửa sổ doppler xung van 2 lá 2.5-3mm (1-3mm ASE)
+   - Cửa sổ doppler mô 5-7.5mm (5-10mm ASE)
