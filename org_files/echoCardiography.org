@@ -631,7 +631,46 @@
        5. Aortic arch PW Doppler Desc Ao peak velocity (CW nếu cần)
 **** Siêu âm tim qua thành ngực có trọng điểm
 ***** Tràn dịch màng ngoài tim
-      - 
+      - Xác định TDMT??? cần xem lại
+        + PLAX
+          1. Thất T tăng độ sâu - clip
+          2. Thất T tối ưu - clip
+        + PSAX
+          1. Large-sector RA, TV, inflow RV, RVOT, AV - clip
+          2. Ngang van 2 lá - clip
+          3. Đầu mút van 2 lá - clip
+          4. Cơ nhú - clip
+          5. Apex - clip
+        + Apex
+          1. 4 buồng - clip
+          2. 2 buồng - clip
+          3. 3 buồng - clip
+          4. 5 buồng - clip
+        + SC
+          1. 4 buồng - clip
+** BSE's protocol
+   - (*) not required for minimum dataset
+   - PLAX
+     1. Increased depth
+        - Xem màng tim, dịch ngoài màng tim (posterior pericardial effusion and/or left pleural effusion)
+     2. LV
+        - LV size: LVEDd, LVESd, IVSd, LVPWd
+        - Visual assesment of LV wall motion
+          + BAS: basal antero-septum
+          + MAS: mid antero-septum
+          + BIL: basal infero-lateral
+          + MIL: mid infero-lateral
+     3. LA (*)
+        - Đo dk LA vuông góc với gốc ĐMC (ASE - vuông góc với trục giả định của LA) ngang mức xoang valsava
+        - Đo bờ trong đến bờ trong cuối tâm thu
+     4. RVOT (*)
+        - RVOT PLAX
+     5. MV
+        - Anatomy of MV (A2, P2)
+        - Quét để xem A1, P1, A3, P3 (*)
+        - Assesment for MR
+          + Doppler màu: chỉnh ROI chứa 1cm LV và root of the LA. ROI không nên quá thành trước và thành sau LA, không nên chứa cả AV và MV.
+     6. AV
 * Learning by subjects
 ** TODO Basic views <- then do this
 ** TODO Evaluation of left ventrical <- the third
@@ -977,3 +1016,60 @@
 ** Bài giảng chuẩn hóa SAT - BS Khôi
    - Cửa sổ doppler xung van 2 lá 2.5-3mm (1-3mm ASE)
    - Cửa sổ doppler mô 5-7.5mm (5-10mm ASE)
+** Bài giảng thông liên nhĩ - BS Khôi
+   - Nên khảo sát mặt cắt 2 tĩnh mạch chủ (Bicaval)
+   - Thể thường gặp nhất: lỗ thứ phát, nằm gần với hố bầu dục
+   - TLN lỗ nguyên phát: năm trong bệnh cảnh kênh nhĩ thất
+   - TLN thể xoang tĩnh mạch: chủ trên hoặc chủ dưới
+   - TLN thể xoang vành
+** Bài giải thông liên thất - BS Khôi
+   - 
+** Sách Echo made easy
+   1. Normal variants
+      - Normal structure
+        + Moderator band in RV
+        + False tendon in the LV
+        + Mitral annular ring calcification
+        + Subaortic bulge of IV septum
+        + Left atrial ridge (Coumadin ridge): hình ảnh đầu tăm bông
+      - Normal flow patterns
+        + Trival TR in many subjects
+        + Minimal MR in some subjects
+        + Ar in only diseased valves
+      - Normal findings in elderly
+        + Dày nhẹ lá van ĐMC (chẩn đoán nhầm thành hẹp van ĐMC)
+        + Vôi hóa vòng van 2 lá với dòng hở (chẩn đoán nhầm thành sùi hoặc huyết khối)
+        + Giảm compliance thất T, A/E > 1 (chẩn đoán nhầm thành rối loạn chức năng tâm trương)
+        + Khối phồng khu trú vách liên thất dưới van ĐMC (chẩn đoán nhầm thành phì đại vách hoặc HOCM)
+** Catherine_M._Otto_Textbook_of_Clinical_Echocardiography
+   1. Valve closing click on doppler
+      - Thể hiện như 1 pike [[./img/echoCardiography_valveClosingClick.jpg]]
+   2. Normal flow patterns
+      - LVOT: 
+        + [[./img/echoCardiography_normalFlowLVOT.jpg]]
+        + A normal LVOT velocity is about 0.7 to 1.1 m/s
+        + Vmax qua van DMC # 1.0 - 1.7 m/s
+        + The relationship between velocity and pressure gradients across *nonstenotic* valves is somewhat complex and is not fully described by the Bernoulli equation /(which applies to areas of narrowing)/
+      - RVOT
+        + Peak velocity 0.5 - 1.3 m/s
+        + [[./img/echoCardiography_RVOT.jpg]]
+      - LV inflow
+        + Normal E in healthy young individuals # 1m/s
+        + A # 0.2 - 0.4m/s
+        + E/A > 1 in < 50 tuổi, # 1 in 50-60 tuổi, < 1 in >60 tuổi
+        + [[./img/echoCardiography_LVInflow_Plvs.jpg]]
+      - RV inflow
+        + E # 0.3-0.7m/s
+      - LA filling
+        + S, D: sys and dia # 0.5m/s
+        + a (atrial contraction): #0.3 m/s
+        + Right superior pulvns (RSPV) [[./img/echoCardiography_LVInflow_Plvs.jpg]]
+      - RA filling
+        + TM chủ trên (SNN) or tĩnh mạch gan chung (SC)
+      - Des Ao
+        +  a peak velocity of about 1 m/s, and brief early-diastolic flow reversal 
+   3. Normal color doppler flow pattern
+      - LVOT
+        + Đồng nhất xanh hoặc đỏ trên PLAX và A4C: [[./img/echoCardiography_CDI_LVOT_PLAX_A4C.jpg]]
+        + Có thể có alising ở ĐMC và cạnh vách do song song với tia siêu âm trên A3C: [[./img/echoCardiography_CDI_LVOT_A3C.jpg]]
+        + variance, thường thể hiện màu xanh lá. Thể hiện dòng chảy rối, có thể xảy ra ở dòng chảy tầng ngay tại ngưỡng Nyquist (aliasing)
