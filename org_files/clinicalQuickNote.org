@@ -1,0 +1,53 @@
+* Secondary hypertension
+** Diagnosis of Secondary Hypertension: An Age-Based Approach
+*** Các nguyên nhân thường gặp theo tuổi
+    - https://www.aafp.org/pubs/afp/issues/2010/1215/p1471.html
+    - 5-10% người lớn THA là thứ phát
+    - Người trẻ, đặc biệt phụ nữ, thường gặp renal artery stenosis caused by fibromuscular dysplasia. (chẩn đoán băng MRI có cản từ hoặc CT cản quang)
+    - Người lớn tuổi, thường gặp hẹp ĐM thận do xơ vữa
+    - Người trung niên, thường gặp nhất cường aldosteron, initial diagnostic test is an aldosterone/renin ratio
+    - 70-85% trẻ em THA có nguyên nhân, thường gặp nhất là bệnh nhu mô thận
+*** Tiếp cận
+    - [[./img/clinicalQuickNote_2nd_hypertension_algorhythm.jpg]]
+    - [[./img/clinicalQuickNote_2nd_hypertension_test.jpg]]
+    - Do thuốc?
+    - Trẻ em 0-12y
+      +  70-85% thứ phát, bệnh nhu mô thận, hẹp eo ĐMC (khác biệt huyết áp tay-chân >20mmHg)
+    - Trẻ lớn 12 - 18y
+      + 10-15%, bệnh nhu mô thận, hẹp eo ĐMC
+    - Người trẻ 19-39y
+      + 5%, bệnh lý tuyến giáp, hẹp ĐM thận do loạn sản xơ cơ, bệnh nhu mô thận
+    - Trung niên, 40-64y
+      + 8-12%, cường aldosteron, bệnh lý tuyến giáp, hội chứng ngưng thở khi ngủ, hội chứng cushing, pheochromocytoma
+    - Lớn tuổi, >65y
+      + 17%, hẹp ĐM thận do xơ vữa, suy thận, suy giáp
+** ESH 2014 2nd Hypertesion: when who and how to screen
+*** who
+    - Age: trẻ em; người < 30 tuổi không có yếu tố nguy cơ, không có tiền căn gia đình; người lớn tăng huyết áp cấp tính, tăng huyết áp kháng trị
+    - Habitus: người thừa cân với tăng huyết áp kháng trị (OSA, nội tiết)
+    - Huyết áp: 
+      + Tăng huyết áp kháng trị
+      + Huyết áp rất cao (>180/110 mmHg)
+      + Tăng huyết áp cấp cứu
+      + Huyết áp cao đột ngột ở người trước đó ổn định
+      + Non-dipping or reverse dipping during 24 h ambulatory BP monitoring
+    - Gợi ý nguyên nhân sau khi khởi trị thuốc
+      + Giảm Kali với liều nhỏ lợi tiểu: primary aldosteronism or other endogenous or exogenous mineralocorticoid excess
+      + Giảm độ lọc cầu thận với liều nhỏ ức chế men chuyển
+      + Tăng huyết áp kháng trị
+      + Huyết áp dao động nhiều
+** Nguyên nhân
+   - Primaryaldosteronism (Conn syndrome)
+     + Lâm sàng: Hạ kali máu, yếu cơ, mệt, táo bón.
+     + Chẩn đoán 4 bước: xem thêm 
+       1. Tỷ lệ aldosteron/renin (ARR)
+       2. Confirmation test với sodium loading or captopril suppression
+       3. Adrenal imaging (CT or MRI)
+       4. Adrenal vein sampling. xem thêm: https://primaryaldosteronism.org/step-4-adrenal-venous-sampling/
+     + Chuẩn bị bệnh nhân trước test ARR [[./img/clinicalQuickNote_2nd_hypertension_ARR1.jpg]]
+     + Các thuốc ảnh hưởng đến ARR và metanephrine [[./img/clinicalQuickNote_2nd_hypertension_ARR2.jpg]]
+   - Phaeochromocytoma
+     + Lâm sàng: 5P paroxysmal hypertension; palpitation; perspiration (sweat); pallor; pounding headache.
+     + Screen: chỉ tầm soát khi có tăng huyết áp kháng trị và 5P; tiền căn gia đình; bát thường gen có liên quan; khối u thượng thận có tính chất gợi ý (large size .4 cm, cystic and haemorrhagic changes)
+     + Chẩn đoán: catecholamine  và metanephrine nước tiểu 24 giờ hoặc fractionated metanephrine máu. Chú ý các thuốc gây thay thay đổi metanephrine (betablocker gây tăng) [[./img/clinicalQuickNote_2nd_hypertension_ARR2.jpg]]. Nếu XN tầm soát dương tính thì chẩn đoán hình ảnh với adrenal CT hoặc MRI. Nếu hình ảnh âm tính thì scintigraphiclocalization with 123I-metaiodobenzylguanidine (MIBG) or additional imaging (i.e. whole body MRI, or others) is indicated. 
+     + Chuẩn bị bệnh nhân trước lấy mẫu: Several studies have shown that plasma metanephrine concentrations tend to be higher when measured in the seated position compared to the supine position, leading to reduced specificity and an increase in false positive results. Guidelines recommend drawing blood with the patient in the supine position after they have been fully recumbent for at least 30 minutes before sampling
