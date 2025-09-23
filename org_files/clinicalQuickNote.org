@@ -51,3 +51,12 @@
      + Screen: chỉ tầm soát khi có tăng huyết áp kháng trị và 5P; tiền căn gia đình; bát thường gen có liên quan; khối u thượng thận có tính chất gợi ý (large size .4 cm, cystic and haemorrhagic changes)
      + Chẩn đoán: catecholamine  và metanephrine nước tiểu 24 giờ hoặc fractionated metanephrine máu. Chú ý các thuốc gây thay thay đổi metanephrine (betablocker gây tăng) [[./img/clinicalQuickNote_2nd_hypertension_ARR2.jpg]]. Nếu XN tầm soát dương tính thì chẩn đoán hình ảnh với adrenal CT hoặc MRI. Nếu hình ảnh âm tính thì scintigraphiclocalization with 123I-metaiodobenzylguanidine (MIBG) or additional imaging (i.e. whole body MRI, or others) is indicated. 
      + Chuẩn bị bệnh nhân trước lấy mẫu: Several studies have shown that plasma metanephrine concentrations tend to be higher when measured in the seated position compared to the supine position, leading to reduced specificity and an increase in false positive results. Guidelines recommend drawing blood with the patient in the supine position after they have been fully recumbent for at least 30 minutes before sampling
+* Dịch và cân bằng dịch trong cơ thể
+** Phân bố dịch trong cơ thể
+   1. Dịch nội bào 2/3
+   2. Dịch ngoại bào 1/3
+      - Trong lòng mạch 1/4. Ước tính lượng máu # 7% trọng lượng cơ thể. VD người 70kg|5000ml máu
+      - Dịch kẽ 3/4
+* Phác đồ tiệt trừ HP
+  - Phác đồ [[./img/clinicalQuickNote_phacDoHp.jpg]]
+  - Liều thuốc [[./img/clinicalQuickNote_thuocHp.jpg]]

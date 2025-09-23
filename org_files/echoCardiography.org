@@ -1181,3 +1181,268 @@
     - Area: |BT <18
     - Volume: not recommended
 *** Aortic valve disease
+**** Aortic stenosis
+     1. Appearance of the valve and aorta
+        - Số lá, dày, vôi, di động?
+        - Nếu ĐMC 2 lá: Is it anatomical or functional (two cusps fused either partially or fully with a median raphe)? fusion giữa lá trái và phải thường gặp nhất (#60%), thường kèm theo dãn ĐMC và hẹp eo ĐMC (5%). 
+     2. Doppler
+        - Minimum dataset: Vmax, mean gradient, effective orifice area (EOA)using the continuity equation.
+        - CW mặt cắt từ mỏm và ít nhất một mặt cắt khác unless the aortic valve disease is obviously mild shown by:
+          + Mobile cusps
+          + Low velocity
+          + Normal EF
+     3. Đánh giá độ nặng
+        - Vmax < 2.5m/s
+          + Nếu lá van dày, EF bình thường => dày van ĐMC, không hẹp
+        - Vmax >=2.5
+          + Vmax(m/s):           |Nhẹ 2.6-2.9 |TB 3.0-4.0 |Nặng >4.0
+          + Peak gradient:       |Nhẹ <40     |TB 40-65   |Nặng >65
+          + Mean gradient:       |Nhẹ <20     |TB 20-40   |Nặng >40
+          + EOA (cont eq) (cm2): |Nhẹ >1.5    |TB 1.0-1.5 |Nặng <1.0
+        - Vmax >4.0m/s but EOA >1.0cm2
+          + High flow (hở chủ, thiếu máu, anxiety) or
+          + Đo sai EOA (PW đo quá gần van ĐMC, LVOT quá lớn)
+          + Xem xét Wave form: Dagger or Arch; EOA/BSA; Dimensionless index; Lá van canxi + di động kém?
+        - Vmax <4.0m/s but EOA <1.0cm2
+          + Low flow
+          + Đo sai EOA (PW quá gần LV apex, đo sai LVOT)
+          + Xem xét Wave form: Dagger or Arch; EOA/BSA; Dimensionless index; Lá van canxi + di động kém?
+        - Low gradient, low flow aortic stenosis. This occurs if:
+          + EF thấp. Or
+          + LV phì đại kèm khoang LV nhỏ. Ngay cả EF bình thường hoặc cao nhưng stroke volume quá nhỏ và dòng chậm. Or
+          + Severe MR or MS. Or
+          + Definition: mean gradient <40mmHg && EOA < 1.0cm2 && (EF <40% || SVi <35ml/m2 || flow <200ml/s)
+        - Dobutamin stress echocardiography (DSE)
+          + Indication: mean gradient <=30-40mmHg && EF <=40%. (ESC 2025: SVi <=35ml/m2 && EF <50%)
+     4. General
+        - Lượng giá AR
+        - Lượng giá các van khác. Hở van 2 lá thứ phát nếu LV dãn
+        - Lượng giá áp lực động mạch phổi. Là chỉ dấu tiên lượng xấu. 
+        - Phì đại đường ra thất T
+        - If the valve looks mildly affected but the velocities are high, consider a subaortic membrane.
+**** Aortic regurgitation
+     1. Apperance of the valve and aorta
+     2. Colour flow mapping
+        - Đo tỷ lệ % độ rộng dòng phụt ngược/LOVT diameter, vị trí 5-10mm bên dưới vòng van. Nếu dòng lệch tâm nhiều, chạm vào thành thất hoặc van 2 lá thì phương pháp này không chính xác. Không đo LVOT trên mặt cắt từ mỏm.
+        - Vena contracta.
+        - [[./img/echoCardiography_ARjet.jpg]]
+     3. Continuous wave signal
+        - Đo PHT
+     4. Flow reversal at the arch
+        - Mô tả dòng phụt ngược toàn tâm trương, nửa tâm trường hoặc đầu tâm trương, dùng clour M-mode và PW
+        - Dòng phụt ngược thấy được đến đoạn nào của động mạch chủ xuống trên doppler màu
+        - [[./img/echoCardiography_flowReversalDesAo.jpg]]
+     5. Grade the severity of AR
+        - Tỷ lệ độ rộng dòng hở/LOVT và dòng phụt ngược ĐMC xuống là đáng tin cậy nhất
+        - Color/LVOT height (%): |Nhẹ <25  |TB 25-64   |Nặng >=65
+        - Vena contracta (mm):   |Nhẹ <3   |TB 3-6     |Nặng >6
+        - Flow reversal Des Ao:  |Nhẹ ko   |TB đầu dia |Nặng Holodiastolic (EDV > 0.2m/s)
+        - PHT (ms):              |Nhẹ >500 |TB 200-500 |Nặng <200
+        - CW signal intensity:   |Nhẹ nhạt |TB inter   |Nặng dense
+        - PISA không dùng thường quy trong AR
+     6. Đánh giá thất T
+     7. Chỉ định phẫu thuật
+        - Hở chủ nặng và dựa vào thể tích tâm thu, tâm trương thất trái, EF, dãn ĐMC. 
+     8. Mistake to avoid
+        - Đặt PW quá gần thành ĐMC xuống, có thể tạo xảo ảnh cuối tâm trương (dòng đối xứng trên và dưới baseline), dễ nhầm với dòng phụt ngược (chỉ có dòng trên baseline)
+        - Trong hở chủ cấp nên đo thời gian giảm tốc sóng E, <150ms gợi ý nguy cơ cao có decompensation. 
+        - KHi có bệnh lý thất T gây tăng áp lực cuối tâm truogn có thể gây giảm PHT, dẫn đến overestimate độ nặng AR
+        - Không dùng vena contracta để tính tỷ lệ độ rộng dòng hở/LVOT
+        - Không dùng PHT khi chùm tia không song song với dòng hở. AR jet initial peak velocity should be about 4m/s; if much lower, đặc biệt nếu có bidirectional signal, dùng các phương pháp khác. 
+*** Mitral valve disease
+**** Mitral stenosis
+     1. Appearance
+        - Almost all MR is *rheumatic* in origin. Show by:
+          + Commissural fusion
+          + Bowing of the tips
+          + Thickening of the leaflet tips
+          + Chordal thickening
+        - Degenerative calcification in the annulus usually causes no more than moderate stenosis
+     2. Planimeter the orifice area
+        - Use color Doppler as a guide to the extent of the orifice if this is not obvious on imaging
+     3. Continuous wave signal
+        - Tính trung bình cộng PHT và mean gradient trong 3-5 chu kỳ nếu có rung nhĩ
+        - The Hatle formula: Orifice area = 220/PHT
+        - In calcific annular disease, sóng A thường lớn do bệnh lý THA lâu ngày. Có thể ước đoán quá mức độ nặng hẹp van 2 lá khi dùng mean gradient. Thường lá van mỏng và di động tốt, lúc này kích thước lỗ mở van nên dùng để đánh giá độ nặng. 
+     4. Assess MR
+        - Hở van 2 lá trung bình trở lên không phù hợp sửa van
+     5. Đánh giá độ nặng
+        - The planimetered orifice area is the most reliable measure in rheumatic disease if performed accurately. 
+        - Orifice area by planimetry (cm2): |Nhẹ >1.5 |TB 1.0-1.5 |Nặng <1.0
+        - PHT (ms):                         |    <150 |   150-220 |     >220
+        - Mean gradient (mmHg):             |    <5   |      5-10 |>10 (15 sau gắng sức)
+        - PA pressure (mmHg):               |    <30  |     30-50 |     >50
+     6. Examine the right heart
+        - Áp lực động mạch phổi tương quan yếu với độ hẹp van 2 lá, là 1 trong những tiêu chuẩn cho chỉ định nong van 2 lá bằng bóng (PAPs >50mmHg at rest)
+        - Dãn thất phải kèm giảm động là chỉ dấu tiên lượng kém tốt hơn áp lực động mạch phổi
+        - Tricuspid rheumatic involvement is common, but easily missed
+     7. Assess the other valves
+        - Đánh giá kỹ các van còn lại giúp lên kế hoạch sửa van
+        - Hẹp van ĐMC có thể bị underestimated vì dòng chậm do hẹp van lá (hoặc hở van 2 lá)
+        - Transmitral PHT bị rút ngắn bất tương xứng so với diện tích mở van nếu hở chủ nặng
+     8. Risk of atrial thrombus
+        - SA qua thực quản luôn luôn phải thực hiện trước nong van 2 lá
+        - Dãn nhĩ trái >50mm or volume >60ml/m2 là tiêu chí dùng kháng đông trên bệnh nhân hẹp van 2 lá + nhịp xoang. 
+     9. Is the valve suitale for balloon valvotomy
+        - Các đặc điểm đáng tin cậy nhất gợi ý nong van thành công
+          + Lá trước di động tốt
+          + No more than minor chordal involment
+          + No more than mild AR
+          + No commissural calcification
+          + No LA thrombus (on TOE)
+        - Một số trung tâm dùng Wilkins score <=8 gợi ý nong van 2 lá thành công. Tuy nhiên thang điểm này thiếu một số tính chất quan trọng như trên.
+     10. Mistakes to avoid
+         - Off-axis planimetry of the mitral valve
+         - Không tính đến ảnh hưởng của hở 2 lá nặng hoặc hở chủ nặng đến PHT
+         - Overestimate độ nặng van 2 lá khi có canxi nặng vòng van ở bệnh nhân có nhịp xoang do sóng A lớn
+**** Mitral regurgitation
+     1. Appearance
+        - Nguyên phát: sa van, hậu thấp, viêm nội tâm mạc nhiễm trùng, SLE,...
+        - Thứ phát: Nhồi máu cơ tim, dãn LV
+        - Sa van 2 lá
+          + Which segments are involved using the Carpentier classification? [[./img/echoCardiography_Carpentier.jpg]]
+          + Dòng phụt thường away from prolapse
+          + Lá van sa >2mm sau mặt phẳng vòng van trên PLAX, A3C
+          + Điểm đóng van bên dưới mặt phẳng vòng van trên A4C
+        - Có hạn chế mở van trong thì tâm trương?
+          + Giới hạn di động cả 2 tip lá van với bowing of the leaflets trong hậu thấp
+          + Dễ nhầm lẫn trong trường hợp giảm mở cả 2 lá van (not just the tip) do giảm cung lượng tim, hoặc giảm di động lá trước van 2 lá do dòng hở chủ
+        - Is there restriction of both leaflets during systole (symmetrical tenting)
+        - Is there restriction of the posterior leaflet during systole (asymetrical tenting): thường do nhồi máu cơ tim thành dưới, dòng hở hướng ra sau
+        - Nếu hình ảnh và di động lá van bình thường:
+          + Đo đường kính vòng van: >35(nữ), >40(nam) gợi ý dãn vòng van
+          + Kiểm tra thủng van, nứt van
+          + Check for commissural prolapse???
+     2. Color flow mapping
+        - Origin of the jet (vách, giữa hay bên lỗ mở van)
+        - Hướng dòng hở
+        - Độ rộng dòng hở: vena contracta (trung bình cộng nhiều mặt cắt vuông góc vì dòng phụt thường hình oval hơn là circle) hoặc PISA
+          + Cách đo [[./img/echoCardiography_PISAandVC_AR.jpg]]
+        - Duration of the jet using M-Mode
+            + Toàn tâm thu hoặc chỉ một phần tâm thu
+            + Vena contracta hoặc PISA phải được hiểu chỉnh nếu dòng phụt không phải toàn tâm thu???
+     3. CW signal
+        - "Dagger-shaped" signal is a sign of severe regurgitation
+     4. PW
+        - Severe MR is suggested by:
+          + E >1.5m/s in the absence of MS
+          + VTI_transMitral/VTI_subAortic >1.4
+        - The estimation of filling pressures using E/E' ratio is not valid in the presence of severe mitral regurgitation
+     5. General
+        - Chỉ định phẫu thuật (ESC 2025)
+          + Symtomatic severe primary MR. I
+          + Asymtomatic servere primary MR with EF <=60% or LV dilation (LVESD >=40mm || LVESDi >=20mm/m2). I
+          + Asymtomatic servere primary MR with 3/4 (AF + SPAP at rest > 50mmHg + LAVI >=60mL/m2 or diameter >=55mm + concomitant 2nd TR >= moderate). I
+          + Asymtomatic servere primary MR with AF or SPAP at rest > 50mmHg or significant LA dilation (LAVI >=60mL/m2 or diameter >=55mm). IIa
+     6. Grading
+        - VC (mm):    |Nhẹ <3  |TB 3-6.9 |Nặng >=7
+        - PSIA quantities
+        - EROA (mm2): |Nhẹ <20 |TB 20-39 |Nặng >=40
+        - Regur vol:  |Nhẹ <30 |TB 30-59 |Nặng >=60
+        - RF(%):      |Nhẹ <30 |TB 30-49 |Nặng >=50
+*** Right-side valve disease
+**** Tricupid regurgitation
+     1. Apperance
+        - Trace or mild TR is seen in 80% normal subjects
+        - The normal apical displacement of the septal leaflet is up to 15mm
+        - Đường kính vòng van bình thường 25-40mm/PLAX, 20-34mm/A4C
+        - Dãn vòng van 3 lá >=40mm or >21mm/m2
+        - A4C: lá vách + lá trước
+        - PLAX: Lá sau + lá vách/trước
+        - PSAX: Phụ thuộc mặt cắt
+     2. Grading
+        - The most useful are the color width and density of the continuous wave signal. 
+        - Systolic flow reversal in the hepatic vein and IVC is a specific sign of severe TR
+        - Color neck (mm):   |Nhẹ 0  |TB <7   |Nặng >=7
+        - PISA radius (mm):  |Nhẹ <5 |TB 6-9 |Nặng >9 (Nyqusit 20-30cm/s)
+        - EORA(mm2): not routinely performed |Nặng >=40
+        - Regur vol: not routinely performed |Nặng >=45
+        - CW signal:         |Nhẹ incomplete |TB low or moderate intensity |Nặng Dense and may be triangle
+        - Hepatic vein flow: |Nhẹ normal |TB may be systolic blunting |Nặng systolic reversal
+        - [[./img/echoCardiography_TR_CW.jpg]]
+     3. Chỉ định phẫu thuật ESC 2025
+        - Có chỉ định sửa van bên trái kèm TR trung bình/nặng hoặc TR  nhẹ nhưng dãn vòng van (>=40mm or >21mm/m2)
+        - TR nặng kèm rối loạn chức năng RV/LV hoăc tăng áp phổi tiền mao mạch -> *không* phẫu thuật
+        - TR nặng có triệu chứng hoặc dãn RV or chức năng RV kém dần *không có* rối loạn chức năng RV/LV hoăc tăng áp phổi tiền mao mạch
+**** Tricuspid stenosis
+     1. Appearance
+        - Ussually rheumatic, may be congenital (Ebstein, tricuspid atresia), carcinoid, fibrosis sencondary to SLE, pacemaker
+     2. Recognising tricuspid stenosis
+        - Hẹp van 3 lá thường khó nhận biết hơn MS vì ít dày và canxi hóa
+        - Dấu hiệu gợi ý:
+          + Vmax >1.0m/s (more likely >1.5 m/s) or
+          + Mean gradient > 2 mmHg
+          + Small RV, large RA
+        - Dấu hiệu gợi ý hẹp nặng
+          + Mean gradient >= 5mmHg
+          + PHT >=190ms
+     3. Surgery
+        - Chỉ định khi có hẹp nặng kèm triệu chứng hoặc có chỉ định phẫu thuật tim trái
+**** Pulmonaryy stenosis and regurgitation
+     1. Nguyên nhân
+        - Hẹp van ĐMP hầu như luôn luôn là do bẩm sinh. 
+        - Hẹp tại van 90%, dưới van 5%, trên van 1%, tại nhánh 5%
+     2. Hình thái van
+        - An initial clue to the presence of stenosis is turbulent flow in the RV out flow tract during systole on CDI
+     3. Có hở phổi không?
+        - Trace or mild is normal.
+        - Severe PR is suggested by:
+          + A wide color jet >7.5mm hoặc >50% RVOT
+          + Dòng phụt ngược thấy được đoạn xa hoặc nhánh ĐMP
+          + PHT <100mms
+          + PR duration/dia duration <0.77
+          + Dilated, active RV
+          + [[./img/echoCardiography_PR_CDI.jpg]]
+          + [[./img/echoCardiography_PR_CW.jpg]]
+     4. Chênh áp qua van
+        - Gợi ý hẹp nặng
+          + Vmax: |Nhẹ <3.0 |TB 3.4-4.0 |Nặng >4.0
+          + Mean pressure gradient: |Nặng >50mmHg hoặc có kèm RV dysfunction 
+     5. Check the level of the obstruction
+     6. Ước lượng áp lực động mạch phổi
+     7. Đo lường động mạch phổi
+        - RVOT: 18-34mm
+        - PV annulus: 10-22mm
+        - Main pul: 9-29mm
+        - R pul: 7-17mm
+        - L pul: 6-14mm
+     8. Đánh giá thất phải
+     9. Chỉ định can thiệp
+     10. Mistakes to avoid
+        - Không dùng TR_Vmax đơn thuần để tính PAPS nếu có hẹp phổi hoặc RVOT obstruction. Subtracting the 4(V_pulm)^2 from 4(V_TRmaX)^2 will get a better estimate
+*** Pericardial disease
+**** Pericardial effusion
+     1. Pericardial or pleural
+        - [[./img/echoCardiography_periVsPleuEffusion.jpg]]
+     2. Size and distribution
+        - Size:
+          + Trivial: Chỉ thấy thì tâm thu hoặc khu trú nhĩ phải
+          + Small: <10mm cuối tâm trương
+          + Moderate: 10-20mm cuối tâm trương
+          + Large: >20mm cuối tâm trương
+        - Distribution: khu trú hay toàn thể?
+        - Is there enough fluid in the SC for safe pericardocentesis:
+          + Usually >20mm, at least 10mm
+        - Tính chất dịch: Echolucent, localized strands (tuberculosis), echodense (Haematomas)
+        - Might drainage not feasible?
+          + Too small
+          + Loculated
+          + Echodense
+     3. Is tamponade present?
+        - Chèn ép tim là chẩn đoán lâm sàng hỗ trợ bởi siêu âm tim
+        - Evidence of tamponade
+          + IVC >20mm, collapse <50%
+          + Fall in aortic (LVOT) or early diastolic mitral vel (E) during inpiration >25%. [[./img/echoCardiography_tamponadePwLVOT.jpg]]
+          + Increase in transtricuspid vel on inpiration >40%
+          + Prolonged and widespread diastolic RV collapse (lý tưởng là xem được trên M-mode để xác định mốc thời gian chính xác)
+          + Lệch vách liên thất sang trái trong thì hít vào
+          + Note: /Collapse of RA and RVOT occur before RV collapse and are non-specific signs/
+     4. Differential diagnoses
+        - 3 chẩn đoán phân biệt chính: TDMP, Fat (thường gặp thành trước hoặc giữa RV và cơ hoành), nang màng ngoai tim
+        - Increased left-sided respiratory variation: 
+          + Asthma
+          + Suy thất P
+          + Underfilling
+**** Pericardial constriction
+     1. Visual assessment
+        - Septal bounce: Có thể là dấu hiệu đầu tiên của viêm màng ngoài tim co thắt. [[]]
