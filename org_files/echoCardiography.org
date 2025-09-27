@@ -1014,17 +1014,59 @@
 * Ultrasond physics
 * Board review
 * Linh tinh
-** Bài giảng chuẩn hóa SAT - BS Khôi
+** Bài giảng BS Khôi
+*** Bài giảng chuẩn hóa SAT - BS Khôi
    - Cửa sổ doppler xung van 2 lá 2.5-3mm (1-3mm ASE)
    - Cửa sổ doppler mô 5-7.5mm (5-10mm ASE)
-** Bài giảng thông liên nhĩ - BS Khôi
+*** Bài giảng thông liên nhĩ - BS Khôi
    - Nên khảo sát mặt cắt 2 tĩnh mạch chủ (Bicaval)
    - Thể thường gặp nhất: lỗ thứ phát, nằm gần với hố bầu dục
    - TLN lỗ nguyên phát: năm trong bệnh cảnh kênh nhĩ thất
    - TLN thể xoang tĩnh mạch: chủ trên hoặc chủ dưới
    - TLN thể xoang vành
-** Bài giải thông liên thất - BS Khôi
-   - 
+*** Bài giải thông liên thất - BS Khôi
+*** Đánh giá chức năng tâm trương thất trái
+    1. Bốn thông số cần đo đạc
+       - Septal e', lateral e': 7cm/s, 10cm/s (cũ), mới 6cm//s, 7cm/s
+       - E/e' trung bình 14, septal 15, lateral 13
+       - LAVi 34ml/m2
+       - TRVmax 2.4m/s
+    2. Các bước đánh giá
+       - Step 1: Đánh giá thư giãn thất T: Đo e' (sep <=6, lat <=7, agv <=6.5)
+       - Step 2: Đánh giá tái cấu trúc LA/LV và tăng áp lực nhĩ T
+         + Avg E/e' >14
+         + LARS (strain của nhĩ T) <=18%
+         + E/A <=0.8 hoặc >=2
+         + LAVi > 34ml/m2
+       - Step 3: đánh giá chức năng tâm trương giảm khi có e' giảm và ít nhất 1 thông số trong step 2 || hoặc có từ 2 thông số trong step 2 trở lên
+    3. Lưu đồ
+       - [[./img/echoCardiography_diaDisFuncASE2025.jpg]]
+       - Các bước theo lưu đồ 
+         + Xem 3 thông số: e', E/e', TRVmax
+         + Cả 3 bình thường -> normal
+         + Cả 3 bất thường -> E/A < 2 độ 2, E/A>2 độ 3
+         + Chỉ e' bất thường: E/A <=0.8 độ 1
+         + Còn lại -> tính LAVi < 34 Normal LAP; nếu LAVi >34 tăng LAP -> E/A < 2 độ 2, E/A >=2 độ 3
+*** Van nhân tạo
+    1. Hẹp Van DMC nhân tạo
+       - Chênh áp tối đa: Ở van ĐMC thì vận tốc máu trong LVOT đã đến 1.5m/s (>1m/s) cần dùng phương trình Bernouli đầy đủ (delta_P = 4(V2^2-V1^2)
+       - Chênh áp trung bình
+       - Diện tích mở van hiệu quả: Bình thường EOA Van DMC > 1cm2/m2, hai lá >1.2-1.3cm2/m2
+       - Bất xứng van nhân tạo - bệnh nhân (PPM)
+         + EOA >0.85 cm2/m2: PPM không ý ngĩa huyết động
+         + EOA 0.65-0.85 cm2/m2: PPM trung bình
+         + EOA <0.65: PPM nặng
+       - DVI (dimensionless index) (>=0.3) và AT (aceleration time) (<100ms). Lưu đồ tiếp cận: 
+         + Vmax qua van < 3m/s thường bình thường
+         + Vmax > 3m/2: [[./img/echoCardiography_DVI_and_AT_inProstheticAo.jpg]]
+       - Trên lâm sàng thường dùng 2 chỉ số: chênh áp vad EOA/BSA [[./img/echoCardiography_prostheticAoStenosis.jpg]]
+       - Nguyên nhân hẹp: van mở tốt hay không? vôi hóa? huyết khối?
+    2. Hở van DMC nhân tạo
+       - 
+    3. Hẹp van 2 lá nhân tạo
+       - [[./img/echoCardiography_hepVan2laNhantao.jpg]]
+    4. Tóm tắt
+       - Cần đo Vmax, max PG, mean PG, VTI LVOT, VTI CW -> EOA, DVI. AT.  
 ** Sách Echo made easy
    1. Normal variants
       - Normal structure
@@ -1133,6 +1175,8 @@
        - RVD1 <42mm
        - RVD2 <35mm
        - RVD3 <86mm
+       - RVOT prox < 35mm (bài trên mạng)
+       - RVOT dis < 27 (bài trên mạng)
     2. If large, is RV active or hypokinetic?
        - Active: ASD, TR, PR
        - Hypokinetic: Pulmonary hypertension (PE), RV infarction, myopathy, end stage vale disease
@@ -1155,12 +1199,12 @@
          + TR Vmax => chênh áp = 4(Vmax)^2
          + PA systolic pressure = RA pressure + chênh áp. Giả định không có hẹp van ĐMP hoặc RVOT obstruction
        - Estimating PA diastolic pressure
-         + PR V_endDiastolic => chênh áp 4V^2. [[./img/echoCardiography_PR.jpg]]
+         + PR V_endDiastolic (đo cuối thì tâm trương)=> chênh áp 4V^2. [[./img/echoCardiography_PR.jpg]]
          + PA diastolic pressure = RA pressure + chênh áp
        - Estimating PA mean pressure
          + There are no firm methods so it is recomended that more than one is used
          + 1/3 PA sys pressure + 2/3 PA dia pressure
-         + 4 x PR Vmax^2 + RA pressure
+         + 4 x PR Vmax^2 (đo max chứ không phải cuối tâm trương)+ RA pressure
        - If there is no TR jet
          + Doppler ĐMP có thể giúp gợi ý tính trạng tăng áp ĐMP
          + PW vị trí trung tâm ĐMP chính hoặc giữa vòng van ĐMP. Tránh để quá gần thành động mạch. [[./img/echoCardigraphy_PA_Velocity.jpg]]
@@ -1171,6 +1215,23 @@
     9. Mistakes to avoid
        - Áp lực ĐMP tăng theo tuổi và cân nặng. Do đó, áp lực ĐMP tâm thu 35-40mmHg co thể bình thường ở người lớn tuổi hoặc béo phì. 
        - IVC size and collapse không chính xác ở người bệnh có thông khí cơ học 
+    10. Bài trên mạng
+       - Đánh giá chức năng tâm thu dọc
+         + TAPSE >=17
+         + Sóng s' >9.5cm/s
+         + GLS
+       - Đánh giá chức năng tâm thu toàn bộ
+         + Chỉ số Tei (RIMP) = (IVRT + IVCT)/ET =(TCO-ET)/ET 
+         + FAC >35%
+         + RV 3D EF
+       - Đánh giá chức năng tâm trương
+         + E, A van 3 lá
+         + E', A'
+    11. Áp lực DMP - BS Nam
+       - PAPm > 25 khi nghỉ hoặc > 30mmHg khi gắng sức. Áp dụng cho cả người lớn và trẻ em.
+       - Khi SAT dự đoán áp lực dự đoán áp lực thất P đại diện cho áp lực DMP, do đó phải loại trừ tắc nghẽn đường ra thất P.
+       - Phân độ PAPs (35 50 70): |BT <=35 |Nhẹ 36-49 |TB 50-69 |Nặng >=70
+       - Khi có thông liên thất hoặc PAD: RVSP áp lực thất P (bằng áp lực DMP) = SBP (huyết áp tâm thu đo bằng tay, khi không có tắc nghẽn LVOT) - 4Vmax2 của lỗ thông
 *** LA
     - Đường kính LA không đại diện tốt cho hình thái LA
     - Diameter: PLAX < 40mm
@@ -1180,6 +1241,26 @@
     - Transverse diameter: |BT <44mm
     - Area: |BT <18
     - Volume: not recommended
+*** Cardiomyopathies
+**** The dilated left LV
+**** The hypertrophied LV
+     - A wall thickness >=30mm in any segment is a strong marker for sudden death in HCM
+     - Impaired sys func with significant hypertrophy suggests amyloid rather than hypertrophic cardiomyophathy
+     - EF <50% in HCM indicate high risk of sudden death
+     - Restrictive rather than slow or pseudonormal filling suggest amyloid cardiomyopathy
+     - Fixed obstruction LVOT (peaking in early or mid-sys) vs systoic anterior motion of mitral valve (peaking in late sys)
+     - Tim vận động viên thường có tăng kích thước buồng tim nhưng chỉ dầy nhẹ vách (<=13mm)
+       + Cô Hoa: Tim vận động viên dày <16mm, dày đều, không có rối loạn chức năng tâm trương
+     - Mistake to avoid
+       + Over reporting a normal subAo septal bulge in the elderly
+       + Making a new diagnosis of HCM from the echo alone. This is a clinical diagnosis
+       + Mistaking MR jett for LVOT jet on CW
+       + Missing a sub aortic membrane as a cause of non-valvar LVOT acceletation and LV hypertrophy
+**** Restrictive cardiomyopathy
+**** Noncompaction
+**** ARVD
+     - On echo there must be regional akinesis, dyskinesis (not hypokinesis) or aneurysms
+     - Other features [[./img/echoCardiography_ARVD.jpg]]
 *** Aortic valve disease
 **** Aortic stenosis
      1. Appearance of the valve and aorta
@@ -1445,4 +1526,100 @@
           + Underfilling
 **** Pericardial constriction
      1. Visual assessment
-        - Septal bounce: Có thể là dấu hiệu đầu tiên của viêm màng ngoài tim co thắt. [[]]
+        - Septal bounce: Có thể là dấu hiệu đầu tiên của viêm màng ngoài tim co thắt. [[./img/echoCardiography_septalBounce.jpg]]
+        - LA size: Có thể lớn nhẹ hoặc trung bình 2 nhĩ trong  co thắt màng ngoài tim
+        - IVC: dãn và không xẹp
+     2. Doppler
+        - LV filling pattern: restrictive (E:A >2, E deceleration tim <150ms)
+        - Respiratory variability (spontaneous respiration): >25%
+        - Tissue doppler: Normal sys velocities, normal or raised E' vel. The peak E' may be higher at the septal than the lateral annulus (which becomes tethered to the pericardium)
+        - Estimated PA pressure: moderately increased (usually <50mmHg)
+        - Hepatic vein flow: Flow reversal is maximal on the first beat after expiration. 
+        - Pulmonảy vein flow: S:D >0.65 on inspiration and D giảm >40% on inspiration
+     3. Pericardial constriction or restrictive cardiomyopathy?
+        - Nhiều nguyên nhân gây co thắt màng ngoài tim cũng có thể gây cơ tim hạn chế. Cần thiết xác định cái nào nổi trội hơn. 
+        - The key is that the ventricles are normal in constrictive pericarditis but abnormal in restrictive cardiomyopathy
+          + Lateral or septal E':     |Cons >=8cm/s |Res <7cm/s
+          + Respiratory variability:  |Cons >25%    |Res <10%
+          + LA, RA dilation:          |Mild or mod  |Severe
+          + Sepal bounce:             |+            |-
+          + Hepatic flow reversal max:|Expiration   |Inspiration
+          + PAPs:                     |<50mmHg      |May be >50mmHg
+          + [[./img/echoCardiography_constrictiveVsRestrictive.jpg]]
+          + [[./img/echoCardiography_constrictiveVsTamponade.jpg]]
+     4. Pericarditis
+        - Vai trò của siêu âm: loại trừ viêm cơ tim (dãn buồng tim, rối loạn vận động vùng, RL chức năng tâm thu); detect tràn dịch màng tim, tamponade; clue to the diagnosis (eg. valve involement in SLE); rối loạn vận động vùng PB với MI. 
+     5. Mistake to avoid
+        - Không kiểm tra SC view để đảm bảo lượng dịch đủ an toàn để chọc dò
+        - Cẩn tìm septal bounce, dilated IVC, short E DT ở BN có lâm sàng suy tim nhưng kích thước buồng tim bình thường và EF bình thường
+        - Tránh nhầm lẫn mỡ màng ngoài tim là TDMT
+*** Masses
+    1. Facts
+       - 2nd tumors are at least 20 times more common than 1st tumors
+       - The most common benign 1st tumors are atrial myxoma (70%), papilary fibroelastoma (10%), fibroma and, mainly in infants and children, rhabdomyoma. 
+       - The most common 1st malignancies are the sarcomas, especially angiosarcomas, usually arise in the RA. Lymphoma are less common. 
+    2. Features of thrombus
+       - underlying wall motion abnormality
+       - Cleavage plane between thrombus and LV wall
+       - Higher density than mycardium
+       - Present in more than one view
+       - Cause a void on CDI
+*** Appendices
+    1. Frequency of echocardiography in native valve disease
+       - From ASE and ESC 2009-2012
+       - [[echoCardiography_valveDiseaseFollowUp.jpg]]
+    2. Formulae
+       - Bernoulli equation
+         + Short: Delta_P = 4(V2)^2
+         + Long: Delta_P = 4(V2)^2 - 4(V1)^2
+         + V1: Subvalvar vel; V2: Transvalvar vel
+         + Short form dùng trong trường hợp vận tốc dưới van << vân tốc qua van như trong trường hợp MS, AS trung bình - nặng (V2 >3m/s); không dùng trong trường hợp AS nhẹ. 
+       - Continuity euqation
+         + The classical form: EOA = CSA*VTI_subAo/VTI_transAo
+         + The modified form: EOA = CSA*V_subAo/V_transAo. chỉ dùng ước tính trong trường hợp có hẹp đáng kể động mạch chủ
+       - Pressure half time
+         + MOA = 220/T_1/2
+         + MOA: effective mitral orifice area (cm2)
+         + T_1/2: pressure half time (ms)
+         + Chỉ sử dụng trong hẹp trung bình - nặng
+       - Stroke vol and cardiac output
+         + SV(ml) = CSA*VTI_subAo
+         + CO = SV*HR
+       - Flow
+         + Flow(ml/s) = CSA*VTI_subAo*1000/SET
+         + SET: sys ejection time (from opening to closing artifact of the Aortic signal (ms)
+       - Systemic vascular resistance
+         + SVR = (MAPx80)/CO
+         + CO: l/min
+         + MAP: mean arterial pressure
+         + normal: 800-1200 dyne.sec/cm
+       - Estimating normal or high SVR from MR and stroke distance
+         + A qualitative estimate of SVR is from: MR Vmax/VTI_subAo.
+         + A ratio >0.27: high resitance. <0.2 normal resitance
+       - Shunt calculation
+         + |Type   |Loaded chamber |Downstream |Upstream
+         + |ASD    |RV             |PA         |LVOT
+         + |VSD    |LV             |PA         |LVOT
+         + |PDA    |LV             |LVOT       |PV
+         + The shunt is the ratio of the downstream to the upstream stroke volume
+         + Stream for right side: diameter of pul annulus (or main PA) and PW VTI at same location. 
+** Mẹo SA
+   - RV modified A4C: lên nửa khoảng ls. RV focus: xoay đầu dò để thất phải lớn nhất
+   - RV inflow PLAX chếch xuống bên phải
+   - RV outflow chếch sang trái ngửa đầu dò
+   - PA lên trên 1 khoảng ls ngửa đầu dò. BN cúi đầu
+** Bài giảng cô Trang
+   1. Các thông số bình thường phải nhớ
+      - Dòng hở DMP sinh lý dài 3, diện tích 3
+      - Dòng hở van 2 lá, 3 lá sinh lý dài 2, diện tích 2
+      - DD < 55
+      - Dãn vòng van 2 lá: AM >=35mm, AM/AML >1.3
+      - Vmax PA 1.3, Vmax A0 1.7
+      - Van 2 lá: Diện tích, đường kính, độ dày, chênh áp tối đa
+      - Van 3 lá: không cần
+      - Van DMC: diện tích, Vmax, 
+      - ĐMP: PÁP, chênh áp tối đa, Vmax
+      - Thất trái: thì tâm trương, EF
+      - [[./img/echoCardiography_chiSoBinhthuong(1).jpg]] 
+      - [[./img/echoCardiography_chiSoBinhthuong(2).jpg][Van 2 lá]]
+      - [[./img/echoCardiography_chiSoBinhthuong(3).jpg]]
