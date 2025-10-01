@@ -60,3 +60,41 @@
 * Phác đồ tiệt trừ HP
   - Phác đồ [[./img/clinicalQuickNote_phacDoHp.jpg]]
   - Liều thuốc [[./img/clinicalQuickNote_thuocHp.jpg]]
+* Hội chứng Brugada
+  1. Chẩn đoán
+     - Xác định: Spontaneous type 1 ECG change
+     - Có thể: type 1 ECG with fever or sodium chanel blocker provocation
+     -  Xem thang điểm Shanghai
+  2. Điều trị
+     - Cho tất cả bệnh nhân được chẩn đoán xác định hoặc những bệnh nhân chẩn đoán có thể
+     - Theo dõi hàng năm
+     - Tầm soát cho thành viên trong gia đình
+     - Thuốc: Quinidine (dùng liều thấp để hạn chế tác dụng phụ <=600mg/d, 200x3) khi không đặt máy ICD được hoặc đã đặt máy nhưng có nhiều cơn Loạn nhịp thất, cần theo dõi CTM thường xuyên. cilostazol có thể thay thế quinidine (ESC)
+     - Thuốc: Isoprotenolol (isuprel) khi có cơn loạn nhịp thất cấp. một số liều 1 μg/min, 0.003 mcg/kg/min, Intravenous ISP was administered as a bolus injection (1-2 microg), followed by continuous infusion (0.15 microg/min)
+     - ICD: có cardiac arrest (I), spontaneous type 1 with syncope (recommended), provoked type 1 with syncope (consider). BN có spontaneous type 2 khôgn triệu chứng có nguy cơ cao (consider)
+     - ICD theo ESC: Brs có  cardiac arrest hoặc documented VT (I). ECG type 1 và có ngất do loạn nhịp (IIa). PES có thể chỉ định cho BN spontaneous type 1 không triệu chứng (IIb). ICD có thể chỉ định ở BN không triệu chứng có VT khi PES using up to 2 extra stimuli. 
+     - Ablation: không dung nạp quinidine, loạn nhịp mặc dù có dùng quinidine
+* Thuyên tắc phổi
+  1. Chẩn đoán
+     - Khi nghi ngờ PE nguy cơ cao (huyết động không ổn định) thì chỉ định ngay UFH (dùng lovenox ưu tiên hơn trong trường hợp huyết động ổn) và SAT tại giường + CTPA ngay
+     - Khi huyết động ổn định thì dùng lưu đồ chẩn đoán,  chỉ định ngay kháng đông trong lúc chờ nếu khả năng mắc PE từ trung bình - cao. 
+     - D-Dimer > 500 dùng cho người dưới 50 tuổi, 10xAge cho người > 50 tuổi, không dùng để loại trừ khi khả sác xuất tiền nghiệm cao. 
+     - Lưu đồ:
+       + BN huyết động không ổn định -> SA tim tại giường có Rối loạn chức năng thất P -> kháng đông + CTPA ngay lập tức -> ly giải huyết khối
+       + BN huyết động ổn -> phân tầng khả năng. Nếu khả năng trung bình trở xuống dùng D-Dimmer. Nếu khả năng cao thì chỉ dịnh CTPA. 
+     - Kháng đông đường uống dùng sau 5 - 10 ngày dùng đường tĩnh mạch (https://evtoday.com/articles/2019-july-supplement/doacs-oral-anticoagulant-treatment-of-choice-for-pulmonary-embolism)
+  2. Đánh giá độ nặng và nguy cơ tử vong 30 ngày
+     - Dùng: huyết động, PEPSI, SAT và troponin
+     - [[./img/echoCardiography_PEStratification.jpg]]
+  3. Liệu pháp ly giải huyết khối
+     - Hiệu quả tốt nhất trong 48 giờ, vẫn có hiệu quả ở những bệnh nhân muộn 6-14 ngày. 
+     - rtPA 100mg over 2h ưu tiên hơn streptokinase. UFH vẫn có thể tiếp tục truyền trong khi truyên rtPA nhưng phải ngưng nếu dùng streptokinase. Medscape: (Activase) 100 mg IV infused over 2 hr; institute parenteral anticoagulation near the end of or immediately following alteplase infusion when the PTT or thrombin time returns to <2x normal. Có nước cất pha đi kèm nồng độ 1mg/ml. Có thể dùng Nacl 0.9% hoặc glucose 5% pha loãng thêm 0.5mg/ml nữa. 
+     - [[./img/clinicalQuickNote_PE_thrombolyticDose.jpg]]
+     - Can thiệp huyết khối có thể chỉ định ở BN không dùng được ly giải huyết khối hoặc đã dùng nhưng thất bại
+* Tăng áp phổi
+  1. Phân loại
+     - loại 1: nguyên phát, do rối loạn chức năng nội mạc
+     - loại 2: do tim trái
+     - Loại 3: do phổi
+     - Loại 4: do huyết khối DMP mạn tính
+     - Loại 5: linh tinh
