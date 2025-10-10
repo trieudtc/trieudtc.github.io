@@ -98,3 +98,36 @@
      - Loại 3: do phổi
      - Loại 4: do huyết khối DMP mạn tính
      - Loại 5: linh tinh
+* Suy tuyến thượng thận
+** Nguồn
+   1. https://www.uptodate.com/contents/diagnosis-of-adrenal-insufficiency-in-adults
+** General
+   - ACTH stimulation test is the best test to diagnose or exclude adrenal insufficency when the baseline cortisol value is indeterminate
+   - Hạ natri máu có thể thấy ở bệnh nhân suy thượng thận nguyên phát hoặc thứ phát. 
+   - Tăng Kali máu chỉ có trong suy thượng thận nguyên phát vì hệ thống renin-angiotensin-aldesterone không bị ảnh hưởng trong suy thượng thận thứ phát. 
+** Chẩn đoán
+   1. Basal serum cortisol testing
+      - Dùng loại trừ chẩn đoán hoặc lựa chọn bệnh nhân cần ACTH stimulation testing
+      - Khi nghi ngờ suy thượng thận cấp thì XN ngay mà không cần chờ buổi sáng, khởi trị ngay không chờ kết quả. 
+      - Bệnh cảnh suy thượng thận cấp
+        + *Cortisol <18mcg/dl (500nmol/L)*: có thể gợi ý suy thượng thận ở bệnh nhân nghi ngờ suy thượng thận cấp. Cần làm ACTH stimulation test để xác định chẩn đoán vài ngày sau. Nếu glucocorticoids supraphysiologic does (40-200mg hydrocortisone/d) dùng không quá vài ngày, thì vẫn có thể tiến hành ACTH stimulation test. Ngưng liều corticoid buổi sáng làm test và khởi trị lại khi chờ kết quả. 
+        + *Cortisol >=18mc/dl (500nmol/L)*: Có thể loại trừ chẩn đoán. Tuy nhiên nên cẩn trọng ở bệnh nhân có tăng CBG (corticosteroid biding globulin) như phụ nữ mang thai, uống thuốc ngừa thai estrogen; ở những bệnh nhân này vẫn có thể suy thượng thận ngay cả khi cortisol máu bình thường. 
+      - Bệnh cảnh suy thượng thận mạn
+        + Khi nghi ngờ nhiều thì nên làm đồng thời: Serum cortisol máu sáng (trong vòng 3 giờ khi thức dậy 6 - 9 giờ), plasma ACTH, renin, và aldosterone để đẩy nhanh tiến độ (expedite) chẩn đoán và xác định nguyên nhân. [[./img/clinicalQuickNote_adrenalInsufficiencyApproach1.jpg]]
+        + ACTH giúp phân biệt primary and cetral. Aldosterone và renin có thể giúp phân biệt khi ACTH không rõ ràng.  [[./img/clinicalQuickNote_adrenalInsufficiencyApproach2.jpg]]
+        + Cortisol <=3mcg/dl: nếu không có thiếu CBG (xơ ga, hội chứng thận hư). Chẩn đoán suy thượng thận nếu lâm sàng phù hợp, không cần ACHT stimulation test
+        + Cortisol >3 mcg/dL but <18 mcg/dL: ACTH stimulation test
+        + Cortisol >=18mcg/dl: nếu không có tăng CBG thì loại trừ chẩn đoán
+* Hội chứng Cushing
+** General
+   - Hội chứng Cushing là tập hợp triệu chứng: ở thể nhẹ có thể nhầm lẫn với hội chứng chuyển hóa (béo phì trung tâm kèm đề kháng insulin, tăng huyết áp). Đặc điểm đặc hiệu hơn: yếu cơ gốc chi, mỡ trên đòn, mặt tròn, rạn da, dễ bầm, loãng xương sớm, hạ kali máu. 
+   - Bệnh Cushing thường có nguyên nhân u tuyến yên tăng tiết ACTH 70 - 80%
+** Chẩn đoán
+   1. Initial test?
+      - Cần loại trừ dùng corticoid quá mức kéo dài trước khi XN chẩn đoán
+      - Test khởi đầu 1 trong 4 loại: 
+        + Free cortisol nước tiểu (ít nhất 2 mẫu)
+        + Late-night salivary cortisol (2 mẫu)
+        + 1mg overnight dexamethasone suppression test (DST)
+        + Longer low-dose DST (2mg/d for 48h)
+      - Lưu đồ: [[./img/clinicalQuickNote_cushingSyndromeApproach.jpg]]

@@ -987,6 +987,26 @@
             + Quai ĐMC
             + Bệnh lý phối hợp (Còn ống ĐM, Hẹp eo ĐMC)
        7. Step by step
+*** Hở van 3 lá
+    1. Tổng quan
+       - Dãn vòng van khi d>=40mm hoặc 21mm/m2
+       - 3 lá: vách, trước và sau
+    2. Phân loại hở van 3 lá
+       - 90% hở thứ phát (dãn vòng van, dãn buồng tim , không sang thương hệ thống van
+         + Vô căn: rung nhĩ, lớn tuổi (do nhĩ)
+         + Tăng áp phổi (do thất)
+       - 10% tiên phát: 
+         + Lá van dày, +/- hẹp: hậu thấp (sang thương van + dưới van, dày van, vôi hóa, dính mép van 2 lá, đa van), carcinoid
+         + Van 3 lá đóng thấp: Ebstein: di chuyển về phía mỏm > 0.8 cm/m2 (bình thường dưới <1cm, có tài liệu 1.5cm)
+         + Sùi: osler (sùi có cuống), bệnh mô liên kế (lupus)
+         + Sa/ trôi van: thoái hóa van, bệnh mô liên kết, osler, chấn thương ngực kín
+         + thủng, rách van: Osler, PM/ICD
+    3. Đánh giá mức độ nặng
+       - Định tính: đậm độ dòng hở
+       - Bán đính lượng: diện tích dòng hở (nyquist 50-70cm/s), VC (giảm dần scale để có hình ảnh tốt nhất 40 -70 cm/s, >=7 hở nặng), bán kính PISA (ngưỡng # 28 cm/s, >9mm chỉ điểm hở nặng, đo từ trung tâm đến đỉnh vùng hội tụ) , dòng chảy tĩnh mạch gan
+       - Định lượng: 
+         + EORA: |Nhẹ <0.2 |TB 0.2-0.39 |Nặng >=0.4cm2
+         + R_vol: |Nhẹ <30 |TB 30-44 |Nặng >=45ml
 * Chu chuyển tim và điện tâm đồ
 ** Định nghĩa tâm thu và tâm trương
    - Chưa có định nghĩa thống nhất
@@ -1607,7 +1627,13 @@
    - RV modified A4C: lên nửa khoảng ls. RV focus: xoay đầu dò để thất phải lớn nhất
    - RV inflow PLAX chếch xuống bên phải
    - RV outflow chếch sang trái ngửa đầu dò
-   - PA lên trên 1 khoảng ls ngửa đầu dò. BN cúi đầu
+   - PA lên trên 1 khoảng ls ngửa đầu dò. BN cúi đầu. BS Nhật đưa đầu dò xuống 1 khoảng liên sườn. BS Đan hạ đuôi đầu dò
+   - Khi siêu am hở van tim cần nghiêng dầu dò để tìm dòng hở lớn nhất
+   - SA tiểu nhĩ: hơi đứng đầu dò PSAX, Hình tam giác. có thể xuất hiện giữa mặt cắt van DMC và van 2 lá
+   - Chênh áp trong hở van 2 lá nhẹ - trung bình thì Vmãx>4m/s do chênh áp lớn giữa thất T và nhĩ trái
+   - SA hở van 3 lá hơi vào trong xương ức + kèm đứng đầu dò
+   - Muốn thấy động mạch vành phải thì hạ đuôi đầu dò
+   - Mặt cắt đưới sườn: xoay 30 độ để thấy động mạch phổi (giống mặt cắt cạnh ức trục ngắn)
 ** Bài giảng cô Trang
    1. Các thông số bình thường phải nhớ
       - Dòng hở DMP sinh lý dài 3, diện tích 3
