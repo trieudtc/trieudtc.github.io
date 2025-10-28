@@ -6,11 +6,108 @@
 4. ôn
    - Sa van 2 lá PLAX dễ có ảnh giả, PSAX thấy hình ảnh mở van võng xuống (không mở ngược chiều nhau)
    - 
-** Thu hoạch SAT
-1. Báo cáo quá trình học siêu âm tim:
-  - Nắm được nguyên lý cơ bản của siêu âm tim
-  - Thực hiện thành thạo các mặt cắt cơ bản trong siêu âm tim qua thành ngực
-  - Thực hiện thành thạo đánh giá chức năng thất trái, chức năng thất phải
-  - Thực hiện thành thạo siêu âm tim đánh giá các bệnh lý van tim
-  - Thực được siêu âm tim trong các bệnh cơ tim, bệnh màng ngoài tim, các khối u trong tim
-  - Nắm được nguyên lý cơ bản siêu âm các bệnh tim bẩm sinh, phát hiện được các bệnh tim bẩm sinh thường gặp
+** thẻ vcb
+** học.ai, doc sach kinh dien
+** tiêu hóa cái này
+
+TRUYỀN MAGESIUM LIỀU CAO SAO CHO AN TOÀN & HIỆU QUẢ
+(Đây không phải lời khuyên điều trị, chỉ cung cấp kiến thức cơ bản và bằng chứng lâm sàng, người đọc tự nghiên cứu là đưa ra quyết định).
+A. Vai trò của Magnesium (Mg) đối với dẫn truyền tim
+1. Ổn định điện thế màng tim
++ Mg²⁺ cạnh tranh với Ca²⁺ tại màng tế bào → làm giảm sự quá kích thích của tế bào cơ tim.
++ Giúp duy trì điện thế nghỉ ổn định → giảm nguy cơ khử cực bất thường (early/delayed afterdepolarization).
++ Ức chế kênh K⁺ và Ca²⁺, từ đó ảnh hưởng đến giai đoạn tái cực của điện thế hoạt động.
+2. Điều hòa dẫn truyền nút xoang và nút nhĩ thất
+Mg ảnh hưởng đến hoạt động của nút SA và AV. Thiếu Mg có thể gây:
++ Tăng tính tự động của các ổ ngoại vi.
++ Giảm dẫn truyền nút AV.
++ Loạn nhịp nhĩ hoặc thất (PAC, PVC, rung nhĩ, xoắn đỉnh...).
+3. Ngăn ngừa loạn nhịp thất – đặc biệt là Torsades de Pointes
++ Torsades de pointes (một dạng nhịp nhanh thất đa hình liên quan QT kéo dài) thường xảy ra khi thiếu Mg.
++ MgSO₄ là thuốc điều trị đầu tay trong trường hợp này, kể cả khi nồng độ Mg bình thường.
+4. Tương tác với các ion khác: K⁺, Ca²⁺
++ Mg cần thiết cho hoạt động của bơm Na⁺/K⁺-ATPase → ảnh hưởng gián tiếp đến K⁺ nội bào.
++ Hạ Mg thường đi kèm hạ K⁺ máu kháng trị.
++ Mg giúp ức chế kênh Ca²⁺ → hạn chế quá tải Ca²⁺ nội bào, từ đó ổn định điện học.
+B. Xử trí cơn rung nhĩ cấp đáp ứng thất nhanh bằng truyền Mg liều cao: an toàn, hiệu quả
+- Nồng độ Mg máu bình thường 0.7-1.2 mmol/L tùy phòng xét nghiệm. Để thuận tiện tính toán liều MgSO4 cần truyền, chọn mốc 0.8 mmol/L.
+- Xử trí cơn rung nhĩ cấp đáp ứng thất nhanh ở bệnh nhân ICU non-cardiovascular bằng Mg liều cao cần quan tâm:
++ Nồng độ Mg máu mục tiêu (ví dụ 2-3 mmol/L).
++ Tốc độ truyền đảm bảo an toàn và hiệu quả.
+1. Muốn nâng nồng độ Mg máu từ 0.8 lên 2.0 hoặc 3.0 mmol/L thì cần cao nhiều gram MgSO4?
++ Mg có thể tích phân bố (Vd) trong cơ thể khoảng 0.4 L/kg. Một nghiên cứu trên bệnh nhân tim mạch (sau phẫu thuật tim) dùng bolus magnesium sulfate nhận thấy Vd ≈ 0.31 L/kg (khoảng 0.28–0.34 L/kg) [1]. Các nghiên cứu sử dụng mô hình hai ngăn (2-compartment) ở phụ nữ sản khoa cho thấy Vd dao động từ 0.25–0.442 L/kg (giai đoạn từ 3–4 giờ sau truyền) [2]. Giáo trình Deranged Physiology trích dữ liệu nghiên cứu cho thấy ở người khỏe mạnh và phụ nữ mang thai, Vd dạng “apparent” (thể tích phân bố biểu kiến) của Mg nằm trong khoảng 0.25–0.442 L/kg [3].
++ Lượng MgSO4 cần dùng để nâng Mg máu từ 0.8 lên 2.0 ở bệnh nhân 70 kg:
+Mg cần bổ sung = (2.0−0.8)×0.4×70 = 1.2×28 = 33.6 mmol.
+1 gram MgSO4 ngậm 7 nước (MgSO₄·7H₂O) chứa khoảng 4 mmol Mg. Do đó lượng MgSO4 cần dùng = 33.6/4 = 8.4 gram.
++ Lượng MgSO4 cần dùng để nâng Mg máu từ 0.8 lên 3.0 ở bệnh nhân 70 kg:
+Mg cần bổ sung = (3.0−0.8)×0.4×70 = 2.2×28 = 61.6 mmol. Tính được lượng MgSO4 cần dùng là 61.6/4 = 15.4 gram.
+2. Tốc độ truyền Mg
+- Một số nghiên cứu về tốc độ truyền Mg xử trí rung nhĩ.
++ Thử nghiệm LOMAGHI (Bouida 2018) [4]
+Một thử nghiệm ngẫu nhiên, mù đôi, so sánh liều thấp (4.5 g) và cao (9 g) MgSO₄ pha với 100 mL NaCl truyền trong 30 phút trên bệnh nhân đến cấp cứu với AF >120 lần/phút:
+Sau 4 giờ, tỷ lệ kiểm soát tần số (≤90 l/phút hoặc giảm ≥20%) là: 64.2% với 4.5 g, 59.5% với 9 g, chỉ 43.6% ở nhóm giả dược. Nhóm 9 g mạch giảm nhanh hơn.
+Kết luận: 4.5–9 g MgSO₄ IV trong 30 phút giúp kiểm soát nhịp nhanh tốt hơn giả dược khi kết hợp với thuốc chẹn nút AV.
++ Moran et al. (1995) [5]
+Bolus ban đầu: 0.037 g MgSO₄/kg IV trong khoảng 15 phút. Truyền duy trì: 0.025 g/kg/giờ kéo dài 24 giờ, điều chỉnh theo nồng độ Mg đích (1.4–2.0 mmol/L).
+Kết quả: Hiệu quả tương đương hoặc tốt hơn so với amiodarone trong việc đạt nhịp xoang. Huyết áp ổn định, ít tác dụng phụ.
++ Sleeswijik et al. (2008) [6]
+Bolus: 0.037 g/kg IV (15 phút). Truyền: 0.025 g/kg/giờ IV (mượn từ Morgan 1995). Nếu chưa đáp ứng sau 1 giờ, thêm amiodarone (trường hợp cần chuyển nhịp) .
+Kết quả: 55–60% bệnh nhân đạt nhịp xoang hoặc giảm <110 l/p trong 1 giờ. Tỷ lệ chuyển nhịp lên đến 90% sau 24 giờ.
+3. Tác dụng phụ của Mg liều cao
+* Về lý thuyết: Mg có tính ức chế nút xoang, nút nhĩ thất và giảm dẫn truyền nội tâm thất, đặc biệt khi dùng liều cao hoặc truyền nhanh, gây: 
++ Bradycardia: Ức chế tự động của nút SA, AV.
++ Block nhĩ – thất (AV block): Ức chế dẫn truyền AV.
++ Hạ huyết áp: Giãn mạch do ức chế Ca²⁺ nội bào và giải phóng NO.
++ Ngừng tim (rất hiếm): Khi quá liều nặng hoặc phối hợp với thuốc ức chế tim khác.
++ Suy hô hấp thứ phát chậm nhịp cơ hoành: Do tác động ức chế hệ thần kinh cơ.
+* Dữ liệu từ thực tiễn nghiên cứu lâm sàng
+- LOMAGHI Trial (Bouida et al., 2018) [4]
++ So sánh 4.5 g và 9 g MgSO4 truyền trong 30 phút (n = 450, bệnh nhân rung nhĩ nhanh).
++ Không ghi nhận nhịp chậm nguy hiểm hoặc block AV độ cao
++ Tác dụng phụ chủ yếu: buồn nôn, hạ huyết áp nhẹ thoáng qua
+➡ Tác dụng trên nhịp tim: nhẹ, tự giới hạn, không gây ngưng tim hoặc block cao độ
+- Moran et al. (1995) – BN ICU [5]
++ Bolus MgSO4 0.037 g/kg (~2.5–3g) + truyền duy trì đến 24h.
++ Không có bệnh nhân nào có biến cố nhịp tim nghiêm trọng.
++ Một số ghi nhận mạch chậm nhẹ (<60 l/ph) → không cần xử trí.
+- SKiziltepe et al. (2003) – BN phẫu thuật tim [7]
++ MgSO4 (1.5 g pha trong 50 mL NaCl/IV 5 phút), có thể lặp lại tối đa 2 lần.
++ 5% bệnh nhân có bradycardia nhẹ hoặc tăng PR, không cần ngưng thuốc.
+*Kết luận thực tiễn:
+Truyền lên đến 6–9 g MgSO4 trong 30–60 phút:
++ An toàn, không gây bradycardia nghiêm trọng hay block AV cao độ.
++ Thường chỉ gặp giảm nhịp tim nhẹ, tăng PR, hạ huyết áp thoáng qua.
++ Theo dõi sát ECG và HA liên tục trong suốt khi truyền.
++ Tránh dùng trong các trường hợp có suy thận nặng, hoặc đang dùng nhiều thuốc ức chế AV.
+C. Lưu ý:
+1. Nghiên cứu Biesenbach P et al. (2018) [1] cho thấy bolus 20 mmol (4.8 g) MgSO4 trong 1 giờ giúp tăng Mg huyết thanh đáng kể (~ +0.7 mmol/L), nhưng hiệu quả là ngắn hạn, mức Mg trở lại baseline sau ~12 giờ do:
++ Phân bố nhanh vào mô.
++ Thải trừ ở thận.
++ Dường thải gần bằng liều truyền → cân bằng Mg trung tính sau 12 giờ.
++ Cần liều tái bổ sung hoặc truyền duy trì nếu mục tiêu là giữ Mg cao hơn baseline.
+2. Trong tiền sản giật, sản giật [8]:
++ Liều Mg bolus ban đầu là 4.5 g (4-6 g) trong 15-20 phút. Có thể thấy liều này không gây hại nghiêm trọng nên các khuyến các sản khoa áp dụng.
++ Nồng độ Mg máu cần duy trì trong khoảng 2.0 đến 3.5 mmol/L.
++ Độc tính của Mg theo nồng độ huyết thanh, Hình trích từ phác đồ của BV Từ Dũ.
+----
+Tôi đã cá nhân hóa liều MgSO4 khi xử trí cơn rung nhĩ cấp đáp ứng thất nhanh như thế nào?
+Với bệnh nhân ICU được mắc monitoring theo dõi chặt chẽ về hô hấp, nhịp tim,… và không có tổn thương thận cấp KDIGO II-III.
+- TTM 3 g MgSO4 trong 15-20 phút. Quan sát tần số thất trong và 15 phút sau truyền. (Phác đồ 2.5 g của Moran [5]).
+- Nếu không cải thiện. Lặp liều bolus 3 g MgSO4 trong 15-20 phút. Quan sát tần số thất trong và 15 phút sau truyền (ghi nhớ liều đến 9 g trong 1 giờ vẫn an toàn theo nghiên cứu LOMAGHI [4]). Nếu đáp ứng > ngưng.
+- Nếu không cải thiện. Lặp liều bolus 3 g MgSO4 trong 15-20 phút. Quan sát tần số thất trong và 15 phút sau truyền. (Chuyển sang phát đồ tối đa 9 g trong 1 giờ của nghiên cứu LOMAGHI [4]).
+- Nếu không cải thiện xem xét dùng amiodaron nếu không chống chỉ định.
+- Sau phác đồ truyền 9 g, dự kiến nâng Mg máu từ 0.8 lên 2.0 mmol/L. Xét nghiệm Mg máu. Nồng độ Mg máu sẽ giảm nhanh như đã nêu trên.
+- Xem xét lặp liều ít nhất 6 giờ sau đó. Nghiên cứu Biesenbach P (2018) [1] cho thấy nồng độ Mg máu đã giảm gần 30% sau 6 giờ, kể từ khi kết thúc liều bolus MgSO4 4.8 g.
+- Theo ước tính 15 g MgSO4 nâng Mg từ 0.8 lên 3.0 mmol/L, vậy nên sau 9 g ban đầu, nếu dùng tiếp thì phải định lượng Mg máu đảm bảo trong ngưỡng an toàn. Có thể dùng nồng độ Mg độc tính trong sản khoa để giới hạn liều lượng Mg sử dụng và mục tiêu Mg (chẳng hạn không quá 3, tốt nhất 2 mmol/L).
+- Dĩ nhiên rồi, nếu cho phép thì không cần đẩy Mg lên quá cao, không cần dùng nhiều MgSO4, mà kết hợp thuốc chống loạn nhịp khác sau 2 liều MgSO4 đầu tiên (4-6 g).
+- Ngày trước, chúng tôi hay dùng amiodaron đầu tay để kiểm soát nhịp nhanh QRS hẹp ở bệnh nhân ICU đang có sốc tiến triển thì thấy huyết động sụp luôn… 😊
+----
+Tài liệu tham khảo
+1. Biesenbach P, et al. Pharmacokinetics of Magnesium Bolus Therapy in Cardiothoracic Surgery. J Cardiothorac Vasc Anesth. 2018 Jun;32(3):1289-1294. doi: 10.1053/j.jvca.2017.08.049.
+2. Lu, J.F., Nightingale, C.H. Magnesium Sulfate in Eclampsia and Pre-Eclampsia. Clin Pharmacokinet 38, 305–314 (2000). https://doi.org/10.2165/00003088-200038040-00002
+3. https://derangedphysiology.com/.../response-20mmol...
+4. Bouida W, et al. Low-dose Magnesium Sulfate Versus High Dose in the Early Management of Rapid Atrial Fibrillation: Randomized Controlled Double-blind Study (LOMAGHI Study). Acad Emerg Med. 2019 Feb;26(2):183-191. doi: 10.1111/acem.13522.
+5. Moran JL, et al. Parenteral magnesium sulfate versus amiodarone in the therapy of atrial tachyarrhythmias: a prospective, randomized study. Crit Care Med. 1995 Nov;23(11):1816-24. doi: 10.1097/00003246-199511000-00005.
+6. Sleeswijk ME, et al. Efficacy of magnesium-amiodarone step-up scheme in critically ill patients with new-onset atrial fibrillation: a prospective observational study. J Intensive Care Med. 2008 Jan-Feb;23(1):61-6. doi: 10.1177/0885066607310181.
+7. Kiziltepe U, et al. Antiarrhythmic effect of magnesium sulfate after open heart surgery: effect of blood levels. Int J Cardiol. 2003 Jun;89(2-3):153-8. doi: 10.1016/s0167-5273(02)00449-7.
+8. https://tudu.com.vn/.../1546205_20.-TANG-HUYET-AP-THAI-KY...

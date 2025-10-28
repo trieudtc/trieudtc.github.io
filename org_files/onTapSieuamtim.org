@@ -34,7 +34,7 @@
 ** Đánh giá chức năng tâm trương
    - Khi có rối loạn vận động vùng, nên dùng Avg e`
    - E/sep e' <8 áp lực đổ đầy thất T bình thường
-   - E/sep e' >15 áp lực đổ đầy thất T tăng
+   - E/sep e' >15 áp lực đổ đầy thất T tăng 
    - Đánh giá thư giãn: e', E/A, EDT (thời gian giảm tốc sóng E)
    - Đánh giá đàn hồi: LAVi, E/e'
    - Các bước đánh giá
@@ -47,6 +47,15 @@
        - Lấy 3 thông số: e' < 6 (6.5) 7; E/e' > 15 (14) 13; TRVmax >2.8m/s
        - Có tất cả: E/A > 2 độ 3, E/A<2 độ 2
        - Có 2 trong các số đó xem LAVi > 34 -> E/A để phân độ
+   - Lưu ý các bước trên không dùng trong trường hợp: Hở van 2 lá nguyên phát nặng, hẹp van 2 lá bất kể mức độ nào, vôi hóa vòng van (MAC) trung bình - nặng, rung nhĩ, ...
+   - Trường hợp đặc biệt
+     1. Rung nhĩ
+        - DT < 160ms ở BN có EF giảm
+        - Vận tốc đỉnh sóng E  >= 1.9m/s
+        - IVRT <= 65ms
+        - Sep E/e' >=11
+        - TR Vmax >2.8 m/s
+        - [[./img/echoCardiography_LAPinAF.jpg]]
 ** Đánh giá chức năng thất P
    1. Các thông số
       - TAPSE > 17mm

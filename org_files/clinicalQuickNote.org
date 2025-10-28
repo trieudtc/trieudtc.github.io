@@ -131,3 +131,25 @@
         + 1mg overnight dexamethasone suppression test (DST)
         + Longer low-dose DST (2mg/d for 48h)
       - Lưu đồ: [[./img/clinicalQuickNote_cushingSyndromeApproach.jpg]]
+* Viêm gan C
+** Điều trị
+   - Mục tiêu SVR12 dưới ngưỡng (15 IU/ml) (3 tháng) + dự phòng biến chứng + dự phòng lây nhiễm cộng đồng
+   - Chống chỉ định DAAs:
+     + Trẻ < 3 tuổi
+     + Phụ nữ có thai
+     + Có tương tác thuốc (Sofosbuvir|Amiodaron; Ledipasvir|TDF, thuốc giảm axit dạ dày; Velpatasvir|Amiodaron, digoxin, thuốc giảm axit dạ dày, TDF, statin)
+   - Chống chỉ định Ribavirin (RBV)
+     + Quá mẫn với RBV
+     + Hgb < 8.5g/dl
+     + Bệnh huyết sắc tố: Bệnh hồng cầu hình liềm hoặc thalassemia
+     + Phụ nữ có thai, không dùng biện pháp tránh thai, phụ nữ đang cho con bú, nam giới có bạn tình đang mang thai
+   - Chẩn đoán xơ gan (F4) khi APRI >=2 hoặc FibroScan >=12.5 KPa
+   - SOF400/VEL100, SOF400/DAC60 12 tuần có thể điều trị cả 6 type ở người lớn không có xơ gan, xơ gan còn bù. Với typ3, SOF/VEL tốt hơn (90% SVR12 âm) SOF/DAC (80%)
+   - SOF/VEL, SOF/DAC 24 tuần hoặc SOF/VEL/RBV, SOF/DAC/RBV 12 tuần có thể điều trị cả 6 type ở người lớn xơ gan mất bù. 
+** Ngừng điều trị:
+   - Ngừng điều trị khi có tác dụng phụ năng, đe dọa tính mạng (đặc biệt ribavirin - giảm Hgb)
+   - ALT tăng >=10 lần ở tuần thứ 4
+   - ALT tăng < 10 lần nhưng: suy nhược, buồn nôn, nôn, não gan, ứ mật tăng bilirubin (TP >3mg/dl hoăc TT >1.5mg/dl), tăng ALP có ý nghĩa. 
+   - ALT tăng < 10 lần ở tuần 4 nhưng không giảm ở tuần 6 và 8 không do nguyên nhân khác. 
+** Theo dõi
+   - XN trước điều trị, tháng thứ 1 và tháng thứ 3
