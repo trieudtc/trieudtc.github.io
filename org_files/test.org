@@ -1,1 +1,5 @@
-s
+* Tóm tắt bệnh án:
+  - Past medical history
+  - Discharge medications
+  - Discharge home 3 dáy following event
+  - A 12-lead ECG showed sinus rhythm with ST elevations > 2 mm in leads V1–V4 (Figure 1) with reciprocal changes in inferior leads, which led to a diagnosis of anterior STEMI. inferoposterior stemi

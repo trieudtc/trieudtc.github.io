@@ -1,4 +1,6 @@
 * Ôn tập siêu âm tim
+** Giá trị tham khảo
+   - https://www.techmed.sk/en/echo/normal-values/
 ** Nguyên lý siêu âm tim
     - Tần số dùng trong siêu âm 2.5 - 10MHz
     - Tần số đầu dò SAT và convex gần bằng nhau # 2.5-7MHZ, tần số đầu dò linear cao hơn

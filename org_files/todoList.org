@@ -8,6 +8,17 @@
    - 
 ** thẻ vcb
 ** học.ai, doc sach kinh dien
+*** feature selection: tìm hiểu feature enginering, cách để biết feature nào có mối liên hệ mật thiết với outcome
+*** Học data analysis
+    - Python for Data Analysis by Wes McKinney
+    - Storytelling with Data: Let’s Talk Data Visualization by Cole Nussbaumer Knaflic
+*** Học Data science
+    - “Data Science from Scratch” or “Practical Statistics for Data Scientists”
+*** Cách tiếp cận
+    - Đọc lướt để lấy khung
+    - Chúng ta có thể làm gì, xem gì với các loại data nào
+    - Có một workflow -> khi cần dùng sẽ xem sâu hơn. 
+** Master khám tim: art of ...
 ** tiêu hóa cái này
 
 TRUYỀN MAGESIUM LIỀU CAO SAO CHO AN TOÀN & HIỆU QUẢ

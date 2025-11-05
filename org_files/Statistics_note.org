@@ -1,15 +1,202 @@
-* Wald's test:
+* Probability
+** Basic concepts
+    1. Axioms of probability
+       - Axiom 1: For any event A, P(A)≥0
+       - Axiom 2: Probability of the sample space S is P(S)=1
+       - Axiom 3: If A1,A2,A3,⋯ are disjoint events, then P(A1∪A2∪A3⋯)=P(A1)+P(A2)+P(A3)+⋯
+    2. Conditional probability
+       - P(A|B) = P(A∩B)/P(B) = P(A,B)/P(B) = P(B|A)P(A)/P(B) 
+       - Chain rule for conditional probability: P(A1∩A2∩⋯∩An)=P(A1)P(A2|A1)P(A3|A2,A1)⋯P(An|An−1An−2⋯A1)
+    3. Independence
+       - Two events A  and B are independent if and only if P(A∩B)=P(A)P(B) or equivalently, P(A|B)=P(A).
+       - Đối với nhiều event A1, A2, ...,Ak  hơn thì tất cả các event này độc lập với nhau khi và chỉ khi tất cả các loại kết hợp P(Ai,...., Aj) = P(Ai)...(PAj).
+    4. Law of Total Probability
+       - If B1,B2,B3,⋯  is a partition of the sample space S , then for any event A  we have P(A)=∑P(A∩Bi)=∑P(A|Bi)P(Bi).
+    5. Conditional Independence
+       - Two events A and B  are conditionally independent given an event C with P(C)>0  if P(A∩B|C)=P(A|C)P(B|C)
+       - or equivalently P(A|B,C)= P(A|B∩C) = P(A|C)
+** Discrete Random variable
+   1. Random Variables: 
+      - A random variable X is a function from the sample space to the real numbers. X:S→R
+      - X is a discrete random variable, if its range is countable.
+   2. Probability Mass Function (PMF)
+      - P_X(x_k)=P(X=x_k)
+   3. Independent Random Variables
+      - Consider two discrete random variables X and Y. We say that X  and Y are independent if P(X=x,Y=y)=P(X=x)P(Y=y), for all x,y.
+      - In general, if two random variables are independent, then you can write P(X∈A,Y∈B)=P(X∈A)P(Y∈B), for all sets A and B.
+   4. Special distributions
+      - Bernuoli: 
+        + Mô tả xác xuất mặt Head khi toss a coin
+        + X ~ Bernouli(p)
+      - Gemometric: 
+        + X ~ Gemometric (p). P_X(k)
+        + Mô tả số lần tung đồng xu đến khi thấy mặt head đầu tiên. Repeating indepent Bernouli until observing the first success. 
+      - Binomial:  
+        + X ~ Binomial(n, p). P_X(k)
+        + Mô tả tung đồng xu n lần, x = k là số lần thấy mặt head. Là tổng của n independent bernouli random variables
+      - Negative binomial (Pascal): 
+        + X ~ Pascal (m,p). P_X(k)
+        + Mô tả số lần tung đồng tung đồng xu (k) để xuất hiện m mặt head, xác xuất 1 lần là p. Tổng quát hóa geometric distribution. Pascal(1,p) = Gemometric(p)
+      - Hypergeometric(b,r,k)
+        + b bi xanh, r bi đỏ, lấy ra k bi (no replace), x là số bi xanh
+      - Poisson: 
+        + X ~ Poisson(lamda). P_X(k)
+        + Mô tả: X là số lần (k) một sự kiện xuất hiện trong một khoảng thời gian cố định (biết trung bình có lamda sự kiện xảy ra trong khoảng thời gian đó), các sự kiện này độc lập với nhau. (số người đến của hàng trong một khoảng thời gian EX = lamda)
+      - Poisson as an approximation for binomial
+        + Let X ~ Binomial(n, p=lamda/n). Lim_{n \to \infinity} P_X(k) = e^{-lamda}lamda^k/k!
+        + $Binomial(n,p) \approx Poisson(\lambda), np=\lambda, n \approx \infty, p \approx 0$
+        + Giả định n-> /infinity thì thử nghiệm trong một khoảng thời gian có thể xấp xỉ là một đại lượng liên tục với trung bình số sự kiện xảy ra là np=lamda, suy ra X ~ Poisson. 
+   5. Expectation
+      - Theorem: Expectation is linear
+        + E(aX + b) = aEX + b
+        + E(X1 + ... + Xn) = EX1 + ... + EXn
+   6. Functions of random variables
+      - Funtion of a random variable is a random variable
+      - Y = g(X) then $P_Y(y) = \sum_{x:g(x)=y)}P_X(x)$
+      - Expectation: /law of unconscious statistician (LOTUS)/
+        + $E[g(X)] = \sum_{x_k \in R_x} P_{X}(x_{k})g(x_{k})$
+   7. Variance
+      - Theorem: $Var(aX + b) = a^2Var(X)$
+      - Theorem: if X1, ..., Xn are independent then $Var[X1 + ... + Xn)= Var(X1) + ... + Var(Xn)$
+** Continuous and mixed random variables
+   1. Continuous random varibale
+      - A random variable X  with CDF F_X(x) is said to be continuous if F_X(x) is a continuous function for all x∈R.
+      - f_X(x) = F'_X(x) (PDF)
+   2. Expectation
+      - $EX = \int_{-\infty}^{+\infty} xf_X(x)dx$
+      - LOTUS: $E[g(x)] = \int_{-\infty}^{+\infty} g(x)f_X(x)dx$
+   3. Functions of continuous random variables
+      - Suppose that X is a continuous random variable and g:R→R  is a strictly monotonic differentiable function. Let Y=g(X). Then the PDF of Y is given by:
+      - $f_Y(y) = \begin{cases} \frac{f_X(x_1)}{|g'(x_1)|} = f_X(x_1).|\frac{dx_1}{dy}| &\text{where } g(x_1) = y \\ 0 &\text{if } g(x) = y \text{ does not have a solution} \end{cases}$
+      - Thế $x=g^{-1}(y)$ vào phương trình trên ta có phương trình chuyển đổi từ x ->y
+   4. Special Distributions
+      - Uniform(a,b)
+      - Exponential(lamda)
+        + Thời gian chờ đến khi xảy ra một sự kiện EX = 1/lamda
+        + Tiệm cận của Geometric distribution
+      - Normal distribution
+        + Standard normal: Z ~N(0,1)
+        + $f_Z(z) = \frac{1}{\sqrt{2\pi}}e^{-z^2/2}$
+      - Gama distribution: X~Gama(alpha, lamda)
+        + Gama function: is an extension of the factorial function. 
+          + $\Gama(n)=(n-1)!$
+          + $\Gama(\alpha)= \int_{0}^{\infty}x^{\alpha -1}e^{-x}dx \quad \alpha>0$
+        + Gama(1, lamda) = Exponential(lamda)
+        + sum of n random variables Exponential(lamda) = Gama(n, lamda)
+        + EX = alpha/lamda, Var(X) = alpha/lamda^2
+   5. Mixed random variables
+      - Delta function: We define the delta function δ(x) as an object with the following properties:
+        + $\delta(x) = \begin{cases} \infty &x=0 \\ 0 &x\neq0 \end{cases}$
+        + $\delta(x) = \frac{d}{dx}u(x) \quad \text{ where u(x) is the unit step function} = \begin{cases} 1 &x \geq 0 \\ 0 &x<0 \end{cases}$
+        + $\int_{-\epsilon}^{\epsilon}\delta(x)dx = 1, \forall \epsilon > 0$
+        + $\int_{-\infty}^{\infty}g(x)\delta(x-x_0)dx =  \int_{x_0-\epsilon}^{x_0 + \epsilon} g(x)\delta(x-x_0)dx = g(x_0), \forall g(x) \text{ is continuous on } (x_0-\epsilon, x_0  + \epsilon), \epsilon > 0$
+      - Generalizd PDF
+        + Discrete random variable X và PMF P_X(x_k) $f_X = \sum_{x \in R_X} P_X(x_k)\delta(x-x_k)$
+** Joint distributions
+*** Two discrete random variables
+    1. The joint PMF
+       - $P_{XY}(x,y) = P(X=x,y=y)$
+    2. Marginal PMFs
+       - $P_X = \sum_{y_i \in R_Y}P_{XY}(x,y_j)$ và tương tự cho Y
+    3. Marginal CDFs
+       - $F_X(x) = F_{XY)(x, \infty)$
+    4. Conditional PMF và CDF
+       - $P_{X|A}(x) = P(X=x|A) = \frac{P(X=x \text{ and } A)}{P(A)}
+         + Lưu ý đây là PMF x có điều kiện tập A
+       - $F_{X|A}(x) = P(X \leq x|A)$
+       - $P_{X|Y}(x_i|y_j) = \frac{P_{XY}(x_i,y_j)}{P_Y(y_j)}$
+         + Còn đây là PMF x có điều kiện là random variale Y, phải chỉ rõ varible Y nhận giá trị nào
+    5. Conditional expectation
+       - $E[X|A] = \sum_{x_i \in R_X}x_iP_{X|A}(x_i)$
+       - $E[X|Y=y_j] = \sum_{x_i \in R_X}x_iP_{X|Y}(x_i|y_j)$
+       - Law of iterated expectation: E[X] = E[E[X|Y]] (xem E[X|Y] là một function theo y -> E[X|Y] là một random variable)
+       - Law of total Variance: Var(X) = E[Var(X|Y)] + Var(E[X|Y])
+*** Two continuous random variables
+    1. Expected value of X given Y=y
+       - $E[X|Y=y] = \int_{-\infty}^{\infty}xf_{X|Y}(x|y)dx$
+    2. Conditional variance
+       - $Var(X|Y=y) = E[X^2|Y=y] - (E[X|Y=y])^2$
+*** Covariance and Correlation
+    1. Covariance
+       - Cov(X,Y) = E[(X-EX)(Y-EY)] = E[XY] - (EX)(EY)
+       - if X, Y are independent => Cov(X,Y)=0
+       - Cov(aX,Y) = aCov(X,Y)
+       - Cov(X+Y,Z) = Cov(X,Z) + Cov(Y,Z)
+       - Var(aX+bY) = a^2Var(X) + b^2Var(Y) + 2abCov(X,Y)
+    2. Correlation coefficent
+       - Normalized covariance = Correlation coefficent
+       - $\rho_{XY} = \rho(X,Y) = \frac{Cov(X,Y)}{\sqrt{Var(X)Var(Y)}} = \frac{Cov(X,Y)}{\sigma_X\sigma_Y}$
+       - $\rho(aX + b, cY + d) = \rho(X,Y) \text{ for } a, c >0$
+       - if X and Y are uncorrelated => Var(X+Y)=Var(X)+Var(Y)
+*** Bivariate Normal Distribution
+    1. Definition
+       - if aX + BY has a normal distribution for all a, b \in R, then X and Y are bivariate normal or jointly normal
+       - Nếu tưởng tượng Marginal PDF của X hoặc Y tạo ra bằng cách ép dẹp joint distribution theo trục Y hoặc X thì câu định nghĩa trên có nghĩa là ta có thể ép dẹp joint distribution theo bất cứ phương nào (ax+by) cũng được một phân phối chuẩn
+    2. Theorems
+       - If X and Y are bivariate normal and uncorrelated, then they are independent.
+** Multiple random variables
+*** Independent and identically distributed(iid)
+    - Definition: Random variables X1, X2, ..., Xn  are said to be independent and identically distributed (i.i.d.) if they are independent, and they have the same marginal distributions: FX1(x)=FX2(x)=...=FXn(x), for all x∈R.
+*** Sums of random variables
+    - E(X1 + X2 + ... + Xn) = EX1 + EX2 + ... + EXn
+    - $Var(\sum_{i=1}^{n}X_i) = \sum_{i=1}^{n}Var(X_i) + 2\sum_{i<j}Cov(X_i,X_j)$
+*** Moment generating function
+    1. nth moment of random variable X
+       - E[X^n]
+    2. nth central moment of X
+       - E[(X - EX)^n]
+    3. Moment generating function (MGF) 
+       - $M_X(s) = E[e^{sX}]
+       - MGF of X exist if there is a constan a>0 | M_X(s) is finite for all s \in [-a,a]
+    4. Moment generating dùng làm gì
+       - MGF cho ta tất cả moment của X
+       - the MGF (if it exists) uniquely determines the distribution. That is, if two random variables have the same MGF, then they must have the same distribution. This method is very useful when we work on sums of several independent random variables. 
+    5. Finding moments from MGF
+       - Sử dụng chuỗi Taylor ta được:
+         + $M_X(s) = \sum_{k=0}^{\infty}E[X^k]\frac{s^k}{k!}$
+       - Do đó Lấy đạo hàm thứ k tại s=0 ta được moment thứ n
+         + $E[X^k] = \frac{d^k}{ds^k}M_X(s)|_{s=0}$
+       - Các bước thường làm
+         + Sử dụng PDF hoặc PMF để tìm hàm $M_x(s) = E[e^{sX}]$
+         + sau đó lấy đạo hàm thứ k tại s=0 để có kth moment của X
+    6. Sum of independent random variables
+       - If X1, X2, ..., Xn are n independent random variables, then $M_{X_1 + X_2 + ... + X_n}(s) = M_{X_1}(s)...M_{X_n}(s)$
+*** Characteristic Functions
+    1. Define
+       - $\phi_X(\omega) = E[e^{j\omegaX}]$ where $j=\sqrt{-1}$ and $\omega \in R$
+       - The advantage of the characteristic function is that it is defined for /all real-valued random variables/
+       - The characteristic function has similar properties to the MGF
+         + if X1, ..., Xn are n independent random variables, then $\phi_{X_1 + ... + X_n}(\omega) = \phi_{X_1}...\phi_{X_n}(\omega)$
+** Probability bounds
+   1. Union bound
+      - P(A∪B)=P(A)+P(B)−P(A∩B)≤P(A)+P(B).
+      - P hợp nhỏ hơn tổng P thành phần
+   2. Markov's inequality
+      - If X >=0, P(X≥a) ≤ (EX)/a, for any a>0.
+   3. Chebyshev's inequality
+      - f X is any random variable, then for any b>0  we have P(|X−EX|≥b) ≤ Var(X) / b^2
+   4. Chernoff Bounds
+      - $P(X \geq a) \leq e^{−sa}M_X(s)$ for all s>0
+      - $P(X \leq a) \leq e^{−sa}M_X(s)$  for all s<0
+      - Chọn s sao cho $e^{−sa}M_X(s)$ nhỏ nhất ta tìm được best bound
+   5. Cauchy-Schwarz Inequality
+      - $|EXY| \leq \sqrt{E[X^2]E[Y^2]}$ 
+      - "=" <=> X = aY, a \in R
+   6. Jensen's Inequality
+      - If g(x) is a convex function on R_X, and E[g(X)] and g(E[X]) are finite, then E[g(X)] ≥ g(E[X]).
+* Statistics
+** Wald's test:
   - Tương tự z test cho multivariable
   - lúc này \theta - \theta_0 sẽ thành norm || \theta - \theta_0||, normal distribution -> Chi-squared
-* Method of moments:
+** Method of moments:
   - Một các khác (MLE, MAP, least squared) để estimate parameter,
   - vd: estimate u và ơ của Z (u, ơ) -> 1st moment: E[X] = u, 2nd moment: E[X^2] = u^2 + ơ^2
-* Fisher information:
+** Fisher information:
   - ước tính độ nhạy (thông tin) mà data có thể estimate parameter (theta) bằng cách đo lường độ cong của log(f(x|theta)) dùng đạo hàm bậc 2. Có thể ứng dụng để thiết kế cách lấy số liệu nghiên cứu sao cho fisher information là lớn nhất.
-* KL divergence:
+** KL divergence:
   - một cách dùng đo lường sự khác biệt giữa 2 distributions, MLE có thể suy ra từ KL divergence
-* Monter Carlo intergation:
+** Monter Carlo intergation:
   - dùng xác suất để tính tích phân, (vd tính diện tích 1/4 hình tròn, từ đó có thể ước tính số pi)
-* Likelihood ratio test:
+** Likelihood ratio test:
   - The primary goal of the LRT is to determine if a more complex model (the alternative hypothesis, H1​) provides a significantly better fit to the observed data than a simpler, constrained model (the null hypothesis, H0​).
-  - vd: fit cox model 4 biến , sau đó fit lại với 3 biến (set coefition 1 biến cần tes/home/DjangoN1/trieudtc.github.io/org_filet =0) -> dùng likelihood ratio test để kiểm định có ý nghĩa thống kê không.
+  - vd: fit cox model 4 biến , sau đó fit lại với 3 biến (set coefition 1 biến cần test =0) -> dùng likelihood ratio test để kiểm định có ý nghĩa thống kê không.
