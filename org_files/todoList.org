@@ -7,6 +7,8 @@
    - Sa van 2 lá PLAX dễ có ảnh giả, PSAX thấy hình ảnh mở van võng xuống (không mở ngược chiều nhau)
    - 
 ** thẻ vcb
+*** dạy con mẹo học
+- context and method for solving
 ** học.ai, doc sach kinh dien
 *** feature selection: tìm hiểu feature enginering, cách để biết feature nào có mối liên hệ mật thiết với outcome
 *** Học data analysis
