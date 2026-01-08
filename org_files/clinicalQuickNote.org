@@ -74,30 +74,6 @@
      - ICD: có cardiac arrest (I), spontaneous type 1 with syncope (recommended), provoked type 1 with syncope (consider). BN có spontaneous type 2 khôgn triệu chứng có nguy cơ cao (consider)
      - ICD theo ESC: Brs có  cardiac arrest hoặc documented VT (I). ECG type 1 và có ngất do loạn nhịp (IIa). PES có thể chỉ định cho BN spontaneous type 1 không triệu chứng (IIb). ICD có thể chỉ định ở BN không triệu chứng có VT khi PES using up to 2 extra stimuli. 
      - Ablation: không dung nạp quinidine, loạn nhịp mặc dù có dùng quinidine
-* Thuyên tắc phổi
-  1. Chẩn đoán
-     - Khi nghi ngờ PE nguy cơ cao (huyết động không ổn định) thì chỉ định ngay UFH (dùng lovenox ưu tiên hơn trong trường hợp huyết động ổn) và SAT tại giường + CTPA ngay
-     - Khi huyết động ổn định thì dùng lưu đồ chẩn đoán,  chỉ định ngay kháng đông trong lúc chờ nếu khả năng mắc PE từ trung bình - cao. 
-     - D-Dimer > 500 dùng cho người dưới 50 tuổi, 10xAge cho người > 50 tuổi, không dùng để loại trừ khi khả sác xuất tiền nghiệm cao. 
-     - Lưu đồ:
-       + BN huyết động không ổn định -> SA tim tại giường có Rối loạn chức năng thất P -> kháng đông + CTPA ngay lập tức -> ly giải huyết khối
-       + BN huyết động ổn -> phân tầng khả năng. Nếu khả năng trung bình trở xuống dùng D-Dimmer. Nếu khả năng cao thì chỉ dịnh CTPA. 
-     - Kháng đông đường uống dùng sau 5 - 10 ngày dùng đường tĩnh mạch (https://evtoday.com/articles/2019-july-supplement/doacs-oral-anticoagulant-treatment-of-choice-for-pulmonary-embolism)
-  2. Đánh giá độ nặng và nguy cơ tử vong 30 ngày
-     - Dùng: huyết động, PEPSI, SAT và troponin
-     - [[./img/echoCardiography_PEStratification.jpg]]
-  3. Liệu pháp ly giải huyết khối
-     - Hiệu quả tốt nhất trong 48 giờ, vẫn có hiệu quả ở những bệnh nhân muộn 6-14 ngày. 
-     - rtPA 100mg over 2h ưu tiên hơn streptokinase. UFH vẫn có thể tiếp tục truyền trong khi truyên rtPA nhưng phải ngưng nếu dùng streptokinase. Medscape: (Activase) 100 mg IV infused over 2 hr; institute parenteral anticoagulation near the end of or immediately following alteplase infusion when the PTT or thrombin time returns to <2x normal. Có nước cất pha đi kèm nồng độ 1mg/ml. Có thể dùng Nacl 0.9% hoặc glucose 5% pha loãng thêm 0.5mg/ml nữa. 
-     - [[./img/clinicalQuickNote_PE_thrombolyticDose.jpg]]
-     - Can thiệp huyết khối có thể chỉ định ở BN không dùng được ly giải huyết khối hoặc đã dùng nhưng thất bại
-* Tăng áp phổi
-  1. Phân loại
-     - loại 1: nguyên phát, do rối loạn chức năng nội mạc
-     - loại 2: do tim trái
-     - Loại 3: do phổi
-     - Loại 4: do huyết khối DMP mạn tính
-     - Loại 5: linh tinh
 * Suy tuyến thượng thận
 ** Nguồn
    1. https://www.uptodate.com/contents/diagnosis-of-adrenal-insufficiency-in-adults
@@ -153,3 +129,78 @@
    - ALT tăng < 10 lần ở tuần 4 nhưng không giảm ở tuần 6 và 8 không do nguyên nhân khác. 
 ** Theo dõi
    - XN trước điều trị, tháng thứ 1 và tháng thứ 3
+* Viêm gan cấp
+** Linh tinh
+   - ALT > AST trong hầu hết các trường hợp ngoại trừ nguyên nhân do rượu hoặc tiến triển đến xơ gan
+   - AST: ALT > 2 gợi ý do rượu
+   - AST: ALT > 5 gợi ý tăng nguyên nhân ngoài gan (hủy cơ, MI)
+** Đợt cấp viêm gan B mạn
+   - Biện luận trên BN Hải
+     + Vấn đề 1: Tăng men gan > 5 lần ULN có 2 trường hợp tăng cấp tính trong đợt bùng phát viêm gan B mạn hoặc tăng mãn tính do tình trạng viêm gan b mạn giai đoạn hoạt động, do rượu hoặc xơ hóa gan. Bệnh nhân này gợi ý tình trạng bùng phát vì có dùng kháng virus -> ngưng thuốc -> cả 2 trường hợp đều có chỉ định dùng kháng virus cho BN
+     + Vấn đề 2: mức độ xơ hóa gan. Kế hoạch: tiếp tục kháng virús, điều trị hỗ trợ, vitk, theo dõi sát, ngưng thuốc lá + ruọu bia, Fibroscan khi men gan giảm để xác định tình trạng xơ hóa gan
+* Tim mạch
+** Ngất
+*** Tiếp cận
+   1. Có thật sự ngất
+      - Phải có loss of consciousness do giảm tưới máu não
+      - Phân biệt với các loại mất ý thức thoáng qua khác
+        + Động kinh (cắn lưỡi, tiêu tiểu không tự chủ, lú lẫn kéo dài sau mất ý thức >5 phút), tâm lý (nhắm mắt trong cơn), hội chứng cướp máu dưới đòn, TIA động mạch sống nền, xuất huyết màng nhện
+      - 5P: Precipitants, Prodomes, Palpitation, Postition, Postevent phenomenon
+   2. Nguyên nhân
+      - Do tim
+      - Reflex syncope 
+        + (vasovagal syncope (VVS): (most common), such as from emotional stress or pain
+        + carotid sinus syndrome (hypersensitivity): abnormal autonomic response to carotid sinus massage
+          - Hiếm gặp ở người trẻ <50 tuổi, các yếu tố kích hoạt thường là: head movements (especially with tight neckwear or neck pathology), ngồi lâu, heavy meals, or nín tiêu tiểu tiện, and coughing.
+        + and situational syncope: ho, hắt xì, ...
+        + Điều trị: Isometric physical counter pressure maneuvers. Có thể ăn tăng muối và dịch nếu không có chống chỉ định. beta-blocker (acc IIb, ESC III), midodrine, fludrocortisone, SSRI. Pacemaker
+      - Hạ huyết áp tư thế 
+        + Classical OH: sys giảm >20, dia giảm >10, trong 3 phút (đo 1 phút, 2 phút, 3 phút). nếu xảy ra sau 3 phút Delayed OH. Nếu xảy ra sớm <15s initial OH, thường ngắn <40s.
+        + Điều trị: tăng dịch, muối, Compression garments, Physical counter-pressure maneuvers, midodrine, Droxidopa, Fludrocortisone, pyridostigmine, octreotide
+** Tăng áp phổi
+  1. Phân loại
+     - loại 1: nguyên phát, do rối loạn chức năng nội mạc
+     - loại 2: do tim trái
+     - Loại 3: do phổi
+     - Loại 4: do huyết khối DMP mạn tính
+     - Loại 5: linh tinh
+** Thuyên tắc phổi
+  1. Chẩn đoán
+     - Khi nghi ngờ PE nguy cơ cao (huyết động không ổn định) thì chỉ định ngay UFH (dùng lovenox ưu tiên hơn trong trường hợp huyết động ổn) và SAT tại giường + CTPA ngay
+     - Khi huyết động ổn định thì dùng lưu đồ chẩn đoán,  chỉ định ngay kháng đông trong lúc chờ nếu khả năng mắc PE từ trung bình - cao. 
+     - D-Dimer > 500 dùng cho người dưới 50 tuổi, 10xAge cho người > 50 tuổi, không dùng để loại trừ khi khả sác xuất tiền nghiệm cao. 
+     - Lưu đồ:
+       + BN huyết động không ổn định -> SA tim tại giường có Rối loạn chức năng thất P -> kháng đông + CTPA ngay lập tức -> ly giải huyết khối
+       + BN huyết động ổn -> phân tầng khả năng. Nếu khả năng trung bình trở xuống dùng D-Dimmer. Nếu khả năng cao thì chỉ dịnh CTPA. 
+     - Kháng đông đường uống dùng sau 5 - 10 ngày dùng đường tĩnh mạch (https://evtoday.com/articles/2019-july-supplement/doacs-oral-anticoagulant-treatment-of-choice-for-pulmonary-embolism)
+  2. Đánh giá độ nặng và nguy cơ tử vong 30 ngày
+     - Dùng: huyết động, PEPSI, SAT và troponin
+     - [[./img/echoCardiography_PEStratification.jpg]]
+  3. Liệu pháp ly giải huyết khối
+     - Hiệu quả tốt nhất trong 48 giờ, vẫn có hiệu quả ở những bệnh nhân muộn 6-14 ngày. 
+     - rtPA 100mg over 2h ưu tiên hơn streptokinase. UFH vẫn có thể tiếp tục truyền trong khi truyên rtPA nhưng phải ngưng nếu dùng streptokinase. Medscape: (Activase) 100 mg IV infused over 2 hr; institute parenteral anticoagulation near the end of or immediately following alteplase infusion when the PTT or thrombin time returns to <2x normal. Có nước cất pha đi kèm nồng độ 1mg/ml. Có thể dùng Nacl 0.9% hoặc glucose 5% pha loãng thêm 0.5mg/ml nữa. 
+     - [[./img/clinicalQuickNote_PE_thrombolyticDose.jpg]]
+     - Can thiệp huyết khối có thể chỉ định ở BN không dùng được ly giải huyết khối hoặc đã dùng nhưng thất bại
+** Cơn tăng huyết áp
+*** Chẩn đoán tăng huyết áp
+    - Huyết áp tại nhà trung bình >=135/85
+    - Holter huyết áp: trung bình 24h 130/80 or daytime 135/85 or night 120/70
+    - Tại phòng khám 140/90, ít nhất 2 lần khác nhau
+    - 
+*** Cơn tăng huyết áp cấp cứu
+    - For adults with a compelling condition (ie, aortic dissection, severe preeclampsia or eclampsia, or pheochromocytoma crisis), SBP should be reduced to less than 140 mm Hg during the first hour and to less than 120 mm Hg in aortic dissection.
+    - For adults without a compelling condition, SBP should be reduced by no more than 25% within the first hour; then, if stable, to 160/100 mm Hg within the next 2 to 6 hours; and then cautiously to normal during the following 24 to 48 hours.
+* Tiếp cận viêm khớp
+** Dạng viêm (inflamtory) hoặc không viêm (non inflamtory)
+   - Dạng viêm: Biểu hiện sưng nóng đỏ đau.
+   - Dạng không viêm: do biến đổi cấu trúc khớp, đau khi vận động, cứng khớp không quá 15-30 phút. DO thoái hóa, chấn thương, cơ học
+** Khởi phát
+   - Vài giờ tới vài ngày: chấn thương, Crystal arthritis, Septic arthritic
+   - vài tuần tới tháng: viêm khớp dạng thấp, thoái hóa, seronegative, spondyloarthropathies, gout mạn
+** Kéo dài
+  - Cấp: <6ws, chấn thương, Juxta-articular, septic, reactive, gout
+  - Mạn: >6ws, Rheumatic fever, reumatoid, SLE, Spondyloarthropathies, haemochromatosis
+** Đặc điểm khớp liên quan
+  - Di chuyển: Thấp khớp cấp, lậu, viêm khớp virus
+  - Thêm vào/đồng thời: RA, SLE, spondyloarthritis
+  - Ngắt quãng: gout, virus, lymes disease

@@ -5,6 +5,37 @@
 
 * Nghe tim
 ** Tiếng tim
+*** T1
+    - Loud T1: PR ngắn, hẹp van 2 lá nhẹ, hyderdynamic states
+    - Soft T1: PR dài, hẹp van 2 lá nặng, LBBB, COPD, TDMNT
+    - T1 thay đổi: Phân ly nhĩ thất, rung nhĩ
+    - T1 tách đôi: RBBB, preexciment, idioventricular rhythm from LV
+      + Nghe cả 2 rõ, rõ ở cạnh ức trái
+      + PB T4: T4 mờ hơn, nghe rõ ở mỏm
+      + PB click tống máu: nghe ở toàn tim
+*** T2
+    - Bình thường T1 - A2P2 -> Hít vào T1 - A2  P2
+    - Tách đôi rộng thuận: RBBB, preexcitation LV, tăng áp phổi, PE, hở 2 lá nặng, viêm màng ngoài tim co thắt
+    - Tách đôi cố định: ASD
+    - Tách đôi nghịch: LBBB, preexcitation RV, tạo nhịp thất P, bệnh van ĐMC, hẹp đường ra thất T
+    - Không có A2: bệnh ĐMC nặng
+    - Fused A2P2: VSD with Eisemmenger's syndrome, single ventricle
+    - Loud P2: thường A2>P2, nếu P2>A2 gợi ý tăng áp phổi. Thường P2 khó nghe ở mỏm, nếu P2 dễ dàng nghe ở mỏm, gợi ý P lớn.
+*** T3
+    - Low pitched, theo ngay sau T2
+    - Nghe ở mỏm, cho BN nằm nghiêng trái
+    - Có thể nghe thấy ở người trẻ. Người trên 40 tuổi thường là chỉ dấu suy tim trái (khá đặc hiệu 99%, Positvive LR 11)
+    - Cơ chế chưa rõ, có thể do dòng máu tăng tốc va chạm thành tim. 
+    - Nghe như tiếng ngựa phi (có kèm nhịp nhanh),hít vào nghe nhiều tiếng chân ngựa hơn do T2 tách đôi
+*** T4
+    - Low pitched, tiền tâm thu
+    - Luôn luôn là bệnh lý, do nhĩ co into stiff and non-compliance LV
+*** Click (nghe giống click van nhân tạo - đanh ngắn)
+    1. Aortic ejection click
+       - Rất sớm thì tâm thu, high pitch, nghe ở toàn bộ trước tim, không ảnh hưởng khi đứng
+       - Nếu có kèm có kèm âm thổi hình trám thì gợi ý nhiều bệnh van ĐMC (khác với simple and benign flow mumur)
+    2. MVP click (click sa van 2 lá)
+       - Giữ tâm thu, chỉ nghe ở mỏm, khi đứng sẽ nghe sớm hơn.
 ** Âm thổi
 *** Time
     1. Tâm thu
@@ -18,9 +49,10 @@
        - Hẹp van 2 lá, 3 lá
     3. Liên tục
        - Còn ống động mạch
-    4. 
+    4. 2 thì
+       - Thường gặp trong hẹp hở van ĐMC
 *** Location
-    - one should never assume the specific valvular origin of a particular murmur based solely on its location
+    - One should never assume the specific valvular origin of a particular murmur based solely on its location
     - [[./img/Kham tim/location of murmur.jpg]]
     - *Lưu ý:* ổ van không đặc hiệu cho âm thổi nhưng khá đặc hiệu cho S3, S4 (ở mỏm gợi ý thất trái, ở vùng liên sườn 3 - 4 bờ trái xương ức gợi ý thất phải)
 *** Hướng lan
@@ -38,11 +70,15 @@
 *** Pith
     - [[./img/Kham tim/pitch of murmur.jpg]]
 *** Cường độ
-    - 6 cấp động
+    - 6 cấp độ (độ 4 rung miu, độ 5 nhấc nửa ống nghe, độ 6 có thể nghe không cần ống nghe)
 *** Quality
     - [[./img/Kham tim/quality of murmur.jpg]]
 *** Response to manuvers
-    -  
+    - Clenching fists -> tăng afterload: tăng âm thổi hở van 2 lá, giảm hoặc không thay đổi hẹp chủ, tăng hở chủ
+    - Ngồi -> nằm nhanh: tăng preload: tăng hẹp chủ 
 *** Eponymous murmurs
     - [[./img/Kham tim/eponymous murmurs.jpg]]
-*** 
+
+
+* Khám tim - Sapira
+** 

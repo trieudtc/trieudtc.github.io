@@ -1,1 +1,26 @@
-s
+* BN Thành
+** Các vấn đề
+  1. Triêu chứng cảm giác - vận động nửa người bên trái
+     - Triệu chứng vẫn còn khi huyết áp ổn định gợi ý căn nguyên không do cơn THA
+  2. Triệu chứng đau thắt ngực
+     - Đo điện tim nhiều lần không biến đổi, men tim rất thấp không biến đổi -> loại trừ hội chứng vành cấp
+     - Có yếu tố nguy cơ: hút thuốc lá # 20 packyear, có thể có bệnh mạch vành mạn
+** Kế hoạch điều trị
+   - Tiếp tục kháng kết tập tiểu cầu kép, statin, kiểm soát huyết áp
+   - Mời khám CK thần kinh, cân nhắc chụp MRI sọ não nếu triệu chứng không cải thiện
+* BN Tuấn
+** Bổ sung bệnh sử và tiền căn
+    - Bệnh nhân đột ngột chóng mặt, nôn ói nhiều khi thức dậy, yếu 2 chân, đi lại khó khăn
+    - Hút thuốc lá nhiều # 20 packyears
+    - Tăng huyết áp, đột quy 10 năm trước, vài năm nay không uống thuốc, không khám bệnh
+** Vấn đề
+    - Xuất huyết não đa ổ trên phim CT?
+** Kế hoạch
+    - Điều trị nâng đỡ, kiểm soát huyết áp
+* BN 
+** Vấn đề
+   - Bệnh nhân mệt nhiều, đừ, huyết áp thấp, nhịp nhanh/ suy thượng thận mạn, ngưng thuốc corticoid 1 ngày, stress bệnh lý -> theo dõi suy thượng thận mạn
+   - Loại trừ nhiễm khuẩn huyết: SOFA 0-1 điểm, không tăng bạch cầu
+   - Đau mạn tính, loét dạ dày
+** Kế hoạch:
+   - Tiếp tục PPI, antacid, giảm dần liều hydrocortisone. Mời khám chuyên khoa y học cổ truyền, tập vật lý trị liệu, khám CK cơ xương khớp: cấy chỉ, tiêm giảm đau cạnh sống. 

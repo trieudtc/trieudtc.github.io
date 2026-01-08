@@ -1,11 +1,12 @@
 * To do list
   1. Làm người phụ thuộc giảm thuế thu nhập cá nhân
+  2. tính fib-4, apri, xem gan lách
 2. ôn sat: otto review, klein. otto text. esential ech. sat. practical. handbook
 3. câu hỏi
 - bao nhiêu thì gọi là dày van dmc van 2 lá
 4. ôn
    - Sa van 2 lá PLAX dễ có ảnh giả, PSAX thấy hình ảnh mở van võng xuống (không mở ngược chiều nhau)
-   - 
+5. Dùng AI nghiên cứu cách đo điện tim sử dụng điện thoại
 ** thẻ vcb
 *** dạy con mẹo học
 - context and method for solving

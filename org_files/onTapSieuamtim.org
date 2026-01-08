@@ -36,13 +36,13 @@
 ** Đánh giá chức năng tâm trương
    - Khi có rối loạn vận động vùng, nên dùng Avg e`
    - E/sep e' <8 áp lực đổ đầy thất T bình thường
-   - E/sep e' >15 áp lực đổ đầy thất T tăng 
+   - E/sep e' >15 áp lực đổ đầy thất T tăng (	predicts an LV end diastolic pressure more than 15mmHg.
    - Đánh giá thư giãn: e', E/A, EDT (thời gian giảm tốc sóng E)
    - Đánh giá đàn hồi: LAVi, E/e'
    - Các bước đánh giá
      + Bước 1: Có rối loạn chức năng tâm trương? bất thường 2 trong số các chỉ số sau
        - e': 6 (6.5) 7
-       - E/A: <0.8 hoặc >2
+       - E/A: <0.8 (impared early diastolic relaxion) hoặc >2
        - LAVi > 34
        - LARS (strain của nhĩ trái) < 18%
      + Bước 2: có tăng áp lực cuối tâm thu thất trái không? 
@@ -52,12 +52,16 @@
    - Lưu ý các bước trên không dùng trong trường hợp: Hở van 2 lá nguyên phát nặng, hẹp van 2 lá bất kể mức độ nào, vôi hóa vòng van (MAC) trung bình - nặng, rung nhĩ, ...
    - Trường hợp đặc biệt
      1. Rung nhĩ
+        - Dùng những thông số không bị ảnh hưởng đến nhĩ co.
         - DT < 160ms ở BN có EF giảm
         - Vận tốc đỉnh sóng E  >= 1.9m/s
         - IVRT <= 65ms
         - Sep E/e' >=11
         - TR Vmax >2.8 m/s
         - [[./img/echoCardiography_LAPinAF.jpg]]
+     2. Hở van 2 lá
+        - Khó đánh giá chức năng tâm trương chính xác khi có hở 2 lá từ trung bình trở lên
+        -  Có thể dùng Ar-A duration >=30ms và IVRT IVRT < 60 ms(đặc hiệu nhưng kém nhạy)
 ** Đánh giá chức năng thất P
    1. Các thông số
       - TAPSE > 17mm
