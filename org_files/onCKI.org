@@ -1,0 +1,29 @@
+* Sinh lý YDS 2024
+** 
+* Guyton 14e
+** Chap 1: Functional Organization of the Human Body and Control of the “Internal Environment”
+  - TB Hồng cầu: # 25 ngìn tỷ  (trillion). Là tế bào nhiều nhất trong cơ thể
+  - Toàn bộ cơ thể: 35-40 ngìn tỷ TB. 
+  - Vi sinh vật trong cơ thể (microbiota) nhiều hơn toàn bộ TB trong cơ thể
+  - 50-70% cơ thể là nước. 2/3 nội bào, 1/3 ngoại bào
+  - Ngoại bào: Na, HCO3-, Nutrients (oxy, glucose, fatty acíd, amino acids), CO2, waste products
+  - Nội bào: K, Mg, Phosphate
+  - Khi nghỉ: máu di chuyển toàn bộ hệ tuần hoàn khoảng 1 phút. Khi hoạt động rất mạnh: máu di chuyển 6 lần hệ tuần hoàn trong 1 phút. 
+  - Ít tế bào nào nằm cách mao mạch quá 50 micromet, đảm bảo sự khuếch tán của hầu hết mọi chất từ mao mạch đến tế bào trong vòng vài giây.
+  - Màng phế nang: 0.4 - 20 micromet
+  - Điều hòa huyết áp: HA cao -> baroreceptors ở chỗ chia ĐMC và cung động mạch chủ -> hành não -> trung khu vận mạch (vasomotor center) -> giảm xung truyền từ trung khu vận mạch đến hệ giao cảm -> giãn mạch, giảm bơm -> hạ huyết áp
+  - Ngưỡng bình thường và ngưỡng chết (Approximate Short- Term Nonlethal Limit) dịch ngoại bào [[./img/constituentDeathThreshold.jpg]]
+  - Kali hạ -> giảm dãn truyền thần kinh -> liệt
+  - Calci hạ 1/2 bình thường (1.0 -> 0.5) -> tetanic contraction do xung thần kinh tự phát từ dây thần kinh ngoại vi.
+  - PH giảm hoặc tăng 0.5 có thể gây tử vong (6.9-7.4-8.0)
+  - Negative feedback
+    1. Gain = correction/error. 
+  - Possitive feedback: còn gọi là "vicious cycle", càng làm nặng hơn tình trạng ban đầu. Một số có lợi như:
+    1.  đông máu: hoạt hóa yếu tố đông máu -> tiếp tục hoạt hóa yếu tố đông máu bên cạnh cho đến khi cục máu đông bít chỗ chảy máu. 
+    2. Phản ứng co thắt tử cung khi sanh: đầu em bé nong cổ tử cung -> co thắt càng mạnh hơn -> sanh. 
+    3. Phản ứng dẫn truyền thần kinh: kích thích màng tế bào -> rò Na vào bên trong tế bào sợi tk -> thay đổi điện thết màng -> mở thêm kênh -> dẫn truyền điện là thay đổi điện thế màng bên cạnh -> cho đến đầu tận
+    4. Possitive feedback là một phần trong vòng negative feedback lớn hơn: ví dụ đông máu -> negative feedback của ổn định huyết áp. 
+  - Feed-forward and adaptive control (xem thêm hệ thần kinh)
+** The Cell and Its Functions
+  1. Organization of the cell
+      - 

@@ -1,0 +1,237 @@
+* eClinic Project
+** Planning
+  1. Phân tích yêu cầu (Requirements)
+    - Trước khi code, bạn cần xác định các nhóm người dùng chính:
+      + Bác sĩ: Xem lịch hẹn, nhập bệnh án, kê đơn thuốc.
+      + Lễ tân/Nhân viên: Tiếp nhận bệnh nhân, sắp xếp lịch khám, thu phí.
+      + Bệnh nhân: Đăng ký tài khoản, đặt lịch hẹn online, xem lịch sử khám.
+      + Quản trị viên (Admin): Quản lý nhân sự, danh mục thuốc, báo cáo doanh thu.
+  2. Thiết kế Cơ sở dữ liệu (Database Schema)
+    - Đây là "xương sống" của ứng dụng. Bạn nên thiết kế các Model chính như sau:
+      + Model 		| Các trường thông tin chính
+      + User		| Mở rộng từ AbstractUser (Bác sĩ, Lễ tân, Bệnh nhân)
+      + Patient		| Họ tên, Ngày sinh, Giới tính, Số điện thoại, Mã bệnh nhân
+      + Appointment 	| Bệnh nhân, Bác sĩ, Ngày giờ khám, Trạng thái (Chờ, Đã khám, Hủy)
+      + MedicalRecord	| Bệnh nhân, Bác sĩ, Chẩn đoán, Triệu chứng, Ngày khám
+      + Prescription	| Hồ sơ bệnh án, Tên thuốc, Liều dùng, Số lượng
+      + Invoice		| Hồ sơ bệnh án, Tổng tiền, Trạng thái thanh toán
+  3. Lộ trình triển khai (Roadmap)
+    - Giai đoạn 1: Thiết lập nền tảng
+      + Cài đặt môi trường: Python, Django, và các thư viện cần thiết (django-crispy-forms cho giao diện, Pillow cho hình ảnh).
+      + Khởi tạo Project và App (ví dụ: users, clinic, billing).
+      + Thiết kế hệ thống Authentication (Đăng nhập/Đăng ký) phân quyền theo Role.
+    - Giai đoạn 2: Phát triển chức năng lõi
+      + Quản lý Bệnh nhân: CRUD (Thêm, sửa, xóa, tìm kiếm) thông tin bệnh nhân.
+      + Đặt lịch hẹn (Booking): Xây dựng logic kiểm tra lịch trống của bác sĩ để tránh trùng lịch.
+      + Hồ sơ bệnh án & Đơn thuốc: Giao diện cho bác sĩ nhập liệu nhanh.
+    - Giai đoạn 3: Tài chính và Báo cáo
+      + Tạo hóa đơn tự động dựa trên đơn thuốc và dịch vụ khám.
+      + Trang Dashboard thống kê số lượng bệnh nhân và doanh thu theo ngày/tháng (Sử dụng Chart.js để vẽ biểu đồ).
+  4. Gợi ý Tech Stack
+    - Backend: Django (Python).
+    - Database: PostgreSQL (Khuyên dùng cho môi trường thực tế) hoặc SQLite (Cho lúc phát triển).
+    - Frontend: Bootstrap 5 hoặc Tailwind CSS để ứng dụng trông chuyên nghiệp và chạy tốt trên điện thoại.
+    - Xử lý thời gian thực: Django Signals (Gửi thông báo khi có lịch hẹn mới).
+  5. Các lưu ý quan trọng về Y tế
+    - Bảo mật dữ liệu: Dữ liệu y tế rất nhạy cảm. Hãy đảm bảo sử dụng HTTPS và mã hóa các thông tin quan trọng.
+    - Sao lưu (Backup): Thiết lập cơ chế tự động backup database hàng ngày.
+    - Số hóa: Nên có chức năng xuất đơn thuốc hoặc bệnh án ra file PDF để in cho bệnh nhân.
+** Các việc cần làm trong giai đoạn lập kế hoạch:
+1. Hiểu bài toán & nghiệp vụ (Business & Domain Analysis): Đây là bước nhiều dev bỏ qua nhất nhưng lại tốn tiền sửa nhất.
+  - Cần làm:
+    + Xác định đối tượng sử dụng
+      + Bác sĩ
+      + Lễ tân
+      + Quản lý phòng mạch
+      + (Có hay không) Bệnh nhân truy cập
+    + Liệt kê quy trình thực tế
+      + Đặt lịch khám
+      + Tiếp nhận bệnh nhân
+      + Khám & ghi chép hồ sơ
+      + Kê toa
+      + Thanh toán
+      + Tái khám
+    + Xác định điểm đau (pain points) hiện tại
+      + Ghi sổ tay → dễ mất
+      + Trùng lịch
+      + Khó tra cứu hồ sơ cũ
+    + Phạm vi ban đầu (MVP): Làm đủ dùng, không phải “hệ thống bệnh viện”
+    + 📌 Deliverable thường dùng
+      + Business Requirement Document (BRD)
+      + Sơ đồ quy trình (Flowchart)
+2. Xác định yêu cầu chức năng & phi chức năng
+  - 2.1. Yêu cầu chức năng (Functional Requirements). Ví dụ:
+    + Quản lý bệnh nhân
+    + Quản lý lịch hẹn
+    + Hồ sơ bệnh án
+    + Kê đơn thuốc
+    + Quản lý người dùng & phân quyền
+    + Báo cáo cơ bản
+  - 2.2. Yêu cầu phi chức năng (Non-Functional): Cái này rất quan trọng với y tế:
+    + 🔐 Bảo mật
+      + Phân quyền rõ ràng
+      + Log truy cập
+    + ⚡ Hiệu năng
+      + Tra hồ sơ nhanh
+    + 🧱 Độ ổn định
+      + Không mất dữ liệu
+    + 📦 Sao lưu & phục hồi
+    + 📜 Tuân thủ pháp lý: Bảo vệ dữ liệu cá nhân (ở VN: Nghị định 13/2023)
+    + 📌 Deliverable
+      + Software Requirement Specification (SRS)
+3. Thiết kế kiến trúc hệ thống (System Architecture)
+  - Các câu hỏi cần trả lời:
+    + Monolith hay tách module?
+    + Django thuần hay Django + DRF (API)?
+    + Frontend: Django template? Hay React/Vue?
+    + Deploy ở đâu: 
+      + VPS
+      + Cloud (AWS, GCP, DigitalOcean)
+    + Database: PostgreSQL (rất hợp cho Django)
+    + Lưu file:
+      + Local
+      + Object storage (S3)
+    + 📌 Với phòng mạch tư, IT hiện nay thường chọn:
+      + Django + PostgreSQL
+      + Django REST Framework
+      + Frontend đơn giản trước (template hoặc React sau)
+    + 📌 Deliverable
+      + Sơ đồ kiến trúc (Architecture Diagram)
+4. Thiết kế dữ liệu (Data Modeling): Đây là phần Django làm rất tốt, nhưng vẫn cần lên kế hoạch trước.
+  - Cần xác định:
+    + Các entity chính:
+      + Patient
+      + Appointment
+      + MedicalRecord
+      + Prescription
+      + User / Role
+    + Quan hệ:
+      + 1 bệnh nhân → nhiều lần khám
+      + 1 lần khám → nhiều toa thuốc
+    + Trường dữ liệu nhạy cảm
+    + 📌 Deliverable
+      + ERD (Entity Relationship Diagram)
+      + Data Dictionary
+5. Bảo mật & quyền truy cập (Security Planning)
+  - Với web y tế, đây là bắt buộc. IT hiện nay thường làm:
+    + Lập kế hoạch cho việc mã hóa dữ liệu nhạy cảm và tuân thủ các chuẩn như HIPAA (nếu làm cho khách quốc tế) hoặc quy định bảo mật dữ liệu y tế của Việt Nam.
+      + Luật Khám bệnh, chữa bệnh 2023 + các thông tư liên quan. 
+      + Thông tư 54/2017/TT-BYT về bệnh án điện tử
+      + Nghị định 117/2018/NĐ-CP về bảo vệ dữ liệu cá nhân trong y tế. Nghị định 13/2023/NĐ-CP
+      + Yêu cầu lưu trữ hồ sơ bệnh án tối thiểu 10 năm (đối với người lớn), 20–25 năm (trẻ em)
+      + Có cần chữ ký số / xác thực điện tử cho đơn thuốc không?
+    + RBAC (Role-Based Access Control)
+    + Không ai xem hồ sơ nếu không có quyền
+    + Mã hóa:
+      + Password (Django có sẵn)
+      + Backup
+    + Audit log:
+      + Ai xem / sửa hồ sơ lúc nào
+    + 📌 Tip Django
+      + Dùng django.contrib.auth
+      + Custom permission
+      + Log model changes
+6. Lập kế hoạch phát triển (Development Planning)
+  - Áp dụng Agile / Scrum (phổ biến hiện nay): MVP gồm những gì
+    + Thứ tự ưu tiên: Quản lý bệnh nhân. Lịch hẹn. Hồ sơ bệnh án. Báo cáo
+  - 📌 Deliverable
+    + Product Backlog
+    + Sprint Plan
+7. Kế hoạch kiểm thử & vận hành
+  - Testing:
+    + Unit test (Django test)
+    + Test phân quyền
+    + Test dữ liệu biên
+  - Vận hành:
+    + Backup tự động
+    + Monitoring
+    + Quy trình update không mất dữ liệu
+8. Kế hoạch mở rộng & bảo trì: Sau này có thêm phòng khám? Có thêm chi nhánh? Có tích hợp: SMS nhắc lịch. Thanh toán. Bảo hiểm?
+9. Gợi ý lộ trình thực tế cho bạn
+  - Phỏng vấn 1–2 phòng mạch thật
+  - Viết SRS rút gọn
+  - Vẽ ERD
+  - Quyết stack (Django + PostgreSQL)
+  - Làm MVP
+  - Test với người dùng thật
+  - Mở rộng
+  - Nếu bạn muốn, mình có thể:
+    + Giúp bạn vẽ ERD cho phòng mạch
+    + Gợi ý cấu trúc project Django chuẩn
+    + Lập checklist MVP chỉ trong 1 trang
+** Lộ trình thực tế
+- Lộ trình + Công cụ (ưu tiên miễn phí)
+1. Phỏng vấn 1–2 phòng mạch thật
+  - 🎯 Mục tiêu: hiểu nghiệp vụ & pain point
+  - Công cụ: 📝 Google Docs / Notion. 🧠 Whimsical / Miro (free) → Vẽ nhanh flow nghiệp vụ thô
+  - 📌 Tip IT: Ghi lại “họ làm thật”, không phải “họ nói nên làm”
+2. Viết SRS rút gọn
+  - 🎯 Mục tiêu: chốt phạm vi & chức năng
+  - Công cụ: Google Docs (phổ biến nhất). Notion (nếu thích checklist + database). Markdown + Git (nếu thuần dev)
+  - 📌 Nội dung tối thiểu: Actor. Use case. Non-functional (bảo mật, backup)
+3. User Flow & Wireframe (LOW-FI) 🔥
+  - 🎯 Mục tiêu: xác nhận luồng trước khi đụng data. User Flow: ai → làm gì → theo thứ tự nào
+  - User Flow: Whimsical (free). Draw.io (diagrams.net) – rất ổn, free hoàn toàn. Miro free. Wireframe. Figma (free plan) ⭐ phổ biến nhất. Balsamiq (trial) (vẽ rất nhanh, low-fi đúng nghĩa). Pen & paper + chụp hình (không đùa đâu 😄). Excalidraw (miễn phí, online), Penpot (open-source thay Figma)
+  - 📌 Tip IT: Wireframe chỉ cần:
+    + Button. Form. Bảng. Không màu mè
+    + Vì sao KHÔNG để Wireframe sau ERD? Sai lầm rất hay gặp:
+      + Vẽ ERD trước
+      + Code model xong
+      + Bác sĩ dùng → “Sao phải click nhiều thế?”
+      + 👉 User Flow = cách người ta làm việc
+      + 👉 ERD = dữ liệu phục vụ cách đó
+      + IT hiện nay làm ngược lại sẽ trả giá 😅
+4. Vẽ ERD (Data Model)
+  - 🎯 Mục tiêu: mô hình dữ liệu đúng nghiệp vụ. Dựa trên flow thực tế đã được xác nhận. (flow quyết định data, không phải ngược lại)
+  - Công cụ: dbdiagram.io (free) ⭐ rất hợp dev. Draw.io. DBeaver (free) – nếu quen DB tool. Lucidchart (free hạn chế)
+  - 📌 Tip Django:
+    + Vẽ ERD xong → map trực tiếp sang models.py
+5. Quyết stack (Django + PostgreSQL)
+  - 🎯 Mục tiêu: chốt công nghệ, tránh đổi giữa chừng
+  - Công cụ: Notion / Google Docs – ghi quyết định. Awesome Django (GitHub) – tham khảo package. StackShare (free) – xem hệ khác dùng gì
+  - 📌 Stack gợi ý:
+    + Django
+    + Django REST Framework
+    + PostgreSQL
+    + Redis (sau này)
+6. Làm MVP
+  - 🎯 Mục tiêu: chạy được, dùng được
+  - Backend
+    + Django
+    + Django REST Framework
+    + django-allauth
+    + django-filter
+  - Frontend
+    + Django Template (nhanh nhất)
+    + Bootstrap / Tailwind (free)
+  - Dev tools
+    + VS Code
+    + Git + GitHub (free)
+    + Docker (optional)
+7. Test với người dùng thật
+  - 🎯 Mục tiêu: validate flow, không chỉ bug
+  - Công cụ
+    + Django TestCase
+    + Postman (free) – test API
+    + Google Form – thu feedback
+    + Loom (free) – quay màn hình user dùng
+  - 📌 Tip IT:
+    + Quan sát chỗ user dừng lại lâu
+    + Không hỏi: “Anh/chị thấy ổn không?”
+8. Mở rộng & vận hành
+  - 🎯 Mục tiêu: sống lâu, không chết sớm
+  - Deploy
+    + DigitalOcean / Render / Railway (free tier). - Hosting: Railway.app / Render.com (free tier tốt cho Django + Postgres) - Hoặc Fly.io (free credit tốt) - Domain & HTTPS: Cloudflare (free SSL) - CI/CD: GitHub Actions (free minutes) - Monitoring: Sentry (free 5k errors/tháng) + UptimeRobot (free)
+    + Gunicorn + Nginx
+    + Render / Railway đã thay bạn làm Nginx, nên bạn chỉ cần Gunicorn để chạy Django. Nginx chỉ cần khi bạn tự quản server (VPS/on-premise).
+  - Monitoring
+    + Sentry (free tier)
+    + UptimeRobot (free)
+  - Backup
+    + Cron job
+    + PostgreSQL dump
+    + Google Drive / S3 free tier
+9. Lưu ý: Làm mục nào cũng nên hỏi AI xem có project thực tế nào để tham khảo không? khi làm xong mỗi bước cần nhờ AI kiểm tra xem có thiếu hay lỗi tiềm tàng nào không. Lưu ý luôn luôn để ý đến vấn đề pháp lý.  
+** Bắt tay vào làm
+*** Phỏng vấn phòng mạch thật
+*** Viết SRS
