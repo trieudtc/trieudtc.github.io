@@ -1,7 +1,7 @@
 * Sinh lý YDS 2024
 ** 
-* Guyton 14e
-** Chap 1: Functional Organization of the Human Body and Control of the “Internal Environment”
+* Guyton 15e
+** Chap 1 - Functional Organization of the Human Body and Control of the “Internal Environment”
   - TB Hồng cầu: # 25 ngìn tỷ  (trillion). Là tế bào nhiều nhất trong cơ thể
   - Toàn bộ cơ thể: 35-40 ngìn tỷ TB. 
   - Vi sinh vật trong cơ thể (microbiota) nhiều hơn toàn bộ TB trong cơ thể
@@ -24,6 +24,40 @@
     3. Phản ứng dẫn truyền thần kinh: kích thích màng tế bào -> rò Na vào bên trong tế bào sợi tk -> thay đổi điện thết màng -> mở thêm kênh -> dẫn truyền điện là thay đổi điện thế màng bên cạnh -> cho đến đầu tận
     4. Possitive feedback là một phần trong vòng negative feedback lớn hơn: ví dụ đông máu -> negative feedback của ổn định huyết áp. 
   - Feed-forward and adaptive control (xem thêm hệ thần kinh)
-** The Cell and Its Functions
+** Chap 2 - The Cell and Its Functions
   1. Organization of the cell
-      - 
+      - Tế bào gồm: nhân và bào tương (cytoplasm)
+      - Nguyên sinh chất (protoplasm) là các chất cấu tạo nên tế bào gồm 5 chất: (nước, điện giải), (protein, lipid, carbohydrate)
+      - *Nước*: Nhiều nhất 70-85%, ngoại trừ tế bào mỡ
+      - *Điện giải*: Nhiều: Kali, phosphate, sulfate, bicarbonate | ít: natri, clo, canxi
+      - *Protein*: Nhiều thứ nhì 10-20% khối lượng TB. 2 loại: cấu trúc và chức năng
+        + /Cấu trúc/: nhiều phân tử -> sợi dài polymer. Tạo vi ống (microtubules) -> khung xương tế bào cho các bào quan (lông mao, sợi trục tk, thoi phân bào), cố định các thành phần trong nguyên sinh chất. protein sợi (fibrillar proteins) bên ngoài tế bào (collagen và elastin)
+        + /Chức năng/: Vài phân tử -> ống cầu (tubular-globular). Enzym, di động trong dịch nội bào (khác protein sợi)
+      - *Lipid*: 2% khối lượng TB. Quan trọng nhất là phospholipid và cholesterol, tạo màng tb và màng nội bào. Triglycerid còn gọi là mỡ trung tính (neutral fats) trong tb chiếm 95% khối lượng TB, là kho năng lượng chính của cơ thể. 
+      - *Carbohydrate*: dinh dưỡng tế bào và cấu trúc (tp của phân tử glycoprotein). hầu hết TB người không dự trữ nhiều carbohdrate (thườg khoảng 1% tổng khối lượng, vs 3% ở tb cơ, 6% ở tb gan). Glucose hòa toan ở dịch ngoại bào; glycogen là một polymer không tan của glucose dự trữ trong tb. 
+  2. Cell structure
+     - Nếu thiếu ty thể (mitochondria) 95% năng lượng tb sẽ ngừng ngay lập tức
+     1. *Các cấu trúc màng:* màng tb, nhân, lưới nội sinh chất, ty thể, lysosome, peroxisome, bộ Golgi. /Màng tế bào/: lớp kép lipid (mỗi lớp dày 1 phân tử) + protein. 7,5-10 nanomet. TP chủ yếu protein và lipid: 55% protein, 25% phospholipid, 13% cholesterol, 4% lipid khác, 3% carbohydrate.
+       - *Lớp kép lipid:* 3 loại chính - phospholipid, sphingolipid, cholesterol. Nhiều nhất là /phospholipid:/ đầu phosphate ưa nước (hướng ra ngoài), đầu acid béo kỵ nước (hút lẫn nhau, hướng vào trong).Đầu kỵ nước không thấm với chất tan trong nước (ion, glucose, ure), thấm chất tan trong mỡ (oxy, CO2, alcohol). /Sphingolipid/ chiếm lượng nhỏ, đặc biệt trong tb thần kinh; chức năng bảo vệ yếu tố độc hại, truyền tín hiệu, vị trí bám của protein ngoại bào. /Cholesterol/ kiểm soát độ lỏng của màng, giúp xác định độ thấm hoặc không thấm của màng với các chát tan trong nước. 
+       - *Protein nội tại và ngoại vi* của màng tb: chủ yếu là glycoprotein. Có 2 lại protein màng: nội tại (integral) xuyên qua toàn bộ màng và ngoai vi (peripheral) gắn với protein nội tại hoặc không xuyên màng. 
+         + Protein nội tại tạo kênh (hay lỗ - pores) cho các chất tan trong nước, đặc biệt là ion, khuếch tán, cũng có đặc tính chọn lọc. Một số hoạt động như protein mang (carrier) để vận chuyển chủ động. Một số hoạt động như enzyme. Một số hoạt động như receptor: tương tác với phối tử (ligands) -> hoạt hóa enzym hoặc tương tác với protein trong bào tương (chất truyền tín hiệu thứ 2). _Như vậy có 4 chức năng: kênh (lỗ), protein mang vận chuyển chủ động, enzym, receptor._ 
+         + Protein ngoại vi: thường gắn với protein nội tại. 2 chức năng: enzym hoặc bộ điều khiển (controller) quá trình vận chuyển qua lỗ màng (pores)
+       - *Carbohydrate màng* - "Glycocalyx" của tb: hầu như luôn gắn với protein (glycoprotein) hoặc lipid (glycolipid). Hầu hết các protein nội tại là gycoprotein, 1/10 lipid là glycolipd. Hướng ra ngoài tb.  Proteoglycan - carbohydrate gắn với lõi protein nhỏ. Như vậy toàn bộ mặt ngoài phủ 1 lớp carbohydrate lỏng lẻo gọi là /glycocalyx/, 4 chức năng:
+         + Tạo điện tích âm
+         + Liên kết tb: một số tb gắn với glycocalyx của nhau.
+         + Thụ thể gắn kết hormon, như insulin. 
+         + Tham gia vào phản ứng miễn dịch
+         + _Tóm lại: Điện âm màng, liên kết tb, thụ thể, miễn dịch._
+     2. *TB chất và Bào quan:* 
+        - TB chất chứa hạt mỡ trung tính (neutral fat - triglycerid), hạt glycogen (ploymer của glucose), ribosome, túi tiết (serectory vesicles), và 5 bào quan đặc biệt quan trọng: Lưới nội sinh chất, bộ Golgi, Ty thể, Lysosome, Peroxisome. 
+        - *Lưới nội sinh chất:* mạng lưới cấu trúc hình túi và ống thông với nhau. Chức năng: xử lý các phân tử do tb tổng hợp và vận chuyển chúng đến vị trí sử dung bên trong hoặc ngoài tb. Thành cấu tạo bới màng kép lipid - tổng diện tích có thể 30 - 40 lần diện tích màng tb (như ở tb gan). Không gan bên trong ống và túi (khoang cisternal), chứa chất nền (matrix) khác với dịch cytosol (dịch bào) bên ngoài. Không gian bên trong ER thông với không gian giữa 2 màng nhân. Các chất được tổng hợp trong tb đi vào khoang ER và vân chuyển đến các phần khác của tb. Cung cấp cơ chế cho phần lớn chức năng chuyển hóa tb. 
+        - *Ribosome và lưới nội sinh chất hạt/thô (rough ER):* Bám bên ngoài rough ER là nhiều hạt nhỏ ribosome. Ribosome cấu tạo từ hỗn hợp RNA và protein, chức năng tổng hợp protein mới. ER hạt liên tục trực tiếp với màng nhân cho phép liên lạc hiệu quả
+        - *Lưới nội sinh chất trơn (smooth ER):* không có ribosome, ít hơn ER hạt. Chức năng: tổng hợp lipid, khử độc, và các chức năng khác nhờ enzym nội lưới. 
+        - *Bộ Golgi:* Có màng tương tựu ER trơn. Cấu tạo từ 4 hoặc nhiều hơn lớp túi phẳng mỏng chồng lên nhau, ở một phía của nhân, đặc biệt ở tb tiết - nó nằm phía các chất được tiết ra. Bộ Golgi hoạt động kết hợp với ER. Các túi vận chuyển nhỏ (túi ER) -> hợp nhất với golgi -> xuất ra ngoài hoặc chuyển đến vị trí khác trong tb. Một số chất dùng tạo lysosome, túi tiết và các thành phần tb khác. 
+        - *Lysosome:* _Tóm tắt: tạo từ golgi. 250-750nm. 40 enzym thủy phân 5-8nm.  PH 4.8. Tay-Sachs, hexosaminidase A, lipdi ganlioside, tb thần kinh._ 
+          + Tạo từ golgi, phân tán khắp tb chất. Chức năng tiêu hóa nội bào: cấu trúc tb hư hỏng, hạt thức ăn được tb thu nhận, virus/vi khuẩn. Có trong all tb, nhiều trong bạch cầu. Đường kính 250-750 nanomet. Chứa tập hợp 40 enzym thủy phân (hydrolase) đường kính 5-8 nanomet. Thủy phân bằng cách gắn Hydro (H) vào 1 phần hợp chất, phần còn lại gắn Hydroxyl (OH). Protein -> Amino acid, glycogen-> glucose, lipid-> acid béo và glycerol. Môi trường trong lysosome là môi trường acid # 4.8 cho enzym hoạt động, PH trung tính của Cytosol khiến enzym tiêu hóa bất hoạt. Bệnh Tay-Sachs rối loạn di truyền do độ biến gen mã hóa enzym lysosome (hexosaminidase A) phân hủy các lipid phức tạp ganglioside trong não và tb thần kinh -> tích tụ -> tổn thương hệ thần kinh, suy giảm nhận thức, suy giảm vận động, tử vong sớm. 
+        - *Peroxisome:* /Tóm tắt: tương tự lysosome. 2 khác: tự nhân đôi hoặc từ ER trơn vs golgi - và oxidase vs hydrolase. Oxy hóa độc chất và dị hóa acid béo chuỗi dài. Hội chứng Zellweger./
+          + Hình thái tương tự Lysosome. Khác: thứ 1 - chủ yếu hình thành bằng tự nhân đôi hoặc tử ER trơn thay vì Golgi (không có DNA, nhận protein từ cytosol để nhân đôi); thứ 2 - Chứa Oxidase thay vì Hydrolase. Chức năng: Oxy hóa chất gây độc cho tb (1/2 cồn bị khử thành acetaldehyde bởi peroxisome gan), dị hóa hóa acid béo chuỗi dài. Hội chứng Zellweger - giảm perixosome tế bào -> rối loạn hệ thần kinh và chuyển hóa, xuất hiện ngay sau sanh, tử vong sớm trong những năm đầu đời. 
+        - *Túi tiết:* tạo thành từ hệ thống ER-Golgi -> bào tương.
+        - *Ty thể:* /Tóm tắt: ./
+          + Là nguồn năng lượng của tb 
