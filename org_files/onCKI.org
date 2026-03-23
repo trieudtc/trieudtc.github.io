@@ -148,10 +148,146 @@
        - (1) Acid phosphoric (P)
        - (2) Đường Deoxyribose (D)
        - (3) 4 base nitơ: 2 Purine - Adenine (A) và Guanine (G); 2 Pyrimidine - Thymine (T) và Cytosine (C). 
-       - P-D tạo 2 khung xoắn, AGTC kết nối 2 chuỗi xoắn. 
+       - P-D tạo 2 khung xoắn, A--T, G---C kết nối 2 chuỗi xoắn. 
     2. *Nucleotide:* /Tóm tắt: ./
        - P-D-A: acid deoxyandenylic
        - P-D-T: acid deoxythymidylic
        - P-D-G: acid deoxyguanylic
        - P-D-C: acid deoxycytidylic
        - 4 nucleotide này có tính acid
+    3. *Sắp xếp Nucleotides -> DNA:* /Tóm tắt: A--T, G----C bằng liên kết hydro lỏng lẻo. 1 vòng xoắn có 10 cặp./
+       - Purine liên kết với pyrimidine bằng liên kết hydro lỏng lẻo: A--T 2 liên kết hydro, G---C 3 liên kết hydro. 
+       - Một vòng xoắn hoàn chỉnh của chuỗi kép DNA có 10 cặp nucleotides
+    4. *Mã di truyền:* /Tóm tắt: Một bộ ba base tạo 1 mã di truyền./ 
+*** *PHIÊN MÃ - DNA NHÂN SANG RNA BÀO TƯƠNG*
+    1. *Tổng hợp RNA trong nhân từ DNA:*
+       - *Các đơn vị cấu tạo RNA:* /Tóm tắt: bộ 3 mã RNA gọi là codon. Đường Deoxyribose -> Ribose có thêm 1 nhóm HO. T -> U./
+         + Bộ 3 DNA -> bộ 3 mã bổ sung RNA (codon).
+         + Deoxyribose của DNA thay bằng ribose chứa thêm 1 nhóm hydroxyl. 
+         + Thymine của DNA thay bằng Uracil
+       - *Sự hoạt hóa Nu của RNA:* /Tóm tắt: RNA Polymerase gắn 2 gốc phosphate vào Nu tạo triphosphate dùng ATP. Nu hoạt hóa dùng năng lượng gắn thêm vào cuối chuỗi RNA đang hình thành./
+       - *Lắp ráp RNA:* /Tóm tắt: RNA polymera nhận diện promoter -> tháo xoắn -> gắn base RNA -> tách khỏi DNA khi gặp mã kết thúc./
+         + Đặc tính enzyme RNA Polymerase: (1) Nhận diện vùng khởi động (promoter) của DNA, (2) Tháo xoán DNA, (3) a- tạo liên kết hydro Nu DNA với Nu RNA trong dịch nhân, b- bẻ 2 gốc P của Nu RNA hoạt hóa tạo năng lượng gắn liên kết hóa trị với cuối RNA đang hình thành, c- tách khỏi DNA khi gặp trình tự kết thúc, RNA Polymerase được dùng lại tiếp tục, d- RNA mới tách ra khỏi DNA vào dịch nhân do ái lực yếu hơn so với chuỗi DNA bổ sung. 
+         + Base DNA - Base RNA: G-C, C-G, A-U, T-A
+       - *Nhiều loại RNA:* /Tóm tắt: Nhiều chức năng còn bí ẩn. 6 loại: pre-mRNA, snRNA, mRNA, tRNA, rRNA, miRNA./
+         + Chức năng của nhiều loại RNA vẫn chưa hiểu rõ. 
+         + 6 loại có vai trò độc lập khác nhau: (1) pre-mRNA lớn, chưa trưởng thành, được xử lý trong nhân -> mRNA trưởng thành (intron bị bỏ, exon giữ lại). (2) RNA nhân nhỏ snRNA điều khiển cắt nối pre-mRNA. (3) mRNA ra bào tương tạo protein. (4) RNA vận chuyển tRNA vận chuyển acid amin đã hoạt hóa đến ribosome lắp ráp protein. (5) RNA ribosome rRNA cùng 75 loại protein khác tạo ribosome. (6) MicroRNA miRNA dài 21 - 23 Nu điều hòa phiên mã và dịch mã gene. 
+    2. *RNA thông tin - các Codon:* /Tóm tắt: vài trăm - vài ngìn Nu. 1 acid amin có thể nhiều codon. Khởi đầu AUG. Kết thúc UAA, UAG, UGA./
+       - Chứa vài trăm - vài ngìn Nu.
+       - Codon -> acid amin.
+       - Hầu hết một acid amin được đại diện bởi nhiều hơn một codon. 
+       - Một codon khởi đầu (CI): AUG
+       - 3 codon kết thúc (CT): UAA, UAG, UGA
+       - Codon cho 20 acid amin thường gặp [[./img/onCKI_codonAcidAmin.jpg]]
+    3. *RNA vận chuyển - các AntiCodon:* /Tóm tắt: 80 Nu, hình cỏ 3 lá. 1 đầu AMP (acid adenylic) gắn acid amin. Lá giữa Anticodon - đối mã đặc hiệu cho một acid amin./
+       - tRNA vận chuyển acid amin đến ribosome để tổng hợp protein. 
+       - Mỗi loại tRNA kết hợp đặc hiệu với 1 acid amin (anticodon - đối mã), nhận diện một codon cụ thể trên mRNA.
+       - Chứa khoảng 80 Nu. Hình dạng như cỏ 3 lá.
+       - Một đầu tRNA luôn có một Acid adenylic, hay còn gọi là Adenosine monophosphate (AMP) gồm một nhóm phosphate, đường ribose và base adenine. Acid amin sẽ gắn vào nhóm OH của đường ribose của AMP. 
+    4. *RNA Ribosome:* /Tóm tắt: Ribosome chứa 60% rRNA, còn lại 75 loại protein cấu trúc và enzym. rRNA ở hạch nhân kết hợp protein ribosome để tạo tiểu đơn vị chưa trưởng thành, ra bào tương lắp ráp trưởng thành. Do đó trong nhân không có ribosome trưởng thành -> không tạo protein trong nhân. Gen tạo rRNA có nhiều bản sao ở 5 cặp NST trong nhân./
+       - rRNA chiếm 60% cấu trúc Ribosome. Còn lại là khoảng 75 loại protein cả cấu trúc lẫn enzyme.
+       - Gen DNA tạo rRNA nằm ở 5 cặp nhiễm sắc thể trong nhân. Mỗi NST chứa nhiều bản sao của gen này vì nhu cầu ribosome lớn.
+       - rRNA hình thành tập trung ở hạch nhân, liên kết với protein ribosome để tạo các tiểu đơn vị sơ khai của ribosome. Tiểu đơn vị này qua lỗ lớn của màng nhân đến bào tương, sau đó được lắp ráp để tạo ribosome trưởng thành. Vì vậy protein được hình thành trong bào tương vì nhân không có ribosome trưởng thành. 
+    5. *miRNA và RNA can thiệp nhỏ:* /Tóm tắt: miRNA 21-23 Nu, ức chế hoặc phân hủy RNA, ít đặc hiệu hơn siRNA (220-25 Nu được tổng hợp nhân tạo hoặc virus. DNA -> Pri-miRNA, microprocessor cắt thô trong nhân -> pre-miRNA kẹp tóc 70 Nu, Dicer cắt gọn trong tb chất -> miRNA mạch kép + RISC chọn 1 mạch -> gắn mRNA./
+       - 21 - 23 Nu điều hòa biểu hiện gen. 
+       - DNA -> Pri-miRNA -> Phức hợp vi xử lý (Microprocessor complex) cắt tỉa sợi thô trong nhân -> pre-miRNA (cấu trúc kẹp tóc 70 Nu). Dicer: Cắt gọn trong tế bào chất -> tạo miRNA mạch kép. RISC: Chọn một mạch làm "la bàn" -> Khóa biểu hiện gene (ức chế dịch mã hoặc phân hủy mRNA). Rối loạn chức năng gây ra ung thư, bệnh tim. 
+       - RNA can thiệp nhỏ (siRNA), còn được gọi là RNA gây im lặng hoặc RNA can thiệp ngắn, 20 - 25 Nu. Được tổng hợp (virus hoặc nhân tạo), rất đặc hiệu, thường chỉ tấn công chính xác một mRNA mục tiêu. Khác với miRNA có thể ức chế nhiều mRNA khác nhau. 
+*** *DỊCH MÃ*
+    1. *Polyribosome - Một cụm ribosome:* /Tóm tắt: 3-10 ribosome có thể cùng lúc gắn vào 1 mRNA, gọi là polyribosome. Ribosome có thể gắn với mọi mRNA./
+       - 3 - 10 ribosome có thể gắn vào một mRNA cùng lúc, gọi là polyribosome. 
+       - Ribosome có thể gắn với bất kỳ mRNA nào, không có tính đặc hiệu. 
+    2. *Nhiều ribosome gắn vào ER:* /Tóm tắt: Do protein đang hình thành có đoạn tín hiệu, gắn với bộ nhận dạng SRP, đem đến gắn thụ thể trên ER, chuyển protein vào ER -> ribosome đính vào giống như hạt./
+       - Nếu protein đang hình thành có đoạn tín hiệu (Signal Peptide), sẽ được SRP (Signal Recognition Particle) nhận diện và tạm dừng ribosome (tránh xuất protein lung tung vào tb - nếu là enzyme phá hủy có thể gây hại), ccụm này di chuyển đến receptor trên ER, luồn protein vào trong ER tiếp tục dịch mã đẩy protein vào matrix của ER. 
+       - Ở tb tuyến, các túi tiết được hình thành số lượng lớn, các protein cần được đóng gói trong lưới nội sinh chất trước khi xuất bào. Ngược lại trong các tb bình thường, hầu hết protein được ribosome giải phóng trực tiếp vào tb chất, đó là các enzym và protein cấu trúc nội bào của tb. 
+    3. *Các bước hóa học trong tổng hợp protein:* /Tóm tắt: Tốn 4 liên kết cao năng lượng từ 1 ATP - sạc acid amin -tRNA và 1 GTP - điều phối tRNA gắn đúng (tốn nhất trogn tb)./
+       - ATP kết hợp với acid amin -> AMP-acid amin được "sạc", giải phóng 2 liên kết phosphate cao năng lượng. 
+       - AMP-acid amin + tRNA -> Acid amin - tRNA có năng lượng, giải phóng AMP.
+       - Anticodon trên tRNA gắn với mRNA trong ribosome, tốn năng lương từ 2 liên kết phosphate cao năng lượng từ GTP, enzym peptidyl transferase trong ribosome gắn các liên kết peptide không tốn thêm năng lượng do các acidamin đã được sạc. 
+       - Tổng cộng 4 liên kết cao năng lượng cần cho gắn vào 1 acid amin -> quá trình tốn năng lượng nhất của tb. 
+    4. *Liên kết Peptide - sự kết hợp của các acid amin:* /Tóm tắt: OH- bị tách khỏi COOH của AA1, H+ bị tách khỏi NH2 của AA2 -> liên kết peptide (O=C-N-H) + H2O./
+*** *ĐIỀU HÒA CHỨC NĂNG GENE VÀ HOẠT ĐỘNG SINH HÓA TRONG TB*
+    1. *General:* /Tóm tắt: 2 phương pháp cơ bản kiểm soát hoạt động sinh hóa của tb: điều hòa di truyền và điều hòa enzyme./
+       - Mỗi gen trong tổng số 20.000 - 25.000 gen, có ít nhất một cơ chế feedback giúp điều hòa hoạt động.
+       - Về cơ bản có 2 phuong pháp kiểm soát hoạt động sinh hóa của tb: (1) Điều hòa di truyền: kiểm soát hoạt hóa gen và sự hình thành các sản phẩm của gen. (2) Điều hòa Enzyme: kiểm soát mức độ hoạt động của các enzyme đã được hình thành. 
+    2. *Điều hòa di truyền:* /Tóm tắt: Basal promoter - bộ máy (TATA box, TFIID đánh dấu, TFIIB cầu nối). Upstream promoter - bộ điều khiển tại chỗ bật tắt. Enhancer - bộ khuếch đại từ xa, >100.000 enhancer. Insulator - tường cách âm - VD IGF-2 từ mẹ enhancer|insulator gắn protein ức chế|promoter; cha enhancer|insulator bị methy hóa không gắn ức chế|promoter -> biểu hiện. Cơ chế khác: Gen điều hòa -> protein điều hòa, DNA xoắn nén trên NST và tháo xoắn từng phần, hormone từ bên ngoài./
+       - Điều hòa di truyền, hay điều hòa biểu hiện gen: toàn bộ quá trình từ phiên mã trong nhân dến hình thành các protein trong bào tương. 
+       - Thước đo cuối cùng của biểu hiện gen là sản phẩm của gen (protein) có được tạo ra hay không và số lượng là bao nhiêu. 
+       - *Vùng khởi động kiểm soát biểu hiện gene:* /Tóm tắt: ./
+         + *Vùng khởi động cơ bản (basal promoter) - như bộ máy:* Protein liên kết TATA và nhiều yếu tố phiên mã, gọi chung là phức hợp phiên mã IID (TFIID) gắn vùng khởi động TATA box (TATAAA) (đánh dấu gene). Sau đó yếu tố phiên mã IIB (TFIIB) gắn vào cả DNA và RNA polymerase (cầu nối và thước đo). Vùng khởi động cơ bản có trong tất cả các gen mã hóa protein. 
+         + *Vùng khởi động thượng nguồn (upstream promoter) - như bộ điều khiển tại chỗ:* nằm xa hơn về phía thượng nguồn, chứa một số vị trí liên kết cho các yêu tố phiên mã dương tính hoặc âm tính (tăng cường hoặc ức chế) tương tác với các protein liên kết với basal promoter. Cấu trúc và vị trí liên kết yếu tố phiên mã của upstream promoter thay đổi theo từng gen -> biểu hiện khác nhau của gen ở mô khác nhau. 
+         + *Trình tự tăng cường (Enhancer sequence) - Như bộ khuếch đại từ xa:* là các vùng DNA có thể liên kết với các yếu tố phiên mã, có thể nằm cách rất xa - thậm chí trên NST khác. Mặc dù nằm xa gen đích nhưng do DNA cuộn xoắn - chúng có thể nằm rất gần. Ước tính > 100.000 enhancer trong bộ gen người. 
+         + *Trình tự cách ly nhiễm sắc thể (chromosal insulator) - như tường cách âm:* Phân tách các gen đang hoạt động và gen bị ức chế, làm rào cản để một gen cô lập khỏi các ảnh hường phiên mã từ các gen xung quanh. VD gen yếu tố tăng trưởng giống insulin 2 (IGF-2): allele từ mẹ có một trình tự cách ly nằm giữa enhancer và promoter, liên kết với protein ức chế phiên mã, tuy nhiên trình tự DNA từ cha được *Methyl hóa* khiến protein ức chế phiên mã không liên kết được với trình tự cách ly do đó gen IGF-2 từ cha được hoạt động. 
+         + *Cơ chế khác:* (1) gen điều hòa -> protein điều hòa. (2) Cùng 1 protein điều hòa có thể ức chế gen này nhưng hoạt hóa gen khác. (3) Một số không kiểm soát lúc khởi đầu phiên mã nhưng ở giai đoạn sau. (4) Trong NST DNA quấn quanh các protein histone nhỏ, DNA bị giữ ở trạng thái nén chặt, không hoạt hóa. Nhiều cơ chế kiểm soát giãn xoắn từng phần để hoạt hóa. Các tín hiệu ngoài tế bào như hormone có thẻ kích hoạt các vùng NST cụ thể. 
+    3. *Điều hòa Enzyme:* /Tóm tắt: Ức chế enzyme đầu tiên trong chuỗi -> thay đổi hình dạng không gian, hoặc hoạt hóa (cAMP)./
+       - *Ức chế enzyme:*  Hầu như luôn luôn, sản phẩm được tổng hợp sẽ tác động lên enzyme điều tiên trong chuỗi phản ứng thay vì các enzyme tiếp theo. Liên kết trực tiếp lên enzyme -> thay đổi cấu hình không gian dị lập thể (allosteric conformational change) -> enzyme bất hoạt. 
+       - *Hoạt hóa Enzyme:* enzyme bình thường ở trạng thái bất hoạt -> hoạt hóa. VD: ATP cạn kiệt -> cAMP hình thành -> hoạt hóa enzyme phân giải glycogen là *phosphorylase* ->  glucose -> năng lượng ATP. 
+       - VD: purine/pyrimidine ức chế enzyme tạo ra chúng nhưng hoạt hóa enzyme ngược lại pyrimidine/purine -> cân bằng lượng purine và pyrimidine cho DNA và RNA. 
+*** *HỆ THỐNG DI TRUYỀN - DNA KIỂM SOÁT TÁI BẢN TB*
+    1. *Chu kỳ sống của tb:* /Tóm tắt: Nguyên phân # 30 phút 5%, kỳ trung gian 95%. Tb có chu kỳ nhanh nhất # 10 giờ (tủy xương) đến cả đời (thần kinh)./
+       - Chu kỳ sống của tb: là thời gian từ khi tb sinh ra đến lần tái bản tiếp theo (kết thúc bằng nguyên phân mitosis). Tb động vật khi không bị ức chế, tái bản nhanh nhất có thể chỉ kéo dài 10 giờ (tb tủy xương bị kích thích mạnh) - 30 giờ. Tb thần kinh có thể có chu kỳ kéo dài cả cuộc đời. Nguyên phân chỉ kéo dài khoảng 30 phút, 95% chu kỳ sống là giữa 2 lần nguyên phân gọi là kỳ trung gian (interphase). 
+    2. *Tái bản tb bắt đầu bằng nhân đôi DNA:* /Tóm tắt: DNA polymerase nhân đôi chiều 5'-3' (3-5 ở chuỗi mẹ), ở chuỗi dẫn đầu khe hở RNA mồi sau khi exonuclease thay bằng Nu DNA sẽ được nối bằng DNA ligase, ở chuỗi chậm nối các đoạn mồi, và Okzaki. Tháo xoắn DNA bằng topoisomerase./
+       - Trước nguyên phân 5-10 giờ, DNA bắt đầu nhân đôi kéo dài 4-8 giờ. Sau nhân đôi 1-2 sẽ bắt đầu nguyên phân đột ngột. 
+       -  DNA được nhân đôi gần giống phiên mã RNA ngoại trừ: (1) Cả 2 chuỗi đều được nhân đôi. (2) Nhân đôi toàn bộ chuỗi vs đoạn nhỏ. (3) DNA polymerase thêm Nu theo chiều 5' -> 3'; DNA ligase liên kết các Nu với nhau. (4) Chạc tái bản (replication fork) DNA tháo xoắn và tách liên kết hydro bởi enzyme DNA Helicase tạo hình chữ Y. DNA có tính định hướng chỉ nhân đôi chiều 5'->3'; tại chạc tái bản chuỗi dẫn đầu (leading strand) hướng chiều 3'-5' về phía chạc tái bane, chuỗi chậm (lagging strand) hướng chiều 5'-3' ra xa chạc tái bản. Do hướng khác nhau, 2 chuỗi nhân đôi cách khác nhau. (5) Gắn đoạn mồi (primer biding): một đoạn RNA ngắn gọi là RNA mồi (RNA primer) sẽ gắn vào đầu 3' của chuỗi dẫn đầu. Các đoạn mồi được tạo ra bởi enzyme DNA primase. (6) Kéo dài: Chuỗi dẫn đầu được kéo dài liên tục; chuỗi chậm bắt đầu nhân đôi bằng cách liên kết với nhiều đoạn mồi cách nhau vài base, sau đó DNA polymerase thêm các đoạn DNA gọi là đoạn Okazaki vào giữa các đoạn mồi. DNA ligase nối các đoạn Okzaki lại tạo thành chuỗi thống nhất. (8) kết thúc: Enzyme exonuclease loại bỏ các đoạn mồi RNA, thay thế bằng các base thích hợp, đọc sửa DNA mới hình thành. Enzyme topoisomerase có thể tạm thời làm đứt liên kết phosphodiesterase trong khung xương DNA phía trước chạc tái bản để ngăn DNA không xoắn quá mức, phản ứng này tạm thời, sau khi hoàn thành DNA mẹ và bổ sung sẽ xoắn lại. 
+    3. *Sửa chữa DNA:* /Tóm tắt: Đọc và Sửa chữa bằng chính DNA polymerase và ligase./
+       - Trong khoảng 1 giờ sau khi DNA nhân đôi và nguyên phân DNA sẽ được sửa chữa. Quá trình sửa chữa bởi chính DNA polymerase và ligase. Có khoảng 10 đột biến trong quá trình truyền bộ gen từ cha mẹ sang con cái, nhưng bù lại có 2 bộ nhiễm sắc thể bù trừ. 
+    4. *Nhân đôi NST:* 46 cái, 23 cặp.
+       - *Tổ chức và đóng gói DNA trong NST:* /Tóm tắt: DNA tháo xoắn khoảng 6 feet (2m), quấn quanh histone gọi là nucleosome. heterochromatin - chất nhiễm sắc dị hóa bị nén không phiên mã được, euchromatin - chất nhiễm sắc thực lỏng lẻo, phiên mã được. Tâm động cetrome./
+         + DNA người tháo xoắn dài khoảng 6 feet (2m).
+         + DNA quấn quanh lõi Histone (nucleosome) -> chromatin fiber -> chromosome. 
+         + NST nén đặc (heterochromatin - chất nhiễm sắc dị hóa), không thể phiên mã DNA. Chất nhiễm sắc mở (euchromatin - chất nhiễm sắc thực) lỏng lẻo và phiên mã có thể diễn ra.
+         + 2 NST sau nhân đôi dính với nhau tại tại tâm động (centromere) gọi là chromatid (nhiễm sắc tử). 
+    5. *Nguyên phân:*
+       - *Bộ máy nguyên phân:* /Tóm tắt: Vi ống cộng với 2 cặp trung tử. Kỳ đầu - thoi phân bào NST cô đặc. Tiền kỳ giữa - phân mảnh màng nhân, gắn tâm động kéo về 2 cực. Kỳ giữa - mặt phẳng xích đạo. Kỳ sau - chrômatid tác nhau khỏi tâm động. Kỳ cuối - màng nhân thành, tb thắt lại ở giữa./
+         + Kỳ đầu (prophase): Thoi phân bào đang hình thành, NST cô đặc. 
+         + Tiền kỳ giữa (Prometaphase): Gai vi ống phân mảnh màng nhân. Gắn chromatid tại tâm động kéo về 2 cực. 
+         + Kỳ giữa (metaphase): Tạo mặt phẳng xích đạo. 
+         + Kỳ sau (Anaphase): Hai chromatid bị tách rời khỏi tâm động kéo về 2 cực. 
+         + Kỳ cuối (Telophase):Màng nhân mới hình thành, tb thắt lại ở giữa. 
+    6. *Kiểm soát tăng trưởng và tái bản tế bào:* /Tóm tắt: 3 cơ chế (1) yếu tố tăng trưởng, (2) ức chế tiếp xúc, (3) phản hồi âm. Telomere ngăn chặn thoái hóa NST (mất gen), mất dần khi phân chia, bệnh, stress oxy hóa, viêm; telomerase thêm Nu vào telomere, hoạt động bất thường có thể gây K./
+       - Có thể cắt bỏ 7/8 gan và các tb còn lại sẽ phân chia cho đến khi khối lượng tb gan trở lại gần như bình thường. Tương tự cho tb tuyền, tb tủy xương, mô dưới da, biểu mô ruột, và tb khác trừ tb biệt hóa cao như thần kinh và cơ. 
+       - Có ít nhất 3 cách kiểm soát tăng trưởng: (1) Yếu tố tăng trưởng (growth factors) từ các bộ phận khác của cơ thể, trong máu hoặc mô lân cận. Vd yếu tố tăng trường mô liên kết bên dưới -> tb tuyến tụy. (2) Ức chế tiếp xúc: ngừng tăng trưởng do hết không gian. (3) Phản hồi âm tính. 
+       -  *Telomere ngăn chặn thoái hóa NST:* 
+         + Telomere là một vùng của các trình tự Nu lặp lại ở mỗi đầu của NST. 
+         + Khi nhân đôi, đoạn mồi không gắn ở đầu tận DNA nên bản sao mất một đoạn nhỏ DNA từ telomere -> ngăn chặn mất gen ở đoạn mút. Mỗi lần mất 30-200 cặp base (ở tb máu người mới sinh 8.000 cặp Nu trên telomere-> 1.500 ở người lớn tuổi). Khi telomere ngắn đến một giới hạn NST không ổn định -> chết tb. Xói mòn telomere có thể do bệnh tât, stress oxy hóa và viêm. 
+         + Ở tb phải được bổ sung suốt cuộc đời (tb gốc tủy xương, da, tb mầm ở buồng trứng tinh hoàn) Enzyme telomerase sẽ thêm các Nu và telomere để tạo ra nhiều thế hệ tb hơn. Telomerase bị kích hoạt bất thường có thể gây ung thư.
+*** *BIỆT HÓA TB:* /Tóm tắt: Do ức chế chọn lọc gen. TB sản xuất tối đa 8.000-10.000 protein/tiềm năng 20.000-25.000./
+    - Biệt hóa tb là những thay đổi về đặc tính vật lý và chức năng của tb khi chứng tăng sinh trong phôi để hình thành các cấu trúc cơ thể và cơ quan khác nhau. 
+    - Do ức chế chọn lọc các vùng khởi động gen khác nhau. 
+    - Mỗi tb người trường thành chỉ sản xuất tối đa 8.000 - 10.000 protein/ tiềm năng 20.000 - 25.000. 
+    - Các tb trong phôi kiểm soát sự biệt hóa của các tb lân cận. VD: Trung bì dây sống nguyên thủy được gọi là trung tâm tổ chức sơ cấp của phôi do nó tạo ra trung tâm xung các phần còn lại của phôi phát triển. -> biệt hóa thành trụng trung bì chứa các đốt phôi -> cảm ứng các mô xung quanh -> cơ quan. VD2: sự hình thành thấu kính của mắt. 
+*** *APOTOSIS - CHẾT TB THEO CHƯƠNG TRÌNH:* /Tóm tắt: ProCaspase - > Caspase -> dòng thách hủy protein -> thực bào. VD Alzheimer, ung thư, tự miễn./
+    - Apotosis khởi phát bằng kích hoạt nhiều loại ProCaspases -> Caspase (một loai protease) -> dòng thác tiêu protein -> thực bào tiêu hóa, khác với Cell necrosis thường sưng lên vỡ ra tràn các enzyme làm tổn thương tb lân cận gây viêm. 
+    - Vd apotosis bất thường -> Alzheimer, ung thư, tự miễn. 
+*** *UNG THƯ:* /Tóm tắt: Do đột biến hoặt kích hoạt gen tiền ung, bất hoạt gen kháng ung thư (gen ức chế khối u). đặc điểm: không giới hạn tăng trưởng, kém kết dính, tiết yếu tố tạo mạch./
+    - Ung thư có thể do đột biến hoặc kích hoạt bất thường các gen kiểm soát tăng trường và nguyên phân của tb. 
+    - Proto-Oncogenes, tiền gen ung thư, là các gen bình thường mã hóa cho các protein kiểm soát sự kết dính, tăng trường và phân chia tb. Nếu bị đột biến hoặc kích hoạt quá mức -> ung thư. Có khoảng 100 gen ung thư đã biết. 
+    - AntiOncogenes, gen kháng ung thư, còn gọi là gen ức chế khối u, có chức năng ức chế kích hoạt gen ung thư cụ thể. Bất hoạt các gen này có thể gây ung thư. 
+    - Chỉ một phần rất nhỏ tb đột biến dẫn đến ung thư: (1) sinh tồn kém (2) tb đột biến còn cơ chế phản hồi ức chế (3) tb miễn dịch triệt tiêu (4) Thường cần nhiều gen ung thư được kích hoạt. 
+    - Yêu tố tăng đột biến: (1) Bức xạ ion hóa (2) hóa chất vd dẫn xuất thuốc nhuôn aniline (3) vật lý -> tổn thương liên tục -> thay tb nhanh -> dễ đột biến (4) Di truyền, có sẵn đột biến, cần ít đột biến bổ sung hơn (5) Virus: chèn trực tiếp của virus DNA, phiên mã ngược của virus RNA
+    - *Đặc tính xâm lấn:* (1) không giới hạn tăng trường do không cần yếu tố tăng trưởng (2) kết dính kém dễ di căn (3) một số tb ung thư sản xuất yếu tố tạo mạch cung cấp dinh dưỡng. 
+** Chap 4 - Vận chuyển qua màng tế bào
+*** *MÀNG LIPID KÉP VÀ PROTEIN VẬN CHUYỂN*
+    - Transport protein = tất cả
+    - Channel = tạo kênh, có thể có cổng đóng mở, chọn lọc
+    - Carrier = gắn + đổi hình, rất chọn lọc. Có Vmax. Cả chủ động + khuyếch tán.
+    - Pore = kênh đơn giản, ít chọn lọc, luôn mở
+    - Ngoại bào: Natri, Ca, sulfat, glucose, 
+    - Nội bào: KMP (Kali, Magne, Phosphate), protein, acid amin, 
+*** Khuếch tán
+    - Cho các chất tan trong lipid đi qua: oxy, 
+    - Lỗ: kênh đơn, giản, ít chọn lọc, luôn mở. Nhiều loại aquaporins cho nước đi qua dễ dàng (một số kênh cho ure đi qua chậm hơn - ít chọn lọc), tốc độ khuếch tán qua HC = 100 x V_HC/s
+    - Protein kênh: gắn với phân tử, chọn lọc, nhiều loại có kênh đóng mở (điện thế, ligand, áp suất). VD kênh Natri: gần như chỉ cho Natri đi qua, khe lọc chọn lọc (selective filter) là các acid ammin mang điện tích âm mạnh, giúp natri tháo nước, vừa khít năng lượng??? -> vào tb, ngăn kali do tháo nước năng lượng không phù hợp; có thể cho Lithium đi qua, do đó thuốc có thể vào hệ thần kinh???. Kênh Kali: ???
+    - Protein mang: rất chọn lọc, có vị trí gắn phân tử, thay đổi cấu hình, có hiện tượng bão hòa vận tốc. Nổi tiếng là protein mang GUT khuếch tán glucose vào màng, GUT4 phản ứng với inlusulin đưa glucose vào màng tb. 
+    - Độ thẩm thấu: phụ thuộc vào số lượng phân tử (mol), không phụ thuộc vào khối lượng riêng do càng lớn thì di chuyển càng chậm suy ra động năng trung bình bằng nhau, chất phân tán thành ion Như NaCL thì có thể x 2 do phân tán ra 2 ion (thực tế thấp hơn do phân tán không hoàn toàn). 
+    - Osmolality: áp suất thẩm thấu/ 1 kg nước. 
+    - Osmolarity: áp suất thẩm thấu/ 1 lít nước, khác biệt ít # 1% dễ dùng trên thực hành hơn.
+*** Vận chuyển chủ động
+    - Vận chuyển chủ động nguyên phát: dùng ATP
+      + Kênh 3Na-2K: 2 phân tử protein (được nghiên cứu nhiều nhất, nhỏ - chưa biết hết chức năng, lớn có chỗ gắn cho 3Na trong - gần đó có ATPase, 2 kali ngoài). Kênh này 2 chiều, nếu đi ngược lại thì tạo năng lượng. Rất quan trọng trong điện thế màng tb, dẫn truyền thần kinh. Tạo cân bằng áp suất thẩm thấu khiến tb không bị phình to do nồng độ protein và chất hữu cơ trong màng tb cao. 
+      + Kênh Ca2+: duy trì nồng độ ngoài màng cao 1 triệu lần? trong màng. Quan trọng trong co cơ???. có trên các màng lưới cơ chất, ty thể. 
+      + Kênh H+: rất quan trọng trong phần sau ống lượn xa, ống góp: có thể  duy trì nồng độ 900 lần 
+    - Vận chuyển chủ động thứ phát: Dùng năng lượng có sẵn do kênh vận chuyển chủ động nguyên phát (điện thế, nồng độ, áp suất?)
+      + Đồng vận chuyển: Na-glucose: quan trọng trong biểu mô ruột. Phải gắn cả 2 mới vận chuyển được. Còn có đồng vận chuyển Na-H rất quan trọng trong ống gần (chìa khóa cân bằng kiềm toan?) vì xuất H+ lượng rất lớn để trung hòa HCO3- thành CO2 và nước???. Còn có đồng vận chuyển Na-Ca. Các kênh đồng vận chuyển khác (clo, urat, phospho, ure, ...???)
+      + Đối vận chuyển: 
+*** Vận chuyển qua các lớp tế bào: 
+    - Natri, nước thụ động từ lòng ruột, ống thận (có các liên kết nối chặt Junction và biểu mô bàn chải ở mặt lòng) -> tb. Chủ động Natri từ tb vào mô kẽ -> tạo áp suất thẩm thấu ->kéo nước vào mô kẽ.

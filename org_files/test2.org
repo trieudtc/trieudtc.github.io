@@ -1,123 +1,30 @@
-## Kiểm soát di truyền đối với tổng hợp Protein, chức năng tế bào và sự sinh sản tế bào
-
-Các gene, nằm trong nhân của tất cả các tế bào trong cơ thể, kiểm soát sự di truyền từ cha mẹ sang con cái, cũng như các hoạt động chức năng hàng ngày của mọi tế bào. Gene kiểm soát chức năng tế bào bằng cách quyết định cấu trúc, enzyme và các chất hóa học nào được tổng hợp bên trong tế bào. Hình 3.1 trình bày sơ đồ tổng quát của sự kiểm soát di truyền. Mỗi gene, được cấu tạo từ acid deoxyribonucleic (DNA), kiểm soát sự hình thành của một loại acid nucleic khác là acid ribonucleic (RNA); sau đó RNA này sẽ lan tỏa khắp tế bào để kiểm soát sự hình thành của một protein cụ thể. Toàn bộ quá trình, từ phiên mã mã di truyền trong nhân đến dịch mã mã RNA và sự hình thành các protein trong tế bào tương, thường được gọi là sự biểu hiện gene (gene expression). Vì cơ thể người có khoảng 20.000 đến 25,000 gene khác nhau mã hóa cho các protein trong mỗi tế bào, nên có thể hình thành một số lượng lớn các protein tế bào khác nhau. Trên thực tế, các phân tử RNA được phiên mã từ cùng một đoạn DNA — cùng một gene — có thể được tế bào xử lý theo nhiều cách, tạo ra các phiên bản protein thay thế. Tổng số lượng các protein khác nhau được sản xuất bởi các loại tế bào khác nhau ở người ước tính ít nhất là 100.000. Tuy nhiên, không phải tất cả các protein này đều được sản xuất bởi tất cả các tế bào vào mọi thời điểm. Tùy thuộc vào chức năng, các loại tế bào khác nhau có các hệ protein (proteome) khác nhau (toàn bộ các protein được tạo ra bởi một tế bào). Một số protein tế bào là các protein cấu trúc, cùng với các lipid và carbohydrate khác nhau, hình thành nên cấu trúc của các bào quan nội bào đã được thảo luận trong Chương 2. Tuy nhiên, hầu hết các protein là các enzyme xúc tác cho các phản ứng hóa học khác nhau trong tế bào. Ví dụ, các enzyme thúc đẩy tất cả các phản ứng oxy hóa cung cấp năng lượng cho tế bào, cùng với sự tổng hợp của tất cả các chất hóa học trong tế bào, chẳng hạn như lipid, glycogen và adenosine triphosphate (ATP).
-
-### NHÂN TẾ BÀO – CÁC GENE KIỂM SOÁT SỰ TỔNG HỢP PROTEIN
-Trong nhân tế bào, một số lượng lớn các gene được gắn nối tiếp nhau trong các phân tử DNA xoắn kép cực dài có trọng lượng phân tử tính bằng hàng tỷ. Một đoạn rất ngắn của một phân tử như vậy được trình bày trong Hình 3.2. Phân tử này được cấu tạo từ một vài hợp chất hóa học đơn giản liên kết với nhau theo một quy luật nhất định, các chi tiết của nó sẽ được giải thích trong các đoạn tiếp theo.
-
-#### Các đơn vị cấu trúc của DNA
-Hình 3.3 cho thấy các hợp chất hóa học cơ bản tham gia vào sự hình thành DNA. Các hợp chất này bao gồm: (1) acid phosphoric; (2) một loại đường gọi là deoxyribose; và (3) bốn base nitơ (hai purine là adenine và guanine, và hai pyrimidine là thymine và cytosine). Acid phosphoric và deoxyribose tạo thành hai chuỗi xoắn là khung xương của phân tử DNA, và các base nitơ nằm giữa hai chuỗi và kết nối chúng lại với nhau, như minh họa trong Hình 3.2.
-
-#### Các Nucleotide
-Giai đoạn đầu tiên của quá trình hình thành DNA là sự kết hợp của một phân tử acid phosphoric, một phân tử deoxyribose và một trong bốn base để tạo thành một nucleotide có tính acid. Do đó, bốn nucleotide riêng biệt được hình thành, tương ứng với mỗi loại trong bốn base: các acid deoxyadenylic, deoxythymidylic, deoxyguanylic và deoxycytidylic. Hình 3.4 trình bày cấu trúc hóa học của acid deoxyadenylic, và Hình 3.5 cho thấy các ký hiệu đơn giản cho bốn nucleotide hình thành nên DNA.
-
-#### Các Nucleotide được tổ chức để hình thành hai chuỗi DNA liên kết lỏng lẻo với nhau
-Hình 3.2 cho thấy cách thức nhiều nucleotide liên kết với nhau để tạo thành hai chuỗi DNA. Ngược lại, hai chuỗi này liên kết lỏng lẻo với nhau bằng các liên kết ngang yếu, được minh họa trong Hình 3.6 bằng các đường đứt nét ở giữa. Lưu ý rằng khung xương của mỗi chuỗi DNA được cấu tạo từ các phân tử acid phosphoric và deoxyribose xen kẽ nhau. Ngược lại, các base purine và pyrimidine được gắn vào các mặt bên của phân tử deoxyribose. Sau đó, thông qua các liên kết hydro lỏng lẻo (đường đứt nét) giữa các base purine và pyrimidine, hai chuỗi DNA tương ứng được giữ lại với nhau. Tuy nhiên, cần lưu ý các quy tắc sau:
-1. Mỗi base purine adenine của chuỗi này luôn liên kết với một base pyrimidine thymine của chuỗi kia.
-2. Mỗi base purine guanine luôn liên kết với một base pyrimidine cytosine.
-
-Do đó, trong Hình 3.6, trình tự của các cặp base bổ sung là CG, CG, GC, TA, CG, TA, GC, AT và AT. Do tính chất lỏng lẻo của các liên kết hydro, hai chuỗi có thể tách rời nhau một cách dễ dàng, và chúng thực hiện điều này nhiều lần trong suốt quá trình thực hiện chức năng trong tế bào. Để hình dung DNA trong Hình 3.6 theo đúng phối cảnh vật lý, người ta chỉ cần cầm hai đầu và xoắn chúng thành một đường xoắn kép. Có mười cặp nucleotide trong mỗi vòng xoắn hoàn chỉnh của phân tử DNA.
-
-#### Mã di truyền
-Tầm quan trọng của DNA nằm ở khả năng kiểm soát sự hình thành protein trong tế bào, điều này đạt được thông qua mã di truyền. Nghĩa là, khi hai chuỗi của một phân tử DNA tách rời nhau, các base purine và pyrimidine hướng ra phía bên của mỗi chuỗi DNA sẽ bị lộ ra, như được hiển thị ở chuỗi phía trên trong Hình 3.7. Chính các base lộ ra này tạo nên mã di truyền. Mã di truyền bao gồm các "bộ ba" (triplets) base liên tiếp — nghĩa là cứ ba base liên tiếp là một từ mã. Các bộ ba liên tiếp cuối cùng sẽ kiểm soát trình tự các acid amin trong một phân tử protein sắp được tổng hợp trong tế bào. Lưu ý trong Hình 3.6 rằng chuỗi DNA phía trên, đọc từ trái sang phải, có mã di truyền GGC, AGA, CTT, với các bộ ba được ngăn cách với nhau bằng các mũi tên. Khi chúng ta theo dõi mã di truyền này qua Hình 3.7 và Hình 3.8, chúng ta thấy rằng ba bộ ba tương ứng này chịu trách nhiệm cho việc sắp xếp liên tiếp ba acid amin: proline, serine và acid glutamic trong một phân tử protein mới hình thành.
-
-### PHIÊN MÃ — SỰ CHUYỂN MÃ DNA CỦA NHÂN TẾ BÀO SANG MÃ RNA CỦA TẾ BÀO TƯƠNG
-Bởi vì DNA nằm trong nhân tế bào, nhưng hầu hết các chức năng của tế bào được thực hiện trong tế bào tương, nên phải có một phương tiện nào đó để DNA kiểm soát các phản ứng hóa học của tế bào tương. Sự kiểm soát này đạt được thông qua trung gian của một loại acid nucleic khác là RNA, sự hình thành của nó được kiểm soát bởi DNA của nhân. Do đó, như được trình bày trong Hình 3.7, mã được chuyển sang RNA trong một quá trình gọi là phiên mã (transcription). Tiếp theo, RNA khuếch tán từ nhân qua các lỗ nhân vào khoang tế bào tương, nơi nó kiểm soát sự tổng hợp protein.
-
-#### RNA ĐƯỢC TỔNG HỢP TRONG NHÂN TỪ MỘT KHUÔN MẪU DNA
-Trong quá trình tổng hợp RNA, hai chuỗi DNA tạm thời tách rời; một trong những chuỗi này được sử dụng làm khuôn mẫu để tổng hợp phân tử RNA. Các bộ ba mã trong DNA dẫn đến việc hình thành các bộ ba mã bổ sung (gọi là codon) trong RNA. Các codon này, đến lượt chúng, sẽ kiểm soát trình tự các acid amin trong một protein được tổng hợp trong tế bào tương.
-
-**Đơn vị cấu trúc của RNA.** Các đơn vị cấu trúc cơ bản của RNA gần giống với các đơn vị của DNA, ngoại trừ hai điểm khác biệt. Thứ nhất, đường deoxyribose không được sử dụng trong quá trình hình thành RNA. Thay vào đó là một loại đường khác có thành phần hơi khác, ribose, chứa thêm một nhóm hydroxyl gắn vào cấu trúc vòng ribose. Thứ hai, thymine được thay thế bằng một pyrimidine khác là uracil.
-
-**Sự hình thành các Nucleotide RNA.** Các đơn vị cấu trúc cơ bản của RNA tạo thành các nucleotide RNA, chính xác như mô tả trước đây cho quá trình tổng hợp DNA. Ở đây, bốn nucleotide riêng biệt cũng được sử dụng để tạo thành RNA. Các nucleotide này chứa các base adenine, guanine, cytosine và uracil. Lưu ý rằng các base này giống như trong DNA, ngoại trừ uracil trong RNA thay thế cho thymine trong DNA.
-
-**Sự "hoạt hóa" các Nucleotide RNA.** Bước tiếp theo của quá trình tổng hợp RNA là sự "hoạt hóa" các nucleotide RNA bởi một enzyme là RNA polymerase. Sự hoạt hóa này xảy ra bằng cách thêm hai gốc phosphate bổ sung vào mỗi nucleotide để tạo thành các triphosphate (được hiển thị trong Hình 3.7 bởi hai nucleotide RNA ở phía xa bên phải trong quá trình hình thành chuỗi RNA). Hai phosphate cuối cùng này được kết hợp với nucleotide bằng các liên kết phosphate cao năng có nguồn gốc từ ATP trong tế bào. Kết quả của quá trình hoạt hóa này là một lượng lớn năng lượng ATP được cung cấp cho mỗi nucleotide. Năng lượng này được sử dụng để thúc đẩy các phản ứng hóa học gắn thêm mỗi nucleotide RNA mới vào đầu chuỗi RNA đang phát triển.
-
-#### CHUỖI RNA ĐƯỢC LẮP RÁP TỪ CÁC NUCLEOTIDE ĐÃ HOẠT HÓA BẰNG CÁCH SỬ DỤNG CHUỖI DNA LÀM KHUÔN
-Như được trình bày trong Hình 3.7, việc lắp ráp RNA được thực hiện dưới tác động của enzyme RNA polymerase. Enzyme protein lớn này có nhiều đặc tính chức năng cần thiết cho việc hình thành RNA, như sau:
-1. Trong chuỗi DNA, ngay phía trước gene sắp được phiên mã là một trình tự các nucleotide được gọi là vùng khởi động (promoter). RNA polymerase có cấu trúc bổ sung thích hợp để nhận diện vùng khởi động này và gắn vào đó, đây là bước thiết yếu để bắt đầu hình thành RNA.
-2. Sau khi gắn vào vùng khởi động, RNA polymerase gây ra sự tháo xoắn khoảng hai vòng của chuỗi xoắn DNA và tách các phần đã tháo xoắn của hai chuỗi.
-3. Sau đó, polymerase di chuyển dọc theo chuỗi DNA, tạm thời tháo xoắn và tách hai chuỗi DNA ở mỗi giai đoạn di chuyển của nó. Khi di chuyển, tại mỗi giai đoạn, nó thêm một nucleotide RNA đã hoạt hóa mới vào đầu chuỗi RNA mới hình thành thông qua các bước sau:
-   a. Đầu tiên, nó tạo thành một liên kết hydro giữa base ở đầu chuỗi DNA và base của một nucleotide RNA trong dịch nhân.
-   b. Sau đó, lần lượt từng cái một, RNA polymerase bẻ gãy hai trong số ba gốc phosphate khỏi mỗi nucleotide RNA này, giải phóng một lượng lớn năng lượng từ các liên kết phosphate cao năng bị phá vỡ. Năng lượng này được sử dụng để tạo ra liên kết cộng hóa trị của phosphate còn lại trên nucleotide với đường ribose ở đầu chuỗi RNA đang phát triển.
-   c. Khi RNA polymerase đi đến cuối gene DNA, nó gặp một trình tự nucleotide DNA mới gọi là trình tự kết thúc chuỗi (chain-terminating sequence), khiến polymerase và chuỗi RNA mới hình thành tách khỏi chuỗi DNA. Sau đó, polymerase có thể được sử dụng lặp đi lặp lại để tạo thành nhiều chuỗi RNA mới hơn.
-   d. Khi chuỗi RNA mới được hình thành, các liên kết hydro yếu của nó với khuôn mẫu DNA bị phá vỡ vì DNA có ái lực cao trong việc liên kết lại với chuỗi DNA bổ sung của chính nó. Do đó, chuỗi RNA bị đẩy ra khỏi DNA và được giải phóng vào dịch nhân.
-
-Vì vậy, mã có trong chuỗi DNA cuối cùng được truyền dưới dạng bổ sung sang chuỗi RNA. Các base nucleotide ribose luôn kết hợp với các base deoxyribose theo các cặp sau:
-* Base DNA Guanine - Base RNA Cytosine
-* Base DNA Cytosine - Base RNA Guanine
-* Base DNA Adenine - Base RNA Uracil
-* Base DNA Thymine - Base RNA Adenine
-
-#### Có nhiều loại RNA khác nhau.
-Nhiều loại RNA khác nhau đã được phát hiện. Một số RNA tham gia vào quá trình tổng hợp protein, trong khi các loại khác thực hiện chức năng điều hòa gene hoặc tham gia vào quá trình biến đổi RNA sau phiên mã. Chức năng của một số loại RNA, đặc biệt là những loại dường như không mã hóa cho protein, vẫn còn là một điều bí ẩn. Sáu loại RNA sau đây đóng vai trò độc lập và khác nhau trong quá trình tổng hợp protein:
-1. **RNA thông tin tiền thân (pre-mRNA)** là một chuỗi RNA đơn, lớn, chưa trưởng thành, được xử lý trong nhân để tạo thành RNA thông tin trưởng thành (mRNA). Pre-mRNA bao gồm hai loại phân đoạn khác nhau, được gọi là các intron (bị loại bỏ bởi quá trình cắt nối - splicing) và các exon (được giữ lại trong mRNA cuối cùng).
-2. **RNA nhân nhỏ (snRNA)** điều khiển quá trình cắt nối pre-mRNA để tạo thành mRNA.
-3. **RNA thông tin (mRNA)** mang mã di truyền đến tế bào tương để kiểm soát loại protein được hình thành.
-4. **RNA vận chuyển (tRNA)** vận chuyển các acid amin đã hoạt hóa đến các ribosome để sử dụng trong việc lắp ráp phân tử protein.
-5. **RNA ribosome**, cùng với khoảng 75 loại protein khác nhau, hình thành nên các ribosome, cấu trúc vật lý và hóa học nơi các phân tử protein thực sự được lắp ráp.
-6. **MicroRNA (miRNA)** là các phân tử RNA sợi đơn gồm 21 đến 23 nucleotide có thể điều hòa quá trình phiên mã và dịch mã của gene.
-
-### RNA THÔNG TIN — CÁC CODON (MÃ DI TRUYỀN)
-Các phân tử RNA thông tin (mRNA) là những chuỗi RNA đơn dài lơ lửng trong tế bào tương. Những phân tử này được cấu tạo từ vài trăm đến vài nghìn nucleotide RNA trong các chuỗi không bắt cặp, và chúng chứa các **codon** (đơn vị mã) có trình tự bổ sung chính xác với các bộ ba mã của các gene DNA.
-
-Hình 3.8 trình bày một đoạn ngắn của mRNA. Các codon của nó là CCG, UCU và GAA, vốn là các codon mã hóa cho các acid amin proline, serine và acid glutamic. Quá trình phiên mã các codon này từ phân tử DNA sang phân tử RNA được thể hiện trong Hình 3.7.
-
-
-
-**Các codon RNA cho các acid amin khác nhau.** Bảng 3.1 liệt kê các codon RNA cho 20 loại acid amin phổ biến được tìm thấy trong các phân tử protein. Lưu ý rằng hầu hết các acid amin được đại diện bởi nhiều hơn một codon; ngoài ra, một codon đại diện cho tín hiệu "bắt đầu sản xuất phân tử protein" (mã mở đầu), và ba codon đại diện cho tín hiệu "dừng sản xuất phân tử protein" (mã kết thúc). Trong Bảng 3.1, hai loại codon này được ký hiệu là CI (**chain-initiating**) cho codon "mở đầu chuỗi" và CT (**chain-terminating**) cho codon "kết thúc chuỗi".
-
----
-
-### RNA VẬN CHUYỂN — CÁC ANTICODON (ĐỐI MÃ)
-Một loại RNA khác thiết yếu cho quá trình tổng hợp protein là RNA vận chuyển (tRNA), có chức năng vận chuyển các acid amin đến các phân tử protein khi protein đang được tổng hợp. Mỗi loại tRNA kết hợp đặc hiệu với 1 trong số 20 loại acid amin sẽ được tích hợp vào protein. Sau đó, tRNA đóng vai trò là vật mang để vận chuyển loại acid amin cụ thể của nó đến các ribosome, nơi các phân tử protein đang hình thành. Tại ribosome, mỗi loại tRNA cụ thể sẽ nhận diện một codon đặc trưng trên mRNA (sẽ được mô tả sau) và từ đó đưa acid amin thích hợp đến vị trí chính xác trong chuỗi của phân tử protein mới hình thành.
-
-tRNA chỉ chứa khoảng 80 nucleotide, là một phân tử tương đối nhỏ so với mRNA. Nó là một chuỗi nucleotide gấp nếp với hình dạng giống lá chẽ ba (cloverleaf) tương tự như hình minh họa trong Hình 3.9. Tại một đầu của phân tử luôn có một acid adenylic, nơi acid amin được vận chuyển sẽ gắn vào nhóm hydroxyl của đường ribose trong acid adenylic đó.
-
-Bởi vì chức năng của tRNA là làm cho một acid amin cụ thể gắn vào chuỗi protein đang hình thành, nên điều thiết yếu là mỗi loại tRNA cũng phải có tính đặc hiệu với một codon cụ thể trong mRNA. Mã cụ thể trong tRNA cho phép nó nhận diện một codon đặc hiệu cũng là một bộ ba base nucleotide và được gọi là **anticodon** (đối mã). Anticodon này nằm ở khoảng giữa của phân tử tRNA (ở phần dưới của cấu trúc lá chẽ ba trong Hình 3.9). Trong quá trình hình thành phân tử protein, các base của anticodon liên kết lỏng lẻo bằng liên kết hydro với các base của codon trên mRNA. Bằng cách này, các acid amin tương ứng được xếp hàng nối tiếp nhau dọc theo chuỗi mRNA, từ đó thiết lập trình tự acid amin thích hợp trong phân tử protein mới hình thành.
-
----
-
-### RNA RIBOSOME
-Loại RNA thứ ba trong tế bào là RNA ribosome (rRNA), chiếm khoảng 60% cấu trúc của ribosome. Phần còn lại của ribosome là protein, bao gồm khoảng 75 loại protein vừa là protein cấu trúc vừa là các enzyme cần thiết để sản xuất protein.
-
-Ribosome là cấu trúc vật lý trong tế bào tương nơi protein được tổng hợp. Tuy nhiên, nó luôn hoạt động phối hợp với hai loại RNA kia: tRNA vận chuyển acid amin đến ribosome để tích hợp vào protein đang phát triển, và mRNA cung cấp thông tin cần thiết để sắp xếp các acid amin theo đúng thứ tự cho từng loại protein cụ thể được sản xuất. Do đó, ribosome đóng vai trò như một nhà máy sản xuất nơi các phân tử protein được hình thành.
-
-**Sự hình thành Ribosome trong nhân con (Nucleolus).** Các gene DNA cho sự hình thành RNA ribosome nằm ở năm cặp nhiễm sắc thể trong nhân. Mỗi nhiễm sắc thể này chứa nhiều bản sao của các gene cụ thể này do cần một lượng lớn RNA ribosome cho chức năng tế bào. Khi RNA ribosome hình thành, nó tập trung ở nhân con, một cấu trúc chuyên biệt nằm cạnh các nhiễm sắc thể. Khi một lượng lớn RNA ribosome đang được tổng hợp, như xảy ra ở các tế bào sản xuất nhiều protein, nhân con là một cấu trúc lớn, trong khi ở các tế bào tổng hợp ít protein, nhân con thậm chí có thể không được nhìn thấy. RNA ribosome được xử lý đặc biệt trong nhân con, nơi nó liên kết với các protein ribosome để tạo thành các sản phẩm ngưng tụ dạng hạt, vốn là các tiểu đơn vị sơ khai của ribosome. Các tiểu đơn vị này sau đó được giải phóng khỏi nhân con và vận chuyển qua các lỗ lớn của màng nhân đến hầu hết các phần của tế bào tương. Sau khi các tiểu đơn vị đi vào tế bào tương, chúng được lắp ráp để tạo thành các ribosome trưởng thành có chức năng. Do đó, protein được hình thành trong tế bào tương, nhưng không được hình thành trong nhân tế bào, vì nhân không chứa các ribosome trưởng thành.
-
----
-
-### miRNA VÀ RNA CAN THIỆP NHỎ (siRNA)
-Loại RNA thứ tư trong tế bào là microRNA (miRNA); miRNA là các đoạn RNA sợi đơn ngắn (21 đến 23 nucleotide) điều hòa sự biểu hiện gene (Hình 3.10). Các miRNA được mã hóa từ DNA phiên mã của các gene, nhưng chúng không được dịch mã thành protein và do đó thường được gọi là RNA không mã hóa (noncoding RNA). Các miRNA được tế bào xử lý thành các phân tử bổ sung với mRNA và có tác dụng làm giảm biểu hiện gene.
-
-Sự tạo thành miRNA bao gồm quá trình xử lý đặc biệt các RNA tiền thân sơ cấp dài hơn gọi là pri-miRNA, vốn là các bản phiên mã sơ cấp của gene. Các pri-miRNA sau đó được xử lý trong nhân tế bào bởi phức hợp microprocessor thành các pre-miRNA, là các cấu trúc kẹp tóc (stem loop) dài 70 nucleotide. Các pre-miRNA này sau đó được xử lý tiếp trong tế bào tương bởi một enzyme dicer cụ thể giúp lắp ráp phức hợp gây bất hoạt do RNA cảm ứng (RISC) và tạo ra các miRNA.
-
-Các miRNA điều hòa biểu hiện gene bằng cách liên kết với vùng bổ sung của RNA và thúc đẩy sự ức chế dịch mã hoặc thoái hóa mRNA trước khi nó có thể được dịch mã bởi ribosome. miRNA được tin là đóng vai trò quan trọng trong việc điều hòa bình thường chức năng tế bào, và những thay đổi trong chức năng miRNA có liên quan đến các bệnh như ung thư và bệnh tim.
-
-Một loại miRNA khác là RNA can thiệp nhỏ (siRNA), còn được gọi là RNA gây bất hoạt (silencing RNA). siRNA là các phân tử RNA sợi kép ngắn, cấu tạo từ 20 đến 25 nucleotide, gây can thiệp vào sự biểu hiện của các gene cụ thể. siRNA thường đề cập đến các miRNA tổng hợp và có thể được đưa vào cơ thể để làm bất hoạt sự biểu hiện của các gene cụ thể. chúng được thiết kế để tránh quá trình xử lý trong nhân bởi phức hợp microprocessor và sau khi đi vào tế bào tương, nó kích hoạt phức hợp bất hoạt RISC, ngăn chặn sự dịch mã của mRNA. Vì siRNA có thể được thiết kế riêng cho bất kỳ trình tự cụ thể nào trong gene, chúng có thể được sử dụng để chặn sự dịch mã của bất kỳ mRNA nào và do đó là sự biểu hiện của bất kỳ gene nào đã biết trình tự nucleotide. Các nhà nghiên cứu đã đề xuất rằng siRNA có thể trở thành công cụ trị liệu hữu ích để làm bất hoạt các gene góp phần vào cơ chế bệnh sinh của các bệnh lý.
-
----
-
-### DỊCH MÃ — SỰ HÌNH THÀNH PROTEIN TRÊN CÁC RIBOSOME
-Khi một phân tử mRNA tiếp xúc với một ribosome, nó di chuyển qua ribosome, bắt đầu tại một đầu xác định của phân tử RNA được chỉ định bởi một trình tự các base RNA thích hợp gọi là codon mở đầu chuỗi. Sau đó, như trong Hình 3.9, trong khi mRNA di chuyển qua ribosome, một phân tử protein được hình thành, quá trình này gọi là **dịch mã** (translation). Do đó, ribosome đọc các codon của mRNA theo cách tương tự như một cuộn băng được đọc khi nó đi qua đầu phát của máy ghi âm. Sau đó, khi một codon "dừng" (hoặc "kết thúc chuỗi") trượt qua ribosome, tín hiệu kết thúc một phân tử protein được đưa ra, và phân tử protein được giải phóng vào tế bào tương.
-
-**Polyribosome — Một cụm các Ribosome.** Một phân tử mRNA đơn lẻ có thể hình thành các phân tử protein trong nhiều ribosome cùng một lúc vì đầu ban đầu của chuỗi RNA có thể chuyển sang một ribosome kế tiếp khi nó rời khỏi ribosome thứ nhất, như được hiển thị ở phía dưới bên trái trong Hình 3.9 và Hình 3.11. Các phân tử protein đang ở các giai đoạn phát triển khác nhau trong mỗi ribosome. Kết quả là, các cụm ribosome thường xuyên xuất hiện, với 3 đến 10 ribosome gắn vào một mRNA duy nhất cùng một lúc. Những cụm này được gọi là **polyribosome**. Một mRNA có thể gây ra sự hình thành phân tử protein trong bất kỳ ribosome nào; không có tính đặc hiệu của ribosome đối với các loại protein nhất định. Ribosome đơn giản là nhà máy sản xuất vật lý nơi các phản ứng hóa học diễn ra.
-
-**Nhiều Ribosome gắn vào lưới nội chất.** Trong Chương 2, chúng ta đã lưu ý rằng nhiều ribosome gắn vào lưới nội chất. Sự gắn kết này xảy ra vì đầu ban đầu của nhiều phân tử protein đang hình thành có các trình tự acid amin gắn ngay lập tức vào các vị trí thụ thể cụ thể trên lưới nội chất, khiến các phân tử này xuyên qua thành lưới và đi vào cơ chất của lưới nội chất. Quá trình này tạo nên vẻ ngoài dạng hạt cho các phần của lưới nơi protein đang được hình thành và đi vào cơ chất của lưới. Hình 3.11 cho thấy mối quan hệ chức năng của mRNA với các ribosome và cách thức các ribosome gắn vào màng lưới nội chất. Lưu ý quá trình dịch mã diễn ra ở nhiều ribosome cùng một lúc để đáp ứng với cùng một chuỗi mRNA. Cũng lưu ý các chuỗi polypeptide (protein) mới hình thành đi qua màng lưới nội chất vào cơ chất nội chất. Ngoại trừ trong các tế bào tuyến, nơi hình thành một lượng lớn các túi bài tiết chứa protein, hầu hết các protein được tổng hợp bởi ribosome được giải phóng trực tiếp vào bào tương thay vì vào lưới nội chất. Những protein này là các enzyme và protein cấu trúc nội bào của tế bào.
-
-
-
-**Các bước hóa học trong tổng hợp Protein.** Một số sự kiện hóa học xảy ra trong quá trình tổng hợp một phân tử protein được trình bày trong Hình 3.12. Hình này cho thấy các phản ứng đại diện cho ba acid amin riêng biệt, AA1, AA2 và AA20. Các giai đoạn của phản ứng như sau:
-1. Mỗi acid amin được hoạt hóa bằng một quá trình hóa học trong đó ATP kết hợp với acid amin để tạo thành một phức hợp adenosine monophosphate (AMP) với acid amin đó, giải phóng hai liên kết phosphate cao năng trong quá trình này.
-2. Acid amin đã được hoạt hóa, mang năng lượng dư thừa, sau đó kết hợp với tRNA đặc hiệu của nó để tạo thành phức hợp acid amin–tRNA và đồng thời giải phóng AMP.
-3. tRNA mang phức hợp acid amin sau đó tiếp xúc với phân tử mRNA trong ribosome, nơi anticodon của tRNA gắn tạm thời vào codon đặc hiệu của nó trên mRNA, từ đó xếp hàng acid amin theo trình tự thích hợp để hình thành phân tử protein. Sau đó, dưới tác động của enzyme peptidyl transferase (một trong các protein trong ribosome), các liên kết peptide được hình thành giữa các acid amin liên tiếp, từ đó bổ sung dần dần vào chuỗi protein.
-
-Các sự kiện hóa học này đòi hỏi năng lượng từ hai liên kết phosphate cao năng bổ sung, tổng cộng là bốn liên kết cao năng được sử dụng cho mỗi acid amin được thêm vào chuỗi protein. Do đó, sự tổng hợp protein là một trong những quá trình tiêu tốn nhiều năng lượng nhất của tế bào.
-
-**Liên kết Peptide — Sự kết hợp của các acid amin.** Các acid amin liên tiếp trong chuỗi protein kết hợp với nhau theo phản ứng điển hình. Trong phản ứng hóa học này, một gốc hydroxyl ($OH^-$) được loại bỏ khỏi phần $COOH$ của acid amin thứ nhất, và một hydro ($H^+$) của phần $NH_2$ của acid amin kia được loại bỏ. Chúng kết hợp để tạo thành nước, và hai vị trí phản ứng còn lại trên hai acid amin liên tiếp liên kết với nhau, tạo thành một phân tử duy nhất. Quá trình này được gọi là **liên kết peptide** (peptide linkage). Khi mỗi acid amin bổ sung được thêm vào, một liên kết peptide bổ sung được hình thành.
-
----
-
-### CÁC ENZYME PROTEIN KIỂM SOÁT SỰ TỔNG HỢP CÁC CHẤT KHÁC TRONG TẾ BÀO
-Hàng nghìn enzyme protein được hình thành theo cách vừa mô tả sẽ kiểm soát về cơ bản tất cả các phản ứng hóa học khác diễn ra trong tế bào. Các enzyme này thúc đẩy quá trình tổng hợp lipid, glycogen, purine, pyrimidine và hàng trăm chất khác. Chúng ta sẽ thảo luận về nhiều quá trình tổng hợp này liên quan đến chuyển hóa carbohydrate, lipid và protein trong các Chương 68 đến 70. Mỗi chất này đều góp phần vào các chức năng khác nhau của tế bào.
-
+1. C
+2. C
+3. E -> D
+4. B
+5. B
+6. C
+7. B
+8. B
+9. A
+10. D
+11. E -> B
+12. B
+13. C -> B
+14. E
+15. E -> K
+16. H
+17. E
+18. A -> I
+19. B
+20. D -> A
+21. D -> A
+22. A
+23. C
+24. B
+25. B
+26. A
+27. C -> D
+* Tóm tắt: 
+  - Cái gì? làm gì (chức năng)? ở đâu? như thế nào (quá trình)?
+  - Viết khuôn - đọc nhanh - note lại - đọc lược 2 - note chi tiết. 
