@@ -1,3 +1,19 @@
+* PP dạy học lâm sàng
+** Mục tiêu học tập
+- Dựa trên quy trình 5 bước trong tài liệu, mục tiêu học tập cho bài **"Thực hành khám tim cho sinh viên y năm 2"** được xây dựng như sau:
+- 5 bước xây dựng mục tiêu cụ thể
+  + Bước 1: Phân chia mục tiêu tổng quát thành mục tiêu cụ thể:** Từ mục tiêu lớn "Khám tim", ta chọn mục tiêu cụ thể cho SV năm 2 là "Thực hiện đúng các thao tác khám tim cơ bản".
+  + Bước 2: Chia mục tiêu theo lĩnh vực KSA:** Đây là mục tiêu thuộc lĩnh vực **Kỹ năng (Skill)**.
+  + Bước 3: Viết mục tiêu với cấu trúc ABCD và Bloom:**
+    +   **Audience (A):** Sinh viên y năm 2.
+    +   **Behavior (B):** Thực hiện kỹ thuật nhìn, sờ, gõ, nghe tim (Mức độ "Làm đúng" theo Bloom).
+    +   **Condition (C):** Trên bệnh nhân tại khoa lâm sàng.
+    +   **Degree (D):** Đúng trình tự 5 bước và tiêu chuẩn trong bảng kiểm của bộ môn.
+  +   **Bước 4: Làm cho mục tiêu SMART:** Mục tiêu đảm bảo tính cụ thể (khám tim), đo lường được (qua bảng kiểm), khả thi với trình độ năm 2, thực tế và có thời hạn (trong buổi học).
+  +   **Bước 5: Tinh chỉnh và đơn giản hóa:** Kết hợp các thành phần thành một câu hoàn chỉnh.
+- 2. Mục tiêu học tập hoàn chỉnh
+  + **"Sau buổi thực hành, sinh viên y năm 2 thực hiện đúng trình tự các bước nhìn, sờ, gõ, nghe tim trên bệnh nhân tại khoa lâm sàng theo bảng kiểm kỹ năng của bộ môn trong vòng 15 phút."**
+* 1
 1. C
 2. C
 3. E -> D
@@ -27,4 +43,162 @@
 27. C -> D
 * Tóm tắt: 
   - Cái gì? làm gì (chức năng)? ở đâu? như thế nào (quá trình)?
-  - Viết khuôn - đọc nhanh - note lại - đọc lược 2 - note chi tiết. 
+  - Viết khuôn - đọc nhanh - note lại - đọc lược 2 - note chi tiết.
+* Phần 2
+1. 
+2. A
+3. D
+4. A
+5. D
+6. C
+7. 
+* Nước tiểu
+*** 
+Để phân biệt nguyên nhân gây hạ kali máu và kiềm chuyển hóa khi sử dụng mẫu nước tiểu ngẫu nhiên (**Spot urine**), bác sĩ không chỉ nhìn vào nồng độ đơn thuần mà thường sử dụng các **chỉ số hiệu chỉnh với Creatinine** hoặc **Phân suất thải**.
+
+Dưới đây là các chỉ số quan trọng nhất:
+
+---
+
+### 1. Tỷ lệ Kali/Creatinine nước tiểu ($K/Cr$ urine ratio)
+Đây là chỉ số "vàng" để xác định xem tình trạng hạ kali máu là do **mất tại thận** hay **mất ngoài thận** (như qua đường tiêu hóa).
+
+*   **Đơn vị tính:** mmol/mmol hoặc mg/mg.
+*   **Giá trị phân ngưỡng:**
+    *   **$< 1.5\text{ mmol/mmol}$ (hoặc $< 13\text{ mg/g}$):** Gợi ý mất kali **ngoài thận** (ví dụ: tiêu chảy, nôn mửa hoặc kali dịch chuyển vào nội bào). Thận đang phản ứng tốt bằng cách giữ lại kali.
+    *   **$> 1.5\text{ mmol/mmol}$ (hoặc $> 13\text{ mg/g}$):** Gợi ý mất kali **tại thận**. Thận đang đào thải kali quá mức dù nồng độ trong máu đang thấp.
+
+
+
+---
+
+### 2. Phân suất thải Kali ($FE_K$)
+Chỉ số này cho biết tỷ lệ phần trăm kali được lọc qua cầu thận mà cuối cùng xuất hiện trong nước tiểu. Nó giúp loại bỏ biến số về độ cô đặc của nước tiểu.
+
+*   **Công thức:**
+    $$FE_K = \frac{K_{niệu} \times Cr_{máu}}{K_{máu} \times Cr_{niệu}} \times 100\%$$
+*   **Giá trị phân ngưỡng:**
+    *   **$FE_K < 6\%$:** Thận đang bảo tồn kali tốt $\rightarrow$ Mất kali ngoài thận.
+    *   **$FE_K > 9\%$:** Thận đang mất kali $\rightarrow$ Nguyên nhân tại thận (lợi tiểu, cường Aldosterone, bệnh lý ống thận).
+
+---
+
+### 3. Phân suất thải Clo ($FE_{Cl}$)
+Trong bối cảnh **kiềm chuyển hóa**, chỉ số này quan trọng hơn $FE_{Na}$ vì nó xác định xem tình trạng kiềm này có "đáp ứng với Clo" hay không.
+
+*   **Công thức:** Tương tự $FE_K$, thay $K$ bằng $Cl$.
+*   **Giá trị phân ngưỡng:**
+    *   **$FE_{Cl} < 1\%$:** Kiềm chuyển hóa **đáp ứng với Clo**. Cơ thể đang thiếu hụt Clo trầm trọng (do nôn mửa, hút dịch dạ dày).
+    *   **$FE_{Cl} > 1\%$:** Kiềm chuyển hóa **kháng Clo**. Thường do các vấn đề nội tiết như hội chứng Conn, Cushing hoặc đang dùng lợi tiểu.
+
+---
+
+### 4. Tại sao phải dùng kèm Creatinine nước tiểu?
+Việc sử dụng Creatinine đi kèm trong mẫu Spot là bắt buộc vì:
+1.  **Loại bỏ sự biến thiên của nước:** Nếu bệnh nhân uống quá nhiều nước, nồng độ Kali niệu sẽ bị loãng (thấp giả tạo). Nếu bệnh nhân mất nước, nồng độ sẽ cực kỳ cô đặc (cao giả tạo).
+2.  **Tính ổn định:** Creatinine được đào thải qua thận với tốc độ khá hằng định. Khi lấy nồng độ ion chia cho nồng độ Creatinine, bạn sẽ có một con số phản ánh đúng "tải lượng" bài tiết của thận tại thời điểm đó.
+
+
+
+### Tóm tắt thực hành:
+Khi cầm kết quả xét nghiệm nước tiểu ngẫu nhiên của một bệnh nhân hạ kali/kiềm chuyển hóa, bạn hãy nhìn vào:
+
+1.  **Clo niệu tuyệt đối ($Cl^-$):** Nếu $< 20\text{ mmol/L} \rightarrow$ Mất axit qua dạ dày (nôn).
+2.  **Tỷ lệ $K/Cr$:** Nếu $> 1.5\text{ mmol/mmol} \rightarrow$ Thận đang làm mất kali.
+3.  **Huyết áp:** 
+    *   Huyết áp thấp + $Cl^-$ niệu thấp: Nôn mửa.
+    *   Huyết áp cao + $K/Cr$ niệu cao: Dư thừa Hormone giữ muối (Aldosterone).
+
+
+
+----------
+Khi bạn dùng **mẫu nước tiểu spot kèm creatinin**, mục tiêu là “chuẩn hóa” nồng độ điện giải theo độ cô đặc của nước tiểu. Có vài **chỉ số rất hay dùng để phân biệt nguyên nhân hạ K⁺/kiềm chuyển hóa**:
+
+---
+
+## 1. Tỷ số K⁺/Creatinin niệu (quan trọng nhất)
+
+### 👉 Công thức:
+
+* **K⁺ niệu (mmol/L) / Creatinin niệu (mmol/L)**
+  *(hoặc mmol/g creatinin nếu dùng đơn vị khác)*
+
+### 👉 Diễn giải:
+
+* **< 1.5–2 mmol/mmol Cr (~ < 13–20 mmol/g Cr)**
+  → thận đang giữ K⁺
+  → **mất K⁺ ngoài thận** (tiêu chảy, ăn kém)
+
+* **> 2 mmol/mmol Cr (~ > 20 mmol/g Cr)**
+  → thận đang thải K⁺
+  → **mất K⁺ qua thận** (lợi tiểu, cường aldosterone)
+
+---
+
+## 2. Cl⁻ niệu spot (rất quan trọng trong kiềm chuyển hóa)
+
+*(chỉ số này thường dùng trực tiếp, không cần chia creatinin)*
+
+### 👉 Diễn giải:
+
+* **Cl⁻ < 10–20 mmol/L**
+  → “chloride-responsive”
+  → nôn ói, mất dịch dạ dày
+  → thường là **kiềm chuyển hóa nguyên phát**
+
+* **Cl⁻ > 20 mmol/L**
+  → “chloride-resistant”
+  → lợi tiểu, cường aldosterone
+  → thường có **mất K⁺ qua thận**
+
+---
+
+## 3. TTKG (Transtubular Potassium Gradient)
+
+### 👉 Công thức:
+
+TTKG = (K⁺ niệu / K⁺ máu) ÷ (Osm niệu / Osm máu)
+
+### 👉 Ý nghĩa:
+
+* **TTKG < 3** → thận giữ K⁺ (mất ngoài thận)
+* **TTKG > 7** → thận thải K⁺ (mất qua thận)
+
+📌 Tuy nhiên:
+
+* Ít dùng hơn trong thực hành thường ngày
+* Cần điều kiện chuẩn (osm niệu đủ cao, không đang truyền dịch nhiều)
+
+---
+
+## 4. Tỷ số Na⁺/Creatinin hoặc FEK (fractional excretion of potassium)
+
+* Dùng trong một số trường hợp chuyên sâu
+* Không phổ biến bằng K⁺/Cr và Cl⁻ niệu
+
+---
+
+## 🎯 Cách tiếp cận nhanh (rất hay dùng)
+
+1. **Xác định có kiềm chuyển hóa + hạ K⁺**
+2. Làm **Cl⁻ niệu spot**
+
+   * Thấp → nghĩ nôn ói
+   * Cao → đi tiếp
+3. Xem **K⁺/Creatinin niệu**
+
+   * Thấp → mất ngoài thận
+   * Cao → mất qua thận
+
+---
+
+## ✔️ Kết luận
+
+* **K⁺/Creatinin niệu** → biết K⁺ mất qua thận hay không
+* **Cl⁻ niệu spot** → phân loại nguyên nhân kiềm chuyển hóa
+* Hai cái này kết hợp → đủ định hướng trong đa số ca
+
+---
+
+Nếu bạn muốn, mình có thể vẽ **flowchart 1 trang** để bạn đi thi hoặc đi lâm sàng nhìn là làm được ngay.
+

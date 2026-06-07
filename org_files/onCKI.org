@@ -6,7 +6,7 @@
   - Toàn bộ cơ thể: 35-40 ngìn tỷ TB. 
   - Vi sinh vật trong cơ thể (microbiota) nhiều hơn toàn bộ TB trong cơ thể
   - 50-70% cơ thể là nước. 2/3 nội bào, 1/3 ngoại bào
-  - Ngoại bào: Na, HCO3-, Nutrients (oxy, glucose, fatty acíd, amino acids), CO2, waste products
+  - Ngoại bào: Na, HCO3-, Nutrients (oxy, glucose, fatty acíd?, amino acids?), CO2?, waste products
   - Nội bào: K, Mg, Phosphate
   - Khi nghỉ: máu di chuyển toàn bộ hệ tuần hoàn khoảng 1 phút. Khi hoạt động rất mạnh: máu di chuyển 6 lần hệ tuần hoàn trong 1 phút. 
   - Ít tế bào nào nằm cách mao mạch quá 50 micromet, đảm bảo sự khuếch tán của hầu hết mọi chất từ mao mạch đến tế bào trong vòng vài giây.
@@ -271,23 +271,199 @@
     - Channel = tạo kênh, có thể có cổng đóng mở, chọn lọc
     - Carrier = gắn + đổi hình, rất chọn lọc. Có Vmax. Cả chủ động + khuyếch tán.
     - Pore = kênh đơn giản, ít chọn lọc, luôn mở
-    - Ngoại bào: Natri, Ca, sulfat, glucose, 
-    - Nội bào: KMP (Kali, Magne, Phosphate), protein, acid amin, 
-*** Khuếch tán
-    - Cho các chất tan trong lipid đi qua: oxy, 
-    - Lỗ: kênh đơn, giản, ít chọn lọc, luôn mở. Nhiều loại aquaporins cho nước đi qua dễ dàng (một số kênh cho ure đi qua chậm hơn - ít chọn lọc), tốc độ khuếch tán qua HC = 100 x V_HC/s
-    - Protein kênh: gắn với phân tử, chọn lọc, nhiều loại có kênh đóng mở (điện thế, ligand, áp suất). VD kênh Natri: gần như chỉ cho Natri đi qua, khe lọc chọn lọc (selective filter) là các acid ammin mang điện tích âm mạnh, giúp natri tháo nước, vừa khít năng lượng??? -> vào tb, ngăn kali do tháo nước năng lượng không phù hợp; có thể cho Lithium đi qua, do đó thuốc có thể vào hệ thần kinh???. Kênh Kali: ???
-    - Protein mang: rất chọn lọc, có vị trí gắn phân tử, thay đổi cấu hình, có hiện tượng bão hòa vận tốc. Nổi tiếng là protein mang GUT khuếch tán glucose vào màng, GUT4 phản ứng với inlusulin đưa glucose vào màng tb. 
-    - Độ thẩm thấu: phụ thuộc vào số lượng phân tử (mol), không phụ thuộc vào khối lượng riêng do càng lớn thì di chuyển càng chậm suy ra động năng trung bình bằng nhau, chất phân tán thành ion Như NaCL thì có thể x 2 do phân tán ra 2 ion (thực tế thấp hơn do phân tán không hoàn toàn). 
-    - Osmolality: áp suất thẩm thấu/ 1 kg nước. 
-    - Osmolarity: áp suất thẩm thấu/ 1 lít nước, khác biệt ít # 1% dễ dùng trên thực hành hơn.
-*** Vận chuyển chủ động
-    - Vận chuyển chủ động nguyên phát: dùng ATP
-      + Kênh 3Na-2K: 2 phân tử protein (được nghiên cứu nhiều nhất, nhỏ - chưa biết hết chức năng, lớn có chỗ gắn cho 3Na trong - gần đó có ATPase, 2 kali ngoài). Kênh này 2 chiều, nếu đi ngược lại thì tạo năng lượng. Rất quan trọng trong điện thế màng tb, dẫn truyền thần kinh. Tạo cân bằng áp suất thẩm thấu khiến tb không bị phình to do nồng độ protein và chất hữu cơ trong màng tb cao. 
-      + Kênh Ca2+: duy trì nồng độ ngoài màng cao 1 triệu lần? trong màng. Quan trọng trong co cơ???. có trên các màng lưới cơ chất, ty thể. 
-      + Kênh H+: rất quan trọng trong phần sau ống lượn xa, ống góp: có thể  duy trì nồng độ 900 lần 
-    - Vận chuyển chủ động thứ phát: Dùng năng lượng có sẵn do kênh vận chuyển chủ động nguyên phát (điện thế, nồng độ, áp suất?)
-      + Đồng vận chuyển: Na-glucose: quan trọng trong biểu mô ruột. Phải gắn cả 2 mới vận chuyển được. Còn có đồng vận chuyển Na-H rất quan trọng trong ống gần (chìa khóa cân bằng kiềm toan?) vì xuất H+ lượng rất lớn để trung hòa HCO3- thành CO2 và nước???. Còn có đồng vận chuyển Na-Ca. Các kênh đồng vận chuyển khác (clo, urat, phospho, ure, ...???)
-      + Đối vận chuyển: 
+    - /Ngoại bào: Natri, Clo, Ca, glucose, HCO3-, Po2./
+    - /Nội bào: KMP (Kali, Magne, Phosphate), sulfat, protein, acid amin, cholesterol, phospholipid, neutral fat./ [[./img/onCKI_nongDoNoivaNgoaiBao.jpg]]
+*** *Khuếch tán: Đơn thuần và được hỗ trợ*
+    - *Đơn thuần:* Cho các chất tan trong lipid đi qua (càng hòa tan, càng qua dễ): /oxy, Nitơ, Co2, Rượu (dễ nhớ: khí hít thở)/
+    - *Lỗ:* kênh đơn giản, ít chọn lọc (đường kính và điện tích), luôn mở. Nhiều loại aquaporins cho nước đi qua dễ dàng (một số kênh cho ure đi qua chậm hơn - ít chọn lọc - ure lớn hơn nước 20% nhưng thấm kém 1000 lần), tốc độ khuếch tán qua HC = 100 x V_HC/s
+    - *Protein kênh:* gắn với phân tử, chọn lọc, nhiều loại có kênh đóng mở (điện thế - kênh Natri, kênh Kali dẫn theo kiểu all or none - không kiểu mở một nửa; ligand - Acetylcholine). 
+      + VD1: Kênh Kali có 4 tiểu đơn vị protein, có khe chọn lọc (selective filter) lót oxycarbonyl tách nước khỏi Kali ngậm nước, mặc dù natri nhỏ hơn nhưng natri ngậm nước nhỏ hơn nên không tuong tác tác được tốt với oxycarbonyl -> bị chặn (100 lần so kali)
+      + VD kênh Natri: gần như chỉ cho Natri đi qua, khe lọc chọn lọc (selective filter) nhỏ 0.3-0.5nm, chứa các acid ammin mang điện tích âm mạnh, giúp natri tháo nước, vừa khít năng lượng -> vào tb, ngăn kali do tháo nước năng lượng không phù hợp; có thể cho Lithium đi qua tương đối tốt do đặc tính gần giống Na. 
+    - *Protein mang:* rất chọn lọc, có vị trí gắn phân tử, thay đổi cấu hình, có hiện tượng bão hòa vận tốc. /Khuếch tán cho glucose và hầu hết các acid amin./ Nổi tiếng là protein mang GLUT khuếch tán glucose vào màng (và các monosaccharide khác như fructose, galactose), insulin làm tb đưa GLUT4 từ bào tường ra màng -> tăng mật độ GLUT4 -> tăng thấm glucose 10-20 lần. 
+    - Các yếu tố ảnh hường tốc độ khuếch tán ròng (net rate of diffusion): (1) chênh nồng độ. (2) Điện thế Nerst, EMF (mV) = ±61 log (C1/C2). (3) Áp suất qua màng. 
+    - Độ thẩm thấu: phụ thuộc vào số lượng phân tử (mol), không phụ thuộc vào khối lượng của hạt do càng lớn thì di chuyển càng chậm suy ra động năng trung bình bằng nhau, chất phân tán thành ion Như NaCL thì có thể x 2 do phân tán ra 2 ion (thực tế thấp hơn do phân tán không hoàn toàn). 
+    - Osmolality (độ thẩm thấu): Osmol (nồng độ theo số lượng hạt)/ 1 kg nước. /Độ thẩm thấu bình thường của dịch ngoại bào và nội bào là khoảng 300 milliosmole/kg nước./
+    - Osmolarity: Osmol/ 1 lít dung dịch, khác biệt ít # 1% dễ dùng trên thực hành hơn.
+*** *Vận chuyển tích cực: Ngược với Gradient năng lượng*
+    - Vận chuyển: Natri, kali, Ca, clo, H, Fe, urat, iot, một vài loại đường, hầu hết acid amin. 
+    - Vận chuyển chủ động nguyên phát: dùng ATP. /Natri, kali, canxi, H, CL (ghi nhớ, các ion hay XN)./ Năng lượng cần tăng theo log: Năng lượng (calo/osmol) = 1400 × log(C1/C2).
+      + Kênh 3Na-2K: 2 phân tử protein (được nghiên cứu nhiều nhất, nhỏ Beta - chưa biết hết chức năng ngoài neo vô màng lipid, lớn alpha có chỗ gắn cho 3Na trong - gần đó có ATPase, 2 kali ngoài). Kênh này 2 chiều, nếu đi ngược lại thì tạo năng lượng. Rất quan trọng trong điện thế màng tb, dẫn truyền thần kinh. Tạo cân bằng áp suất thẩm thấu khiến tb không bị phình to do nồng độ protein và chất hữu cơ trong màng tb cao. 
+      + Kênh Ca2+: duy trì nồng độ ngoài màng cao 10.000 lần so với trong màng. 2 vị trí: Nằm trên màng tb bơm ra ngoài và nằm trên các màng lưới nội chất cơ (sarcoplasmic reticulum), ty thể bơm vào trong bào quan. 
+      + Kênh H+: rất quan trọng trong dạ dày (tb thành, nồng độ tăng 1 triệu lần); trong phần sau ống lượn xa, ống góp vỏ và ống góp tủy ngoài (tb xen kẽ -intercalated cells, chống bậc thang nồng độ 900 lần). 
+    - Vận chuyển chủ động thứ phát: Dùng năng lượng có sẵn do kênh vận chuyển chủ động nguyên phát tạo ra ngược gradient năng lượng. 
+      + Đồng vận chuyển: Na-axitamin. Na-glucose: quan trọng trong biểu mô thận và ruột. Phải gắn cả 2 mới vận chuyển được. Các kênh đồng vận chuyển khác (kali, clo, urat, phosphate, HCO3-, iót, sắt)
+      + Đối vận chuyển: Đối vận Na-Ca ở hầu hết các màng tb, phụ trợ cho kênh chủ động Ca2+. Còn có đối vận chuyển Na-H rất quan trọng trong ống gần (chìa khóa cân bằng kiềm toan?) vì xuất H+ lượng rất lớn để trung hòa HCO3- thành CO2 và nước -> CO2 khuếch tán vào tb -> tái hấp thu HCO3-.
 *** Vận chuyển qua các lớp tế bào: 
-    - Natri, nước thụ động từ lòng ruột, ống thận (có các liên kết nối chặt Junction và biểu mô bàn chải ở mặt lòng) -> tb. Chủ động Natri từ tb vào mô kẽ -> tạo áp suất thẩm thấu ->kéo nước vào mô kẽ.
+    - Natri, nước thụ động từ lòng ruột, ống thận (có các liên kết nối chặt Junction và bờ bàn chải ở mặt lòng) -> tb. Chủ động Natri từ tb vào mô kẽ -> tạo áp suất thẩm thấu ->kéo nước vào mô kẽ.
+** Chap 5 - Điện thế màng tế bào
+*** *Vật lý điện thế màng*
+    1. *Phương trình Nernst:* Cho một ion
+       - Điện thế màng (trong) EMF = (61/z)log(C_out/C_in) 
+       - Trong đó: z là điện tích của ion. Log là độ chênh nồng độ ngoài và trong 
+       - EMF của Na+ +61mV: z=1, nghĩa là nồng độ ngoài nhiều hơn trong, điện thế màng trong 61 tạo lực đẩy từ trong ra cân bằng với lực khuếch tán từ ngoài vô.
+       - EMF của Cl- khoảng -71mV: z = -1, do đó nồng độ ngoài nhiều hơn trong, điện thế màng trong -71 giúp đẩy ion âm ra cân bằng với lực khuếch tán vào.
+       - EMF của K+ là -94mV: z=1, nghĩa là nồng độ ngoài ít hơn trong, điện thế màng âm giúp kéo ion dương vào cân bằng với lực khuếch tán từ trong ra.
+    2. *Phương trình Goldman:* Cho nhiều ion
+       - Vm = 61log[(C_Na_out x P_Na + C_K_out x P_K + C_Cl_in x P_Cl)/(C_Na_in x P_Na + C_K_in x P_K + C_Cl_out x P_Cl)]
+       - Vì có nhiều ion cạnh tranh nên điện thế màng sẽ cân bằng ở một điện thế trung gian, phụ thuộc vào tính thấm của màng với các ion khác nhau (Kali thấm mạnh hơn Na # 100 lần, do kênh K leak chọn lọc với K)
+       - Lúc này các dòng ion vẫn di chuyển (nhưng điện thế màng vẫn ổn định) do điện thế màng chưa cân bằng với điện thế của phường trình Nernst nhưng nhờ các bơm chủ động sẽ duy nồng độ ion ổn định => điện thế màng ổn định mà không bị suy sụp cho các ion này di chuyển đến hết -> cân bằng nồng độ 2 bên màng. 
+       - Điện thế màng của một số tb: Thần kinh # -70mV, HC -10mV, Tim -85mV, Cơ vân -90mV.
+    3. Lực điện thế (driving force)
+       - Vdf = Vm - Ve
+       - Lực điện thế quyết định ion có lực di chuyển qua màng không, và theo hướng nào. 
+       - VD ion Natri: Vdf = Vm - Ve = -70 - 61 = -131. Như vậy sẽ có một lực âm trong màng kéo Natri đi vào, còn cộng thêm vào lực khuếch tán, do đó Natri sẽ tràn vào rất nhanh nếu tính thấm tăng mạnh (cổng Natri điện thế mở ra)
+    4. Đo điện thế màng dùng phương pháp Patch clamp. điện thế động bằng Voltage Clamp.  
+*** *Điện thế động của sợi thần kinh*
+    1. Điện thế nghỉ: 
+       - Điện thế nghỉ của sợi thần kinh # -70mV, có kênh K leak thấm K gấp 100 Na, cân bằng lại bằng kênh 3Na-2K. 
+    2. Kênh Natri điện thế: 
+       - Kênh Natri điện thế mở khi điện thế màng tăng từ 70 -> # 50mV khi đó cổng ngoài (cổng hoạt hóa đang đóng) mở nhanh để Natri ồ ạt vào tế bào, khiến điện thế màng tăng vọt đến 0mV, thậm chí overshoot lên # 10mV (ở tb thần kinh trung ương ít khi nào vượt 0mV). Sau đó rất nhanh cổng bất hoạt đang mở bên trong sẽ đóng lại ngăn Na vào tb. Kênh Natri trở về bình thường chỉ khi màng tb phục hồi điện thế về bình thường. 
+    3. Kênh Kali điện thế: 
+       - Cổng bên trong của kênh K điện thế mở ra, K ra ngoài lập lại điện thế màng tế bào, Kênh này mở ra chậm hơn nên chỉ mở ra hoàn toàn khi kênh natri gần như đã đóng hoàn toàn. Có hiện tượng quá tái cực (HyperRepolarization) undershoot. 
+       - Cuối cùng Kênh 3Na-2K hoạt động cân bằng lại Ion từ từ. Nếu không có bù trừ, tb có thể kích thích lặp lai 1000 lần trước khi nồng độ ion bị xáo trộn đến không thể kích thích được nữa.
+*** *Nghiên cứu hoạt động điện thế tb thần kinh bằng phương pháp Voltage clamp*
+    - Một điện cực đặt dung môi ngoại bào.
+    - 2 điện cực đặt dọc trục thần kinh.
+    - Có thể chủ động thay đổi điện thế màng tb.
+    - Đo hoặt động của kênh bằng cạch thay đổi ion 2 bên màng hoặc block kênh Na bằng độc tố ...? và kali bằng độc tố ...? 
+    - Được giải nobel y sinh năm ...? bởi ....?
+*** *Các kênh khác tham gia vào điện thế động*
+    - Kênh Na-Ca chậm (cụ thể là kênh Ca2+ cổng điện thế type L): Kênh này cho phép thấm Ca gấp 1000 Na. Nồng độ Ca ngoại bào gấp 10.000 nội bào. Ở một số tb sự di chuyển vào tb của Ca2+ cũng có thể gây ngưỡng kích thích điện thế động. Kênh này có tốc độ chậm, đóng vai trò bình nguyên trong quá trình tái cực của một số tb như tb cơ tim. 
+    - Nồng độ cao Ca2+ ngoại bào có thể ức chế kênh Na cổng điện thế + tăng phân cự màng -> giảm tính kích thích màng tb. 
+    - Hạ Ca2+ ngoại bào làm màng tế bào bớt âm -> tb dễ kích thích do giảm ức chế kênh natri cổng điện thế và nâng điện thế màng tb gần ngưỡng kích thích. => Cơn tetanus. 
+*** *Tính tạo nhịp lặp lại*
+    - Ở một số tb sự rò rỉ của Natri vào tb làm tăng dần điện thế màng đến ngưỡng -> kích thích. 
+    - Giai đoạn trơ tuyệt đối: do cổng bất hoạt (màng trong) của kênh Natri cổng điện thế đang đóng, bất kỳ cường độ kích thích nào cũng không làm mở cổng này. Cổng này chỉ mở ra khi màng tb tái cực trở về điện thế nghỉ. 
+    - Giai đoạn trơ tương đối: ở giai đoạn sau khi dòng Kali đang đi ra ngoài tb gây tái cực, điện thế màng tb đang giảm, lúc này một số cổng bất hoạt của kênh Na cổng điện thế đã mở, một kích thích mạnh có thể gây nên một điện thế động (do kali ra ngoài gây ưu phân cực hyperRepolarization => cần kích thích mạnh để đạt ngưỡng???)
+*** *Dẫn truyền điện thế trên sợi thần kinh*
+    - Trong một sợi thần kinh cắt ngang có 1/3 là sợi thần kinh có bao myelin, 2/3 không có bao myelin. 
+    - Bao myelin là các tb Swan bao quanh sợi trục nhiều tạo thành màng cách điện làm giảm điện dung của màng tb sợi trục (cách điện trong bào tương sợi trục và dịch ngoại bào - làm cảm ứng ion 2 bên màng giảm đi), chỉ có chỗ khớp nối gọi là eo Ravier chỗ nối 2 tb Swan màng tb dẫn điện tốt => điện thế động tại một eo Ravier sẽ lan truyền trong bào tương mà không phải theo màng tb (do bao myelin cách điện  -> điện không bị rò rỉ - tương tự như ống nước bị lủng đã bị myelin bít lỗ - ion không rò rỉ) => nhảy cóc đến eo Ravier kế tiếp, làm tiết kiệm năng lượng và tốc độ dẫn dẫn truyền tăng 5 - 50 lần (đến 100m/s - độ dài sân bóng đá). 
+
+*** *Một số liên hệ lâm sàng thú vị - không có trong textbook*
+**** Kỷ lục tb
+    - Tb dài nhất trong cơ thể là tb thần kinh có sợi trục thậm chí đến 1m ở tk ngồi. 
+    - Tb to nhất trong cơ thể là tb trứng.
+    - Tb nặng nhất trong cơ thể là tb cơ. 
+**** Các kênh Kali chỉnh lưu:
+     - IKr cho dòng K ra ngoài trong cuối pha 2, và pha 3; mở nhanh đóng nhanh. Thuốc gây QT dài thường hay ức chế IKr. LQTS2 bị lỗi kênh này. Kali ngoại bào tăng làm tăng tính thấm kênh này (Hơi ngược đời). 
+     - IKs cho dòng K ra ngoài trong pha 3, mở chậm hơn IKr, có vai trò dự phòng, hoạt động tăng mạnh khi có kích thích beta giao cảm. LQTS1 do lỗi kênh này. Kali ngoại bào tăng làm tăng tính thấm kênh này. 
+     - IK1 (cuối pha 3, pha 4) mở ổn định điện thế nghỉ màng vì dẫn K mạnh quanh điện thế màng (Nếu màng ít âm hơn (khử cực nhẹ) → K⁺ thoát ra ngoài mạnh hơn. Nếu màng âm hơn bình thường → K⁺ đi vào trong) , ức chế khi điện thế màng dương mạnh (nút Mg2+ và polyamine) giúp có giai đoạn bình nguyên. 
+**** QT dài
+    - Phần lớn các cơn xoắn đỉnh (Torsades de Pointes - TdP) do thuốc xảy ra theo trình tự "Ngắn-Dài-Ngắn":Một nhịp ngoại LQTS thu (Ngắn).Một khoảng nghỉ bù dài sau đó (Dài).Nhịp tiếp theo rơi đúng vào pha tái cực bị kéo dài, khởi phát cơn xoắn đỉnh (Ngắn). Nhịp tim nhanh làm rút ngắn khoảng QT (nhờ huy động kênh IKs), từ đó làm giảm nguy cơ xuất hiện các khoảng nghỉ dài và triệt tiêu cơ chế khởi phát của thuốc.
+    - LQTS2 (Di truyền): Cơn loạn nhịp thường được kích hoạt bởi sự tăng vọt đột ngột của giao cảm (Adrenaline). Ví dụ: Tiếng chuông điện thoại reo lúc đang ngủ, tiếng còi xe, hoặc một cú sốc tâm lý.Lúc này, Adrenaline làm tăng dòng Canxi ICa-L) đi vào tế bào. Trong khi đó, "hệ thống phanh" IKr đã bị hỏng sẵn, không thể đối trọng lại dòng dương này, dẫn đến hậu khử cực sớm (EADs) và xoắn đỉnh.Chẹn Beta: Đóng vai trò là "áo giáp" ngăn không cho Adrenaline kích hoạt quá trình này.
+    - LQTS1 bị lỗi kênh IKs, khi tăng giao cảm kênh này không bù được -> QT dài, dùng ức chế beta làm giảm giao cảm -> giảm QT dài. 
+**** Tăng Kali máu
+    - Tăng nồng độ K+ ngoại bào nhẹ => điện thế màng tb bớt âm hơn => dễ kích thích hơn. IKr, và IKs tăng tính thấm K -> K ra ngoại bào ồ ạt giai đoạn tái cực -> T cao nhọn. 
+    - K tăng cao tăng tính thấm nhiều của kênh IK1 -> làm màng tb bớt âm quá nhiều -> cổng bất hoạt của kênh Natri điện thế không thể mở ra lại (màng cần tái cực về mức âm hơn mới mở được) => tim không phát nhịp hay dẫn truyền được => giảm sóng P, PR dài, QRS dãn rộng => sóng hình sin. 
+    - Đối trị bằng Ca2+ => cải thiện dẫn truyền qua cơ chế Ca2+-dependent propagation (kích hoạt dòng Ca2+ vào qua L-type Ca channels, bù đắp cho dòng Na+ bị suy giảm) hoặc nâng ngưỡng kích thích (threshold potential) để ổn định màng => ổn định màng tb. 
+**** Hạ Kali máu
+     - Nồng độ K ngoại bào giảm -> tăng rò rỉ K qua kênh K leak  => Tb tăng ưu phân cực => khó kích thích (cơ chế chính trong cơ vân). Trong cơ tim: tính thấm của kênh IK1 giảm. IK1 có tác dụng ổn định điện thế màng nghỉ do chỉ cho kali đi vào gần ngưỡng điện thế màng nghỉ và ưu phân cực, tắt ngóm - không cho kali đi ra trong giai đoạn plateu. 
+     - Kali đóng vai trò quan trọng trong dòng IKr và IKs (dòng K⁺ ra ngoài tế bào). Khi thiếu K⁺: Dòng K⁺ ra giảm → pha 3 của điện thế hoạt động kéo dài. → kéo dài QT trên ECG.
+     - Trong hạ Kali máu, cú rơi tái cực bị kéo dài lê thê, và giữa chừng "cú rơi" đó, cơ thể bỗng nhiên nảy bật ngược trở lại.
+       + Khi Kali máu thấp, sự chênh lệch nồng độ K giữa trong và ngoài tế bào tăng lên, nhưng các kênh Kali chỉnh lưu (IKr, IKs) – vốn có nhiệm vụ đưa K ra ngoài để làm giảm điện thế màng – lại hoạt động kém hiệu quả hơn.
+       + (1) Giảm dòng K⁺ ra (IKr ↓↓↓, IKs ↓, IK1 ↓) → kéo dài tái cực (APD ↑, QT ↑). (2) Mất ổn định điện thế màng (IK1 ↓) → tăng tự động tính. (3) Tạo hậu khử cực: EAD: do tái cực kéo dài (IKr ↓). DAD: do rối loạn Ca²⁺
+       + Cơ chế chi tiết 🔴 EAD (Early Afterdepolarization) 📍 Xảy ra khi: Điện thế hoạt động chưa kết thúc 🔑 Cơ chế: ↓ IKr → tái cực kéo dài → màng “kẹt” ở mức -30 mV  → kênh calci loại L mở lại → Ca²⁺ vào → khử Cực sớm  💥 Gây: xoắn đỉnh Loạn nhịp khi QT kéo dài 🔵 DAD (Delayed Afterdepolarization) 📍 Xảy ra khi: Điện thế hoạt động đã kết thúc (pha 4) 🔑 Cơ chế: 👉 Quá tải Ca²⁺ nội bào: Ca²⁺ tích tụ trong SR → phóng thích tự phát  → kích hoạt:  bộ trao đổi Na⁺/Ca²⁺ (NCX) 👉 NCX:  đưa Ca²⁺ ra đưa Na⁺ vào (dòng dương)  → tạo khử cực  💥 Gây: Ngoại tâm thu Nhịp nhanh 
+     - Điều trị Mg2+: 
+       + Magie là một chất chẹn kênh Canxi tự nhiên. Khi nồng độ Mg ngoại bào tăng lên, nó sẽ ức chế dòng Ca đi vào tế bào.Hệ quả: Nó ngăn chặn các "cú nảy" điện thế (hậu khử cực). Nếu không có cú nảy này, các xung điện lỗi không thể hình thành.
+       + Magie là đồng yếu tố (cofactor) cần thiết để bơm Na+/K+ hoạt động. Khi có đủ Magie, bơm này hoạt động hiệu quả hơn để đưa Kali vào trong và đẩy Natri ra ngoài.Hệ quả: Giúp đưa điện thế nghỉ về trạng thái ổn định nhanh hơn, làm cho màng tế bào bớt "nhạy cảm" vô lý với các kích thích lỗi.
+       + Cạnh tranh và giải phóng:?? (cần xem lại, cơ chế các kênh chỉnh lưu IKr, IKs, IK1) Mg ngoại bào có thể tác động gián tiếp hoặc trực tiếp làm thay đổi lực liên kết của các Polyamine nội bào đang kẹt trong lòng kênh.Tăng tính thấm hiệu dụng: Khi các "nút chai" (Polyamine) bị đẩy ra hoặc lỏng bớt, kênh IK1 được "thông cống". Ion K có thể thoát ra ngoài ổn định hơn.Kết quả: Quá trình tái phân cực diễn ra mượt mà hơn, rút ngắn khoảng QT và làm giảm sự mất ổn định điện học của màng.
+       + Vai trò chính của của Mg trong cơ tim: (1) Ức chế tự nhiên với Ca trên màmg tb Type L; và lưới nội cơ chất RyR (chống rò rỉ Ca vào bào tương, và chống phóng thích Ca2+ quá mức, chống loạn nhịp EAD). (2) Mg-ATP cần thiết cho bơm Na/K hoạt động giúp ổn định màng tế bào (khác với Ca2+ có ái lực mạnh với màng tb nâng ngưỡng kích thích, Mg dễ bị bao nước nên không bám tốt vào màng tb bằng Ca, chỉ cần cho bơm Na/K hoạt động), thiếu Mg Natri tăng đi vào trong tb trao đổi với Ca qua NCX dễ gây tích tụ Ca2+ gây DAD. (3) Mg-ATP giúp bơm SERCA (chính) và PMCA hoạt động tốt hơn, giảm tích tụ Ca2+ trong tb, giảm nguy cơ DAD. (4) Mg ức chế kênh Late INa (bằng chứng còn hạn chế) giúp giảm thời gian tái cực (Trong LQTS3 kênh Natri nhanh bị lỗi làm xuất hiện nhiều kênh Late INa kéo dài tái cực, tăng nồng độ Na nội bào dẫn đến Ca2+ vào tb nhiều hơn qua kênh NCX Na/Ca dễ gây EAD, DAD).  
+** Chap 6 - Sự co cơ vân
+*** Cấu trúc đại thể
+    - Một bó cơ có nhiều sợi cơ. Một sợi cơ là một tế bào cơ có nhiều nhân. Bao bên ngoài sợi cơ là màng cơ (sarcolemma) là màng sinh chất và (một lớp basal lamina gồm polysaccharide (đường đa) có tính ngậm nước và collagen type IV (protein cấu trúc) có tính đàn hồi??? - cần xem lại). Đa phần mỗi đầu mút thần kinh nối với với một sợi cơ tại phần giữa. Phần màng cơ tạo thành các ống T tube, đi sâu nối với với lưới nội cơ chất (SR) tại vùng triad (màng cơ và 2 màng lưới nội cơ chất) giúp lan truyền điện thế động một cách nhanh chóng đến các sợi tơ cơ. 
+    - Mỗi sợi cơ chứa nhiều sợi tơ cơ (Myofibril). Sợi tơ cơ bào gồm nhiều đơn vị co cơ (sarcomere). 
+    - Cấu trúc đại thể sarcomere: 
+      + Chiều dài # 2 micromet (mcm).
+      + Đường Z: chỗ nối các sợi actin, trung tâm của đĩa sáng (băng I, isotropic - tính đẳng hướng với ánh sáng phân cực). 
+      + Đường M: chỗ nối của các sợi myosin, trung tâm của băng A (Anisotropic - tính dị hướng với ánh sáng phân cực). 
+      + Vân sáng là chỗ chỉ có sợi actin, vân tối là chỗ chồng actin và myosin. 
+*** Cấu trúc vi thể sarcomere:
+      + Sợi acttin: Gồm các tiểu đơn vị G-Actin, trùng hợp lại thành sợi F-Actin, có chỗ gắn với ADP/ATP có vai trò trong trùng hợp và phân tách sợi F-actin. Gồm 2 sợ kép F-actin xoắn. Dọc theo sợi F-actin có sợi tropomyosin sắp dọc theo rãnh của sợi kép - che lại các vị trí gắn myosin của actin. Dọc theo sợi actin còn có tropponin gồm 3 tiểu đơn vị T (gắn tropomyosin), I (ức chế actin), C (gắn Ca2+). Tiểu đơn vị C gắn với Ca2+ làm thay đổi cấu trúc -> kéo lệch tropomyosin để lộ chỗ gắn kết với myosin của sợi actin. 
+      + Sợi Myosin: gồm 2 chuỗi polypeptid lớn xoắn với nhau tạo thành phần đuôi và cuộn tròn thành 2 đầu. 2 đầu còn có 4 chuỗi nhỏ polypeptid. nhiều phân tử myosin gắn với nhau ở phần đuôi tạo thành thân sợi myosin, nhần nhô ra và đầu tạo thành cầu nối chéo (cross-brigde), 2 phân tử kế tiếp nhau xoay cách nhau 120 độ tạo sự phân bố đồng đều. cross-brigde có 2 chỗ nối hinge vùng nối với thân và nối với đầu. 
+      + Titin (conectin): nối đĩa Z với myosin, rất đàn hồi. 
+      + Các sợi tơ cơ được giữ song song ở đĩa Z do các desmin (intermidiate filament) kết nối các đĩa Z. 
+      + Màng lưới nội cơ chất bao quanh các sợi tơ cơ, dọc theo đó là các ty thể. Màng lưới nội cơ chất nối với nhau ở vùng triad dày đặc liên kết với các ống T tube. Mỗi ranh giới A-I có 1 triad. 
+*** Điện thế động
+    1. Kích thích thần kinh -> acetylcholine gắn kết thụ thể gắn kết kênh Na gắn kết acetylcholine -> Natri vào tb -> nâng điện thế màng lên mức ngưỡng
+    2. Kênh Natri cổng điện thế mở ra -> Natri ồ ạt vào màng tế bào -> nâng điện thế màng tế bào -> dọc theo hệ thống T tube
+    3. Kênh Ca2+ type L (DihydroPyridine) kích hoạt bởi điện thế mở ra và thay đổi cấu trúc tác động cơ học trực tiếp với kênh Ca2+ (RyR1) trên màng lưới nội cơ chất -> giải phóng Ca2+ vào xung quanh sarcomere -> co cơ
+    4. Kênh Kali cổng điện thế mở ra phục hồi điện thế màng tế bào. 
+    5. Kênh Ca2+ATPase trên màng tb PMCA ra ngoại bào và SERCA bơm Ca2+ vào lại màng nội cơ chất (chính) -> giãn cơ
+*** Cơ chế co cơ, lý thuyết walk through
+    - Đầu của myosin có khe gắn ATP và có hoạt tính ATPase, khi gắn ATP sẽ thủy phân thành ADP và Pi cung cấp năng lượng cho myosin ở trạng thái thẳng góc (căng), ADP và Pi sau thủy phân vẫn giữ trong khe của đầu myosin. 
+    - Sau khi Ca2+ gắn vào troponin C sẽ khiến cấu trúc thay đổi kéo lệch sợi myotroponin để lộ ra vị trí gắn trên sợi actin
+    - Đầu myosin có hoạt lực mạnh với vị trí gắn trên actin sẽ gắn vào đây và thay đổi cấu trúc đầu myosin sang gập góc và kéo trượt sợi actin và giải phóng Pi (power stroke) sau đó giải phóng ADP. Lúc này đầu myosin có thể gắn với ATP và thay đổi cấu trúc khiến nhả khỏi sợi actin, sau đó thủy phân ATP thành ADP + Pi và tiếp tục quá trình trên, gọi là chu trình Cross-Brigde.
+    - Co cơ càng nhiều càng cần nhiều ATP gọi là hiện tượng Fenn (tăng khi cơ làm việc (shortening), không chỉ phụ thuộc isometric force mà còn work done)
+*** Sức căng, vận tốc co cơ liên quan đến độ dài và tải trọng
+    - Sức căng của sợi cơ cao nhất khi sarcomere ở khoảng cách bình thường 2-2.2 mcm lúc này các sợi actin vừa chớm chồng lên nhau???(Optimal khi overlap nhiều nhất mà không gây interference (actin không chồng nhau ở giữa, myosin không chạm Z)). ở vị trí dài nhất và ngắn nhất (đầu myosin đụng vào đường Z và trùng lại) sức căng cơ nhỏ nhất. 
+    - Sức căng cơ giữa lúc nghỉ và co là lớn nhất khi sợi cơ ở độ dài bình thường hoặc ngắn hơn một chút, tương ứng với chiều dài sarcomere khoảng 2mcm. ??? Active tension max tại optimal length; total tension = active + passive (passive tăng khi stretch).
+    - Vận tốc co cơ lớn nhất khi cơ không có tải trọng và bằng 0 khi tải trọng tối đa. 
+*** Năng lượng co cơ
+    - Có lấy năng lượng từ 3 nguồn: 
+      + Rất nhanh từ ATP sẵn có và creatine phosphate (men CK phân giải creatine phosphate +ADP -> creatine + ATP có giải phóng nhiệt do liên kết phosphate trong creatine phosphate cao hơn trong ATP một chút), nhưng chỉ duy trì co cơ được vài giây
+      + Sau đó đến phân giải glycogen -> G6P -> Pyruvat -> chuyển hóa yếm khí thành acid lacic, duy trì co cơ khoảng vài phút. (ở tế bào cơ vân không có Glucose-6-phosphatase -> G6P không vào máu được, khác với gan. Ở tế bào cơ vân cũng không có thụ thể của glucagon)
+      + Cuối cùng là chuyển hóa hiếu khí từ phân giải glycogen, dinh dưỡng từ máu, lấy oxy nhanh từ myoglobin và từ oxy máu, duy trì co cơ đến vài chục phút - đến vài giờ.
+    - Liên hệ sinh lý bệnh: 
+      + Trong hủy cơ vân: myoglogin là phân tử nhỏ bị phát tán nhanh nhất 1-3 giờ, đỉnh 6-12 giờ. CK phân tử lớn phóng thích chậm 4-6 giờ, đỉnh 24 giờ. LDH nằm sâu hơn, phát tán chậm sau 1-2 ngày, và kéo dài. Lưu ý CKMM đặc hiệu hơn cho cơ vân, CKMB cơ tim, CKBB cho não. Troponin I, T của cơ tim khác đồng phân do đó XN troponin Ths đặc hiệu cho nhồi máu cơ tim. 
+      + Creatinine là sản phẩm thoái hóa của creatine/ creatine phosphate -> Creatinine + H20, không có vai trò chuyển hóa, ổn định 1-2% khối lượng cơ/ngày, thải ra bởi thận, dùng ước tính độ lọc cầu thận do ít tái hấp thu.
+*** Động học co cơ
+    - Công cơ học (W) = L (quãng đường di chuyển) x D (tải trọng). Hiệu suất cơ cơ = W/năng lượng tiêu hao. 
+    - Một đơn vị vận động là một hoặc nhóm sợi cơ được chi phối bởi một sợi thần kinh
+    - Cơ chậm (type II) chứa nhiều myoglobin hơn cơ nhanh (type I) giúp dự trữ oxy nhiều hơn, có màu đỏ sậm hơn cơ nhanh, đơn vị vận động ít sợi cơ hơn cơ nhanh để di chuyển tinh tế, trong khi cơ nhanh cần lực lớn.
+    - Trương lực cơ: điều hòa bởi thần kinh trung ương ở sừng trước tủy sống? và ở thụ thể căng ở cơ. 
+    - Nhóm cơ đối vận và đồng vận 2 bên khớp được điều hòa sức căng bằng hệ thần kinh, sợi cơ dài hơn bình thường có sức căng lớn hơn sợi bị co rút quá 1/2 -> hoạt động nhịp nhàng. ?
+    - Co cơ kiểu bậc thang: nhiều tín hiệu thần kinh lặp lại làm sức cơ co tăng dần và đạt đỉnh, do hiện tượng cộng lực. ?
+    - Mỏi cơ: Cơ co liên tục có hiện tượng mỏi cơ do xung thần kinh yếu dần, cạn kiệt năng lượng, hoặc giảm tưới máu
+    - Hệ đòn bẩy cơ xương phụ thuộc: (1) vị trí bám cơ. (2) khoảng cách đến điểm đòn bẩy. (3) chiều dài đòn bẩy. (4) Vị trí đòn bẩy. 
+*** Phì đại, teo cơ, và sửa chữa
+    - Bó cơ diện tích 1cm2 có thể tải trọng 3-4kg (50 pound/1inch2).
+    - Cơ tăng hoạt động sẽ phì đại bằng cách tăng sợi actin, myosin, tức là tăng kích thước và số lượng tơ cơ. Rất ít tăng số lượng sợi cơ. 
+    - Cơ dài khi bị kéo căng và ngược lại do thêm hoặc bớt sarcomere ở vùng bám gân. 
+    - Cơ sửa chữa bằng các tế bào vệ tinh nằm giữa lớp sarcolemma và basal lamina. Khi cơ bị tổn thương tế bào vệ tinh bò đến vùng tổn thương, nhân đôi, sửa chữa, sau đó quay lại giữa lớp sarcolemma và basal lamina. 
+    - Teo cơ: cơ lâu ngày không bị kích thích thần kinh sẽ teo dần do bị ubiquitin đánh dấu và proteasome tiêu protein. Nếu cơ được thần kinh phân bố trở lại sẽ phục hồi trong 1-3 tháng, sau 1 - 2 năm sẽ không phục hồi thêm nữa. Cơ bị teo sẽ dần thay thế bằng mô xơ và mỡ, và bị proteasome tiêu hủy dẫn đến co rút. 
+    - Bệnh loạn dưỡng cơ: do rối loạn gen sản xuất protein dystrophin, protein này có tác dụng liên kết các protein cấu trúc sarcomlemma với protein cấu trúc mô liên kết giúp bảo vệ màng cơ không bị xé rách trong khi co cơ. khi thiếu dystrophin màng cơ dễ bị rách, Ca2+ bị phóng thích vào tb cơ nhiều, kích hoạt quá trình tiêu cơ, appotosis dẫn đến thay thế bằng tế bào sợi -> yếu cơ. Bệnh Duchen (DMD) khởi phát sớm ở trẻ em, bệnh Becker (BMD) khởi phát muộn hơn ở tuổi thiếu niên. 
+*** Note
+    - Trong Guyton Cross-brige là cấu trúc giải phẫu của myosin gồm Cánh tay và Đầu nhô ra. Trong một số sách sinh lý khác còn là chức năng tức là nối myosin và action (cầu nối chéo). 
+    - Trong Guyton có nhắc đến G-actin có gắn ADP: Sợi F-actin có tính phân cực: đầu (+) là nơi các G-actin gắn ATP mới gia nhập vào sợi. Sau khi vào sợi, ATP bị thủy phân thành ADP. Do đó, đầu (-) chủ yếu chứa các G-actin 'cũ' gắn ADP, vốn có liên kết yếu hơn và dễ bị giải ly khỏi sợi. 
+    - Khi kích thích, Ca²⁺ được giải phóng chỉ tại các tơ cơ (sarcomere), không tràn khắp tế bào. Ca²⁺ gắn troponin làm cơ co, rồi nhanh chóng được bơm trở lại SR để cơ giãn. Nhờ đó, co cơ chính xác, khu trú và bền bỉ.
+    - $Ca^{2+}$ từ SR: Chiếm 100% vai trò gây co cơ.Kênh L (trên ống T): Ở cơ vân, kênh này đóng vai trò như một cảm biến điện thế hơn là một cái ống dẫn. Khi có điện thế động, nó thay đổi hình dạng và "nhấn nút" trực tiếp vào kênh trên SR để giải phóng Canxi. Rất ít hoặc không có $Ca^{2+}$ ngoại bào chảy qua đây để vào tế bào. Đối với cơ tim (Sự khác biệt nằm ở đây)Kênh L: Cho phép $Ca^{2+}$ ngoại bào tràn vào.Cơ chế: Lượng $Ca^{2+}$ ngoại bào này không đủ để làm co cơ ngay, nhưng nó lại là "mồi lửa" để kích thích SR giải phóng một lượng $Ca^{2+}$ khổng lồ khác (gọi là cơ chế Calcium-induced calcium release).Điện thế động: $Ca^{2+}$ từ kênh L giúp kéo dài thời gian điện thế động (tạo giai đoạn bình cao - plateau), giúp tim co bóp tống máu hiệu quả hơn.
+** Chap 7 - Dẫn truyền Thần kinh-Cơ và Ghép đôi Kích thích-Co cơ
+*** Cấu tạo khớp nối thần kinh cơ
+    - Một sợi thần kinh chi phối cho từ ba đến vài trăm sợi cơ. Ngoại trừ khoảng 2% sợi cơ, hầu hết mỗi sợi cơ chỉ nhận một đầu tận thần kinh.
+    - Phần màng cơ lõm vào và các cấu trúc của nó (rãnh dưới thần kinh - subneural clefts còn gọi là nếp gấp sau synap - junctional folds, các thụ thể nicotinic tập trung đỉnh nếp gấp, các kênh natri điện thế tập trung đáy nếp gấp) gọi là tấm tận cùng (motor end plate). 
+    - Khớp nối thần kinh được bao bởi một hoặc vài tế bào Schwan giúp ngăn cách nó với dịch ngoại bào. 
+    - Phần màng cơ lõm vào gọi là rãnh synap (hay máng synap), phần khoảng cách giữa đầu tận cùng thần kinh và màng cơ gọi là khe synap, rộng 20-30nm.
+    - Thụ thể nicotinic có ở tb cơ và thần kinh trung ương, khác với thụ thể muscarinic ở cơ tim, cơ trơn, thần kinh trung ương dẫn truyền tín hiệu qua trung gian protein G và chất truyền tin thứ 2.
+*** Hình thành và phóng thích AcetylCholine
+    - Sự hình thành các túi từ bộ Golgi ở thân tế bào thần kinh ở sừng trước tủy sống, di chuyển dọc theo sợi trục đến đầu tận cùng. Tại đây số lượng túi dầy đặc khoảng 300.000 túi, acetylchololine được tổng hợp từ bào tương sẽ được đưa vào túi với khoảng 10.000 phân tử/túi. Các túi được tập hợp 2 bên dải đặc là các túi hoạt động sẵn sàng hòa màng phóng thích khi có Ca2+ kích hoạt synaptotagmin cắt phức hợp SNARE, các túi dự trữ gắn kết với protein cấu trúc (actin) sẽ được di chuyển đến vùng hoạt động để phóng thích khi có Ca2+-Calmudin xúc tác qua CaMKII kích hoạt protein synapsin.
+    - Với số lượng túi Khoảng 300.000, mỗi kích thích thần kinh phóng thích khoảng 125 túi, do đó nếu kích thích liên tục 100 lần/giây trong vài phút sẽ cạn kiệt túi.
+    - Các túi sau khi hòa màng sẽ lõm vào và nhờ protein Clathrin sẽ được thu hồi để tiếp tục sử dụng. Quá trình này diễn ra trong khoảng 20 giây. 
+    - Acetylcholine được hình thành trong bào tương nhờ enzym acetylcholine transferase (AChT): Choline (tái hấp thu từ khe synap) + Acetyl-CoA (ty thế sản xuất đưa ra bào tương) -> Acetycholine + CoA
+    - Kích thích thần kinh trên ngưỡng điện thế động -> Ca2+ ngoại bào tràn vào tb qua kênh P/Q-> kết hợp với calmodulin -> Ca2+ - calmodulin -> kích hoạt các túi hoạt động hòa màng nhanh, và xúc tác cho các túi dự trữ di chuyển đến vị trí hoạt động và hòa màng. 
+    - AcetylCholine sau khi kích thích màng cơ sẽ được phân hủy thành Choline và Acetate nhờ men Acetylcholine esterase và được tái hấp thu vào màng trước synap để tái sử dụng. Quá trình này kéo dài 5-10ms. 
+*** Điện thế động màng tế bào cơ
+    -  Ghép đôi kích thích - co cơ (Excitation–contraction coupling) là quá trình biến tín hiệu kích thích thành co cơ.
+    - 2 phân tử AcetylCholine sau khi gắn với thụ thể Nicotic trên tiểu đơn vị alpha (kênh natri gắn acetylcholine, gồm 5 tiểu đơn vị 2 alpha, beta, delta, và gama ở thai nhi thay bằng epsilon ở người lớn) sẽ mở cho dòng Natri vào tb và một ít Kali ra ngoại bào, một ít Ca vào nội bào. 
+    - Một kịch thích thần kinh sẽ tạo kích thích màng cơ gấp 3 lần ngưỡng cần thiết-> hệ số an toàn lớn. 
+    - Dòng Natri vào tế bào gây tăng điện thế màng trên ngưỡng kích thích các kênh Natri điện thế mở ra, khử cực tế bào -> kênh Ca2+ type L (DHP) mở ra thay đổi cấu hình, tác động cơ học trực tiếp thụ thể Ca2+ trên màng lưới nội cơ chất (RyR1) khiến dòng Ca2+ ồ ạt vào các sợi tơ cơ -> co cơ. Nồng độ Ca2+ bào tương rất thấp khoảng 10^-7 mmol/l, Ca2+ trong lưới nội cơ chất gấp 10.000 lần, mỗi lần kích thích hoàn toàn ống T và lưới nội cơ chất nâng lượng Ca2+ quanh tơ cơ lên 2x10^-4, gấp 10 lần lượng cần thiết để co cơ tối đa. Sau đó, kênh SERCA phụ thuộc ATP bơm chủ động Ca2+ vào lại màng lưới nội cơ chất, trong lưới nội cơ chất có các protein Calsequestrin có thể chứa đến 40 ion calci giúp lưới nội cơ chất giữ lượng lớn Ca2+ mà không làm tăng nồng độ thẩm thấu. Chu trình phóng thích và tái hấp thu Ca2+ (xung Calci) trong cơ kéo dài tối thiểu 1/20 giây (cơ tim 1/3 giây), do đó nếu kích thích thần kinh liên tiếp nhanh sẽ gây cộng lực. kết thúc điện thế động, K đi ra ngoài tế bào qua kênh Kali điện thế, và cuối cùng bơm NA/KATPase hoạt động lặp lại nồng độ ion trong và ngoài tb. 
+    - Điện thế động ở tb cơ kéo dài 1-5ms, chậm hơn 5 lần so với tb thần kinh, và dẫn truyền chậm 3-5m/s, chậm hơn 1/13 lần so với tb thần kinh có bao myelin chi phối cho tb cơ. Điện thế nghỉ màng tb cơ khoảng -80 đến -90mV, tb thần kinh (khoảng -70mV), ngưỡng kích thích điện thế động -55mV. 
+*** Các chất ức chế, kích thích dẫn truyền thần kinh cơ
+    - Nicotine, có tác dụng kích thích thụ thể nicotinic tương tự Acetylcholine, vào được hàng rào máu não. Carbachol (lưu ý: không phải là carbatrol - carbamazepine) thường dùng trong nhãn khoa, kích thích cả thụ thể nicotinic và muscarinic. 
+    - Neostigmine, Physostigmine hoặc Pyridostigmine có tác dụng ức chế men Acetylcholine esterase làm tăng nồng độ Acetylcholine trong khe synap, được ứng dụng trong điều trị nhược cơ. Diisopropyl flurophosphate là chất ức chế mạnh men Acetylcholine esterase không hồi phục, là chất độc thần kinh dạng khí. 
+    - Botulinum ức chế phóng thích túi chứa Acetylcholine do ức chế SNARE, Curare ức chế thụ thể nicotinic làm hệ số an toàn <1.
+*** Bệnh nhược cơ
+    - Trong bệnh nhược cơ, hệ miễn dịch nhận nhầm và tấn công thụ thể nicotinic làm giảm số lượng thụ thể này. 
+    - Cơ dễ bị mỏi khi hoạt động nhiều do thiếu hụt lượng Acetylcholine tương đối. 
+    - Cơ yếu nhiều vào buổi chiều tối và theo thứ tự: cơ mi, vận nhãn, cơ mặt, nhóm cơ hành não (hàm, nhai, nuốt), cơ cổ, gốc chi, ngọn chi, cơ hô hấp. 
+*** Tăng thân nhiệt ác tính
+    - Các thuốc  mê hô hấp nhóm Halogen (như Halothane, Isoflurane, Sevoflurane) và thuốc giãn cơ khử cực Succinylcholine (ban đầu kích thích, sau đó ức chế) có thể kích hoạt thụ thể DHP hoặc RyR1 bị lỗi dẫn đến Ca2+ tràn vào tế bào làm co cơ liên tục, sinh nhiệt, tăng tiêu thụ oxy, tăng CO2, toan hóa máu, hủy cơ, rối loạn điện giải, suy đa tạng, sốc, tử vong nếu không điều trị kịp thời. 
+    - Điều trị bằng giảm thân nhiệt, thuốc dantrolene ức chế kênh RyR1.
+** Chap 8 - Co cơ trơn
+*** Phân loại cơ trơn
+    - Cơ trơn một đơn vị: Gồm một nhóm các sợi cơ được chi phối bởi chung 1 sợi thần kinh. Các cơ co với nhau như một nhóm, thường gặp trong cơ tạng.
+    - Cơ trơn đa đơn vị: Mỗi sợi cơ được chi phối bởi một sợi thần kinh. VD cơ mống mắt, cơ dựng lông. 
+*** Cấu tạo cơ trơn
+    - Cơ trơn không có cấu tạo đĩa Z như cơ vân, thay vào đó là các thể đặc nằm trong bào tương hoặc trên màng tế bào liên kết giữa 2 tế bào cơ. Các sợi actin nối với các thể đặc. Các sợi myosin có cấu tạo side polar và sự sắp xếp của các sợi actin giúp cho cơ trơn có thể co rút tới 80% chiều dài sợi cơ, so với chỉ 30% trong cơ vân. 
+*** Chu kỳ co cơ và sử dụng năng lượng của cơ trơn
+    - Cơ trơn có chu kỳ dài hơn cơ vân và sử dụng năng lượng ít hơn do hoạt tính myosin-ATPase thấp hơn, sợi myosin gắn kết và tháo ra khỏi actin xảy ra chậm hơn do đó duy trì trương lực co cơ kéo dài. 
+    - Khi có một kích thích: thần kinh, hoocmon, căng cơ -> màng tế bào bớt âm hơn -> kích hoạt kênh Ca2+ điện thế -> Ca2+ từ ngoại bào vào tế bào -> Ca2+ kết hợp Calmodulin -> hoạt hóa men myosin kinase gắn phosphate vào một trong những chuỗi nhẹ của đầu Myosin, gọi là Myosin chuỗi nhẹ điều hòa (myosin light chain regulariztion) -> Myosin gắn vào actin -> Mysoin phosphatase tách phosphate ra khỏi myosin -> myosin tách khỏi actin. Mặc dù myosin đã tách phosphate nhưng myosin tách khỏi actin rất chậm (cơ chế khóa - latch), và Ca2+ kích hoạt co cơ chủ yếu ngoại bào có chu kỳ chậm hơn nhiều so với cơ vân giúp cho cơ trơn duy trì co lâu hơn và dùng ít ATP hơn.

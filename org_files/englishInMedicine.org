@@ -1,0 +1,58 @@
+Chào đồng nghiệp, việc khai thác bệnh sử chính xác là chìa khóa để chẩn đoán nguyên nhân gây tiêu chảy (do nhiễm trùng, ngộ độc hay bệnh lý mạn tính).
+
+Dưới đây là các mẫu câu hỏi tiếng Anh chuyên dụng, từ tự nhiên đến chuyên môn, giúp bạn thăm khám hiệu quả:
+
+---
+
+### 1. Thời gian và khởi phát (Onset & Duration)
+Để xác định đây là tiêu chảy cấp tính hay mạn tính.
+
+*   **When did the diarrhea start?** (Tiêu chảy bắt đầu từ khi nào?)
+*   **How long have you been having these symptoms?** (Triệu chứng này kéo dài bao lâu rồi?)
+*   **Did it start suddenly or gradually?** (Bệnh khởi phát đột ngột hay từ từ?)
+
+### 2. Tần suất (Frequency)
+*   **How many times a day do you go to the bathroom?** (Một ngày bạn đi ngoài bao nhiêu lần?)
+*   **How many bowel movements have you had in the last 24 hours?** (Trong 24 giờ qua bạn đi tiêu bao nhiêu lần?)
+
+### 3. Tính chất phân (Stool Characteristics)
+Đây là phần quan trọng nhất để phân biệt loại tiêu chảy.
+
+*   **What is the consistency of the stool? Is it watery, loose, or semi-formed?** (Tính chất phân như thế nào? Như nước, lỏng hay sệt?)
+*   **What color is the stool?** (Phân có màu gì?)
+*   **Have you noticed any blood or mucus in your stool?** (Bạn có thấy máu hay chất nhầy trong phân không?)
+*   **Is the stool greasy or very foul-smelling?** (Phân có mỡ hay có mùi cực kỳ hôi thối không?)
+*   **Is it difficult to flush away?** (Phân có khó dội sạch không? - *Gợi ý tình trạng kém hấp thu mỡ*).
+
+### 4. Triệu chứng kèm theo (Associated Symptoms)
+*   **Do you have any abdominal pain or cramping?** (Bạn có bị đau bụng hay quặn bụng không?)
+*   **Are you feeling nauseous or have you been vomiting?** (Bạn có cảm thấy buồn nôn hay bị nôn không?)
+*   **Do you have a fever or chills?** (Bạn có bị sốt hay rùng mình không?)
+*   **Do you feel bloated or have a lot of gas?** (Bạn có thấy đầy hơi hay chướng bụng không?)
+*   **Do you feel a constant urge to go, even when your bowels are empty?** (Bạn có cảm giác mót rặn/muốn đi liên tục dù ruột đã rỗng không?) -> *Tenesmus*.
+
+### 5. Đánh giá tình trạng mất nước (Dehydration Assessment)
+*   **Do you feel thirsty or lightheaded?** (Bạn có thấy khát hay chóng mặt không?)
+*   **Have you noticed a decrease in urination?** (Bạn có thấy đi tiểu ít hơn bình thường không?)
+
+### 6. Tiền sử dịch tễ và ăn uống (History & Exposure)
+*   **Have you eaten anything unusual lately?** (Gần đây bạn có ăn món gì lạ không?)
+*   **Has anyone else in your family or circle had similar symptoms?** (Có ai trong gia đình hay người quen bị triệu chứng tương tự không?)
+*   **Have you traveled abroad recently?** (Gần đây bạn có đi du lịch nước ngoài không?)
+*   **Are you taking any medications, especially antibiotics?** (Bạn có đang dùng thuốc gì không, đặc biệt là kháng sinh?)
+
+---
+
+### Một số từ vựng chuyên ngành cần lưu ý:
+
+| Tiếng Việt | Tiếng Anh chuyên môn | Cách nói bình dân (với BN) |
+| :--- | :--- | :--- |
+| Tiêu chảy | **Diarrhea** | **Runny tummy / The runs** |
+| Phân | **Stool / Feces** | **Poo / Bowel movement** |
+| Mót rặn | **Tenesmus** | **Constant urge to go** |
+| Phân mỡ | **Steatorrhea** | **Greasy/Oily stool** |
+| Co thắt bụng | **Abdominal cramps** | **Stomach cramps** |
+
+**Lời khuyên nhỏ:** Khi hỏi bệnh nhân, bạn nên bắt đầu bằng câu: *"I'd like to ask you a few questions about your bowel movements to understand what's going on."* để họ cảm thấy thoải mái hơn trước khi đi vào chi tiết nhạy cảm.
+
+Bác sĩ có cần thêm các câu hỏi về tiền sử bệnh lý (như Crohn hay IBS) không?

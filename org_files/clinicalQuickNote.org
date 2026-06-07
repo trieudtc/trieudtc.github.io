@@ -51,12 +51,111 @@
      + Screen: chỉ tầm soát khi có tăng huyết áp kháng trị và 5P; tiền căn gia đình; bát thường gen có liên quan; khối u thượng thận có tính chất gợi ý (large size .4 cm, cystic and haemorrhagic changes)
      + Chẩn đoán: catecholamine  và metanephrine nước tiểu 24 giờ hoặc fractionated metanephrine máu. Chú ý các thuốc gây thay thay đổi metanephrine (betablocker gây tăng) [[./img/clinicalQuickNote_2nd_hypertension_ARR2.jpg]]. Nếu XN tầm soát dương tính thì chẩn đoán hình ảnh với adrenal CT hoặc MRI. Nếu hình ảnh âm tính thì scintigraphiclocalization with 123I-metaiodobenzylguanidine (MIBG) or additional imaging (i.e. whole body MRI, or others) is indicated. 
      + Chuẩn bị bệnh nhân trước lấy mẫu: Several studies have shown that plasma metanephrine concentrations tend to be higher when measured in the seated position compared to the supine position, leading to reduced specificity and an increase in false positive results. Guidelines recommend drawing blood with the patient in the supine position after they have been fully recumbent for at least 30 minutes before sampling
-* Dịch và cân bằng dịch trong cơ thể
+* Dịch, Điện giải, và kiềm toan
 ** Phân bố dịch trong cơ thể
    1. Dịch nội bào 2/3
    2. Dịch ngoại bào 1/3
-      - Trong lòng mạch 1/4. Ước tính lượng máu # 7% trọng lượng cơ thể. VD người 70kg|5000ml máu
+      - Trong lòng mạch 1/4. Ước tính lượng máu # 7% trọng lượng cơ thể (70ml/kg). VD người 70kg|5000ml máu
       - Dịch kẽ 3/4
+   3. Tổng lượng nước
+      - Nam 0.6L/kg (600ml/kg)
+      - Nữ 0.5L/kg (500ml/kg)
+** Kiềm chuyển hóa
+*** Nguyên nhân
+    1. Mất H+
+    2. Tăng HCO3-
+    3. Giảm dịch ngoại bào (thiếu clo)
+*** Cơ chế ở thận
+    - HCO3- được hấp thu/bài tiết bằng cách trao đổi ngược với Clo
+    - Thiếu clo máu -> thiếu clo trong lòng ống -> tăng hấp thu và giảm tiết HCO3-
+    - Hạ kali máu: K ra ngoài tb trao đổi H+ -> tb ống thận cố tái hấp thu HCO3- để cân bằng lại. K+ thấp còn làm giảm hoạt tính của pendrin ống thận làm giảm tiết HCO3-
+    - Cường aldosteron: kích hoạt bơm ở ống thận tăng thải H+ 
+*** Lượng giá
+    - Thường gặp nhất: mất dịch vị, lợi tiểu, thiếu dịch, hạ kali máu. 
+    - Phân loại dựa trên clo
+      + Kiềm đáp ứng với clo (thiếu clo): cl nước tiểu thấp (<15meq/L)
+      + Kiềm kháng clo: Cl nước tiểu >25meq/L. Thường gặp nhất cường aldosteron
+*** Điều trị
+    1. Thiếu dịch, thiếu clo
+       - Ước tính lược clo thiếu: CL_deficit = 0.2 x kg (lean) x (100 - plasma Cl)
+       - Lượng dịch NaCl 0.9% (Lít) : CL_deficit/154.
+       - Trong trường hợp phù, hay có kèm giảm kali, bù bằng KCl
+    2. Kiềm kháng clo
+       - Thường do tăng mineralocorticoid (cường aldosterone, dùng hydrocortisone, fludrocortison hoặc predni, methylpredni liều cao)
+       - *Acetazolamide (Diamox):* lợi tiểu ức chế tái hấp thu HCO3-, kèm theo tăng thải Na. Liều 5-10mg/kg (IV or PO), tác dụng tối đa sau 15 giờ.  
+       - *HCl:* chỉ dùng khi kiềm máu nặng (PH >7.5), last resort, không thấy trên thị trường
+** Hạ Kali máu
+*** Phân bố kali
+    - Tổng lượng: 50-55meq/kg. -> 70kg # 3500meq. 98% nội bào.
+    - 2% ngoại bào # 70meq. 20% ngoại bào là huyết tương -> 15meq trong máu (0.4%). 
+    - Với mức plasma K+ 4.0 thiếu 200-400 sẽ giảm 1meq, dư 100-200meq làm tăng 1meq. 
+*** Lượng tiết ra:
+      + Phân 5-10meq/d. Tiêu chảy do viêm và dịch tiết có thể có nồng độ K 15-40meq/L, trường hợp nặng tiêu lỏng 10l/d có thể mất đến 400meq/d. 
+      + Mồ hôi 0-10meq/d
+      + Nước tiểu 40-120meq/d. Kiểm soát chính bởi aldosteron, k máu, Natri ở ống lượng xa. 
+*** Kali trong khẩu phần ăn:
+      - Khuyến cáo: Nam 3.400mg, nữ 2.600mg | Trung bình 3000mg -> 60-90 meq/d
+      - Trong một số thức ăn
+        + 1 trái chuối: 10meq
+        + 1 trái cam: 6.5meq
+        + 1 củ khoai tây: 20meq
+        + 1 chén rau bina: 20meq
+        + 1 chén rau muống: 5meq
+        + 240ml nước dừa: 15meq
+        + 100g thịt, cá: 10meq
+        + 240ml sữa: 8-9meq
+        + 1 chén cháo thịt rau xay nhuyễn 250ml: 8-10meq.
+*** Chẩn đoán
+     - Kali nước tiểu >30 meq/L (Uk:Ucr >13meq/g): mất qua nước tiểu -> Clo nước tiểu (<15meq/L) kiềm chuyển hóa, mất dịch vị (cơ chế: mất nước tăng aldosteron -> giữ natri, tăng trao đổi K; tăng hoạt động kênh ENaC tái hấp thu Na không kèm Cl -> lòng ống âm hơn -> kéo kali ra). CLo nước tiểu > 25meq/L: lợi tiểu, thiếu Magne
+     - Kali nước <30 meq/L (Uk:Ucr <13meq/g): mất qua đường tiêu hóa, giảm nhập
+*** Điều trị
+    - Ước lượng lượng thiếu: Cứ giảm 1meq/L thì cơ thể mất tổng lượng khoảng 10% (50meq/kg)
+    - Tốc độ bù: 
+      + Tối đa 20meq/h. 
+      + Trừ khi hạ quá thấp <1.5meq/L hoặc loạn nhịp nguy hiểm có thể nâng 40meq/h ở đường trung tâm (không dùng TM chủ trên). 
+      + Nồng độ: ngoại biên tối đa 50-60meq/L để khỏi kích ứng
+** Magne máu
+*** Phân bố
+    - Tổng lượng: # 24g hay 2000meq hay 1000mmol
+    - 50% trong xương
+    - 50% trong tế bào
+    - <1% trong huyết tương. 
+*** Thải ra
+    - Mg niệu: 5-15 meq/24hr (2.5 - 7.5 mmol/d). Mg niệu giảm đến gần không khi bệnh nhân ăn chế độ ăn không mg, sau 1 tuần mg máu giảm không đáng kể.
+*** Nhập vào
+    - Khuyến cáo: Nam 420mg, nữ 320mg. hay 13 - 17mmol/d. 
+    - Lượng magne có trong một số thức ăn: 
+        + 1 trái chuối: 1.3 mmol
+        + 1 trái cam: 0.5 mmol
+        + 1 củ khoai tây: 1.5 mmol
+        + 1 chén rau bina: 6.5 mmol
+        + 1 chén rau muống: 1-2 mmol
+        + 240ml nước dừa: 2.5 mmol
+        + 100g thịt: 1 mmol
+        + 100g cá: 1-2 mmol
+        + 240ml sữa: 1 mmol
+        + 1 chén cháo thịt rau xay nhuyễn 250ml: 2 -3 mmol.
+    - Lượng magne có trong thuốc
+      + Magne B6 470 + 5mg: 48mg magne -> 2 mmol
+      + Magne sulfate 15% 10ml (1.5g): 6 mmol
+*** Giá trị bình thường
+    - Mg toàn phần: 0.7 - 1.0 mmol/L (tự do, gắn protein, gắn anion)
+    - Mg ion hóa (tự do): 0.4 - 0.6 mmol/L 
+*** Hạ Mg máu
+**** Điều trị xoắn đỉnh theo Mariot
+     - Truyền 2g MgSO4 (8 mmol) trong 2 - 5 phút
+     - Truyền 5g MgSO4 (20 mmol) trong 6 giờ tiếp
+     - Truyền 5g MgSO4 (20 mmol) trong mỗi 12 giờ trong 5 ngày tiếp
+     - Mg máu sẽ tăng nhanh sau bolus nhưng sẽ bắt đầu giảm 15 phút sau. Mg máu sẽ về bình thường sau 1 - 2 ngày nhưng cần vài ngày để bù lượng mất của cơ thể. 
+     - KHi bệnh nhân có suy thận thì tốc độ truyền Mg không nên quá 50% protocol chuẩn. 
+**** Trên thực tế lâm sàng
+     - Điều trị rung nhĩ
+       + Thể tích phân bố của Mg (Vd) # 0.4L/kg
+       + Lấy mốc mg máu bình thường trung bình 0.8 mmol/L để nâng lên mức mục tiêu 2.0 mmol/L ở người 70kg cần: 0.4x70x(2.0-0.8) = 33.6 mmol -> 8.4g MgSO4. lên 3mmol cần 15g
+       + Nồng độ tối đa IV là 20%, tốt nhất <5%
+       + (TTM) 3g MgSO4 trong 15-20p. 2 ống MgSO4 15% 10ml pha NaCL 100ml c g/p
+       + x 3 lần nếu khôg hiệu quả. (phác đồ tối đa 9 g trong 1 giờ của nghiên cứu LOMAGHI)
+       + Nghiên cứu Biesenbach P (2018): nồng độ Mg máu đã giảm gần 30% sau 6 giờ, kể từ khi kết thúc liều bolus MgSO4 4.8 g. Theo ước tính 15 g MgSO4 nâng Mg từ 0.8 lên 3.0 mmol/L, vậy nên sau 9 g ban đầu, nếu dùng tiếp thì phải định lượng Mg máu đảm bảo trong ngưỡng an toàn. Có thể dùng nồng độ Mg độc tính trong sản khoa để giới hạn liều lượng Mg sử dụng và mục tiêu Mg (chẳng hạn không quá 3, tốt nhất 2 mmol/L).
 * Phác đồ tiệt trừ HP
   - Phác đồ [[./img/clinicalQuickNote_phacDoHp.jpg]]
   - Liều thuốc [[./img/clinicalQuickNote_thuocHp.jpg]]
@@ -107,8 +206,9 @@
         + 1mg overnight dexamethasone suppression test (DST)
         + Longer low-dose DST (2mg/d for 48h)
       - Lưu đồ: [[./img/clinicalQuickNote_cushingSyndromeApproach.jpg]]
-* Viêm gan C
-** Điều trị
+* Viêm gan
+** Viêm gan C
+*** Điều trị
    - Mục tiêu SVR12 dưới ngưỡng (15 IU/ml) (3 tháng) + dự phòng biến chứng + dự phòng lây nhiễm cộng đồng
    - Chống chỉ định DAAs:
      + Trẻ < 3 tuổi
@@ -122,22 +222,32 @@
    - Chẩn đoán xơ gan (F4) khi APRI >=2 hoặc FibroScan >=12.5 KPa
    - SOF400/VEL100, SOF400/DAC60 12 tuần có thể điều trị cả 6 type ở người lớn không có xơ gan, xơ gan còn bù. Với typ3, SOF/VEL tốt hơn (90% SVR12 âm) SOF/DAC (80%)
    - SOF/VEL, SOF/DAC 24 tuần hoặc SOF/VEL/RBV, SOF/DAC/RBV 12 tuần có thể điều trị cả 6 type ở người lớn xơ gan mất bù. 
-** Ngừng điều trị:
+*** Ngừng điều trị:
    - Ngừng điều trị khi có tác dụng phụ năng, đe dọa tính mạng (đặc biệt ribavirin - giảm Hgb)
    - ALT tăng >=10 lần ở tuần thứ 4
    - ALT tăng < 10 lần nhưng: suy nhược, buồn nôn, nôn, não gan, ứ mật tăng bilirubin (TP >3mg/dl hoăc TT >1.5mg/dl), tăng ALP có ý nghĩa. 
    - ALT tăng < 10 lần ở tuần 4 nhưng không giảm ở tuần 6 và 8 không do nguyên nhân khác. 
-** Theo dõi
+*** Theo dõi
    - XN trước điều trị, tháng thứ 1 và tháng thứ 3
-* Viêm gan cấp
-** Linh tinh
+** Viêm gan cấp
+*** Linh tinh
    - ALT > AST trong hầu hết các trường hợp ngoại trừ nguyên nhân do rượu hoặc tiến triển đến xơ gan
    - AST: ALT > 2 gợi ý do rượu
    - AST: ALT > 5 gợi ý tăng nguyên nhân ngoài gan (hủy cơ, MI)
-** Đợt cấp viêm gan B mạn
+*** Đợt cấp viêm gan B mạn
    - Biện luận trên BN Hải
      + Vấn đề 1: Tăng men gan > 5 lần ULN có 2 trường hợp tăng cấp tính trong đợt bùng phát viêm gan B mạn hoặc tăng mãn tính do tình trạng viêm gan b mạn giai đoạn hoạt động, do rượu hoặc xơ hóa gan. Bệnh nhân này gợi ý tình trạng bùng phát vì có dùng kháng virus -> ngưng thuốc -> cả 2 trường hợp đều có chỉ định dùng kháng virus cho BN
      + Vấn đề 2: mức độ xơ hóa gan. Kế hoạch: tiếp tục kháng virús, điều trị hỗ trợ, vitk, theo dõi sát, ngưng thuốc lá + ruọu bia, Fibroscan khi men gan giảm để xác định tình trạng xơ hóa gan
+** Viêm gan B mạn
+*** Các giai đoạn của viêm gan B mạn
+1. Dung nạp miễn dịch (immune tolerant)
+2. Viêm gan mạn HBeAg dương (Tên khác: Hoạt động miễn dịch, immune active)
+3. Nhiễm trùng không hoạt động (Tên khác: người lành mầm bệnh, chuyển đổi huyết thanh HBe, Inactive carier)
+4. Viêm gan mạn HBeAg âm (Tên khác: Tái hoạt): lẩn trốn miễn dịch, đột biến precore/ core promotor
+5. Thoái lui (chuyển đổi huyết thanh HBs)
+*** Các dấu ấn huyết thanh
+1. qHBsAg: phản ánh cccDNA trong tế bào gan và HBVDNA trong máu. Khi qHBsAg giảm tiên lượng tốt cho thoái lui, là một chỉ số giúp ngừng điều trị interferon. điều trị NA làm giảm q HBsAg rất chậm. Khi qHBsAg cao thì khả năng tái phát sau khi ngưng thuốc cao. Nồng độ qHBsAg thấp (< 1.000 IU/mL) kết hợp HBVDNA thấp là chỉ dấu tốt cho giai đoạn inactive carrier). qHBsAg cao > 1000 UI/ml có nguy cơ ung thư cao hơn ngay cả khi HBVDNA thấp. qHBsAg thấp (< 100 IU/mL) có khả năng thoái lui (sạch HBsAg) cao. 
+2. HBeAg: có vai trò điều hòa miễn dịch. Người có đột biến HBeAg âm dễ có những đợt bùng phát viêm gan âm thầm ở ngưỡng virus dao động hơn, dễ bỏ sót dẫn đến dễ xơ gan và ung thư gan hơn. 
 * Tim mạch
 ** Ngất
 *** Tiếp cận
@@ -204,3 +314,196 @@
   - Di chuyển: Thấp khớp cấp, lậu, viêm khớp virus
   - Thêm vào/đồng thời: RA, SLE, spondyloarthritis
   - Ngắt quãng: gout, virus, lymes disease
+* Bệnh thận
+** Tổn thương thận cấp
+*** Định nghĩa
+  - Cre tăng >=0.3mg/dl / 48 giờ
+  - Tăng >=50% trong 7 ngày
+  - Thiểu niệu <0.5ml/kg/hr trong >= 6 giờ
+  - Thực tế không chẩn đoán quá chặt dựa vào định nghĩa này.
+*** Nguyên nhân
+**** Tại thận
+    1. Mạch thận
+       - THA cấp cứu
+       - Viêm mạch máu nhỏ
+       - TTP/HUS (hemolytic uremia syndrome): Nhóm bệnh vi mạch huyết khối, biểu hiện tương tự (TTP - chủ yếu thần kinh sdo thiếu men ADAMTS13 - ngũ chứng giảm tiểu cầu, tan huyết, sốt, RL thần kinh, suy thận), (HUS - tổn thương nổi bật tại thận độc tố vk, tam chứng giảm tiểu cầu, tan huyết, suy thận cấp). 
+    2. Cầu thận
+       - Viêm cầu thận cấp
+    3. Ống thận mô kẽ
+       - ATN - hoại tử ống thận cấp: sepsis, meds (aminoglycoside, cisplatin, tenofovir), contrast, rhabdo, prerenal AKI kéo dài. 
+       - AIN - viêm thận mô kẽ cấp: nguyên nhân thường nhất là thuốc. AIN thường phát triển thông qua cơ chế phản ứng quá mẫn loại IV (quá mẫn chậm). Beta lactam, vancomycin, bactrim, nsaid. 
+       - Crystal nephropathy: acyclovir thường gặp nhất, ganiclovir, cipro, methotrexate
+    4. 
+**** Sau thận
+**** Trước thận
+*** Chẩn đoán
+    - Phân biệt quan trọng nhất là trước thận và tại thận
+    - Trước thận: Bun/Cre >20. Giảm thể tích làm kích hoạt hệ agiotensin-renin-aldosteron, ADH làm tăng tái hấp thu natri, nước, ure. Cast: hyaline
+    - ATN:  trụ nâu bùn chỉ trong ca nặng. 
+    - AIN: trụ bạch cầu chỉ trong ca nặng. 
+    - Hội chứng thận hư: trụ mỡ
+    - Hội chứng viêm thận: trụ hồng cầu
+* Sốt kéo dài
+** Các trường hợp sốt tương tự siêu vi nhưng kéo dài > 5-7 ngày
+*** Các tác nhân thường gặp và dấu hiệu gợi ý
+    1. Nhóm bệnh do động vật, côn trùng trung gian
+        - Rickettsia (sốt mò): Vết loét đen (eschar) không đau ở vùng nếp gấp da, phát ban ngày thứ 4-6, hạch gần vết loét
+        - Leptospira (xoắn khuẩn vàng da): Đau cơ bắp chân dữ dội, mắt đỏ ngầu không mủ, vàng da, tiểu ít (muộn)
+        - Sốt rét: sốt rét run, gan lách to, thiếu máu
+    2. Nhiễm khuẩn:
+        - Thương hàn: sốt bậc thang, mạch nhiệt phân ly, bụng chướng, tiêu chảy hoặc táo bón, "lưỡi quay" (đỏ rìa, trắng giữa), vết hồng ban trên ngực bụng, 
+        - Whitmore: 
+        - Viêm nội tâm mạc
+    3. Virus
+        - EBV/CMV: viêm họng nặng/ giả mạc (EBV), gan lách to, sưng hạch (cổ sau EBV), mệt mỏi nhiều
+        - HIV giai đoạn cấp 2 -4 tuần sau phơi nhiễm
+    4. Khác
+        - Lao
+        - Tự miễn
+        - lymphoma
+        - Áp xe sâu
+* Viêm phổi
+** Viêm phổi cộng đồng
+*** Chiến lược sử dụng kháng sinh theo độ nặng
+    1. CAP nhẹ ngoại trú
+       - Thường gặp nhất: Phế cầu, H. Ifluenza thường gặp hút thuốc lá, bệnh phổi mạn; mycoplasma (không điển hình) rất hay gặp ở người trẻ; Chlamydia, virus hô hấp
+       - Kháng sinh:
+    2. CAP nội trú:
+       - Tác nhân thường gặp: phế cầu, vk không điển hình (Mycoplasma, Chlamydia và đặc biệt là Legionella), Haemophilus influenzae, vk đường ruột E. coli, Klebsiella pneumoniae (thường gặp ở người già, người có bệnh nền). Virus: Tần suất gặp cao hơn và thường gây biến chứng bội nhiễm.
+       - Kháng sinh: 
+    3. CAP ICU:
+       - Tác nhân thường gặp: phế cầu, tụ cầu vàng (đặc biệt sau cúm, tổn thương có hang), legionella, gram âm đường ruột (klebsiella, proteus), Pseudomonas aeruginosa (Trực khuẩn mủ xanh): Thường gặp trên nền phổi cũ (giãn phế quản, COPD nặng). Kỵ khí trong hít sặc. 
+* Kháng sinh
+** Tổng quan - linh tinh
+   - Vk gram dương có vách dày peptidoglycan
+   - vk khuẩn gram âm vách peptidoglycan mỏng hơn nhưng bên ngoài có outer membrane là Liposacharich (LPS) tích điện âm, có các porin (kênh)
+   - Nhóm betalactam tác động bằng gắn kết PBP (penecillin bidiing protein) khiến không tạo được vách. 
+   - Kháng sinh vào nội bào tốt: TRèo Qua Màng Bắt Cô Làng (nàng) - Tetracycline, Rifampin, Quinolone, Macrolide, bactrim (cotrim), clindamycin, linezolid. 
+   - Vk nội bào bắt buộc: "Stay Inside when it's Really Cold and Chilly" Rickettsia (sốt mò), Coxiella burnetii (sốt Q), Chlamydia
+   - Vk nội bào tùy nghi: Some = Salmonella. Nasty = Neisseria (đặc biệt là Neisseria meningitidis - Não mô cầu). Bugs = Brucella. Like = Listeria monocytogenes. Living = Legionella pneumophila. Inside = Intracellular (Từ khóa nhắc bài: Nội bào). Cells = Chlamydia / Coxiella (Lưu ý: Một số tài liệu xếp Chlamydia vào nhóm bắt buộc, nhưng câu này vẫn thường được mượn chữ C để gom nhóm).
+** Betalactam
+*** Penicillin
+    1. Penicillin tự nhiên:
+       - G: tiêm
+       - V: uống
+    2. Penicillin kháng tụ cầu: 
+       - Không có hoạt tính với gram âm
+       - nafcillin, oxacillin và dicloxacillin.
+   3. Aminopenicillin
+      - Ampicillin: tiêm, uống
+      - Amoxicillin: uống
+      - Thêm phổ gram âm: E. coli, P. mirabilis, S. enterica và Shigella spp. không sản xuất beta-lactamase
+   4. Penicillin phổ rộng:
+      - Piperacillin, ticarcillin
+      - Mở phổ trên gram âm, có tác dụng trên P. aeruginosa
+   5. penicillin phổ mở rộng/chất ức chế beta-lactamase 
+      - Mở phổ trên gram âm
+      - Điều trị theo kinh nghiệm: (gemini) - Nhiễm trùng ổ bụng (phúc mạc, thủng tạng rỗng, áp xe gan, đường mật, viêm ruột thừa vỡ) [gram âm và kỵ khí]. Viêm phổi bệnh viện/ thở máy [Gram âm đường ruột, P. aeruginosa]. Nhiễm trung vùng chậu, niệu. /Không hiệu quả MRSA, ESBL, CRE/
+   6. Chung
+      - Không có tác dụng trên vi khuẩn không điển hình do không có vách. 
+      - Có thêm tác dụng trên kỵ khí nếu có betalactamase inhibitor.
+*** Cephalosporin
+    1. Chung
+       - Vi khuẩn khuẩn MRSA kháng betalactamse qua cơ chế gen mecA làm thay đổi cấu trúc PBP thành PBP2a khiến kháng sinh không còn bám vào được, do đó trừ thế hệ 5 Ceftaroline kháng hết. 
+       -  ceftazidime được tinh chỉnh để tăng tác dụng trên P. Aeruginosa nhưng lại làm giảm bám dính với PBP nên giảm tác dụng với tụ cầu. Thế hệ 4 khắc phục được nhược điểm này. 
+       - Các cephalosporin có hoạt tính kém lên kỵ khí (ái lực trên PBP của vk kỵ khí yếu, tiết beta lactamase), không có tác dụng trên vk không điển hình. 
+       - Cephalosporin thế hệ 5 đánh tốt trên gram dương kể cả MRSA và vi khuẩn kỵ khí gram dương. hoạt tính trên gram âm tương tự ceftriaxone, kém hoạt tính trên Pseudomonas. 
+*** Carbapenem
+    1. Chung
+       - Cơ chế đề kháng: Ví dụ, P. aeruginosa đột biến mất porin màng ngoài, tăng sản xuất các bơm đẩy (efflux pumps). Enterococcus faecium và MRSA sinh PBP biến đổi không gắn kết với carbapenem. Carbapenemase.
+    2. Imipenem
+       - Dễ bị phá hủy bởi men dehydropeptidase I, do đó kết hợp với Cilastatin để ức chế men này. 
+       - Không trị được MRSA
+       - Hoạt lực tốt trên gram dương, gram âm kể cả P. Aeruginosa, rất tốt trên kỵ khí. 
+    3. Meropenem
+       - Thay đổi cấu trúc nên không cần kết hợp cilastatin 
+       - Phổ tương tự imipenem 
+    4. Doripenem
+       - Phổ tương tự imipenem, tác dụng tốt hơn với P. aeruginosa
+    5. Ertapenem
+       - Hoạt lực kém hơn trong nhóm với vi khuẩn Gram dương hiếu khí, P. aeruginosa và Acinetobacter spp.
+*** Monobactame
+    - Chỉ có tác dụng trên gram âm hiếu khí và tác dụng rất tốt, hoạt tính trung bình trên Pseudomonas. Không có độc tính trên thận như aminoglycosid. 
+*** Glycopeptid
+**** Vancomycin
+     - Phân tử lớn
+     - Đánh Listeria monocytogenes (ký sinh nội bào) kém hơn ampicillin do phân tử lớn vào màng kém hơn. 
+     - Đánh tốt vi khuẩnn gram dương hiếu khí và kỵ khí, bao gồm cả C. diffi cile. 
+     - Tác dụng trên enterococci hiện nay variable do đột biến thay đổi cấu trúc d-alanyl–d-alanine dipeptide (chỗ bám của vancomycin), gen này có thể chuyển giao và đã tìm thấy trên một số tụ cầu -> có thể sẽ gia tăng đề kháng với vancomycin trong tương lai. 
+     - /"Although usually given intravenously, it can be given orally to treat bowel infections, such as diarrhea caused by C. diffi cile, but it is not absorbed when administered in this way"/
+     - Độc tính: điếc, đặc biệt dùng chung với aminoglycosid. Red man syndrome thường không phải do phản ứng dị ứng, tránh bằng cách truyền chậm. 
+*** Daptomycin
+    - Cơ chế tạo kênh ion trên màng tb vi khuẩn làm leak ion -> death. Không có tác dụng trên vi khuẩn gram âm do không qua được outer membrane. 
+    - Hoạt tính kém ở phổi, do đó không dùng điều trị viêm phổi. 
+*** Colistin
+    - Thuộc nhóm polymixin, Độc tính trên thận.
+    - Hoạt động bằng cơ chế: colistin điện dương hút LPS mang điện âm ở màng ngoài, sau đó đuôi lipid chèn sâu vào màng tb vk gây chết tb. 
+    - Không có hoạt lực trên Vk gram dương (không có màng ngoài), Proteus và Serratia spp. (LPS thay đổi ít điện âm và cấu trúc ít phù hợp để chèn chuỗi lipid), vi khuẩn kỵ khí (LPS thay đổi, điện thế màng kém gây khó chèn chuỗi lipid)
+    - Proteus họ vi khuẩn đường ruột Enterobacteriaceae, di động do có roi, gây nhiễm khuẩn niệu cơ hội, tiết urease mạn gây kiềm hóa nước tiểu dễ tạo sỏi
+    -  Serratia spp. sống trong môi trường ẩm, một số tiết sắc tố đỏ, gây nhiễm trùng cơ hội đặc biệt ICU. có AmpC beta-lactamase tự nhiên.
+
+** Betalactamase
+*** Tóm tắt dễ nhớ (GEMINI):
+**** 4 CẤP ĐỘ BETA-LACTAMASE
+      1. Cấp độ 1: Beta-lactamase cổ điển (Cấp độ cơ bản)
+        - Vi khuẩn thường gặp: S. aureus (Tụ cầu vàng), E. coli hoang dã.
+        - Thuốc bị vô hiệu hóa: Penicillin G, Ampicillin, Amoxicillin.
+        - Cách xử lý (Vũ khí thay thế): Dùng Cephalosporin thế hệ 1 (Cefazolin). Hoặc phối hợp kháng sinh cổ điển với chất ức chế thế hệ cũ: Amoxicillin + Acid Clavulanic (Augmentin), Ampicillin + Sulbactam (Unasyn).
+      2. Cấp độ 2: ESBL - Beta-lactamase phổ rộng (Cấp độ trung bình)
+        - Vi khuẩn thường gặp: E. coli, Klebsiella pneumoniae, Proteus mirabilis (Nhiễm trùng tiểu, nhiễm trùng ổ bụng bệnh viện).
+        - Thuốc bị vô hiệu hóa: TẤT CẢ các Penicillin và Cephalosporin (Thế hệ 1, 2, 3, 4 như Ceftriaxone, Ceftazidime, Cefepime).
+        - Cách xử lý (Vũ khí thay thế): Lựa chọn hàng đầu: Carbapenem (Ertapenem cho nhiễm trùng vừa; Imipenem/Meropenem cho nhiễm trùng nặng, sốc nhiễm khuẩn). Nhiễm trùng tiểu nhẹ: Có thể dùng Piperacillin/Tazobactam (Tazocin) hoặc Amikacin, Fosfomycin.
+      3. Cấp độ 3: AmpC - Cephalosporinase cảm ứng (Cấp độ "Bẫy lâm sàng")
+        - Vi khuẩn thường gặp (Nhóm SPACE/CES): Serratia, Pseudomonas aeruginosa, Acinetobacter, Citrobacter, Enterobacter.
+        - Cạm bẫy lâm sàng: Trên kháng sinh đồ ban đầu, vi khuẩn có thể báo "Nhạy cảm" với Cephalosporin thế hệ 3 (Ceftriaxone). Nhưng khi truyền thuốc vào người bệnh, thuốc sẽ "kích hoạt" vi khuẩn tiết ra lượng lớn AmpC phá hủy thuốc, dẫn đến thất bại điều trị.
+        - Cách xử lý (Vũ khí thay thế): KHÔNG DÙNG Cephalosporin thế hệ 1, 2, 3 và các thuốc phối hợp cũ (Augmentin, Tazocin). Vũ khí an toàn: Cefepime (Cephalosporin thế hệ 4) hoặc Carbapenem.
+      4. Cấp độ 4: Carbapenemase / CRE (Cấp độ "Ác mộng")
+        - Vi khuẩn đã tiết ra enzyme cắt được cả Carbapenem (KPC, NDM, OXA-48). Lâm sàng chia làm 2 phân nhóm chính để chọn thuốc:
+          + Nhóm Serine-Carbapenemase (KPC, OXA-48): Vũ khí mới: Ceftazidime/Avibactam (Zavicefta) là lựa chọn tối ưu.
+          + Nhóm Metallo-Beta-Lactamase (NDM-1): Enzyme phụ thuộc Kẽm, rất độc lực. Vũ khí: Zavicefta không trị được NDM-1. Phải dùng Ceftazidime/Avibactam phối hợp với Aztreonam, hoặc sử dụng các thuốc ngoài nhóm Beta-lactam như Colistin, Tigecycline (cho ổ bụng/da), hoặc kháng sinh mới Cefiderocol.
+**** 3 NGUYÊN TẮC VÀNG KHI ĐỌC KHÁNG SINH ĐỒ
+    - Nếu kết quả báo ESBL (+): Gạch bỏ ngay lập tức toàn bộ các Cephalosporin từ thế hệ 1 đến thế hệ 4 ra khỏi đầu, bất kể trên giấy có ghi chữ "S" (Nhạy cảm) hay không. Lực chọn ưu tiên lúc này là Carbapenem.
+    - Cảnh giác với nhóm vi khuẩn tiết AmpC (Enterobacter, Citrobacter, Serratia): Ngay cả khi kết quả trả về nhạy với Ceftriaxone, hãy ưu tiên chọn Cefepime hoặc Carbapenem để tránh hiện tượng kháng thuốc cảm ứng trong quá trình điều trị.
+    - Vai trò của Chất ức chế (Inhibitor):
+      + Chất ức chế cũ (Clavulanic acid, Sulbactam, Tazobactam): Chỉ trị được Cấp độ 1 và ESBL (Cấp độ 2).
+      + Chất ức chế mới (Avibactam): Trị được cả KPC và AmpC, mở đường cho kháng sinh đi kèm (Ceftazidime) diệt khuẩn.
+** Ức chế tổng hợp Protein 
+*** Rifamycins
+    1. Chung: 
+        - Ức chế enzyme RNA polymerase của vi khuẩn
+        - Dễ gây kháng (chỉ cần đột biến 1 acid amin) khi dùng đơn độc (trừ điều trị phòng ngừa)
+    2. Rifampin (Rifampicin)
+        - Gây dịch cơ thể có màu đỏ cam
+        - Có đường uống và truyền, các rifamycin khác chỉ uống. 
+*** Aminoglycosids
+    1. Chung
+        - Ức chế vi khuẩn bằng cách gắn vào tiểu đơn vị 30S của ribosome làm dịch mã (gắn acid amin) sai
+        - Mang điện dương nên ái lực với màng ngoài của vk gram âm tốt -> hiệu quả tốt trên gram âm hiếu khí. Hay dùng điều trị họ Enterobacteriaceae và Pseudomonas aeruginosa, vì nghiên cứu trên động vật đơn trị kém nên luôn phối hợp ngay cả khi nhạy. 
+        - Vì cần vào màng qua cơ chế vận chuyển tích cực phụ thuộc năng lượng, đòi hỏi phải có oxy và lực đẩy proton (proton motive force) -> không có hoạt lực trên vk kỵ khí, ổ abcess có môi trường acid. 
+        - Kém hơn với vk gram dương hiếu khí, tốt khi hiệp động với kháng sinh phá vách. 
+        - Độc tính trên thận 5 -10%, lên đến 50% ở đối tượng nguy cơ (già, dùng nhiều thuốc độc thận) do tích lũy liều ở tb ống thận gần, thường xảy ra sau ngày 4-5, có hồi phục khi ngưng thuốc. Độc tính trên tai không hồi phục, độc tính trên tiền đình (đặc biệt streptomycin). 
+     2. Streptomycin
+        - Điều trị hàng hai trong lao. 
+     3. Gentamycin: 
+        - Dùng phổ biến nhất. có tác dụng trên chi enterococci
+     4. Tobramycin: 
+        - Phổ tương tự và kháng tương tự gentamycin nhưng không có tác dụng trên chi enterococci
+     5. Amikacin: 
+        - Các chủng vi khuẩn Gram âm hiếu khí đã đề kháng với gentamicin và tobramycin vẫn có thể duy trì sự nhạy cảm với amikacin. 
+        - Không có hoạt tính lâm sàng có ý nghĩa với enterococci
+      6. Enterococci (gemini)
+        - 2 loài phổ biến nhất gây nhiễm trùng bệnh viện cơ hội, nhiễm trùng tiểu, viêm nội tâm mạch nhiễm trùng, nhiễm trùng ổ bụng
+          + Enterococcus faecalis: Gây 80-90% trường hợp, thường nhạy cảm với kháng sinh hơn so với E. faecium.
+          + Enterococcus faecium: 10 - 15%. đặc biệt nguy hiểm trong môi trường bệnh viện vì tỷ lệ kháng thuốc rất cao, đặc biệt là các chủng VRE (Vancomycin-Resistant Enterococcus)
+*** Macrolides
+    - Cơ chế tác động gắn tiểu đơn vị 50S của ribosome
+    - Có hoạt tính với một số vk gram dương, gram âm, không điển hình, mycobacteria, xoắn khuẩn. nhưng hiệu quả không ổn định. không có hoạt tính trên vi khuẩn kỵ khí. 
+    - Ery thiếu hoạt tính với Heamophilus infuenza, clari có hoạt tính với H influenza tốt hơn, azi tốt nhất. 
+*** Tetracyclines và Glycylcyclines
+    1. Chung
+       - Tiêm: Doxycycline và Tigecycline
+       - Uống: Tetra, Doxy, Mino
+       - Cơ chế gắn tiểu đơn vị 30S của Ribosome ngăn gắn acid amin
+       - 2 cơ chế đề kháng: Bơm tống xuất và thay đổi cấu hình tiểu đơn vị 30S
+       - Ưu thế trên vi khuẩn không điển hình (Chlamydia, Rickettsia, Mycoplasma). Có hoạt tính trên một số vk gram dương hiếu khí, gram âm hiếu khí, kỵ khí và xoắn khuẩn. 
+    2. 
