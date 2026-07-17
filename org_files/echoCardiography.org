@@ -1020,7 +1020,7 @@
      - Khử cực nhĩ.
      - Cuối sóng P nhĩ co đến Q
   2. R
-     - Co đồng thể tích <- *bắt đầu tâm thu*
+     - Co đồng thể tích <- *bắt đầu tâm thu* (R-S)
      - *Van 2 lá bắt đầu đóng*
      - Van ĐMC còn đóng
   3. S 

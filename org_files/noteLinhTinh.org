@@ -1,0 +1,39 @@
+* Hội chứng QT dài
+  1. Kênh Kali chỉnh lưu
+     - IKr hoạt động cuối pha 2, pha 3: điều chỉnh kali đi ra ngoài, k ngoại bào cao làm tăng hoạt tính kênh này (ngược đời). Thuốc hay tác động kênh này. 
+     - IKs mở chậm hơn IKs, pha 3: cơ chế phụ thêm cho IKr, kích thích beta làm tăng hoạt tính kênh này. 
+     - IK1 cho kali đi 2 chiều, ổn định điện thế màng
+2. Các type QT dài
+    - LQTS2: Do lỗi kênh IKr. Khi adrealin tăng làm tăng dòng canxi đi vào qua kênh canxi type L trong pha 3, IKr không bù đủ dễ gây hậu tái cực sớm. 
+    - LQTS1: Do lỗi kênh IKs. Khi tăng giao cảm IKs không bù đủ gây QT dài. 
+    - QT dài do thuốc: Thường tác động IKr. Nhịp nhanh giúp giảm QT, nhịp chậm thì thuốc ức chế mạnh hơn do hiện tượng "reverse use dependence"
+* Điện thế động cơ tim
+  - Kích thích vượt ngưỡng → mở kênh Na⁺ nhanh (pha 0, khử cực) → dòng K⁺ thoáng qua Ito (pha 1) → mở kênh Ca²⁺ type L tạo pha bình nguyên (pha 2) → hoạt hóa IKr và IKs gây tái cực (pha 3) → IK1 cùng bơm Na⁺/K⁺-ATPase duy trì điện thế nghỉ (pha 4).
+* Cơ vân
+  - Bó cơ -> nhiều sợi cơ -> mỗi sợi cơ là 1 tế bào cơ nhiều nhân -> màng cơ bao quanh (sarcolema) -> T tube đi sâu vào nối với lưới nội cơ chất tại triad -> Mỗi tb cơ có nhiều tơ cơ (myofibril) -> Mỗi tơ cơ có nhiều đơn vị cơ sarcomere (2mcm)
+  - Sarcomere: Băng I sáng có đĩa Z, băng A tối có M line
+    + G actin -> F actin -> 2 sợi F xoắn có chỗ gắn cho đầu myosin -> Sợi tropomyosin chạy dọc trong rãnh che các chỗ nối này -> Bộ 3 troponin I, T, C (I - actin, T - tropomyosin, C- Canxi)
+    + 2 sợi polypeptid xoắn -> myosin
+    + Titin (conectin) nối đầu actin và myosin
+    + Desmin nối các đĩa Z
+  - Điện thế động: Acetylcholine -> kích hoạt kênh Na gắn Acetylcholine --> mở kênh natri điện thế, khử cực -> kích hoạt kênh Ca type L (Ca1.1v) -> thay đổi cấu trúc, tác động cơ học lên kênh Ca RyR1 trên màng lưới nội cơ chất -> giải phóng canxi xung quanh sarcomere -> co cơ -> kênh Kali mở gây tái cực -> bơm SECA trên lưới nội cơ chất và PMCA trên màng tb bơm Ca ngược trở lại cùng với Bơm Na/K gây phục hồi màng tb
+  - Các kênh Ca type L: Ca1.1v cơ vân, Ca1.2v cơ trơn mạch máu (tác động chọn lọc của DHP) và cơ tim (tác động chọn lọc của NonDHP), Ca1.3v thần kinh - tai trong - tb beta tụy, Ca1.4v võng mạc
+  - Cơ chế co cơ, thuyết Walk through, chu trình cross brigde: Đầu Myosin có khe gắn ATP và hoạt tính ATPase -> phân hủy thành ADP và Pi giữ trong khe, lên "dây cót" --> khi có canxi gắn troponin C --> để lộ chỗ gắn cho myosin --> giải phóng ADP và Pi --> Power stroke gây co cơ --> Đầu myosin lại gắn ATP, lên dây cót và nhả khỏi actin. 
+  - Năng lượng co cơ: 
+    + Vài giây: ATP tại chỗ, và Creatine phosphate + APD --Creatin kinase--> Creatine + ATP. Creatinine là sản phẩm rác thoái giáng của creatine và creatine phosphate
+    + Vài phút: Phân giải glycogen --> G6P --> Pyruvate -> yếm khí tạo lactate.(cơ vân không có men G6P phosphatase nên không thể đưa đường vào máu -- khác với gan; lưu ý G6PD là men khác, có tác dụng chuyển hóa G6P tạo NADPH giúp chống oxy hóa, quan trọng ở tb hồng cầu vì không có ty thể)
+    + Chục phút - giờ: Hiếu khí, lấy oxy từ myoglobin, hemoglobin 
+  - Sinh lý hủy cơ: Myoglobin nhỏ phóng thích nhanh nhất 1 -3 giờ, đỉnh 6 - 12 giờ -> CK 4-6 giờ, đỉnh 24 giờ -> LDH nằm sâu sau 24 - 48 giờ, kéo dài. CKMM cơ vân, CKMB cơ tim, CKBB não. Troponin T, I ở tim khác đồng phân với cơ vân. 
+  - Loạn dưỡng cơ: dystrophin nối protein cấu trúc màng cơ với protein cấu trúc mô liên kết giúp giảm chấn động, thiếu men này dễ gây tổn thương màng cơ, gây tiêu cơ. Bệnh Duchen khởi phát sớm ở trẻ em, bệnh Becker khởi phát muộn ở thiếu niên. 
+* Thần kinh cơ
+  - Màng tế bào cơ lõm vào (máng synap), trên đó có các rãnh dưới thần kinh (subneural cleft/ jucntional fold). Trên rãnh dưới thần kinh có các thụ thể nicotinic ở phần trên, kênh natri điện thế ở phần dưới. Khớp nối thần kinh cơ được bao kín bởi tế bào Schwan. 
+  - Các túi tiết từ bộ Golgi của tb thần kinh sừng trước tủy sống ra sợi trục thần kinh --> đầu tận, nhận acetylcholine tổng hợp từ bào tương --> tập trung nhiều ở vết đặc (sẵn sàng hòa màng), các túi tiết gắn với protein cấu trúc sẽ được tiếp tục vận chuyển tới vùng hoạt động để sẵn sàng phóng thích --> Có Canxi kích hoạt Synaptotagmin hoạt hóa SNARE khiến túu tiết hòa màng --> các túi tiết được tái hấp thu nhờ protein Clathrin --> acetylcholine --Acetylcholine Esterase--> Choline + actetate. Choline được tái hấp thu + AcetyCoA (ty thể) --Acetylcholine Transferase--> Acetylcholine + CoA. 
+  - Sinh lý bệnh: 
+    + Thuốc kích thích thần kinh cơ: Nicotine vào được hàng rào máu não, chất tương tự acetylcholine. Neostigmine, physostigmine, pyridostigmine ức chế men Acetylcholine esterase làm tăng nồng độ acetylcholine sau synap. di flurophosphate là chất độc thần kinh dạng khí, ức chế acetylcholine esterase không hồi phục. 
+    + Thuốc ức chế thần kinh cơ: Botilium cắt phức hợp SNARE --> túi acetylcholine không hòa màng được. Curare ức chế thụ thể nicotinic làm hệ số an toàn < 1. 
+    + Bệnh nhược cơ: hệ miễn dịch tấn công thụ thể nicotinic làm giảm số lượng thụ thể này. Thứ tự yếu cơ: Mắt (mi, vận nhãn) - mặt - hàm, nhai, nuốt -- cổ - gốc chi - ngọn chi - cơ hô hấp. 
+    + Tăng thân nhiệt ác tính: thuốc mê dạng hơi nhóm halogen (Halothane, Isoflurane, Sevoflurane) và thuốc giãn cơ khử cực Succinylcholine có thể kích thích thụ thể DHP và RYR1 bị đột biến gây tình trạng co cứng cơ, tăng thân nhiệt, tăng CO2, hủy cơ, toan chuyển hóa... điều trị bằng Dantrolene ức chế kênh RYR1. 
+* Cơ trơn
+  - Gồm cơ trơn một đơn vị (unitary): nhiều tế bào nối nhau bằng gap junction, chỉ một số tế bào được chi phối thần kinh; và cơ trơn đa đơn vị (multiunit): mỗi tế bào được chi phối riêng (ví dụ: cơ mống mắt, cơ thể mi, cơ dựng lông).
+  - Có dense body (tương tự đĩa Z) là nơi bám của actin; myosin kiểu side-polar và không có sarcomere nên cơ có thể rút ngắn tới khoảng 70–80% chiều dài (so với khoảng 30% ở cơ vân).
+  - Cơ chế co: kích thích (thần kinh, hormon, căng cơ...) → tăng Ca²⁺ nội bào (từ ngoại bào và/hoặc lưới cơ tương) → Ca²⁺ gắn calmodulin → hoạt hóa MLCK (myosin light chain kinase) → phosphoryl hóa chuỗi nhẹ myosin → myosin gắn actin và co cơ → MLCP (myosin light chain phosphatase) khử phosphoryl hóa myosin → giãn cơ. Latch state: myosin đã khử phosphoryl hóa vẫn có thể gắn actin một thời gian, giúp duy trì lực co lâu với mức tiêu thụ ATP thấp.

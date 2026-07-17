@@ -19,7 +19,7 @@
   - Negative feedback
     1. Gain = correction/error. 
   - Possitive feedback: còn gọi là "vicious cycle", càng làm nặng hơn tình trạng ban đầu. Một số có lợi như:
-    1.  đông máu: hoạt hóa yếu tố đông máu -> tiếp tục hoạt hóa yếu tố đông máu bên cạnh cho đến khi cục máu đông bít chỗ chảy máu. 
+    1. Đông máu: hoạt hóa yếu tố đông máu -> tiếp tục hoạt hóa yếu tố đông máu bên cạnh cho đến khi cục máu đông bít chỗ chảy máu. 
     2. Phản ứng co thắt tử cung khi sanh: đầu em bé nong cổ tử cung -> co thắt càng mạnh hơn -> sanh. 
     3. Phản ứng dẫn truyền thần kinh: kích thích màng tế bào -> rò Na vào bên trong tế bào sợi tk -> thay đổi điện thết màng -> mở thêm kênh -> dẫn truyền điện là thay đổi điện thế màng bên cạnh -> cho đến đầu tận
     4. Possitive feedback là một phần trong vòng negative feedback lớn hơn: ví dụ đông máu -> negative feedback của ổn định huyết áp. 
@@ -467,3 +467,60 @@
 *** Chu kỳ co cơ và sử dụng năng lượng của cơ trơn
     - Cơ trơn có chu kỳ dài hơn cơ vân và sử dụng năng lượng ít hơn do hoạt tính myosin-ATPase thấp hơn, sợi myosin gắn kết và tháo ra khỏi actin xảy ra chậm hơn do đó duy trì trương lực co cơ kéo dài. 
     - Khi có một kích thích: thần kinh, hoocmon, căng cơ -> màng tế bào bớt âm hơn -> kích hoạt kênh Ca2+ điện thế -> Ca2+ từ ngoại bào vào tế bào -> Ca2+ kết hợp Calmodulin -> hoạt hóa men myosin kinase gắn phosphate vào một trong những chuỗi nhẹ của đầu Myosin, gọi là Myosin chuỗi nhẹ điều hòa (myosin light chain regulariztion) -> Myosin gắn vào actin -> Mysoin phosphatase tách phosphate ra khỏi myosin -> myosin tách khỏi actin. Mặc dù myosin đã tách phosphate nhưng myosin tách khỏi actin rất chậm (cơ chế khóa - latch), và Ca2+ kích hoạt co cơ chủ yếu ngoại bào có chu kỳ chậm hơn nhiều so với cơ vân giúp cho cơ trơn duy trì co lâu hơn và dùng ít ATP hơn.
+** Chap 9 - Cơ tim
+*** Giải phẫu
+    - Lớp ngoài xoắn trái (tính từ trên xuống dưới)
+    - Lớp giữa vòng
+    - Lớp trong xoắn phải
+    - Khi co phần đáy xoay chiều kim đồng hồ, phần mỏm xoay ngược chiều kim đồng hồ
+*** Điện thế động cơ tim
+    - Tế bào cơ tim nối với nhau tại đĩa xen kẽ (intercalated disc) thông nối với nhau bởi gap junction
+    - Pha 0: Mở kênh natri nhanh -> Pha 1: Kênh natri nhanh bất hoạt, mở kênh Kali I_to -> Pha 2: kênh Kali nhanh đóng và mở kênh Ca type L cho Ca, Na (phụ) đi qua tạo bình nguyên -> Pha 3: Kênh Ca L đóng, kênh Kali chậm mở, kênh NCX (chủ yếu), bơm PMCA, SERCA2-> pha 4: kênh IK1, bơm Na/K duy trì điện thế màng. Lưu kênh IK1 luôn mở, chỉ thay đổi tính thấm với Kali trong quá trình điện thế động, kênh kali chậm IKr mở cuối pha 2 đầu pha 3, kênh IKs mở pha 3. 
+    - Khác với cơ vân, kênh RYR2 hoạt hóa bởi canxi
+    - Một khác biệt nữa là sau khi Kênh natri nhanh mở ra, tính thấm với kali giảm 5 lần, một hiện tượng giúp có pha bình nguyên và kéo dài điện thế động. Khi dòng Natri và calci dừng lại, tính thấm với kali tăng nhanh chóng. 
+*** Huyết động
+    - Áp lực tim phải # 1/6 so với tim trái
+    - Tỷ lệ thời gian tâm thu/chu chuyển tim tăng khi nhịp tăng -> nhịp tăng rất nhanh sẽ không đủ thời gian máu về bơm
+    - 70 - 80% máu chảy thụ động từ tâm nhĩ -> tâm thất (1/3 đầu tâm trương - thời kỳ đổ đầy nhanh), 20 - 30% khi nhĩ co (1/3 sau của tâm trương). Ở người thành tâm thất cứng thể tích máu phụ thuộc nhiều hơn vào nhĩ co.
+    - Sóng nhĩ: a (atrial contraction), c (isovolume contraction), v (venous return)
+    - Tâm thu: 70% được tống ra trong 1/3 đầu (thời kỳ tống máu nhanh), 30% còn lại trong 2/3 thời gian sau (thời kỳ tống máu chậm)
+    - Tim bình thường tâm trương 110 -120mL máu, bơm 70ml trong tâm thu,  tồn lư 40-50ml
+    - Frank-Starling: máu đổ về nhiều, cơ tim bị kéo dãn - tăng co bóp do độ dài sợi cơ tối ưu
+    - Phản xa Bainbridge: căng thành tâm nhĩ -> tăng nhịp 40-60%, dẫn truyền hướng tâm qua dây thần kinh phế vị, ly tam qua giao cảm
+    - Chưa có định nghĩa đồng thuận chính thức về tiền tải và hậu tải. Theo Guyton tiền tải là sức căng của cơ tim cuối tâm trương (surrogate LVEDP, LVEDV), hậu tải là tải mà tim phải thắng để bơm máu ra (surrogate SVR, BP). Đúng hơn tiền tải là wall stress cuối tâm trương (khác với tession ở chỗ tính đến độ dày thành thất - tức là cho mỗi đơn vị khối cơ), hậu tải là wall stress trong quá trình tống máu. 
+    - Định luật LaPlace: T (wall stress) = P_TM(trans mural) x r(bán kính thất/ 2w(độ dày thành thất) 
+** Chap 10 - Nhịp tim
+*** Cơ chế tính tự động
+    - Điện thế màng của nút xoang -55 - -60 mV, so với -80 - -90 của tế bào cơ thất.
+    - Ở điện thế -55 - 60mV thì các kênh Natri nhanh bị bất hoạt, do cổng trong của kênh bị đóng, dòng chịu trách nhiệm khử cực là dòng Na, Ca chậm. 
+    - Do rò rỉ Natri qua kênh I_f, khi điện thế màng tế bào năng đến -40mV các kênh Ca L mở ra khử cực, sau 100-150ms kênh Ca L đóng lại, cùng lúc đó một số lượng lớn kênh Kali mở ra gây tái cực, sau đó các kênh kali dần đóng lại, sự rò rỉ Na tiếp tục vượt trội -> tạo nhịp.
+    - Tốc độ dẫn truyền phụ thuộc số lượng gap junction ở intercalated disc, và các yếu tố khác.
+*** Đường dẫn truyền 
+    - Nút xoang kích thước 3x15x1mm nằm ngay dưới và hơi lệch phía ngoài lỗ đổ vào của tĩnh mạch chủ trên, phát nhịp 70 - 80 l/p. Từ nút xoang xuất phát bó liên nhĩ trước (bó Bachman) vòng ra trước đi sang nhĩ trái, và 3 bó liên nút trước, giữa, sau gặp nhau tại nút nhĩ thất. Thời gian dẫn truyền từ nút xoang đến nút nhĩ thất 0.03s. 
+    - Nút nhĩ thất nằm thành sau tâm nhĩ phải, ngay sau van 3 lá, sau nó là phần xuyên của bó nhĩ thất (gồm nhiều bó nhỏ đi qua mô sợi ngăn tâm nhĩ với tâm thất). Nút nhĩ thất đóng vai trò làm chậm dẫn truyền xuống thất, trễ 0.09s tại chính nút nhĩ thất, trễ 0.04s ở phần xuyên bó his. Từ xoang -> nút nhĩ thất (0.03s) -> 0.09s tại nút AV -> bó his 0.04s -> mạng purkinje 0.03s, thời gian từ nút xoang tới thất khoảng 0.19s. Mạng Purkinje xuyên đến 1/3 cơ thất, thời gian khử cực từ nọi tâm mạc đến ngoại tâm mạc 0.03s. Thời gian từ nút xoang - khử cực toàn bộ cơ thất 0.22s. 
+    - Tốc độ dẫn truyền nhanh nhất Purkinje -> cơ nhĩ, thất -> bó his -> nút nhĩ thất
+*** Ảnh hưởng của hệ giao cảm và phó giao cảm
+    1. Phó giao cảm
+       - Qua dây thần kinh phế vị đến nhĩ, nút xoang, đường liên nút, nút AV, rất ít đến thất
+       - Kích thích rất mạnh có thể ngưng xoang, block AV hoàn toàn,, 5 - 20 giây sau phần dưới thất mới có thể xuất hiện nhịp thoát thất, gây cơn ngất (Stokes-Adams syndrome)
+       - Dẫn truyền qua Acetylcholine, làm tăng tính thấm với kali, làm tăng dòng kali đi ra, ưu phân cực, làm giảm tần số tạo nhịp. 
+    2. Giao cảm
+       - Đến tất cả các phần của tim
+       - Dẫn truyền qua noradrenalin kích thích thụ thể beta 1, làm tăng tính thấm Natri, Canxi. 
+** Chap 11 - 12 - 13 - ECG
+*** Dòng điện tổn thương (injury current)
+    - Khi một vùng cơ tim bị thiếu máu sẽ gây duy trì trạng thái khử cực một phần (điện âm ngoài màng so với vùng lành). 
+    - Vì có nhiều dòng nhiễu, nên lấy điểm J là điểm tham chiếu, khi toàn bộ cơ thất đã khử cực (không có dòng điện chạy trong tâm thất)
+    - Đoạn TP bị kéo xuống (hay ST chênh lên) ở điện cực vùng tổn thương xuyên thành (dòng điện tâm trương từ âm - vùng tổn thương, sang dương - vùng lành), và ngược lại. Ngoài ra còn có thuyết dòng điện tổn thương tâm thu (ST chênh lên thực sự so với đẳng điện vì vùng tổn thương khử cực kém hơn, tái cực nhanh hơn, plateau ngắn hơn -> điện thế màng trong thấp hơn vùng lành, tức điện thế màng ngoài cao hơn)
+    - Trong trường hợp thiếu máu xuyên thành, phân tích vector có thể định vị tổn thương. 
+    - Trong trường hợp thiếu máu dưới nội tâm mạc, phân tích khó khăn do vector dòng điện tổn thương hướng vào trong (ví cơ tim như trái bóng, trong Thiếu máu xuyên thành đèn pin chiếu lên 1 vùng trái bóng - rất dễ định vị; trong thiếu máu dưới nội mạc, nguồn sáng bên trong trái bóng, rất khó định vị nếu nhìn bên ngoài trái bóng)
+    - ECG ST chênh xuống lan tỏa và chênh lên ở V1, aVR, đôi khi aVL (ST chênh lên ở northen leads) có thể do hẹp Leftmain (aVR chênh lên cao hơn V1, đặc biệt >1.5mm), đoạn đầu LAD hoặc 3 nhánh (aVR chênh lên bằng hoặc thấp hơn V1), do thiếu máu lan tỏa (thiếu máu, giảm oxy máu, sau ngưng tim, ....)
+*** Một vài tips ECG:
+    - Phì đại hoặc giãn tâm thất có thể làm giãn QRS 0.09-0.12s do tăng thời gian dẫn truyền. 
+    - Xoắn đỉnh thường đến sau chu khì ngắn - dài - ngắn: nhát đến sơm -> nghỉ bù -> kéo dài QT -> đến sớm on T -> khởi phát loạn nhịp thất. 
+    - Dạng loạn nhịp xoang theo hô hấp chủ yếu là do sự lan tỏa (spillover) các tín hiệu từ trung tâm hô hấp ở hành tủy sang trung tâm vận mạch lân cận trong các chu kỳ hít vào và thở ra của hoạt động hô hấp. Các tín hiệu lan tỏa này gây ra sự tăng và giảm luân phiên số lượng xung động được truyền qua các sợi thần kinh giao cảm và thần kinh phế vị đến tim. 
+    - Sau hầu hết các nhịp ngoại tâm thu thất, sóng T có cực điện thế đối lập hoàn toàn với cực của phức bộ QRS: Điều này là do sự dẫn truyền chậm của xung động qua cơ tim khiến cho các sợi cơ nào khử cực trước thì cũng sẽ tái cực trước. (cần xem lại, có lẽ Guyton viết đơn giản quá)
+    - Block nhĩ thất độ II: mobitz thường tại nút nhĩ thất. Mobitz II thường ở bó his hoặc mạng Purkinje, tiên lượng kém hơn. 
+    - Điều kiện vòng vào lại: 1) Đường dẫn truyền dài (vd cơ tim dãn), 2) hoặc vận tốc dẫn truyền chậm (thiếu máu cơ tim, block, kali máu tăng,..), 3) hoặc thời gian trơ ngắn (thuốc,...). Sách ECG chuyên sâu viết chi tiết hơn. 
+    - Nhịp tim chậm ở vận động vận động viện: tim vận động viện thường khỏe và lớn hơn người bình thường, khi nghỉ thể tích nhát bóp tăng làm tăng lượng máu đến tiểu động mạch -> điều hòa giảm nhịp, và cơ chế down regulation giảm số lượng kênh I_f
+

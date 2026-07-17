@@ -57,7 +57,7 @@
    2. Dịch ngoại bào 1/3
       - Trong lòng mạch 1/4. Ước tính lượng máu # 7% trọng lượng cơ thể (70ml/kg). VD người 70kg|5000ml máu
       - Dịch kẽ 3/4
-   3. Tổng lượng nước
+   3. Tổng lượng nước (TBW)
       - Nam 0.6L/kg (600ml/kg)
       - Nữ 0.5L/kg (500ml/kg)
 ** Kiềm chuyển hóa
@@ -300,6 +300,31 @@
 *** Cơn tăng huyết áp cấp cứu
     - For adults with a compelling condition (ie, aortic dissection, severe preeclampsia or eclampsia, or pheochromocytoma crisis), SBP should be reduced to less than 140 mm Hg during the first hour and to less than 120 mm Hg in aortic dissection.
     - For adults without a compelling condition, SBP should be reduced by no more than 25% within the first hour; then, if stable, to 160/100 mm Hg within the next 2 to 6 hours; and then cautiously to normal during the following 24 to 48 hours.
+** Bệnh cơ tim
+*** Sarcoidosis
+    - Do thâm nhiễm Sarcoid
+    - Có thể gây kiểu hình DCM hoặc RCM, thường ảnh hường basal septum và lateral LV, leading to localized akinesis or dyskinesis of these segments (khác với chery on top của amyloidosis)
+    - This basal septal involvement leads to infra- His ≥ 2nd- degree AV block, RBBB, or LBBB, as well as pseudo- Q waves. VT, frequent PVCs, and atrial arrhythmias are also common. 
+    - Khoảng 20-30% sarcoidosis có liên quan tim, nhưng chỉ 5% có biểu hiện lâm sàng tim. Kể cả không có triệu chứng thì 80-90% sarcoidosis tim có biểu hiện ngoài tim như ở phổi/ trung thất. 
+*** Amyloidosis
+    - Amyloid chuỗi nhẹ: nguyên phát hoặc thứ phát sau đa u tủy. Thường gặp tuổi sau 40–50, có liên quan amyloid renal failure and nephrotic syndrome, macroglossia, jaw claudication, and bruising around the eyes.
+    - Mutant transthyretin (TTR) amyloidosis results from the amyloid deposition of transthyretin fragments (autosomal dominant). It leads to cardiomyopathy and peripheral or autonomic neuropathy (no renal involvement). 
+    - Wild- type (senile) transthyretin amyloidosis occurs most commonly in elderly men (median age 75) but may be seen in women (5- 50% of cases are women). It may lead to neuropathy as well. Thể này thường gặp nhất. 
+    - Lâm sàng gợi ý Amyloid:
+      + Low to normal BP in a previously hypertensive patient, intolerance to ACE- I/beta- blockers, and requirement for discontinuation of antihypertensives
+      + HFpEF with chronic, marked elevation of BNP or persistent troponin elevation.
+      + HFpEF with marked RV failure.
+      + Carpal tunnel syndrome or spinal stenosis; autonomic or peripheral neuropathy
+      + QRS voltage disproportionate to the thick LV
+      + Apical sparing on strain echo (“red” apex, “cherry sundae”)
+    - Chẩn đoán: MRI sau đó
+      + TTR- amyloidosis (genetic or senile): Myocardial nuclear scan using bone scintigraphy tracers (e.g., technetium pyrophosphate)
+      + AL- amyloidosis: Serum and urine immunofixation electrophoresis (more sensitive than simple electrophoresis) looking for a monoclonal M peak, and serum free light chain (sFLC) assay (the latter measures the levels of free light chains kappa and lambda and reports the kappa/lambda ratio, which could be abnormally high or low in AL amyloidosis). The combination has a 99% sensitivity for the diagnosis of AL amyloidosis.
+*** Các bệnh cơ tim thâm nhiễm khác
+    - Nhiễm sắt
+    - Fabry disease: genetic metabolic storage disorder. As opposed to the low QRS voltage of amyloidosis, high voltage (LVH) is seen in Fabry. 
+*** Pearls
+    - Ở bệnh nhân phì đại và hạn chế đổ đầy thất, 4 chẩn đoán có thể: cơ tim phì đại, tăng huyết áp, amyloid, fabry. MRI late gadolinium enhancement (LGE) helps in the differential diagnosis and reveals global LGE in amyloidosis versus patchy sand- like mid- wall LGE in HCM, particularly at the septum, and basal- inferolateral mid- wall LGE in Fabry disease. Also, echo longitudinal strain helps, and shows a specific pattern of “red apex” in amyloidosis. While concomitant renal failure frequently suggests hypertensive disease, Fabry or amyloidosis should be considered in the right setting. In a young patient with biventricular thickening and restrictive filling, consider the possibility of genetic TTR amyloidosis, Fabry disease, or hypertrophic cardiomyopathy with restrictive phenotype.
 * Tiếp cận viêm khớp
 ** Dạng viêm (inflamtory) hoặc không viêm (non inflamtory)
    - Dạng viêm: Biểu hiện sưng nóng đỏ đau.
@@ -373,137 +398,31 @@
        - Kháng sinh: 
     3. CAP ICU:
        - Tác nhân thường gặp: phế cầu, tụ cầu vàng (đặc biệt sau cúm, tổn thương có hang), legionella, gram âm đường ruột (klebsiella, proteus), Pseudomonas aeruginosa (Trực khuẩn mủ xanh): Thường gặp trên nền phổi cũ (giãn phế quản, COPD nặng). Kỵ khí trong hít sặc. 
-* Kháng sinh
-** Tổng quan - linh tinh
-   - Vk gram dương có vách dày peptidoglycan
-   - vk khuẩn gram âm vách peptidoglycan mỏng hơn nhưng bên ngoài có outer membrane là Liposacharich (LPS) tích điện âm, có các porin (kênh)
-   - Nhóm betalactam tác động bằng gắn kết PBP (penecillin bidiing protein) khiến không tạo được vách. 
-   - Kháng sinh vào nội bào tốt: TRèo Qua Màng Bắt Cô Làng (nàng) - Tetracycline, Rifampin, Quinolone, Macrolide, bactrim (cotrim), clindamycin, linezolid. 
-   - Vk nội bào bắt buộc: "Stay Inside when it's Really Cold and Chilly" Rickettsia (sốt mò), Coxiella burnetii (sốt Q), Chlamydia
-   - Vk nội bào tùy nghi: Some = Salmonella. Nasty = Neisseria (đặc biệt là Neisseria meningitidis - Não mô cầu). Bugs = Brucella. Like = Listeria monocytogenes. Living = Legionella pneumophila. Inside = Intracellular (Từ khóa nhắc bài: Nội bào). Cells = Chlamydia / Coxiella (Lưu ý: Một số tài liệu xếp Chlamydia vào nhóm bắt buộc, nhưng câu này vẫn thường được mượn chữ C để gom nhóm).
-** Betalactam
-*** Penicillin
-    1. Penicillin tự nhiên:
-       - G: tiêm
-       - V: uống
-    2. Penicillin kháng tụ cầu: 
-       - Không có hoạt tính với gram âm
-       - nafcillin, oxacillin và dicloxacillin.
-   3. Aminopenicillin
-      - Ampicillin: tiêm, uống
-      - Amoxicillin: uống
-      - Thêm phổ gram âm: E. coli, P. mirabilis, S. enterica và Shigella spp. không sản xuất beta-lactamase
-   4. Penicillin phổ rộng:
-      - Piperacillin, ticarcillin
-      - Mở phổ trên gram âm, có tác dụng trên P. aeruginosa
-   5. penicillin phổ mở rộng/chất ức chế beta-lactamase 
-      - Mở phổ trên gram âm
-      - Điều trị theo kinh nghiệm: (gemini) - Nhiễm trùng ổ bụng (phúc mạc, thủng tạng rỗng, áp xe gan, đường mật, viêm ruột thừa vỡ) [gram âm và kỵ khí]. Viêm phổi bệnh viện/ thở máy [Gram âm đường ruột, P. aeruginosa]. Nhiễm trung vùng chậu, niệu. /Không hiệu quả MRSA, ESBL, CRE/
-   6. Chung
-      - Không có tác dụng trên vi khuẩn không điển hình do không có vách. 
-      - Có thêm tác dụng trên kỵ khí nếu có betalactamase inhibitor.
-*** Cephalosporin
-    1. Chung
-       - Vi khuẩn khuẩn MRSA kháng betalactamse qua cơ chế gen mecA làm thay đổi cấu trúc PBP thành PBP2a khiến kháng sinh không còn bám vào được, do đó trừ thế hệ 5 Ceftaroline kháng hết. 
-       -  ceftazidime được tinh chỉnh để tăng tác dụng trên P. Aeruginosa nhưng lại làm giảm bám dính với PBP nên giảm tác dụng với tụ cầu. Thế hệ 4 khắc phục được nhược điểm này. 
-       - Các cephalosporin có hoạt tính kém lên kỵ khí (ái lực trên PBP của vk kỵ khí yếu, tiết beta lactamase), không có tác dụng trên vk không điển hình. 
-       - Cephalosporin thế hệ 5 đánh tốt trên gram dương kể cả MRSA và vi khuẩn kỵ khí gram dương. hoạt tính trên gram âm tương tự ceftriaxone, kém hoạt tính trên Pseudomonas. 
-*** Carbapenem
-    1. Chung
-       - Cơ chế đề kháng: Ví dụ, P. aeruginosa đột biến mất porin màng ngoài, tăng sản xuất các bơm đẩy (efflux pumps). Enterococcus faecium và MRSA sinh PBP biến đổi không gắn kết với carbapenem. Carbapenemase.
-    2. Imipenem
-       - Dễ bị phá hủy bởi men dehydropeptidase I, do đó kết hợp với Cilastatin để ức chế men này. 
-       - Không trị được MRSA
-       - Hoạt lực tốt trên gram dương, gram âm kể cả P. Aeruginosa, rất tốt trên kỵ khí. 
-    3. Meropenem
-       - Thay đổi cấu trúc nên không cần kết hợp cilastatin 
-       - Phổ tương tự imipenem 
-    4. Doripenem
-       - Phổ tương tự imipenem, tác dụng tốt hơn với P. aeruginosa
-    5. Ertapenem
-       - Hoạt lực kém hơn trong nhóm với vi khuẩn Gram dương hiếu khí, P. aeruginosa và Acinetobacter spp.
-*** Monobactame
-    - Chỉ có tác dụng trên gram âm hiếu khí và tác dụng rất tốt, hoạt tính trung bình trên Pseudomonas. Không có độc tính trên thận như aminoglycosid. 
-*** Glycopeptid
-**** Vancomycin
-     - Phân tử lớn
-     - Đánh Listeria monocytogenes (ký sinh nội bào) kém hơn ampicillin do phân tử lớn vào màng kém hơn. 
-     - Đánh tốt vi khuẩnn gram dương hiếu khí và kỵ khí, bao gồm cả C. diffi cile. 
-     - Tác dụng trên enterococci hiện nay variable do đột biến thay đổi cấu trúc d-alanyl–d-alanine dipeptide (chỗ bám của vancomycin), gen này có thể chuyển giao và đã tìm thấy trên một số tụ cầu -> có thể sẽ gia tăng đề kháng với vancomycin trong tương lai. 
-     - /"Although usually given intravenously, it can be given orally to treat bowel infections, such as diarrhea caused by C. diffi cile, but it is not absorbed when administered in this way"/
-     - Độc tính: điếc, đặc biệt dùng chung với aminoglycosid. Red man syndrome thường không phải do phản ứng dị ứng, tránh bằng cách truyền chậm. 
-*** Daptomycin
-    - Cơ chế tạo kênh ion trên màng tb vi khuẩn làm leak ion -> death. Không có tác dụng trên vi khuẩn gram âm do không qua được outer membrane. 
-    - Hoạt tính kém ở phổi, do đó không dùng điều trị viêm phổi. 
-*** Colistin
-    - Thuộc nhóm polymixin, Độc tính trên thận.
-    - Hoạt động bằng cơ chế: colistin điện dương hút LPS mang điện âm ở màng ngoài, sau đó đuôi lipid chèn sâu vào màng tb vk gây chết tb. 
-    - Không có hoạt lực trên Vk gram dương (không có màng ngoài), Proteus và Serratia spp. (LPS thay đổi ít điện âm và cấu trúc ít phù hợp để chèn chuỗi lipid), vi khuẩn kỵ khí (LPS thay đổi, điện thế màng kém gây khó chèn chuỗi lipid)
-    - Proteus họ vi khuẩn đường ruột Enterobacteriaceae, di động do có roi, gây nhiễm khuẩn niệu cơ hội, tiết urease mạn gây kiềm hóa nước tiểu dễ tạo sỏi
-    -  Serratia spp. sống trong môi trường ẩm, một số tiết sắc tố đỏ, gây nhiễm trùng cơ hội đặc biệt ICU. có AmpC beta-lactamase tự nhiên.
-
-** Betalactamase
-*** Tóm tắt dễ nhớ (GEMINI):
-**** 4 CẤP ĐỘ BETA-LACTAMASE
-      1. Cấp độ 1: Beta-lactamase cổ điển (Cấp độ cơ bản)
-        - Vi khuẩn thường gặp: S. aureus (Tụ cầu vàng), E. coli hoang dã.
-        - Thuốc bị vô hiệu hóa: Penicillin G, Ampicillin, Amoxicillin.
-        - Cách xử lý (Vũ khí thay thế): Dùng Cephalosporin thế hệ 1 (Cefazolin). Hoặc phối hợp kháng sinh cổ điển với chất ức chế thế hệ cũ: Amoxicillin + Acid Clavulanic (Augmentin), Ampicillin + Sulbactam (Unasyn).
-      2. Cấp độ 2: ESBL - Beta-lactamase phổ rộng (Cấp độ trung bình)
-        - Vi khuẩn thường gặp: E. coli, Klebsiella pneumoniae, Proteus mirabilis (Nhiễm trùng tiểu, nhiễm trùng ổ bụng bệnh viện).
-        - Thuốc bị vô hiệu hóa: TẤT CẢ các Penicillin và Cephalosporin (Thế hệ 1, 2, 3, 4 như Ceftriaxone, Ceftazidime, Cefepime).
-        - Cách xử lý (Vũ khí thay thế): Lựa chọn hàng đầu: Carbapenem (Ertapenem cho nhiễm trùng vừa; Imipenem/Meropenem cho nhiễm trùng nặng, sốc nhiễm khuẩn). Nhiễm trùng tiểu nhẹ: Có thể dùng Piperacillin/Tazobactam (Tazocin) hoặc Amikacin, Fosfomycin.
-      3. Cấp độ 3: AmpC - Cephalosporinase cảm ứng (Cấp độ "Bẫy lâm sàng")
-        - Vi khuẩn thường gặp (Nhóm SPACE/CES): Serratia, Pseudomonas aeruginosa, Acinetobacter, Citrobacter, Enterobacter.
-        - Cạm bẫy lâm sàng: Trên kháng sinh đồ ban đầu, vi khuẩn có thể báo "Nhạy cảm" với Cephalosporin thế hệ 3 (Ceftriaxone). Nhưng khi truyền thuốc vào người bệnh, thuốc sẽ "kích hoạt" vi khuẩn tiết ra lượng lớn AmpC phá hủy thuốc, dẫn đến thất bại điều trị.
-        - Cách xử lý (Vũ khí thay thế): KHÔNG DÙNG Cephalosporin thế hệ 1, 2, 3 và các thuốc phối hợp cũ (Augmentin, Tazocin). Vũ khí an toàn: Cefepime (Cephalosporin thế hệ 4) hoặc Carbapenem.
-      4. Cấp độ 4: Carbapenemase / CRE (Cấp độ "Ác mộng")
-        - Vi khuẩn đã tiết ra enzyme cắt được cả Carbapenem (KPC, NDM, OXA-48). Lâm sàng chia làm 2 phân nhóm chính để chọn thuốc:
-          + Nhóm Serine-Carbapenemase (KPC, OXA-48): Vũ khí mới: Ceftazidime/Avibactam (Zavicefta) là lựa chọn tối ưu.
-          + Nhóm Metallo-Beta-Lactamase (NDM-1): Enzyme phụ thuộc Kẽm, rất độc lực. Vũ khí: Zavicefta không trị được NDM-1. Phải dùng Ceftazidime/Avibactam phối hợp với Aztreonam, hoặc sử dụng các thuốc ngoài nhóm Beta-lactam như Colistin, Tigecycline (cho ổ bụng/da), hoặc kháng sinh mới Cefiderocol.
-**** 3 NGUYÊN TẮC VÀNG KHI ĐỌC KHÁNG SINH ĐỒ
-    - Nếu kết quả báo ESBL (+): Gạch bỏ ngay lập tức toàn bộ các Cephalosporin từ thế hệ 1 đến thế hệ 4 ra khỏi đầu, bất kể trên giấy có ghi chữ "S" (Nhạy cảm) hay không. Lực chọn ưu tiên lúc này là Carbapenem.
-    - Cảnh giác với nhóm vi khuẩn tiết AmpC (Enterobacter, Citrobacter, Serratia): Ngay cả khi kết quả trả về nhạy với Ceftriaxone, hãy ưu tiên chọn Cefepime hoặc Carbapenem để tránh hiện tượng kháng thuốc cảm ứng trong quá trình điều trị.
-    - Vai trò của Chất ức chế (Inhibitor):
-      + Chất ức chế cũ (Clavulanic acid, Sulbactam, Tazobactam): Chỉ trị được Cấp độ 1 và ESBL (Cấp độ 2).
-      + Chất ức chế mới (Avibactam): Trị được cả KPC và AmpC, mở đường cho kháng sinh đi kèm (Ceftazidime) diệt khuẩn.
-** Ức chế tổng hợp Protein 
-*** Rifamycins
-    1. Chung: 
-        - Ức chế enzyme RNA polymerase của vi khuẩn
-        - Dễ gây kháng (chỉ cần đột biến 1 acid amin) khi dùng đơn độc (trừ điều trị phòng ngừa)
-    2. Rifampin (Rifampicin)
-        - Gây dịch cơ thể có màu đỏ cam
-        - Có đường uống và truyền, các rifamycin khác chỉ uống. 
-*** Aminoglycosids
-    1. Chung
-        - Ức chế vi khuẩn bằng cách gắn vào tiểu đơn vị 30S của ribosome làm dịch mã (gắn acid amin) sai
-        - Mang điện dương nên ái lực với màng ngoài của vk gram âm tốt -> hiệu quả tốt trên gram âm hiếu khí. Hay dùng điều trị họ Enterobacteriaceae và Pseudomonas aeruginosa, vì nghiên cứu trên động vật đơn trị kém nên luôn phối hợp ngay cả khi nhạy. 
-        - Vì cần vào màng qua cơ chế vận chuyển tích cực phụ thuộc năng lượng, đòi hỏi phải có oxy và lực đẩy proton (proton motive force) -> không có hoạt lực trên vk kỵ khí, ổ abcess có môi trường acid. 
-        - Kém hơn với vk gram dương hiếu khí, tốt khi hiệp động với kháng sinh phá vách. 
-        - Độc tính trên thận 5 -10%, lên đến 50% ở đối tượng nguy cơ (già, dùng nhiều thuốc độc thận) do tích lũy liều ở tb ống thận gần, thường xảy ra sau ngày 4-5, có hồi phục khi ngưng thuốc. Độc tính trên tai không hồi phục, độc tính trên tiền đình (đặc biệt streptomycin). 
-     2. Streptomycin
-        - Điều trị hàng hai trong lao. 
-     3. Gentamycin: 
-        - Dùng phổ biến nhất. có tác dụng trên chi enterococci
-     4. Tobramycin: 
-        - Phổ tương tự và kháng tương tự gentamycin nhưng không có tác dụng trên chi enterococci
-     5. Amikacin: 
-        - Các chủng vi khuẩn Gram âm hiếu khí đã đề kháng với gentamicin và tobramycin vẫn có thể duy trì sự nhạy cảm với amikacin. 
-        - Không có hoạt tính lâm sàng có ý nghĩa với enterococci
-      6. Enterococci (gemini)
-        - 2 loài phổ biến nhất gây nhiễm trùng bệnh viện cơ hội, nhiễm trùng tiểu, viêm nội tâm mạch nhiễm trùng, nhiễm trùng ổ bụng
-          + Enterococcus faecalis: Gây 80-90% trường hợp, thường nhạy cảm với kháng sinh hơn so với E. faecium.
-          + Enterococcus faecium: 10 - 15%. đặc biệt nguy hiểm trong môi trường bệnh viện vì tỷ lệ kháng thuốc rất cao, đặc biệt là các chủng VRE (Vancomycin-Resistant Enterococcus)
-*** Macrolides
-    - Cơ chế tác động gắn tiểu đơn vị 50S của ribosome
-    - Có hoạt tính với một số vk gram dương, gram âm, không điển hình, mycobacteria, xoắn khuẩn. nhưng hiệu quả không ổn định. không có hoạt tính trên vi khuẩn kỵ khí. 
-    - Ery thiếu hoạt tính với Heamophilus infuenza, clari có hoạt tính với H influenza tốt hơn, azi tốt nhất. 
-*** Tetracyclines và Glycylcyclines
-    1. Chung
-       - Tiêm: Doxycycline và Tigecycline
-       - Uống: Tetra, Doxy, Mino
-       - Cơ chế gắn tiểu đơn vị 30S của Ribosome ngăn gắn acid amin
-       - 2 cơ chế đề kháng: Bơm tống xuất và thay đổi cấu hình tiểu đơn vị 30S
-       - Ưu thế trên vi khuẩn không điển hình (Chlamydia, Rickettsia, Mycoplasma). Có hoạt tính trên một số vk gram dương hiếu khí, gram âm hiếu khí, kỵ khí và xoắn khuẩn. 
-    2. 
+* Viêm dạ dày ruột
+** Tác nhân vi khuẩn thường gặp
+    1. Salmonella
+       - Salmonella Thương Hàn (Typhoid & Paratyphoid Fever): Salmonella enterica serovar Typhi hoặc Paratyphi A, B, C. Gây nhiễm trùng nhiễm độc, bệnh hệ thống, nặng. Kháng sinh: Ceftriaxone, Azi, cipro
+       - Salmonella Không Thương Hàn (NTS): S. Typhimurium và S. Enteritidis. Bệnh viêm dạ dày ruột nhẹ, thường tự giới hạn, không cần dùng kháng sinh. 
+    2. Shigella
+    3. Campylobacter
+        - Kháng C2, C3 tự nhiên. Điều trị: Azi, cipro, aminoglycosid
+    4. STEC
+       - E. Coli tiết độc tố Shiga: Tiêu lỏng nước -> máu đại thể, đau bụng rất nhiều, nhưng sốt nhẹ hoặc không sốt. có thể gây hemolytic uremic syndrome (HUS) (Shigella dysenteriae serotype 1 cũng có thể gây HUS). tan huyết, tiểu cầu thấp, tổn thương thận cấp; Examining a peripheral blood smear for the presence of red blood cell fragments is necessary when HUS is suspected. Chẩn đoán: PCR (NAAT) phân tìm gen độc tố, EIA (Enzyme Immunoassay) tìm Shiga Toxin phân. Cấy Môi trường SMAC (Sorbitol MacConkey Agar): Dùng để sàng lọc chủng STEC O157:H7 thường gặp nhất, có thể bỏ sót non-O157
+    5. Yersinia
+    6. C. difficile
+    7. Tụ cầu vàng: Độc tốc bền với nhiệt, gây nôn mửa nhiều, ủ bệnh ngắn 1 - 6 giờ. Nhiễm độc chứ không nhiễm trùng. 
+** Biểu hiện lâm sàng
+    - Nôn: Gợi ý tác nhân Norovirus, rotavirus, tụ cầu, Bacillus cereus thể nôn (cơm nguội, cơm chiên). 
+    - Persistent or chronic diarrhea: Cryptosporidium spp, Giardia lamblia, Cyclospora cayetanensis, Cystoisospora belli, and Entamoeba histolytica. 
+    - Máu thấy trong phân: STEC, Shigella, Salmonella, Campylobacter, Entamoeba histolytica, noncholera Vibrio species, Yersinia, Balantidium coli, Plesiomonas. 
+    - Sốt: Not highly discriminatory—viral, bacterial, and parasitic infections can cause fever. In general, higher temperatures are suggestive of bacterial etiology or E. histolytica. Patients infected with STEC usually are not febrile at time of presentation. 
+    - Đau bụng: STEC, Salmonella, Shigella, Campylobacter, Yersinia, noncholera Vibrio species, Clostridium difficile. 
+    - Đau bụng dữ dội, thường máu trong phân rõ (đôi khi không), không hoặc sốt nhẹ: STEC, Salmonella, Shigella, Campylobacter, and Yersinia enterocolitica
+    - Persistent abdominal pain and fever: Y. enterocolitica and Y. pseudotuberculosis; may mimic appendicitis
+    - Nausea and vomiting lasting ≤24 hours: Ingestion of Staphylococcus aureus enterotoxin or Bacillus cereus (short-incubation emetic syndrome)
+    - Diarrhea and abdominal cramping lasting 1–2 days: Ingestion of Clostridium perfringens or B. cereus (long-incubation emetic syndrome)
+    - Vomiting and nonbloody diarrhea lasting 2–3 days or less: Norovirus (low-grade fever usually present during the first 24 hours in 40% if infections)
+    - Chronic watery diarrhea, often lasting a year or more: Brainerd diarrhea (etiologic agent has not been identified); postinfectious irritable bowel syndrome 
+* Thuốc
+** Thuốc tim mạch
+** Tiêu sợi huyết
